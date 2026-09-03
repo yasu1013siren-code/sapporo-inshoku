@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>札幌 中央区・北区 飲食店 開店閉店速報板</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@600;800&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper: #ece3cf;
+    --paper-card: #f7f1e2;
+    --paper-card2: #f1ead6;
+    --ink: #241f18;
+    --ink-soft: #4a4237;
+    --stamp-red: #a93326;
+    --stamp-indigo: #274a5c;
+    --rumor: #6d6552;
+    --line: #c7b791;
+    --line-soft: #d9cca4;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:
+      radial-gradient(circle at 20% 10%, rgba(0,0,0,0.03), transparent 40%),
+      radial-gradient(circle at 80% 60%, rgba(0,0,0,0.035), transparent 45%),
+      var(--paper);
+    color:var(--ink);
+    font-family:'Zen Kaku Gothic New', sans-serif;
+    line-height:1.65;
+    -webkit-font-smoothing:antialiased;
+    padding:0 0 60px;
+  }
+  a{color:var(--stamp-indigo);}
+
+  /* ---------- masthead ---------- */
+  .masthead{
+    position:relative;
+    background:
+      repeating-linear-gradient(0deg, rgba(0,0,0,0.015) 0 2px, transparent 2px 4px),
+      #efe6cf;
+    border-bottom:6px double var(--ink);
+    padding:34px 20px 30px;
+    overflow:hidden;
+    clip-path: polygon(0 0,100% 0,100% 97%,98% 100%,95% 96%,92% 100%,89% 96%,86% 100%,83% 96%,80% 100%,77% 96%,74% 100%,71% 96%,68% 100%,65% 96%,62% 100%,59% 96%,56% 100%,53% 96%,50% 100%,47% 96%,44% 100%,41% 96%,38% 100%,35% 96%,32% 100%,29% 96%,26% 100%,23% 96%,20% 100%,17% 96%,14% 100%,11% 96%,8% 100%,5% 96%,2% 100%,0 97%);
+  }
+  .masthead-inner{max-width:920px;margin:0 auto;position:relative;}
+  .eyebrow-row{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;flex-wrap:wrap;}
+  .eyebrow{
+    font-size:12.5px;letter-spacing:.14em;color:var(--ink-soft);
+    border-top:1px solid var(--ink);border-bottom:1px solid var(--ink);
+    padding:4px 0;display:inline-block;
+  }
+  h1{
+    font-family:'Shippori Mincho B1',serif;
+    font-weight:800;
+    font-size:clamp(28px, 5.4vw, 46px);
+    margin:14px 0 6px;
+    letter-spacing:.02em;
+  }
+  h1 small{display:block;font-size:.42em;font-weight:600;color:var(--ink-soft);letter-spacing:.06em;margin-top:6px;}
+  .lede{max-width:620px;font-size:15px;color:var(--ink-soft);margin-top:10px;}
+  .stamp{
+    position:absolute;
+    top:-6px; right:6px;
+    width:112px;height:112px;
+    border:5px solid var(--stamp-red);
+    border-radius:50%;
+    color:var(--stamp-red);
+    display:flex;align-items:center;justify-content:center;
+    transform:rotate(-13deg);
+    font-family:'Shippori Mincho B1',serif;
+    font-weight:800;
+    font-size:32px;
+    letter-spacing:.15em;
+    opacity:.88;
+    mix-blend-mode:multiply;
+    background:
+      repeating-radial-gradient(circle, rgba(169,51,38,0.08) 0 2px, transparent 2px 5px);
+  }
+  @media (max-width:560px){ .stamp{position:static;transform:rotate(-6deg);margin-top:14px;width:90px;height:90px;font-size:26px;} }
+
+  .updated-line{
+    max-width:920px;margin:14px auto 0;padding:0 20px;
+    font-size:12.5px;color:var(--ink-soft);
+  }
+
+  /* ---------- tabs ---------- */
+  .wrap{max-width:920px;margin:0 auto;padding:0 20px;}
+  .tabs{
+    display:flex;gap:10px;margin:26px 0 8px;flex-wrap:wrap;
+  }
+  .tab-btn{
+    font-family:'Shippori Mincho B1',serif;
+    font-weight:800;
+    font-size:17px;
+    background:var(--paper-card);
+    border:2px solid var(--ink);
+    padding:9px 22px;
+    cursor:pointer;
+    color:var(--ink-soft);
+    position:relative;
+    transition:background .15s ease, color .15s ease, transform .1s ease;
+  }
+  .tab-btn:hover{transform:translateY(-1px);}
+  .tab-btn.active{background:var(--ink);color:var(--paper-card);}
+  .tab-btn:focus-visible{outline:3px solid var(--stamp-indigo);outline-offset:2px;}
+
+  section.area{display:none;}
+  section.area.active{display:block;animation:fadein .35s ease;}
+  @keyframes fadein{from{opacity:0;transform:translateY(4px);}to{opacity:1;transform:none;}}
+
+  .section-head{
+    display:flex;align-items:baseline;gap:10px;
+    margin:30px 0 14px;
+    border-bottom:1px solid var(--line);
+    padding-bottom:6px;
+  }
+  .section-head h2{
+    font-family:'Shippori Mincho B1',serif;font-size:20px;margin:0;font-weight:800;
+  }
+  .section-head .count{font-size:12px;color:var(--ink-soft);}
+
+  /* ---------- event feed ---------- */
+  .filter-row{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px;}
+  .chip{
+    font-family:'Zen Kaku Gothic New', sans-serif;
+    font-size:12.5px;font-weight:700;
+    background:var(--paper-card);
+    border:1px solid var(--line);
+    border-radius:999px;
+    padding:6px 14px;
+    cursor:pointer;
+    color:var(--ink-soft);
+    transition:background .15s ease, color .15s ease, border-color .15s ease;
+  }
+  .chip:hover{border-color:var(--ink-soft);}
+  .chip.active{background:var(--ink);color:var(--paper-card);border-color:var(--ink);}
+  .chip:focus-visible{outline:3px solid var(--stamp-indigo);outline-offset:2px;}
+
+  .event-feed{display:flex;flex-direction:column;gap:10px;}
+  .event-card{
+    display:flex;gap:14px;align-items:flex-start;
+    background:var(--paper-card);
+    border:1px solid var(--line);
+    box-shadow:1px 2px 0 rgba(0,0,0,0.04), 0 6px 14px -10px rgba(0,0,0,0.25);
+    padding:12px 15px;
+    transition:opacity .15s ease, transform .15s ease;
+  }
+  .event-card.is-hidden{display:none;}
+
+  .date-badge{
+    flex:0 0 auto;
+    width:54px;height:54px;
+    display:flex;flex-direction:column;align-items:center;justify-content:center;
+    color:#fbf6e8;
+    font-family:'Shippori Mincho B1',serif;
+    line-height:1.05;
+  }
+  .date-badge .day{font-size:21px;font-weight:800;}
+  .date-badge .month{font-size:10.5px;letter-spacing:.04em;}
+  .date-badge.type-open{background:var(--stamp-indigo);}
+  .date-badge.type-closed{background:var(--stamp-red);}
+  .date-badge.type-upcoming{background:#8a6a24;}
+
+  .event-body{flex:1 1 auto;min-width:0;}
+  .event-tags{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:5px;}
+  .tag{
+    font-size:11px;font-weight:700;letter-spacing:.03em;
+    padding:2px 9px;border-radius:2px;
+  }
+  .tag.type-open{background:rgba(39,74,92,0.12);color:var(--stamp-indigo);}
+  .tag.type-closed{background:rgba(169,51,38,0.12);color:var(--stamp-red);}
+  .tag.type-upcoming{background:rgba(138,106,36,0.14);color:#8a6a24;}
+  .tag.countdown{background:#8a6a24;color:#f8f0da;}
+  .tag.area-tag{background:rgba(74,66,55,0.1);color:var(--ink-soft);}
+
+  .event-body h3{margin:0 0 3px;font-size:15px;font-weight:700;}
+  .event-body h3.unnamed{color:var(--ink-soft);font-style:italic;font-weight:500;}
+  .event-body .meta{font-size:12px;color:var(--ink-soft);margin-bottom:4px;}
+  .event-body p{margin:0 0 4px;font-size:13.5px;color:var(--ink-soft);}
+  .event-body .tip-src{font-size:11.5px;color:var(--ink-soft);}
+  @media (max-width:480px){
+    .date-badge{width:46px;height:46px;}
+    .date-badge .day{font-size:18px;}
+  }
+
+  .empty-note{font-size:13px;color:var(--ink-soft);padding:10px 0;}
+
+  /* ---------- rumor board ---------- */
+  .rumor-board{
+    margin-top:44px;
+    background:var(--paper-card2);
+    border:1px dashed var(--rumor);
+    padding:20px 18px 22px;
+  }
+  .rumor-board h2{
+    font-family:'Shippori Mincho B1',serif;font-size:19px;margin:0 0 4px;
+  }
+  .rumor-board .sub{font-size:13px;color:var(--ink-soft);margin-bottom:16px;}
+
+  form.tipform{
+    display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:18px;
+  }
+  form.tipform .full{grid-column:1/-1;}
+  @media (max-width:560px){form.tipform{grid-template-columns:1fr;}}
+  form.tipform label{font-size:12px;color:var(--ink-soft);display:block;margin-bottom:3px;}
+  form.tipform input, form.tipform select, form.tipform textarea{
+    width:100%;font-family:inherit;font-size:14px;
+    background:#fffdf7;border:1px solid var(--line);padding:8px 9px;color:var(--ink);
+  }
+  form.tipform textarea{resize:vertical;min-height:54px;}
+  form.tipform input:focus, form.tipform select:focus, form.tipform textarea:focus{
+    outline:2px solid var(--stamp-indigo); outline-offset:1px;
+  }
+  .submit-row{grid-column:1/-1;display:flex;align-items:center;gap:12px;flex-wrap:wrap;}
+  button.submit-btn{
+    font-family:'Shippori Mincho B1',serif;font-weight:800;font-size:14.5px;
+    background:var(--stamp-red);color:#fbf3e2;border:none;padding:10px 24px;cursor:pointer;
+    transition:filter .15s ease, transform .1s ease;
+  }
+  button.submit-btn:hover{filter:brightness(1.08);transform:translateY(-1px);}
+  button.submit-btn:disabled{opacity:.55;cursor:default;transform:none;}
+  .form-msg{font-size:12.5px;color:var(--ink-soft);}
+  .form-msg.ok{color:var(--stamp-indigo);}
+  .form-msg.err{color:var(--stamp-red);}
+
+  .tip-list{display:flex;flex-direction:column;gap:10px;}
+  .tip{
+    background:#fffdf7;border-left:4px solid var(--rumor);padding:10px 12px;
+    font-size:13.5px;
+  }
+  .tip .tip-head{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;font-size:12px;color:var(--ink-soft);margin-bottom:4px;}
+  .tip .tip-head .badge{
+    font-weight:700;padding:1px 7px;border-radius:2px;color:#fff;
+  }
+  .badge.upcoming{background:#8a6a24;}
+  .badge.open{background:var(--stamp-indigo);}
+  .badge.closed{background:var(--stamp-red);}
+  .badge.rumor{background:var(--rumor);}
+  .tip .tip-name{font-weight:700;margin-bottom:2px;}
+  .tip .tip-src{font-size:11.5px;color:var(--ink-soft);margin-top:4px;}
+
+  /* ---------- sources ---------- */
+  .sources{margin-top:44px;}
+  .sources h2{font-family:'Shippori Mincho B1',serif;font-size:19px;margin-bottom:12px;}
+  .source-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px 20px;}
+  @media (max-width:560px){.source-grid{grid-template-columns:1fr;}}
+  .source-grid a{
+    display:block;font-size:13.5px;padding:8px 0;border-bottom:1px solid var(--line-soft);
+    text-decoration:none;color:var(--ink);
+  }
+  .source-grid a:hover{color:var(--stamp-indigo);}
+  .source-grid a span{display:block;font-size:11.5px;color:var(--ink-soft);}
+
+  footer{
+    max-width:920px;margin:50px auto 0;padding:18px 20px 0;
+    border-top:1px solid var(--ink);
+    font-size:12px;color:var(--ink-soft);
+  }
+
+  @media (prefers-reduced-motion: reduce){
+    *{animation:none !important;transition:none !important;}
+  }
+</style>
+</head>
+<body>
+
+<div class="masthead">
+  <div class="masthead-inner">
+    <div class="eyebrow-row">
+      <span class="eyebrow">SAPPORO INSHOKUTEN GOGAI ／ 飲食店開店閉店速報</span>
+      <span class="eyebrow" id="auto-refresh-status">自動更新：待機中</span>
+    </div>
+    <h1>札幌 中央区・北区<small>飲食店 開店・閉店 速報板</small></h1>
+    <p class="lede">ラーメンから割烹、バーまで業種は問いません。確認済みの新規開店・閉店情報に加えて、真偽不明の「うわさ」レベルの話も歓迎です。読んだ人みんなで持ち寄って埋めていく、街の掲示板です。</p>
+  </div>
+  <div class="stamp">号外</div>
+</div>
+
+<p class="updated-line">最終更新：2026年8月30日時点で確認できた情報を掲載。うわさ欄はご覧の皆さんからの投稿で随時更新されます。</p>
+
+<div class="wrap">
+
+  <div class="tabs" role="tablist" aria-label="エリア切り替え">
+    <button class="tab-btn active" data-area="chuo" role="tab" aria-selected="true">中央区</button>
+    <button class="tab-btn" data-area="kita" role="tab" aria-selected="false">北区</button>
+  </div>
+
+  <!-- 中央区 -->
+  <section class="area active" id="area-chuo">
+    <div class="section-head"><h2>開店予定</h2><span class="count">目安：2ヶ月以内・日付が近い順</span></div>
+    <div class="event-feed" id="chuo-upcoming"></div>
+
+    <div class="section-head"><h2>更新履歴</h2><span class="count">新着順・タップで絞り込み</span></div>
+    <div class="filter-row" data-area="chuo">
+      <button class="chip active" data-filter="all">すべて</button>
+      <button class="chip" data-filter="open">新規開店</button>
+      <button class="chip" data-filter="closed">閉店</button>
+    </div>
+    <div class="event-feed" id="chuo-history"></div>
+  </section>
+
+  <!-- 北区 -->
+  <section class="area" id="area-kita">
+    <div class="section-head"><h2>開店予定</h2><span class="count">目安：2ヶ月以内・日付が近い順</span></div>
+    <div class="event-feed" id="kita-upcoming"></div>
+
+    <div class="section-head"><h2>更新履歴</h2><span class="count">新着順・タップで絞り込み</span></div>
+    <div class="filter-row" data-area="kita">
+      <button class="chip active" data-filter="all">すべて</button>
+      <button class="chip" data-filter="open">新規開店</button>
+      <button class="chip" data-filter="closed">閉店</button>
+    </div>
+    <div class="event-feed" id="kita-history"></div>
+  </section>
+
+  <!-- うわさ・タレコミ -->
+  <div class="rumor-board">
+    <h2>うわさ・タレコミ掲示板</h2>
+    <p class="sub">「あの店、閉まってるっぽい」「新しい看板が出てた」くらいの未確認情報も大歓迎。エリア・種別を選んで投稿してください。投稿内容は全員に公開されます。</p>
+
+    <form class="tipform" id="tipform">
+      <div>
+        <label for="tip-area">エリア</label>
+        <select id="tip-area" required>
+          <option value="chuo">中央区</option>
+          <option value="kita">北区</option>
+        </select>
+      </div>
+      <div>
+        <label for="tip-type">種別</label>
+        <select id="tip-type" required>
+          <option value="upcoming">開店予定</option>
+          <option value="open">新規開店</option>
+          <option value="closed">閉店</option>
+          <option value="rumor">うわさ・未確認</option>
+        </select>
+      </div>
+      <div class="full">
+        <label for="tip-name">店名・場所（わかる範囲でOK）</label>
+        <input id="tip-name" type="text" placeholder="例：〇〇通りの元ラーメン屋、店名不明" required>
+      </div>
+      <div class="full">
+        <label for="tip-detail">詳細</label>
+        <textarea id="tip-detail" placeholder="見た日、状況、聞いた話など"></textarea>
+      </div>
+      <div class="full">
+        <label for="tip-source">情報源（任意）</label>
+        <input id="tip-source" type="text" placeholder="例：本人談／SNSで見た／通りがかり">
+      </div>
+      <div class="submit-row">
+        <button type="submit" class="submit-btn" id="tip-submit">掲示板に貼る</button>
+        <span class="form-msg" id="tip-msg"></span>
+      </div>
+    </form>
+
+    <div class="tip-list" id="tip-list">
+      <p class="empty-note">読み込み中…</p>
+    </div>
+  </div>
+
+  <!-- 情報源 -->
+  <div class="sources">
+    <h2>一次情報源（あわせてチェック）</h2>
+    <div class="source-grid" id="source-grid"></div>
+  </div>
+
+  <footer>
+    掲載情報は各情報源および公開報道をもとに編集部でまとめたものです。うわさ欄は未確認情報を含みます。来店・出店の判断は必ず最新の一次情報でご確認ください。
+  </footer>
+</div>
+
+<script>
+// ---------------- 確定情報（静的データ） ----------------
+const CONFIRMED = {
+  chuo: {
+    open: [
+      {name:"薄野軍鶏そば 嶋や 2号店", date:"2026-07-30", place:"すすきの", note:"1号店が人気の軍鶏そば店の2号店。", source:"食べログ"},
+      {name:"札幌ジンギスカン らむすけ別邸", date:"2026-07-15", place:"南三条西2", note:"「らむすけ」の2号店として誕生。", source:"食べログ"},
+      {name:"THE BUTTER（ザ バター）", date:"2026-07-24", place:"札幌駅", note:"", source:"mogtrip"},
+      {name:"イタリアン クロッキオ", date:"2026-07-17", place:"南三条西", note:"リニューアルオープン。", source:"リビング札幌"},
+      {name:"ジンギスカン 成吉思汗だだ", date:"2026-07-13", place:"すすきの", note:"", source:"リビング札幌"},
+      {name:"つけ麺 カミナリ軒", date:"2026-06-13", place:"中央区", note:"", source:"札幌開店閉店インフォ"},
+      {name:"札幌ラーメン ゑぞ食堂", date:"2026-06-10", place:"すすきの駅", note:"", source:"札幌開店閉店インフォ／札幌ショップス"},
+      {name:"和韓食 DACHE", date:"2026-06-10", place:"中央区", note:"", source:"札幌ショップス"},
+      {name:"円山秘密のハナレ", date:"2026-06-14", place:"円山", note:"", source:"札幌ショップス"},
+      {name:"Hi Bread COFFEE", date:"2026-06-14", place:"円山", note:"", source:"札幌ショップス"},
+      {name:"PERFECT BE...（クラフトビール系）", date:"2026-06-01", place:"すすきの駅直結", note:"ビールを主役にしたおつまみ・バーガー業態。", source:"食べログ"},
+      {name:"本格讃岐うどん店", date:"2026-06-01", place:"西線11条駅そば", note:"", source:"食べログ"},
+      {name:"鮨×プロジェクションマッピング店", date:"2026-05-18", place:"狸小路5丁目", note:"鮨と映像演出を組み合わせた新業態。", source:"サツッター"},
+      {name:"うなぎ専門店（COCONO SUSUKINO内）", date:"2026年", place:"COCONO SUSUKINO 地下1階", note:"", source:"サツッター"},
+      {name:"パン・焼き菓子店（移転リニューアル）", date:"2026-01-30", place:"円山", note:"白石区から円山へ移転。道産小麦のベーグルが看板商品。", source:"MouLa HOKKAIDO"},
+    ],
+    closed: [
+      {name:"うなぎと季節料理とらや", date:"2026-08-18", place:"円山", note:"", source:"mogtrip"},
+      {name:"一人焼き鳥B（ビィ）", date:"2026-07-22", place:"すすきの", note:"", source:"mogtrip"},
+      {name:"定食・おにぎり 蜂屋", date:"2026-07-15", place:"すすきの", note:"", source:"mogtrip"},
+      {name:"RAMEN 色即是空", date:"2026-06-21", place:"中央区", note:"", source:"札幌開店閉店インフォ"},
+      {name:"（4月閉店まとめ複数件）", date:"2026-04頃", place:"中央区各所", note:"詳細はリビング札幌の閉店まとめ記事を参照。", source:"リビング札幌"},
+    ]
+  },
+  kita: {
+    open: [
+      {name:"手作りキッチンまー房", date:"2026年", place:"北区", note:"安くて満腹なボリューム系店。", source:"食べログ"},
+    ],
+    closed: [
+      {name:"pico ricci（ピコリッチ）", date:"2026-06-24", place:"あいの里", note:"", source:"mogtrip"},
+    ]
+  }
+};
+
+// 開店予定（確定オープン日が判明しているもの／目安2ヶ月以内）
+const UPCOMING = {
+  chuo: [
+    {name:"キャプテンラーメン すすきの店", date:"2026-09-01", place:"すすきの", note:"深夜営業のラーメン店。営業は18時〜翌3時を予定。", source:"号外NET"},
+    {name:"（店名未詳）", date:"2026-09-01", place:"南二条西3丁目20 moyuk SAPPORO 地下2階", note:"新規テナントの入居予定あり。詳細は情報源を確認してください。", source:"札幌リスト"},
+    {name:"（店名未詳）", date:"2026-09-05", place:"北二条東4丁目 サッポロファクトリー2条館 地下1階", note:"新規テナントの入居予定あり。", source:"札幌リスト"},
+    {name:"（店名未詳）", date:"2026-09-12", place:"大通西2丁目 さっぽろ地下街オーロラタウン内", note:"新規テナントの入居予定あり。", source:"札幌リスト"},
+    {name:"（店名未詳）", date:"2026-09-14", place:"南四条西4丁目1-1 ココノススキノ 地下1階", note:"新規テナントの入居予定あり。", source:"札幌リスト"},
+    {name:"（店名未詳）", date:"2026-09-17", place:"北二条東4丁目 サッポロファクトリー3条館 2階", note:"新規テナントの入居予定あり。", source:"札幌リスト"},
+  ],
+  kita: [
+    // 現時点で日付が判明している北区の開店予定情報は確認できていません。
+  ]
+};
+
+const MONTH_NAMES = ["1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"];
+const TYPE_TAG_LABEL = {open:"新規開店", closed:"閉店", upcoming:"開店予定"};
+
+function parseDateLoose(dateStr){
+  // "2026-09-01" のような形式のみ日付として解釈。"2026年"等はnullを返す。
+  const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(dateStr);
+  if(!m) return null;
+  return new Date(Number(m[1]), Number(m[2])-1, Number(m[3]));
+}
+
+function eventCardHTML(item, type){
+  const d = parseDateLoose(item.date);
+  const day = d ? String(d.getDate()).padStart(2,"0") : "?";
+  const month = d ? MONTH_NAMES[d.getMonth()] : "日付未定";
+  const nameClass = item.name.includes("未詳") ? "unnamed" : "";
+  const countdown = type === "upcoming" ? daysUntilLabel(item.date) : "";
+  return `<div class="event-card" data-type="${type}">
+    <div class="date-badge type-${type}"><span class="day">${day}</span><span class="month">${month}</span></div>
+    <div class="event-body">
+      <div class="event-tags">
+        <span class="tag type-${type}">${TYPE_TAG_LABEL[type]}</span>
+        ${countdown ? `<span class="tag countdown">${countdown}</span>` : ""}
+      </div>
+      <h3 class="${nameClass}">${escapeHTML(item.name)}</h3>
+      <div class="meta">${escapeHTML(item.date)}　${escapeHTML(item.place || "")}</div>
+      ${item.note ? `<p>${escapeHTML(item.note)}</p>` : ""}
+      ${item.source ? `<span class="tip-src">情報源：${escapeHTML(item.source)}</span>` : ""}
+    </div>
+  </div>`;
+}
+
+function daysUntilLabel(dateStr){
+  const target = parseDateLoose(dateStr);
+  if(!target) return "";
+  const today = new Date();
+  today.setHours(0,0,0,0);
+  const diff = Math.round((target - today) / 86400000);
+  if(diff < 0) return "";
+  if(diff === 0) return "本日OPEN";
+  if(diff === 1) return "明日OPEN";
+  return `あと${diff}日`;
+}
+
+function renderUpcoming(){
+  const now = new Date(); now.setHours(0,0,0,0);
+  const horizon = new Date(now.getTime() + 65*86400000); // 目安：約2ヶ月
+  ["chuo","kita"].forEach(area=>{
+    const el = document.getElementById(`${area}-upcoming`);
+    const items = (UPCOMING[area] || [])
+      .filter(i => { const d = parseDateLoose(i.date); return d && d >= now && d <= horizon; })
+      .sort((a,b)=> parseDateLoose(a.date) - parseDateLoose(b.date));
+    el.innerHTML = items.length
+      ? items.map(i=>eventCardHTML(i,"upcoming")).join("")
+      : `<p class="empty-note">現在、日付が判明している開店予定情報はありません。うわさ掲示板にタレコミがあれば教えてください。</p>`;
+  });
+}
+
+function escapeHTML(str){
+  return String(str).replace(/[&<>"']/g, s => ({
+    "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
+  }[s]));
+}
+
+function renderHistory(){
+  ["chuo","kita"].forEach(area=>{
+    const el = document.getElementById(`${area}-history`);
+    const merged = [
+      ...CONFIRMED[area].open.map(i=>({...i, _type:"open"})),
+      ...CONFIRMED[area].closed.map(i=>({...i, _type:"closed"})),
+    ].sort((a,b)=>{
+      const da = parseDateLoose(a.date), db = parseDateLoose(b.date);
+      if(da && db) return db - da; // 新しい日付が上
+      if(da) return -1;
+      if(db) return 1;
+      return 0;
+    });
+    el.innerHTML = merged.length
+      ? merged.map(i=>eventCardHTML(i, i._type)).join("")
+      : `<p class="empty-note">現在、確認できている情報はありません。</p>`;
+  });
+}
+
+// ---------------- 更新履歴の絞り込みチップ ----------------
+document.querySelectorAll(".filter-row").forEach(row=>{
+  row.addEventListener("click", (e)=>{
+    const btn = e.target.closest(".chip");
+    if(!btn) return;
+    row.querySelectorAll(".chip").forEach(c=>c.classList.remove("active"));
+    btn.classList.add("active");
+    const area = row.dataset.area;
+    const filter = btn.dataset.filter;
+    document.querySelectorAll(`#${area}-history .event-card`).forEach(card=>{
+      card.classList.toggle("is-hidden", filter !== "all" && card.dataset.type !== filter);
+    });
+  });
+});
+
+// ---------------- タブ切り替え ----------------
+document.querySelectorAll(".tab-btn").forEach(btn=>{
+  btn.addEventListener("click", ()=>{
+    document.querySelectorAll(".tab-btn").forEach(b=>{b.classList.remove("active");b.setAttribute("aria-selected","false");});
+    btn.classList.add("active");
+    btn.setAttribute("aria-selected","true");
+    document.querySelectorAll("section.area").forEach(s=>s.classList.remove("active"));
+    document.getElementById(`area-${btn.dataset.area}`).classList.add("active");
+  });
+});
+
+// ---------------- うわさ・タレコミ掲示板（共有ストレージ） ----------------
+const TIP_PREFIX = "tip:";
+const typeLabel = {upcoming:"開店予定", open:"新規開店", closed:"閉店", rumor:"うわさ"};
+const areaLabel = {chuo:"中央区", kita:"北区"};
+
+function tipHTML(tip){
+  const d = new Date(tip.ts);
+  const dateStr = isNaN(d) ? "" : `${d.getMonth()+1}/${d.getDate()} ${String(d.getHours()).padStart(2,"0")}:${String(d.getMinutes()).padStart(2,"0")}`;
+  return `<div class="tip">
+    <div class="tip-head">
+      <span><span class="badge ${tip.type}">${typeLabel[tip.type]||"うわさ"}</span> ${areaLabel[tip.area]||""}</span>
+      <span>${dateStr}</span>
+    </div>
+    <div class="tip-name">${escapeHTML(tip.name)}</div>
+    ${tip.detail ? `<div>${escapeHTML(tip.detail)}</div>` : ""}
+    ${tip.source ? `<div class="tip-src">情報源：${escapeHTML(tip.source)}</div>` : ""}
+  </div>`;
+}
+
+async function loadTips(){
+  const listEl = document.getElementById("tip-list");
+  if(typeof window.storage === "undefined"){
+    listEl.innerHTML = `<p class="empty-note">現在この掲示板機能は利用できません。情報提供はSNSやメールなど、下記の連絡先にお願いします。</p>`;
+    return;
+  }
+  try{
+    const listing = await window.storage.list(TIP_PREFIX, true);
+    const keys = (listing && listing.keys) ? listing.keys : [];
+    if(keys.length === 0){
+      listEl.innerHTML = `<p class="empty-note">まだ投稿はありません。最初の一件を貼ってみてください。</p>`;
+      return;
+    }
+    const tips = [];
+    for(const key of keys){
+      try{
+        const res = await window.storage.get(key, true);
+        if(res && res.value){
+          tips.push(JSON.parse(res.value));
+        }
+      }catch(e){ /* このキーは読み込めなかったのでスキップ */ }
+    }
+    tips.sort((a,b)=> (b.ts||0) - (a.ts||0));
+    listEl.innerHTML = tips.length ? tips.map(tipHTML).join("") : `<p class="empty-note">まだ投稿はありません。最初の一件を貼ってみてください。</p>`;
+  }catch(e){
+    listEl.innerHTML = `<p class="empty-note">掲示板の読み込みに失敗しました。時間をおいて再度お試しください。</p>`;
+  }
+}
+
+document.getElementById("tipform").addEventListener("submit", async (e)=>{
+  e.preventDefault();
+  const btn = document.getElementById("tip-submit");
+  const msg = document.getElementById("tip-msg");
+  if(typeof window.storage === "undefined"){
+    msg.textContent = "現在この掲示板機能は利用できません。SNS等でお知らせください。";
+    msg.className = "form-msg err";
+    return;
+  }
+  const name = document.getElementById("tip-name").value.trim();
+  if(!name){
+    msg.textContent = "店名または場所を入力してください。";
+    msg.className = "form-msg err";
+    return;
+  }
+  const tip = {
+    area: document.getElementById("tip-area").value,
+    type: document.getElementById("tip-type").value,
+    name: name,
+    detail: document.getElementById("tip-detail").value.trim(),
+    source: document.getElementById("tip-source").value.trim(),
+    ts: Date.now()
+  };
+  btn.disabled = true;
+  msg.textContent = "投稿中…";
+  msg.className = "form-msg";
+  try{
+    const key = `${TIP_PREFIX}${tip.ts}-${Math.random().toString(36).slice(2,8)}`;
+    const result = await window.storage.set(key, JSON.stringify(tip), true);
+    if(!result){
+      throw new Error("save failed");
+    }
+    msg.textContent = "掲示板に貼りました。";
+    msg.className = "form-msg ok";
+    document.getElementById("tipform").reset();
+    await loadTips();
+  }catch(err){
+    msg.textContent = "投稿に失敗しました。時間をおいて再度お試しください。";
+    msg.className = "form-msg err";
+  }finally{
+    btn.disabled = false;
+  }
+});
+
+// ---------------- 情報源リンク ----------------
+const SOURCES = [
+  {name:"号外NET 札幌市中央区", desc:"開店・閉店カテゴリ", url:"https://sapporochuo.goguynet.jp/category/cat_openclose/"},
+  {name:"号外NET 札幌市北区", desc:"開店・閉店カテゴリ", url:"https://sapporokitaku.goguynet.jp/category/cat_openclose/"},
+  {name:"mogtrip 札幌新店開店情報一覧", desc:"飲食店のみ・随時更新", url:"https://mogtrip.jp/newopen-2026/"},
+  {name:"mogtrip 札幌閉店情報一覧", desc:"飲食店のみ・随時更新", url:"https://mogtrip.jp/closed-2026/"},
+  {name:"食べログ 中央区 ニューオープン順", desc:"新規オープン店舗一覧", url:"https://tabelog.com/hokkaido/C1101/rstLst/cond16-00-00/"},
+  {name:"札幌ショップス 開店・閉店情報", desc:"エリア別に閲覧可能", url:"https://www.shopship.jp/sapporo/open-close/"},
+  {name:"札幌開店閉店インフォ", desc:"新店情報／閉店情報", url:"https://chamonix-cakes.com/"},
+  {name:"リビング札幌Web 開店・閉店", desc:"取材ベースの開店閉店記事", url:"https://mrs.living.jp/sapporo/newopen"},
+  {name:"サツッター 新店舗オープンまとめ", desc:"SNS的なテイストの新店紹介", url:"https://satsutter.com/tag/%E6%96%B0%E5%BA%97%E8%88%97%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3"},
+];
+document.getElementById("source-grid").innerHTML = SOURCES.map(s=>
+  `<a href="${s.url}" target="_blank" rel="noopener noreferrer">${escapeHTML(s.name)}<span>${escapeHTML(s.desc)}</span></a>`
+).join("");
+
+renderHistory();
+renderUpcoming();
+loadTips();
+
+// ---------------- 自動更新（1時間ごとにうわさ掲示板・開店予定カウントダウンを再取得） ----------------
+const REFRESH_INTERVAL_MS = 60 * 60 * 1000; // 1時間
+const statusEl = document.getElementById("auto-refresh-status");
+
+function formatClock(d){
+  return `${String(d.getHours()).padStart(2,"0")}:${String(d.getMinutes()).padStart(2,"0")}`;
+}
+
+async function autoRefresh(){
+  if(statusEl) statusEl.textContent = "自動更新：更新中…";
+  try{
+    await loadTips();
+    renderUpcoming(); // カウントダウン表示（あと◯日）を今日の日付基準で再計算
+  }finally{
+    if(statusEl) statusEl.textContent = `自動更新：最終 ${formatClock(new Date())}（1時間ごと）`;
+  }
+}
+
+if(statusEl) statusEl.textContent = `自動更新：最終 ${formatClock(new Date())}（1時間ごと）`;
+setInterval(autoRefresh, REFRESH_INTERVAL_MS);
+
+// タブを切り替えて画面に戻ってきたときにも最新化する
+document.addEventListener("visibilitychange", ()=>{
+  if(document.visibilityState === "visible"){
+    autoRefresh();
+  }
+});
+</script>
+
+</body>
+</html>
