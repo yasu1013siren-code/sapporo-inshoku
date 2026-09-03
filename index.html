@@ -180,6 +180,8 @@
   .event-body h3.unnamed{color:var(--ink-soft);font-style:italic;font-weight:500;}
   .event-body .meta{font-size:12px;color:var(--ink-soft);margin-bottom:4px;}
   .event-body p{margin:0 0 4px;font-size:13.5px;color:var(--ink-soft);}
+  .event-body .src-link{font-size:11.5px;color:var(--stamp-indigo);text-decoration:underline;}
+  .event-body .src-link:hover{color:var(--ink);}
   .event-body .tip-src{font-size:11.5px;color:var(--ink-soft);}
   @media (max-width:480px){
     .date-badge{width:46px;height:46px;}
@@ -187,60 +189,6 @@
   }
 
   .empty-note{font-size:13px;color:var(--ink-soft);padding:10px 0;}
-
-  /* ---------- rumor board ---------- */
-  .rumor-board{
-    margin-top:44px;
-    background:var(--paper-card2);
-    border:1px dashed var(--rumor);
-    padding:20px 18px 22px;
-  }
-  .rumor-board h2{
-    font-family:'Shippori Mincho B1',serif;font-size:19px;margin:0 0 4px;
-  }
-  .rumor-board .sub{font-size:13px;color:var(--ink-soft);margin-bottom:16px;}
-
-  form.tipform{
-    display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:18px;
-  }
-  form.tipform .full{grid-column:1/-1;}
-  @media (max-width:560px){form.tipform{grid-template-columns:1fr;}}
-  form.tipform label{font-size:12px;color:var(--ink-soft);display:block;margin-bottom:3px;}
-  form.tipform input, form.tipform select, form.tipform textarea{
-    width:100%;font-family:inherit;font-size:14px;
-    background:#fffdf7;border:1px solid var(--line);padding:8px 9px;color:var(--ink);
-  }
-  form.tipform textarea{resize:vertical;min-height:54px;}
-  form.tipform input:focus, form.tipform select:focus, form.tipform textarea:focus{
-    outline:2px solid var(--stamp-indigo); outline-offset:1px;
-  }
-  .submit-row{grid-column:1/-1;display:flex;align-items:center;gap:12px;flex-wrap:wrap;}
-  button.submit-btn{
-    font-family:'Shippori Mincho B1',serif;font-weight:800;font-size:14.5px;
-    background:var(--stamp-red);color:#fbf3e2;border:none;padding:10px 24px;cursor:pointer;
-    transition:filter .15s ease, transform .1s ease;
-  }
-  button.submit-btn:hover{filter:brightness(1.08);transform:translateY(-1px);}
-  button.submit-btn:disabled{opacity:.55;cursor:default;transform:none;}
-  .form-msg{font-size:12.5px;color:var(--ink-soft);}
-  .form-msg.ok{color:var(--stamp-indigo);}
-  .form-msg.err{color:var(--stamp-red);}
-
-  .tip-list{display:flex;flex-direction:column;gap:10px;}
-  .tip{
-    background:#fffdf7;border-left:4px solid var(--rumor);padding:10px 12px;
-    font-size:13.5px;
-  }
-  .tip .tip-head{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;font-size:12px;color:var(--ink-soft);margin-bottom:4px;}
-  .tip .tip-head .badge{
-    font-weight:700;padding:1px 7px;border-radius:2px;color:#fff;
-  }
-  .badge.upcoming{background:#8a6a24;}
-  .badge.open{background:var(--stamp-indigo);}
-  .badge.closed{background:var(--stamp-red);}
-  .badge.rumor{background:var(--rumor);}
-  .tip .tip-name{font-weight:700;margin-bottom:2px;}
-  .tip .tip-src{font-size:11.5px;color:var(--ink-soft);margin-top:4px;}
 
   /* ---------- sources ---------- */
   .sources{margin-top:44px;}
@@ -274,12 +222,12 @@
       <span class="eyebrow" id="auto-refresh-status">自動更新：待機中</span>
     </div>
     <h1>札幌 中央区・北区<small>飲食店 開店・閉店 速報板</small></h1>
-    <p class="lede">ラーメンから割烹、バーまで業種は問いません。確認済みの新規開店・閉店情報に加えて、真偽不明の「うわさ」レベルの話も歓迎です。読んだ人みんなで持ち寄って埋めていく、街の掲示板です。</p>
+    <p class="lede">ラーメンから割烹、バーまで業種は問いません。札幌市中央区・北区の飲食店の新規開店・閉店・開店予定情報を、複数の情報源から集めてまとめています。</p>
   </div>
   <div class="stamp">号外</div>
 </div>
 
-<p class="updated-line">最終更新：2026年8月30日時点で確認できた情報を掲載。うわさ欄はご覧の皆さんからの投稿で随時更新されます。</p>
+<p class="updated-line">最終更新：2026年9月3日時点で確認できた情報を掲載しています。</p>
 
 <div class="wrap">
 
@@ -316,51 +264,6 @@
     <div class="event-feed" id="kita-history"></div>
   </section>
 
-  <!-- うわさ・タレコミ -->
-  <div class="rumor-board">
-    <h2>うわさ・タレコミ掲示板</h2>
-    <p class="sub">「あの店、閉まってるっぽい」「新しい看板が出てた」くらいの未確認情報も大歓迎。エリア・種別を選んで投稿してください。投稿内容は全員に公開されます。</p>
-
-    <form class="tipform" id="tipform">
-      <div>
-        <label for="tip-area">エリア</label>
-        <select id="tip-area" required>
-          <option value="chuo">中央区</option>
-          <option value="kita">北区</option>
-        </select>
-      </div>
-      <div>
-        <label for="tip-type">種別</label>
-        <select id="tip-type" required>
-          <option value="upcoming">開店予定</option>
-          <option value="open">新規開店</option>
-          <option value="closed">閉店</option>
-          <option value="rumor">うわさ・未確認</option>
-        </select>
-      </div>
-      <div class="full">
-        <label for="tip-name">店名・場所（わかる範囲でOK）</label>
-        <input id="tip-name" type="text" placeholder="例：〇〇通りの元ラーメン屋、店名不明" required>
-      </div>
-      <div class="full">
-        <label for="tip-detail">詳細</label>
-        <textarea id="tip-detail" placeholder="見た日、状況、聞いた話など"></textarea>
-      </div>
-      <div class="full">
-        <label for="tip-source">情報源（任意）</label>
-        <input id="tip-source" type="text" placeholder="例：本人談／SNSで見た／通りがかり">
-      </div>
-      <div class="submit-row">
-        <button type="submit" class="submit-btn" id="tip-submit">掲示板に貼る</button>
-        <span class="form-msg" id="tip-msg"></span>
-      </div>
-    </form>
-
-    <div class="tip-list" id="tip-list">
-      <p class="empty-note">読み込み中…</p>
-    </div>
-  </div>
-
   <!-- 情報源 -->
   <div class="sources">
     <h2>一次情報源（あわせてチェック）</h2>
@@ -368,7 +271,7 @@
   </div>
 
   <footer>
-    掲載情報は各情報源および公開報道をもとに編集部でまとめたものです。うわさ欄は未確認情報を含みます。来店・出店の判断は必ず最新の一次情報でご確認ください。
+    掲載情報は各情報源および公開報道をもとに編集部でまとめたものです。来店・出店の判断は必ず最新の一次情報でご確認ください。
   </footer>
 </div>
 
@@ -377,36 +280,84 @@
 const CONFIRMED = {
   chuo: {
     open: [
-      {name:"薄野軍鶏そば 嶋や 2号店", date:"2026-07-30", place:"すすきの", note:"1号店が人気の軍鶏そば店の2号店。", source:"食べログ"},
-      {name:"札幌ジンギスカン らむすけ別邸", date:"2026-07-15", place:"南三条西2", note:"「らむすけ」の2号店として誕生。", source:"食べログ"},
-      {name:"THE BUTTER（ザ バター）", date:"2026-07-24", place:"札幌駅", note:"", source:"mogtrip"},
-      {name:"イタリアン クロッキオ", date:"2026-07-17", place:"南三条西", note:"リニューアルオープン。", source:"リビング札幌"},
-      {name:"ジンギスカン 成吉思汗だだ", date:"2026-07-13", place:"すすきの", note:"", source:"リビング札幌"},
-      {name:"つけ麺 カミナリ軒", date:"2026-06-13", place:"中央区", note:"", source:"札幌開店閉店インフォ"},
-      {name:"札幌ラーメン ゑぞ食堂", date:"2026-06-10", place:"すすきの駅", note:"", source:"札幌開店閉店インフォ／札幌ショップス"},
-      {name:"和韓食 DACHE", date:"2026-06-10", place:"中央区", note:"", source:"札幌ショップス"},
-      {name:"円山秘密のハナレ", date:"2026-06-14", place:"円山", note:"", source:"札幌ショップス"},
-      {name:"Hi Bread COFFEE", date:"2026-06-14", place:"円山", note:"", source:"札幌ショップス"},
-      {name:"PERFECT BE...（クラフトビール系）", date:"2026-06-01", place:"すすきの駅直結", note:"ビールを主役にしたおつまみ・バーガー業態。", source:"食べログ"},
-      {name:"本格讃岐うどん店", date:"2026-06-01", place:"西線11条駅そば", note:"", source:"食べログ"},
-      {name:"鮨×プロジェクションマッピング店", date:"2026-05-18", place:"狸小路5丁目", note:"鮨と映像演出を組み合わせた新業態。", source:"サツッター"},
-      {name:"うなぎ専門店（COCONO SUSUKINO内）", date:"2026年", place:"COCONO SUSUKINO 地下1階", note:"", source:"サツッター"},
-      {name:"パン・焼き菓子店（移転リニューアル）", date:"2026-01-30", place:"円山", note:"白石区から円山へ移転。道産小麦のベーグルが看板商品。", source:"MouLa HOKKAIDO"},
+      {name:"味酒屋Sonotoki", date:"2026-08-28", place:"南1西19丁目291", note:"", source:"食べログ", url:"https://tabelog.com/hokkaido/C1101/rstLst/cond16-00-00/"},
+      {name:"炭火焼リリー すすきの店", date:"2026-08-15", place:"すすきの", note:"", source:"食べログ", url:"https://tabelog.com/hokkaido/C1101/rstLst/cond16-00-00/"},
+      {name:"WINE BAR KOZO", date:"2026-08-14", place:"南5条西4丁目7-6 菊良ビル4F", note:"ススキノで活躍してきた店主によるカジュアルバー。", source:"食べログ", url:"https://tabelog.com/hokkaido/C1101/rstLst/cond16-00-00/"},
+      {name:"牛乃家 北3条店", date:"2026-08-26", place:"北3条西2丁目8-3 エナビル7F", note:"", source:"mogtrip", url:"https://mogtrip.jp/newopen-2026/"},
+      {name:"かにたま 札幌本店", date:"2026-08-03", place:"南4条西4丁目12-1 すずらんビル別館4F", note:"蟹料理専門店。", source:"食べログ", url:"https://tabelog.com/hokkaido/C1101/rstLst/cond16-00-00/"},
+      {name:"緑苑スタンド", date:"2026-08-06", place:"北3条西7丁目1-1 緑苑ビルB1F", note:"立ち食いそば・立ち飲み。", source:"食べログ", url:"https://tabelog.com/hokkaido/C1101/rstLst/cond16-00-00/"},
+      {name:"炭火×焼き鳥 個室居酒屋 炭ス。すすきの店", date:"2026-08-01", place:"南4条西3丁目9 2Mビル7F", note:"", source:"食べログ", url:"https://tabelog.com/hokkaido/C1101/rstLst/cond16-00-00/"},
+      {name:"しぇあぷく 札幌店", date:"2026-08-01", place:"南2条西5丁目26-17", note:"", source:"札幌開店閉店インフォ", url:"https://chamonix-cakes.com/kaiten-ab8yfewjjb09ri2bno/"},
+      {name:"個室✕海鮮居酒屋 北海道を喰らえ 札幌大通店", date:"2026-08-01", place:"南1条西2丁目6 南一条Kビル B1F", note:"", source:"札幌開店閉店インフォ", url:"https://chamonix-cakes.com/"},
+      {name:"スープカレー専門店 奥芝商店 奥'clock店", date:"2026-07-21", place:"時計台ビル", note:"", source:"号外NET", url:"https://sapporochuo.goguynet.jp/category/cat_openclose/"},
+      {name:"クレープ 穂と麦 hotomugi", date:"2026-07-17", place:"円山", note:"", source:"リビング札幌", url:"https://mrs.living.jp/sapporo/newopen"},
+      {name:"ラーメン 麺匠 りんどう", date:"2026-07-19", place:"すすきの", note:"", source:"リビング札幌", url:"https://mrs.living.jp/sapporo/newopen"},
+      {name:"薄野軍鶏そば 嶋や 2号店", date:"2026-07-30", place:"すすきの", note:"1号店が人気の軍鶏そば店の2号店。", source:"食べログ", url:"https://tabelog.com/hokkaido/C1101/rstLst/cond16-00-00/"},
+      {name:"札幌ジンギスカン らむすけ別邸", date:"2026-07-15", place:"南三条西2", note:"「らむすけ」の2号店として誕生。", source:"食べログ", url:"https://tabelog.com/hokkaido/C1101/rstLst/cond16-00-00/"},
+      {name:"THE BUTTER（ザ バター）", date:"2026-07-24", place:"札幌駅", note:"", source:"mogtrip", url:"https://mogtrip.jp/newopen-2026/"},
+      {name:"イタリアン クロッキオ", date:"2026-07-17", place:"南三条西", note:"リニューアルオープン。", source:"リビング札幌", url:"https://mrs.living.jp/sapporo/newopen"},
+      {name:"ジンギスカン 成吉思汗だだ", date:"2026-07-13", place:"すすきの", note:"", source:"リビング札幌", url:"https://mrs.living.jp/sapporo/newopen"},
+      {name:"つけ麺 カミナリ軒", date:"2026-06-13", place:"中央区", note:"", source:"札幌開店閉店インフォ", url:"https://chamonix-cakes.com/"},
+      {name:"札幌ラーメン ゑぞ食堂", date:"2026-06-10", place:"すすきの駅", note:"", source:"札幌ショップス", url:"https://www.shopship.jp/sapporo/open-close/"},
+      {name:"和韓食 DACHE", date:"2026-06-10", place:"中央区", note:"", source:"札幌ショップス", url:"https://www.shopship.jp/sapporo/open-close/"},
+      {name:"円山秘密のハナレ", date:"2026-06-14", place:"円山", note:"", source:"札幌ショップス", url:"https://www.shopship.jp/sapporo/open-close/"},
+      {name:"Hi Bread COFFEE", date:"2026-06-14", place:"円山", note:"", source:"札幌ショップス", url:"https://www.shopship.jp/sapporo/open-close/"},
+      {name:"PERFECT BE...（クラフトビール系）", date:"2026-06-01", place:"すすきの駅直結", note:"ビールを主役にしたおつまみ・バーガー業態。", source:"食べログ", url:"https://tabelog.com/hokkaido/C1101/rstLst/cond16-00-00/"},
+      {name:"本格讃岐うどん店", date:"2026-06-01", place:"西線11条駅そば", note:"", source:"食べログ", url:"https://tabelog.com/hokkaido/C1101/rstLst/cond16-00-00/"},
+      {name:"鮨×プロジェクションマッピング店", date:"2026-05-18", place:"狸小路5丁目", note:"鮨と映像演出を組み合わせた新業態。", source:"サツッター", url:"https://satsutter.com/tag/%E6%96%B0%E5%BA%97%E8%88%97%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3"},
+      {name:"うなぎ専門店（COCONO SUSUKINO内）", date:"2026年", place:"COCONO SUSUKINO 地下1階", note:"", source:"サツッター", url:"https://satsutter.com/tag/%E6%96%B0%E5%BA%97%E8%88%97%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3"},
+      {name:"パン・焼き菓子店（移転リニューアル）", date:"2026-01-30", place:"円山", note:"白石区から円山へ移転。道産小麦のベーグルが看板商品。", source:"MouLa HOKKAIDO", url:"https://moula.jp/articles/trip_eat/entry-8584.html"},
+      {name:"全国47都道府県の日本酒 旬の海鮮 サケビヨリ 札幌大通店", date:"2026年", place:"北1条西3丁目3-24 札幌中央ビル2F", note:"", source:"MouLa HOKKAIDO", url:"https://moula.jp/articles/trip_eat/entry-8584.html"},
     ],
     closed: [
-      {name:"うなぎと季節料理とらや", date:"2026-08-18", place:"円山", note:"", source:"mogtrip"},
-      {name:"一人焼き鳥B（ビィ）", date:"2026-07-22", place:"すすきの", note:"", source:"mogtrip"},
-      {name:"定食・おにぎり 蜂屋", date:"2026-07-15", place:"すすきの", note:"", source:"mogtrip"},
-      {name:"RAMEN 色即是空", date:"2026-06-21", place:"中央区", note:"", source:"札幌開店閉店インフォ"},
-      {name:"（4月閉店まとめ複数件）", date:"2026-04頃", place:"中央区各所", note:"詳細はリビング札幌の閉店まとめ記事を参照。", source:"リビング札幌"},
+      {name:"リンツ ショコラ ブティック 札幌アピア店", date:"2026-08-16", place:"アピアB1階", note:"改装のため一時休業（再開は9月12日予定）。カフェメニューは終了。", source:"号外NET", url:"https://sapporochuo.goguynet.jp/2026/08/27/lindt-2/"},
+      {name:"おにぎりのありんこ ポールタウン店", date:"2026-08-31", place:"さっぽろ地下街ポールタウン", note:"", source:"号外NET", url:"https://sapporochuo.goguynet.jp/2026/08/31/post-49966/"},
+      {name:"MUSEUM SHOP & CAFE きねずみ", date:"2026-08-30", place:"北2条西15丁目 北海道立三岸好太郎美術館", note:"", source:"札幌開店閉店インフォ", url:"https://chamonix-cakes.com/"},
+      {name:"Milk Cafe みるくsan サッポロファクトリー店", date:"2026-08-16", place:"北2条東4丁目 サッポロファクトリー", note:"感謝キャンペーン開催。", source:"号外NET", url:"https://sapporochuo.goguynet.jp/category/cat_openclose/"},
+      {name:"家で食べるスープストックトーキョー 大丸札幌店", date:"2026-08-25", place:"大丸札幌店内", note:"", source:"mogtrip", url:"https://mogtrip.jp/closed-2026/"},
+      {name:"居酒屋 柳", date:"2026-08-31", place:"南1条西4丁目7-2 4丁目会館2F", note:"", source:"mogtrip", url:"https://mogtrip.jp/closed-2026/"},
+      {name:"マビの台所 大通店", date:"2026-08-31", place:"大通西2 陶管ビル1F", note:"", source:"mogtrip", url:"https://mogtrip.jp/closed-2026/"},
+      {name:"カフェ ビーパスト", date:"2026-08-14", place:"南7条西3丁目 ジャスマックプラザ1F", note:"", source:"mogtrip", url:"https://mogtrip.jp/closed-2026/"},
+      {name:"プティ・シェーヴルHOKKAIDO オーロラタウン店", date:"2026-08-18", place:"大通西1丁目13 さっぽろ地下街オーロラタウン", note:"感謝を込めたサンクスキャンペーン開催。", source:"号外NET", url:"https://sapporochuo.goguynet.jp/category/cat_openclose/"},
+      {name:"コトモノマルシェ 大丸札幌店", date:"2026-07-28", place:"大丸札幌店内", note:"8月7日に札幌ステラプレイスへ移転オープン。", source:"号外NET", url:"https://sapporochuo.goguynet.jp/category/cat_openclose/"},
+      {name:"Japanese Ramen Noodle Lab Q", date:"2026-06-12", place:"中央区", note:"現店舗での営業を終了。", source:"号外NET", url:"https://sapporochuo.goguynet.jp/2026/04/17/japanese-ramen-noodle-labq/"},
+      {name:"うなぎと季節料理とらや", date:"2026-08-18", place:"円山", note:"", source:"mogtrip", url:"https://mogtrip.jp/closed-2026/"},
+      {name:"一人焼き鳥B（ビィ）", date:"2026-07-22", place:"すすきの", note:"", source:"mogtrip", url:"https://mogtrip.jp/closed-2026/"},
+      {name:"定食・おにぎり 蜂屋", date:"2026-07-15", place:"すすきの", note:"", source:"mogtrip", url:"https://mogtrip.jp/closed-2026/"},
+      {name:"RAMEN 色即是空", date:"2026-06-21", place:"中央区", note:"", source:"札幌開店閉店インフォ", url:"https://chamonix-cakes.com/"},
+      {name:"（4月閉店まとめ複数件）", date:"2026-04頃", place:"中央区各所", note:"詳細はリビング札幌の閉店まとめ記事を参照。", source:"リビング札幌", url:"https://mrs.living.jp/sapporo/newopen"},
+      {name:"BARISTART COFFEE 札幌店", date:"2026-09-27", place:"中央区", note:"移転閉店予定。", source:"札幌開店閉店インフォ", url:"https://chamonix-cakes.com/"},
+      {name:"珈琲屋 la chic. -らしく-", date:"2026-09-04", place:"南21条西13丁目2-6 オーツカビル1階", note:"移転のため閉店。", source:"mogtrip", url:"https://mogtrip.jp/closed-2026/"},
+      {name:"マルハチポパイ", date:"2026-09-15", place:"南1条西4丁目7-2 4丁目会館", note:"移転予定。", source:"mogtrip", url:"https://mogtrip.jp/closed-2026/"},
+      {name:"DE LA タコス", date:"2026-09中旬", place:"北3条東3丁目-1", note:"移転のため閉店。", source:"mogtrip", url:"https://mogtrip.jp/closed-2026/"},
+      {name:"モモロビュ", date:"2026-09月内", place:"北1条東7丁目10", note:"", source:"mogtrip", url:"https://mogtrip.jp/closed-2026/"},
+      {name:"ひるまがり", date:"2026-09-30", place:"大通西6丁目6-9", note:"", source:"mogtrip", url:"https://mogtrip.jp/closed-2026/"},
     ]
   },
   kita: {
     open: [
-      {name:"手作りキッチンまー房", date:"2026年", place:"北区", note:"安くて満腹なボリューム系店。", source:"食べログ"},
+      {name:"手作りキッチンまー房", date:"2026-06-01", place:"北24条駅そば", note:"本格中華のお弁当専門店。", source:"食べログ", url:"https://tabelog.com/hokkaido/A0101/A010201/rstLst/cond16-00-00/"},
+      {name:"餃子のかっちゃん 北24条店", date:"2026-05-30", place:"北24条駅そば", note:"", source:"食べログ", url:"https://tabelog.com/hokkaido/A0101/A010201/rstLst/cond16-00-00/"},
+      {name:"KARAUS（ドーナツ）", date:"2026-05-15", place:"北24条駅そば", note:"", source:"食べログ", url:"https://tabelog.com/hokkaido/A0101/A010201/rstLst/cond16-00-00/"},
+      {name:"まぐろとえび", date:"2026-05-13", place:"北18条駅そば", note:"居酒屋。", source:"食べログ", url:"https://tabelog.com/hokkaido/A0101/A010201/rstLst/cond16-00-00/"},
+      {name:"SALTY DINING", date:"2026-05-10", place:"麻生駅そば", note:"居酒屋。", source:"食べログ", url:"https://tabelog.com/hokkaido/A0101/A010201/rstLst/cond16-00-00/"},
+      {name:"cafeコトワ", date:"2026-01-15", place:"北18条駅そば", note:"", source:"食べログ", url:"https://tabelog.com/hokkaido/A0101/A010201/rstLst/cond16-00-00/cafe/"},
+      {name:"酒場ぶんぶく", date:"2026-06-22", place:"北24条西4丁目 館ビル", note:"普段使いできる大人の酒場がコンセプト。", source:"号外NET", url:"https://sapporokitaku.goguynet.jp/2026/06/04/bunbuku/"},
+      {name:"カフェらふる", date:"2026年5月", place:"新琴似四番通り沿い", note:"", source:"号外NET", url:"https://sapporokitaku.goguynet.jp/category/cat_openclose/"},
+      {name:"リトルスプーン", date:"2026年6月", place:"北大病院前", note:"約20年ぶりの復活。", source:"号外NET", url:"https://sapporokitaku.goguynet.jp/category/cat_openclose/"},
+      {name:"よいち餃子大王 札幌麻生店", date:"2026年6月", place:"北40条西5丁目1-2", note:"北関東で人気の餃子居酒屋チェーン。", source:"号外NET", url:"https://sapporokitaku.goguynet.jp/category/cat_openclose/"},
+      {name:"いろどり弁当", date:"2026-08-28", place:"北20条西5丁目2-27 大畠ハイツ1F", note:"", source:"札幌ショップス", url:"https://www.shopship.jp/open-close/"},
+      {name:"居酒屋ととと。", date:"2026-08-08", place:"麻生町5丁目4-13 藤敏ビル2F", note:"", source:"mogtrip", url:"https://mogtrip.jp/newopen-2026/"},
+      {name:"空とぶおにぎり", date:"2026-08-24", place:"北24条西4丁目3-1 TigerBLD24 1F", note:"", source:"mogtrip", url:"https://mogtrip.jp/newopen-2026/"},
+      {name:"TONDEN RAMEN 蕾-RAI-", date:"2026-07-06", place:"屯田7条2丁目1-1", note:"", source:"mogtrip", url:"https://mogtrip.jp/newopen-2026/"},
     ],
     closed: [
-      {name:"pico ricci（ピコリッチ）", date:"2026-06-24", place:"あいの里", note:"", source:"mogtrip"},
+      {name:"pico ricci（ピコリッチ）", date:"2026-06-24", place:"あいの里", note:"", source:"mogtrip", url:"https://mogtrip.jp/closed-2026/"},
+      {name:"やきとりさんきゅう北24条店", date:"2026-06-08", place:"北24条", note:"焼鳥1本39円で話題だった店。オープンから約1年4か月での閉店。", source:"号外NET", url:"https://sapporokitaku.goguynet.jp/category/cat_openclose/"},
+      {name:"ラーメン豚っち 北大病院前店", date:"2026-06-01", place:"北大病院前", note:"二郎系ラーメン店。オープンから約1年3か月での閉店。", source:"号外NET", url:"https://sapporokitaku.goguynet.jp/category/cat_openclose/"},
+      {name:"麺やきよた", date:"2026-05-28", place:"東15丁目屯田通り沿い", note:"閉店後、リニューアルオープンの予定あり。", source:"号外NET", url:"https://sapporokitaku.goguynet.jp/category/cat_openclose/"},
+      {name:"BEER STAND SORACHI／弁菜亭／Rain Bakeshop", date:"2026-08-31", place:"JR札幌駅構内（北6条西3・4丁目）", note:"駅構内工事の影響による閉店。3店舗とも同日閉店。", source:"札幌速報", url:"https://sapporo-sokuho.com/archives/post-109841.html"},
+      {name:"カフェ・ド・クリエ 札幌駅北口店", date:"2026-09-30", place:"北6条西4丁目2-7 J1札幌北口ビル1F", note:"", source:"mogtrip", url:"https://mogtrip.jp/closed-2026/"},
     ]
   }
 };
@@ -414,15 +365,20 @@ const CONFIRMED = {
 // 開店予定（確定オープン日が判明しているもの／目安2ヶ月以内）
 const UPCOMING = {
   chuo: [
-    {name:"キャプテンラーメン すすきの店", date:"2026-09-01", place:"すすきの", note:"深夜営業のラーメン店。営業は18時〜翌3時を予定。", source:"号外NET"},
-    {name:"（店名未詳）", date:"2026-09-01", place:"南二条西3丁目20 moyuk SAPPORO 地下2階", note:"新規テナントの入居予定あり。詳細は情報源を確認してください。", source:"札幌リスト"},
-    {name:"（店名未詳）", date:"2026-09-05", place:"北二条東4丁目 サッポロファクトリー2条館 地下1階", note:"新規テナントの入居予定あり。", source:"札幌リスト"},
-    {name:"（店名未詳）", date:"2026-09-12", place:"大通西2丁目 さっぽろ地下街オーロラタウン内", note:"新規テナントの入居予定あり。", source:"札幌リスト"},
-    {name:"（店名未詳）", date:"2026-09-14", place:"南四条西4丁目1-1 ココノススキノ 地下1階", note:"新規テナントの入居予定あり。", source:"札幌リスト"},
-    {name:"（店名未詳）", date:"2026-09-17", place:"北二条東4丁目 サッポロファクトリー3条館 2階", note:"新規テナントの入居予定あり。", source:"札幌リスト"},
+    {name:"キャプテンラーメン すすきの店", date:"2026-09-01", place:"すすきの", note:"深夜営業のラーメン店。営業は18時〜翌3時を予定。", source:"号外NET", url:"https://sapporochuo.goguynet.jp/category/cat_openclose/"},
+    {name:"銀だこハイボール酒場 すすきのグルーヴビル店", date:"2026-09-08", place:"南4条西5丁目5 GROOVE SUSUKINO BLD 3F", note:"", source:"mogtrip", url:"https://mogtrip.jp/newopen-2026/"},
+    {name:"日本茶カフェ pocha", date:"2026-09-10", place:"南25条西13丁目1-31 J&Hマンション1F", note:"", source:"mogtrip", url:"https://mogtrip.jp/newopen-2026/"},
+    {name:"吉野家×はなまるうどん 札幌オーロラタウン店", date:"2026-09-12", place:"大通西2丁目 さっぽろ地下街オーロラタウン", note:"", source:"mogtrip", url:"https://mogtrip.jp/newopen-2026/"},
+    {name:"リンツ ショコラ ブティック 札幌アピア店（リニューアル）", date:"2026-09-12", place:"アピアB1階", note:"改装工事のためのリニューアルオープン。カフェメニューは終了予定。", source:"号外NET", url:"https://sapporochuo.goguynet.jp/2026/08/27/lindt-2/"},
+    {name:"喫茶ブルーバード", date:"2026-09-17", place:"北2条東4丁目 サッポロファクトリー", note:"", source:"mogtrip", url:"https://mogtrip.jp/newopen-2026/"},
+    {name:"蝦夷の雫とアテ PAIRINGx HOKKAIDO", date:"2026-10-02", place:"北1条西5丁目1-4 アーバンネット札幌リンクタワー", note:"", source:"mogtrip", url:"https://mogtrip.jp/newopen-2026/"},
+    {name:"焼肉のわびすけ", date:"2026-10月未定", place:"すすきの", note:"日付未定・要確認。", source:"mogtrip", url:"https://mogtrip.jp/newopen-2026/"},
+    {name:"食堂ほく斗 札幌駅前店", date:"2026-10月未定", place:"北2条西2丁目4 マルホビルB1F", note:"日付未定・要確認。", source:"mogtrip", url:"https://mogtrip.jp/newopen-2026/"},
   ],
   kita: [
-    // 現時点で日付が判明している北区の開店予定情報は確認できていません。
+    {name:"フレッシュネスバーガー麻生店", date:"2026-09-16", place:"北40条西4丁目2-10", note:"", source:"mogtrip", url:"https://mogtrip.jp/newopen-2026/"},
+    {name:"銀だこハイボール酒場 北24条店", date:"2026-10-01", place:"北24条西4丁目1-1", note:"", source:"mogtrip", url:"https://mogtrip.jp/newopen-2026/"},
+    {name:"七輪焼肉 安安 篠路店", date:"2026-10-05", place:"篠路2条5丁目5-18", note:"10月上旬オープン予定。", source:"mogtrip", url:"https://mogtrip.jp/newopen-2026/"},
   ]
 };
 
@@ -452,7 +408,9 @@ function eventCardHTML(item, type){
       <h3 class="${nameClass}">${escapeHTML(item.name)}</h3>
       <div class="meta">${escapeHTML(item.date)}　${escapeHTML(item.place || "")}</div>
       ${item.note ? `<p>${escapeHTML(item.note)}</p>` : ""}
-      ${item.source ? `<span class="tip-src">情報源：${escapeHTML(item.source)}</span>` : ""}
+      ${item.source ? (item.url
+        ? `<a class="src-link" href="${item.url}" target="_blank" rel="noopener noreferrer">情報源：${escapeHTML(item.source)} ↗</a>`
+        : `<span class="tip-src">情報源：${escapeHTML(item.source)}</span>`) : ""}
     </div>
   </div>`;
 }
@@ -479,7 +437,7 @@ function renderUpcoming(){
       .sort((a,b)=> parseDateLoose(a.date) - parseDateLoose(b.date));
     el.innerHTML = items.length
       ? items.map(i=>eventCardHTML(i,"upcoming")).join("")
-      : `<p class="empty-note">現在、日付が判明している開店予定情報はありません。うわさ掲示板にタレコミがあれば教えてください。</p>`;
+      : `<p class="empty-note">現在、日付が判明している開店予定情報はありません。</p>`;
   });
 }
 
@@ -534,98 +492,6 @@ document.querySelectorAll(".tab-btn").forEach(btn=>{
   });
 });
 
-// ---------------- うわさ・タレコミ掲示板（共有ストレージ） ----------------
-const TIP_PREFIX = "tip:";
-const typeLabel = {upcoming:"開店予定", open:"新規開店", closed:"閉店", rumor:"うわさ"};
-const areaLabel = {chuo:"中央区", kita:"北区"};
-
-function tipHTML(tip){
-  const d = new Date(tip.ts);
-  const dateStr = isNaN(d) ? "" : `${d.getMonth()+1}/${d.getDate()} ${String(d.getHours()).padStart(2,"0")}:${String(d.getMinutes()).padStart(2,"0")}`;
-  return `<div class="tip">
-    <div class="tip-head">
-      <span><span class="badge ${tip.type}">${typeLabel[tip.type]||"うわさ"}</span> ${areaLabel[tip.area]||""}</span>
-      <span>${dateStr}</span>
-    </div>
-    <div class="tip-name">${escapeHTML(tip.name)}</div>
-    ${tip.detail ? `<div>${escapeHTML(tip.detail)}</div>` : ""}
-    ${tip.source ? `<div class="tip-src">情報源：${escapeHTML(tip.source)}</div>` : ""}
-  </div>`;
-}
-
-async function loadTips(){
-  const listEl = document.getElementById("tip-list");
-  if(typeof window.storage === "undefined"){
-    listEl.innerHTML = `<p class="empty-note">現在この掲示板機能は利用できません。情報提供はSNSやメールなど、下記の連絡先にお願いします。</p>`;
-    return;
-  }
-  try{
-    const listing = await window.storage.list(TIP_PREFIX, true);
-    const keys = (listing && listing.keys) ? listing.keys : [];
-    if(keys.length === 0){
-      listEl.innerHTML = `<p class="empty-note">まだ投稿はありません。最初の一件を貼ってみてください。</p>`;
-      return;
-    }
-    const tips = [];
-    for(const key of keys){
-      try{
-        const res = await window.storage.get(key, true);
-        if(res && res.value){
-          tips.push(JSON.parse(res.value));
-        }
-      }catch(e){ /* このキーは読み込めなかったのでスキップ */ }
-    }
-    tips.sort((a,b)=> (b.ts||0) - (a.ts||0));
-    listEl.innerHTML = tips.length ? tips.map(tipHTML).join("") : `<p class="empty-note">まだ投稿はありません。最初の一件を貼ってみてください。</p>`;
-  }catch(e){
-    listEl.innerHTML = `<p class="empty-note">掲示板の読み込みに失敗しました。時間をおいて再度お試しください。</p>`;
-  }
-}
-
-document.getElementById("tipform").addEventListener("submit", async (e)=>{
-  e.preventDefault();
-  const btn = document.getElementById("tip-submit");
-  const msg = document.getElementById("tip-msg");
-  if(typeof window.storage === "undefined"){
-    msg.textContent = "現在この掲示板機能は利用できません。SNS等でお知らせください。";
-    msg.className = "form-msg err";
-    return;
-  }
-  const name = document.getElementById("tip-name").value.trim();
-  if(!name){
-    msg.textContent = "店名または場所を入力してください。";
-    msg.className = "form-msg err";
-    return;
-  }
-  const tip = {
-    area: document.getElementById("tip-area").value,
-    type: document.getElementById("tip-type").value,
-    name: name,
-    detail: document.getElementById("tip-detail").value.trim(),
-    source: document.getElementById("tip-source").value.trim(),
-    ts: Date.now()
-  };
-  btn.disabled = true;
-  msg.textContent = "投稿中…";
-  msg.className = "form-msg";
-  try{
-    const key = `${TIP_PREFIX}${tip.ts}-${Math.random().toString(36).slice(2,8)}`;
-    const result = await window.storage.set(key, JSON.stringify(tip), true);
-    if(!result){
-      throw new Error("save failed");
-    }
-    msg.textContent = "掲示板に貼りました。";
-    msg.className = "form-msg ok";
-    document.getElementById("tipform").reset();
-    await loadTips();
-  }catch(err){
-    msg.textContent = "投稿に失敗しました。時間をおいて再度お試しください。";
-    msg.className = "form-msg err";
-  }finally{
-    btn.disabled = false;
-  }
-});
-
 // ---------------- 情報源リンク ----------------
 const SOURCES = [
   {name:"号外NET 札幌市中央区", desc:"開店・閉店カテゴリ", url:"https://sapporochuo.goguynet.jp/category/cat_openclose/"},
@@ -644,9 +510,8 @@ document.getElementById("source-grid").innerHTML = SOURCES.map(s=>
 
 renderHistory();
 renderUpcoming();
-loadTips();
 
-// ---------------- 自動更新（1時間ごとにうわさ掲示板・開店予定カウントダウンを再取得） ----------------
+// ---------------- 自動更新（1時間ごとに開店予定のカウントダウン表示を再計算） ----------------
 const REFRESH_INTERVAL_MS = 60 * 60 * 1000; // 1時間
 const statusEl = document.getElementById("auto-refresh-status");
 
@@ -654,14 +519,10 @@ function formatClock(d){
   return `${String(d.getHours()).padStart(2,"0")}:${String(d.getMinutes()).padStart(2,"0")}`;
 }
 
-async function autoRefresh(){
+function autoRefresh(){
   if(statusEl) statusEl.textContent = "自動更新：更新中…";
-  try{
-    await loadTips();
-    renderUpcoming(); // カウントダウン表示（あと◯日）を今日の日付基準で再計算
-  }finally{
-    if(statusEl) statusEl.textContent = `自動更新：最終 ${formatClock(new Date())}（1時間ごと）`;
-  }
+  renderUpcoming(); // カウントダウン表示（あと◯日）を今日の日付基準で再計算
+  if(statusEl) statusEl.textContent = `自動更新：最終 ${formatClock(new Date())}（1時間ごと）`;
 }
 
 if(statusEl) statusEl.textContent = `自動更新：最終 ${formatClock(new Date())}（1時間ごと）`;
