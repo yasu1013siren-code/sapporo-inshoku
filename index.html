@@ -163,6 +163,7 @@
   .date-badge.type-open{background:var(--stamp-indigo);}
   .date-badge.type-closed{background:var(--stamp-red);}
   .date-badge.type-upcoming{background:#8a6a24;}
+  .date-badge.type-news{background:var(--ink-soft);}
 
   .event-body{flex:1 1 auto;min-width:0;}
   .event-tags{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:5px;}
@@ -248,6 +249,9 @@
       <button class="chip" data-filter="closed">閉店</button>
     </div>
     <div class="event-feed" id="chuo-history"></div>
+
+    <div class="section-head"><h2>最新ニュース速報</h2><span class="count">号外NETより自動収集・毎日17:10更新</span></div>
+    <div class="event-feed" id="chuo-news"></div>
   </section>
 
   <!-- 北区 -->
@@ -262,6 +266,9 @@
       <button class="chip" data-filter="closed">閉店</button>
     </div>
     <div class="event-feed" id="kita-history"></div>
+
+    <div class="section-head"><h2>最新ニュース速報</h2><span class="count">号外NETより自動収集・毎日17:10更新</span></div>
+    <div class="event-feed" id="kita-news"></div>
   </section>
 
   <!-- 情報源 -->
@@ -508,8 +515,47 @@ document.getElementById("source-grid").innerHTML = SOURCES.map(s=>
   `<a href="${s.url}" target="_blank" rel="noopener noreferrer">${escapeHTML(s.name)}<span>${escapeHTML(s.desc)}</span></a>`
 ).join("");
 
+// ---------------- 最新ニュース速報（GitHub Actionsが自動生成する news.json を読み込む） ----------------
+function newsItemHTML(item){
+  const d = parseDateLoose(item.date);
+  const day = d ? String(d.getDate()).padStart(2,"0") : "?";
+  const month = d ? MONTH_NAMES[d.getMonth()] : "日付未定";
+  return `<div class="event-card" data-type="news">
+    <div class="date-badge type-news"><span class="day">${day}</span><span class="month">${month}</span></div>
+    <div class="event-body">
+      <h3><a class="src-link" href="${item.url}" target="_blank" rel="noopener noreferrer">${escapeHTML(item.title)} ↗</a></h3>
+    </div>
+  </div>`;
+}
+
+async function loadAutoNews(){
+  ["chuo","kita"].forEach(area=>{
+    const el = document.getElementById(`${area}-news`);
+    if(el) el.innerHTML = `<p class="empty-note">読み込み中…</p>`;
+  });
+  try{
+    const res = await fetch("news.json", {cache:"no-store"});
+    if(!res.ok) throw new Error("news.json の取得に失敗しました");
+    const data = await res.json();
+    ["chuo","kita"].forEach(area=>{
+      const el = document.getElementById(`${area}-news`);
+      if(!el) return;
+      const items = (data.areas && data.areas[area]) || [];
+      el.innerHTML = items.length
+        ? items.map(newsItemHTML).join("")
+        : `<p class="empty-note">自動収集データがまだありません。</p>`;
+    });
+  }catch(e){
+    ["chuo","kita"].forEach(area=>{
+      const el = document.getElementById(`${area}-news`);
+      if(el) el.innerHTML = `<p class="empty-note">自動収集データを読み込めませんでした（news.jsonがまだ生成されていない可能性があります）。</p>`;
+    });
+  }
+}
+
 renderHistory();
 renderUpcoming();
+loadAutoNews();
 
 // ---------------- 自動更新（1時間ごとに開店予定のカウントダウン表示を再計算） ----------------
 const REFRESH_INTERVAL_MS = 60 * 60 * 1000; // 1時間
@@ -522,6 +568,7 @@ function formatClock(d){
 function autoRefresh(){
   if(statusEl) statusEl.textContent = "自動更新：更新中…";
   renderUpcoming(); // カウントダウン表示（あと◯日）を今日の日付基準で再計算
+  loadAutoNews();
   if(statusEl) statusEl.textContent = `自動更新：最終 ${formatClock(new Date())}（1時間ごと）`;
 }
 

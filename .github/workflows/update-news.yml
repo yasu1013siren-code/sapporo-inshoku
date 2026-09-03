@@ -1,0 +1,37 @@
+name: Update Sapporo Inshoku News
+
+on:
+  schedule:
+    # 08:10 UTC = 17:10 JST（GitHub Actionsのcronは常にUTC表記）
+    - cron: "10 8 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Fetch latest news from goguynet
+        run: python scripts/fetch_news.py
+
+      - name: Commit and push if news.json changed
+        run: |
+          git config user.name "sapporo-inshoku-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add news.json
+          if git diff --cached --quiet; then
+            echo "変更なし。コミットをスキップします。"
+          else
+            git commit -m "auto: update news.json ($(date -u +'%Y-%m-%dT%H:%M:%SZ') UTC)"
+            git push
+          fi
