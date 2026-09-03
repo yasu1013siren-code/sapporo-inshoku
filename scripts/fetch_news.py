@@ -51,7 +51,19 @@ def clean_text(raw_html_fragment: str) -> str:
     for noise in ("開店/閉店", "NEW", "New"):
         if text == noise:
             return ""
-    return text
+    # 末尾に付いてくる「2026/09/03 07:01」のような投稿日時表記を除去
+    text = re.sub(r"\s*\d{4}/\d{2}/\d{2}\s+\d{2}:\d{2}\s*$", "", text)
+    # 末尾に付いてくる「開店/閉店」などのカテゴリラベルを除去
+    text = re.sub(r"\s*(開店/閉店|開店|閉店|話題|イベント|まち|お店News)\s*$", "", text)
+    return text.strip()
+
+
+# 飲食店の開店・閉店と無関係なノイズ（求人記事など）を除外するキーワード
+NOISE_KEYWORDS = ("スタッフ募集", "アルバイト募集", "地域担当記者", "求人", "ライター募集")
+
+
+def is_noise(title: str) -> bool:
+    return any(kw in title for kw in NOISE_KEYWORDS)
 
 
 def parse_articles(html: str, limit: int = MAX_ITEMS_PER_AREA):
@@ -62,6 +74,8 @@ def parse_articles(html: str, limit: int = MAX_ITEMS_PER_AREA):
         title = clean_text(raw_text)
         # サムネイル画像だけのリンクや短すぎるテキストは記事タイトルとして扱わない
         if len(title) < 8:
+            continue
+        if is_noise(title):
             continue
         if url in seen_urls:
             continue
