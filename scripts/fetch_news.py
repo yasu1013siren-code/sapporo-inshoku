@@ -43,19 +43,36 @@ def fetch_html(url: str) -> str:
     return raw.decode("utf-8", errors="replace")
 
 
+# 記事一覧に付いてくるカテゴリラベル等（本文中には自然には出てこない語）
+EDGE_LABELS = ("開店/閉店", "話題", "イベント", "まち", "お店News", "NEW", "New")
+
+
+def strip_edge_labels(text: str) -> str:
+    changed = True
+    while changed:
+        changed = False
+        for label in EDGE_LABELS:
+            if text.startswith(label):
+                text = text[len(label):].strip()
+                changed = True
+            if text.endswith(label):
+                text = text[: -len(label)].strip()
+                changed = True
+    return text
+
+
 def clean_text(raw_html_fragment: str) -> str:
     text = TAG_RE.sub(" ", raw_html_fragment)
     text = text.replace("\xa0", " ")
     text = WS_RE.sub(" ", text).strip()
-    # カテゴリラベルなど、記事一覧に混じりがちな定型ノイズを軽く除去
-    for noise in ("開店/閉店", "NEW", "New"):
-        if text == noise:
-            return ""
-    # 末尾に付いてくる「2026/09/03 07:01」のような投稿日時表記を除去
-    text = re.sub(r"\s*\d{4}/\d{2}/\d{2}\s+\d{2}:\d{2}\s*$", "", text)
-    # 末尾に付いてくる「開店/閉店」などのカテゴリラベルを除去
-    text = re.sub(r"\s*(開店/閉店|開店|閉店|話題|イベント|まち|お店News)\s*$", "", text)
-    return text.strip()
+    if text in ("開店/閉店", "NEW", "New"):
+        return ""
+    # 「2026/09/03 07:01」のような投稿日時表記を、出現位置によらず除去
+    text = re.sub(r"\d{4}/\d{2}/\d{2}\s*\d{1,2}:\d{2}", "", text)
+    text = WS_RE.sub(" ", text).strip()
+    # 記事一覧のカテゴリラベルを先頭・末尾から除去（複数付いている場合も繰り返し除去）
+    text = strip_edge_labels(text)
+    return text
 
 
 # 飲食店の開店・閉店と無関係なノイズ（求人記事など）を除外するキーワード
