@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>札幌 中央区・北区 飲食店 開店閉店速報板</title>
+<title>札幌市10区 飲食店 開店閉店速報板</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@600;800&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&display=swap" rel="stylesheet">
 <style>
@@ -223,8 +223,8 @@
       <span class="eyebrow">SAPPORO INSHOKUTEN GOGAI ／ 飲食店開店閉店速報</span>
       <span class="eyebrow" id="auto-refresh-status">自動更新：待機中</span>
     </div>
-    <h1>札幌 中央区・北区<small>飲食店 開店・閉店 速報板</small></h1>
-    <p class="lede">ラーメンから割烹、バーまで業種は問いません。札幌市中央区・北区の飲食店の新規開店・閉店・開店予定情報を、複数の情報源から集めてまとめています。</p>
+    <h1>札幌市10区<small>飲食店 開店・閉店 速報板</small></h1>
+    <p class="lede">ラーメンから割烹、バーまで業種は問いません。札幌市10区すべての飲食店の新規開店・閉店・開店予定情報を、複数の情報源から集めてまとめています。</p>
   </div>
   <div class="stamp">号外</div>
 </div>
@@ -233,44 +233,9 @@
 
 <div class="wrap">
 
-  <div class="tabs" role="tablist" aria-label="エリア切り替え">
-    <button class="tab-btn active" data-area="chuo" role="tab" aria-selected="true">中央区</button>
-    <button class="tab-btn" data-area="kita" role="tab" aria-selected="false">北区</button>
-  </div>
+  <div class="tabs" id="tabs" role="tablist" aria-label="エリア切り替え"></div>
 
-  <!-- 中央区 -->
-  <section class="area active" id="area-chuo">
-    <div class="section-head"><h2>開店予定</h2><span class="count">目安：2ヶ月以内・日付が近い順</span></div>
-    <div class="event-feed" id="chuo-upcoming"></div>
-
-    <div class="section-head"><h2>更新履歴</h2><span class="count">新着順・タップで絞り込み</span></div>
-    <div class="filter-row" data-area="chuo">
-      <button class="chip active" data-filter="all">すべて</button>
-      <button class="chip" data-filter="open">新規開店</button>
-      <button class="chip" data-filter="closed">閉店</button>
-    </div>
-    <div class="event-feed" id="chuo-history"></div>
-
-    <div class="section-head"><h2>最新ニュース速報</h2><span class="count">号外NETより自動収集・毎日17:10更新</span></div>
-    <div class="event-feed" id="chuo-news"></div>
-  </section>
-
-  <!-- 北区 -->
-  <section class="area" id="area-kita">
-    <div class="section-head"><h2>開店予定</h2><span class="count">目安：2ヶ月以内・日付が近い順</span></div>
-    <div class="event-feed" id="kita-upcoming"></div>
-
-    <div class="section-head"><h2>更新履歴</h2><span class="count">新着順・タップで絞り込み</span></div>
-    <div class="filter-row" data-area="kita">
-      <button class="chip active" data-filter="all">すべて</button>
-      <button class="chip" data-filter="open">新規開店</button>
-      <button class="chip" data-filter="closed">閉店</button>
-    </div>
-    <div class="event-feed" id="kita-history"></div>
-
-    <div class="section-head"><h2>最新ニュース速報</h2><span class="count">号外NETより自動収集・毎日17:10更新</span></div>
-    <div class="event-feed" id="kita-news"></div>
-  </section>
+  <div id="area-sections"></div>
 
   <!-- 情報源 -->
   <div class="sources">
@@ -284,6 +249,46 @@
 </div>
 
 <script>
+// ---------------- 10区の一覧とタブ・セクションの動的生成 ----------------
+const AREA_META = [
+  {id:"chuo", label:"中央区"},
+  {id:"kita", label:"北区"},
+  {id:"higashi", label:"東区"},
+  {id:"shiroishi", label:"白石区"},
+  {id:"atsubetsu", label:"厚別区"},
+  {id:"toyohira", label:"豊平区"},
+  {id:"kiyota", label:"清田区"},
+  {id:"minami", label:"南区"},
+  {id:"nishi", label:"西区"},
+  {id:"teine", label:"手稲区"},
+];
+
+function buildTabsAndSections(){
+  const tabsEl = document.getElementById("tabs");
+  const sectionsEl = document.getElementById("area-sections");
+  tabsEl.innerHTML = AREA_META.map((a,i)=>
+    `<button class="tab-btn${i===0?" active":""}" data-area="${a.id}" role="tab" aria-selected="${i===0}">${a.label}</button>`
+  ).join("");
+  sectionsEl.innerHTML = AREA_META.map((a,i)=>`
+    <section class="area${i===0?" active":""}" id="area-${a.id}">
+      <div class="section-head"><h2>開店予定</h2><span class="count">目安：2ヶ月以内・日付が近い順</span></div>
+      <div class="event-feed" id="${a.id}-upcoming"></div>
+
+      <div class="section-head"><h2>更新履歴</h2><span class="count">新着順・タップで絞り込み</span></div>
+      <div class="filter-row" data-area="${a.id}">
+        <button class="chip active" data-filter="all">すべて</button>
+        <button class="chip" data-filter="open">新規開店</button>
+        <button class="chip" data-filter="closed">閉店</button>
+      </div>
+      <div class="event-feed" id="${a.id}-history"></div>
+
+      <div class="section-head"><h2>最新ニュース速報</h2><span class="count">号外NETより自動収集・毎日17:10更新</span></div>
+      <div class="event-feed" id="${a.id}-news"></div>
+    </section>
+  `).join("");
+}
+buildTabsAndSections();
+
 // ---------------- 確定情報（静的データ） ----------------
 const CONFIRMED = {
   chuo: {
@@ -385,6 +390,76 @@ const CONFIRMED = {
       {name:"BEER STAND SORACHI／弁菜亭／Rain Bakeshop", date:"2026-08-31", place:"JR札幌駅構内（北6条西3・4丁目）", note:"駅構内工事の影響による閉店。3店舗とも同日閉店。", source:"札幌速報", url:"https://sapporo-sokuho.com/archives/post-109841.html"},
       {name:"カフェ・ド・クリエ 札幌駅北口店", date:"2026-09-30", place:"北6条西4丁目2-7 J1札幌北口ビル1F", note:"", source:"mogtrip", url:"https://mogtrip.jp/closed-2026/"},
     ]
+  },
+  higashi: {
+    open: [
+      {name:"手打ちそば さくら 伏古店", date:"2026-09-01", place:"伏古2条3丁目3-10", note:"", source:"mogtrip", url:"https://mogtrip.jp/newopen-2026/"},
+      {name:"居酒屋和み", date:"2026-07-06", place:"北13条東13丁目2-43 1F", note:"", source:"mogtrip", url:"https://mogtrip.jp/newopen-2026/"},
+    ],
+    closed: []
+  },
+  shiroishi: {
+    open: [
+      {name:"北麦パン店（リニューアル）", date:"2026-09-01", place:"菊水上町2条3丁目52-61", note:"7月に一度閉店し、リニューアルオープン。", source:"mogtrip", url:"https://mogtrip.jp/newopen-2026/"},
+    ],
+    closed: [
+      {name:"北麦パン店", date:"2026-07-11", place:"菊水上町2条3丁目52-61", note:"9月にリニューアルオープン予定。", source:"mogtrip", url:"https://mogtrip.jp/closed-2026/"},
+    ]
+  },
+  atsubetsu: {
+    open: [],
+    closed: [
+      {name:"どんぐり森林工房", date:"2026-09-30", place:"厚別北4条5丁目1-5", note:"", source:"mogtrip", url:"https://mogtrip.jp/closed-2026/"},
+      {name:"鰻の成瀬 厚別南店", date:"2026-09-30", place:"厚別南4丁目22-11", note:"", source:"mogtrip", url:"https://mogtrip.jp/closed-2026/"},
+      {name:"BAKiE", date:"2026-05-31", place:"厚別区", note:"移転のため閉店。", source:"札幌開店閉店インフォ", url:"https://chamonix-cakes.com/"},
+    ]
+  },
+  toyohira: {
+    open: [
+      {name:"大将料理 菊屋本店 中の島店（移転）", date:"2026-09-01", place:"中の島1条1丁目2-14", note:"", source:"mogtrip", url:"https://mogtrip.jp/newopen-2026/"},
+    ],
+    closed: [
+      {name:"みよしの 中の島店", date:"2026-09-27", place:"中の島2条2丁目1-24", note:"移転のため閉店。", source:"mogtrip", url:"https://mogtrip.jp/closed-2026/"},
+      {name:"味処とんび", date:"2026年6月", place:"豊平区", note:"", source:"札幌開店閉店インフォ", url:"https://chamonix-cakes.com/"},
+    ]
+  },
+  kiyota: {
+    open: [
+      {name:"六花亭 イオンモール札幌平岡店", date:"2026-07-05", place:"平岡7条2丁目2-1", note:"", source:"mogtrip", url:"https://mogtrip.jp/newopen-2026/"},
+      {name:"アネラカフェ 札幌清田店", date:"2025年10月", place:"平岡", note:"保護犬猫と触れ合える福祉型カフェ。", source:"北海道新聞", url:"https://www.hokkaido-np.co.jp/sapporotalk/s_topic/s_mytown/4/"},
+    ],
+    closed: []
+  },
+  minami: {
+    open: [
+      {name:"ラーメンショップ〇化 石山店", date:"2026-09-04", place:"石山1条8丁目4-3", note:"", source:"mogtrip", url:"https://mogtrip.jp/newopen-2026/"},
+      {name:"ちょいおでん札幌澄川店", date:"2026年9月上旬", place:"澄川4条2丁目2-3", note:"", source:"sapporo-list", url:"https://sapporo-list.info/open/september-open/"},
+    ],
+    closed: [
+      {name:"長崎ちゃんぽんの店 ジュン", date:"2026-05-10", place:"簾舞1条5丁目9-1", note:"", source:"mogtrip", url:"https://mogtrip.jp/closed-2026/"},
+    ]
+  },
+  nishi: {
+    open: [
+      {name:"アレモコレモ", date:"2026-09-01", place:"琴似1条3丁目3-7 TM23ビルB1F", note:"", source:"mogtrip", url:"https://mogtrip.jp/newopen-2026/"},
+      {name:"米麦食堂", date:"2026-07-05", place:"西野3条4丁目11-1", note:"", source:"mogtrip", url:"https://mogtrip.jp/newopen-2026/"},
+      {name:"豚梵", date:"2026-07-07", place:"二十四軒1条4丁目3-12 興発ビル1F", note:"", source:"mogtrip", url:"https://mogtrip.jp/newopen-2026/"},
+      {name:"中華爆弾くっきー", date:"2026-02-24", place:"発寒", note:"野性爆弾のくっきーさんが店長。", source:"号外NET", url:"https://sapporonishi-teine.goguynet.jp/category/cat_openclose/"},
+    ],
+    closed: [
+      {name:"Cafe178", date:"2026-09-27", place:"発寒6条10丁目10-8", note:"", source:"mogtrip", url:"https://mogtrip.jp/closed-2026/"},
+      {name:"居酒屋かっ飛びん'S", date:"2026-06-27", place:"琴似2条3丁目1-3 テーオービル1F", note:"", source:"mogtrip", url:"https://mogtrip.jp/closed-2026/"},
+    ]
+  },
+  teine: {
+    open: [
+      {name:"田所商店・俺の空 札幌店", date:"2026年9月下旬", place:"富丘3条2丁目1-1", note:"", source:"mogtrip", url:"https://mogtrip.jp/newopen-2026/"},
+      {name:"スパイスダイニングDIYO", date:"2026年3月中旬", place:"新発寒", note:"「メシケン。」跡地にオープン。", source:"号外NET", url:"https://sapporonishi-teine.goguynet.jp/category/cat_openclose/"},
+    ],
+    closed: [
+      {name:"札幌みその手稲本店", date:"2026-07-26", place:"前田6条10丁目2-1 大吉ビル1F", note:"", source:"mogtrip", url:"https://mogtrip.jp/closed-2026/"},
+      {name:"隠家酒場かっぺ（移転）", date:"2026-06-27", place:"手稲本町2条4丁目7-13 花ゑ会館1F", note:"", source:"mogtrip", url:"https://mogtrip.jp/closed-2026/"},
+    ]
   }
 };
 
@@ -413,7 +488,17 @@ const UPCOMING = {
     {name:"フレッシュネスバーガー麻生店", date:"2026-09-16", place:"北40条西4丁目2-10", note:"", source:"mogtrip", url:"https://mogtrip.jp/newopen-2026/"},
     {name:"銀だこハイボール酒場 北24条店", date:"2026-10-01", place:"北24条西4丁目1-1", note:"", source:"mogtrip", url:"https://mogtrip.jp/newopen-2026/"},
     {name:"七輪焼肉 安安 篠路店", date:"2026-10-05", place:"篠路2条5丁目5-18", note:"10月上旬オープン予定。", source:"mogtrip", url:"https://mogtrip.jp/newopen-2026/"},
-  ]
+  ],
+  higashi: [],
+  shiroishi: [
+    {name:"ろまん亭 イオン東札幌店", date:"2026-09-18", place:"東札幌3条2丁目1 イオン東札幌店", note:"", source:"sapporo-list", url:"https://sapporo-list.info/open/september-open/"},
+  ],
+  atsubetsu: [],
+  toyohira: [],
+  kiyota: [],
+  minami: [],
+  nishi: [],
+  teine: []
 };
 
 const MONTH_NAMES = ["1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"];
@@ -464,7 +549,7 @@ function daysUntilLabel(dateStr){
 function renderUpcoming(){
   const now = new Date(); now.setHours(0,0,0,0);
   const horizon = new Date(now.getTime() + 65*86400000); // 目安：約2ヶ月
-  ["chuo","kita"].forEach(area=>{
+  AREA_META.map(a=>a.id).forEach(area=>{
     const el = document.getElementById(`${area}-upcoming`);
     const items = (UPCOMING[area] || [])
       .filter(i => { const d = parseDateLoose(i.date); return d && d >= now && d <= horizon; })
@@ -482,11 +567,11 @@ function escapeHTML(str){
 }
 
 function renderHistory(){
-  ["chuo","kita"].forEach(area=>{
+  AREA_META.map(a=>a.id).forEach(area=>{
     const el = document.getElementById(`${area}-history`);
     const merged = [
-      ...CONFIRMED[area].open.map(i=>({...i, _type:"open"})),
-      ...CONFIRMED[area].closed.map(i=>({...i, _type:"closed"})),
+      ...(CONFIRMED[area] ? CONFIRMED[area].open.map(i=>({...i, _type:"open"})) : []),
+      ...(CONFIRMED[area] ? CONFIRMED[area].closed.map(i=>({...i, _type:"closed"})) : []),
     ].sort((a,b)=>{
       const da = parseDateLoose(a.date), db = parseDateLoose(b.date);
       if(da && db) return db - da; // 新しい日付が上
@@ -530,6 +615,7 @@ document.querySelectorAll(".tab-btn").forEach(btn=>{
 const SOURCES = [
   {name:"号外NET 札幌市中央区", desc:"開店・閉店カテゴリ", url:"https://sapporochuo.goguynet.jp/category/cat_openclose/"},
   {name:"号外NET 札幌市北区", desc:"開店・閉店カテゴリ", url:"https://sapporokitaku.goguynet.jp/category/cat_openclose/"},
+  {name:"号外NET 札幌市西区・手稲区", desc:"開店・閉店カテゴリ", url:"https://sapporonishi-teine.goguynet.jp/category/cat_openclose/"},
   {name:"mogtrip 札幌新店開店情報一覧", desc:"飲食店のみ・随時更新", url:"https://mogtrip.jp/newopen-2026/"},
   {name:"mogtrip 札幌閉店情報一覧", desc:"飲食店のみ・随時更新", url:"https://mogtrip.jp/closed-2026/"},
   {name:"食べログ 中央区 ニューオープン順", desc:"新規オープン店舗一覧", url:"https://tabelog.com/hokkaido/C1101/rstLst/cond16-00-00/"},
@@ -561,7 +647,8 @@ function newsItemHTML(item){
 }
 
 async function loadAutoNews(){
-  ["chuo","kita"].forEach(area=>{
+  const areaIds = AREA_META.map(a=>a.id);
+  areaIds.forEach(area=>{
     const el = document.getElementById(`${area}-news`);
     if(el) el.innerHTML = `<p class="empty-note">読み込み中…</p>`;
   });
@@ -569,16 +656,16 @@ async function loadAutoNews(){
     const res = await fetch("news.json", {cache:"no-store"});
     if(!res.ok) throw new Error("news.json の取得に失敗しました");
     const data = await res.json();
-    ["chuo","kita"].forEach(area=>{
+    areaIds.forEach(area=>{
       const el = document.getElementById(`${area}-news`);
       if(!el) return;
       const items = (data.areas && data.areas[area]) || [];
       el.innerHTML = items.length
         ? items.map(newsItemHTML).join("")
-        : `<p class="empty-note">自動収集データがまだありません。</p>`;
+        : `<p class="empty-note">この区の自動収集データは現在ありません（対応情報源が無い区もあります）。</p>`;
     });
   }catch(e){
-    ["chuo","kita"].forEach(area=>{
+    areaIds.forEach(area=>{
       const el = document.getElementById(`${area}-news`);
       if(el) el.innerHTML = `<p class="empty-note">自動収集データを読み込めませんでした（news.jsonがまだ生成されていない可能性があります）。</p>`;
     });
