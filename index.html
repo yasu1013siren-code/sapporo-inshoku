@@ -174,6 +174,7 @@
   .tag.type-open{background:rgba(39,74,92,0.12);color:var(--stamp-indigo);}
   .tag.type-closed{background:rgba(169,51,38,0.12);color:var(--stamp-red);}
   .tag.type-upcoming{background:rgba(138,106,36,0.14);color:#8a6a24;}
+  .tag.type-unknown{background:rgba(74,66,55,0.1);color:var(--ink-soft);}
   .tag.countdown{background:#8a6a24;color:#f8f0da;}
   .tag.area-tag{background:rgba(74,66,55,0.1);color:var(--ink-soft);}
 
@@ -228,7 +229,7 @@
   <div class="stamp">号外</div>
 </div>
 
-<p class="updated-line">最終更新：2026年9月3日時点で確認できた情報を掲載しています。</p>
+<p class="updated-line">最終更新：2026年9月5日時点で確認できた情報を掲載しています。</p>
 
 <div class="wrap">
 
@@ -287,6 +288,16 @@
 const CONFIRMED = {
   chuo: {
     open: [
+      {name:"cacaca（果香菓）（移転）", date:"2026-09-04", place:"北5条西9丁目11 シャトーブラン59 1F", note:"移転オープン。", source:"mogtrip", url:"https://mogtrip.jp/newopen-2026/"},
+      {name:"薫ㇽ風（移転）", date:"2026-09-05", place:"南2条西8丁目4-1", note:"移転オープン。", source:"mogtrip", url:"https://mogtrip.jp/newopen-2026/"},
+      {name:"パフェ佐藤大丸店・佐藤堂大丸店（移転）", date:"2026-09-05", place:"北5条西4丁目7 大丸札幌店 B1F", note:"移転オープン。", source:"mogtrip", url:"https://mogtrip.jp/newopen-2026/"},
+      {name:"ボストンベイク 宮の森店", date:"2026-09-03", place:"宮の森", note:"", source:"kaiten-heiten-24", url:"https://kaiten-heiten-24.com/category/sapporo/"},
+      {name:"キャッツアイ宮の森店", date:"2026-09-02", place:"宮の森", note:"カフェ・レストラン。", source:"kaiten-heiten-24", url:"https://kaiten-heiten-24.com/category/sapporo/"},
+      {name:"鎌倉パスタ 円山公園店", date:"2026-09-02", place:"南1条西27丁目1-1 マルヤマクラス", note:"", source:"mogtrip", url:"https://mogtrip.jp/newopen-2026/"},
+      {name:"ノースコンチネント 赤れんが", date:"2026-09-01", place:"北1条西5丁目1-4 アーバンネット札幌リンクタワー", note:"そば・うどん店。", source:"mogtrip", url:"https://mogtrip.jp/newopen-2026/"},
+      {name:"カレーうどん 鬼はそと", date:"2026-09-01", place:"北1条西5丁目1-4 アーバンネット札幌リンクタワー", note:"", source:"mogtrip", url:"https://mogtrip.jp/newopen-2026/"},
+      {name:"ちょこっと寿司 季わ美", date:"2026-09-01", place:"北1条西5丁目1-4 アーバンネット札幌リンクタワー", note:"", source:"mogtrip", url:"https://mogtrip.jp/newopen-2026/"},
+      {name:"タイガーカレー モユク札幌店", date:"2026-09-01", place:"南2条西3丁目20 moyuk SAPPORO B2F", note:"熱々のスープカレー。", source:"号外NET", url:"https://sapporochuo.goguynet.jp/category/cat_openclose/"},
       {name:"味酒屋Sonotoki", date:"2026-08-28", place:"南1西19丁目291", note:"", source:"食べログ", url:"https://tabelog.com/hokkaido/C1101/rstLst/cond16-00-00/"},
       {name:"炭火焼リリー すすきの店", date:"2026-08-15", place:"すすきの", note:"", source:"食べログ", url:"https://tabelog.com/hokkaido/C1101/rstLst/cond16-00-00/"},
       {name:"WINE BAR KOZO", date:"2026-08-14", place:"南5条西4丁目7-6 菊良ビル4F", note:"ススキノで活躍してきた店主によるカジュアルバー。", source:"食べログ", url:"https://tabelog.com/hokkaido/C1101/rstLst/cond16-00-00/"},
@@ -317,6 +328,11 @@ const CONFIRMED = {
       {name:"全国47都道府県の日本酒 旬の海鮮 サケビヨリ 札幌大通店", date:"2026年", place:"北1条西3丁目3-24 札幌中央ビル2F", note:"", source:"MouLa HOKKAIDO", url:"https://moula.jp/articles/trip_eat/entry-8584.html"},
     ],
     closed: [
+      {name:"平塚ジンギスカン 大通店", date:"2026-09-22", place:"南1条西4丁目8-8 NKC1・4ビル1F", note:"", source:"mogtrip", url:"https://mogtrip.jp/closed-2026/"},
+      {name:"STANDING BAR INDEX-SAPPORO", date:"2026-09-26", place:"南6条西3丁目6-14 秋水ビルB1F", note:"", source:"mogtrip", url:"https://mogtrip.jp/closed-2026/"},
+      {name:"の～すくりーむ 4PLA店", date:"2026-09-27", place:"南1条西4丁目1-1 4PLA", note:"", source:"mogtrip", url:"https://mogtrip.jp/closed-2026/"},
+      {name:"INDEX SAPPORO", date:"2026-08-17", place:"中央区", note:"カフェ・レストラン。", source:"kaiten-heiten-24", url:"https://kaiten-heiten-24.com/category/sapporo/"},
+      {name:"札幌かに源", date:"2026-07-31", place:"南6条西4丁目1-3", note:"2023年12月開業からの営業を終了。", source:"札幌開店閉店インフォ", url:"https://chamonix-cakes.com/heiten-abpcoefhbltjoj2bnc/"},
       {name:"リンツ ショコラ ブティック 札幌アピア店", date:"2026-08-16", place:"アピアB1階", note:"改装のため一時休業（再開は9月12日予定）。カフェメニューは終了。", source:"号外NET", url:"https://sapporochuo.goguynet.jp/2026/08/27/lindt-2/"},
       {name:"おにぎりのありんこ ポールタウン店", date:"2026-08-31", place:"さっぽろ地下街ポールタウン", note:"", source:"号外NET", url:"https://sapporochuo.goguynet.jp/2026/08/31/post-49966/"},
       {name:"MUSEUM SHOP & CAFE きねずみ", date:"2026-08-30", place:"北2条西15丁目 北海道立三岸好太郎美術館", note:"", source:"札幌開店閉店インフォ", url:"https://chamonix-cakes.com/"},
@@ -343,6 +359,7 @@ const CONFIRMED = {
   },
   kita: {
     open: [
+      {name:"pond end.", date:"2026-09-04", place:"北34条", note:"看板メニューのチキンオーバーライスが人気の小さなカフェ。", source:"kaiten-heiten", url:"https://kaiten-heiten-24.com/category/sapporo/"},
       {name:"手作りキッチンまー房", date:"2026-06-01", place:"北24条駅そば", note:"本格中華のお弁当専門店。", source:"食べログ", url:"https://tabelog.com/hokkaido/A0101/A010201/rstLst/cond16-00-00/"},
       {name:"餃子のかっちゃん 北24条店", date:"2026-05-30", place:"北24条駅そば", note:"", source:"食べログ", url:"https://tabelog.com/hokkaido/A0101/A010201/rstLst/cond16-00-00/"},
       {name:"KARAUS（ドーナツ）", date:"2026-05-15", place:"北24条駅そば", note:"", source:"食べログ", url:"https://tabelog.com/hokkaido/A0101/A010201/rstLst/cond16-00-00/"},
@@ -359,6 +376,8 @@ const CONFIRMED = {
       {name:"TONDEN RAMEN 蕾-RAI-", date:"2026-07-06", place:"屯田7条2丁目1-1", note:"", source:"mogtrip", url:"https://mogtrip.jp/newopen-2026/"},
     ],
     closed: [
+      {name:"さんぱちラーメン 新琴似店", date:"2026年8月頃", place:"新琴似", note:"跡地には「清湯」の2号店がオープン予定。", source:"号外NET", url:"https://sapporokitaku.goguynet.jp/category/cat_openclose/"},
+      {name:"カネカツかなや食堂 新琴似店", date:"2026-12-31", place:"新琴似", note:"", source:"札幌開店閉店インフォ", url:"https://chamonix-cakes.com/"},
       {name:"pico ricci（ピコリッチ）", date:"2026-06-24", place:"あいの里", note:"", source:"mogtrip", url:"https://mogtrip.jp/closed-2026/"},
       {name:"やきとりさんきゅう北24条店", date:"2026-06-08", place:"北24条", note:"焼鳥1本39円で話題だった店。オープンから約1年4か月での閉店。", source:"号外NET", url:"https://sapporokitaku.goguynet.jp/category/cat_openclose/"},
       {name:"ラーメン豚っち 北大病院前店", date:"2026-06-01", place:"北大病院前", note:"二郎系ラーメン店。オープンから約1年3か月での閉店。", source:"号外NET", url:"https://sapporokitaku.goguynet.jp/category/cat_openclose/"},
@@ -372,13 +391,21 @@ const CONFIRMED = {
 // 開店予定（確定オープン日が判明しているもの／目安2ヶ月以内）
 const UPCOMING = {
   chuo: [
+    {name:"50's DINER ROCA", date:"2026-09-05", place:"中央区", note:"アメリカンダイナーとしてリニューアルオープン。", source:"札幌ショップス", url:"https://www.shopship.jp/open-close/"},
+    {name:"ジンギスカン ラム次郎", date:"2026-09-07", place:"北3条西3丁目1", note:"", source:"mogtrip", url:"https://mogtrip.jp/newopen-2026/"},
     {name:"キャプテンラーメン すすきの店", date:"2026-09-01", place:"すすきの", note:"深夜営業のラーメン店。営業は18時〜翌3時を予定。", source:"号外NET", url:"https://sapporochuo.goguynet.jp/category/cat_openclose/"},
     {name:"銀だこハイボール酒場 すすきのグルーヴビル店", date:"2026-09-08", place:"南4条西5丁目5 GROOVE SUSUKINO BLD 3F", note:"", source:"mogtrip", url:"https://mogtrip.jp/newopen-2026/"},
     {name:"日本茶カフェ pocha", date:"2026-09-10", place:"南25条西13丁目1-31 J&Hマンション1F", note:"", source:"mogtrip", url:"https://mogtrip.jp/newopen-2026/"},
+    {name:"TANUKIの星", date:"2026-09-14", place:"南4条西4丁目1-1 ココノススキノ地下1階", note:"", source:"sapporo-list", url:"https://sapporo-list.info/open/september-open/"},
     {name:"吉野家×はなまるうどん 札幌オーロラタウン店", date:"2026-09-12", place:"大通西2丁目 さっぽろ地下街オーロラタウン", note:"", source:"mogtrip", url:"https://mogtrip.jp/newopen-2026/"},
     {name:"リンツ ショコラ ブティック 札幌アピア店（リニューアル）", date:"2026-09-12", place:"アピアB1階", note:"改装工事のためのリニューアルオープン。カフェメニューは終了予定。", source:"号外NET", url:"https://sapporochuo.goguynet.jp/2026/08/27/lindt-2/"},
+    {name:"北海道炉端アカオニ", date:"2026-09-16", place:"すすきの", note:"", source:"札幌ショップス", url:"https://www.shopship.jp/open-close/"},
     {name:"喫茶ブルーバード", date:"2026-09-17", place:"北2条東4丁目 サッポロファクトリー", note:"", source:"mogtrip", url:"https://mogtrip.jp/newopen-2026/"},
+    {name:"ダーツ&パーティー REGALO 札幌すすきの駅前店", date:"2026-09-18", place:"すすきの駅前", note:"", source:"札幌ショップス", url:"https://www.shopship.jp/open-close/"},
+    {name:"SYNC north", date:"2026-09-18", place:"南2条西5丁目6-1 狸小路5丁目サツゲキ跡地", note:"", source:"sapporo-list", url:"https://sapporo-list.info/open/september-open/"},
+    {name:"挽きたてハンバーグよしだ屋", date:"2026-09-29", place:"南3条西5丁目35-2 NKCビル1階", note:"", source:"sapporo-list", url:"https://sapporo-list.info/open/september-open/"},
     {name:"蝦夷の雫とアテ PAIRINGx HOKKAIDO", date:"2026-10-02", place:"北1条西5丁目1-4 アーバンネット札幌リンクタワー", note:"", source:"mogtrip", url:"https://mogtrip.jp/newopen-2026/"},
+    {name:"宮の森珈琲", date:"2026-10-03", place:"中央区（宮の森・円山エリア）", note:"", source:"札幌開店閉店インフォ", url:"https://chamonix-cakes.com/"},
     {name:"焼肉のわびすけ", date:"2026-10月未定", place:"すすきの", note:"日付未定・要確認。", source:"mogtrip", url:"https://mogtrip.jp/newopen-2026/"},
     {name:"食堂ほく斗 札幌駅前店", date:"2026-10月未定", place:"北2条西2丁目4 マルホビルB1F", note:"日付未定・要確認。", source:"mogtrip", url:"https://mogtrip.jp/newopen-2026/"},
   ],
@@ -390,7 +417,7 @@ const UPCOMING = {
 };
 
 const MONTH_NAMES = ["1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"];
-const TYPE_TAG_LABEL = {open:"新規開店", closed:"閉店", upcoming:"開店予定"};
+const TYPE_TAG_LABEL = {open:"新規開店", closed:"閉店", upcoming:"開店予定", unknown:"要確認"};
 
 function parseDateLoose(dateStr){
   // "2026-09-01" のような形式のみ日付として解釈。"2026年"等はnullを返す。
@@ -520,9 +547,14 @@ function newsItemHTML(item){
   const d = parseDateLoose(item.date);
   const day = d ? String(d.getDate()).padStart(2,"0") : "?";
   const month = d ? MONTH_NAMES[d.getMonth()] : "日付未定";
+  const guessedType = item.type && TYPE_TAG_LABEL[item.type] ? item.type : "unknown";
+  const badgeType = guessedType === "unknown" ? "news" : guessedType;
   return `<div class="event-card" data-type="news">
-    <div class="date-badge type-news"><span class="day">${day}</span><span class="month">${month}</span></div>
+    <div class="date-badge type-${badgeType}"><span class="day">${day}</span><span class="month">${month}</span></div>
     <div class="event-body">
+      <div class="event-tags">
+        <span class="tag type-${guessedType}">${TYPE_TAG_LABEL[guessedType]}（自動判定）</span>
+      </div>
       <h3><a class="src-link" href="${item.url}" target="_blank" rel="noopener noreferrer">${escapeHTML(item.title)} ↗</a></h3>
     </div>
   </div>`;
