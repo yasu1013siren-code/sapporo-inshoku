@@ -1,208 +1,384 @@
 {
-  "generated_at": "2026-09-05T21:01:47+09:00",
+  "generated_at": "2026-09-05T21:09:16+09:00",
   "areas": {
     "chuo": [
       {
-        "title": "【札幌市中央区】マルヤマクラスに「鎌倉パスタ」が9月2日NEW OPEN！もちもち生パスタを楽しめる新店舗",
+        "title": "マルヤマクラスに「鎌倉パスタ」が9月2日NEW OPEN！もちもち生パスタを楽しめる新店舗",
         "url": "https://sapporochuo.goguynet.jp/2026/09/03/kamakura/",
-        "date": "2026-09-03"
+        "date": "2026-09-03",
+        "type": "open"
       },
       {
-        "title": "【札幌市中央区】モユク札幌に「タイガーカレー」が9月1日オープン！熱々のスープカレーを楽しもう",
+        "title": "モユク札幌に「タイガーカレー」が9月1日オープン！熱々のスープカレーを楽しもう",
         "url": "https://sapporochuo.goguynet.jp/2026/09/02/moyuk_sapporo/",
-        "date": "2026-09-02"
+        "date": "2026-09-02",
+        "type": "open"
       },
       {
-        "title": "【札幌市中央区】「パフェ、珈琲、酒、佐藤」大丸札幌店が1階へ移転するそうです",
+        "title": "「パフェ、珈琲、酒、佐藤」大丸札幌店が1階へ移転するそうです",
         "url": "https://sapporochuo.goguynet.jp/2026/09/01/post-49977/",
-        "date": "2026-09-01"
+        "date": "2026-09-01",
+        "type": "unknown"
       },
       {
-        "title": "【札幌市中央区】おにぎりのありんこ「ポールタウン店」が8月31日で閉店へ 愛された店舗に幕",
+        "title": "おにぎりのありんこ「ポールタウン店」が8月31日で閉店へ 愛された店舗に幕",
         "url": "https://sapporochuo.goguynet.jp/2026/08/31/post-49966/",
-        "date": "2026-08-31"
+        "date": "2026-08-31",
+        "type": "closed"
       },
       {
-        "title": "【札幌市中央区】「THE BODY SHOP」が、東急百貨店にオープン！自然由来にこだわるコスメブランドが登場",
+        "title": "「THE BODY SHOP」が、東急百貨店にオープン！自然由来にこだわるコスメブランドが登場",
         "url": "https://sapporochuo.goguynet.jp/2026/08/29/the-body-shop/",
-        "date": "2026-08-29"
+        "date": "2026-08-29",
+        "type": "open"
       },
       {
-        "title": "【札幌市中央区】札幌駅前に「岩見沢精肉卸直営 牛乃家 北3条店」がオープン！手頃な価格で楽しむ焼肉",
+        "title": "札幌駅前に「岩見沢精肉卸直営 牛乃家 北3条店」がオープン！手頃な価格で楽しむ焼肉",
         "url": "https://sapporochuo.goguynet.jp/2026/08/28/ushinoya/",
-        "date": "2026-08-28"
+        "date": "2026-08-28",
+        "type": "open"
       },
       {
-        "title": "【札幌市中央区】リンツ ショコラ ブティック 札幌アピア店がリニューアル！9月12日オープン予定",
+        "title": "リンツ ショコラ ブティック 札幌アピア店がリニューアル！9月12日オープン予定",
         "url": "https://sapporochuo.goguynet.jp/2026/08/27/lindt-2/",
-        "date": "2026-08-27"
+        "date": "2026-08-27",
+        "type": "open"
       },
       {
-        "title": "【札幌市中央区】カラフルな毛糸に囲まれてワクワク！「KFS札幌店」が9月5日にオープン",
+        "title": "カラフルな毛糸に囲まれてワクワク！「KFS札幌店」が9月5日にオープン",
         "url": "https://sapporochuo.goguynet.jp/2026/08/25/kfs-sapporo/",
-        "date": "2026-08-25"
+        "date": "2026-08-25",
+        "type": "open"
       },
       {
-        "title": "【札幌市中央区】すすきのに新たな一杯！「キャプテンラーメンすすきの店」が9月1日オープン",
+        "title": "すすきのに新たな一杯！「キャプテンラーメンすすきの店」が9月1日オープン",
         "url": "https://sapporochuo.goguynet.jp/2026/08/24/captain_ramen/",
-        "date": "2026-08-24"
+        "date": "2026-08-24",
+        "type": "open"
       },
       {
-        "title": "【札幌市中央区】さっぽろ地下街オーロラタウンに「吉野家×はなまるうどん」コラボ店が9月中旬オープン！",
-        "url": "https://sapporochuo.goguynet.jp/2026/08/08/sapporo-chikagai-5/",
-        "date": "2026-08-08"
+        "title": "札幌に人気スイーツが大集合！「スイーツガーデンSAPPORO2026」アカプラで開催",
+        "url": "https://sapporochuo.goguynet.jp/2026/08/20/sweets_garden_sapporo-2/",
+        "date": "2026-08-20",
+        "type": "unknown"
       },
       {
-        "title": "【札幌市中央区】「SATURDAYS CO ココノススキノ店」が7月31日で閉店 9月には新たな拠点「GARAGE」オープン予定",
-        "url": "https://sapporochuo.goguynet.jp/2026/08/05/saturdayschocolate/",
-        "date": "2026-08-05"
-      },
-      {
-        "title": "【札幌市中央区】サッポロファクトリー「Milk Cafeみるく san」が8月16日で営業終了 ありがとうキャンペーンも開催中",
-        "url": "https://sapporochuo.goguynet.jp/2026/08/02/milk_san_hokkaido/",
-        "date": "2026-08-02"
-      },
-      {
-        "title": "【札幌市中央区】札幌都心の新ランドマーク「アーバンネット札幌リンクタワー」が竣工！9月から話題の飲食店も続々オープン",
-        "url": "https://sapporochuo.goguynet.jp/2026/07/27/city-sapporo-link_tower/",
-        "date": "2026-07-27"
-      },
-      {
-        "title": "【札幌市中央区】コトモノマルシェ大丸札幌店が7月28日閉店 8月7日に札幌ステラプレイスへ移転オープン！",
-        "url": "https://sapporochuo.goguynet.jp/2026/07/26/post-49839/",
-        "date": "2026-07-26"
-      },
-      {
-        "title": "【札幌市中央区】伏見温泉が7月25日で閉店へ地域に愛された昔ながらの銭湯が営業終了",
-        "url": "https://sapporochuo.goguynet.jp/2026/07/24/kita-no-sento/",
-        "date": "2026-07-24"
-      },
-      {
-        "title": "【札幌市中央区】anaBa 凹場（あなば）がタコスまみれに！「TACOS FES SAPPORO」開催",
+        "title": "anaBa 凹場（あなば）がタコスまみれに！「TACOS FES SAPPORO」開催",
         "url": "https://sapporochuo.goguynet.jp/2026/08/16/tacosfessapporo/",
-        "date": "2026-08-16"
+        "date": "2026-08-16",
+        "type": "unknown"
       },
       {
-        "title": "【札幌市中央区】第28回「円山夏祭り 子供盆踊り大会」 開催！2日間限定の歩行者天国で盆踊りを楽しもう",
-        "url": "https://sapporochuo.goguynet.jp/2026/08/03/shotengai-maruyama_natsumatsuri/",
-        "date": "2026-08-03"
-      },
-      {
-        "title": "【札幌市中央区】中島公園で3日間限定！「札幌中島公園大盆踊り大会2026」開催",
-        "url": "https://sapporochuo.goguynet.jp/2026/06/21/sathubon/",
-        "date": "2026-06-21"
-      },
-      {
-        "title": "【札幌市中央区】札幌でタイ旅行気分を味わえる「アナバ THAI FESTIVAL 2026」が開催されます",
-        "url": "https://sapporochuo.goguynet.jp/2026/07/25/post-49838/",
-        "date": "2026-07-25"
-      },
-      {
-        "title": "【札幌市中央区】沖縄気分を満喫！「沖縄フェスビアガーデン2026」が狸二条広場で開催",
+        "title": "沖縄気分を満喫！「沖縄フェスビアガーデン2026」が狸二条広場で開催",
         "url": "https://sapporochuo.goguynet.jp/2026/08/11/okinawafes-jp-sapporo2026/",
-        "date": "2026-08-11"
+        "date": "2026-08-11",
+        "type": "unknown"
+      },
+      {
+        "title": "さっぽろ地下街オーロラタウンに「吉野家×はなまるうどん」コラボ店が9月中旬オープン！",
+        "url": "https://sapporochuo.goguynet.jp/2026/08/08/sapporo-chikagai-5/",
+        "date": "2026-08-08",
+        "type": "open"
+      },
+      {
+        "title": "「SATURDAYS CO ココノススキノ店」が7月31日で閉店 9月には新たな拠点「GARAGE」オープン予定",
+        "url": "https://sapporochuo.goguynet.jp/2026/08/05/saturdayschocolate/",
+        "date": "2026-08-05",
+        "type": "closed"
+      },
+      {
+        "title": "第28回「円山夏祭り 子供盆踊り大会」 開催！2日間限定の歩行者天国で盆踊りを楽しもう",
+        "url": "https://sapporochuo.goguynet.jp/2026/08/03/shotengai-maruyama_natsumatsuri/",
+        "date": "2026-08-03",
+        "type": "unknown"
+      },
+      {
+        "title": "サッポロファクトリー「Milk Cafeみるく san」が8月16日で営業終了 ありがとうキャンペーンも開催中",
+        "url": "https://sapporochuo.goguynet.jp/2026/08/02/milk_san_hokkaido/",
+        "date": "2026-08-02",
+        "type": "closed"
+      },
+      {
+        "title": "札幌都心の新ランドマーク「アーバンネット札幌リンクタワー」が竣工！9月から話題の飲食店も続々オープン",
+        "url": "https://sapporochuo.goguynet.jp/2026/07/27/city-sapporo-link_tower/",
+        "date": "2026-07-27",
+        "type": "open"
+      },
+      {
+        "title": "コトモノマルシェ大丸札幌店が7月28日閉店 8月7日に札幌ステラプレイスへ移転オープン！",
+        "url": "https://sapporochuo.goguynet.jp/2026/07/26/post-49839/",
+        "date": "2026-07-26",
+        "type": "closed"
+      },
+      {
+        "title": "札幌でタイ旅行気分を味わえる「アナバ THAI FESTIVAL 2026」が開催されます",
+        "url": "https://sapporochuo.goguynet.jp/2026/07/25/post-49838/",
+        "date": "2026-07-25",
+        "type": "unknown"
+      },
+      {
+        "title": "伏見温泉が7月25日で閉店へ地域に愛された昔ながらの銭湯が営業終了",
+        "url": "https://sapporochuo.goguynet.jp/2026/07/24/kita-no-sento/",
+        "date": "2026-07-24",
+        "type": "closed"
       }
     ],
     "kita": [
       {
-        "title": "【札幌市北区】今年も販売が始まっていますよ！「ファームやなぎさわ」の絶品トウモロコシを買いに行ってきました",
+        "title": "今年も販売が始まっていますよ！「ファームやなぎさわ」の絶品トウモロコシを買いに行ってきました",
         "url": "https://sapporokitaku.goguynet.jp/2026/09/04/yanagisawa-7/",
-        "date": "2026-09-04"
+        "date": "2026-09-04",
+        "type": "unknown"
       },
       {
-        "title": "【札幌市北区】「MEGAドン・キホーテ篠路店」2階に「ハウスドゥ太平」が9月中旬オープン予定！",
+        "title": "「MEGAドン・キホーテ篠路店」2階に「ハウスドゥ太平」が9月中旬オープン予定！",
         "url": "https://sapporokitaku.goguynet.jp/2026/09/02/housedo-3/",
-        "date": "2026-09-02"
+        "date": "2026-09-02",
+        "type": "open"
       },
       {
-        "title": "【札幌市北区】北20条に「いろどり弁当」が8月28日オープン！仕出し弁当やテイクアウトに対応するお弁当屋さんです",
+        "title": "北20条に「いろどり弁当」が8月28日オープン！仕出し弁当やテイクアウトに対応するお弁当屋さんです",
         "url": "https://sapporokitaku.goguynet.jp/2026/09/01/irodoribento/",
-        "date": "2026-09-01"
+        "date": "2026-09-01",
+        "type": "open"
       },
       {
-        "title": "【札幌市北区】「さんぱちラーメン 新琴似店」が閉店していました。跡地には「清湯」の2号店がオープンするようです",
+        "title": "「さんぱちラーメン 新琴似店」が閉店していました。跡地には「清湯」の2号店がオープンするようです",
         "url": "https://sapporokitaku.goguynet.jp/2026/08/31/sanpachi/",
-        "date": "2026-08-31"
+        "date": "2026-08-31",
+        "type": "closed"
       },
       {
-        "title": "【札幌市北区】漏水の影響による不具合のため、イオン札幌麻生店の地下にあった「よくわかる！ほけん案内」が閉店",
+        "title": "漏水の影響による不具合のため、イオン札幌麻生店の地下にあった「よくわかる！ほけん案内」が閉店",
         "url": "https://sapporokitaku.goguynet.jp/2026/08/30/hoken/",
-        "date": "2026-08-30"
+        "date": "2026-08-30",
+        "type": "closed"
       },
       {
-        "title": "【札幌市北区】「DCM篠路店」が9月13日で閉店へ……。店舗移転のため、長年親しまれてきたホームセンターが閉店することに",
+        "title": "「DCM篠路店」が9月13日で閉店へ……。店舗移転のため、長年親しまれてきたホームセンターが閉店することに",
         "url": "https://sapporokitaku.goguynet.jp/2026/08/29/dcm-6/",
-        "date": "2026-08-29"
+        "date": "2026-08-29",
+        "type": "closed"
       },
       {
-        "title": "【札幌市北区】「フレッシュネスバーガー 札幌麻生店」が9月16日オープン！現地では看板もお目見えし、開店準備が進んでいます",
+        "title": "「フレッシュネスバーガー 札幌麻生店」が9月16日オープン！現地では看板もお目見えし、開店準備が進んでいます",
         "url": "https://sapporokitaku.goguynet.jp/2026/08/27/freshness-3/",
-        "date": "2026-08-27"
+        "date": "2026-08-27",
+        "type": "open"
       },
       {
-        "title": "【札幌市北区】新琴似に「オリーブの丘」が10月22日オープン予定！「はま寿司」駐車場に隣接する場所で建設が進んでいます",
+        "title": "新琴似に「オリーブの丘」が10月22日オープン予定！「はま寿司」駐車場に隣接する場所で建設が進んでいます",
         "url": "https://sapporokitaku.goguynet.jp/2026/08/26/olive-italian/",
-        "date": "2026-08-26"
+        "date": "2026-08-26",
+        "type": "open"
       },
       {
-        "title": "【札幌市北区】屯田に愛犬同伴OKの「喫茶いぬの隠れ家」がオープンしているのを発見！わんちゃんとのんびりカフェ時間を！",
+        "title": "屯田に愛犬同伴OKの「喫茶いぬの隠れ家」がオープンしているのを発見！わんちゃんとのんびりカフェ時間を！",
         "url": "https://sapporokitaku.goguynet.jp/2026/08/23/inunokakurega/",
-        "date": "2026-08-23"
+        "date": "2026-08-23",
+        "type": "open"
       },
       {
-        "title": "【札幌市北区】麻生駅近くに、子ども向けの体操教室「ネイス体操教室」がオープンするようです！",
+        "title": "麻生駅近くに、子ども向けの体操教室「ネイス体操教室」がオープンするようです！",
         "url": "https://sapporokitaku.goguynet.jp/2026/08/21/neis/",
-        "date": "2026-08-21"
+        "date": "2026-08-21",
+        "type": "open"
       },
       {
-        "title": "【札幌市北区】札幌駅の改札内からまたひとつお店が消える…。焼き菓子の人気店「Rain」が8月31日で閉店へ",
-        "url": "https://sapporokitaku.goguynet.jp/2026/08/18/rain/",
-        "date": "2026-08-18"
-      },
-      {
-        "title": "【札幌市北区】北34条に小さなカフェ「pond end.」が9月初旬オープン予定！看板メニューのチキンオーバーライスが気になる…！",
-        "url": "https://sapporokitaku.goguynet.jp/2026/08/17/pond-end/",
-        "date": "2026-08-17"
-      },
-      {
-        "title": "【札幌市北区】札幌駅北口の「カフェ・ド・クリエ」が9月末で閉店へ。駅チカ＆電源完備で便利だったカフェが姿を消します…",
-        "url": "https://sapporokitaku.goguynet.jp/2026/08/16/cafedecrie-close/",
-        "date": "2026-08-16"
-      },
-      {
-        "title": "【札幌市北区】北24条におにぎり専門店「空とぶおにぎり」が8月中旬オープン！開店に向けて準備が進んでいます",
-        "url": "https://sapporokitaku.goguynet.jp/2026/08/14/soratobuonigiri/",
-        "date": "2026-08-14"
-      },
-      {
-        "title": "【札幌市北区】篠路の「鯖一」跡地に焼肉店「安安」がオープンへ！ランチは1,000円以下の定食も",
-        "url": "https://sapporokitaku.goguynet.jp/2026/08/11/anan-2/",
-        "date": "2026-08-11"
-      },
-      {
-        "title": "【札幌市北区】連日完売する人気のトウモロコシ直売所「ファームやなぎさわ」。2026年の販売開始はもうそろそろ？",
-        "url": "https://sapporokitaku.goguynet.jp/2026/08/09/yanagisawa2026/",
-        "date": "2026-08-09"
-      },
-      {
-        "title": "【札幌市北区】今年も篠路で夏祭りが開催！『第4回楽しい街づくりのための篠路夏祭り』が8月22日・23日に開催されます。",
+        "title": "今年も篠路で夏祭りが開催！『第4回楽しい街づくりのための篠路夏祭り』が8月22日・23日に開催されます。",
         "url": "https://sapporokitaku.goguynet.jp/2026/08/20/shinoronatsumaturi/",
-        "date": "2026-08-20"
+        "date": "2026-08-20",
+        "type": "unknown"
       },
       {
-        "title": "【札幌市北区】「DCM 太平店」が9月中旬オープン予定！100円ショップ「キャンドゥ」も併設へ",
-        "url": "https://sapporokitaku.goguynet.jp/2026/06/30/dcm-5/",
-        "date": "2026-06-30"
+        "title": "札幌駅の改札内からまたひとつお店が消える…。焼き菓子の人気店「Rain」が8月31日で閉店へ",
+        "url": "https://sapporokitaku.goguynet.jp/2026/08/18/rain/",
+        "date": "2026-08-18",
+        "type": "closed"
       },
       {
-        "title": "【札幌市北区】北大近くの人気ラーメン店が新琴似に！「らーめん清湯」の新店舗が9月にオープンするようですよ",
-        "url": "https://sapporokitaku.goguynet.jp/2026/08/07/chintan/",
-        "date": "2026-08-07"
+        "title": "北34条に小さなカフェ「pond end.」が9月初旬オープン予定！看板メニューのチキンオーバーライスが気になる…！",
+        "url": "https://sapporokitaku.goguynet.jp/2026/08/17/pond-end/",
+        "date": "2026-08-17",
+        "type": "open"
       },
       {
-        "title": "【札幌市北区】「シーナシーナ屯田」が2周年！8月8日（土）から“夏シーナ2026”スタート、連日イベント盛りだくさんです",
+        "title": "札幌駅北口の「カフェ・ド・クリエ」が9月末で閉店へ。駅チカ＆電源完備で便利だったカフェが姿を消します…",
+        "url": "https://sapporokitaku.goguynet.jp/2026/08/16/cafedecrie-close/",
+        "date": "2026-08-16",
+        "type": "closed"
+      },
+      {
+        "title": "北24条におにぎり専門店「空とぶおにぎり」が8月中旬オープン！開店に向けて準備が進んでいます",
+        "url": "https://sapporokitaku.goguynet.jp/2026/08/14/soratobuonigiri/",
+        "date": "2026-08-14",
+        "type": "open"
+      },
+      {
+        "title": "篠路の「鯖一」跡地に焼肉店「安安」がオープンへ！ランチは1,000円以下の定食も",
+        "url": "https://sapporokitaku.goguynet.jp/2026/08/11/anan-2/",
+        "date": "2026-08-11",
+        "type": "open"
+      },
+      {
+        "title": "連日完売する人気のトウモロコシ直売所「ファームやなぎさわ」。2026年の販売開始はもうそろそろ？",
+        "url": "https://sapporokitaku.goguynet.jp/2026/08/09/yanagisawa2026/",
+        "date": "2026-08-09",
+        "type": "unknown"
+      },
+      {
+        "title": "「シーナシーナ屯田」が2周年！8月8日（土）から“夏シーナ2026”スタート、連日イベント盛りだくさんです",
         "url": "https://sapporokitaku.goguynet.jp/2026/08/08/ciinacina/",
-        "date": "2026-08-08"
+        "date": "2026-08-08",
+        "type": "unknown"
+      },
+      {
+        "title": "北大近くの人気ラーメン店が新琴似に！「らーめん清湯」の新店舗が9月にオープンするようですよ",
+        "url": "https://sapporokitaku.goguynet.jp/2026/08/07/chintan/",
+        "date": "2026-08-07",
+        "type": "open"
+      },
+      {
+        "title": "「DCM 太平店」が9月中旬オープン予定！100円ショップ「キャンドゥ」も併設へ",
+        "url": "https://sapporokitaku.goguynet.jp/2026/06/30/dcm-5/",
+        "date": "2026-06-30",
+        "type": "open"
+      }
+    ],
+    "higashi": [],
+    "shiroishi": [],
+    "atsubetsu": [],
+    "toyohira": [],
+    "kiyota": [],
+    "minami": [],
+    "nishi": [
+      {
+        "title": "発寒に新たなヘアサロンが誕生！理美容室「Buddy（バディ）」が移転オープンしました。",
+        "url": "https://sapporonishi-teine.goguynet.jp/2026/04/28/buddy/",
+        "date": "2026-04-28",
+        "type": "open"
+      },
+      {
+        "title": "テスライオンモール札幌発寒店 が4月25日にオープンしました！",
+        "url": "https://sapporonishi-teine.goguynet.jp/2026/04/26/teslaaeonsapporohassamu/",
+        "date": "2026-04-26",
+        "type": "open"
+      },
+      {
+        "title": "北海道初出店！5月30日にピラティスミラー琴似がオープンします！オープン前キャンペーンも行いますよ。",
+        "url": "https://sapporonishi-teine.goguynet.jp/2026/04/21/pilatesmirrorkotoni/",
+        "date": "2026-04-21",
+        "type": "open"
+      },
+      {
+        "title": "ケンタッキーフライドチキン八軒店が休業しています。再開時期も判明しました。",
+        "url": "https://sapporonishi-teine.goguynet.jp/2026/04/19/kfchachiken/",
+        "date": "2026-04-19",
+        "type": "closed"
+      },
+      {
+        "title": "原始焼藁焼き鮮魚 青弐才 琴似店が4月22日にオープンします！",
+        "url": "https://sapporonishi-teine.goguynet.jp/2026/04/18/aonisai/",
+        "date": "2026-04-18",
+        "type": "open"
+      },
+      {
+        "title": "ニトリデコホームイオン札幌西町店が2026年4月下旬にオープンします！",
+        "url": "https://sapporonishi-teine.goguynet.jp/2026/04/16/nitoridekohomenishimachi/",
+        "date": "2026-04-16",
+        "type": "open"
+      },
+      {
+        "title": "北海道内2店舗目！イタリア食堂「オリーブの丘」が西町で建設中です。",
+        "url": "https://sapporonishi-teine.goguynet.jp/2026/04/06/olivenooka/",
+        "date": "2026-04-06",
+        "type": "unknown"
+      },
+      {
+        "title": "琴似駅裏にフィットネスジムFIT365 札幌琴似駅東口がオープンすることが判明しました！",
+        "url": "https://sapporonishi-teine.goguynet.jp/2026/04/04/fit365kotoni/",
+        "date": "2026-04-04",
+        "type": "open"
+      },
+      {
+        "title": "西町にはま寿司がオープンします！オープン時期も判明しました。",
+        "url": "https://sapporonishi-teine.goguynet.jp/2026/04/03/nishinohamazushi/",
+        "date": "2026-04-03",
+        "type": "open"
+      },
+      {
+        "title": "イオンモール札幌発寒のプラステがユニクロ店内に移転リニューアルオープンします！",
+        "url": "https://sapporonishi-teine.goguynet.jp/2026/03/24/plst/",
+        "date": "2026-03-24",
+        "type": "open"
+      },
+      {
+        "title": "4月1日から平日ランチ営業がスタート！琴似のコーヒービーンズ&amp;クッキング コラボ.は自家焙煎のコーヒーと食事が楽しめるお店です。",
+        "url": "https://sapporonishi-teine.goguynet.jp/2026/03/22/colabkotoni/",
+        "date": "2026-03-22",
+        "type": "unknown"
+      },
+      {
+        "title": "ユニクロ イオンモール札幌発寒店が4月24日リニューアルオープン！現在は一時閉店中です。",
+        "url": "https://sapporonishi-teine.goguynet.jp/2026/03/21/uniqlohassamu/",
+        "date": "2026-03-21",
+        "type": "closed"
+      },
+      {
+        "title": "ニューオープン！韓国などのアジアンコスメ、食材、雑貨を販売するバラエティストア「ムニット」がイオンモール札幌発寒に開店しましたよ。",
+        "url": "https://sapporonishi-teine.goguynet.jp/2026/03/19/munitopen/",
+        "date": "2026-03-19",
+        "type": "open"
+      },
+      {
+        "title": "3月8日西野にオープン！Mr.くれーぷはお子様連れ大歓迎の道産米粉を使用したクレープ屋さんですよ。キッズスペースもあります。",
+        "url": "https://sapporonishi-teine.goguynet.jp/2026/03/15/mrcrepeopen/",
+        "date": "2026-03-15",
+        "type": "open"
+      },
+      {
+        "title": "中華爆弾くっきーが2月24日発寒にオープンしました！店長さんは野性爆弾のくっきーさん似だと話題ですよ。",
+        "url": "https://sapporonishi-teine.goguynet.jp/2026/02/25/cyukabakudankukkiopen/",
+        "date": "2026-02-25",
+        "type": "open"
+      },
+      {
+        "title": "西健康づくりセンターは2025年9月21日から2026年10月末頃まで休館しています。",
+        "url": "https://sapporonishi-teine.goguynet.jp/2026/02/22/nishikenkokyukan/",
+        "date": "2026-02-22",
+        "type": "unknown"
+      },
+      {
+        "title": "イオンモール札幌発寒のもくいくひろばは無料でこどもたちが遊べる場所だと人気です。",
+        "url": "https://sapporonishi-teine.goguynet.jp/2025/04/12/hassamumokuikuhiroba/",
+        "date": "2025-04-12",
+        "type": "unknown"
+      }
+    ],
+    "teine": [
+      {
+        "title": "可愛い空間で自律型学習！富丘に3月1日Kawaii塾がオープンしました！",
+        "url": "https://sapporonishi-teine.goguynet.jp/2026/03/28/kawaiijyuku/",
+        "date": "2026-03-28",
+        "type": "open"
+      },
+      {
+        "title": "キッチン青山は本場イタリア産のチーズと北海道産小麦を使用したマルゲリータが一押しのピザ屋さんですよ。",
+        "url": "https://sapporonishi-teine.goguynet.jp/2025/11/21/kitchenaoyama/",
+        "date": "2025-11-21",
+        "type": "unknown"
+      },
+      {
+        "title": "なんとイオンの屋上がビアガーデン！7月30日から8月24日までイオン札幌手稲駅前店の屋上にビアガーデンがオープンしています！",
+        "url": "https://sapporonishi-teine.goguynet.jp/2025/08/04/okujyoterasubbq/",
+        "date": "2025-08-04",
+        "type": "open"
+      },
+      {
+        "title": "イオン札幌手稲駅前ショッピングセンターの屋内広場がリニューアルして子どもも遊べると話題です。",
+        "url": "https://sapporonishi-teine.goguynet.jp/2025/03/28/aeonsapporoteineekimaetenhiroba/",
+        "date": "2025-03-28",
+        "type": "open"
       }
     ]
   }
