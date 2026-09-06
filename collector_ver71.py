@@ -130,18 +130,20 @@ SOURCE_CONFIG = [
     },
 
     # 札幌ローカル開店閉店
-    {"id": "mogtrip_open", "name": "mogtrip・新店", "url": "https://mogtrip.jp/newopen-2026/", "kind": "article_list", "priority": 90},
-    {"id": "mogtrip_close", "name": "mogtrip・閉店", "url": "https://mogtrip.jp/closed-2026/", "kind": "article_list", "priority": 90},
+    # default_status: ページ自体が「新店だけ」「閉店だけ」の一覧である場合、
+    # 記事本文からステータス語（オープン/閉店）が拾えなくてもこの値を採用する。
+    {"id": "mogtrip_open", "name": "mogtrip・新店", "url": "https://mogtrip.jp/newopen-2026/", "kind": "article_list", "priority": 90, "default_status": "open"},
+    {"id": "mogtrip_close", "name": "mogtrip・閉店", "url": "https://mogtrip.jp/closed-2026/", "kind": "article_list", "priority": 90, "default_status": "closed"},
     {"id": "shopship", "name": "札幌ショップス・開店閉店", "url": "https://www.shopship.jp/sapporo/open-close/", "kind": "article_list", "priority": 90},
-    {"id": "gogai_chuo", "name": "号外NET 札幌市中央区", "url": "https://sapporochuo.goguynet.jp/category/cat_openclose/", "kind": "article_list", "priority": 80},
-    {"id": "gogai_kita", "name": "号外NET 札幌市北区", "url": "https://sapporokitaku.goguynet.jp/category/cat_openclose/", "kind": "article_list", "priority": 80},
-    {"id": "gogai_nishi_teine", "name": "号外NET 札幌市西区・手稲区", "url": "https://sapporonishi-teine.goguynet.jp/category/cat_openclose/", "kind": "article_list", "priority": 80},
-    {"id": "sapporo_sokuho_close", "name": "札幌速報・閉店", "url": "https://sapporo-sokuho.com/archives/category/%E9%96%8B%E5%BA%97%E3%83%BB%E9%96%89%E5%BA%97/%E9%96%89%E5%BA%97%E6%83%85%E5%A0%B1", "kind": "article_list", "priority": 80},
-    {"id": "sapporo_list_open", "name": "札幌リスト・開店", "url": "https://sapporo-list.info/open/", "kind": "article_list", "priority": 75},
+    {"id": "gogai_chuo", "name": "号外NET 札幌市中央区", "url": "https://sapporochuo.goguynet.jp/category/cat_openclose/", "kind": "gogai_list", "priority": 80},
+    {"id": "gogai_kita", "name": "号外NET 札幌市北区", "url": "https://sapporokitaku.goguynet.jp/category/cat_openclose/", "kind": "gogai_list", "priority": 80},
+    {"id": "gogai_nishi_teine", "name": "号外NET 札幌市西区・手稲区", "url": "https://sapporonishi-teine.goguynet.jp/category/cat_openclose/", "kind": "gogai_list", "priority": 80},
+    {"id": "sapporo_sokuho_close", "name": "札幌速報・閉店", "url": "https://sapporo-sokuho.com/archives/category/%E9%96%8B%E5%BA%97%E3%83%BB%E9%96%89%E5%BA%97/%E9%96%89%E5%BA%97%E6%83%85%E5%A0%B1", "kind": "article_list", "priority": 80, "default_status": "closed"},
+    {"id": "sapporo_list_open", "name": "札幌リスト・開店", "url": "https://sapporo-list.info/open/", "kind": "article_list", "priority": 75, "default_status": "open"},
     {"id": "sapporo_yard", "name": "SAPPOROYARD", "url": "https://sapporoyard.com/archives/openclose.html", "kind": "article_list", "priority": 70},
     {"id": "kaiten_heiten", "name": "開店閉店.com・札幌", "url": "https://kaiten-heiten-24.com/category/sapporo/", "kind": "article_list", "priority": 70},
     {"id": "living_sapporo", "name": "リビング札幌Web・開店閉店", "url": "https://mrs.living.jp/sapporo/newopen", "kind": "article_list", "priority": 70},
-    {"id": "satsutter", "name": "サツッター・新店舗", "url": "https://satsutter.com/tag/%E6%96%B0%E5%BA%97%E8%88%97%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3", "kind": "article_list", "priority": 65},
+    {"id": "satsutter", "name": "サツッター・新店舗", "url": "https://satsutter.com/tag/%E6%96%B0%E5%BA%97%E8%88%97%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3", "kind": "article_list", "priority": 65, "default_status": "open"},
     {"id": "chamonix", "name": "札幌開店閉店インフォ", "url": "https://chamonix-cakes.com/", "kind": "article_list", "priority": 65},
 ]
 
@@ -423,7 +425,7 @@ def article_candidates(source: dict, max_items: int = 120):
         context = clean(a.parent.get_text(" ", strip=True))[:700] if a.parent else title
         text = f"{title} {context}"
         status = detect_status(text)
-        if status == "unknown":
+        if status == "unknown" and not source.get("default_status"):
             reject(source, "開閉ステータス不明", title, href)
             continue
         if not is_food(text):
@@ -440,6 +442,9 @@ def collect_article_source(source: dict):
     for title, href, context in article_candidates(source):
         text = f"{title} {context}"
         status = detect_status(text)
+        if status == "unknown" and source.get("default_status"):
+            # このページ自体が「新店だけ」「閉店だけ」の一覧である場合の救済措置
+            status = source["default_status"]
         name = extract_name_from_title(title)
         ward = detect_ward(text)
         d = parse_date(text)
@@ -873,6 +878,103 @@ def write_report(raw, merged, payload, today):
 
 
 def collect_all():
+    # 号外NET系（gogai_list）は記事URLに投稿日が入るパーマリンク構造と、
+    # 記事タイトル先頭の「【札幌市◯◯区】」表記を使うと、汎用の<a>タグ走査より
+    # はるかに高精度・高再現率で抽出できるため専用ロジックを使う。
+    GOGAI_LINK_RE = re.compile(
+        r'<a[^>]+href="(https://[a-z0-9.\-]+\.goguynet\.jp/(\d{4})/(\d{2})/(\d{2})/[^"?#]+/?)"[^>]*>(.*?)</a>',
+        re.IGNORECASE | re.DOTALL,
+    )
+    GOGAI_TAG_STRIP_RE = re.compile(r"<[^>]+>")
+    GOGAI_WS_RE = re.compile(r"\s+")
+    GOGAI_WARD_TAG_RE = re.compile(r"^【札幌市(.+?)】")
+    GOGAI_EDGE_LABELS = ("開店/閉店", "話題", "イベント", "まち", "お店News", "NEW", "New")
+
+    def gogai_clean(raw_html_fragment: str) -> str:
+        text = GOGAI_TAG_STRIP_RE.sub(" ", raw_html_fragment)
+        text = text.replace("\xa0", " ")
+        text = GOGAI_WS_RE.sub(" ", text).strip()
+        text = re.sub(r"\d{4}/\d{2}/\d{2}\s*\d{1,2}:\d{2}", "", text)
+        text = GOGAI_WS_RE.sub(" ", text).strip()
+        changed = True
+        while changed:
+            changed = False
+            for label in GOGAI_EDGE_LABELS:
+                if text.startswith(label):
+                    text = text[len(label):].strip()
+                    changed = True
+                if text.endswith(label):
+                    text = text[: -len(label)].strip()
+                    changed = True
+        return text
+
+    def collect_gogai_source(source: dict):
+        init_source_stats(source)
+        if not is_allowed_by_robots(source["url"]):
+            log.warning("robots.txtにより除外: %s (%s)", source["name"], source["url"])
+            reject(source, "robots.txt禁止")
+            return
+        html = fetch_text(source["url"])
+        if not html:
+            SOURCE_STATS[source["id"]]["errors"] += 1
+            reject(source, "取得失敗")
+            return
+
+        seen_urls = set()
+        for m in GOGAI_LINK_RE.finditer(html):
+            href, year, month, day, raw_text = m.groups()
+            SOURCE_STATS[source["id"]]["scanned"] += 1
+            title_raw = gogai_clean(raw_text)
+            if len(title_raw) < 8:
+                reject(source, "タイトル短すぎ/空", title_raw, href)
+                continue
+            if href in seen_urls:
+                reject(source, "URL重複", title_raw, href)
+                continue
+            seen_urls.add(href)
+            SOURCE_STATS[source["id"]]["link_candidates"] += 1
+
+            wm = GOGAI_WARD_TAG_RE.match(title_raw)
+            if not wm:
+                reject(source, "区タグなし", title_raw, href)
+                continue
+            ward_name = wm.group(1)
+            name_text = title_raw[wm.end():].strip()
+            if ward_name not in WARDS:
+                reject(source, "区名不明", title_raw, href)
+                continue
+            if len(name_text) < 6:
+                reject(source, "タイトル短すぎ/空", name_text, href)
+                continue
+
+            status = detect_status(name_text)
+            if status == "unknown":
+                reject(source, "開閉ステータス不明", name_text, href)
+                continue
+            if not is_food(name_text):
+                reject(source, "飲食店判定NG", name_text, href)
+                continue
+
+            name = extract_name_from_title(name_text)
+            if not name:
+                reject(source, "店名抽出失敗", name_text, href)
+                continue
+
+            item = RestaurantItem(
+                name=name,
+                ward=ward_name,
+                status=status,
+                date=f"{year}-{month}-{day}",
+                place="",
+                note=name_text,
+                url=href,
+                source=source["name"],
+                source_id=source["id"],
+                source_priority=source["priority"],
+            )
+            accept(source, item)
+            yield item
+
     for source in SOURCE_CONFIG:
         if source["kind"] == "official_license":
             log.info("=== %s ===", source["name"])
@@ -880,6 +982,14 @@ def collect_all():
                 yield from collect_sapporo_official()
             except Exception as e:
                 log.exception("公式データ収集中にエラー: %s", e)
+            continue
+
+        if source["kind"] == "gogai_list":
+            log.info("=== %s ===", source["name"])
+            try:
+                yield from collect_gogai_source(source)
+            except Exception as e:
+                log.exception("%s でエラー: %s", source["name"], e)
             continue
 
         log.info("=== %s ===", source["name"])
