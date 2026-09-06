@@ -661,13 +661,24 @@ async function loadAutoNews(){
     const res = await fetch("news.json", {cache:"no-store"});
     if(!res.ok) throw new Error("news.json の取得に失敗しました");
     const data = await res.json();
+
+    // 表示は「今日から前後1ヶ月」に絞る（日付未定のものは念のため残す）
+    const now = new Date(); now.setHours(0,0,0,0);
+    const windowStart = new Date(now.getTime() - 31*86400000);
+    const windowEnd = new Date(now.getTime() + 31*86400000);
+    const inWindow = (item) => {
+      const d = parseDateLoose(item.date);
+      if(!d) return true; // 日付未定は除外しすぎないよう残す
+      return d >= windowStart && d <= windowEnd;
+    };
+
     areaIds.forEach(area=>{
       const el = document.getElementById(`${area}-news`);
       if(!el) return;
-      const items = (data.areas && data.areas[area]) || [];
+      const items = ((data.areas && data.areas[area]) || []).filter(inWindow);
       el.innerHTML = items.length
         ? items.map(newsItemHTML).join("")
-        : `<p class="empty-note">この区の自動収集データは現在ありません（対応情報源が無い区もあります）。</p>`;
+        : `<p class="empty-note">この区の自動収集データ（直近1ヶ月分）は現在ありません（対応情報源が無い区もあります）。</p>`;
     });
   }catch(e){
     areaIds.forEach(area=>{
