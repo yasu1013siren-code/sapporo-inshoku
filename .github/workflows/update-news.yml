@@ -2,7 +2,7 @@ name: Update Sapporo Inshoku News
 
 on:
   schedule:
-    # 08:10 UTC = 17:10 JST（GitHub Actionsのcronは常にUTC表記）
+    # 08:10 UTC = 17:10 JST（GitHub Actionsのcronは常にUTC表記。実行が数分〜数時間遅れることがあります）
     - cron: "10 8 * * *"
   workflow_dispatch: {}
 
@@ -21,14 +21,19 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Fetch latest news from goguynet
-        run: python scripts/fetch_news.py
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4 lxml
 
-      - name: Commit and push if news.json changed
+      - name: Run collector (10区・複数情報源から自動収集)
+        run: python collector_ver71.py
+
+      - name: Commit and push if data changed
         run: |
           git config user.name "sapporo-inshoku-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add news.json
+          # news.json（サイト表示用）と restaurants.db（履歴・重複統合用）だけを追跡する。
+          # ログや日付付きCSVはリポジトリを肥大化させるため追跡しない（.gitignore参照）。
+          git add news.json data/restaurants.db collector_ver71_report.json
           if git diff --cached --quiet; then
             echo "変更なし。コミットをスキップします。"
           else

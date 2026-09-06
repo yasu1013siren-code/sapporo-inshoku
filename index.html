@@ -633,15 +633,20 @@ function newsItemHTML(item){
   const d = parseDateLoose(item.date);
   const day = d ? String(d.getDate()).padStart(2,"0") : "?";
   const month = d ? MONTH_NAMES[d.getMonth()] : "日付未定";
+  // typeが「unknown」（新スクリプトでは判定できた場合そのままopen/closed/upcomingが入る）の場合のみ「自動判定」と明示
   const guessedType = item.type && TYPE_TAG_LABEL[item.type] ? item.type : "unknown";
   const badgeType = guessedType === "unknown" ? "news" : guessedType;
+  const sourceCount = item.source_count || (Array.isArray(item.sources) ? item.sources.length : 1);
+  const multiSourceNote = sourceCount >= 2 ? `<span class="tag area-tag">${sourceCount}媒体で確認</span>` : "";
   return `<div class="event-card" data-type="news">
     <div class="date-badge type-${badgeType}"><span class="day">${day}</span><span class="month">${month}</span></div>
     <div class="event-body">
       <div class="event-tags">
         <span class="tag type-${guessedType}">${TYPE_TAG_LABEL[guessedType]}（自動判定）</span>
+        ${multiSourceNote}
       </div>
       <h3><a class="src-link" href="${item.url}" target="_blank" rel="noopener noreferrer">${escapeHTML(item.title)} ↗</a></h3>
+      ${item.place ? `<p>${escapeHTML(item.place)}</p>` : ""}
     </div>
   </div>`;
 }
