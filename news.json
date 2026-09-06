@@ -1,6 +1,6 @@
 {
   "version": "7.1",
-  "generated_at": "2026-09-06T08:38:47",
+  "generated_at": "2026-09-06T08:41:59",
   "date": "2026-09-06",
   "areas": {
     "chuo": [
@@ -1711,7 +1711,7 @@
             "priority": 90
           }
         ],
-        "confidence": 0.79,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-06",
         "last_seen": "2026-09-06"
@@ -1732,7 +1732,7 @@
             "priority": 90
           }
         ],
-        "confidence": 0.79,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-06",
         "last_seen": "2026-09-06"
