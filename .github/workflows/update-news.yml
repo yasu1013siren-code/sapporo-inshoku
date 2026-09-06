@@ -2,8 +2,8 @@ name: Update Sapporo Inshoku News
 
 on:
   schedule:
-    # 08:10 UTC = 17:10 JST（GitHub Actionsのcronは常にUTC表記。実行が数分〜数時間遅れることがあります）
-    - cron: "10 8 * * *"
+    # 00:00 UTC = 09:00 JST（GitHub Actionsのcronは常にUTC表記。実行が数分〜数時間遅れることがあります）
+    - cron: "0 0 * * *"
   workflow_dispatch: {}
 
 permissions:
