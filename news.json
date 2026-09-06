@@ -1,385 +1,1138 @@
 {
-  "generated_at": "2026-09-05T21:09:16+09:00",
+  "version": "7.1",
+  "generated_at": "2026-09-06T03:24:52",
+  "date": "2026-09-06",
   "areas": {
     "chuo": [
       {
-        "title": "マルヤマクラスに「鎌倉パスタ」が9月2日NEW OPEN！もちもち生パスタを楽しめる新店舗",
-        "url": "https://sapporochuo.goguynet.jp/2026/09/03/kamakura/",
+        "name": "ノースコンチネント 赤レンガ店",
+        "title": "ノースコンチネント 赤レンガ店",
+        "date": "2026-10-03",
+        "place": "中央区",
+        "note": "開店情報 中央区 【開店】札幌市中央区にレストラン『ノースコンチネント 赤レンガ店』が2026年10月03日(土)よりOPEN!! ノースコンチネント 赤レンガ店 2026/09/05",
+        "type": "open",
+        "url": "https://www.shopship.jp/sapporo/open-close/northcontinent/",
+        "source": "札幌ショップス・開店閉店",
+        "sources": [
+          {
+            "name": "札幌ショップス・開店閉店",
+            "url": "https://www.shopship.jp/sapporo/open-close/northcontinent/",
+            "priority": 90
+          }
+        ],
+        "confidence": 0.79,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "宮の森珈琲",
+        "title": "宮の森珈琲",
+        "date": "2026-10-03",
+        "place": "中央区",
+        "note": "札幌市中央区の新店情報 【新店】札幌市中央区に『宮の森珈琲』が2026年10月3日(土)よりオープン！ 2026-09-02",
+        "type": "open",
+        "url": "https://chamonix-cakes.com/kaiten-abvg88nut7zpmp2bno/",
+        "source": "札幌開店閉店インフォ",
+        "sources": [
+          {
+            "name": "札幌開店閉店インフォ",
+            "url": "https://chamonix-cakes.com/kaiten-abvg88nut7zpmp2bno/",
+            "priority": 65
+          }
+        ],
+        "confidence": 0.54,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "BARISTART COFFEE",
+        "title": "BARISTART COFFEE",
+        "date": "2026-09-27",
+        "place": "中央区",
+        "note": "札幌市中央区の閉店情報 【移転閉店】札幌市中央区の『BARISTART COFFEE』が2026年9月27日(日)をもって閉店。 2026-09-02",
+        "type": "closed",
+        "url": "https://chamonix-cakes.com/heiten-ab8v5eynr044fq2bnc/",
+        "source": "札幌開店閉店インフォ",
+        "sources": [
+          {
+            "name": "札幌開店閉店インフォ",
+            "url": "https://chamonix-cakes.com/heiten-ab8v5eynr044fq2bnc/",
+            "priority": 65
+          }
+        ],
+        "confidence": 0.54,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "蕎麦前 酒BAR 福ちゃん家",
+        "title": "蕎麦前 酒BAR 福ちゃん家",
+        "date": "2026-09-25",
+        "place": "中央区",
+        "note": "開店情報 狸小路 【開店】札幌市中央区 狸小路に『蕎麦前 酒BAR 福ちゃん家』が2026年09月25日(金)よりOPEN!! 蕎麦前 酒BAR 福ちゃん家 2026/09/01",
+        "type": "open",
+        "url": "https://www.shopship.jp/sapporo/open-close/soba-bar-fukuchan/",
+        "source": "札幌ショップス・開店閉店",
+        "sources": [
+          {
+            "name": "札幌ショップス・開店閉店",
+            "url": "https://www.shopship.jp/sapporo/open-close/soba-bar-fukuchan/",
+            "priority": 90
+          }
+        ],
+        "confidence": 0.79,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "日本茶カフェpocha",
+        "title": "日本茶カフェpocha",
+        "date": "2026-09-10",
+        "place": "中央区",
+        "note": "開店情報 中央区 【開店】札幌市中央区にカフェ『日本茶カフェpocha』が2026年09月10日(木)よりOPEN!! 日本茶カフェpocha 2026/09/05",
+        "type": "open",
+        "url": "https://www.shopship.jp/sapporo/open-close/nihonchacafe_pocha/",
+        "source": "札幌ショップス・開店閉店",
+        "sources": [
+          {
+            "name": "札幌ショップス・開店閉店",
+            "url": "https://www.shopship.jp/sapporo/open-close/nihonchacafe_pocha/",
+            "priority": 90
+          }
+        ],
+        "confidence": 0.79,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "佐藤堂 大丸札幌店",
+        "title": "佐藤堂 大丸札幌店",
+        "date": "2026-09-05",
+        "place": "中央区",
+        "note": "開店情報 札幌駅 【開店】札幌市中央区のスイーツ店『佐藤堂 大丸札幌店』が2026年09月05日(土)より移転OPEN!! 佐藤堂 大丸札幌店 2026/09/06",
+        "type": "open",
+        "url": "https://www.shopship.jp/sapporo/open-close/daimaru_pf_sato_do/",
+        "source": "札幌ショップス・開店閉店",
+        "sources": [
+          {
+            "name": "札幌ショップス・開店閉店",
+            "url": "https://www.shopship.jp/sapporo/open-close/daimaru_pf_sato_do/",
+            "priority": 90
+          }
+        ],
+        "confidence": 0.79,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "元祖美唄焼鳥 三船 円山店",
+        "title": "元祖美唄焼鳥 三船 円山店",
+        "date": "2026-09-04",
+        "place": "中央区",
+        "note": "開店情報 円山 【開店】円山に焼き鳥居酒屋『元祖美唄焼鳥 三船 円山店』が2026年09月04日(金)よりOPEN!! 元祖美唄焼鳥 三船 円山店 2026/09/06",
+        "type": "open",
+        "url": "https://www.shopship.jp/sapporo/open-close/mifune_maruyama/",
+        "source": "札幌ショップス・開店閉店",
+        "sources": [
+          {
+            "name": "札幌ショップス・開店閉店",
+            "url": "https://www.shopship.jp/sapporo/open-close/mifune_maruyama/",
+            "priority": 90
+          }
+        ],
+        "confidence": 0.79,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "鎌倉パスタ",
+        "title": "鎌倉パスタ",
         "date": "2026-09-03",
-        "type": "open"
+        "place": "中央区",
+        "note": "開店/閉店 【札幌市中央区】マルヤマクラスに「鎌倉パスタ」が9月2日NEW OPEN！もちもち生パスタを楽しめる新店舗 2026/09/03 07:01",
+        "type": "closed",
+        "url": "https://sapporochuo.goguynet.jp/2026/09/03/kamakura/",
+        "source": "号外NET 札幌市中央区",
+        "sources": [
+          {
+            "name": "号外NET 札幌市中央区",
+            "url": "https://sapporochuo.goguynet.jp/2026/09/03/kamakura/",
+            "priority": 80
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
       },
       {
-        "title": "モユク札幌に「タイガーカレー」が9月1日オープン！熱々のスープカレーを楽しもう",
-        "url": "https://sapporochuo.goguynet.jp/2026/09/02/moyuk_sapporo/",
+        "name": "タイガーカレー",
+        "title": "タイガーカレー",
         "date": "2026-09-02",
-        "type": "open"
+        "place": "中央区",
+        "note": "【札幌市中央区】モユク札幌に「タイガーカレー」が9月1日オープン！熱々のスープカレーを楽しもう 2026/09/02 07:01 開店/閉店",
+        "type": "closed",
+        "url": "https://sapporochuo.goguynet.jp/2026/09/02/moyuk_sapporo/",
+        "source": "号外NET 札幌市中央区",
+        "sources": [
+          {
+            "name": "号外NET 札幌市中央区",
+            "url": "https://sapporochuo.goguynet.jp/2026/09/02/moyuk_sapporo/",
+            "priority": 80
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
       },
       {
-        "title": "「パフェ、珈琲、酒、佐藤」大丸札幌店が1階へ移転するそうです",
-        "url": "https://sapporochuo.goguynet.jp/2026/09/01/post-49977/",
+        "name": "パフェ、珈琲、酒、佐藤",
+        "title": "パフェ、珈琲、酒、佐藤",
         "date": "2026-09-01",
-        "type": "unknown"
+        "place": "中央区",
+        "note": "【札幌市中央区】「パフェ、珈琲、酒、佐藤」大丸札幌店が1階へ移転するそうです 2026/09/01 07:01 開店/閉店",
+        "type": "closed",
+        "url": "https://sapporochuo.goguynet.jp/2026/09/01/post-49977/",
+        "source": "号外NET 札幌市中央区",
+        "sources": [
+          {
+            "name": "号外NET 札幌市中央区",
+            "url": "https://sapporochuo.goguynet.jp/2026/09/01/post-49977/",
+            "priority": 80
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
       },
       {
-        "title": "おにぎりのありんこ「ポールタウン店」が8月31日で閉店へ 愛された店舗に幕",
-        "url": "https://sapporochuo.goguynet.jp/2026/08/31/post-49966/",
+        "name": "ポールタウン店",
+        "title": "ポールタウン店",
         "date": "2026-08-31",
-        "type": "closed"
+        "place": "中央区",
+        "note": "【札幌市中央区】おにぎりのありんこ「ポールタウン店」が8月31日で閉店へ 愛された店舗に幕 2026/08/31 07:01 開店/閉店",
+        "type": "closed",
+        "url": "https://sapporochuo.goguynet.jp/2026/08/31/post-49966/",
+        "source": "号外NET 札幌市中央区",
+        "sources": [
+          {
+            "name": "号外NET 札幌市中央区",
+            "url": "https://sapporochuo.goguynet.jp/2026/08/31/post-49966/",
+            "priority": 80
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
       },
       {
-        "title": "「THE BODY SHOP」が、東急百貨店にオープン！自然由来にこだわるコスメブランドが登場",
-        "url": "https://sapporochuo.goguynet.jp/2026/08/29/the-body-shop/",
-        "date": "2026-08-29",
-        "type": "open"
+        "name": "MUSEUM SHOP ＆ CAFE きねずみ",
+        "title": "MUSEUM SHOP ＆ CAFE きねずみ",
+        "date": "2026-08-30",
+        "place": "中央区",
+        "note": "閉店情報 中央区 【閉店】札幌市中央区のカフェ『MUSEUM SHOP ＆ CAFE きねずみ』が2026年08月30日(日)をもって閉店 MUSEUM SHOP ＆ CAFE きねずみ 2026/09/04",
+        "type": "closed",
+        "url": "https://www.shopship.jp/sapporo/open-close/cafekinezumi/",
+        "source": "札幌ショップス・開店閉店",
+        "sources": [
+          {
+            "name": "札幌ショップス・開店閉店",
+            "url": "https://www.shopship.jp/sapporo/open-close/cafekinezumi/",
+            "priority": 90
+          }
+        ],
+        "confidence": 0.79,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
       },
       {
-        "title": "札幌駅前に「岩見沢精肉卸直営 牛乃家 北3条店」がオープン！手頃な価格で楽しむ焼肉",
-        "url": "https://sapporochuo.goguynet.jp/2026/08/28/ushinoya/",
+        "name": "岩見沢精肉卸直営 牛乃家 北3条店",
+        "title": "岩見沢精肉卸直営 牛乃家 北3条店",
         "date": "2026-08-28",
-        "type": "open"
+        "place": "中央区",
+        "note": "【札幌市中央区】札幌駅前に「岩見沢精肉卸直営 牛乃家 北3条店」がオープン！手頃な価格で楽しむ焼肉 2026/08/28 07:06 開店/閉店",
+        "type": "closed",
+        "url": "https://sapporochuo.goguynet.jp/2026/08/28/ushinoya/",
+        "source": "号外NET 札幌市中央区",
+        "sources": [
+          {
+            "name": "号外NET 札幌市中央区",
+            "url": "https://sapporochuo.goguynet.jp/2026/08/28/ushinoya/",
+            "priority": 80
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
       },
       {
-        "title": "リンツ ショコラ ブティック 札幌アピア店がリニューアル！9月12日オープン予定",
-        "url": "https://sapporochuo.goguynet.jp/2026/08/27/lindt-2/",
-        "date": "2026-08-27",
-        "type": "open"
-      },
-      {
-        "title": "カラフルな毛糸に囲まれてワクワク！「KFS札幌店」が9月5日にオープン",
-        "url": "https://sapporochuo.goguynet.jp/2026/08/25/kfs-sapporo/",
-        "date": "2026-08-25",
-        "type": "open"
-      },
-      {
-        "title": "すすきのに新たな一杯！「キャプテンラーメンすすきの店」が9月1日オープン",
-        "url": "https://sapporochuo.goguynet.jp/2026/08/24/captain_ramen/",
+        "name": "キャプテンラーメンすすきの店",
+        "title": "キャプテンラーメンすすきの店",
         "date": "2026-08-24",
-        "type": "open"
+        "place": "中央区",
+        "note": "【札幌市中央区】すすきのに新たな一杯！「キャプテンラーメンすすきの店」が9月1日オープン 2026/08/24 07:01 開店/閉店",
+        "type": "closed",
+        "url": "https://sapporochuo.goguynet.jp/2026/08/24/captain_ramen/",
+        "source": "号外NET 札幌市中央区",
+        "sources": [
+          {
+            "name": "号外NET 札幌市中央区",
+            "url": "https://sapporochuo.goguynet.jp/2026/08/24/captain_ramen/",
+            "priority": 80
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
       },
       {
-        "title": "札幌に人気スイーツが大集合！「スイーツガーデンSAPPORO2026」アカプラで開催",
-        "url": "https://sapporochuo.goguynet.jp/2026/08/20/sweets_garden_sapporo-2/",
-        "date": "2026-08-20",
-        "type": "unknown"
-      },
-      {
-        "title": "anaBa 凹場（あなば）がタコスまみれに！「TACOS FES SAPPORO」開催",
-        "url": "https://sapporochuo.goguynet.jp/2026/08/16/tacosfessapporo/",
-        "date": "2026-08-16",
-        "type": "unknown"
-      },
-      {
-        "title": "沖縄気分を満喫！「沖縄フェスビアガーデン2026」が狸二条広場で開催",
-        "url": "https://sapporochuo.goguynet.jp/2026/08/11/okinawafes-jp-sapporo2026/",
-        "date": "2026-08-11",
-        "type": "unknown"
-      },
-      {
-        "title": "さっぽろ地下街オーロラタウンに「吉野家×はなまるうどん」コラボ店が9月中旬オープン！",
-        "url": "https://sapporochuo.goguynet.jp/2026/08/08/sapporo-chikagai-5/",
+        "name": "吉野家×はなまるうどん",
+        "title": "吉野家×はなまるうどん",
         "date": "2026-08-08",
-        "type": "open"
+        "place": "中央区",
+        "note": "【札幌市中央区】さっぽろ地下街オーロラタウンに「吉野家×はなまるうどん」コラボ店が9月中旬オープン！ 2026/08/08 07:01 開店/閉店",
+        "type": "closed",
+        "url": "https://sapporochuo.goguynet.jp/2026/08/08/sapporo-chikagai-5/",
+        "source": "号外NET 札幌市中央区",
+        "sources": [
+          {
+            "name": "号外NET 札幌市中央区",
+            "url": "https://sapporochuo.goguynet.jp/2026/08/08/sapporo-chikagai-5/",
+            "priority": 80
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
       },
       {
-        "title": "「SATURDAYS CO ココノススキノ店」が7月31日で閉店 9月には新たな拠点「GARAGE」オープン予定",
-        "url": "https://sapporochuo.goguynet.jp/2026/08/05/saturdayschocolate/",
-        "date": "2026-08-05",
-        "type": "closed"
-      },
-      {
-        "title": "第28回「円山夏祭り 子供盆踊り大会」 開催！2日間限定の歩行者天国で盆踊りを楽しもう",
-        "url": "https://sapporochuo.goguynet.jp/2026/08/03/shotengai-maruyama_natsumatsuri/",
-        "date": "2026-08-03",
-        "type": "unknown"
-      },
-      {
-        "title": "サッポロファクトリー「Milk Cafeみるく san」が8月16日で営業終了 ありがとうキャンペーンも開催中",
-        "url": "https://sapporochuo.goguynet.jp/2026/08/02/milk_san_hokkaido/",
+        "name": "Milk Cafeみるく san",
+        "title": "Milk Cafeみるく san",
         "date": "2026-08-02",
-        "type": "closed"
+        "place": "中央区",
+        "note": "【札幌市中央区】サッポロファクトリー「Milk Cafeみるく san」が8月16日で営業終了 ありがとうキャンペーンも開催中 2026/08/02 07:01 開店/閉店",
+        "type": "closed",
+        "url": "https://sapporochuo.goguynet.jp/2026/08/02/milk_san_hokkaido/",
+        "source": "号外NET 札幌市中央区",
+        "sources": [
+          {
+            "name": "号外NET 札幌市中央区",
+            "url": "https://sapporochuo.goguynet.jp/2026/08/02/milk_san_hokkaido/",
+            "priority": 80
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
       },
       {
-        "title": "札幌都心の新ランドマーク「アーバンネット札幌リンクタワー」が竣工！9月から話題の飲食店も続々オープン",
-        "url": "https://sapporochuo.goguynet.jp/2026/07/27/city-sapporo-link_tower/",
+        "name": "アーバンネット札幌リンクタワー",
+        "title": "アーバンネット札幌リンクタワー",
         "date": "2026-07-27",
-        "type": "open"
+        "place": "中央区",
+        "note": "【札幌市中央区】札幌都心の新ランドマーク「アーバンネット札幌リンクタワー」が竣工！9月から話題の飲食店も続々オープン 2026/07/27 07:04 開店/閉店",
+        "type": "closed",
+        "url": "https://sapporochuo.goguynet.jp/2026/07/27/city-sapporo-link_tower/",
+        "source": "号外NET 札幌市中央区",
+        "sources": [
+          {
+            "name": "号外NET 札幌市中央区",
+            "url": "https://sapporochuo.goguynet.jp/2026/07/27/city-sapporo-link_tower/",
+            "priority": 80
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
       },
       {
-        "title": "コトモノマルシェ大丸札幌店が7月28日閉店 8月7日に札幌ステラプレイスへ移転オープン！",
-        "url": "https://sapporochuo.goguynet.jp/2026/07/26/post-49839/",
-        "date": "2026-07-26",
-        "type": "closed"
-      },
-      {
-        "title": "札幌でタイ旅行気分を味わえる「アナバ THAI FESTIVAL 2026」が開催されます",
-        "url": "https://sapporochuo.goguynet.jp/2026/07/25/post-49838/",
+        "name": "THE BUTTER",
+        "title": "THE BUTTER",
         "date": "2026-07-25",
-        "type": "unknown"
+        "place": "中央区",
+        "note": "赤れんがテラスにオープン！雪印の新業態「THE BUTTER」で作りたてバターを食べてみた！ むらかみ 7月25日の「雪印北海道バターの日」に、札幌・赤れんがテラスに新店舗「THE BUTTER」がオープンします。店舗最大の特徴は、店内工房で製…",
+        "type": "open",
+        "url": "https://satsutter.com/posts/gourmet/40789.html",
+        "source": "サツッター・新店舗",
+        "sources": [
+          {
+            "name": "サツッター・新店舗",
+            "url": "https://satsutter.com/posts/gourmet/40789.html",
+            "priority": 65
+          }
+        ],
+        "confidence": 0.54,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
       },
       {
-        "title": "伏見温泉が7月25日で閉店へ地域に愛された昔ながらの銭湯が営業終了",
-        "url": "https://sapporochuo.goguynet.jp/2026/07/24/kita-no-sento/",
-        "date": "2026-07-24",
-        "type": "closed"
+        "name": "海鮮和食 玖",
+        "title": "海鮮和食 玖",
+        "date": "2026-06-26",
+        "place": "中央区",
+        "note": "開店情報 すすきの 【開店】札幌市中央区 すすきのに『海鮮和食 玖』が2026年06月26日(金)よりOPEN!! 海鮮和食 玖 2026/08/26",
+        "type": "open",
+        "url": "https://www.shopship.jp/susukino/open-close/kanikaki_kyu_sapporo/",
+        "source": "札幌ショップス・開店閉店",
+        "sources": [
+          {
+            "name": "札幌ショップス・開店閉店",
+            "url": "https://www.shopship.jp/susukino/open-close/kanikaki_kyu_sapporo/",
+            "priority": 90
+          }
+        ],
+        "confidence": 0.79,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "ヒルダケ",
+        "title": "ヒルダケ",
+        "date": "2026-05-26",
+        "place": "中央区",
+        "note": "【中央区】札幌にランチ限定「ヒルダケ」5月18日オープン！最後はリゾットで味わう体験型ヌードル サツッター編集部 札幌中心部で、昼だけ楽しめるちょっと贅沢なランチ新業態が始まります。ラーメンでもパスタでもない、最後の一滴まで楽しむ“体験型ヌードル”が気に…",
+        "type": "open",
+        "url": "https://satsutter.com/posts/news/39548.html",
+        "source": "サツッター・新店舗",
+        "sources": [
+          {
+            "name": "サツッター・新店舗",
+            "url": "https://satsutter.com/posts/news/39548.html",
+            "priority": 65
+          }
+        ],
+        "confidence": 0.54,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "なまら旨い 鮨道 狸小路",
+        "title": "なまら旨い 鮨道 狸小路",
+        "date": "2026-05-18",
+        "place": "中央区",
+        "note": "【狸小路】触れると錦鯉が反応するエンタメ系カウンター「なまら旨い 鮨道 狸小路」5月18日オープン サツッター編集部 札幌・狸小路で、鮨とプロジェクションマッピングを組み合わせた新しい食体験が楽しめるお店が登場。 2026年5月18日（月）、札幌・狸小路5丁…",
+        "type": "open",
+        "url": "https://satsutter.com/posts/news/39523.html",
+        "source": "サツッター・新店舗",
+        "sources": [
+          {
+            "name": "サツッター・新店舗",
+            "url": "https://satsutter.com/posts/news/39523.html",
+            "priority": 65
+          }
+        ],
+        "confidence": 0.54,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
       }
     ],
     "kita": [
       {
-        "title": "今年も販売が始まっていますよ！「ファームやなぎさわ」の絶品トウモロコシを買いに行ってきました",
-        "url": "https://sapporokitaku.goguynet.jp/2026/09/04/yanagisawa-7/",
+        "name": "カネカツかなや食堂 新琴似店",
+        "title": "カネカツかなや食堂 新琴似店",
+        "date": "2026-12-31",
+        "place": "北区",
+        "note": "札幌市北区の閉店情報 【閉店】札幌市北区の『カネカツかなや食堂 新琴似店』が2026年12月31日(木)をもって閉店。 2026-09-02",
+        "type": "closed",
+        "url": "https://chamonix-cakes.com/heiten-abvixbpr7s5hlb2bnc/",
+        "source": "札幌開店閉店インフォ",
+        "sources": [
+          {
+            "name": "札幌開店閉店インフォ",
+            "url": "https://chamonix-cakes.com/heiten-abvixbpr7s5hlb2bnc/",
+            "priority": 65
+          }
+        ],
+        "confidence": 0.54,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "2026年9月5日 バー・バル・ダイニング, 北海道, 札幌, 開店情報, 飲食店 【開店】50’s DINER ROCA",
+        "title": "2026年9月5日 バー・バル・ダイニング, 北海道, 札幌, 開店情報, 飲食店 【開店】50’s DINER ROCA",
+        "date": "2026-09-05",
+        "place": "北区",
+        "note": "2026年9月5日 バー・バル・ダイニング, 北海道, 札幌, 開店情報, 飲食店 【開店】50’s DINER ROCA",
+        "type": "open",
+        "url": "https://kaiten-heiten-24.com/50s-diner-roca/",
+        "source": "開店閉店.com・札幌",
+        "sources": [
+          {
+            "name": "開店閉店.com・札幌",
+            "url": "https://kaiten-heiten-24.com/50s-diner-roca/",
+            "priority": 70
+          }
+        ],
+        "confidence": 0.66,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "2026年9月5日 北海道, 札幌, 牛丼・豚丼・丼物, 開店情報, 飲食店 【開店】薫ﾙ風",
+        "title": "2026年9月5日 北海道, 札幌, 牛丼・豚丼・丼物, 開店情報, 飲食店 【開店】薫ﾙ風",
+        "date": "2026-09-05",
+        "place": "北区",
+        "note": "2026年9月5日 北海道, 札幌, 牛丼・豚丼・丼物, 開店情報, 飲食店 【開店】薫ﾙ風",
+        "type": "open",
+        "url": "https://kaiten-heiten-24.com/kaorukaze/",
+        "source": "開店閉店.com・札幌",
+        "sources": [
+          {
+            "name": "開店閉店.com・札幌",
+            "url": "https://kaiten-heiten-24.com/kaorukaze/",
+            "priority": 70
+          }
+        ],
+        "confidence": 0.66,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "2026年9月4日 カフェ・レストラン, 北海道, 札幌, 開店情報, 飲食店 【開店】pond end.",
+        "title": "2026年9月4日 カフェ・レストラン, 北海道, 札幌, 開店情報, 飲食店 【開店】pond end.",
         "date": "2026-09-04",
-        "type": "unknown"
+        "place": "北区",
+        "note": "2026年9月4日 カフェ・レストラン, 北海道, 札幌, 開店情報, 飲食店 【開店】pond end.",
+        "type": "open",
+        "url": "https://kaiten-heiten-24.com/pond-end/",
+        "source": "開店閉店.com・札幌",
+        "sources": [
+          {
+            "name": "開店閉店.com・札幌",
+            "url": "https://kaiten-heiten-24.com/pond-end/",
+            "priority": 70
+          }
+        ],
+        "confidence": 0.66,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
       },
       {
-        "title": "「MEGAドン・キホーテ篠路店」2階に「ハウスドゥ太平」が9月中旬オープン予定！",
-        "url": "https://sapporokitaku.goguynet.jp/2026/09/02/housedo-3/",
+        "name": "2026年9月4日 パン・ベーカリー, 北海道, 札幌, 開店情報, 飲食店 【開店】ボストンベイク宮の森店",
+        "title": "2026年9月4日 パン・ベーカリー, 北海道, 札幌, 開店情報, 飲食店 【開店】ボストンベイク宮の森店",
+        "date": "2026-09-04",
+        "place": "北区",
+        "note": "2026年9月4日 パン・ベーカリー, 北海道, 札幌, 開店情報, 飲食店 【開店】ボストンベイク宮の森店",
+        "type": "open",
+        "url": "https://kaiten-heiten-24.com/bostonbake-miyanomori/",
+        "source": "開店閉店.com・札幌",
+        "sources": [
+          {
+            "name": "開店閉店.com・札幌",
+            "url": "https://kaiten-heiten-24.com/bostonbake-miyanomori/",
+            "priority": 70
+          }
+        ],
+        "confidence": 0.66,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "2026年9月2日 カフェ・レストラン, 北海道, 札幌, 閉店情報, 飲食店 【閉店】MUSEUM SHOP ＆ CAFE きねずみ",
+        "title": "2026年9月2日 カフェ・レストラン, 北海道, 札幌, 閉店情報, 飲食店 【閉店】MUSEUM SHOP ＆ CAFE きねずみ",
         "date": "2026-09-02",
-        "type": "open"
+        "place": "北区",
+        "note": "2026年9月2日 カフェ・レストラン, 北海道, 札幌, 閉店情報, 飲食店 【閉店】MUSEUM SHOP ＆ CAFE きねずみ",
+        "type": "closed",
+        "url": "https://kaiten-heiten-24.com/museum-shop-cafe-kinezumi/",
+        "source": "開店閉店.com・札幌",
+        "sources": [
+          {
+            "name": "開店閉店.com・札幌",
+            "url": "https://kaiten-heiten-24.com/museum-shop-cafe-kinezumi/",
+            "priority": 70
+          }
+        ],
+        "confidence": 0.66,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
       },
       {
-        "title": "北20条に「いろどり弁当」が8月28日オープン！仕出し弁当やテイクアウトに対応するお弁当屋さんです",
-        "url": "https://sapporokitaku.goguynet.jp/2026/09/01/irodoribento/",
+        "name": "2026年9月1日 そば・うどん店, 北海道, 札幌, 開店情報, 飲食店 【開店】手打ちそば さくら 伏古店",
+        "title": "2026年9月1日 そば・うどん店, 北海道, 札幌, 開店情報, 飲食店 【開店】手打ちそば さくら 伏古店",
         "date": "2026-09-01",
-        "type": "open"
+        "place": "北区",
+        "note": "2026年9月1日 そば・うどん店, 北海道, 札幌, 開店情報, 飲食店 【開店】手打ちそば さくら 伏古店",
+        "type": "open",
+        "url": "https://kaiten-heiten-24.com/soba-sakura-fushiko/",
+        "source": "開店閉店.com・札幌",
+        "sources": [
+          {
+            "name": "開店閉店.com・札幌",
+            "url": "https://kaiten-heiten-24.com/soba-sakura-fushiko/",
+            "priority": 70
+          }
+        ],
+        "confidence": 0.66,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
       },
       {
-        "title": "「さんぱちラーメン 新琴似店」が閉店していました。跡地には「清湯」の2号店がオープンするようです",
-        "url": "https://sapporokitaku.goguynet.jp/2026/08/31/sanpachi/",
+        "name": "2026年9月1日 ステーキ・ハンバーグ, 北海道, 札幌, 開店情報, 飲食店 【開店】ノースコンチネント 赤レンガ店",
+        "title": "2026年9月1日 ステーキ・ハンバーグ, 北海道, 札幌, 開店情報, 飲食店 【開店】ノースコンチネント 赤レンガ店",
+        "date": "2026-09-01",
+        "place": "北区",
+        "note": "2026年9月1日 ステーキ・ハンバーグ, 北海道, 札幌, 開店情報, 飲食店 【開店】ノースコンチネント 赤レンガ店",
+        "type": "open",
+        "url": "https://kaiten-heiten-24.com/northcontinent-akarenga/",
+        "source": "開店閉店.com・札幌",
+        "sources": [
+          {
+            "name": "開店閉店.com・札幌",
+            "url": "https://kaiten-heiten-24.com/northcontinent-akarenga/",
+            "priority": 70
+          }
+        ],
+        "confidence": 0.66,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "2026年9月1日 バー・バル・ダイニング, 北海道, 札幌, 開店情報, 飲食店 【開店】SeasideChill 潮結",
+        "title": "2026年9月1日 バー・バル・ダイニング, 北海道, 札幌, 開店情報, 飲食店 【開店】SeasideChill 潮結",
+        "date": "2026-09-01",
+        "place": "北区",
+        "note": "2026年9月1日 バー・バル・ダイニング, 北海道, 札幌, 開店情報, 飲食店 【開店】SeasideChill 潮結",
+        "type": "open",
+        "url": "https://kaiten-heiten-24.com/seasidechill-shioyui/",
+        "source": "開店閉店.com・札幌",
+        "sources": [
+          {
+            "name": "開店閉店.com・札幌",
+            "url": "https://kaiten-heiten-24.com/seasidechill-shioyui/",
+            "priority": 70
+          }
+        ],
+        "confidence": 0.66,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "2026年8月31日 北海道, 寿司, 札幌, 開店情報, 飲食店 【開店】ちょこっと寿し季わ美",
+        "title": "2026年8月31日 北海道, 寿司, 札幌, 開店情報, 飲食店 【開店】ちょこっと寿し季わ美",
         "date": "2026-08-31",
-        "type": "closed"
+        "place": "北区",
+        "note": "2026年8月31日 北海道, 寿司, 札幌, 開店情報, 飲食店 【開店】ちょこっと寿し季わ美",
+        "type": "open",
+        "url": "https://kaiten-heiten-24.com/chocottosushi_kiwami/",
+        "source": "開店閉店.com・札幌",
+        "sources": [
+          {
+            "name": "開店閉店.com・札幌",
+            "url": "https://kaiten-heiten-24.com/chocottosushi_kiwami/",
+            "priority": 70
+          }
+        ],
+        "confidence": 0.66,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
       },
       {
-        "title": "漏水の影響による不具合のため、イオン札幌麻生店の地下にあった「よくわかる！ほけん案内」が閉店",
-        "url": "https://sapporokitaku.goguynet.jp/2026/08/30/hoken/",
-        "date": "2026-08-30",
-        "type": "closed"
+        "name": "2026年8月28日 北海道, 弁当・おむすび, 札幌, 開店情報, 飲食店 【開店】いろどり弁当",
+        "title": "2026年8月28日 北海道, 弁当・おむすび, 札幌, 開店情報, 飲食店 【開店】いろどり弁当",
+        "date": "2026-08-28",
+        "place": "北区",
+        "note": "2026年8月28日 北海道, 弁当・おむすび, 札幌, 開店情報, 飲食店 【開店】いろどり弁当",
+        "type": "open",
+        "url": "https://kaiten-heiten-24.com/irodoribento/",
+        "source": "開店閉店.com・札幌",
+        "sources": [
+          {
+            "name": "開店閉店.com・札幌",
+            "url": "https://kaiten-heiten-24.com/irodoribento/",
+            "priority": 70
+          }
+        ],
+        "confidence": 0.66,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
       },
       {
-        "title": "「DCM篠路店」が9月13日で閉店へ……。店舗移転のため、長年親しまれてきたホームセンターが閉店することに",
-        "url": "https://sapporokitaku.goguynet.jp/2026/08/29/dcm-6/",
-        "date": "2026-08-29",
-        "type": "closed"
+        "name": "いろどり弁当",
+        "title": "いろどり弁当",
+        "date": "2026-08-28",
+        "place": "北区",
+        "note": "開店情報 北区 【開店】札幌市北区に『いろどり弁当』が2026年08月28日(金)よりOPEN!! いろどり弁当 2026/08/27",
+        "type": "open",
+        "url": "https://www.shopship.jp/sapporo/open-close/irodori-bento/",
+        "source": "札幌ショップス・開店閉店",
+        "sources": [
+          {
+            "name": "札幌ショップス・開店閉店",
+            "url": "https://www.shopship.jp/sapporo/open-close/irodori-bento/",
+            "priority": 90
+          }
+        ],
+        "confidence": 0.79,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
       },
       {
-        "title": "「フレッシュネスバーガー 札幌麻生店」が9月16日オープン！現地では看板もお目見えし、開店準備が進んでいます",
-        "url": "https://sapporokitaku.goguynet.jp/2026/08/27/freshness-3/",
-        "date": "2026-08-27",
-        "type": "open"
-      },
-      {
-        "title": "新琴似に「オリーブの丘」が10月22日オープン予定！「はま寿司」駐車場に隣接する場所で建設が進んでいます",
-        "url": "https://sapporokitaku.goguynet.jp/2026/08/26/olive-italian/",
-        "date": "2026-08-26",
-        "type": "open"
-      },
-      {
-        "title": "屯田に愛犬同伴OKの「喫茶いぬの隠れ家」がオープンしているのを発見！わんちゃんとのんびりカフェ時間を！",
-        "url": "https://sapporokitaku.goguynet.jp/2026/08/23/inunokakurega/",
-        "date": "2026-08-23",
-        "type": "open"
-      },
-      {
-        "title": "麻生駅近くに、子ども向けの体操教室「ネイス体操教室」がオープンするようです！",
-        "url": "https://sapporokitaku.goguynet.jp/2026/08/21/neis/",
-        "date": "2026-08-21",
-        "type": "open"
-      },
-      {
-        "title": "今年も篠路で夏祭りが開催！『第4回楽しい街づくりのための篠路夏祭り』が8月22日・23日に開催されます。",
-        "url": "https://sapporokitaku.goguynet.jp/2026/08/20/shinoronatsumaturi/",
-        "date": "2026-08-20",
-        "type": "unknown"
-      },
-      {
-        "title": "札幌駅の改札内からまたひとつお店が消える…。焼き菓子の人気店「Rain」が8月31日で閉店へ",
-        "url": "https://sapporokitaku.goguynet.jp/2026/08/18/rain/",
-        "date": "2026-08-18",
-        "type": "closed"
-      },
-      {
-        "title": "北34条に小さなカフェ「pond end.」が9月初旬オープン予定！看板メニューのチキンオーバーライスが気になる…！",
-        "url": "https://sapporokitaku.goguynet.jp/2026/08/17/pond-end/",
+        "name": "2026年8月17日 カフェ・レストラン, 北海道, 札幌, 閉店情報, 飲食店 【閉店】Milk Cafe みるくsan サッポロファクトリー店",
+        "title": "2026年8月17日 カフェ・レストラン, 北海道, 札幌, 閉店情報, 飲食店 【閉店】Milk Cafe みるくsan サッポロファクトリー店",
         "date": "2026-08-17",
-        "type": "open"
+        "place": "北区",
+        "note": "2026年8月17日 カフェ・レストラン, 北海道, 札幌, 閉店情報, 飲食店 【閉店】Milk Cafe みるくsan サッポロファクトリー店",
+        "type": "closed",
+        "url": "https://kaiten-heiten-24.com/milk-cafe-milk-san-sf/",
+        "source": "開店閉店.com・札幌",
+        "sources": [
+          {
+            "name": "開店閉店.com・札幌",
+            "url": "https://kaiten-heiten-24.com/milk-cafe-milk-san-sf/",
+            "priority": 70
+          }
+        ],
+        "confidence": 0.66,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
       },
       {
-        "title": "札幌駅北口の「カフェ・ド・クリエ」が9月末で閉店へ。駅チカ＆電源完備で便利だったカフェが姿を消します…",
-        "url": "https://sapporokitaku.goguynet.jp/2026/08/16/cafedecrie-close/",
-        "date": "2026-08-16",
-        "type": "closed"
+        "name": "2026年8月17日 バー・バル・ダイニング, 北海道, 札幌, 閉店情報, 飲食店 【閉店】INDEX SAPPORO",
+        "title": "2026年8月17日 バー・バル・ダイニング, 北海道, 札幌, 閉店情報, 飲食店 【閉店】INDEX SAPPORO",
+        "date": "2026-08-17",
+        "place": "北区",
+        "note": "2026年8月17日 バー・バル・ダイニング, 北海道, 札幌, 閉店情報, 飲食店 【閉店】INDEX SAPPORO",
+        "type": "closed",
+        "url": "https://kaiten-heiten-24.com/index-sapporo/",
+        "source": "開店閉店.com・札幌",
+        "sources": [
+          {
+            "name": "開店閉店.com・札幌",
+            "url": "https://kaiten-heiten-24.com/index-sapporo/",
+            "priority": 70
+          }
+        ],
+        "confidence": 0.66,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
       },
       {
-        "title": "北24条におにぎり専門店「空とぶおにぎり」が8月中旬オープン！開店に向けて準備が進んでいます",
-        "url": "https://sapporokitaku.goguynet.jp/2026/08/14/soratobuonigiri/",
+        "name": "2026年8月15日 北海道, 居酒屋, 札幌, 開店情報, 飲食店 【開店】炭火焼リリー すすきの店",
+        "title": "2026年8月15日 北海道, 居酒屋, 札幌, 開店情報, 飲食店 【開店】炭火焼リリー すすきの店",
+        "date": "2026-08-15",
+        "place": "北区",
+        "note": "2026年8月15日 北海道, 居酒屋, 札幌, 開店情報, 飲食店 【開店】炭火焼リリー すすきの店",
+        "type": "open",
+        "url": "https://kaiten-heiten-24.com/sumibiyaki-lily-susukino/",
+        "source": "開店閉店.com・札幌",
+        "sources": [
+          {
+            "name": "開店閉店.com・札幌",
+            "url": "https://kaiten-heiten-24.com/sumibiyaki-lily-susukino/",
+            "priority": 70
+          }
+        ],
+        "confidence": 0.66,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "2026年8月14日 バー・バル・ダイニング, 北海道, 札幌, 開店情報, 飲食店 【開店】WINE BAR KOZO",
+        "title": "2026年8月14日 バー・バル・ダイニング, 北海道, 札幌, 開店情報, 飲食店 【開店】WINE BAR KOZO",
         "date": "2026-08-14",
-        "type": "open"
+        "place": "北区",
+        "note": "2026年8月14日 バー・バル・ダイニング, 北海道, 札幌, 開店情報, 飲食店 【開店】WINE BAR KOZO",
+        "type": "open",
+        "url": "https://kaiten-heiten-24.com/wine-bar-kozo/",
+        "source": "開店閉店.com・札幌",
+        "sources": [
+          {
+            "name": "開店閉店.com・札幌",
+            "url": "https://kaiten-heiten-24.com/wine-bar-kozo/",
+            "priority": 70
+          }
+        ],
+        "confidence": 0.66,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
       },
       {
-        "title": "篠路の「鯖一」跡地に焼肉店「安安」がオープンへ！ランチは1,000円以下の定食も",
-        "url": "https://sapporokitaku.goguynet.jp/2026/08/11/anan-2/",
+        "name": "2026年8月13日 おでん, 北海道, 札幌, 鉄板・炉ばた焼き, 開店情報, 飲食店 【開店】炉端とおでん 新なるぼんず",
+        "title": "2026年8月13日 おでん, 北海道, 札幌, 鉄板・炉ばた焼き, 開店情報, 飲食店 【開店】炉端とおでん 新なるぼんず",
+        "date": "2026-08-13",
+        "place": "北区",
+        "note": "2026年8月13日 おでん, 北海道, 札幌, 鉄板・炉ばた焼き, 開店情報, 飲食店 【開店】炉端とおでん 新なるぼんず",
+        "type": "open",
+        "url": "https://kaiten-heiten-24.com/shinnarubonzu/",
+        "source": "開店閉店.com・札幌",
+        "sources": [
+          {
+            "name": "開店閉店.com・札幌",
+            "url": "https://kaiten-heiten-24.com/shinnarubonzu/",
+            "priority": 70
+          }
+        ],
+        "confidence": 0.66,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "2026年8月13日 カフェ・レストラン, 北海道, 札幌, 開店情報, 飲食店 【開店】Cafe＆Meal Ulysses",
+        "title": "2026年8月13日 カフェ・レストラン, 北海道, 札幌, 開店情報, 飲食店 【開店】Cafe＆Meal Ulysses",
+        "date": "2026-08-13",
+        "place": "北区",
+        "note": "2026年8月13日 カフェ・レストラン, 北海道, 札幌, 開店情報, 飲食店 【開店】Cafe＆Meal Ulysses",
+        "type": "open",
+        "url": "https://kaiten-heiten-24.com/cafe-and-meal-ulysses/",
+        "source": "開店閉店.com・札幌",
+        "sources": [
+          {
+            "name": "開店閉店.com・札幌",
+            "url": "https://kaiten-heiten-24.com/cafe-and-meal-ulysses/",
+            "priority": 70
+          }
+        ],
+        "confidence": 0.66,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "2026年8月12日 とんかつ・牛かつ・かつ丼, 北海道, 札幌, 開店情報, 飲食店 【開店】かつや 札幌石山2条店",
+        "title": "2026年8月12日 とんかつ・牛かつ・かつ丼, 北海道, 札幌, 開店情報, 飲食店 【開店】かつや 札幌石山2条店",
+        "date": "2026-08-12",
+        "place": "北区",
+        "note": "2026年8月12日 とんかつ・牛かつ・かつ丼, 北海道, 札幌, 開店情報, 飲食店 【開店】かつや 札幌石山2条店",
+        "type": "open",
+        "url": "https://kaiten-heiten-24.com/katsuya-sapporoishiyama2jo/",
+        "source": "開店閉店.com・札幌",
+        "sources": [
+          {
+            "name": "開店閉店.com・札幌",
+            "url": "https://kaiten-heiten-24.com/katsuya-sapporoishiyama2jo/",
+            "priority": 70
+          }
+        ],
+        "confidence": 0.66,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "2026年8月12日 北海道, 札幌, 沖縄料理, 開店情報, 飲食店 【開店】琉球処ちゅらうたや",
+        "title": "2026年8月12日 北海道, 札幌, 沖縄料理, 開店情報, 飲食店 【開店】琉球処ちゅらうたや",
+        "date": "2026-08-12",
+        "place": "北区",
+        "note": "2026年8月12日 北海道, 札幌, 沖縄料理, 開店情報, 飲食店 【開店】琉球処ちゅらうたや",
+        "type": "open",
+        "url": "https://kaiten-heiten-24.com/ryukyudokoro-churautaya/",
+        "source": "開店閉店.com・札幌",
+        "sources": [
+          {
+            "name": "開店閉店.com・札幌",
+            "url": "https://kaiten-heiten-24.com/ryukyudokoro-churautaya/",
+            "priority": 70
+          }
+        ],
+        "confidence": 0.66,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "2026年8月11日 カフェ・レストラン, 北海道, 札幌, 開店情報, 飲食店 【開店】MATENA（マテナ）",
+        "title": "2026年8月11日 カフェ・レストラン, 北海道, 札幌, 開店情報, 飲食店 【開店】MATENA（マテナ）",
         "date": "2026-08-11",
-        "type": "open"
+        "place": "北区",
+        "note": "2026年8月11日 カフェ・レストラン, 北海道, 札幌, 開店情報, 飲食店 【開店】MATENA（マテナ）",
+        "type": "open",
+        "url": "https://kaiten-heiten-24.com/matena/",
+        "source": "開店閉店.com・札幌",
+        "sources": [
+          {
+            "name": "開店閉店.com・札幌",
+            "url": "https://kaiten-heiten-24.com/matena/",
+            "priority": 70
+          }
+        ],
+        "confidence": 0.66,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
       },
       {
-        "title": "連日完売する人気のトウモロコシ直売所「ファームやなぎさわ」。2026年の販売開始はもうそろそろ？",
-        "url": "https://sapporokitaku.goguynet.jp/2026/08/09/yanagisawa2026/",
-        "date": "2026-08-09",
-        "type": "unknown"
+        "name": "2026年8月10日 パン・ベーカリー, 北海道, 札幌, 開店情報, 飲食店 【開店】かしのきパン",
+        "title": "2026年8月10日 パン・ベーカリー, 北海道, 札幌, 開店情報, 飲食店 【開店】かしのきパン",
+        "date": "2026-08-10",
+        "place": "北区",
+        "note": "2026年8月10日 パン・ベーカリー, 北海道, 札幌, 開店情報, 飲食店 【開店】かしのきパン",
+        "type": "open",
+        "url": "https://kaiten-heiten-24.com/kashinokipan/",
+        "source": "開店閉店.com・札幌",
+        "sources": [
+          {
+            "name": "開店閉店.com・札幌",
+            "url": "https://kaiten-heiten-24.com/kashinokipan/",
+            "priority": 70
+          }
+        ],
+        "confidence": 0.66,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
       },
       {
-        "title": "「シーナシーナ屯田」が2周年！8月8日（土）から“夏シーナ2026”スタート、連日イベント盛りだくさんです",
-        "url": "https://sapporokitaku.goguynet.jp/2026/08/08/ciinacina/",
-        "date": "2026-08-08",
-        "type": "unknown"
+        "name": "Sweet Shop togo",
+        "title": "Sweet Shop togo",
+        "date": "2026-05-29",
+        "place": "北区",
+        "note": "【千歳市】チョコレート専門店「Sweet Shop togo」5月22日オープン！北海道素材を活かしたショコラを提供 サツッター編集部 北海道素材を活かしたボンボンショコラや焼き菓子が楽しめる新店が5月22日千歳にオープン！ チョコレート専門店「Sweet Shop togo…",
+        "type": "open",
+        "url": "https://satsutter.com/posts/news/39544.html",
+        "source": "サツッター・新店舗",
+        "sources": [
+          {
+            "name": "サツッター・新店舗",
+            "url": "https://satsutter.com/posts/news/39544.html",
+            "priority": 65
+          }
+        ],
+        "confidence": 0.54,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
       },
       {
-        "title": "北大近くの人気ラーメン店が新琴似に！「らーめん清湯」の新店舗が9月にオープンするようですよ",
-        "url": "https://sapporokitaku.goguynet.jp/2026/08/07/chintan/",
-        "date": "2026-08-07",
-        "type": "open"
+        "name": "札幌農学校",
+        "title": "札幌農学校",
+        "date": "2026-04-17",
+        "place": "北区",
+        "note": "三井アウトレットパーク札幌北広島に4月18日（土）新エリア誕生！「札幌農学校」が北広島市内初出店！ サツッター編集部 北広島の三井アウトレットパークに、新エリアがグランドオープン！スターバックスやスワロフスキーなど新店が並ぶ中、札幌農学校の専門店も登場します…",
+        "type": "open",
+        "url": "https://satsutter.com/posts/news/38250.html",
+        "source": "サツッター・新店舗",
+        "sources": [
+          {
+            "name": "サツッター・新店舗",
+            "url": "https://satsutter.com/posts/news/38250.html",
+            "priority": 65
+          }
+        ],
+        "confidence": 0.54,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
       },
       {
-        "title": "「DCM 太平店」が9月中旬オープン予定！100円ショップ「キャンドゥ」も併設へ",
-        "url": "https://sapporokitaku.goguynet.jp/2026/06/30/dcm-5/",
-        "date": "2026-06-30",
-        "type": "open"
+        "name": "Bistro Montagne（ビストロモンターニュ）",
+        "title": "Bistro Montagne（ビストロモンターニュ）",
+        "date": "2026-04-12",
+        "place": "北区",
+        "note": "【美唄】ジビエ！ビストロフレンチ「Bistro Montagne（ビストロモンターニュ）」4月10日オープン サツッター編集部 ジビエを軸にしたフレンチが楽しめるビストロフレンチが美唄にオープン！エゾシカや山菜、季節の野菜を使った一皿をワインに合わせて。 北海道美唄市…",
+        "type": "open",
+        "url": "https://satsutter.com/posts/news/38130.html",
+        "source": "サツッター・新店舗",
+        "sources": [
+          {
+            "name": "サツッター・新店舗",
+            "url": "https://satsutter.com/posts/news/38130.html",
+            "priority": 65
+          }
+        ],
+        "confidence": 0.54,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
       }
     ],
     "higashi": [],
-    "shiroishi": [],
-    "atsubetsu": [],
-    "toyohira": [],
-    "kiyota": [],
-    "minami": [],
-    "nishi": [
+    "shiroishi": [
       {
-        "title": "発寒に新たなヘアサロンが誕生！理美容室「Buddy（バディ）」が移転オープンしました。",
-        "url": "https://sapporonishi-teine.goguynet.jp/2026/04/28/buddy/",
-        "date": "2026-04-28",
-        "type": "open"
+        "name": "炭火やBB 南郷13丁目店",
+        "title": "炭火やBB 南郷13丁目店",
+        "date": "2026-10-01",
+        "place": "白石区",
+        "note": "開店情報 白石区 【開店】札幌市白石区に居酒屋『炭火やBB 南郷13丁目店』が2026年10月01日(木)よりOPEN!! 炭火やBB 南郷13丁目店 2026/09/05",
+        "type": "open",
+        "url": "https://www.shopship.jp/shiroishi/open-close/sumibiyabb_nango13/",
+        "source": "札幌ショップス・開店閉店",
+        "sources": [
+          {
+            "name": "札幌ショップス・開店閉店",
+            "url": "https://www.shopship.jp/shiroishi/open-close/sumibiyabb_nango13/",
+            "priority": 90
+          }
+        ],
+        "confidence": 0.79,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
       },
       {
-        "title": "テスライオンモール札幌発寒店 が4月25日にオープンしました！",
-        "url": "https://sapporonishi-teine.goguynet.jp/2026/04/26/teslaaeonsapporohassamu/",
-        "date": "2026-04-26",
-        "type": "open"
+        "name": "そらとうみ食堂",
+        "title": "そらとうみ食堂",
+        "date": "2026-02-02",
+        "place": "白石区",
+        "note": "札幌市白石区の新店情報 【新店】札幌市白石区に『そらとうみ食堂』が2026年2月2日(月)よりオープン！",
+        "type": "open",
+        "url": "https://chamonix-cakes.com/kaiten-abolum6woc3tkh2bno/",
+        "source": "札幌開店閉店インフォ",
+        "sources": [
+          {
+            "name": "札幌開店閉店インフォ",
+            "url": "https://chamonix-cakes.com/kaiten-abolum6woc3tkh2bno/",
+            "priority": 65
+          }
+        ],
+        "confidence": 0.54,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
       },
       {
-        "title": "北海道初出店！5月30日にピラティスミラー琴似がオープンします！オープン前キャンペーンも行いますよ。",
-        "url": "https://sapporonishi-teine.goguynet.jp/2026/04/21/pilatesmirrorkotoni/",
-        "date": "2026-04-21",
-        "type": "open"
+        "name": "大型犬カフェ Share Hapi",
+        "title": "大型犬カフェ Share Hapi",
+        "date": "2025-06-06",
+        "place": "白石区",
+        "note": "札幌市白石区の新店情報 【新店】札幌市白石区に『大型犬カフェ Share Hapi』が2025年6月6日(金)よりオープン！",
+        "type": "open",
+        "url": "https://chamonix-cakes.com/kaiten-ab7thvzh2wktde2bno/",
+        "source": "札幌開店閉店インフォ",
+        "sources": [
+          {
+            "name": "札幌開店閉店インフォ",
+            "url": "https://chamonix-cakes.com/kaiten-ab7thvzh2wktde2bno/",
+            "priority": 65
+          }
+        ],
+        "confidence": 0.54,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
       },
       {
-        "title": "ケンタッキーフライドチキン八軒店が休業しています。再開時期も判明しました。",
-        "url": "https://sapporonishi-teine.goguynet.jp/2026/04/19/kfchachiken/",
-        "date": "2026-04-19",
-        "type": "closed"
-      },
-      {
-        "title": "原始焼藁焼き鮮魚 青弐才 琴似店が4月22日にオープンします！",
-        "url": "https://sapporonishi-teine.goguynet.jp/2026/04/18/aonisai/",
-        "date": "2026-04-18",
-        "type": "open"
-      },
-      {
-        "title": "ニトリデコホームイオン札幌西町店が2026年4月下旬にオープンします！",
-        "url": "https://sapporonishi-teine.goguynet.jp/2026/04/16/nitoridekohomenishimachi/",
-        "date": "2026-04-16",
-        "type": "open"
-      },
-      {
-        "title": "北海道内2店舗目！イタリア食堂「オリーブの丘」が西町で建設中です。",
-        "url": "https://sapporonishi-teine.goguynet.jp/2026/04/06/olivenooka/",
-        "date": "2026-04-06",
-        "type": "unknown"
-      },
-      {
-        "title": "琴似駅裏にフィットネスジムFIT365 札幌琴似駅東口がオープンすることが判明しました！",
-        "url": "https://sapporonishi-teine.goguynet.jp/2026/04/04/fit365kotoni/",
-        "date": "2026-04-04",
-        "type": "open"
-      },
-      {
-        "title": "西町にはま寿司がオープンします！オープン時期も判明しました。",
-        "url": "https://sapporonishi-teine.goguynet.jp/2026/04/03/nishinohamazushi/",
-        "date": "2026-04-03",
-        "type": "open"
-      },
-      {
-        "title": "イオンモール札幌発寒のプラステがユニクロ店内に移転リニューアルオープンします！",
-        "url": "https://sapporonishi-teine.goguynet.jp/2026/03/24/plst/",
-        "date": "2026-03-24",
-        "type": "open"
-      },
-      {
-        "title": "4月1日から平日ランチ営業がスタート！琴似のコーヒービーンズ&amp;クッキング コラボ.は自家焙煎のコーヒーと食事が楽しめるお店です。",
-        "url": "https://sapporonishi-teine.goguynet.jp/2026/03/22/colabkotoni/",
-        "date": "2026-03-22",
-        "type": "unknown"
-      },
-      {
-        "title": "ユニクロ イオンモール札幌発寒店が4月24日リニューアルオープン！現在は一時閉店中です。",
-        "url": "https://sapporonishi-teine.goguynet.jp/2026/03/21/uniqlohassamu/",
-        "date": "2026-03-21",
-        "type": "closed"
-      },
-      {
-        "title": "ニューオープン！韓国などのアジアンコスメ、食材、雑貨を販売するバラエティストア「ムニット」がイオンモール札幌発寒に開店しましたよ。",
-        "url": "https://sapporonishi-teine.goguynet.jp/2026/03/19/munitopen/",
-        "date": "2026-03-19",
-        "type": "open"
-      },
-      {
-        "title": "3月8日西野にオープン！Mr.くれーぷはお子様連れ大歓迎の道産米粉を使用したクレープ屋さんですよ。キッズスペースもあります。",
-        "url": "https://sapporonishi-teine.goguynet.jp/2026/03/15/mrcrepeopen/",
-        "date": "2026-03-15",
-        "type": "open"
-      },
-      {
-        "title": "中華爆弾くっきーが2月24日発寒にオープンしました！店長さんは野性爆弾のくっきーさん似だと話題ですよ。",
-        "url": "https://sapporonishi-teine.goguynet.jp/2026/02/25/cyukabakudankukkiopen/",
-        "date": "2026-02-25",
-        "type": "open"
-      },
-      {
-        "title": "西健康づくりセンターは2025年9月21日から2026年10月末頃まで休館しています。",
-        "url": "https://sapporonishi-teine.goguynet.jp/2026/02/22/nishikenkokyukan/",
-        "date": "2026-02-22",
-        "type": "unknown"
-      },
-      {
-        "title": "イオンモール札幌発寒のもくいくひろばは無料でこどもたちが遊べる場所だと人気です。",
-        "url": "https://sapporonishi-teine.goguynet.jp/2025/04/12/hassamumokuikuhiroba/",
-        "date": "2025-04-12",
-        "type": "unknown"
+        "name": "ぎょうざ《るみるみ食堂》店舗オープン！",
+        "title": "ぎょうざ《るみるみ食堂》店舗オープン！",
+        "date": "",
+        "place": "白石区",
+        "note": "【白石区・北郷】ぎょうざ《るみるみ食堂》店舗オープン！",
+        "type": "open",
+        "url": "https://sapporoyard.com/archives/5638584.html",
+        "source": "SAPPOROYARD",
+        "sources": [
+          {
+            "name": "SAPPOROYARD",
+            "url": "https://sapporoyard.com/archives/5638584.html",
+            "priority": 70
+          }
+        ],
+        "confidence": 0.62,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
       }
     ],
-    "teine": [
+    "toyohira": [
       {
-        "title": "可愛い空間で自律型学習！富丘に3月1日Kawaii塾がオープンしました！",
-        "url": "https://sapporonishi-teine.goguynet.jp/2026/03/28/kawaiijyuku/",
-        "date": "2026-03-28",
-        "type": "open"
-      },
-      {
-        "title": "キッチン青山は本場イタリア産のチーズと北海道産小麦を使用したマルゲリータが一押しのピザ屋さんですよ。",
-        "url": "https://sapporonishi-teine.goguynet.jp/2025/11/21/kitchenaoyama/",
-        "date": "2025-11-21",
-        "type": "unknown"
-      },
-      {
-        "title": "なんとイオンの屋上がビアガーデン！7月30日から8月24日までイオン札幌手稲駅前店の屋上にビアガーデンがオープンしています！",
-        "url": "https://sapporonishi-teine.goguynet.jp/2025/08/04/okujyoterasubbq/",
-        "date": "2025-08-04",
-        "type": "open"
-      },
-      {
-        "title": "イオン札幌手稲駅前ショッピングセンターの屋内広場がリニューアルして子どもも遊べると話題です。",
-        "url": "https://sapporonishi-teine.goguynet.jp/2025/03/28/aeonsapporoteineekimaetenhiroba/",
-        "date": "2025-03-28",
-        "type": "open"
+        "name": "ラーメン小太郎",
+        "title": "ラーメン小太郎",
+        "date": "2026-04-17",
+        "place": "豊平区",
+        "note": "札幌市豊平区の新店情報 【移転ｵｰﾌﾟﾝ】札幌市豊平区に『ラーメン小太郎』が2026年4月17日(金)よりオープン！",
+        "type": "open",
+        "url": "https://chamonix-cakes.com/kaiten-abbcvuy3fls9jb2bno/",
+        "source": "札幌開店閉店インフォ",
+        "sources": [
+          {
+            "name": "札幌開店閉店インフォ",
+            "url": "https://chamonix-cakes.com/kaiten-abbcvuy3fls9jb2bno/",
+            "priority": 65
+          }
+        ],
+        "confidence": 0.54,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
       }
-    ]
-  }
+    ],
+    "minami": [
+      {
+        "name": "食堂ほそ矢",
+        "title": "食堂ほそ矢",
+        "date": "2026-08-22",
+        "place": "南区",
+        "note": "開店情報 南区 【開店】札幌市南区 澄川に居酒屋『食堂ほそ矢』が2026年08月22日(土)よりOPEN!! 食堂ほそ矢 2026/08/30",
+        "type": "open",
+        "url": "https://www.shopship.jp/sapporo/open-close/shokudo_hosoya/",
+        "source": "札幌ショップス・開店閉店",
+        "sources": [
+          {
+            "name": "札幌ショップス・開店閉店",
+            "url": "https://www.shopship.jp/sapporo/open-close/shokudo_hosoya/",
+            "priority": 90
+          }
+        ],
+        "confidence": 0.79,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      }
+    ],
+    "nishi": [],
+    "atsubetsu": [
+      {
+        "name": "白鶏舎",
+        "title": "白鶏舎",
+        "date": "2026-04-19",
+        "place": "厚別区",
+        "note": "【厚別南】鶏白湯ラーメン専門店「白鶏舎」4月21日オープン！泡立つクリーミーな一杯 サツッター編集部 厚別南に白鶏舎の単独店が新規オープン！ 濃厚なのに重すぎない鶏白湯。〆のリゾめしが気になります。 札幌市厚別区厚別南に、鶏白湯ラーメン専門店…",
+        "type": "open",
+        "url": "https://satsutter.com/posts/news/38303.html",
+        "source": "サツッター・新店舗",
+        "sources": [
+          {
+            "name": "サツッター・新店舗",
+            "url": "https://satsutter.com/posts/news/38303.html",
+            "priority": 65
+          }
+        ],
+        "confidence": 0.54,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      }
+    ],
+    "teine": [],
+    "kiyota": []
+  },
+  "unmatched": 5,
+  "source_count": 14
 }
