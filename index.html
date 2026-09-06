@@ -274,7 +274,7 @@ function buildTabsAndSections(){
       <div class="section-head"><h2>開店予定</h2><span class="count">目安：2ヶ月以内・日付が近い順</span></div>
       <div class="event-feed" id="${a.id}-upcoming"></div>
 
-      <div class="section-head"><h2>更新履歴</h2><span class="count">新着順・タップで絞り込み</span></div>
+      <div class="section-head"><h2>更新履歴</h2><span class="count">前後1ヶ月・新着順・タップで絞り込み</span></div>
       <div class="filter-row" data-area="${a.id}">
         <button class="chip active" data-filter="all">すべて</button>
         <button class="chip" data-filter="open">新規開店</button>
@@ -586,12 +586,19 @@ function escapeHTML(str){
 }
 
 function renderHistory(){
+  const now = new Date(); now.setHours(0,0,0,0);
+  const windowStart = new Date(now.getTime() - 31*86400000);
+  const windowEnd = new Date(now.getTime() + 31*86400000);
   AREA_META.map(a=>a.id).forEach(area=>{
     const el = document.getElementById(`${area}-history`);
     const merged = [
       ...(CONFIRMED[area] ? CONFIRMED[area].open.map(i=>({...i, _type:"open"})) : []),
       ...(CONFIRMED[area] ? CONFIRMED[area].closed.map(i=>({...i, _type:"closed"})) : []),
-    ].sort((a,b)=>{
+    ].filter(i => {
+      const d = parseDateLoose(i.date);
+      if(!d) return true; // 日付未定は除外しすぎないよう残す
+      return d >= windowStart && d <= windowEnd;
+    }).sort((a,b)=>{
       const da = parseDateLoose(a.date), db = parseDateLoose(b.date);
       if(da && db) return db - da; // 新しい日付が上
       if(da) return -1;
@@ -600,7 +607,7 @@ function renderHistory(){
     });
     el.innerHTML = merged.length
       ? merged.map(i=>eventCardHTML(i, i._type)).join("")
-      : `<p class="empty-note">現在、確認できている情報はありません。</p>`;
+      : `<p class="empty-note">直近1ヶ月で確認できている情報はありません。</p>`;
   });
 }
 
