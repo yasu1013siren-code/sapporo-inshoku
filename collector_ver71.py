@@ -142,6 +142,22 @@ SOURCE_CONFIG = [
     {"id": "sapporo_list_open", "name": "札幌リスト・開店", "url": "https://sapporo-list.info/open/", "kind": "article_list", "priority": 75, "default_status": "open"},
     {"id": "sapporo_yard", "name": "SAPPOROYARD", "url": "https://sapporoyard.com/archives/openclose.html", "kind": "article_list", "priority": 70},
     {"id": "kaiten_heiten", "name": "開店閉店.com・札幌", "url": "https://kaiten-heiten-24.com/category/sapporo/", "kind": "article_list", "priority": 70},
+    {"id": "teine_magazine", "name": "手稲マガジン・開店閉店", "url": "https://teine-magazine.com/category/kaitenheiten/", "kind": "article_list", "priority": 75, "force_ward": "手稲区"},
+
+    # 札幌ショップスは区ごとに専用ページを持っている（/atsubetsu/open-close/ で確認済み）。
+    # force_ward を指定して、区の取り違えが起きないようにする。
+    # ※URLの区名（ローマ字）は厚別区のパターンから類推したもので、
+    #   存在しない/形式が違うページは取得失敗として静かにスキップされるだけなので安全。
+    {"id": "shopship_higashi", "name": "札幌ショップス・東区", "url": "https://www.shopship.jp/higashi/open-close/", "kind": "article_list", "priority": 85, "force_ward": "東区"},
+    {"id": "shopship_shiroishi", "name": "札幌ショップス・白石区", "url": "https://www.shopship.jp/shiroishi/open-close/", "kind": "article_list", "priority": 85, "force_ward": "白石区"},
+    {"id": "shopship_atsubetsu", "name": "札幌ショップス・厚別区", "url": "https://www.shopship.jp/atsubetsu/open-close/", "kind": "article_list", "priority": 85, "force_ward": "厚別区"},
+    {"id": "shopship_toyohira", "name": "札幌ショップス・豊平区", "url": "https://www.shopship.jp/toyohira/open-close/", "kind": "article_list", "priority": 85, "force_ward": "豊平区"},
+    {"id": "shopship_kiyota", "name": "札幌ショップス・清田区", "url": "https://www.shopship.jp/kiyota/open-close/", "kind": "article_list", "priority": 85, "force_ward": "清田区"},
+    {"id": "shopship_minami", "name": "札幌ショップス・南区", "url": "https://www.shopship.jp/minami/open-close/", "kind": "article_list", "priority": 85, "force_ward": "南区"},
+    {"id": "shopship_nishi", "name": "札幌ショップス・西区", "url": "https://www.shopship.jp/nishi/open-close/", "kind": "article_list", "priority": 85, "force_ward": "西区"},
+    {"id": "shopship_teine", "name": "札幌ショップス・手稲区", "url": "https://www.shopship.jp/teine/open-close/", "kind": "article_list", "priority": 85, "force_ward": "手稲区"},
+    {"id": "shopship_kita", "name": "札幌ショップス・北区", "url": "https://www.shopship.jp/kita/open-close/", "kind": "article_list", "priority": 85, "force_ward": "北区"},
+    {"id": "shopship_chuo", "name": "札幌ショップス・中央区", "url": "https://www.shopship.jp/chuo/open-close/", "kind": "article_list", "priority": 85, "force_ward": "中央区"},
     {"id": "living_sapporo", "name": "リビング札幌Web・開店閉店", "url": "https://mrs.living.jp/sapporo/newopen", "kind": "article_list", "priority": 70},
     {"id": "satsutter", "name": "サツッター・新店舗", "url": "https://satsutter.com/tag/%E6%96%B0%E5%BA%97%E8%88%97%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3", "kind": "article_list", "priority": 65, "default_status": "open"},
     {"id": "chamonix", "name": "札幌開店閉店インフォ", "url": "https://chamonix-cakes.com/", "kind": "article_list", "priority": 65},
@@ -446,7 +462,7 @@ def collect_article_source(source: dict):
             # このページ自体が「新店だけ」「閉店だけ」の一覧である場合の救済措置
             status = source["default_status"]
         name = extract_name_from_title(title)
-        ward = detect_ward(text)
+        ward = source.get("force_ward") or detect_ward(text)
         d = parse_date(text)
 
         if not name:
