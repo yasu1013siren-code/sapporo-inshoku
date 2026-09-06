@@ -1,40 +1,40 @@
 {
   "version": "7.1",
-  "generated_at": "2026-09-06T08:51:29",
+  "generated_at": "2026-09-06T09:12:17",
   "date": "2026-09-06",
   "summary": {
-    "raw_candidates": 190,
-    "merged_candidates": 187,
-    "news_json_total": 90,
+    "raw_candidates": 270,
+    "merged_candidates": 252,
+    "news_json_total": 155,
     "raw_unmatched_ward": 106,
     "news_json_unmatched": 110,
     "status_raw": {
-      "open": 173,
-      "closed": 17
+      "open": 246,
+      "closed": 24
     },
     "ward_raw": {
-      "中央区": 34,
-      "北区": 37,
-      "東区": 2,
-      "白石区": 6,
-      "豊平区": 2,
-      "南区": 1,
-      "西区": 1,
-      "厚別区": 1,
-      "手稲区": 0,
-      "清田区": 0
+      "中央区": 45,
+      "北区": 45,
+      "東区": 12,
+      "白石区": 14,
+      "豊平区": 11,
+      "南区": 9,
+      "西区": 4,
+      "厚別区": 9,
+      "手稲区": 9,
+      "清田区": 6
     },
     "ward_final": {
-      "中央区": 40,
-      "北区": 37,
-      "東区": 2,
-      "白石区": 6,
-      "豊平区": 2,
-      "南区": 1,
-      "西区": 1,
-      "厚別区": 1,
-      "手稲区": 0,
-      "清田区": 0
+      "中央区": 43,
+      "北区": 43,
+      "東区": 10,
+      "白石区": 13,
+      "豊平区": 10,
+      "南区": 8,
+      "西区": 4,
+      "厚別区": 9,
+      "手稲区": 9,
+      "清田区": 6
     }
   },
   "sources": [
@@ -273,6 +273,265 @@
       "statuses": {
         "open": 17,
         "closed": 3
+      }
+    },
+    {
+      "id": "teine_magazine",
+      "name": "手稲マガジン・開店閉店",
+      "url": "https://teine-magazine.com/category/kaitenheiten/",
+      "scanned": 121,
+      "link_candidates": 42,
+      "accepted": 3,
+      "rejected": 118,
+      "errors": 0,
+      "reasons": {
+        "タイトル短すぎ/空": 38,
+        "飲食店判定NG": 9,
+        "開閉ステータス不明": 30,
+        "ナビゲーション/共通リンク": 2,
+        "URL重複": 39
+      },
+      "wards": {
+        "手稲区": 3
+      },
+      "statuses": {
+        "open": 2,
+        "closed": 1
+      }
+    },
+    {
+      "id": "shopship_higashi",
+      "name": "札幌ショップス・東区",
+      "url": "https://www.shopship.jp/higashi/open-close/",
+      "scanned": 127,
+      "link_candidates": 39,
+      "accepted": 10,
+      "rejected": 117,
+      "errors": 0,
+      "reasons": {
+        "開閉ステータス不明": 15,
+        "飲食店判定NG": 14,
+        "ナビゲーション/共通リンク": 3,
+        "タイトル短すぎ/空": 71,
+        "URL重複": 14
+      },
+      "wards": {
+        "東区": 10
+      },
+      "statuses": {
+        "open": 9,
+        "closed": 1
+      }
+    },
+    {
+      "id": "shopship_shiroishi",
+      "name": "札幌ショップス・白石区",
+      "url": "https://www.shopship.jp/shiroishi/open-close/",
+      "scanned": 126,
+      "link_candidates": 39,
+      "accepted": 8,
+      "rejected": 118,
+      "errors": 0,
+      "reasons": {
+        "開閉ステータス不明": 15,
+        "飲食店判定NG": 16,
+        "ナビゲーション/共通リンク": 3,
+        "タイトル短すぎ/空": 70,
+        "URL重複": 14
+      },
+      "wards": {
+        "白石区": 8
+      },
+      "statuses": {
+        "open": 8
+      }
+    },
+    {
+      "id": "shopship_atsubetsu",
+      "name": "札幌ショップス・厚別区",
+      "url": "https://www.shopship.jp/atsubetsu/open-close/",
+      "scanned": 127,
+      "link_candidates": 39,
+      "accepted": 8,
+      "rejected": 119,
+      "errors": 0,
+      "reasons": {
+        "開閉ステータス不明": 15,
+        "飲食店判定NG": 16,
+        "ナビゲーション/共通リンク": 3,
+        "タイトル短すぎ/空": 71,
+        "URL重複": 14
+      },
+      "wards": {
+        "厚別区": 8
+      },
+      "statuses": {
+        "open": 8
+      }
+    },
+    {
+      "id": "shopship_toyohira",
+      "name": "札幌ショップス・豊平区",
+      "url": "https://www.shopship.jp/toyohira/open-close/",
+      "scanned": 127,
+      "link_candidates": 39,
+      "accepted": 9,
+      "rejected": 118,
+      "errors": 0,
+      "reasons": {
+        "開閉ステータス不明": 15,
+        "飲食店判定NG": 15,
+        "ナビゲーション/共通リンク": 3,
+        "タイトル短すぎ/空": 71,
+        "URL重複": 14
+      },
+      "wards": {
+        "豊平区": 9
+      },
+      "statuses": {
+        "open": 8,
+        "closed": 1
+      }
+    },
+    {
+      "id": "shopship_kiyota",
+      "name": "札幌ショップス・清田区",
+      "url": "https://www.shopship.jp/kiyota/open-close/",
+      "scanned": 120,
+      "link_candidates": 35,
+      "accepted": 6,
+      "rejected": 114,
+      "errors": 0,
+      "reasons": {
+        "開閉ステータス不明": 15,
+        "飲食店判定NG": 14,
+        "ナビゲーション/共通リンク": 3,
+        "タイトル短すぎ/空": 68,
+        "URL重複": 14
+      },
+      "wards": {
+        "清田区": 6
+      },
+      "statuses": {
+        "open": 5,
+        "closed": 1
+      }
+    },
+    {
+      "id": "shopship_minami",
+      "name": "札幌ショップス・南区",
+      "url": "https://www.shopship.jp/minami/open-close/",
+      "scanned": 126,
+      "link_candidates": 39,
+      "accepted": 8,
+      "rejected": 118,
+      "errors": 0,
+      "reasons": {
+        "開閉ステータス不明": 15,
+        "飲食店判定NG": 16,
+        "ナビゲーション/共通リンク": 3,
+        "タイトル短すぎ/空": 70,
+        "URL重複": 14
+      },
+      "wards": {
+        "南区": 8
+      },
+      "statuses": {
+        "open": 8
+      }
+    },
+    {
+      "id": "shopship_nishi",
+      "name": "札幌ショップス・西区",
+      "url": "https://www.shopship.jp/nishi/open-close/",
+      "scanned": 127,
+      "link_candidates": 39,
+      "accepted": 3,
+      "rejected": 124,
+      "errors": 0,
+      "reasons": {
+        "開閉ステータス不明": 15,
+        "飲食店判定NG": 21,
+        "ナビゲーション/共通リンク": 3,
+        "タイトル短すぎ/空": 71,
+        "URL重複": 14
+      },
+      "wards": {
+        "西区": 3
+      },
+      "statuses": {
+        "open": 3
+      }
+    },
+    {
+      "id": "shopship_teine",
+      "name": "札幌ショップス・手稲区",
+      "url": "https://www.shopship.jp/teine/open-close/",
+      "scanned": 126,
+      "link_candidates": 39,
+      "accepted": 6,
+      "rejected": 120,
+      "errors": 0,
+      "reasons": {
+        "開閉ステータス不明": 15,
+        "飲食店判定NG": 18,
+        "ナビゲーション/共通リンク": 3,
+        "タイトル短すぎ/空": 70,
+        "URL重複": 14
+      },
+      "wards": {
+        "手稲区": 6
+      },
+      "statuses": {
+        "open": 6
+      }
+    },
+    {
+      "id": "shopship_kita",
+      "name": "札幌ショップス・北区",
+      "url": "https://www.shopship.jp/kita/open-close/",
+      "scanned": 127,
+      "link_candidates": 39,
+      "accepted": 8,
+      "rejected": 119,
+      "errors": 0,
+      "reasons": {
+        "開閉ステータス不明": 15,
+        "飲食店判定NG": 16,
+        "ナビゲーション/共通リンク": 3,
+        "タイトル短すぎ/空": 71,
+        "URL重複": 14
+      },
+      "wards": {
+        "北区": 8
+      },
+      "statuses": {
+        "open": 7,
+        "closed": 1
+      }
+    },
+    {
+      "id": "shopship_chuo",
+      "name": "札幌ショップス・中央区",
+      "url": "https://www.shopship.jp/chuo/open-close/",
+      "scanned": 134,
+      "link_candidates": 41,
+      "accepted": 11,
+      "rejected": 123,
+      "errors": 0,
+      "reasons": {
+        "開閉ステータス不明": 17,
+        "飲食店判定NG": 13,
+        "ナビゲーション/共通リンク": 3,
+        "タイトル短すぎ/空": 76,
+        "URL重複": 14
+      },
+      "wards": {
+        "中央区": 11
+      },
+      "statuses": {
+        "open": 9,
+        "closed": 2
       }
     },
     {

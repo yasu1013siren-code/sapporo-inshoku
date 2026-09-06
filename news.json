@@ -1,6 +1,6 @@
 {
   "version": "7.1",
-  "generated_at": "2026-09-06T08:51:29",
+  "generated_at": "2026-09-06T09:12:17",
   "date": "2026-09-06",
   "areas": {
     "chuo": [
@@ -236,6 +236,48 @@
         "last_seen": "2026-09-06"
       },
       {
+        "name": "カレーうどん 鬼はそと",
+        "title": "カレーうどん 鬼はそと",
+        "date": "2026-09-01",
+        "place": "中央区",
+        "note": "開店情報 大通 【開店】札幌市中央区 大通に『カレーうどん 鬼はそと』が2026年09月01日(火)よりOPEN!! カレーうどん 鬼はそと 2026/08/19",
+        "type": "open",
+        "url": "https://www.shopship.jp/odori/open-close/onihasoto-urbannet-sapporo/",
+        "source": "札幌ショップス・中央区",
+        "sources": [
+          {
+            "name": "札幌ショップス・中央区",
+            "url": "https://www.shopship.jp/odori/open-close/onihasoto-urbannet-sapporo/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "タイガーカレー札幌モユク店",
+        "title": "タイガーカレー札幌モユク店",
+        "date": "2026-09-01",
+        "place": "中央区",
+        "note": "開店情報 狸小路 【開店】札幌市中央区 狸小路に『タイガーカレー札幌モユク店』が2026年09月01日(火)よりOPEN!! タイガーカレー札幌モユク店 2026/08/23",
+        "type": "open",
+        "url": "https://www.shopship.jp/sapporo/open-close/tigercurry_moyuk/",
+        "source": "札幌ショップス・中央区",
+        "sources": [
+          {
+            "name": "札幌ショップス・中央区",
+            "url": "https://www.shopship.jp/sapporo/open-close/tigercurry_moyuk/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
         "name": "パフェ、珈琲、酒、佐藤",
         "title": "パフェ、珈琲、酒、佐藤",
         "date": "2026-09-01",
@@ -345,7 +387,7 @@
         "title": "キャプテンラーメン すすきの店",
         "date": "2026-08-24",
         "place": "中央区",
-        "note": "すすきのに新たな一杯！「キャプテンラーメンすすきの店」が9月1日オープン",
+        "note": "開店情報 すすきの 【開店】札幌市中央区 すすきのに『キャプテンラーメン すすきの店』が2026年09月01日(火)よりOPEN!! キャプテンラーメン すすきの店 2026/08/26",
         "type": "open",
         "url": "https://www.instagram.com/captain_ramen.official/",
         "source": "mogtrip・新店",
@@ -378,6 +420,27 @@
           }
         ],
         "confidence": 0.54,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "Milk Cafe みるくsan サッポロファクトリー店",
+        "title": "Milk Cafe みるくsan サッポロファクトリー店",
+        "date": "2026-08-16",
+        "place": "中央区",
+        "note": "閉店情報 中央区 【閉店】札幌市中央区の『Milk Cafe みるくsan サッポロファクトリー店』が2026年08月16日(日)をもって閉店 Milk Cafe みるくsan サッポロファクトリー店 2026/08/21",
+        "type": "closed",
+        "url": "https://www.shopship.jp/sapporo/open-close/milk_san_hokkaido/",
+        "source": "札幌ショップス・中央区",
+        "sources": [
+          {
+            "name": "札幌ショップス・中央区",
+            "url": "https://www.shopship.jp/sapporo/open-close/milk_san_hokkaido/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
         "source_count": 1,
         "first_seen": "2026-09-06",
         "last_seen": "2026-09-06"
@@ -1314,6 +1377,153 @@
         "last_seen": "2026-09-06"
       },
       {
+        "name": "居酒屋ととと。",
+        "title": "居酒屋ととと。",
+        "date": "2026-08-08",
+        "place": "北区",
+        "note": "開店情報 北区 【開店】札幌市北区に『居酒屋ととと。』が2026年08月08日(土)よりOPEN!! 居酒屋ととと。 2026/08/09",
+        "type": "open",
+        "url": "https://www.shopship.jp/sapporo/open-close/izakaya_tototo/",
+        "source": "札幌ショップス・北区",
+        "sources": [
+          {
+            "name": "札幌ショップス・北区",
+            "url": "https://www.shopship.jp/sapporo/open-close/izakaya_tototo/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "空飛ぶおにぎり",
+        "title": "空飛ぶおにぎり",
+        "date": "2026-08-04",
+        "place": "北区",
+        "note": "開店情報 北区 【開店】札幌市北区に『空飛ぶおにぎり』が2026年08月中旬よりOPEN!! 空飛ぶおにぎり 2026/08/04",
+        "type": "open",
+        "url": "https://www.shopship.jp/sapporo/open-close/soratobu_onigiri_24/",
+        "source": "札幌ショップス・北区",
+        "sources": [
+          {
+            "name": "札幌ショップス・北区",
+            "url": "https://www.shopship.jp/sapporo/open-close/soratobu_onigiri_24/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "炭火焼肉くろひめ 屯田店",
+        "title": "炭火焼肉くろひめ 屯田店",
+        "date": "2026-07-28",
+        "place": "北区",
+        "note": "開店情報 北区 【開店】札幌市北区に『炭火焼肉くろひめ 屯田店』が2026年07月28日(火)よりOPEN!! 炭火焼肉くろひめ 屯田店 2026/07/03",
+        "type": "open",
+        "url": "https://www.shopship.jp/sapporo/open-close/yakiniku-kurohime_tonden/",
+        "source": "札幌ショップス・北区",
+        "sources": [
+          {
+            "name": "札幌ショップス・北区",
+            "url": "https://www.shopship.jp/sapporo/open-close/yakiniku-kurohime_tonden/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "よいち餃子大王 札幌麻生店",
+        "title": "よいち餃子大王 札幌麻生店",
+        "date": "2026-07-23",
+        "place": "北区",
+        "note": "開店情報 北区 【開店】札幌市北区に『よいち餃子大王 札幌麻生店』が2026年07月23日(木)よりOPEN!! よいち餃子大王 札幌麻生店 2026/07/14",
+        "type": "open",
+        "url": "https://www.instagram.com/daio_asabu",
+        "source": "mogtrip・新店",
+        "sources": [
+          {
+            "name": "mogtrip・新店",
+            "url": "https://www.instagram.com/daio_asabu",
+            "priority": 90
+          }
+        ],
+        "confidence": 0.54,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "モスバーガー札幌麻生店",
+        "title": "モスバーガー札幌麻生店",
+        "date": "2026-07-14",
+        "place": "北区",
+        "note": "閉店情報 北区 【閉店】札幌市北区の『モスバーガー札幌麻生店』が2026年07月14日(火)をもって閉店 モスバーガー札幌麻生店 2026/07/15",
+        "type": "closed",
+        "url": "https://www.shopship.jp/sapporo/open-close/mos_asabu/",
+        "source": "札幌ショップス・北区",
+        "sources": [
+          {
+            "name": "札幌ショップス・北区",
+            "url": "https://www.shopship.jp/sapporo/open-close/mos_asabu/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "フレッシュネスバーガー 麻生店",
+        "title": "フレッシュネスバーガー 麻生店",
+        "date": "2026-07-02",
+        "place": "北区",
+        "note": "開店情報 北区 【開店】札幌市北区に『フレッシュネスバーガー 麻生店』が2026年07月02日(木)よりOPEN!! フレッシュネスバーガー 麻生店 2026/07/03",
+        "type": "open",
+        "url": "https://www.shopship.jp/sapporo/open-close/freshness_sapporo-asabu/",
+        "source": "札幌ショップス・北区",
+        "sources": [
+          {
+            "name": "札幌ショップス・北区",
+            "url": "https://www.shopship.jp/sapporo/open-close/freshness_sapporo-asabu/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "喫茶いぬの隠れ家",
+        "title": "喫茶いぬの隠れ家",
+        "date": "2026-06-15",
+        "place": "北区",
+        "note": "開店情報 北区 【開店】札幌市北区に『喫茶いぬの隠れ家』が2026年06月15日(月)よりOPEN!! 喫茶いぬの隠れ家 2026/07/10",
+        "type": "open",
+        "url": "https://www.shopship.jp/sapporo/open-close/inunokakurega2026/",
+        "source": "札幌ショップス・北区",
+        "sources": [
+          {
+            "name": "札幌ショップス・北区",
+            "url": "https://www.shopship.jp/sapporo/open-close/inunokakurega2026/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
         "name": "Sweet Shop togo",
         "title": "Sweet Shop togo",
         "date": "2026-05-29",
@@ -1389,27 +1599,6 @@
           {
             "name": "mogtrip・新店",
             "url": "https://www.hotpepper.jp/strJ004558068/",
-            "priority": 90
-          }
-        ],
-        "confidence": 0.5,
-        "source_count": 1,
-        "first_seen": "2026-09-06",
-        "last_seen": "2026-09-06"
-      },
-      {
-        "name": "よいち餃子大王 札幌麻生店",
-        "title": "よいち餃子大王 札幌麻生店",
-        "date": "",
-        "place": "北区",
-        "note": "よいち餃子大王 札幌麻生店",
-        "type": "open",
-        "url": "https://www.instagram.com/daio_asabu",
-        "source": "mogtrip・新店",
-        "sources": [
-          {
-            "name": "mogtrip・新店",
-            "url": "https://www.instagram.com/daio_asabu",
             "priority": 90
           }
         ],
@@ -1631,11 +1820,53 @@
     ],
     "higashi": [
       {
+        "name": "中華そば巖窟王",
+        "title": "中華そば巖窟王",
+        "date": "2026-08-06",
+        "place": "東区",
+        "note": "開店情報 東区 【移転】札幌市東区に『中華そば巖窟王』が2026年08月06日(木)よりOPEN!! 中華そば巖窟王 2026/08/06",
+        "type": "open",
+        "url": "https://www.shopship.jp/sapporo/open-close/ramengankutsuoh_honten/",
+        "source": "札幌ショップス・東区",
+        "sources": [
+          {
+            "name": "札幌ショップス・東区",
+            "url": "https://www.shopship.jp/sapporo/open-close/ramengankutsuoh_honten/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "居酒屋和み",
+        "title": "居酒屋和み",
+        "date": "2026-07-06",
+        "place": "東区",
+        "note": "開店情報 東区 【開店】札幌市東区に『居酒屋和み』が2026年07月06日(月)よりOPEN!! 居酒屋和み 2026/07/10",
+        "type": "open",
+        "url": "https://www.shopship.jp/sapporo/open-close/izakaya-nagomi2026/",
+        "source": "札幌ショップス・東区",
+        "sources": [
+          {
+            "name": "札幌ショップス・東区",
+            "url": "https://www.shopship.jp/sapporo/open-close/izakaya-nagomi2026/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
         "name": "丸美珈琲店 イオンモール札幌苗穂",
         "title": "丸美珈琲店 イオンモール札幌苗穂",
-        "date": "",
+        "date": "2026-06-24",
         "place": "東区",
-        "note": "丸美珈琲店 イオンモール札幌苗穂",
+        "note": "開店情報 東区 【開店】札幌市東区に『丸美珈琲店 イオンモール札幌苗穂』が2026年06月24日(水)よりOPEN!! 丸美珈琲店 イオンモール札幌苗穂 2026/07/02",
         "type": "open",
         "url": "https://www.instagram.com/marumi_coffee",
         "source": "mogtrip・新店",
@@ -1646,7 +1877,133 @@
             "priority": 90
           }
         ],
-        "confidence": 0.5,
+        "confidence": 0.54,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "そば切り めい鈴",
+        "title": "そば切り めい鈴",
+        "date": "2026-05-25",
+        "place": "東区",
+        "note": "開店情報 東区 【開店】札幌市東区に『そば切り めい鈴』が2026年05月25日(月)よりOPEN!! そば切り めい鈴 2026/07/11",
+        "type": "open",
+        "url": "https://www.shopship.jp/sapporo/open-close/soba-meirin/",
+        "source": "札幌ショップス・東区",
+        "sources": [
+          {
+            "name": "札幌ショップス・東区",
+            "url": "https://www.shopship.jp/sapporo/open-close/soba-meirin/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "ラーメン丸福一番星",
+        "title": "ラーメン丸福一番星",
+        "date": "2026-05-21",
+        "place": "東区",
+        "note": "閉店情報 東区 【閉店】札幌市東区の『ラーメン丸福一番星』が2026年12月をもって閉店予定 ラーメン丸福一番星 2026/05/21",
+        "type": "closed",
+        "url": "https://www.shopship.jp/sapporo/open-close/ramen-marufuku-ichibanboshi/",
+        "source": "札幌ショップス・東区",
+        "sources": [
+          {
+            "name": "札幌ショップス・東区",
+            "url": "https://www.shopship.jp/sapporo/open-close/ramen-marufuku-ichibanboshi/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "炭火焼肉 ひふみ",
+        "title": "炭火焼肉 ひふみ",
+        "date": "2026-05-02",
+        "place": "東区",
+        "note": "開店情報 東区 【開店】札幌市東区に『炭火焼肉 ひふみ』が2026年05月02日(土)よりOPEN!! 炭火焼肉 ひふみ 2026/05/03",
+        "type": "open",
+        "url": "https://www.shopship.jp/sapporo/open-close/yakiniku_hifumi/",
+        "source": "札幌ショップス・東区",
+        "sources": [
+          {
+            "name": "札幌ショップス・東区",
+            "url": "https://www.shopship.jp/sapporo/open-close/yakiniku_hifumi/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "ラーメンショップ〇化 サッポロ店",
+        "title": "ラーメンショップ〇化 サッポロ店",
+        "date": "2026-04-29",
+        "place": "東区",
+        "note": "開店情報 東区 【開店】札幌市東区に『ラーメンショップ〇化 サッポロ店』が2026年4月29日(水)よりOPEN!! ラーメンショップ〇化 サッポロ店 2026/05/03",
+        "type": "open",
+        "url": "https://www.shopship.jp/sapporo/open-close/ramenshop_sapporo/",
+        "source": "札幌ショップス・東区",
+        "sources": [
+          {
+            "name": "札幌ショップス・東区",
+            "url": "https://www.shopship.jp/sapporo/open-close/ramenshop_sapporo/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "北海道イタリアン居酒屋 エゾバルバンバン環状通東店",
+        "title": "北海道イタリアン居酒屋 エゾバルバンバン環状通東店",
+        "date": "2026-04-04",
+        "place": "東区",
+        "note": "開店情報 東区 【開店】札幌市東区に『北海道イタリアン居酒屋 エゾバルバンバン環状通東店』が2026年04月04日(土)よりOPEN!! 北海道イタリアン居酒屋 エゾバルバンバン環状通東店 2026/05/03",
+        "type": "open",
+        "url": "https://www.shopship.jp/sapporo/open-close/ezobaru_bangbang_kanjo-dori-higashi_subway-2/",
+        "source": "札幌ショップス・東区",
+        "sources": [
+          {
+            "name": "札幌ショップス・東区",
+            "url": "https://www.shopship.jp/sapporo/open-close/ezobaru_bangbang_kanjo-dori-higashi_subway-2/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "コトワ（個室のある親子カフェ）",
+        "title": "コトワ（個室のある親子カフェ）",
+        "date": "2026-01-15",
+        "place": "東区",
+        "note": "開店情報 東区 【開店】札幌市東区に『コトワ（個室のある親子カフェ）』が2026年1月15日(木)よりOPEN!! コトワ（個室のある親子カフェ） 2026/04/09",
+        "type": "open",
+        "url": "https://www.shopship.jp/sapporo/open-close/cafe-kotowa/",
+        "source": "札幌ショップス・東区",
+        "sources": [
+          {
+            "name": "札幌ショップス・東区",
+            "url": "https://www.shopship.jp/sapporo/open-close/cafe-kotowa/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
         "source_count": 1,
         "first_seen": "2026-09-06",
         "last_seen": "2026-09-06"
@@ -1738,6 +2095,111 @@
         "last_seen": "2026-09-06"
       },
       {
+        "name": "Cafe＆Meal Ulysses",
+        "title": "Cafe＆Meal Ulysses",
+        "date": "2026-08-13",
+        "place": "白石区",
+        "note": "開店情報 白石区 【開店】札幌市白石区に『Cafe＆Meal Ulysses』が2026年08月13日(木)よりOPEN!! Cafe＆Meal Ulysses 2026/08/07",
+        "type": "open",
+        "url": "https://www.shopship.jp/shiroishi/open-close/ulysses-sapporo/",
+        "source": "札幌ショップス・白石区",
+        "sources": [
+          {
+            "name": "札幌ショップス・白石区",
+            "url": "https://www.shopship.jp/shiroishi/open-close/ulysses-sapporo/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "沖縄油そば 具志堅",
+        "title": "沖縄油そば 具志堅",
+        "date": "2026-08-01",
+        "place": "白石区",
+        "note": "開店情報 白石区 【開店】札幌市白石区に『沖縄油そば 具志堅』が2026年08月01日(土)よりOPEN!! 沖縄油そば 具志堅 2026/07/23",
+        "type": "open",
+        "url": "https://www.shopship.jp/shiroishi/open-close/gushiken-okinawaaburasoba/",
+        "source": "札幌ショップス・白石区",
+        "sources": [
+          {
+            "name": "札幌ショップス・白石区",
+            "url": "https://www.shopship.jp/shiroishi/open-close/gushiken-okinawaaburasoba/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "ドトールコーヒーショップ札幌ルーシー店",
+        "title": "ドトールコーヒーショップ札幌ルーシー店",
+        "date": "2026-06-12",
+        "place": "白石区",
+        "note": "開店情報 白石区 【開店】札幌市白石区に『ドトールコーヒーショップ札幌ルーシー店』が2026年06月12日(金)よりOPEN!! ドトールコーヒーショップ札幌ルーシー店 2026/06/13",
+        "type": "open",
+        "url": "https://www.shopship.jp/shiroishi/open-close/doutor-coffee_shiroishi-lucy/",
+        "source": "札幌ショップス・白石区",
+        "sources": [
+          {
+            "name": "札幌ショップス・白石区",
+            "url": "https://www.shopship.jp/shiroishi/open-close/doutor-coffee_shiroishi-lucy/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "ラーメン餃子ハナウタ",
+        "title": "ラーメン餃子ハナウタ",
+        "date": "2026-06-05",
+        "place": "白石区",
+        "note": "開店情報 白石区 【開店】札幌市白石区に『ラーメン餃子ハナウタ』が2026年06月05日(金)よりOPEN!! ラーメン餃子ハナウタ 2026/06/09",
+        "type": "open",
+        "url": "https://www.shopship.jp/shiroishi/open-close/gyozaday_hanauta_shiroishi/",
+        "source": "札幌ショップス・白石区",
+        "sources": [
+          {
+            "name": "札幌ショップス・白石区",
+            "url": "https://www.shopship.jp/shiroishi/open-close/gyozaday_hanauta_shiroishi/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "中華蕎麦 心加亭",
+        "title": "中華蕎麦 心加亭",
+        "date": "2026-05-30",
+        "place": "白石区",
+        "note": "開店情報 白石区 【開店】札幌市白石区に『中華蕎麦 心加亭』が2026年05月30日(土)よりOPEN!! 中華蕎麦 心加亭 2026/05/29",
+        "type": "open",
+        "url": "https://www.shopship.jp/shiroishi/open-close/chukasoba_shinkatei/",
+        "source": "札幌ショップス・白石区",
+        "sources": [
+          {
+            "name": "札幌ショップス・白石区",
+            "url": "https://www.shopship.jp/shiroishi/open-close/chukasoba_shinkatei/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
         "name": "そらとうみ食堂",
         "title": "そらとうみ食堂",
         "date": "2026-02-02",
@@ -1754,6 +2216,48 @@
           }
         ],
         "confidence": 0.54,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "J食堂",
+        "title": "J食堂",
+        "date": "2025-10-22",
+        "place": "白石区",
+        "note": "開店情報 白石区 【開店】札幌市白石区に『J食堂』が2025年10月22日(水)よりOPEN!! J食堂 2026/04/09",
+        "type": "open",
+        "url": "https://www.shopship.jp/shiroishi/open-close/j_shokudo/",
+        "source": "札幌ショップス・白石区",
+        "sources": [
+          {
+            "name": "札幌ショップス・白石区",
+            "url": "https://www.shopship.jp/shiroishi/open-close/j_shokudo/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "HAV cafe",
+        "title": "HAV cafe",
+        "date": "2025-09-01",
+        "place": "白石区",
+        "note": "開店情報 白石区 【開店】札幌市白石区に『HAV cafe』が2025年9月1日(月)よりOPEN!! HAV cafe 2026/04/09",
+        "type": "open",
+        "url": "https://www.shopship.jp/shiroishi/open-close/hav_cafe-sapporo/",
+        "source": "札幌ショップス・白石区",
+        "sources": [
+          {
+            "name": "札幌ショップス・白石区",
+            "url": "https://www.shopship.jp/shiroishi/open-close/hav_cafe-sapporo/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
         "source_count": 1,
         "first_seen": "2026-09-06",
         "last_seen": "2026-09-06"
@@ -1803,6 +2307,153 @@
     ],
     "toyohira": [
       {
+        "name": "岩泉Cafe 東光ストア豊平店",
+        "title": "岩泉Cafe 東光ストア豊平店",
+        "date": "2026-07-24",
+        "place": "豊平区",
+        "note": "開店情報 豊平区 【開店】札幌市豊平区に『岩泉Cafe 東光ストア豊平店』が2026年07月24日(金)よりOPEN!! 岩泉Cafe 東光ストア豊平店 2026/07/28",
+        "type": "open",
+        "url": "https://www.shopship.jp/toyohira/open-close/iwaizumicafe_sapporo_toyohira/",
+        "source": "札幌ショップス・豊平区",
+        "sources": [
+          {
+            "name": "札幌ショップス・豊平区",
+            "url": "https://www.shopship.jp/toyohira/open-close/iwaizumicafe_sapporo_toyohira/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "韓国料理屋 HANKI",
+        "title": "韓国料理屋 HANKI",
+        "date": "2026-07-15",
+        "place": "豊平区",
+        "note": "開店情報 豊平区 【開店】札幌市豊平区に『韓国料理屋 HANKI』が2026年07月15日(水)よりOPEN!! 韓国料理屋 HANKI 2026/07/23",
+        "type": "open",
+        "url": "https://www.shopship.jp/toyohira/open-close/hanki_sapporo/",
+        "source": "札幌ショップス・豊平区",
+        "sources": [
+          {
+            "name": "札幌ショップス・豊平区",
+            "url": "https://www.shopship.jp/toyohira/open-close/hanki_sapporo/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "岩泉Cafe ビッグハウスエクストラ店",
+        "title": "岩泉Cafe ビッグハウスエクストラ店",
+        "date": "2026-06-26",
+        "place": "豊平区",
+        "note": "開店情報 豊平区 【開店】札幌市豊平区に『岩泉Cafe ビッグハウスエクストラ店』が2026年06月26日(金)よりOPEN!! 岩泉Cafe ビッグハウスエクストラ店 2026/07/02",
+        "type": "open",
+        "url": "https://www.shopship.jp/toyohira/open-close/iwaizumicafe_sapporo_extra/",
+        "source": "札幌ショップス・豊平区",
+        "sources": [
+          {
+            "name": "札幌ショップス・豊平区",
+            "url": "https://www.shopship.jp/toyohira/open-close/iwaizumicafe_sapporo_extra/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "ごまそば あずみ",
+        "title": "ごまそば あずみ",
+        "date": "2026-06-18",
+        "place": "豊平区",
+        "note": "閉店情報 豊平区 【閉店】札幌市豊平区の『ごまそば あずみ』が2026年06月18日(木)をもって閉店 ごまそば あずみ 2026/05/20",
+        "type": "closed",
+        "url": "https://www.shopship.jp/toyohira/open-close/gomasoba-azumi/",
+        "source": "札幌ショップス・豊平区",
+        "sources": [
+          {
+            "name": "札幌ショップス・豊平区",
+            "url": "https://www.shopship.jp/toyohira/open-close/gomasoba-azumi/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "ラーメン ピッコロ大将",
+        "title": "ラーメン ピッコロ大将",
+        "date": "2026-06-05",
+        "place": "豊平区",
+        "note": "開店情報 豊平区 【開店】札幌市豊平区に『ラーメン ピッコロ大将』が2026年06月05日(金)よりOPEN!! ラーメン ピッコロ大将 2026/06/04",
+        "type": "open",
+        "url": "https://www.shopship.jp/toyohira/open-close/pikkorotaisho/",
+        "source": "札幌ショップス・豊平区",
+        "sources": [
+          {
+            "name": "札幌ショップス・豊平区",
+            "url": "https://www.shopship.jp/toyohira/open-close/pikkorotaisho/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "徳光珈琲 月寒西店",
+        "title": "徳光珈琲 月寒西店",
+        "date": "2026-06-01",
+        "place": "豊平区",
+        "note": "開店情報 豊平区 【開店】札幌市豊平区に『徳光珈琲 月寒西店』が2026年06月01日(月)よりOPEN!! 徳光珈琲 月寒西店 2026/05/15",
+        "type": "open",
+        "url": "https://www.shopship.jp/toyohira/open-close/tokumitsucoffee_tsukisamunishi/",
+        "source": "札幌ショップス・豊平区",
+        "sources": [
+          {
+            "name": "札幌ショップス・豊平区",
+            "url": "https://www.shopship.jp/toyohira/open-close/tokumitsucoffee_tsukisamunishi/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "月寒ラーメン 麺とスープ",
+        "title": "月寒ラーメン 麺とスープ",
+        "date": "2026-04-28",
+        "place": "豊平区",
+        "note": "開店情報 豊平区 【開店】札幌市豊平区に『月寒ラーメン 麺とスープ』が2026年04月28日(火)よりOPEN!! 月寒ラーメン 麺とスープ 2026/05/13",
+        "type": "open",
+        "url": "https://www.instagram.com/men.to.suupu.tukisamu",
+        "source": "mogtrip・新店",
+        "sources": [
+          {
+            "name": "mogtrip・新店",
+            "url": "https://www.instagram.com/men.to.suupu.tukisamu",
+            "priority": 90
+          }
+        ],
+        "confidence": 0.54,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
         "name": "ラーメン小太郎",
         "title": "ラーメン小太郎",
         "date": "2026-04-17",
@@ -1824,22 +2475,43 @@
         "last_seen": "2026-09-06"
       },
       {
-        "name": "月寒ラーメン 麺とスープ",
-        "title": "月寒ラーメン 麺とスープ",
-        "date": "",
+        "name": "O-PUS cafe",
+        "title": "O-PUS cafe",
+        "date": "2025-11-05",
         "place": "豊平区",
-        "note": "月寒ラーメン 麺とスープ",
+        "note": "開店情報 豊平区 【開店】札幌市豊平区に『O-PUS cafe』が2025年11月5日(水)よりOPEN!! O-PUS cafe 2026/04/09",
         "type": "open",
-        "url": "https://www.instagram.com/men.to.suupu.tukisamu",
-        "source": "mogtrip・新店",
+        "url": "https://www.shopship.jp/toyohira/open-close/shiawase-atsumare/",
+        "source": "札幌ショップス・豊平区",
         "sources": [
           {
-            "name": "mogtrip・新店",
-            "url": "https://www.instagram.com/men.to.suupu.tukisamu",
-            "priority": 90
+            "name": "札幌ショップス・豊平区",
+            "url": "https://www.shopship.jp/toyohira/open-close/shiawase-atsumare/",
+            "priority": 85
           }
         ],
-        "confidence": 0.5,
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "手打ちそば 砂子",
+        "title": "手打ちそば 砂子",
+        "date": "2025-09-05",
+        "place": "豊平区",
+        "note": "開店情報 豊平区 【開店】札幌市豊平区に『手打ちそば 砂子』が2025年9月5日(金)よりOPEN!! 手打ちそば 砂子 2026/04/09",
+        "type": "open",
+        "url": "https://www.shopship.jp/toyohira/open-close/teuchi-soba_sunako/",
+        "source": "札幌ショップス・豊平区",
+        "sources": [
+          {
+            "name": "札幌ショップス・豊平区",
+            "url": "https://www.shopship.jp/toyohira/open-close/teuchi-soba_sunako/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
         "source_count": 1,
         "first_seen": "2026-09-06",
         "last_seen": "2026-09-06"
@@ -1866,9 +2538,219 @@
         "source_count": 1,
         "first_seen": "2026-09-06",
         "last_seen": "2026-09-06"
+      },
+      {
+        "name": "ラーメン今日もまこまない。",
+        "title": "ラーメン今日もまこまない。",
+        "date": "2026-08-01",
+        "place": "南区",
+        "note": "開店情報 南区 【開店】札幌市南区に『ラーメン今日もまこまない。』が2026年08月01日(土)よりOPEN!! ラーメン今日もまこまない。 2026/08/03",
+        "type": "open",
+        "url": "https://www.shopship.jp/sapporo/open-close/kyou_mako/",
+        "source": "札幌ショップス・南区",
+        "sources": [
+          {
+            "name": "札幌ショップス・南区",
+            "url": "https://www.shopship.jp/sapporo/open-close/kyou_mako/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "カラオケスナックバー COCO",
+        "title": "カラオケスナックバー COCO",
+        "date": "2026-04-04",
+        "place": "南区",
+        "note": "開店情報 南区 【開店】札幌市南区に『カラオケスナックバー COCO』が2026年04月04日(土)よりOPEN!! カラオケスナックバー COCO 2026/05/03",
+        "type": "open",
+        "url": "https://www.shopship.jp/sapporo/open-close/coco_sumikawa/",
+        "source": "札幌ショップス・南区",
+        "sources": [
+          {
+            "name": "札幌ショップス・南区",
+            "url": "https://www.shopship.jp/sapporo/open-close/coco_sumikawa/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "はま寿司 札幌川沿店",
+        "title": "はま寿司 札幌川沿店",
+        "date": "2025-08-21",
+        "place": "南区",
+        "note": "開店情報 南区 【開店】札幌市南区に『はま寿司 札幌川沿店』が2025年8月21日(木)よりOPEN!! はま寿司 札幌川沿店 2026/04/09",
+        "type": "open",
+        "url": "https://www.shopship.jp/sapporo/open-close/hamasushi_kawazoe/",
+        "source": "札幌ショップス・南区",
+        "sources": [
+          {
+            "name": "札幌ショップス・南区",
+            "url": "https://www.shopship.jp/sapporo/open-close/hamasushi_kawazoe/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "寄り道したくなるアイス屋さん",
+        "title": "寄り道したくなるアイス屋さん",
+        "date": "2025-06-28",
+        "place": "南区",
+        "note": "開店情報 南区 【開店】札幌市南区に『寄り道したくなるアイス屋さん』が2025年6月28日(土)よりOPEN!! 寄り道したくなるアイス屋さん 2026/04/09",
+        "type": "open",
+        "url": "https://www.shopship.jp/sapporo/open-close/yorimichi__ice/",
+        "source": "札幌ショップス・南区",
+        "sources": [
+          {
+            "name": "札幌ショップス・南区",
+            "url": "https://www.shopship.jp/sapporo/open-close/yorimichi__ice/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "魚屋の寿司かねこ",
+        "title": "魚屋の寿司かねこ",
+        "date": "2025-03-29",
+        "place": "南区",
+        "note": "開店情報 南区 【新店】札幌市南区に『魚屋の寿司かねこ』が2025年3月29日(土)よりOPEN!! 魚屋の寿司かねこ 2026/04/09",
+        "type": "open",
+        "url": "https://www.shopship.jp/sapporo/open-close/sushi_kaneko_sapporo_20250329/",
+        "source": "札幌ショップス・南区",
+        "sources": [
+          {
+            "name": "札幌ショップス・南区",
+            "url": "https://www.shopship.jp/sapporo/open-close/sushi_kaneko_sapporo_20250329/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "まだ名前のない喫茶店",
+        "title": "まだ名前のない喫茶店",
+        "date": "2025-03-11",
+        "place": "南区",
+        "note": "開店情報 南区 【新店】札幌市南区に『まだ名前のない喫茶店』が2025年3月11日(火)よりOPEN!! まだ名前のない喫茶店 2026/04/09",
+        "type": "open",
+        "url": "https://www.shopship.jp/sapporo/open-close/thecafewithnonameyet_20250311/",
+        "source": "札幌ショップス・南区",
+        "sources": [
+          {
+            "name": "札幌ショップス・南区",
+            "url": "https://www.shopship.jp/sapporo/open-close/thecafewithnonameyet_20250311/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "おにぎりのひなちゃん",
+        "title": "おにぎりのひなちゃん",
+        "date": "2025-03-05",
+        "place": "南区",
+        "note": "開店情報 南区 【新店】札幌市南区に『おにぎりのひなちゃん』が2025年3月5日(水)よりOPEN!! おにぎりのひなちゃん 2026/04/09",
+        "type": "open",
+        "url": "https://www.shopship.jp/sapporo/open-close/oni-giri_hina/",
+        "source": "札幌ショップス・南区",
+        "sources": [
+          {
+            "name": "札幌ショップス・南区",
+            "url": "https://www.shopship.jp/sapporo/open-close/oni-giri_hina/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
       }
     ],
     "nishi": [
+      {
+        "name": "はま寿司 札幌西町店",
+        "title": "はま寿司 札幌西町店",
+        "date": "2026-06-25",
+        "place": "西区",
+        "note": "開店情報 西区 【開店】札幌市西区に『はま寿司 札幌西町店』が2026年06月25日(木)よりOPEN!! はま寿司 札幌西町店 2026/07/02",
+        "type": "open",
+        "url": "https://www.shopship.jp/sapporo/open-close/hama-sushi-nisimachi/",
+        "source": "札幌ショップス・西区",
+        "sources": [
+          {
+            "name": "札幌ショップス・西区",
+            "url": "https://www.shopship.jp/sapporo/open-close/hama-sushi-nisimachi/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "アナンコーヒー",
+        "title": "アナンコーヒー",
+        "date": "2026-05-11",
+        "place": "西区",
+        "note": "開店情報 西区 【開店】札幌市西区に『アナンコーヒー』が2026年05月11日(月)よりOPEN!! アナンコーヒー 2026/05/15",
+        "type": "open",
+        "url": "https://www.shopship.jp/sapporo/open-close/ananda-coffee2026/",
+        "source": "札幌ショップス・西区",
+        "sources": [
+          {
+            "name": "札幌ショップス・西区",
+            "url": "https://www.shopship.jp/sapporo/open-close/ananda-coffee2026/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "daria by ジーバーFOOD",
+        "title": "daria by ジーバーFOOD",
+        "date": "2025-09-04",
+        "place": "西区",
+        "note": "開店情報 西区 【開店】札幌市八軒に『daria by ジーバーFOOD』が2025年9月4日(木)よりOPEN!! daria by ジーバーFOOD 2026/04/09",
+        "type": "open",
+        "url": "https://www.shopship.jp/sapporo/open-close/daria_gbfood/",
+        "source": "札幌ショップス・西区",
+        "sources": [
+          {
+            "name": "札幌ショップス・西区",
+            "url": "https://www.shopship.jp/sapporo/open-close/daria_gbfood/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
       {
         "name": "徳光珈琲 月寒西店",
         "title": "徳光珈琲 月寒西店",
@@ -1893,6 +2775,90 @@
     ],
     "atsubetsu": [
       {
+        "name": "北海道ジンギスカン えいじん 清田店",
+        "title": "北海道ジンギスカン えいじん 清田店",
+        "date": "2026-07-01",
+        "place": "厚別区",
+        "note": "開店情報 清田区 【開店】札幌市清田区に『北海道ジンギスカン えいじん 清田店』が2026年07月01日(水)よりOPEN!! 北海道ジンギスカン えいじん 清田店 2026/07/03",
+        "type": "open",
+        "url": "https://www.shopship.jp/kiyota/open-close/eijin_kiyota/",
+        "source": "札幌ショップス・厚別区",
+        "sources": [
+          {
+            "name": "札幌ショップス・厚別区",
+            "url": "https://www.shopship.jp/kiyota/open-close/eijin_kiyota/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "横浜家系ラーメン武田家 北野店",
+        "title": "横浜家系ラーメン武田家 北野店",
+        "date": "2026-06-25",
+        "place": "厚別区",
+        "note": "開店情報 清田区 【開店】札幌市清田区に『横浜家系ラーメン武田家 北野店』が2026年06月25日(木)よりOPEN!! 横浜家系ラーメン武田家 北野店 2026/08/14",
+        "type": "open",
+        "url": "https://www.shopship.jp/kiyota/open-close/takedaya_kitano/",
+        "source": "札幌ショップス・厚別区",
+        "sources": [
+          {
+            "name": "札幌ショップス・厚別区",
+            "url": "https://www.shopship.jp/kiyota/open-close/takedaya_kitano/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "新札幌大衆肉刺し酒場 ぺこら肉食堂",
+        "title": "新札幌大衆肉刺し酒場 ぺこら肉食堂",
+        "date": "2026-04-22",
+        "place": "厚別区",
+        "note": "開店情報 新札幌 【開店】新札幌に『新札幌大衆肉刺し酒場 ぺこら肉食堂』が2026年04月22日(水)よりOPEN!! 新札幌大衆肉刺し酒場 ぺこら肉食堂 2026/05/02",
+        "type": "open",
+        "url": "https://www.shopship.jp/shin-sapporo/open-close/pecora_29shokudo/",
+        "source": "札幌ショップス・厚別区",
+        "sources": [
+          {
+            "name": "札幌ショップス・厚別区",
+            "url": "https://www.shopship.jp/shin-sapporo/open-close/pecora_29shokudo/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "鶏白湯ラーメン 白鶏舎 厚別南店",
+        "title": "鶏白湯ラーメン 白鶏舎 厚別南店",
+        "date": "2026-04-21",
+        "place": "厚別区",
+        "note": "開店情報 厚別区 【開店】札幌市厚別区に『鶏白湯ラーメン 白鶏舎 厚別南店』が2026年04月21日(火)よりOPEN!! 鶏白湯ラーメン 白鶏舎 厚別南店 2026/05/03",
+        "type": "open",
+        "url": "https://www.shopship.jp/atsubetsu/open-close/hakkeisha_atsubetsuminami/",
+        "source": "札幌ショップス・厚別区",
+        "sources": [
+          {
+            "name": "札幌ショップス・厚別区",
+            "url": "https://www.shopship.jp/atsubetsu/open-close/hakkeisha_atsubetsuminami/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
         "name": "白鶏舎",
         "title": "白鶏舎",
         "date": "2026-04-19",
@@ -1912,11 +2878,412 @@
         "source_count": 1,
         "first_seen": "2026-09-06",
         "last_seen": "2026-09-06"
+      },
+      {
+        "name": "自家製酵母パン 太郎山",
+        "title": "自家製酵母パン 太郎山",
+        "date": "2026-01-20",
+        "place": "厚別区",
+        "note": "開店情報 清田区 【開店】札幌市清田区真栄に『自家製酵母パン 太郎山』が2026年1月20日(火)より移転OPEN!! 自家製酵母パン 太郎山 2026/04/09",
+        "type": "open",
+        "url": "https://www.shopship.jp/kiyota/open-close/tarouyama2021/",
+        "source": "札幌ショップス・厚別区",
+        "sources": [
+          {
+            "name": "札幌ショップス・厚別区",
+            "url": "https://www.shopship.jp/kiyota/open-close/tarouyama2021/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "米粉のシフォンケーキ&焼き菓子 Clover",
+        "title": "米粉のシフォンケーキ&焼き菓子 Clover",
+        "date": "2025-09-23",
+        "place": "厚別区",
+        "note": "開店情報 清田区 【開店】札幌市清田区に『米粉のシフォンケーキ&焼き菓子 Clover』が2025年9月23日(火)よりOPEN!! 米粉のシフォンケーキ&焼き菓子 Clover 2026/04/09",
+        "type": "open",
+        "url": "https://www.shopship.jp/kiyota/open-close/clover_komeko/",
+        "source": "札幌ショップス・厚別区",
+        "sources": [
+          {
+            "name": "札幌ショップス・厚別区",
+            "url": "https://www.shopship.jp/kiyota/open-close/clover_komeko/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "焼き鳥 鳥幸",
+        "title": "焼き鳥 鳥幸",
+        "date": "2025-09-13",
+        "place": "厚別区",
+        "note": "開店情報 厚別区 【開店】札幌市厚別区に『焼き鳥 鳥幸』が2025年9月13日(土)よりOPEN!! 焼き鳥 鳥幸 2026/04/09",
+        "type": "open",
+        "url": "https://www.shopship.jp/atsubetsu/open-close/torikou_0913/",
+        "source": "札幌ショップス・厚別区",
+        "sources": [
+          {
+            "name": "札幌ショップス・厚別区",
+            "url": "https://www.shopship.jp/atsubetsu/open-close/torikou_0913/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "デカ盛り弁当 はるき 新札幌店",
+        "title": "デカ盛り弁当 はるき 新札幌店",
+        "date": "2025-07-02",
+        "place": "厚別区",
+        "note": "開店情報 厚別区 【開店】札幌市厚別区に『デカ盛り弁当 はるき 新札幌店』が2025年7月2日(水)よりOPEN!! デカ盛り弁当 はるき 新札幌店 2026/04/09",
+        "type": "open",
+        "url": "https://www.shopship.jp/atsubetsu/open-close/dakamori_haruki_sinsapporo/",
+        "source": "札幌ショップス・厚別区",
+        "sources": [
+          {
+            "name": "札幌ショップス・厚別区",
+            "url": "https://www.shopship.jp/atsubetsu/open-close/dakamori_haruki_sinsapporo/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
       }
     ],
-    "teine": [],
-    "kiyota": []
+    "teine": [
+      {
+        "name": "ミルクル",
+        "title": "ミルクル",
+        "date": "2026-08-09",
+        "place": "手稲区",
+        "note": "【新店 手稲】絶品ソフトクリームとコーヒーの店！「ミルクル」が手稲にオ... 手稲区にお住まいの皆さま、そしてこれから「手稲に住んでみたい！」と考えている皆さま、こんにちは！手稲マガジン編集部です。 毎日家... 2026.08.09",
+        "type": "open",
+        "url": "https://teine-magazine.com/%e3%80%90%e6%96%b0%e5%ba%97-%e6%89%8b%e7%a8%b2%e3%80%91%e7%b5%b6%e5%93%81%e3%82%bd%e3%83%95%e3%83%88%e3%82%af%e3%83%aa%e3%83%bc%e3%83%a0%e3%81%a8%e3%82%b3%e3%83%bc%e3%83%92%e3%83%bc%e3%81%ae%e5%ba%97/",
+        "source": "手稲マガジン・開店閉店",
+        "sources": [
+          {
+            "name": "手稲マガジン・開店閉店",
+            "url": "https://teine-magazine.com/%e3%80%90%e6%96%b0%e5%ba%97-%e6%89%8b%e7%a8%b2%e3%80%91%e7%b5%b6%e5%93%81%e3%82%bd%e3%83%95%e3%83%88%e3%82%af%e3%83%aa%e3%83%bc%e3%83%a0%e3%81%a8%e3%82%b3%e3%83%bc%e3%83%92%e3%83%bc%e3%81%ae%e5%ba%97/",
+            "priority": 75
+          }
+        ],
+        "confidence": 0.66,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "札幌みその 手稲店",
+        "title": "札幌みその 手稲店",
+        "date": "2026-07-29",
+        "place": "手稲区",
+        "note": "【閉店 手稲】ショック…！手稲区の人気ラーメン店「札幌みその 手稲店」が... 手稲マガジン読者の皆様、こんにちは！手稲マガジン編集長です。 手稲にお住まいのパパさん、ママさん、週末の家族ランチや、ちょっとご... 2026.07.29",
+        "type": "closed",
+        "url": "https://teine-magazine.com/%e3%80%90%e9%96%89%e5%ba%97-%e6%89%8b%e7%a8%b2%e3%80%91%e3%82%b7%e3%83%a7%e3%83%83%e3%82%af%ef%bc%81%e6%89%8b%e7%a8%b2%e5%8c%ba%e3%81%ae%e4%ba%ba%e6%b0%97%e3%83%a9%e3%83%bc%e3%83%a1%e3%83%b3/",
+        "source": "手稲マガジン・開店閉店",
+        "sources": [
+          {
+            "name": "手稲マガジン・開店閉店",
+            "url": "https://teine-magazine.com/%e3%80%90%e9%96%89%e5%ba%97-%e6%89%8b%e7%a8%b2%e3%80%91%e3%82%b7%e3%83%a7%e3%83%83%e3%82%af%ef%bc%81%e6%89%8b%e7%a8%b2%e5%8c%ba%e3%81%ae%e4%ba%ba%e6%b0%97%e3%83%a9%e3%83%bc%e3%83%a1%e3%83%b3/",
+            "priority": 75
+          }
+        ],
+        "confidence": 0.66,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "こがねショッピングプラザに注目のお洒落カフェ誕生！「... 皆さん、こんにちは！手稲マガジン編集長です。 本日は、手稲エリアのカフェ好き・パン好きの皆さんにぜひ知っていただきたい、最新スポ... 20",
+        "title": "こがねショッピングプラザに注目のお洒落カフェ誕生！「... 皆さん、こんにちは！手稲マガジン編集長です。 本日は、手稲エリアのカフェ好き・パン好きの皆さんにぜひ知っていただきたい、最新スポ... 20",
+        "date": "2026-07-26",
+        "place": "手稲区",
+        "note": "【新店 手稲星置】こがねショッピングプラザに注目のお洒落カフェ誕生！「... 皆さん、こんにちは！手稲マガジン編集長です。 本日は、手稲エリアのカフェ好き・パン好きの皆さんにぜひ知っていただきたい、最新スポ... 2026.07.26",
+        "type": "open",
+        "url": "https://teine-magazine.com/%e3%80%90%e6%96%b0%e5%ba%97-%e6%89%8b%e7%a8%b2%e6%98%9f%e7%bd%ae%e3%80%91%e3%81%93%e3%81%8c%e3%81%ad%e3%82%b7%e3%83%a7%e3%83%83%e3%83%94%e3%83%b3%e3%82%b0%e3%83%97%e3%83%a9%e3%82%b6%e3%81%ab%e6%b3%a8/",
+        "source": "手稲マガジン・開店閉店",
+        "sources": [
+          {
+            "name": "手稲マガジン・開店閉店",
+            "url": "https://teine-magazine.com/%e3%80%90%e6%96%b0%e5%ba%97-%e6%89%8b%e7%a8%b2%e6%98%9f%e7%bd%ae%e3%80%91%e3%81%93%e3%81%8c%e3%81%ad%e3%82%b7%e3%83%a7%e3%83%83%e3%83%94%e3%83%b3%e3%82%b0%e3%83%97%e3%83%a9%e3%82%b6%e3%81%ab%e6%b3%a8/",
+            "priority": 75
+          }
+        ],
+        "confidence": 0.66,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "cafe & dining bouquet (ブーケ)",
+        "title": "cafe & dining bouquet (ブーケ)",
+        "date": "2026-05-31",
+        "place": "手稲区",
+        "note": "開店情報 手稲区 【開店】札幌市手稲区に『cafe & dining bouquet (ブーケ)』が2026年05月31日(日)よりOPEN!! 2026/06/01",
+        "type": "open",
+        "url": "https://www.shopship.jp/teine/open-close/bouquet_days/",
+        "source": "札幌ショップス・手稲区",
+        "sources": [
+          {
+            "name": "札幌ショップス・手稲区",
+            "url": "https://www.shopship.jp/teine/open-close/bouquet_days/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "まみーれクレープ",
+        "title": "まみーれクレープ",
+        "date": "2026-05-02",
+        "place": "手稲区",
+        "note": "開店情報 手稲区 【開店】札幌市手稲区に『まみーれクレープ』が2026年05月02日(土)よりOPEN!! まみーれクレープ 2026/05/07",
+        "type": "open",
+        "url": "https://www.shopship.jp/teine/open-close/mami_re55crepe/",
+        "source": "札幌ショップス・手稲区",
+        "sources": [
+          {
+            "name": "札幌ショップス・手稲区",
+            "url": "https://www.shopship.jp/teine/open-close/mami_re55crepe/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "魚豚中華そば ラギ⭐︎一番",
+        "title": "魚豚中華そば ラギ⭐︎一番",
+        "date": "2026-01-17",
+        "place": "手稲区",
+        "note": "開店情報 手稲区 【開店】札幌市手稲区に『魚豚中華そば ラギ⭐︎一番』が2026年1月17日(土)よりOPEN!! 魚豚中華そば ラギ⭐︎一番 2026/04/09",
+        "type": "open",
+        "url": "https://www.shopship.jp/teine/open-close/teineramen29tama/",
+        "source": "札幌ショップス・手稲区",
+        "sources": [
+          {
+            "name": "札幌ショップス・手稲区",
+            "url": "https://www.shopship.jp/teine/open-close/teineramen29tama/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "スターバックスコーヒー イオン札幌手稲駅前店",
+        "title": "スターバックスコーヒー イオン札幌手稲駅前店",
+        "date": "2025-09-26",
+        "place": "手稲区",
+        "note": "開店情報 手稲区 【開店】札幌市手稲区に『スターバックスコーヒー イオン札幌手稲駅前店』が2025年9月26日(金)よりOPEN!! スターバックスコーヒー イオン札幌手稲駅前店 2026/04/09",
+        "type": "open",
+        "url": "https://www.shopship.jp/teine/open-close/sbux_teine_aeon/",
+        "source": "札幌ショップス・手稲区",
+        "sources": [
+          {
+            "name": "札幌ショップス・手稲区",
+            "url": "https://www.shopship.jp/teine/open-close/sbux_teine_aeon/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "𝗠𝗨𝗡’𝗦 𝗗𝗢𝗨𝗚𝗛𝗡𝗨𝗧 / ムンズドーナツ",
+        "title": "𝗠𝗨𝗡’𝗦 𝗗𝗢𝗨𝗚𝗛𝗡𝗨𝗧 / ムンズドーナツ",
+        "date": "2025-09-25",
+        "place": "手稲区",
+        "note": "開店情報 手稲区 【開店】札幌市手稲区に『𝗠𝗨𝗡’𝗦 𝗗𝗢𝗨𝗚𝗛𝗡𝗨𝗧 / ムンズドーナツ』が2025年9月25日(木)よりOPEN!! 𝗠𝗨𝗡’𝗦 𝗗𝗢𝗨𝗚𝗛𝗡𝗨𝗧 / ムンズドーナツ 2026/04/09",
+        "type": "open",
+        "url": "https://www.shopship.jp/teine/open-close/muns_doughnut/",
+        "source": "札幌ショップス・手稲区",
+        "sources": [
+          {
+            "name": "札幌ショップス・手稲区",
+            "url": "https://www.shopship.jp/teine/open-close/muns_doughnut/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "cozy cafe",
+        "title": "cozy cafe",
+        "date": "2025-09-01",
+        "place": "手稲区",
+        "note": "開店情報 手稲区 【開店】札幌市手稲区西宮の沢に『cozy cafe』が2025年9月1日(月)よりOPEN!! cozy cafe 2026/04/09",
+        "type": "open",
+        "url": "https://www.shopship.jp/teine/open-close/cozy-cafe5812/",
+        "source": "札幌ショップス・手稲区",
+        "sources": [
+          {
+            "name": "札幌ショップス・手稲区",
+            "url": "https://www.shopship.jp/teine/open-close/cozy-cafe5812/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      }
+    ],
+    "kiyota": [
+      {
+        "name": "北海道ジンギスカン えいじん 清田店",
+        "title": "北海道ジンギスカン えいじん 清田店",
+        "date": "2026-07-01",
+        "place": "清田区",
+        "note": "開店情報 清田区 【開店】札幌市清田区に『北海道ジンギスカン えいじん 清田店』が2026年07月01日(水)よりOPEN!! 北海道ジンギスカン えいじん 清田店 2026/07/03",
+        "type": "open",
+        "url": "https://www.shopship.jp/kiyota/open-close/eijin_kiyota/",
+        "source": "札幌ショップス・清田区",
+        "sources": [
+          {
+            "name": "札幌ショップス・清田区",
+            "url": "https://www.shopship.jp/kiyota/open-close/eijin_kiyota/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "横浜家系ラーメン武田家 北野店",
+        "title": "横浜家系ラーメン武田家 北野店",
+        "date": "2026-06-25",
+        "place": "清田区",
+        "note": "開店情報 清田区 【開店】札幌市清田区に『横浜家系ラーメン武田家 北野店』が2026年06月25日(木)よりOPEN!! 横浜家系ラーメン武田家 北野店 2026/08/14",
+        "type": "open",
+        "url": "https://www.shopship.jp/kiyota/open-close/takedaya_kitano/",
+        "source": "札幌ショップス・清田区",
+        "sources": [
+          {
+            "name": "札幌ショップス・清田区",
+            "url": "https://www.shopship.jp/kiyota/open-close/takedaya_kitano/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "自家製酵母パン 太郎山",
+        "title": "自家製酵母パン 太郎山",
+        "date": "2026-01-20",
+        "place": "清田区",
+        "note": "開店情報 清田区 【開店】札幌市清田区真栄に『自家製酵母パン 太郎山』が2026年1月20日(火)より移転OPEN!! 自家製酵母パン 太郎山 2026/04/09",
+        "type": "open",
+        "url": "https://www.shopship.jp/kiyota/open-close/tarouyama2021/",
+        "source": "札幌ショップス・清田区",
+        "sources": [
+          {
+            "name": "札幌ショップス・清田区",
+            "url": "https://www.shopship.jp/kiyota/open-close/tarouyama2021/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "米粉のシフォンケーキ&焼き菓子 Clover",
+        "title": "米粉のシフォンケーキ&焼き菓子 Clover",
+        "date": "2025-09-23",
+        "place": "清田区",
+        "note": "開店情報 清田区 【開店】札幌市清田区に『米粉のシフォンケーキ&焼き菓子 Clover』が2025年9月23日(火)よりOPEN!! 米粉のシフォンケーキ&焼き菓子 Clover 2026/04/09",
+        "type": "open",
+        "url": "https://www.shopship.jp/kiyota/open-close/clover_komeko/",
+        "source": "札幌ショップス・清田区",
+        "sources": [
+          {
+            "name": "札幌ショップス・清田区",
+            "url": "https://www.shopship.jp/kiyota/open-close/clover_komeko/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "ラーメン山岡家 羊ヶ丘通店",
+        "title": "ラーメン山岡家 羊ヶ丘通店",
+        "date": "2025-07-15",
+        "place": "清田区",
+        "note": "開店情報 清田区 【開店】札幌市清田区 羊ケ丘通りに『ラーメン山岡家 羊ヶ丘通店』が2025年7月15日(火)よりOPEN!! ラーメン山岡家 羊ヶ丘通店 2026/04/09",
+        "type": "open",
+        "url": "https://www.shopship.jp/kiyota/open-close/yamaokaya_hitsujigaoka/",
+        "source": "札幌ショップス・清田区",
+        "sources": [
+          {
+            "name": "札幌ショップス・清田区",
+            "url": "https://www.shopship.jp/kiyota/open-close/yamaokaya_hitsujigaoka/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "Cafe Charme",
+        "title": "Cafe Charme",
+        "date": "2024-10-27",
+        "place": "清田区",
+        "note": "閉店情報 清田区 【閉店】札幌市清田区のカフェ『Cafe Charme』が2024年10月27日(日)をもって閉店します 2024/10/15",
+        "type": "closed",
+        "url": "https://www.shopship.jp/kiyota/open-close/cafe-charme/",
+        "source": "札幌ショップス・清田区",
+        "sources": [
+          {
+            "name": "札幌ショップス・清田区",
+            "url": "https://www.shopship.jp/kiyota/open-close/cafe-charme/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      }
+    ]
   },
   "unmatched": 110,
-  "source_count": 14
+  "source_count": 25
 }
