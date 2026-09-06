@@ -1,6 +1,6 @@
 {
   "version": "7.1",
-  "generated_at": "2026-09-06T03:38:06",
+  "generated_at": "2026-09-06T03:46:31",
   "date": "2026-09-06",
   "areas": {
     "chuo": [
@@ -173,6 +173,27 @@
         "last_seen": "2026-09-06"
       },
       {
+        "name": "鎌倉パスタ",
+        "title": "鎌倉パスタ",
+        "date": "2026-09-03",
+        "place": "中央区",
+        "note": "マルヤマクラスに「鎌倉パスタ」が9月2日NEW OPEN！もちもち生パスタを楽しめる新店舗",
+        "type": "open",
+        "url": "https://sapporochuo.goguynet.jp/2026/09/03/kamakura/",
+        "source": "号外NET 札幌市中央区",
+        "sources": [
+          {
+            "name": "号外NET 札幌市中央区",
+            "url": "https://sapporochuo.goguynet.jp/2026/09/03/kamakura/",
+            "priority": 80
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
         "name": "タイガーカレー",
         "title": "タイガーカレー",
         "date": "2026-09-02",
@@ -189,6 +210,27 @@
           }
         ],
         "confidence": 0.54,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "タイガーカレー",
+        "title": "タイガーカレー",
+        "date": "2026-09-02",
+        "place": "中央区",
+        "note": "モユク札幌に「タイガーカレー」が9月1日オープン！熱々のスープカレーを楽しもう",
+        "type": "open",
+        "url": "https://sapporochuo.goguynet.jp/2026/09/02/moyuk_sapporo/",
+        "source": "号外NET 札幌市中央区",
+        "sources": [
+          {
+            "name": "号外NET 札幌市中央区",
+            "url": "https://sapporochuo.goguynet.jp/2026/09/02/moyuk_sapporo/",
+            "priority": 80
+          }
+        ],
+        "confidence": 0.72,
         "source_count": 1,
         "first_seen": "2026-09-06",
         "last_seen": "2026-09-06"
@@ -278,6 +320,48 @@
         "last_seen": "2026-09-06"
       },
       {
+        "name": "岩見沢精肉卸直営 牛乃家 北3条店",
+        "title": "岩見沢精肉卸直営 牛乃家 北3条店",
+        "date": "2026-08-28",
+        "place": "中央区",
+        "note": "札幌駅前に「岩見沢精肉卸直営 牛乃家 北3条店」がオープン！手頃な価格で楽しむ焼肉",
+        "type": "open",
+        "url": "https://sapporochuo.goguynet.jp/2026/08/28/ushinoya/",
+        "source": "号外NET 札幌市中央区",
+        "sources": [
+          {
+            "name": "号外NET 札幌市中央区",
+            "url": "https://sapporochuo.goguynet.jp/2026/08/28/ushinoya/",
+            "priority": 80
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "キャプテンラーメン すすきの店",
+        "title": "キャプテンラーメン すすきの店",
+        "date": "2026-08-24",
+        "place": "中央区",
+        "note": "すすきのに新たな一杯！「キャプテンラーメンすすきの店」が9月1日オープン",
+        "type": "open",
+        "url": "https://www.instagram.com/captain_ramen.official/",
+        "source": "mogtrip・新店",
+        "sources": [
+          {
+            "name": "mogtrip・新店",
+            "url": "https://www.instagram.com/captain_ramen.official/",
+            "priority": 90
+          }
+        ],
+        "confidence": 0.79,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
         "name": "キャプテンラーメンすすきの店",
         "title": "キャプテンラーメンすすきの店",
         "date": "2026-08-24",
@@ -299,6 +383,48 @@
         "last_seen": "2026-09-06"
       },
       {
+        "name": "SAPPORO餃子製造所 4PLA店｜札幌中央区大通 2026-08-09 大通公園",
+        "title": "SAPPORO餃子製造所 4PLA店｜札幌中央区大通 2026-08-09 大通公園",
+        "date": "2026-08-09",
+        "place": "中央区",
+        "note": "SAPPORO餃子製造所 4PLA店｜札幌中央区大通 2026-08-09 大通公園",
+        "type": "open",
+        "url": "https://mogtrip.jp/sapporo-gyoza-4pla/",
+        "source": "mogtrip・新店",
+        "sources": [
+          {
+            "name": "mogtrip・新店",
+            "url": "https://mogtrip.jp/sapporo-gyoza-4pla/",
+            "priority": 90
+          }
+        ],
+        "confidence": 0.79,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "SAPPORO餃子製造所 4PLA店｜札幌中央区大通 2026-08-09 大通公園",
+        "title": "SAPPORO餃子製造所 4PLA店｜札幌中央区大通 2026-08-09 大通公園",
+        "date": "2026-08-09",
+        "place": "中央区",
+        "note": "SAPPORO餃子製造所 4PLA店｜札幌中央区大通 2026-08-09 大通公園",
+        "type": "closed",
+        "url": "https://mogtrip.jp/sapporo-gyoza-4pla/",
+        "source": "mogtrip・閉店",
+        "sources": [
+          {
+            "name": "mogtrip・閉店",
+            "url": "https://mogtrip.jp/sapporo-gyoza-4pla/",
+            "priority": 90
+          }
+        ],
+        "confidence": 0.79,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
         "name": "吉野家×はなまるうどん",
         "title": "吉野家×はなまるうどん",
         "date": "2026-08-08",
@@ -315,6 +441,27 @@
           }
         ],
         "confidence": 0.54,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "吉野家×はなまるうどん",
+        "title": "吉野家×はなまるうどん",
+        "date": "2026-08-08",
+        "place": "中央区",
+        "note": "さっぽろ地下街オーロラタウンに「吉野家×はなまるうどん」コラボ店が9月中旬オープン！",
+        "type": "open",
+        "url": "https://sapporochuo.goguynet.jp/2026/08/08/sapporo-chikagai-5/",
+        "source": "号外NET 札幌市中央区",
+        "sources": [
+          {
+            "name": "号外NET 札幌市中央区",
+            "url": "https://sapporochuo.goguynet.jp/2026/08/08/sapporo-chikagai-5/",
+            "priority": 80
+          }
+        ],
+        "confidence": 0.72,
         "source_count": 1,
         "first_seen": "2026-09-06",
         "last_seen": "2026-09-06"
@@ -362,6 +509,27 @@
         "last_seen": "2026-09-06"
       },
       {
+        "name": "アーバンネット札幌リンクタワー",
+        "title": "アーバンネット札幌リンクタワー",
+        "date": "2026-07-27",
+        "place": "中央区",
+        "note": "札幌都心の新ランドマーク「アーバンネット札幌リンクタワー」が竣工！9月から話題の飲食店も続々オープン",
+        "type": "open",
+        "url": "https://sapporochuo.goguynet.jp/2026/07/27/city-sapporo-link_tower/",
+        "source": "号外NET 札幌市中央区",
+        "sources": [
+          {
+            "name": "号外NET 札幌市中央区",
+            "url": "https://sapporochuo.goguynet.jp/2026/07/27/city-sapporo-link_tower/",
+            "priority": 80
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
         "name": "THE BUTTER",
         "title": "THE BUTTER",
         "date": "2026-07-25",
@@ -378,6 +546,48 @@
           }
         ],
         "confidence": 0.54,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "一人焼き鳥B（ビィ）｜札幌中央区すすきの 2026-07-22 すすきの",
+        "title": "一人焼き鳥B（ビィ）｜札幌中央区すすきの 2026-07-22 すすきの",
+        "date": "2026-07-22",
+        "place": "中央区",
+        "note": "一人焼き鳥B（ビィ）｜札幌中央区すすきの 2026-07-22 すすきの",
+        "type": "open",
+        "url": "https://mogtrip.jp/yakitori-b/",
+        "source": "mogtrip・新店",
+        "sources": [
+          {
+            "name": "mogtrip・新店",
+            "url": "https://mogtrip.jp/yakitori-b/",
+            "priority": 90
+          }
+        ],
+        "confidence": 0.79,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "一人焼き鳥B（ビィ）｜札幌中央区すすきの 2026-07-22 すすきの",
+        "title": "一人焼き鳥B（ビィ）｜札幌中央区すすきの 2026-07-22 すすきの",
+        "date": "2026-07-22",
+        "place": "中央区",
+        "note": "一人焼き鳥B（ビィ）｜札幌中央区すすきの 2026-07-22 すすきの",
+        "type": "closed",
+        "url": "https://mogtrip.jp/yakitori-b/",
+        "source": "mogtrip・閉店",
+        "sources": [
+          {
+            "name": "mogtrip・閉店",
+            "url": "https://mogtrip.jp/yakitori-b/",
+            "priority": 90
+          }
+        ],
+        "confidence": 0.79,
         "source_count": 1,
         "first_seen": "2026-09-06",
         "last_seen": "2026-09-06"
@@ -438,9 +648,203 @@
             "name": "サツッター・新店舗",
             "url": "https://satsutter.com/posts/news/39523.html",
             "priority": 65
+          },
+          {
+            "name": "mogtrip・新店",
+            "url": "https://www.instagram.com/sushimichi.tanukikoji/",
+            "priority": 90
           }
         ],
-        "confidence": 0.54,
+        "confidence": 0.58,
+        "source_count": 2,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "そば処やまだ 大通店",
+        "title": "そば処やまだ 大通店",
+        "date": "",
+        "place": "中央区",
+        "note": "そば処やまだ 大通店",
+        "type": "open",
+        "url": "https://www.instagram.com/sobadokoro.yamada",
+        "source": "mogtrip・新店",
+        "sources": [
+          {
+            "name": "mogtrip・新店",
+            "url": "https://www.instagram.com/sobadokoro.yamada",
+            "priority": 90
+          }
+        ],
+        "confidence": 0.75,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "もつと海鮮焼鳥にの すすきの5.5店",
+        "title": "もつと海鮮焼鳥にの すすきの5.5店",
+        "date": "",
+        "place": "中央区",
+        "note": "もつと海鮮焼鳥にの すすきの5.5店",
+        "type": "open",
+        "url": "https://www.hotpepper.jp/strJ004403881/",
+        "source": "mogtrip・新店",
+        "sources": [
+          {
+            "name": "mogtrip・新店",
+            "url": "https://www.hotpepper.jp/strJ004403881/",
+            "priority": 90
+          }
+        ],
+        "confidence": 0.75,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "和牛焼肉 百折歩撓 札幌すすきの総本店",
+        "title": "和牛焼肉 百折歩撓 札幌すすきの総本店",
+        "date": "",
+        "place": "中央区",
+        "note": "和牛焼肉 百折歩撓 札幌すすきの総本店",
+        "type": "open",
+        "url": "https://tabelog.com/hokkaido/A0101/A010104/1084282/",
+        "source": "mogtrip・新店",
+        "sources": [
+          {
+            "name": "mogtrip・新店",
+            "url": "https://tabelog.com/hokkaido/A0101/A010104/1084282/",
+            "priority": 90
+          }
+        ],
+        "confidence": 0.75,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "夜パフェ BAR & VIGO 札幌すすきの店",
+        "title": "夜パフェ BAR & VIGO 札幌すすきの店",
+        "date": "",
+        "place": "中央区",
+        "note": "夜パフェ BAR & VIGO 札幌すすきの店",
+        "type": "open",
+        "url": "https://www.instagram.com/and_vigo_sapporo_susukino/",
+        "source": "mogtrip・新店",
+        "sources": [
+          {
+            "name": "mogtrip・新店",
+            "url": "https://www.instagram.com/and_vigo_sapporo_susukino/",
+            "priority": 90
+          }
+        ],
+        "confidence": 0.75,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "寿司とおでん 日本酒あかり すすきの店",
+        "title": "寿司とおでん 日本酒あかり すすきの店",
+        "date": "",
+        "place": "中央区",
+        "note": "寿司とおでん 日本酒あかり すすきの店",
+        "type": "open",
+        "url": "https://www.hotpepper.jp/strJ004005225/",
+        "source": "mogtrip・新店",
+        "sources": [
+          {
+            "name": "mogtrip・新店",
+            "url": "https://www.hotpepper.jp/strJ004005225/",
+            "priority": 90
+          }
+        ],
+        "confidence": 0.75,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "札幌円山カレー",
+        "title": "札幌円山カレー",
+        "date": "",
+        "place": "中央区",
+        "note": "札幌円山カレー",
+        "type": "open",
+        "url": "https://www.instagram.com/sapporomaruyamacurry/",
+        "source": "mogtrip・新店",
+        "sources": [
+          {
+            "name": "mogtrip・新店",
+            "url": "https://www.instagram.com/sapporomaruyamacurry/",
+            "priority": 90
+          }
+        ],
+        "confidence": 0.75,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "海鮮炉端と焼き鳥しのぶれ すすきの店",
+        "title": "海鮮炉端と焼き鳥しのぶれ すすきの店",
+        "date": "",
+        "place": "中央区",
+        "note": "海鮮炉端と焼き鳥しのぶれ すすきの店",
+        "type": "open",
+        "url": "https://www.hotpepper.jp/strJ004591417/",
+        "source": "mogtrip・新店",
+        "sources": [
+          {
+            "name": "mogtrip・新店",
+            "url": "https://www.hotpepper.jp/strJ004591417/",
+            "priority": 90
+          }
+        ],
+        "confidence": 0.75,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "蝦夷鹿ジンギスカンすすきのベニソン",
+        "title": "蝦夷鹿ジンギスカンすすきのベニソン",
+        "date": "",
+        "place": "中央区",
+        "note": "蝦夷鹿ジンギスカンすすきのベニソン",
+        "type": "open",
+        "url": "https://www.hotpepper.jp/strJ004509967/",
+        "source": "mogtrip・新店",
+        "sources": [
+          {
+            "name": "mogtrip・新店",
+            "url": "https://www.hotpepper.jp/strJ004509967/",
+            "priority": 90
+          }
+        ],
+        "confidence": 0.75,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "酒と鮨 ガリとあガリ すすきの店",
+        "title": "酒と鮨 ガリとあガリ すすきの店",
+        "date": "",
+        "place": "中央区",
+        "note": "酒と鮨 ガリとあガリ すすきの店",
+        "type": "open",
+        "url": "https://www.hotpepper.jp/strJ003873037/",
+        "source": "mogtrip・新店",
+        "sources": [
+          {
+            "name": "mogtrip・新店",
+            "url": "https://www.hotpepper.jp/strJ003873037/",
+            "priority": 90
+          }
+        ],
+        "confidence": 0.75,
         "source_count": 1,
         "first_seen": "2026-09-06",
         "last_seen": "2026-09-06"
@@ -971,9 +1375,304 @@
         "source_count": 1,
         "first_seen": "2026-09-06",
         "last_seen": "2026-09-06"
+      },
+      {
+        "name": "もつと海鮮焼き鳥にの 札幌駅北口西店",
+        "title": "もつと海鮮焼き鳥にの 札幌駅北口西店",
+        "date": "",
+        "place": "北区",
+        "note": "もつと海鮮焼き鳥にの 札幌駅北口西店",
+        "type": "open",
+        "url": "https://www.hotpepper.jp/strJ004558068/",
+        "source": "mogtrip・新店",
+        "sources": [
+          {
+            "name": "mogtrip・新店",
+            "url": "https://www.hotpepper.jp/strJ004558068/",
+            "priority": 90
+          }
+        ],
+        "confidence": 0.75,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "よいち餃子大王 札幌麻生店",
+        "title": "よいち餃子大王 札幌麻生店",
+        "date": "",
+        "place": "北区",
+        "note": "よいち餃子大王 札幌麻生店",
+        "type": "open",
+        "url": "https://www.instagram.com/daio_asabu",
+        "source": "mogtrip・新店",
+        "sources": [
+          {
+            "name": "mogtrip・新店",
+            "url": "https://www.instagram.com/daio_asabu",
+            "priority": 90
+          }
+        ],
+        "confidence": 0.75,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "個室✕海鮮居酒屋 北海道を喰らえ 札幌大通店",
+        "title": "個室✕海鮮居酒屋 北海道を喰らえ 札幌大通店",
+        "date": "",
+        "place": "北区",
+        "note": "個室✕海鮮居酒屋 北海道を喰らえ 札幌大通店",
+        "type": "open",
+        "url": "https://tabelog.com/hokkaido/A0101/A010102/1085292/",
+        "source": "mogtrip・新店",
+        "sources": [
+          {
+            "name": "mogtrip・新店",
+            "url": "https://tabelog.com/hokkaido/A0101/A010102/1085292/",
+            "priority": 90
+          }
+        ],
+        "confidence": 0.75,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "北海道ジンギスカンえいじん清田店",
+        "title": "北海道ジンギスカンえいじん清田店",
+        "date": "",
+        "place": "北区",
+        "note": "北海道ジンギスカンえいじん清田店",
+        "type": "open",
+        "url": "https://www.hotpepper.jp/strJ004612816/",
+        "source": "mogtrip・新店",
+        "sources": [
+          {
+            "name": "mogtrip・新店",
+            "url": "https://www.hotpepper.jp/strJ004612816/",
+            "priority": 90
+          }
+        ],
+        "confidence": 0.75,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "北海道家系ラーメン蒼武家",
+        "title": "北海道家系ラーメン蒼武家",
+        "date": "",
+        "place": "北区",
+        "note": "北海道家系ラーメン蒼武家",
+        "type": "open",
+        "url": "https://www.instagram.com/sobuya_ichi/",
+        "source": "mogtrip・新店",
+        "sources": [
+          {
+            "name": "mogtrip・新店",
+            "url": "https://www.instagram.com/sobuya_ichi/",
+            "priority": 90
+          }
+        ],
+        "confidence": 0.75,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "北海道海鮮居酒屋 てっちゃん すすきの南7条店",
+        "title": "北海道海鮮居酒屋 てっちゃん すすきの南7条店",
+        "date": "",
+        "place": "北区",
+        "note": "北海道海鮮居酒屋 てっちゃん すすきの南7条店",
+        "type": "open",
+        "url": "https://www.hotpepper.jp/strJ004509723/",
+        "source": "mogtrip・新店",
+        "sources": [
+          {
+            "name": "mogtrip・新店",
+            "url": "https://www.hotpepper.jp/strJ004509723/",
+            "priority": 90
+          }
+        ],
+        "confidence": 0.75,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "北海道海鮮居酒屋てっちゃん別邸",
+        "title": "北海道海鮮居酒屋てっちゃん別邸",
+        "date": "",
+        "place": "北区",
+        "note": "北海道海鮮居酒屋てっちゃん別邸",
+        "type": "open",
+        "url": "https://www.hotpepper.jp/strJ004613043/",
+        "source": "mogtrip・新店",
+        "sources": [
+          {
+            "name": "mogtrip・新店",
+            "url": "https://www.hotpepper.jp/strJ004613043/",
+            "priority": 90
+          }
+        ],
+        "confidence": 0.75,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "北麦パン店",
+        "title": "北麦パン店",
+        "date": "",
+        "place": "北区",
+        "note": "北麦パン店",
+        "type": "open",
+        "url": "https://www.instagram.com/kitamugi.panten/",
+        "source": "mogtrip・新店",
+        "sources": [
+          {
+            "name": "mogtrip・新店",
+            "url": "https://www.instagram.com/kitamugi.panten/",
+            "priority": 90
+          }
+        ],
+        "confidence": 0.75,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "炭火居酒屋 炎 麻生2号店",
+        "title": "炭火居酒屋 炎 麻生2号店",
+        "date": "",
+        "place": "北区",
+        "note": "炭火居酒屋 炎 麻生2号店",
+        "type": "open",
+        "url": "https://www.hotpepper.jp/strJ004559212/",
+        "source": "mogtrip・新店",
+        "sources": [
+          {
+            "name": "mogtrip・新店",
+            "url": "https://www.hotpepper.jp/strJ004559212/",
+            "priority": 90
+          }
+        ],
+        "confidence": 0.75,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "焼肉徳寿 札幌駅前店",
+        "title": "焼肉徳寿 札幌駅前店",
+        "date": "",
+        "place": "北区",
+        "note": "焼肉徳寿 札幌駅前店",
+        "type": "open",
+        "url": "https://www.tokuju.com/shop/sapporo-ekimae/",
+        "source": "mogtrip・新店",
+        "sources": [
+          {
+            "name": "mogtrip・新店",
+            "url": "https://www.tokuju.com/shop/sapporo-ekimae/",
+            "priority": 90
+          }
+        ],
+        "confidence": 0.75,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "焼鳥 鳥頂 札幌駅前店",
+        "title": "焼鳥 鳥頂 札幌駅前店",
+        "date": "",
+        "place": "北区",
+        "note": "焼鳥 鳥頂 札幌駅前店",
+        "type": "open",
+        "url": "https://tabelog.com/hokkaido/A0101/A010101/1084108/",
+        "source": "mogtrip・新店",
+        "sources": [
+          {
+            "name": "mogtrip・新店",
+            "url": "https://tabelog.com/hokkaido/A0101/A010101/1084108/",
+            "priority": 90
+          }
+        ],
+        "confidence": 0.75,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "餃子のかっちゃん 北24条店",
+        "title": "餃子のかっちゃん 北24条店",
+        "date": "",
+        "place": "北区",
+        "note": "餃子のかっちゃん 北24条店",
+        "type": "open",
+        "url": "https://tabelog.com/hokkaido/A0101/A010201/1084624/",
+        "source": "mogtrip・新店",
+        "sources": [
+          {
+            "name": "mogtrip・新店",
+            "url": "https://tabelog.com/hokkaido/A0101/A010201/1084624/",
+            "priority": 90
+          }
+        ],
+        "confidence": 0.75,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
       }
     ],
-    "higashi": [],
+    "higashi": [
+      {
+        "name": "丸美珈琲店 イオンモール札幌苗穂",
+        "title": "丸美珈琲店 イオンモール札幌苗穂",
+        "date": "",
+        "place": "東区",
+        "note": "丸美珈琲店 イオンモール札幌苗穂",
+        "type": "open",
+        "url": "https://www.instagram.com/marumi_coffee",
+        "source": "mogtrip・新店",
+        "sources": [
+          {
+            "name": "mogtrip・新店",
+            "url": "https://www.instagram.com/marumi_coffee",
+            "priority": 90
+          }
+        ],
+        "confidence": 0.75,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "岩泉Cafe 東光ストア豊平店",
+        "title": "岩泉Cafe 東光ストア豊平店",
+        "date": "",
+        "place": "東区",
+        "note": "岩泉Cafe 東光ストア豊平店",
+        "type": "open",
+        "url": "https://www.instagram.com/iwaizumicafe_sapporo_toyohira/",
+        "source": "mogtrip・新店",
+        "sources": [
+          {
+            "name": "mogtrip・新店",
+            "url": "https://www.instagram.com/iwaizumicafe_sapporo_toyohira/",
+            "priority": 90
+          }
+        ],
+        "confidence": 0.75,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      }
+    ],
     "shiroishi": [
       {
         "name": "炭火やBB 南郷13丁目店",
@@ -1081,6 +1780,27 @@
         "source_count": 1,
         "first_seen": "2026-09-06",
         "last_seen": "2026-09-06"
+      },
+      {
+        "name": "月寒ラーメン 麺とスープ",
+        "title": "月寒ラーメン 麺とスープ",
+        "date": "",
+        "place": "豊平区",
+        "note": "月寒ラーメン 麺とスープ",
+        "type": "open",
+        "url": "https://www.instagram.com/men.to.suupu.tukisamu",
+        "source": "mogtrip・新店",
+        "sources": [
+          {
+            "name": "mogtrip・新店",
+            "url": "https://www.instagram.com/men.to.suupu.tukisamu",
+            "priority": 90
+          }
+        ],
+        "confidence": 0.75,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
       }
     ],
     "minami": [
@@ -1106,7 +1826,29 @@
         "last_seen": "2026-09-06"
       }
     ],
-    "nishi": [],
+    "nishi": [
+      {
+        "name": "徳光珈琲 月寒西店",
+        "title": "徳光珈琲 月寒西店",
+        "date": "",
+        "place": "西区",
+        "note": "徳光珈琲 月寒西店",
+        "type": "open",
+        "url": "https://www.instagram.com/tokumitsucoffee",
+        "source": "mogtrip・新店",
+        "sources": [
+          {
+            "name": "mogtrip・新店",
+            "url": "https://www.instagram.com/tokumitsucoffee",
+            "priority": 90
+          }
+        ],
+        "confidence": 0.75,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      }
+    ],
     "atsubetsu": [
       {
         "name": "白鶏舎",
@@ -1133,6 +1875,6 @@
     "teine": [],
     "kiyota": []
   },
-  "unmatched": 5,
+  "unmatched": 110,
   "source_count": 14
 }

@@ -1,37 +1,37 @@
 {
   "version": "7.1",
-  "generated_at": "2026-09-06T03:38:06",
+  "generated_at": "2026-09-06T03:46:31",
   "date": "2026-09-06",
   "summary": {
-    "raw_candidates": 59,
-    "merged_candidates": 58,
-    "news_json_total": 53,
-    "raw_unmatched_ward": 5,
-    "news_json_unmatched": 5,
+    "raw_candidates": 194,
+    "merged_candidates": 191,
+    "news_json_total": 88,
+    "raw_unmatched_ward": 110,
+    "news_json_unmatched": 110,
     "status_raw": {
-      "open": 43,
-      "closed": 16
+      "open": 177,
+      "closed": 17
     },
     "ward_raw": {
-      "中央区": 22,
-      "北区": 25,
-      "東区": 0,
+      "中央区": 36,
+      "北区": 37,
+      "東区": 2,
       "白石区": 4,
-      "豊平区": 1,
+      "豊平区": 2,
       "南区": 1,
-      "西区": 0,
+      "西区": 1,
       "厚別区": 1,
       "手稲区": 0,
       "清田区": 0
     },
     "ward_final": {
-      "中央区": 21,
-      "北区": 25,
-      "東区": 0,
+      "中央区": 40,
+      "北区": 37,
+      "東区": 2,
       "白石区": 4,
-      "豊平区": 1,
+      "豊平区": 2,
       "南区": 1,
-      "西区": 0,
+      "西区": 1,
       "厚別区": 1,
       "手稲区": 0,
       "清田区": 0
@@ -57,17 +57,25 @@
       "url": "https://mogtrip.jp/newopen-2026/",
       "scanned": 436,
       "link_candidates": 344,
-      "accepted": 0,
-      "rejected": 436,
+      "accepted": 119,
+      "rejected": 317,
       "errors": 0,
       "reasons": {
-        "開閉ステータス不明": 342,
+        "飲食店判定NG": 225,
         "タイトル短すぎ/空": 68,
-        "URL重複": 24,
-        "飲食店判定NG": 2
+        "URL重複": 24
       },
-      "wards": {},
-      "statuses": {}
+      "wards": {
+        "区不明": 90,
+        "中央区": 13,
+        "北区": 12,
+        "東区": 2,
+        "西区": 1,
+        "豊平区": 1
+      },
+      "statuses": {
+        "open": 119
+      }
     },
     {
       "id": "mogtrip_close",
@@ -75,17 +83,21 @@
       "url": "https://mogtrip.jp/closed-2026/",
       "scanned": 107,
       "link_candidates": 29,
-      "accepted": 0,
-      "rejected": 107,
+      "accepted": 7,
+      "rejected": 100,
       "errors": 0,
       "reasons": {
-        "開閉ステータス不明": 27,
+        "飲食店判定NG": 22,
         "タイトル短すぎ/空": 56,
-        "URL重複": 22,
-        "飲食店判定NG": 2
+        "URL重複": 22
       },
-      "wards": {},
-      "statuses": {}
+      "wards": {
+        "区不明": 5,
+        "中央区": 2
+      },
+      "statuses": {
+        "closed": 7
+      }
     },
     {
       "id": "shopship",
@@ -118,39 +130,39 @@
       "id": "gogai_chuo",
       "name": "号外NET 札幌市中央区",
       "url": "https://sapporochuo.goguynet.jp/category/cat_openclose/",
-      "scanned": 703,
-      "link_candidates": 288,
-      "accepted": 9,
-      "rejected": 694,
+      "scanned": 37,
+      "link_candidates": 22,
+      "accepted": 8,
+      "rejected": 29,
       "errors": 0,
       "reasons": {
-        "タイトル短すぎ/空": 158,
-        "開閉ステータス不明": 272,
-        "飲食店判定NG": 7,
-        "URL重複": 254,
-        "ナビゲーション/共通リンク": 3
+        "区タグなし": 1,
+        "開閉ステータス不明": 7,
+        "飲食店判定NG": 6,
+        "タイトル短すぎ/空": 11,
+        "URL重複": 4
       },
       "wards": {
-        "中央区": 9
+        "中央区": 8
       },
       "statuses": {
-        "closed": 9
+        "open": 6,
+        "closed": 2
       }
     },
     {
       "id": "gogai_kita",
       "name": "号外NET 札幌市北区",
       "url": "https://sapporokitaku.goguynet.jp/category/cat_openclose/",
-      "scanned": 703,
-      "link_candidates": 351,
+      "scanned": 37,
+      "link_candidates": 21,
       "accepted": 0,
-      "rejected": 703,
+      "rejected": 37,
       "errors": 0,
       "reasons": {
-        "タイトル短すぎ/空": 21,
-        "開閉ステータス不明": 351,
-        "URL重複": 319,
-        "タイトル長すぎ": 12
+        "区タグなし": 21,
+        "タイトル短すぎ/空": 11,
+        "URL重複": 5
       },
       "wards": {},
       "statuses": {}
@@ -159,16 +171,15 @@
       "id": "gogai_nishi_teine",
       "name": "号外NET 札幌市西区・手稲区",
       "url": "https://sapporonishi-teine.goguynet.jp/category/cat_openclose/",
-      "scanned": 704,
-      "link_candidates": 356,
+      "scanned": 37,
+      "link_candidates": 23,
       "accepted": 0,
-      "rejected": 704,
+      "rejected": 37,
       "errors": 0,
       "reasons": {
-        "タイトル短すぎ/空": 21,
-        "開閉ステータス不明": 356,
-        "URL重複": 320,
-        "タイトル長すぎ": 7
+        "区タグなし": 23,
+        "タイトル短すぎ/空": 11,
+        "URL重複": 3
       },
       "wards": {},
       "statuses": {}
@@ -179,18 +190,21 @@
       "url": "https://sapporo-sokuho.com/archives/category/%E9%96%8B%E5%BA%97%E3%83%BB%E9%96%89%E5%BA%97/%E9%96%89%E5%BA%97%E6%83%85%E5%A0%B1",
       "scanned": 48,
       "link_candidates": 26,
-      "accepted": 0,
-      "rejected": 48,
+      "accepted": 1,
+      "rejected": 47,
       "errors": 0,
       "reasons": {
         "タイトル短すぎ/空": 12,
-        "開閉ステータス不明": 10,
+        "飲食店判定NG": 25,
         "URL重複": 9,
-        "飲食店判定NG": 16,
         "ナビゲーション/共通リンク": 1
       },
-      "wards": {},
-      "statuses": {}
+      "wards": {
+        "区不明": 1
+      },
+      "statuses": {
+        "closed": 1
+      }
     },
     {
       "id": "sapporo_list_open",
@@ -198,18 +212,21 @@
       "url": "https://sapporo-list.info/open/",
       "scanned": 61,
       "link_candidates": 34,
-      "accepted": 0,
-      "rejected": 61,
+      "accepted": 4,
+      "rejected": 57,
       "errors": 0,
       "reasons": {
         "タイトル短すぎ/空": 23,
         "ナビゲーション/共通リンク": 3,
-        "開閉ステータス不明": 21,
-        "飲食店判定NG": 13,
+        "飲食店判定NG": 30,
         "URL重複": 1
       },
-      "wards": {},
-      "statuses": {}
+      "wards": {
+        "区不明": 4
+      },
+      "statuses": {
+        "open": 4
+      }
     },
     {
       "id": "sapporo_yard",
@@ -278,24 +295,23 @@
       "url": "https://satsutter.com/tag/%E6%96%B0%E5%BA%97%E8%88%97%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3",
       "scanned": 123,
       "link_candidates": 46,
-      "accepted": 8,
-      "rejected": 115,
+      "accepted": 13,
+      "rejected": 110,
       "errors": 0,
       "reasons": {
         "タイトル短すぎ/空": 43,
-        "開閉ステータス不明": 35,
-        "飲食店判定NG": 3,
+        "飲食店判定NG": 33,
         "URL重複": 33,
         "ナビゲーション/共通リンク": 1
       },
       "wards": {
-        "区不明": 1,
+        "区不明": 6,
         "中央区": 3,
         "北区": 3,
         "厚別区": 1
       },
       "statuses": {
-        "open": 8
+        "open": 13
       }
     },
     {
@@ -329,13 +345,13 @@
   "rejection_examples": [
     {
       "source": "mogtrip・新店",
-      "reason": "開閉ステータス不明",
+      "reason": "飲食店判定NG",
       "title": "here",
       "url": "https://mogtrip.jp/newopen-2026/?PageSpeed=noscript"
     },
     {
       "source": "mogtrip・新店",
-      "reason": "開閉ステータス不明",
+      "reason": "飲食店判定NG",
       "title": "HOME",
       "url": "http://mogtrip2018.xsrv.jp/"
     },
@@ -359,13 +375,13 @@
     },
     {
       "source": "mogtrip・新店",
-      "reason": "開閉ステータス不明",
+      "reason": "飲食店判定NG",
       "title": "大通公園",
       "url": "https://mogtrip.jp/category/sapporo/chuo/odori/"
     },
     {
       "source": "mogtrip・新店",
-      "reason": "開閉ステータス不明",
+      "reason": "飲食店判定NG",
       "title": "すすきの",
       "url": "https://mogtrip.jp/category/sapporo/chuo/susukino/"
     },
@@ -425,7 +441,7 @@
     },
     {
       "source": "mogtrip・新店",
-      "reason": "開閉ステータス不明",
+      "reason": "飲食店判定NG",
       "title": "札幌市外",
       "url": "https://mogtrip.jp/category/outside/"
     },
@@ -437,37 +453,31 @@
     },
     {
       "source": "mogtrip・新店",
-      "reason": "開閉ステータス不明",
+      "reason": "飲食店判定NG",
       "title": "函館（姉妹サイトへ）",
       "url": "https://hkd.mogtrip.jp/"
     },
     {
       "source": "mogtrip・新店",
-      "reason": "開閉ステータス不明",
+      "reason": "飲食店判定NG",
       "title": "旭川（姉妹サイトへ）",
       "url": "https://akj.mogtrip.jp/"
     },
     {
       "source": "mogtrip・新店",
-      "reason": "開閉ステータス不明",
+      "reason": "飲食店判定NG",
       "title": "お土産（姉妹サイトへ）",
       "url": "https://giftrip-hokkaido.jp/"
     },
     {
       "source": "mogtrip・新店",
-      "reason": "開閉ステータス不明",
-      "title": "宅配弁当 DELIVERY",
-      "url": "https://mogtrip.jp/category/delivery-food/"
-    },
-    {
-      "source": "mogtrip・新店",
-      "reason": "開閉ステータス不明",
+      "reason": "飲食店判定NG",
       "title": "ライター紹介",
       "url": "https://mogtrip.jp/writer-profile/"
     },
     {
       "source": "mogtrip・新店",
-      "reason": "開閉ステータス不明",
+      "reason": "飲食店判定NG",
       "title": "お問合せ",
       "url": "https://mogtrip.jp/contact/"
     },
@@ -515,7 +525,7 @@
     },
     {
       "source": "mogtrip・新店",
-      "reason": "開閉ステータス不明",
+      "reason": "飲食店判定NG",
       "title": "札幌 SAPPORO",
       "url": "https://mogtrip.jp/category/sapporo/"
     },
@@ -791,7 +801,7 @@
     },
     {
       "source": "mogtrip・新店",
-      "reason": "開閉ステータス不明",
+      "reason": "飲食店判定NG",
       "title": "スポット・コラム",
       "url": "https://mogtrip.jp/category/spot/"
     },
@@ -827,49 +837,19 @@
     },
     {
       "source": "mogtrip・新店",
-      "reason": "開閉ステータス不明",
+      "reason": "飲食店判定NG",
       "title": "MIIMO",
       "url": "https://www.instagram.com/miimo.moiwa/"
     },
     {
       "source": "mogtrip・新店",
-      "reason": "開閉ステータス不明",
-      "title": "珈琲屋 la chic. -らしく-",
-      "url": "https://www.instagram.com/la_chic.time/"
-    },
-    {
-      "source": "mogtrip・新店",
-      "reason": "開閉ステータス不明",
-      "title": "ちょこっと寿司 季わ美",
-      "url": "https://www.instagram.com/chocottosushi_kiwami/"
-    },
-    {
-      "source": "mogtrip・新店",
-      "reason": "開閉ステータス不明",
-      "title": "キャプテンラーメン すすきの店",
-      "url": "https://www.instagram.com/captain_ramen.official/"
-    },
-    {
-      "source": "mogtrip・新店",
-      "reason": "開閉ステータス不明",
-      "title": "北麦パン店",
-      "url": "https://www.instagram.com/kitamugi.panten/"
-    },
-    {
-      "source": "mogtrip・新店",
-      "reason": "開閉ステータス不明",
-      "title": "手打ちそば さくら 伏古店",
-      "url": "https://www.instagram.com/teuchisoba.sakura"
-    },
-    {
-      "source": "mogtrip・新店",
-      "reason": "開閉ステータス不明",
+      "reason": "飲食店判定NG",
       "title": "pond end.",
       "url": "https://www.instagram.com/pond_end._/"
     },
     {
       "source": "mogtrip・新店",
-      "reason": "開閉ステータス不明",
+      "reason": "飲食店判定NG",
       "title": "炭火豚丼ふじなみ",
       "url": "https://www.instagram.com/butadon_fujinami"
     },
@@ -881,51 +861,87 @@
     },
     {
       "source": "mogtrip・新店",
-      "reason": "開閉ステータス不明",
+      "reason": "飲食店判定NG",
       "title": "50’s DINER ROCA",
       "url": "https://www.instagram.com/629roca/"
     },
     {
       "source": "mogtrip・新店",
-      "reason": "開閉ステータス不明",
-      "title": "日本茶カフェpocha",
-      "url": "https://www.instagram.com/nihonchacafe_pocha"
-    },
-    {
-      "source": "mogtrip・新店",
-      "reason": "開閉ステータス不明",
-      "title": "喫茶ブルーバード",
-      "url": "https://www.instagram.com/kissa.bluebird/"
-    },
-    {
-      "source": "mogtrip・新店",
-      "reason": "開閉ステータス不明",
+      "reason": "飲食店判定NG",
       "title": "北海道炉端アカオニ",
       "url": "https://www.hotpepper.jp/strJ004661239/"
     },
     {
       "source": "mogtrip・新店",
-      "reason": "開閉ステータス不明",
+      "reason": "飲食店判定NG",
       "title": "高森商店 円山店",
       "url": "https://www.instagram.com/takamori_shouten/"
     },
     {
       "source": "mogtrip・新店",
-      "reason": "開閉ステータス不明",
-      "title": "ラーメン今日もまこまない",
-      "url": "https://www.instagram.com/kyou_mako"
-    },
-    {
-      "source": "mogtrip・新店",
-      "reason": "開閉ステータス不明",
+      "reason": "飲食店判定NG",
       "title": "SeasideChill 潮結",
       "url": "https://www.instagram.com/seasidechill_shiomusubi"
     },
     {
       "source": "mogtrip・新店",
-      "reason": "開閉ステータス不明",
+      "reason": "飲食店判定NG",
       "title": "緑苑スタンド",
       "url": "https://www.instagram.com/ryokuen_stand/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "飲食店判定NG",
+      "title": "かにたま 札幌本店",
+      "url": "https://www.instagram.com/kanitama.honten/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "飲食店判定NG",
+      "title": "UNIQUE SPICE",
+      "url": "https://www.instagram.com/surya_pokhrel11/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "飲食店判定NG",
+      "title": "酒肴酒場 海の灯",
+      "url": "https://www.instagram.com/uminoakari_sapporo/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "飲食店判定NG",
+      "title": "I MY ME MINE",
+      "url": "https://www.instagram.com/imymemine_sapporo/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "飲食店判定NG",
+      "title": "Micci’s",
+      "url": "https://www.instagram.com/miccis_eastar/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "飲食店判定NG",
+      "title": "MATENA",
+      "url": "https://www.instagram.com/matena_makomanai/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "飲食店判定NG",
+      "title": "琉球処ちゅらうたや",
+      "url": "https://www.instagram.com/churautaya_sapporo/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "飲食店判定NG",
+      "title": "BELONG",
+      "url": "https://www.instagram.com/belong_cofffee_treat_"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "飲食店判定NG",
+      "title": "炉端とおでん 新なるぼんず すすきの本店",
+      "url": "https://www.instagram.com/robatatooden_aratanarubondz"
     }
   ]
 }
