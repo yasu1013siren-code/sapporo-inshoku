@@ -1,22 +1,22 @@
 {
   "version": "7.1",
-  "generated_at": "2026-09-06T03:46:31",
+  "generated_at": "2026-09-06T08:38:47",
   "date": "2026-09-06",
   "summary": {
-    "raw_candidates": 194,
-    "merged_candidates": 191,
-    "news_json_total": 88,
-    "raw_unmatched_ward": 110,
+    "raw_candidates": 190,
+    "merged_candidates": 187,
+    "news_json_total": 90,
+    "raw_unmatched_ward": 106,
     "news_json_unmatched": 110,
     "status_raw": {
-      "open": 177,
+      "open": 173,
       "closed": 17
     },
     "ward_raw": {
-      "中央区": 36,
+      "中央区": 34,
       "北区": 37,
       "東区": 2,
-      "白石区": 4,
+      "白石区": 6,
       "豊平区": 2,
       "南区": 1,
       "西区": 1,
@@ -28,7 +28,7 @@
       "中央区": 40,
       "北区": 37,
       "東区": 2,
-      "白石区": 4,
+      "白石区": 6,
       "豊平区": 2,
       "南区": 1,
       "西区": 1,
@@ -55,23 +55,24 @@
       "id": "mogtrip_open",
       "name": "mogtrip・新店",
       "url": "https://mogtrip.jp/newopen-2026/",
-      "scanned": 436,
-      "link_candidates": 344,
+      "scanned": 437,
+      "link_candidates": 345,
       "accepted": 119,
-      "rejected": 317,
+      "rejected": 318,
       "errors": 0,
       "reasons": {
-        "飲食店判定NG": 225,
+        "飲食店判定NG": 226,
         "タイトル短すぎ/空": 68,
         "URL重複": 24
       },
       "wards": {
         "区不明": 90,
-        "中央区": 13,
+        "中央区": 12,
         "北区": 12,
         "東区": 2,
         "西区": 1,
-        "豊平区": 1
+        "豊平区": 1,
+        "白石区": 1
       },
       "statuses": {
         "open": 119
@@ -93,7 +94,8 @@
       },
       "wards": {
         "区不明": 5,
-        "中央区": 2
+        "白石区": 1,
+        "中央区": 1
       },
       "statuses": {
         "closed": 7
@@ -256,21 +258,20 @@
       "url": "https://kaiten-heiten-24.com/category/sapporo/",
       "scanned": 124,
       "link_candidates": 39,
-      "accepted": 24,
-      "rejected": 100,
+      "accepted": 20,
+      "rejected": 104,
       "errors": 0,
       "reasons": {
         "タイトル短すぎ/空": 83,
-        "飲食店判定NG": 11,
+        "飲食店判定NG": 15,
         "開閉ステータス不明": 4,
         "ナビゲーション/共通リンク": 2
       },
       "wards": {
-        "北区": 20,
-        "区不明": 4
+        "北区": 20
       },
       "statuses": {
-        "open": 21,
+        "open": 17,
         "closed": 3
       }
     },
@@ -940,8 +941,8 @@
     {
       "source": "mogtrip・新店",
       "reason": "飲食店判定NG",
-      "title": "炉端とおでん 新なるぼんず すすきの本店",
-      "url": "https://www.instagram.com/robatatooden_aratanarubondz"
+      "title": "札幌そうめん 池田商店",
+      "url": "https://www.instagram.com/ikeda_shoten_/"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "version": "7.1",
-  "generated_at": "2026-09-06T03:46:31",
+  "generated_at": "2026-09-06T08:38:47",
   "date": "2026-09-06",
   "areas": {
     "chuo": [
@@ -188,7 +188,7 @@
             "priority": 80
           }
         ],
-        "confidence": 0.72,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-06",
         "last_seen": "2026-09-06"
@@ -230,7 +230,7 @@
             "priority": 80
           }
         ],
-        "confidence": 0.72,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-06",
         "last_seen": "2026-09-06"
@@ -335,7 +335,7 @@
             "priority": 80
           }
         ],
-        "confidence": 0.72,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-06",
         "last_seen": "2026-09-06"
@@ -356,7 +356,7 @@
             "priority": 90
           }
         ],
-        "confidence": 0.79,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-06",
         "last_seen": "2026-09-06"
@@ -398,7 +398,7 @@
             "priority": 90
           }
         ],
-        "confidence": 0.79,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-06",
         "last_seen": "2026-09-06"
@@ -419,7 +419,7 @@
             "priority": 90
           }
         ],
-        "confidence": 0.79,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-06",
         "last_seen": "2026-09-06"
@@ -461,7 +461,7 @@
             "priority": 80
           }
         ],
-        "confidence": 0.72,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-06",
         "last_seen": "2026-09-06"
@@ -524,7 +524,7 @@
             "priority": 80
           }
         ],
-        "confidence": 0.72,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-06",
         "last_seen": "2026-09-06"
@@ -676,7 +676,7 @@
             "priority": 90
           }
         ],
-        "confidence": 0.75,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-06",
         "last_seen": "2026-09-06"
@@ -697,7 +697,7 @@
             "priority": 90
           }
         ],
-        "confidence": 0.75,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-06",
         "last_seen": "2026-09-06"
@@ -718,7 +718,7 @@
             "priority": 90
           }
         ],
-        "confidence": 0.75,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-06",
         "last_seen": "2026-09-06"
@@ -739,7 +739,7 @@
             "priority": 90
           }
         ],
-        "confidence": 0.75,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-06",
         "last_seen": "2026-09-06"
@@ -760,7 +760,7 @@
             "priority": 90
           }
         ],
-        "confidence": 0.75,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-06",
         "last_seen": "2026-09-06"
@@ -781,7 +781,7 @@
             "priority": 90
           }
         ],
-        "confidence": 0.75,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-06",
         "last_seen": "2026-09-06"
@@ -802,7 +802,7 @@
             "priority": 90
           }
         ],
-        "confidence": 0.75,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-06",
         "last_seen": "2026-09-06"
@@ -823,7 +823,7 @@
             "priority": 90
           }
         ],
-        "confidence": 0.75,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-06",
         "last_seen": "2026-09-06"
@@ -844,7 +844,7 @@
             "priority": 90
           }
         ],
-        "confidence": 0.75,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-06",
         "last_seen": "2026-09-06"
@@ -1392,7 +1392,7 @@
             "priority": 90
           }
         ],
-        "confidence": 0.75,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-06",
         "last_seen": "2026-09-06"
@@ -1413,7 +1413,7 @@
             "priority": 90
           }
         ],
-        "confidence": 0.75,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-06",
         "last_seen": "2026-09-06"
@@ -1434,7 +1434,7 @@
             "priority": 90
           }
         ],
-        "confidence": 0.75,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-06",
         "last_seen": "2026-09-06"
@@ -1455,7 +1455,7 @@
             "priority": 90
           }
         ],
-        "confidence": 0.75,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-06",
         "last_seen": "2026-09-06"
@@ -1476,7 +1476,7 @@
             "priority": 90
           }
         ],
-        "confidence": 0.75,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-06",
         "last_seen": "2026-09-06"
@@ -1497,7 +1497,7 @@
             "priority": 90
           }
         ],
-        "confidence": 0.75,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-06",
         "last_seen": "2026-09-06"
@@ -1518,7 +1518,7 @@
             "priority": 90
           }
         ],
-        "confidence": 0.75,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-06",
         "last_seen": "2026-09-06"
@@ -1539,7 +1539,7 @@
             "priority": 90
           }
         ],
-        "confidence": 0.75,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-06",
         "last_seen": "2026-09-06"
@@ -1560,7 +1560,7 @@
             "priority": 90
           }
         ],
-        "confidence": 0.75,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-06",
         "last_seen": "2026-09-06"
@@ -1581,7 +1581,7 @@
             "priority": 90
           }
         ],
-        "confidence": 0.75,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-06",
         "last_seen": "2026-09-06"
@@ -1602,7 +1602,7 @@
             "priority": 90
           }
         ],
-        "confidence": 0.75,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-06",
         "last_seen": "2026-09-06"
@@ -1623,7 +1623,7 @@
             "priority": 90
           }
         ],
-        "confidence": 0.75,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-06",
         "last_seen": "2026-09-06"
@@ -1646,7 +1646,7 @@
             "priority": 90
           }
         ],
-        "confidence": 0.75,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-06",
         "last_seen": "2026-09-06"
@@ -1667,7 +1667,7 @@
             "priority": 90
           }
         ],
-        "confidence": 0.75,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-06",
         "last_seen": "2026-09-06"
@@ -1691,6 +1691,48 @@
           }
         ],
         "confidence": 0.54,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "珈琲淹REFINED（リファインド）｜札幌白石区菊水 2026-09-06 白石区",
+        "title": "珈琲淹REFINED（リファインド）｜札幌白石区菊水 2026-09-06 白石区",
+        "date": "2026-09-06",
+        "place": "白石区",
+        "note": "珈琲淹REFINED（リファインド）｜札幌白石区菊水 2026-09-06 白石区",
+        "type": "open",
+        "url": "https://mogtrip.jp/refined/",
+        "source": "mogtrip・新店",
+        "sources": [
+          {
+            "name": "mogtrip・新店",
+            "url": "https://mogtrip.jp/refined/",
+            "priority": 90
+          }
+        ],
+        "confidence": 0.79,
+        "source_count": 1,
+        "first_seen": "2026-09-06",
+        "last_seen": "2026-09-06"
+      },
+      {
+        "name": "珈琲淹REFINED（リファインド）｜札幌白石区菊水 2026-09-06 白石区",
+        "title": "珈琲淹REFINED（リファインド）｜札幌白石区菊水 2026-09-06 白石区",
+        "date": "2026-09-06",
+        "place": "白石区",
+        "note": "珈琲淹REFINED（リファインド）｜札幌白石区菊水 2026-09-06 白石区",
+        "type": "closed",
+        "url": "https://mogtrip.jp/refined/",
+        "source": "mogtrip・閉店",
+        "sources": [
+          {
+            "name": "mogtrip・閉店",
+            "url": "https://mogtrip.jp/refined/",
+            "priority": 90
+          }
+        ],
+        "confidence": 0.79,
         "source_count": 1,
         "first_seen": "2026-09-06",
         "last_seen": "2026-09-06"
@@ -1797,7 +1839,7 @@
             "priority": 90
           }
         ],
-        "confidence": 0.75,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-06",
         "last_seen": "2026-09-06"
@@ -1843,7 +1885,7 @@
             "priority": 90
           }
         ],
-        "confidence": 0.75,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-06",
         "last_seen": "2026-09-06"
