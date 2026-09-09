@@ -93,6 +93,32 @@ WARD_ALIASES = {
     "手稲": "手稲区", "清田": "清田区",
 }
 
+# ---------------- 住所抽出 ----------------
+# 「札幌市中央区南1条西2丁目3-4」のような和文住所表記をテキストからざっくり抜き出す。
+# 完全ではないが、「最新ニュース速報」欄に場所のヒントを添えるには十分な精度を狙う。
+_WARD_PATTERN = "|".join(WARDS.keys())
+ADDRESS_RE = re.compile(
+    rf"(?:札幌市)?(?:{_WARD_PATTERN})"
+    r"[^\s、。！!？?「」『』()（）\[\]\d]{0,12}"
+    r"(?:\d+条(?:西|東)?\d*丁目(?:[\d\-−ー]+)?"
+    r"|\d+丁目(?:[\d\-−ー]+)?"
+    r"|[^\s、。！!？?「」『』()（）\[\]]{0,10}\d+条(?:西|東)?\d*"
+    r"|[^\s、。！!？?「」『』()（）\[\]]{2,10})"
+)
+
+
+def extract_address(text: str) -> str:
+    if not text:
+        return ""
+    m = ADDRESS_RE.search(text)
+    if not m:
+        return ""
+    addr = m.group(0).strip()
+    # 明らかに長すぎる／短すぎる誤爆はノイズとして捨てる
+    if len(addr) < 4 or len(addr) > 40:
+        return ""
+    return addr
+
 # 「飲食店」と判断するための語句。
 FOOD_POSITIVE = [
     "飲食店", "レストラン", "食堂", "定食", "ラーメン", "そば", "うどん",
@@ -474,7 +500,7 @@ def collect_article_source(source: dict):
             ward=ward,
             status=status,
             date=d,
-            place="",
+            place=extract_address(text),
             note=title,
             url=href,
             source=source["name"],
@@ -981,7 +1007,7 @@ def collect_all():
                 ward=ward_name,
                 status=status,
                 date=f"{year}-{month}-{day}",
-                place="",
+                place=extract_address(name_text),
                 note=name_text,
                 url=href,
                 source=source["name"],
