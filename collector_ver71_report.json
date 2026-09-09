@@ -1,40 +1,40 @@
 {
   "version": "7.1",
-  "generated_at": "2026-09-06T08:51:29",
-  "date": "2026-09-06",
+  "generated_at": "2026-09-09T03:07:39",
+  "date": "2026-09-09",
   "summary": {
-    "raw_candidates": 190,
-    "merged_candidates": 187,
-    "news_json_total": 90,
-    "raw_unmatched_ward": 106,
-    "news_json_unmatched": 110,
+    "raw_candidates": 275,
+    "merged_candidates": 257,
+    "news_json_total": 162,
+    "raw_unmatched_ward": 113,
+    "news_json_unmatched": 122,
     "status_raw": {
-      "open": 173,
-      "closed": 17
+      "open": 251,
+      "closed": 24
     },
     "ward_raw": {
-      "中央区": 34,
-      "北区": 37,
-      "東区": 2,
-      "白石区": 6,
-      "豊平区": 2,
-      "南区": 1,
-      "西区": 1,
-      "厚別区": 1,
-      "手稲区": 0,
-      "清田区": 0
+      "中央区": 41,
+      "北区": 45,
+      "東区": 12,
+      "白石区": 14,
+      "豊平区": 12,
+      "南区": 9,
+      "西区": 4,
+      "厚別区": 9,
+      "手稲区": 9,
+      "清田区": 7
     },
     "ward_final": {
-      "中央区": 40,
-      "北区": 37,
-      "東区": 2,
-      "白石区": 6,
-      "豊平区": 2,
-      "南区": 1,
-      "西区": 1,
-      "厚別区": 1,
-      "手稲区": 0,
-      "清田区": 0
+      "中央区": 44,
+      "北区": 47,
+      "東区": 10,
+      "白石区": 13,
+      "豊平区": 11,
+      "南区": 8,
+      "西区": 4,
+      "厚別区": 9,
+      "手稲区": 9,
+      "清田区": 7
     }
   },
   "sources": [
@@ -55,19 +55,19 @@
       "id": "mogtrip_open",
       "name": "mogtrip・新店",
       "url": "https://mogtrip.jp/newopen-2026/",
-      "scanned": 437,
-      "link_candidates": 345,
-      "accepted": 119,
-      "rejected": 318,
+      "scanned": 431,
+      "link_candidates": 341,
+      "accepted": 120,
+      "rejected": 311,
       "errors": 0,
       "reasons": {
-        "飲食店判定NG": 226,
-        "タイトル短すぎ/空": 68,
+        "飲食店判定NG": 221,
+        "タイトル短すぎ/空": 66,
         "URL重複": 24
       },
       "wards": {
-        "区不明": 90,
-        "中央区": 12,
+        "区不明": 92,
+        "中央区": 11,
         "北区": 12,
         "東区": 2,
         "西区": 1,
@@ -75,7 +75,7 @@
         "白石区": 1
       },
       "statuses": {
-        "open": 119
+        "open": 120
       }
     },
     {
@@ -84,21 +84,21 @@
       "url": "https://mogtrip.jp/closed-2026/",
       "scanned": 107,
       "link_candidates": 29,
-      "accepted": 7,
-      "rejected": 100,
+      "accepted": 8,
+      "rejected": 99,
       "errors": 0,
       "reasons": {
-        "飲食店判定NG": 22,
+        "飲食店判定NG": 21,
         "タイトル短すぎ/空": 56,
         "URL重複": 22
       },
       "wards": {
-        "区不明": 5,
+        "区不明": 6,
         "白石区": 1,
         "中央区": 1
       },
       "statuses": {
-        "closed": 7
+        "closed": 8
       }
     },
     {
@@ -107,24 +107,24 @@
       "url": "https://www.shopship.jp/sapporo/open-close/",
       "scanned": 136,
       "link_candidates": 38,
-      "accepted": 10,
-      "rejected": 126,
+      "accepted": 11,
+      "rejected": 125,
       "errors": 0,
       "reasons": {
         "開閉ステータス不明": 14,
-        "飲食店判定NG": 14,
+        "飲食店判定NG": 13,
         "ナビゲーション/共通リンク": 3,
         "URL重複": 15,
         "タイトル短すぎ/空": 80
       },
       "wards": {
+        "北区": 2,
         "中央区": 7,
         "白石区": 1,
-        "南区": 1,
-        "北区": 1
+        "南区": 1
       },
       "statuses": {
-        "open": 9,
+        "open": 10,
         "closed": 1
       }
     },
@@ -192,58 +192,59 @@
       "url": "https://sapporo-sokuho.com/archives/category/%E9%96%8B%E5%BA%97%E3%83%BB%E9%96%89%E5%BA%97/%E9%96%89%E5%BA%97%E6%83%85%E5%A0%B1",
       "scanned": 48,
       "link_candidates": 26,
-      "accepted": 1,
-      "rejected": 47,
+      "accepted": 2,
+      "rejected": 46,
       "errors": 0,
       "reasons": {
         "タイトル短すぎ/空": 12,
-        "飲食店判定NG": 25,
+        "飲食店判定NG": 24,
         "URL重複": 9,
         "ナビゲーション/共通リンク": 1
       },
       "wards": {
-        "区不明": 1
+        "区不明": 2
       },
       "statuses": {
-        "closed": 1
+        "closed": 2
       }
     },
     {
       "id": "sapporo_list_open",
       "name": "札幌リスト・開店",
       "url": "https://sapporo-list.info/open/",
-      "scanned": 61,
-      "link_candidates": 34,
-      "accepted": 4,
-      "rejected": 57,
+      "scanned": 63,
+      "link_candidates": 38,
+      "accepted": 5,
+      "rejected": 58,
       "errors": 0,
       "reasons": {
-        "タイトル短すぎ/空": 23,
+        "タイトル短すぎ/空": 20,
         "ナビゲーション/共通リンク": 3,
-        "飲食店判定NG": 30,
-        "URL重複": 1
+        "飲食店判定NG": 33,
+        "URL重複": 2
       },
       "wards": {
+        "清田区": 1,
         "区不明": 4
       },
       "statuses": {
-        "open": 4
+        "open": 5
       }
     },
     {
       "id": "sapporo_yard",
       "name": "SAPPOROYARD",
       "url": "https://sapporoyard.com/archives/openclose.html",
-      "scanned": 79,
-      "link_candidates": 32,
+      "scanned": 83,
+      "link_candidates": 33,
       "accepted": 1,
-      "rejected": 78,
+      "rejected": 82,
       "errors": 0,
       "reasons": {
-        "タイトル短すぎ/空": 30,
+        "タイトル短すぎ/空": 31,
         "飲食店判定NG": 4,
-        "開閉ステータス不明": 27,
-        "URL重複": 17
+        "開閉ステータス不明": 28,
+        "URL重複": 19
       },
       "wards": {
         "白石区": 1
@@ -258,21 +259,281 @@
       "url": "https://kaiten-heiten-24.com/category/sapporo/",
       "scanned": 124,
       "link_candidates": 39,
-      "accepted": 20,
-      "rejected": 104,
+      "accepted": 22,
+      "rejected": 102,
       "errors": 0,
       "reasons": {
         "タイトル短すぎ/空": 83,
-        "飲食店判定NG": 15,
+        "飲食店判定NG": 13,
         "開閉ステータス不明": 4,
         "ナビゲーション/共通リンク": 2
       },
       "wards": {
-        "北区": 20
+        "北区": 19,
+        "区不明": 3
       },
       "statuses": {
-        "open": 17,
+        "open": 19,
         "closed": 3
+      }
+    },
+    {
+      "id": "teine_magazine",
+      "name": "手稲マガジン・開店閉店",
+      "url": "https://teine-magazine.com/category/kaitenheiten/",
+      "scanned": 121,
+      "link_candidates": 42,
+      "accepted": 3,
+      "rejected": 118,
+      "errors": 0,
+      "reasons": {
+        "タイトル短すぎ/空": 38,
+        "飲食店判定NG": 9,
+        "開閉ステータス不明": 30,
+        "ナビゲーション/共通リンク": 2,
+        "URL重複": 39
+      },
+      "wards": {
+        "手稲区": 3
+      },
+      "statuses": {
+        "open": 2,
+        "closed": 1
+      }
+    },
+    {
+      "id": "shopship_higashi",
+      "name": "札幌ショップス・東区",
+      "url": "https://www.shopship.jp/higashi/open-close/",
+      "scanned": 127,
+      "link_candidates": 39,
+      "accepted": 10,
+      "rejected": 117,
+      "errors": 0,
+      "reasons": {
+        "開閉ステータス不明": 15,
+        "飲食店判定NG": 14,
+        "ナビゲーション/共通リンク": 3,
+        "タイトル短すぎ/空": 71,
+        "URL重複": 14
+      },
+      "wards": {
+        "東区": 10
+      },
+      "statuses": {
+        "open": 9,
+        "closed": 1
+      }
+    },
+    {
+      "id": "shopship_shiroishi",
+      "name": "札幌ショップス・白石区",
+      "url": "https://www.shopship.jp/shiroishi/open-close/",
+      "scanned": 126,
+      "link_candidates": 39,
+      "accepted": 8,
+      "rejected": 118,
+      "errors": 0,
+      "reasons": {
+        "開閉ステータス不明": 15,
+        "飲食店判定NG": 16,
+        "ナビゲーション/共通リンク": 3,
+        "タイトル短すぎ/空": 70,
+        "URL重複": 14
+      },
+      "wards": {
+        "白石区": 8
+      },
+      "statuses": {
+        "open": 8
+      }
+    },
+    {
+      "id": "shopship_atsubetsu",
+      "name": "札幌ショップス・厚別区",
+      "url": "https://www.shopship.jp/atsubetsu/open-close/",
+      "scanned": 127,
+      "link_candidates": 39,
+      "accepted": 8,
+      "rejected": 119,
+      "errors": 0,
+      "reasons": {
+        "開閉ステータス不明": 15,
+        "飲食店判定NG": 16,
+        "ナビゲーション/共通リンク": 3,
+        "タイトル短すぎ/空": 71,
+        "URL重複": 14
+      },
+      "wards": {
+        "厚別区": 8
+      },
+      "statuses": {
+        "open": 8
+      }
+    },
+    {
+      "id": "shopship_toyohira",
+      "name": "札幌ショップス・豊平区",
+      "url": "https://www.shopship.jp/toyohira/open-close/",
+      "scanned": 127,
+      "link_candidates": 39,
+      "accepted": 9,
+      "rejected": 118,
+      "errors": 0,
+      "reasons": {
+        "開閉ステータス不明": 15,
+        "飲食店判定NG": 15,
+        "ナビゲーション/共通リンク": 3,
+        "タイトル短すぎ/空": 71,
+        "URL重複": 14
+      },
+      "wards": {
+        "豊平区": 9
+      },
+      "statuses": {
+        "open": 8,
+        "closed": 1
+      }
+    },
+    {
+      "id": "shopship_kiyota",
+      "name": "札幌ショップス・清田区",
+      "url": "https://www.shopship.jp/kiyota/open-close/",
+      "scanned": 120,
+      "link_candidates": 35,
+      "accepted": 6,
+      "rejected": 114,
+      "errors": 0,
+      "reasons": {
+        "開閉ステータス不明": 15,
+        "飲食店判定NG": 14,
+        "ナビゲーション/共通リンク": 3,
+        "タイトル短すぎ/空": 68,
+        "URL重複": 14
+      },
+      "wards": {
+        "清田区": 6
+      },
+      "statuses": {
+        "open": 5,
+        "closed": 1
+      }
+    },
+    {
+      "id": "shopship_minami",
+      "name": "札幌ショップス・南区",
+      "url": "https://www.shopship.jp/minami/open-close/",
+      "scanned": 126,
+      "link_candidates": 39,
+      "accepted": 8,
+      "rejected": 118,
+      "errors": 0,
+      "reasons": {
+        "開閉ステータス不明": 15,
+        "飲食店判定NG": 16,
+        "ナビゲーション/共通リンク": 3,
+        "タイトル短すぎ/空": 70,
+        "URL重複": 14
+      },
+      "wards": {
+        "南区": 8
+      },
+      "statuses": {
+        "open": 8
+      }
+    },
+    {
+      "id": "shopship_nishi",
+      "name": "札幌ショップス・西区",
+      "url": "https://www.shopship.jp/nishi/open-close/",
+      "scanned": 127,
+      "link_candidates": 39,
+      "accepted": 3,
+      "rejected": 124,
+      "errors": 0,
+      "reasons": {
+        "開閉ステータス不明": 15,
+        "飲食店判定NG": 21,
+        "ナビゲーション/共通リンク": 3,
+        "タイトル短すぎ/空": 71,
+        "URL重複": 14
+      },
+      "wards": {
+        "西区": 3
+      },
+      "statuses": {
+        "open": 3
+      }
+    },
+    {
+      "id": "shopship_teine",
+      "name": "札幌ショップス・手稲区",
+      "url": "https://www.shopship.jp/teine/open-close/",
+      "scanned": 126,
+      "link_candidates": 39,
+      "accepted": 6,
+      "rejected": 120,
+      "errors": 0,
+      "reasons": {
+        "開閉ステータス不明": 15,
+        "飲食店判定NG": 18,
+        "ナビゲーション/共通リンク": 3,
+        "タイトル短すぎ/空": 70,
+        "URL重複": 14
+      },
+      "wards": {
+        "手稲区": 6
+      },
+      "statuses": {
+        "open": 6
+      }
+    },
+    {
+      "id": "shopship_kita",
+      "name": "札幌ショップス・北区",
+      "url": "https://www.shopship.jp/kita/open-close/",
+      "scanned": 127,
+      "link_candidates": 39,
+      "accepted": 9,
+      "rejected": 118,
+      "errors": 0,
+      "reasons": {
+        "開閉ステータス不明": 15,
+        "飲食店判定NG": 15,
+        "ナビゲーション/共通リンク": 3,
+        "タイトル短すぎ/空": 71,
+        "URL重複": 14
+      },
+      "wards": {
+        "北区": 9
+      },
+      "statuses": {
+        "open": 8,
+        "closed": 1
+      }
+    },
+    {
+      "id": "shopship_chuo",
+      "name": "札幌ショップス・中央区",
+      "url": "https://www.shopship.jp/chuo/open-close/",
+      "scanned": 134,
+      "link_candidates": 41,
+      "accepted": 11,
+      "rejected": 123,
+      "errors": 0,
+      "reasons": {
+        "開閉ステータス不明": 17,
+        "飲食店判定NG": 13,
+        "ナビゲーション/共通リンク": 3,
+        "タイトル短すぎ/空": 76,
+        "URL重複": 14
+      },
+      "wards": {
+        "中央区": 11
+      },
+      "statuses": {
+        "open": 9,
+        "closed": 2
       }
     },
     {
@@ -321,25 +582,23 @@
       "url": "https://chamonix-cakes.com/",
       "scanned": 133,
       "link_candidates": 122,
-      "accepted": 7,
-      "rejected": 126,
+      "accepted": 4,
+      "rejected": 129,
       "errors": 0,
       "reasons": {
         "タイトル短すぎ/空": 3,
-        "飲食店判定NG": 46,
+        "飲食店判定NG": 49,
         "ナビゲーション/共通リンク": 2,
         "URL重複": 6,
         "開閉ステータス不明": 69
       },
       "wards": {
-        "豊平区": 1,
-        "白石区": 2,
-        "中央区": 3,
-        "北区": 1
+        "豊平区": 2,
+        "白石区": 2
       },
       "statuses": {
-        "open": 4,
-        "closed": 3
+        "open": 3,
+        "closed": 1
       }
     }
   ],
@@ -845,6 +1104,12 @@
     {
       "source": "mogtrip・新店",
       "reason": "飲食店判定NG",
+      "title": "地酒とおばんざい93（くみ）",
+      "url": "https://www.instagram.com/saketoobanzai93/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "飲食店判定NG",
       "title": "pond end.",
       "url": "https://www.instagram.com/pond_end._/"
     },
@@ -865,6 +1130,12 @@
       "reason": "飲食店判定NG",
       "title": "50’s DINER ROCA",
       "url": "https://www.instagram.com/629roca/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "タイトル短すぎ/空",
+      "title": "片隅",
+      "url": "https://www.instagram.com/katasumi_sapporo/"
     },
     {
       "source": "mogtrip・新店",
@@ -931,18 +1202,6 @@
       "reason": "飲食店判定NG",
       "title": "琉球処ちゅらうたや",
       "url": "https://www.instagram.com/churautaya_sapporo/"
-    },
-    {
-      "source": "mogtrip・新店",
-      "reason": "飲食店判定NG",
-      "title": "BELONG",
-      "url": "https://www.instagram.com/belong_cofffee_treat_"
-    },
-    {
-      "source": "mogtrip・新店",
-      "reason": "飲食店判定NG",
-      "title": "札幌そうめん 池田商店",
-      "url": "https://www.instagram.com/ikeda_shoten_/"
     }
   ]
 }
