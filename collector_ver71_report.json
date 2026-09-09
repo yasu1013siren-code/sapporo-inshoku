@@ -1,15 +1,15 @@
 {
   "version": "7.1",
-  "generated_at": "2026-09-09T03:07:39",
+  "generated_at": "2026-09-09T06:01:09",
   "date": "2026-09-09",
   "summary": {
-    "raw_candidates": 275,
-    "merged_candidates": 257,
+    "raw_candidates": 272,
+    "merged_candidates": 254,
     "news_json_total": 162,
-    "raw_unmatched_ward": 113,
+    "raw_unmatched_ward": 110,
     "news_json_unmatched": 122,
     "status_raw": {
-      "open": 251,
+      "open": 248,
       "closed": 24
     },
     "ward_raw": {
@@ -259,21 +259,20 @@
       "url": "https://kaiten-heiten-24.com/category/sapporo/",
       "scanned": 124,
       "link_candidates": 39,
-      "accepted": 22,
-      "rejected": 102,
+      "accepted": 19,
+      "rejected": 105,
       "errors": 0,
       "reasons": {
         "タイトル短すぎ/空": 83,
-        "飲食店判定NG": 13,
+        "飲食店判定NG": 16,
         "開閉ステータス不明": 4,
         "ナビゲーション/共通リンク": 2
       },
       "wards": {
-        "北区": 19,
-        "区不明": 3
+        "北区": 19
       },
       "statuses": {
-        "open": 19,
+        "open": 16,
         "closed": 3
       }
     },
