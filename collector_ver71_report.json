@@ -1,20 +1,20 @@
 {
   "version": "7.1",
-  "generated_at": "2026-09-08T03:06:09",
-  "date": "2026-09-08",
+  "generated_at": "2026-09-09T03:07:39",
+  "date": "2026-09-09",
   "summary": {
     "raw_candidates": 275,
-    "merged_candidates": 256,
+    "merged_candidates": 257,
     "news_json_total": 162,
-    "raw_unmatched_ward": 109,
-    "news_json_unmatched": 116,
+    "raw_unmatched_ward": 113,
+    "news_json_unmatched": 122,
     "status_raw": {
       "open": 251,
       "closed": 24
     },
     "ward_raw": {
-      "中央区": 44,
-      "北区": 46,
+      "中央区": 41,
+      "北区": 45,
       "東区": 12,
       "白石区": 14,
       "豊平区": 12,
@@ -55,19 +55,19 @@
       "id": "mogtrip_open",
       "name": "mogtrip・新店",
       "url": "https://mogtrip.jp/newopen-2026/",
-      "scanned": 436,
-      "link_candidates": 346,
+      "scanned": 431,
+      "link_candidates": 341,
       "accepted": 120,
-      "rejected": 316,
+      "rejected": 311,
       "errors": 0,
       "reasons": {
-        "飲食店判定NG": 226,
+        "飲食店判定NG": 221,
         "タイトル短すぎ/空": 66,
         "URL重複": 24
       },
       "wards": {
-        "区不明": 91,
-        "中央区": 12,
+        "区不明": 92,
+        "中央区": 11,
         "北区": 12,
         "東区": 2,
         "西区": 1,
@@ -84,21 +84,21 @@
       "url": "https://mogtrip.jp/closed-2026/",
       "scanned": 107,
       "link_candidates": 29,
-      "accepted": 7,
-      "rejected": 100,
+      "accepted": 8,
+      "rejected": 99,
       "errors": 0,
       "reasons": {
-        "飲食店判定NG": 22,
+        "飲食店判定NG": 21,
         "タイトル短すぎ/空": 56,
         "URL重複": 22
       },
       "wards": {
-        "区不明": 5,
+        "区不明": 6,
         "白石区": 1,
         "中央区": 1
       },
       "statuses": {
-        "closed": 7
+        "closed": 8
       }
     },
     {
@@ -192,20 +192,20 @@
       "url": "https://sapporo-sokuho.com/archives/category/%E9%96%8B%E5%BA%97%E3%83%BB%E9%96%89%E5%BA%97/%E9%96%89%E5%BA%97%E6%83%85%E5%A0%B1",
       "scanned": 48,
       "link_candidates": 26,
-      "accepted": 1,
-      "rejected": 47,
+      "accepted": 2,
+      "rejected": 46,
       "errors": 0,
       "reasons": {
         "タイトル短すぎ/空": 12,
-        "飲食店判定NG": 25,
+        "飲食店判定NG": 24,
         "URL重複": 9,
         "ナビゲーション/共通リンク": 1
       },
       "wards": {
-        "区不明": 1
+        "区不明": 2
       },
       "statuses": {
-        "closed": 1
+        "closed": 2
       }
     },
     {
@@ -213,14 +213,14 @@
       "name": "札幌リスト・開店",
       "url": "https://sapporo-list.info/open/",
       "scanned": 63,
-      "link_candidates": 37,
+      "link_candidates": 38,
       "accepted": 5,
       "rejected": 58,
       "errors": 0,
       "reasons": {
-        "タイトル短すぎ/空": 21,
+        "タイトル短すぎ/空": 20,
         "ナビゲーション/共通リンク": 3,
-        "飲食店判定NG": 32,
+        "飲食店判定NG": 33,
         "URL重複": 2
       },
       "wards": {
@@ -269,8 +269,8 @@
         "ナビゲーション/共通リンク": 2
       },
       "wards": {
-        "北区": 20,
-        "区不明": 2
+        "北区": 19,
+        "区不明": 3
       },
       "statuses": {
         "open": 19,
@@ -582,24 +582,23 @@
       "url": "https://chamonix-cakes.com/",
       "scanned": 133,
       "link_candidates": 122,
-      "accepted": 6,
-      "rejected": 127,
+      "accepted": 4,
+      "rejected": 129,
       "errors": 0,
       "reasons": {
         "タイトル短すぎ/空": 3,
-        "飲食店判定NG": 47,
+        "飲食店判定NG": 49,
         "ナビゲーション/共通リンク": 2,
         "URL重複": 6,
         "開閉ステータス不明": 69
       },
       "wards": {
         "豊平区": 2,
-        "白石区": 2,
-        "中央区": 2
+        "白石区": 2
       },
       "statuses": {
         "open": 3,
-        "closed": 3
+        "closed": 1
       }
     }
   ],
