@@ -1,16 +1,16 @@
 {
   "version": "7.1",
-  "generated_at": "2026-09-09T11:50:08",
+  "generated_at": "2026-09-09T12:04:25",
   "date": "2026-09-09",
   "summary": {
-    "raw_candidates": 273,
-    "merged_candidates": 255,
+    "raw_candidates": 272,
+    "merged_candidates": 254,
     "news_json_total": 162,
-    "raw_unmatched_ward": 111,
+    "raw_unmatched_ward": 110,
     "news_json_unmatched": 123,
     "status_raw": {
       "open": 248,
-      "closed": 25
+      "closed": 24
     },
     "ward_raw": {
       "中央区": 41,
@@ -192,20 +192,20 @@
       "url": "https://sapporo-sokuho.com/archives/category/%E9%96%8B%E5%BA%97%E3%83%BB%E9%96%89%E5%BA%97/%E9%96%89%E5%BA%97%E6%83%85%E5%A0%B1",
       "scanned": 48,
       "link_candidates": 26,
-      "accepted": 2,
-      "rejected": 46,
+      "accepted": 1,
+      "rejected": 47,
       "errors": 0,
       "reasons": {
         "タイトル短すぎ/空": 12,
-        "飲食店判定NG": 24,
+        "飲食店判定NG": 25,
         "URL重複": 9,
         "ナビゲーション/共通リンク": 1
       },
       "wards": {
-        "区不明": 2
+        "区不明": 1
       },
       "statuses": {
-        "closed": 2
+        "closed": 1
       }
     },
     {
