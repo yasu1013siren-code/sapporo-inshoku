@@ -1,31 +1,31 @@
 {
   "version": "7.1",
-  "generated_at": "2026-09-09T11:50:08",
-  "date": "2026-09-09",
+  "generated_at": "2026-09-10T03:08:00",
+  "date": "2026-09-10",
   "summary": {
-    "raw_candidates": 273,
-    "merged_candidates": 255,
-    "news_json_total": 162,
-    "raw_unmatched_ward": 111,
-    "news_json_unmatched": 123,
+    "raw_candidates": 256,
+    "merged_candidates": 236,
+    "news_json_total": 164,
+    "raw_unmatched_ward": 110,
+    "news_json_unmatched": 124,
     "status_raw": {
-      "open": 248,
-      "closed": 25
+      "open": 236,
+      "closed": 20
     },
     "ward_raw": {
-      "中央区": 41,
-      "北区": 45,
+      "中央区": 44,
+      "北区": 26,
       "東区": 12,
       "白石区": 14,
-      "豊平区": 12,
+      "豊平区": 11,
       "南区": 9,
       "西区": 4,
       "厚別区": 9,
       "手稲区": 9,
-      "清田区": 7
+      "清田区": 8
     },
     "ward_final": {
-      "中央区": 44,
+      "中央区": 46,
       "北区": 47,
       "東区": 10,
       "白石区": 13,
@@ -139,8 +139,8 @@
       "errors": 0,
       "reasons": {
         "区タグなし": 1,
-        "開閉ステータス不明": 7,
         "飲食店判定NG": 6,
+        "開閉ステータス不明": 7,
         "タイトル短すぎ/空": 11,
         "URL重複": 4
       },
@@ -192,20 +192,20 @@
       "url": "https://sapporo-sokuho.com/archives/category/%E9%96%8B%E5%BA%97%E3%83%BB%E9%96%89%E5%BA%97/%E9%96%89%E5%BA%97%E6%83%85%E5%A0%B1",
       "scanned": 48,
       "link_candidates": 26,
-      "accepted": 2,
-      "rejected": 46,
+      "accepted": 1,
+      "rejected": 47,
       "errors": 0,
       "reasons": {
         "タイトル短すぎ/空": 12,
-        "飲食店判定NG": 24,
+        "飲食店判定NG": 25,
         "URL重複": 9,
         "ナビゲーション/共通リンク": 1
       },
       "wards": {
-        "区不明": 2
+        "区不明": 1
       },
       "statuses": {
-        "closed": 2
+        "closed": 1
       }
     },
     {
@@ -214,21 +214,21 @@
       "url": "https://sapporo-list.info/open/",
       "scanned": 63,
       "link_candidates": 38,
-      "accepted": 5,
-      "rejected": 58,
+      "accepted": 6,
+      "rejected": 57,
       "errors": 0,
       "reasons": {
         "タイトル短すぎ/空": 20,
         "ナビゲーション/共通リンク": 3,
-        "飲食店判定NG": 33,
+        "飲食店判定NG": 32,
         "URL重複": 2
       },
       "wards": {
-        "清田区": 1,
-        "区不明": 4
+        "区不明": 5,
+        "清田区": 1
       },
       "statuses": {
-        "open": 5
+        "open": 6
       }
     },
     {
@@ -258,24 +258,19 @@
       "name": "開店閉店.com・札幌",
       "url": "https://kaiten-heiten-24.com/category/sapporo/",
       "scanned": 124,
-      "link_candidates": 39,
-      "accepted": 20,
-      "rejected": 104,
+      "link_candidates": 111,
+      "accepted": 0,
+      "rejected": 124,
       "errors": 0,
       "reasons": {
-        "タイトル短すぎ/空": 83,
-        "飲食店判定NG": 15,
-        "開閉ステータス不明": 4,
-        "ナビゲーション/共通リンク": 2
+        "タイトル短すぎ/空": 11,
+        "開閉ステータス不明": 110,
+        "タイトル長すぎ": 1,
+        "URL重複": 1,
+        "飲食店判定NG": 1
       },
-      "wards": {
-        "北区": 19,
-        "区不明": 1
-      },
-      "statuses": {
-        "open": 16,
-        "closed": 4
-      }
+      "wards": {},
+      "statuses": {}
     },
     {
       "id": "teine_magazine",
@@ -582,22 +577,24 @@
       "url": "https://chamonix-cakes.com/",
       "scanned": 133,
       "link_candidates": 122,
-      "accepted": 4,
-      "rejected": 129,
+      "accepted": 7,
+      "rejected": 126,
       "errors": 0,
       "reasons": {
         "タイトル短すぎ/空": 3,
-        "飲食店判定NG": 49,
+        "飲食店判定NG": 46,
         "ナビゲーション/共通リンク": 2,
         "URL重複": 6,
         "開閉ステータス不明": 69
       },
       "wards": {
-        "豊平区": 2,
-        "白石区": 2
+        "豊平区": 1,
+        "白石区": 2,
+        "中央区": 3,
+        "清田区": 1
       },
       "statuses": {
-        "open": 3,
+        "open": 6,
         "closed": 1
       }
     }
