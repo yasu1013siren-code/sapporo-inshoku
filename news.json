@@ -1,6 +1,6 @@
 {
   "version": "7.1",
-  "generated_at": "2026-09-10T03:08:00",
+  "generated_at": "2026-09-10T07:35:11",
   "date": "2026-09-10",
   "areas": {
     "chuo": [
@@ -831,6 +831,48 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-06",
+        "last_seen": "2026-09-10"
+      },
+      {
+        "name": "個室✕海鮮居酒屋 北海道を喰らえ 札幌大通店",
+        "title": "個室✕海鮮居酒屋 北海道を喰らえ 札幌大通店",
+        "date": "",
+        "place": "中央区",
+        "note": "個室✕海鮮居酒屋 北海道を喰らえ 札幌大通店",
+        "type": "open",
+        "url": "https://tabelog.com/hokkaido/A0101/A010102/1085292/",
+        "source": "mogtrip・新店",
+        "sources": [
+          {
+            "name": "mogtrip・新店",
+            "url": "https://tabelog.com/hokkaido/A0101/A010102/1085292/",
+            "priority": 90
+          }
+        ],
+        "confidence": 0.75,
+        "source_count": 1,
+        "first_seen": "2026-09-10",
+        "last_seen": "2026-09-10"
+      },
+      {
+        "name": "北海道海鮮居酒屋 てっちゃん すすきの南7条店",
+        "title": "北海道海鮮居酒屋 てっちゃん すすきの南7条店",
+        "date": "",
+        "place": "中央区",
+        "note": "北海道海鮮居酒屋 てっちゃん すすきの南7条店",
+        "type": "open",
+        "url": "https://www.hotpepper.jp/strJ004509723/",
+        "source": "mogtrip・新店",
+        "sources": [
+          {
+            "name": "mogtrip・新店",
+            "url": "https://www.hotpepper.jp/strJ004509723/",
+            "priority": 90
+          }
+        ],
+        "confidence": 0.75,
+        "source_count": 1,
+        "first_seen": "2026-09-10",
         "last_seen": "2026-09-10"
       },
       {
@@ -2503,10 +2545,15 @@
             "name": "札幌ショップス・豊平区",
             "url": "https://www.shopship.jp/toyohira/open-close/iwaizumicafe_sapporo_toyohira/",
             "priority": 85
+          },
+          {
+            "name": "mogtrip・新店",
+            "url": "https://www.instagram.com/iwaizumicafe_sapporo_toyohira/",
+            "priority": 90
           }
         ],
-        "confidence": 0.54,
-        "source_count": 1,
+        "confidence": 0.58,
+        "source_count": 2,
         "first_seen": "2026-09-06",
         "last_seen": "2026-09-10"
       },
@@ -2608,10 +2655,15 @@
             "name": "札幌ショップス・豊平区",
             "url": "https://www.shopship.jp/toyohira/open-close/tokumitsucoffee_tsukisamunishi/",
             "priority": 85
+          },
+          {
+            "name": "mogtrip・新店",
+            "url": "https://www.instagram.com/tokumitsucoffee",
+            "priority": 90
           }
         ],
-        "confidence": 0.54,
-        "source_count": 1,
+        "confidence": 0.58,
+        "source_count": 2,
         "first_seen": "2026-09-06",
         "last_seen": "2026-09-10"
       },
@@ -3379,10 +3431,15 @@
             "name": "札幌ショップス・清田区",
             "url": "https://www.shopship.jp/kiyota/open-close/eijin_kiyota/",
             "priority": 85
+          },
+          {
+            "name": "mogtrip・新店",
+            "url": "https://www.hotpepper.jp/strJ004612816/",
+            "priority": 90
           }
         ],
-        "confidence": 0.54,
-        "source_count": 1,
+        "confidence": 0.58,
+        "source_count": 2,
         "first_seen": "2026-09-06",
         "last_seen": "2026-09-10"
       },
@@ -3493,6 +3550,6 @@
       }
     ]
   },
-  "unmatched": 124,
+  "unmatched": 130,
   "source_count": 25
 }
