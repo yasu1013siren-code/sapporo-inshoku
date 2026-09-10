@@ -353,11 +353,17 @@ def parse_date(text: str) -> str:
 
 def detect_ward(text: str) -> str:
     t = norm(text)
+    # 「北海道」「北海道新聞」等に含まれる「北」の1文字が、単独区名エイリアス
+    # （WARD_ALIASESの"北"="北区"など）に誤マッチし続けていたための対策。
+    # 都道府県名としての「北海道」は区の判定材料にならないため先に除去する。
+    t = t.replace("北海道", "")
     for ward in WARDS:
         if norm(ward) in t:
             return ward
+    # 1文字だけの略称（"北"="北区"など）は「北海道」のような無関係な単語にも
+    # マッチしてしまい誤判定の原因になりやすいため、2文字以上の略称のみ使う。
     for alias, ward in WARD_ALIASES.items():
-        if norm(alias) in t:
+        if len(alias) >= 2 and norm(alias) in t:
             return ward
     # 札幌の代表エリア → 区推定
     guesses = {
@@ -464,7 +470,10 @@ def article_candidates(source: dict, max_items: int = 120):
 
         seen.add(href)
         SOURCE_STATS[source["id"]]["link_candidates"] += 1
-        context = clean(a.parent.get_text(" ", strip=True))[:700] if a.parent else title
+        # 親要素のテキストが長すぎる場合、サイドバーや他記事の文言まで巻き込んで
+        # 区の誤判定を起こすリスクが高いため、その場合はタイトルのみを使う。
+        raw_parent_text = clean(a.parent.get_text(" ", strip=True)) if a.parent else ""
+        context = raw_parent_text[:250] if raw_parent_text and len(raw_parent_text) <= 400 else title
         text = f"{title} {context}"
         status = detect_status(text)
         if status == "unknown" and not source.get("default_status"):
