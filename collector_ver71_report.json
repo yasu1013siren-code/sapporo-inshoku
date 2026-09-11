@@ -1,20 +1,20 @@
 {
   "version": "7.1",
-  "generated_at": "2026-09-11T03:02:54",
+  "generated_at": "2026-09-11T07:18:12",
   "date": "2026-09-11",
   "summary": {
-    "raw_candidates": 277,
-    "merged_candidates": 253,
+    "raw_candidates": 279,
+    "merged_candidates": 255,
     "news_json_total": 171,
-    "raw_unmatched_ward": 132,
-    "news_json_unmatched": 148,
+    "raw_unmatched_ward": 137,
+    "news_json_unmatched": 153,
     "status_raw": {
-      "open": 251,
+      "open": 253,
       "closed": 26
     },
     "ward_raw": {
       "中央区": 50,
-      "北区": 17,
+      "北区": 14,
       "東区": 11,
       "白石区": 14,
       "豊平区": 13,
@@ -66,9 +66,9 @@
         "URL重複": 24
       },
       "wards": {
-        "区不明": 95,
+        "区不明": 98,
         "中央区": 13,
-        "北区": 6,
+        "北区": 3,
         "豊平区": 3,
         "清田区": 1,
         "東区": 1,
@@ -260,21 +260,21 @@
       "url": "https://kaiten-heiten-24.com/category/sapporo/",
       "scanned": 124,
       "link_candidates": 39,
-      "accepted": 17,
-      "rejected": 107,
+      "accepted": 19,
+      "rejected": 105,
       "errors": 0,
       "reasons": {
         "タイトル短すぎ/空": 83,
-        "飲食店判定NG": 18,
+        "飲食店判定NG": 16,
         "開閉ステータス不明": 4,
         "ナビゲーション/共通リンク": 2
       },
       "wards": {
-        "区不明": 14,
+        "区不明": 16,
         "中央区": 3
       },
       "statuses": {
-        "open": 14,
+        "open": 16,
         "closed": 3
       }
     },
