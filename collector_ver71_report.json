@@ -1,13 +1,13 @@
 {
   "version": "7.1",
-  "generated_at": "2026-09-11T07:25:19",
+  "generated_at": "2026-09-11T07:30:33",
   "date": "2026-09-11",
   "summary": {
     "raw_candidates": 279,
     "merged_candidates": 255,
-    "news_json_total": 171,
+    "news_json_total": 119,
     "raw_unmatched_ward": 137,
-    "news_json_unmatched": 153,
+    "news_json_unmatched": 136,
     "status_raw": {
       "open": 253,
       "closed": 26
@@ -25,13 +25,13 @@
       "清田区": 9
     },
     "ward_final": {
-      "中央区": 52,
-      "北区": 47,
-      "東区": 10,
+      "中央区": 39,
+      "北区": 11,
+      "東区": 9,
       "白石区": 13,
-      "豊平区": 11,
+      "豊平区": 10,
       "南区": 9,
-      "西区": 4,
+      "西区": 3,
       "厚別区": 9,
       "手稲区": 9,
       "清田区": 7
