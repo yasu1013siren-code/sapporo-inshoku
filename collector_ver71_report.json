@@ -1,36 +1,36 @@
 {
   "version": "7.1",
-  "generated_at": "2026-09-10T03:08:00",
-  "date": "2026-09-10",
+  "generated_at": "2026-09-11T03:02:54",
+  "date": "2026-09-11",
   "summary": {
-    "raw_candidates": 256,
-    "merged_candidates": 236,
-    "news_json_total": 164,
-    "raw_unmatched_ward": 110,
-    "news_json_unmatched": 124,
+    "raw_candidates": 277,
+    "merged_candidates": 253,
+    "news_json_total": 171,
+    "raw_unmatched_ward": 132,
+    "news_json_unmatched": 148,
     "status_raw": {
-      "open": 236,
-      "closed": 20
+      "open": 251,
+      "closed": 26
     },
     "ward_raw": {
-      "中央区": 44,
-      "北区": 26,
-      "東区": 12,
+      "中央区": 50,
+      "北区": 17,
+      "東区": 11,
       "白石区": 14,
-      "豊平区": 11,
-      "南区": 9,
-      "西区": 4,
+      "豊平区": 13,
+      "南区": 10,
+      "西区": 3,
       "厚別区": 9,
       "手稲区": 9,
-      "清田区": 8
+      "清田区": 9
     },
     "ward_final": {
-      "中央区": 46,
+      "中央区": 52,
       "北区": 47,
       "東区": 10,
       "白石区": 13,
       "豊平区": 11,
-      "南区": 8,
+      "南区": 9,
       "西区": 4,
       "厚別区": 9,
       "手稲区": 9,
@@ -66,12 +66,12 @@
         "URL重複": 24
       },
       "wards": {
-        "区不明": 92,
-        "中央区": 11,
-        "北区": 12,
-        "東区": 2,
-        "西区": 1,
-        "豊平区": 1,
+        "区不明": 95,
+        "中央区": 13,
+        "北区": 6,
+        "豊平区": 3,
+        "清田区": 1,
+        "東区": 1,
         "白石区": 1
       },
       "statuses": {
@@ -133,16 +133,16 @@
       "name": "号外NET 札幌市中央区",
       "url": "https://sapporochuo.goguynet.jp/category/cat_openclose/",
       "scanned": 37,
-      "link_candidates": 22,
+      "link_candidates": 21,
       "accepted": 8,
       "rejected": 29,
       "errors": 0,
       "reasons": {
         "区タグなし": 1,
         "飲食店判定NG": 6,
-        "開閉ステータス不明": 7,
+        "開閉ステータス不明": 6,
         "タイトル短すぎ/空": 11,
-        "URL重複": 4
+        "URL重複": 5
       },
       "wards": {
         "中央区": 8
@@ -192,43 +192,44 @@
       "url": "https://sapporo-sokuho.com/archives/category/%E9%96%8B%E5%BA%97%E3%83%BB%E9%96%89%E5%BA%97/%E9%96%89%E5%BA%97%E6%83%85%E5%A0%B1",
       "scanned": 48,
       "link_candidates": 26,
-      "accepted": 1,
-      "rejected": 47,
+      "accepted": 3,
+      "rejected": 45,
       "errors": 0,
       "reasons": {
         "タイトル短すぎ/空": 12,
-        "飲食店判定NG": 25,
+        "飲食店判定NG": 23,
         "URL重複": 9,
         "ナビゲーション/共通リンク": 1
       },
       "wards": {
-        "区不明": 1
+        "区不明": 2,
+        "南区": 1
       },
       "statuses": {
-        "closed": 1
+        "closed": 3
       }
     },
     {
       "id": "sapporo_list_open",
       "name": "札幌リスト・開店",
       "url": "https://sapporo-list.info/open/",
-      "scanned": 63,
+      "scanned": 62,
       "link_candidates": 38,
-      "accepted": 6,
-      "rejected": 57,
+      "accepted": 7,
+      "rejected": 55,
       "errors": 0,
       "reasons": {
-        "タイトル短すぎ/空": 20,
+        "タイトル短すぎ/空": 19,
         "ナビゲーション/共通リンク": 3,
-        "飲食店判定NG": 32,
+        "飲食店判定NG": 31,
         "URL重複": 2
       },
       "wards": {
-        "区不明": 5,
+        "区不明": 6,
         "清田区": 1
       },
       "statuses": {
-        "open": 6
+        "open": 7
       }
     },
     {
@@ -258,19 +259,24 @@
       "name": "開店閉店.com・札幌",
       "url": "https://kaiten-heiten-24.com/category/sapporo/",
       "scanned": 124,
-      "link_candidates": 111,
-      "accepted": 0,
-      "rejected": 124,
+      "link_candidates": 39,
+      "accepted": 17,
+      "rejected": 107,
       "errors": 0,
       "reasons": {
-        "タイトル短すぎ/空": 11,
-        "開閉ステータス不明": 110,
-        "タイトル長すぎ": 1,
-        "URL重複": 1,
-        "飲食店判定NG": 1
+        "タイトル短すぎ/空": 83,
+        "飲食店判定NG": 18,
+        "開閉ステータス不明": 4,
+        "ナビゲーション/共通リンク": 2
       },
-      "wards": {},
-      "statuses": {}
+      "wards": {
+        "区不明": 14,
+        "中央区": 3
+      },
+      "statuses": {
+        "open": 14,
+        "closed": 3
+      }
     },
     {
       "id": "teine_magazine",
@@ -511,13 +517,13 @@
       "id": "shopship_chuo",
       "name": "札幌ショップス・中央区",
       "url": "https://www.shopship.jp/chuo/open-close/",
-      "scanned": 134,
-      "link_candidates": 41,
+      "scanned": 135,
+      "link_candidates": 42,
       "accepted": 11,
-      "rejected": 123,
+      "rejected": 124,
       "errors": 0,
       "reasons": {
-        "開閉ステータス不明": 17,
+        "開閉ステータス不明": 18,
         "飲食店判定NG": 13,
         "ナビゲーション/共通リンク": 3,
         "タイトル短すぎ/空": 76,
@@ -562,9 +568,8 @@
         "ナビゲーション/共通リンク": 1
       },
       "wards": {
-        "区不明": 6,
+        "区不明": 9,
         "中央区": 3,
-        "北区": 3,
         "厚別区": 1
       },
       "statuses": {
@@ -577,12 +582,12 @@
       "url": "https://chamonix-cakes.com/",
       "scanned": 133,
       "link_candidates": 122,
-      "accepted": 7,
-      "rejected": 126,
+      "accepted": 8,
+      "rejected": 125,
       "errors": 0,
       "reasons": {
         "タイトル短すぎ/空": 3,
-        "飲食店判定NG": 46,
+        "飲食店判定NG": 45,
         "ナビゲーション/共通リンク": 2,
         "URL重複": 6,
         "開閉ステータス不明": 69
@@ -590,12 +595,12 @@
       "wards": {
         "豊平区": 1,
         "白石区": 2,
-        "中央区": 3,
+        "中央区": 4,
         "清田区": 1
       },
       "statuses": {
         "open": 6,
-        "closed": 1
+        "closed": 2
       }
     }
   ],
