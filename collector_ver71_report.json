@@ -1,24 +1,24 @@
 {
   "version": "7.1",
-  "generated_at": "2026-09-11T07:30:33",
-  "date": "2026-09-11",
+  "generated_at": "2026-09-12T03:09:59",
+  "date": "2026-09-12",
   "summary": {
-    "raw_candidates": 279,
-    "merged_candidates": 255,
+    "raw_candidates": 277,
+    "merged_candidates": 253,
     "news_json_total": 119,
     "raw_unmatched_ward": 137,
-    "news_json_unmatched": 136,
+    "news_json_unmatched": 138,
     "status_raw": {
-      "open": 253,
-      "closed": 26
+      "open": 252,
+      "closed": 25
     },
     "ward_raw": {
-      "中央区": 50,
+      "中央区": 49,
       "北区": 14,
       "東区": 11,
       "白石区": 14,
       "豊平区": 13,
-      "南区": 10,
+      "南区": 9,
       "西区": 3,
       "厚別区": 9,
       "手稲区": 9,
@@ -157,14 +157,14 @@
       "name": "号外NET 札幌市北区",
       "url": "https://sapporokitaku.goguynet.jp/category/cat_openclose/",
       "scanned": 37,
-      "link_candidates": 21,
+      "link_candidates": 20,
       "accepted": 0,
       "rejected": 37,
       "errors": 0,
       "reasons": {
-        "区タグなし": 21,
+        "区タグなし": 20,
         "タイトル短すぎ/空": 11,
-        "URL重複": 5
+        "URL重複": 6
       },
       "wards": {},
       "statuses": {}
@@ -202,11 +202,11 @@
         "ナビゲーション/共通リンク": 1
       },
       "wards": {
-        "区不明": 2,
-        "南区": 1
+        "区不明": 3
       },
       "statuses": {
-        "closed": 3
+        "open": 1,
+        "closed": 2
       }
     },
     {
@@ -259,22 +259,23 @@
       "name": "開店閉店.com・札幌",
       "url": "https://kaiten-heiten-24.com/category/sapporo/",
       "scanned": 124,
-      "link_candidates": 39,
-      "accepted": 19,
-      "rejected": 105,
+      "link_candidates": 38,
+      "accepted": 17,
+      "rejected": 107,
       "errors": 0,
       "reasons": {
         "タイトル短すぎ/空": 83,
-        "飲食店判定NG": 16,
+        "飲食店判定NG": 17,
         "開閉ステータス不明": 4,
-        "ナビゲーション/共通リンク": 2
+        "ナビゲーション/共通リンク": 2,
+        "URL重複": 1
       },
       "wards": {
-        "区不明": 16,
-        "中央区": 3
+        "区不明": 15,
+        "中央区": 2
       },
       "statuses": {
-        "open": 16,
+        "open": 14,
         "closed": 3
       }
     },
