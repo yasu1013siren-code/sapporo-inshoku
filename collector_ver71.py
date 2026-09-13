@@ -425,6 +425,27 @@ def extract_name_from_title(title: str) -> str:
     return t[:100]
 
 
+def get_item_context(a, title: str) -> str:
+    """記事タイトルの日付・住所は、リンク（<a>）の直近の親ではなく、
+    「1日 · 店名 · 住所」のように同じ行（li/p/tr/dd/divなど）の
+    兄弟テキストとして存在することが多い（mogtripなど）。
+    そのため、まず行全体を表すブロック要素までさかのぼってテキストを取得し、
+    それが取れない・広すぎる場合は直近の親、最後はタイトルのみにフォールバックする。
+    """
+    block = a.find_parent(["li", "p", "tr", "dd", "dt"])
+    if block is not None:
+        block_text = clean(block.get_text(" ", strip=True))
+        if block_text and len(block_text) <= 400:
+            return block_text[:250]
+
+    if a.parent is not None:
+        parent_text = clean(a.parent.get_text(" ", strip=True))
+        if parent_text and len(parent_text) <= 400:
+            return parent_text[:250]
+
+    return title
+
+
 def article_candidates(source: dict, max_items: int = 120):
     """記事候補を広く走査し、除外理由を7.1の統計へ記録する。"""
     init_source_stats(source)
@@ -474,10 +495,7 @@ def article_candidates(source: dict, max_items: int = 120):
 
         seen.add(href)
         SOURCE_STATS[source["id"]]["link_candidates"] += 1
-        # 親要素のテキストが長すぎる場合、サイドバーや他記事の文言まで巻き込んで
-        # 区の誤判定を起こすリスクが高いため、その場合はタイトルのみを使う。
-        raw_parent_text = clean(a.parent.get_text(" ", strip=True)) if a.parent else ""
-        context = raw_parent_text[:250] if raw_parent_text and len(raw_parent_text) <= 400 else title
+        context = get_item_context(a, title)
         text = f"{title} {context}"
         status = detect_status(text)
         if status == "unknown" and not source.get("default_status"):
