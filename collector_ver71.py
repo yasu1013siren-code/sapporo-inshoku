@@ -158,8 +158,8 @@ SOURCE_CONFIG = [
     # 札幌ローカル開店閉店
     # default_status: ページ自体が「新店だけ」「閉店だけ」の一覧である場合、
     # 記事本文からステータス語（オープン/閉店）が拾えなくてもこの値を採用する。
-    {"id": "mogtrip_open", "name": "mogtrip・新店", "url": "https://mogtrip.jp/newopen-2026/", "kind": "article_list", "priority": 90, "default_status": "open"},
-    {"id": "mogtrip_close", "name": "mogtrip・閉店", "url": "https://mogtrip.jp/closed-2026/", "kind": "article_list", "priority": 90, "default_status": "closed"},
+    {"id": "mogtrip_open", "name": "mogtrip・新店", "url": "https://mogtrip.jp/newopen-2026/", "kind": "article_list", "priority": 90, "default_status": "open", "skip_food_check": True},
+    {"id": "mogtrip_close", "name": "mogtrip・閉店", "url": "https://mogtrip.jp/closed-2026/", "kind": "article_list", "priority": 90, "default_status": "closed", "skip_food_check": True},
     {"id": "shopship", "name": "札幌ショップス・開店閉店", "url": "https://www.shopship.jp/sapporo/open-close/", "kind": "article_list", "priority": 90},
     {"id": "gogai_chuo", "name": "号外NET 札幌市中央区", "url": "https://sapporochuo.goguynet.jp/category/cat_openclose/", "kind": "gogai_list", "priority": 80},
     {"id": "gogai_kita", "name": "号外NET 札幌市北区", "url": "https://sapporokitaku.goguynet.jp/category/cat_openclose/", "kind": "gogai_list", "priority": 80},
@@ -464,7 +464,11 @@ def article_candidates(source: dict, max_items: int = 120):
         if parsed.scheme not in ("http", "https"):
             reject(source, "URL不正", title, href)
             continue
-        if any(x in title.lower() for x in ["menu", "ログイン", "検索", "お問い合わせ", "プライバシー"]):
+        if any(x in title.lower() for x in [
+            "menu", "ログイン", "検索", "お問い合わせ", "お問合せ", "プライバシー",
+            "home", "here", "姉妹サイト", "ライター紹介", "サイトマップ",
+            "運営会社", "利用規約", "広告掲載", "delivery", "宅配弁当",
+        ]):
             reject(source, "ナビゲーション/共通リンク", title, href)
             continue
 
@@ -479,7 +483,7 @@ def article_candidates(source: dict, max_items: int = 120):
         if status == "unknown" and not source.get("default_status"):
             reject(source, "開閉ステータス不明", title, href)
             continue
-        if not is_food(text):
+        if not source.get("skip_food_check") and not is_food(text):
             reject(source, "飲食店判定NG", title, href)
             continue
 
