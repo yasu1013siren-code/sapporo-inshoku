@@ -1,24 +1,24 @@
 {
   "version": "7.1",
-  "generated_at": "2026-09-13T13:33:02",
-  "date": "2026-09-13",
+  "generated_at": "2026-09-14T03:25:23",
+  "date": "2026-09-14",
   "summary": {
-    "raw_candidates": 275,
-    "merged_candidates": 245,
+    "raw_candidates": 271,
+    "merged_candidates": 240,
     "news_json_total": 215,
-    "raw_unmatched_ward": 32,
-    "news_json_unmatched": 130,
+    "raw_unmatched_ward": 28,
+    "news_json_unmatched": 131,
     "status_raw": {
-      "open": 237,
-      "closed": 38
+      "open": 236,
+      "closed": 35
     },
     "ward_raw": {
-      "中央区": 106,
+      "中央区": 107,
       "北区": 18,
       "東区": 18,
       "白石区": 22,
       "豊平区": 17,
-      "南区": 17,
+      "南区": 16,
       "西区": 10,
       "厚別区": 12,
       "手稲区": 14,
@@ -144,16 +144,16 @@
       "name": "号外NET 札幌市中央区",
       "url": "https://sapporochuo.goguynet.jp/category/cat_openclose/",
       "scanned": 37,
-      "link_candidates": 21,
+      "link_candidates": 20,
       "accepted": 8,
       "rejected": 29,
       "errors": 0,
       "reasons": {
         "区タグなし": 1,
         "飲食店判定NG": 6,
-        "開閉ステータス不明": 6,
+        "開閉ステータス不明": 5,
         "タイトル短すぎ/空": 11,
-        "URL重複": 5
+        "URL重複": 6
       },
       "wards": {
         "中央区": 8
@@ -168,14 +168,14 @@
       "name": "号外NET 札幌市北区",
       "url": "https://sapporokitaku.goguynet.jp/category/cat_openclose/",
       "scanned": 37,
-      "link_candidates": 20,
+      "link_candidates": 21,
       "accepted": 0,
       "rejected": 37,
       "errors": 0,
       "reasons": {
-        "区タグなし": 20,
+        "区タグなし": 21,
         "タイトル短すぎ/空": 11,
-        "URL重複": 6
+        "URL重複": 5
       },
       "wards": {},
       "statuses": {}
@@ -202,61 +202,56 @@
       "name": "札幌速報・閉店",
       "url": "https://sapporo-sokuho.com/archives/category/%E9%96%8B%E5%BA%97%E3%83%BB%E9%96%89%E5%BA%97/%E9%96%89%E5%BA%97%E6%83%85%E5%A0%B1",
       "scanned": 48,
-      "link_candidates": 26,
-      "accepted": 3,
-      "rejected": 45,
+      "link_candidates": 27,
+      "accepted": 0,
+      "rejected": 48,
       "errors": 0,
       "reasons": {
-        "タイトル短すぎ/空": 12,
-        "飲食店判定NG": 23,
-        "URL重複": 9,
-        "ナビゲーション/共通リンク": 1
+        "飲食店判定NG": 27,
+        "タイトル短すぎ/空": 8,
+        "URL重複": 12,
+        "タイトル長すぎ": 1
       },
-      "wards": {
-        "区不明": 2,
-        "南区": 1
-      },
-      "statuses": {
-        "closed": 3
-      }
+      "wards": {},
+      "statuses": {}
     },
     {
       "id": "sapporo_list_open",
       "name": "札幌リスト・開店",
       "url": "https://sapporo-list.info/open/",
       "scanned": 62,
-      "link_candidates": 38,
-      "accepted": 7,
-      "rejected": 55,
+      "link_candidates": 37,
+      "accepted": 6,
+      "rejected": 56,
       "errors": 0,
       "reasons": {
-        "タイトル短すぎ/空": 19,
+        "タイトル短すぎ/空": 20,
         "ナビゲーション/共通リンク": 3,
         "飲食店判定NG": 31,
         "URL重複": 2
       },
       "wards": {
-        "区不明": 6,
+        "区不明": 5,
         "清田区": 1
       },
       "statuses": {
-        "open": 7
+        "open": 6
       }
     },
     {
       "id": "sapporo_yard",
       "name": "SAPPOROYARD",
       "url": "https://sapporoyard.com/archives/openclose.html",
-      "scanned": 83,
-      "link_candidates": 32,
+      "scanned": 79,
+      "link_candidates": 31,
       "accepted": 1,
-      "rejected": 82,
+      "rejected": 78,
       "errors": 0,
       "reasons": {
-        "タイトル短すぎ/空": 30,
+        "タイトル短すぎ/空": 29,
         "飲食店判定NG": 4,
-        "開閉ステータス不明": 27,
-        "URL重複": 19,
+        "開閉ステータス不明": 26,
+        "URL重複": 17,
         "ナビゲーション/共通リンク": 2
       },
       "wards": {
@@ -568,14 +563,14 @@
       "rejected": 110,
       "errors": 0,
       "reasons": {
-        "タイトル短すぎ/空": 43,
+        "タイトル短すぎ/空": 42,
         "飲食店判定NG": 32,
-        "URL重複": 33,
+        "URL重複": 34,
         "ナビゲーション/共通リンク": 2
       },
       "wards": {
-        "区不明": 9,
-        "中央区": 3,
+        "中央区": 4,
+        "区不明": 8,
         "厚別区": 1
       },
       "statuses": {
