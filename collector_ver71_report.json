@@ -1,37 +1,38 @@
 {
   "version": "7.1",
-  "generated_at": "2026-09-14T03:25:23",
-  "date": "2026-09-14",
+  "generated_at": "2026-09-15T03:27:18",
+  "date": "2026-09-15",
   "summary": {
-    "raw_candidates": 271,
-    "merged_candidates": 240,
-    "news_json_total": 215,
-    "raw_unmatched_ward": 28,
-    "news_json_unmatched": 131,
+    "raw_candidates": 281,
+    "merged_candidates": 247,
+    "news_json_total": 225,
+    "raw_unmatched_ward": 29,
+    "news_json_unmatched": 133,
     "status_raw": {
-      "open": 236,
-      "closed": 35
+      "open": 242,
+      "closed": 38,
+      "upcoming": 1
     },
     "ward_raw": {
-      "中央区": 107,
-      "北区": 18,
+      "中央区": 108,
+      "北区": 26,
       "東区": 18,
       "白石区": 22,
-      "豊平区": 17,
-      "南区": 16,
-      "西区": 10,
+      "豊平区": 16,
+      "南区": 15,
+      "西区": 13,
       "厚別区": 12,
       "手稲区": 14,
-      "清田区": 9
+      "清田区": 8
     },
     "ward_final": {
-      "中央区": 93,
-      "北区": 13,
+      "中央区": 94,
+      "北区": 19,
       "東区": 16,
       "白石区": 20,
       "豊平区": 14,
       "南区": 14,
-      "西区": 10,
+      "西区": 13,
       "厚別区": 12,
       "手稲区": 14,
       "清田区": 9
@@ -72,8 +73,8 @@
         "西区": 7,
         "白石区": 8,
         "東区": 7,
-        "北区": 8,
-        "豊平区": 5,
+        "北区": 9,
+        "豊平区": 4,
         "手稲区": 5,
         "清田区": 1,
         "厚別区": 2
@@ -128,11 +129,10 @@
         "タイトル短すぎ/空": 80
       },
       "wards": {
-        "中央区": 8,
+        "中央区": 9,
         "豊平区": 1,
         "北区": 1,
-        "白石区": 1,
-        "南区": 1
+        "白石区": 1
       },
       "statuses": {
         "open": 10,
@@ -168,17 +168,25 @@
       "name": "号外NET 札幌市北区",
       "url": "https://sapporokitaku.goguynet.jp/category/cat_openclose/",
       "scanned": 37,
-      "link_candidates": 21,
-      "accepted": 0,
-      "rejected": 37,
+      "link_candidates": 20,
+      "accepted": 7,
+      "rejected": 30,
       "errors": 0,
       "reasons": {
-        "区タグなし": 21,
+        "区タグなし": 1,
+        "飲食店判定NG": 8,
+        "開閉ステータス不明": 4,
         "タイトル短すぎ/空": 11,
-        "URL重複": 5
+        "URL重複": 6
       },
-      "wards": {},
-      "statuses": {}
+      "wards": {
+        "北区": 7
+      },
+      "statuses": {
+        "closed": 3,
+        "open": 3,
+        "upcoming": 1
+      }
     },
     {
       "id": "gogai_nishi_teine",
@@ -186,16 +194,23 @@
       "url": "https://sapporonishi-teine.goguynet.jp/category/cat_openclose/",
       "scanned": 37,
       "link_candidates": 23,
-      "accepted": 0,
-      "rejected": 37,
+      "accepted": 3,
+      "rejected": 34,
       "errors": 0,
       "reasons": {
-        "区タグなし": 23,
+        "区タグなし": 1,
+        "飲食店判定NG": 12,
+        "開閉ステータス不明": 6,
         "タイトル短すぎ/空": 11,
-        "URL重複": 3
+        "URL重複": 3,
+        "区名不明": 1
       },
-      "wards": {},
-      "statuses": {}
+      "wards": {
+        "西区": 3
+      },
+      "statuses": {
+        "open": 3
+      }
     },
     {
       "id": "sapporo_sokuho_close",
@@ -219,20 +234,19 @@
       "id": "sapporo_list_open",
       "name": "札幌リスト・開店",
       "url": "https://sapporo-list.info/open/",
-      "scanned": 62,
+      "scanned": 60,
       "link_candidates": 37,
       "accepted": 6,
-      "rejected": 56,
+      "rejected": 54,
       "errors": 0,
       "reasons": {
-        "タイトル短すぎ/空": 20,
+        "タイトル短すぎ/空": 19,
         "ナビゲーション/共通リンク": 3,
         "飲食店判定NG": 31,
-        "URL重複": 2
+        "URL重複": 1
       },
       "wards": {
-        "区不明": 5,
-        "清田区": 1
+        "区不明": 6
       },
       "statuses": {
         "open": 6
