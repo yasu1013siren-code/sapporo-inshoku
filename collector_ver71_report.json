@@ -1,29 +1,29 @@
 {
   "version": "7.1",
-  "generated_at": "2026-09-16T03:29:28",
+  "generated_at": "2026-09-16T08:29:45",
   "date": "2026-09-16",
   "summary": {
-    "raw_candidates": 153,
-    "merged_candidates": 135,
+    "raw_candidates": 303,
+    "merged_candidates": 269,
     "news_json_total": 230,
-    "raw_unmatched_ward": 26,
-    "news_json_unmatched": 150,
+    "raw_unmatched_ward": 46,
+    "news_json_unmatched": 154,
     "status_raw": {
-      "open": 133,
-      "closed": 19,
+      "open": 260,
+      "closed": 42,
       "upcoming": 1
     },
     "ward_raw": {
-      "中央区": 39,
-      "北区": 17,
-      "東区": 10,
-      "白石区": 12,
-      "豊平区": 12,
-      "南区": 9,
-      "西区": 6,
-      "厚別区": 10,
-      "手稲区": 6,
-      "清田区": 6
+      "中央区": 111,
+      "北区": 26,
+      "東区": 18,
+      "白石区": 22,
+      "豊平区": 16,
+      "南区": 16,
+      "西区": 13,
+      "厚別区": 13,
+      "手稲区": 14,
+      "清田区": 8
     },
     "ward_final": {
       "中央区": 97,
@@ -56,31 +56,61 @@
       "id": "mogtrip_open",
       "name": "mogtrip・新店",
       "url": "https://mogtrip.jp/newopen-2026/",
-      "scanned": 0,
-      "link_candidates": 0,
-      "accepted": 0,
-      "rejected": 1,
+      "scanned": 200,
+      "link_candidates": 120,
+      "accepted": 120,
+      "rejected": 80,
       "errors": 0,
       "reasons": {
-        "robots.txt禁止": 1
+        "ナビゲーション/共通リンク": 18,
+        "タイトル短すぎ/空": 52,
+        "URL重複": 10
       },
-      "wards": {},
-      "statuses": {}
+      "wards": {
+        "中央区": 66,
+        "区不明": 5,
+        "南区": 6,
+        "西区": 7,
+        "白石区": 8,
+        "東区": 7,
+        "北区": 9,
+        "豊平区": 4,
+        "手稲区": 5,
+        "清田区": 1,
+        "厚別区": 2
+      },
+      "statuses": {
+        "open": 119,
+        "closed": 1
+      }
     },
     {
       "id": "mogtrip_close",
       "name": "mogtrip・閉店",
       "url": "https://mogtrip.jp/closed-2026/",
-      "scanned": 0,
-      "link_candidates": 0,
-      "accepted": 0,
-      "rejected": 1,
+      "scanned": 107,
+      "link_candidates": 22,
+      "accepted": 22,
+      "rejected": 85,
       "errors": 0,
       "reasons": {
-        "robots.txt禁止": 1
+        "ナビゲーション/共通リンク": 18,
+        "タイトル短すぎ/空": 56,
+        "URL重複": 11
       },
-      "wards": {},
-      "statuses": {}
+      "wards": {
+        "中央区": 6,
+        "区不明": 10,
+        "厚別区": 1,
+        "東区": 1,
+        "清田区": 1,
+        "白石区": 2,
+        "南区": 1
+      },
+      "statuses": {
+        "closed": 21,
+        "open": 1
+      }
     },
     {
       "id": "shopship",
@@ -211,16 +241,23 @@
       "id": "sapporo_list_open",
       "name": "札幌リスト・開店",
       "url": "https://sapporo-list.info/open/",
-      "scanned": 0,
-      "link_candidates": 0,
-      "accepted": 0,
-      "rejected": 1,
+      "scanned": 61,
+      "link_candidates": 36,
+      "accepted": 6,
+      "rejected": 55,
       "errors": 0,
       "reasons": {
-        "robots.txt禁止": 1
+        "タイトル短すぎ/空": 20,
+        "ナビゲーション/共通リンク": 3,
+        "飲食店判定NG": 30,
+        "URL重複": 2
       },
-      "wards": {},
-      "statuses": {}
+      "wards": {
+        "区不明": 6
+      },
+      "statuses": {
+        "open": 6
+      }
     },
     {
       "id": "sapporo_yard",
@@ -250,24 +287,23 @@
       "name": "開店閉店.com・札幌",
       "url": "https://kaiten-heiten-24.com/category/sapporo/",
       "scanned": 124,
-      "link_candidates": 38,
-      "accepted": 19,
-      "rejected": 105,
+      "link_candidates": 39,
+      "accepted": 18,
+      "rejected": 106,
       "errors": 0,
       "reasons": {
         "タイトル短すぎ/空": 83,
-        "飲食店判定NG": 15,
+        "飲食店判定NG": 17,
         "開閉ステータス不明": 4,
-        "ナビゲーション/共通リンク": 2,
-        "URL重複": 1
+        "ナビゲーション/共通リンク": 2
       },
       "wards": {
-        "区不明": 16,
+        "区不明": 15,
         "厚別区": 1,
         "中央区": 2
       },
       "statuses": {
-        "open": 17,
+        "open": 16,
         "closed": 2
       }
     },
@@ -275,16 +311,25 @@
       "id": "teine_magazine",
       "name": "手稲マガジン・開店閉店",
       "url": "https://teine-magazine.com/category/kaitenheiten/",
-      "scanned": 0,
-      "link_candidates": 0,
-      "accepted": 0,
-      "rejected": 1,
+      "scanned": 121,
+      "link_candidates": 41,
+      "accepted": 3,
+      "rejected": 118,
       "errors": 0,
       "reasons": {
-        "robots.txt禁止": 1
+        "タイトル短すぎ/空": 38,
+        "飲食店判定NG": 9,
+        "開閉ステータス不明": 29,
+        "ナビゲーション/共通リンク": 3,
+        "URL重複": 39
       },
-      "wards": {},
-      "statuses": {}
+      "wards": {
+        "手稲区": 3
+      },
+      "statuses": {
+        "open": 2,
+        "closed": 1
+      }
     },
     {
       "id": "shopship_higashi",
@@ -590,603 +635,603 @@
   "rejection_examples": [
     {
       "source": "mogtrip・新店",
-      "reason": "robots.txt禁止",
+      "reason": "ナビゲーション/共通リンク",
+      "title": "here",
+      "url": "https://mogtrip.jp/newopen-2026/?PageSpeed=noscript"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "ナビゲーション/共通リンク",
+      "title": "HOME",
+      "url": "http://mogtrip2018.xsrv.jp/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "タイトル短すぎ/空",
+      "title": "札幌市",
+      "url": "https://mogtrip.jp/category/sapporo/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "タイトル短すぎ/空",
+      "title": "中央区",
+      "url": "https://mogtrip.jp/category/sapporo/chuo/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "タイトル短すぎ/空",
+      "title": "札幌駅",
+      "url": "https://mogtrip.jp/category/sapporo/chuo/sapporo-station/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "タイトル短すぎ/空",
+      "title": "北区",
+      "url": "https://mogtrip.jp/category/sapporo/north/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "タイトル短すぎ/空",
+      "title": "西区",
+      "url": "https://mogtrip.jp/category/sapporo/west/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "タイトル短すぎ/空",
+      "title": "東区",
+      "url": "https://mogtrip.jp/category/sapporo/east/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "タイトル短すぎ/空",
+      "title": "南区",
+      "url": "https://mogtrip.jp/category/sapporo/south/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "タイトル短すぎ/空",
+      "title": "豊平区",
+      "url": "https://mogtrip.jp/category/sapporo/toyohira/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "タイトル短すぎ/空",
+      "title": "白石区",
+      "url": "https://mogtrip.jp/category/sapporo/shiroishi/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "タイトル短すぎ/空",
+      "title": "厚別区",
+      "url": "https://mogtrip.jp/category/sapporo/atsubetsu/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "タイトル短すぎ/空",
+      "title": "清田区",
+      "url": "https://mogtrip.jp/category/sapporo/kiyota/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "タイトル短すぎ/空",
+      "title": "手稲区",
+      "url": "https://mogtrip.jp/category/sapporo/teine/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "タイトル短すぎ/空",
+      "title": "小樽",
+      "url": "https://mogtrip.jp/category/otaru/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "ナビゲーション/共通リンク",
+      "title": "函館（姉妹サイトへ）",
+      "url": "https://hkd.mogtrip.jp/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "ナビゲーション/共通リンク",
+      "title": "旭川（姉妹サイトへ）",
+      "url": "https://akj.mogtrip.jp/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "ナビゲーション/共通リンク",
+      "title": "お土産（姉妹サイトへ）",
+      "url": "https://giftrip-hokkaido.jp/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "ナビゲーション/共通リンク",
+      "title": "宅配弁当 DELIVERY",
+      "url": "https://mogtrip.jp/category/delivery-food/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "ナビゲーション/共通リンク",
+      "title": "ライター紹介",
+      "url": "https://mogtrip.jp/writer-profile/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "ナビゲーション/共通リンク",
+      "title": "お問合せ",
+      "url": "https://mogtrip.jp/contact/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "タイトル短すぎ/空",
       "title": "",
-      "url": ""
+      "url": "https://giftrip-hokkaido.jp/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "タイトル短すぎ/空",
+      "title": "",
+      "url": "https://www.facebook.com/nao.takai.nakatsugawa?locale=ja_JP"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "タイトル短すぎ/空",
+      "title": "",
+      "url": "https://twitter.com/nao0321sapporo"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "タイトル短すぎ/空",
+      "title": "",
+      "url": "https://www.instagram.com/eat_in_hokkaido/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "タイトル短すぎ/空",
+      "title": "",
+      "url": "https://room.rakuten.co.jp/room_c81aa44021/items"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "タイトル短すぎ/空",
+      "title": "",
+      "url": "https://mogtrip.jp/feed/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "タイトル短すぎ/空",
+      "title": "",
+      "url": "https://mogtrip.jp/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "タイトル短すぎ/空",
+      "title": "中央区",
+      "url": "https://mogtrip.jp/category/sapporo/chuo/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "タイトル短すぎ/空",
+      "title": "札幌駅",
+      "url": "https://mogtrip.jp/category/sapporo/chuo/sapporo-station/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "URL重複",
+      "title": "大通公園",
+      "url": "https://mogtrip.jp/category/sapporo/chuo/odori/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "URL重複",
+      "title": "すすきの",
+      "url": "https://mogtrip.jp/category/sapporo/chuo/susukino/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "タイトル短すぎ/空",
+      "title": "北区",
+      "url": "https://mogtrip.jp/category/sapporo/north/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "タイトル短すぎ/空",
+      "title": "西区",
+      "url": "https://mogtrip.jp/category/sapporo/west/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "タイトル短すぎ/空",
+      "title": "東区",
+      "url": "https://mogtrip.jp/category/sapporo/east/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "タイトル短すぎ/空",
+      "title": "南区",
+      "url": "https://mogtrip.jp/category/sapporo/south/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "タイトル短すぎ/空",
+      "title": "豊平区",
+      "url": "https://mogtrip.jp/category/sapporo/toyohira/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "タイトル短すぎ/空",
+      "title": "白石区",
+      "url": "https://mogtrip.jp/category/sapporo/shiroishi/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "タイトル短すぎ/空",
+      "title": "厚別区",
+      "url": "https://mogtrip.jp/category/sapporo/atsubetsu/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "タイトル短すぎ/空",
+      "title": "清田区",
+      "url": "https://mogtrip.jp/category/sapporo/kiyota/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "タイトル短すぎ/空",
+      "title": "手稲区",
+      "url": "https://mogtrip.jp/category/sapporo/teine/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "URL重複",
+      "title": "札幌市外・その他 OUTSIDE",
+      "url": "https://mogtrip.jp/category/outside/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "タイトル短すぎ/空",
+      "title": "小樽",
+      "url": "https://mogtrip.jp/category/otaru/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "ナビゲーション/共通リンク",
+      "title": "函館（姉妹サイトへ）",
+      "url": "https://hkd.mogtrip.jp/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "ナビゲーション/共通リンク",
+      "title": "旭川（姉妹サイトへ）",
+      "url": "https://akj.mogtrip.jp/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "ナビゲーション/共通リンク",
+      "title": "お土産（姉妹サイトへ）",
+      "url": "https://giftrip-hokkaido.jp/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "ナビゲーション/共通リンク",
+      "title": "宅配弁当 DELIVERY",
+      "url": "https://mogtrip.jp/category/delivery-food/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "ナビゲーション/共通リンク",
+      "title": "お問合せ CONTACT",
+      "url": "https://mogtrip.jp/contact/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "タイトル短すぎ/空",
+      "title": "",
+      "url": "https://mogtrip.jp/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "URL重複",
+      "title": "札幌 SAPPORO",
+      "url": "https://mogtrip.jp/category/sapporo/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "タイトル短すぎ/空",
+      "title": "中央区",
+      "url": "https://mogtrip.jp/category/sapporo/chuo/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "タイトル短すぎ/空",
+      "title": "札幌駅",
+      "url": "https://mogtrip.jp/category/sapporo/chuo/sapporo-station/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "URL重複",
+      "title": "大通公園",
+      "url": "https://mogtrip.jp/category/sapporo/chuo/odori/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "URL重複",
+      "title": "すすきの",
+      "url": "https://mogtrip.jp/category/sapporo/chuo/susukino/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "タイトル短すぎ/空",
+      "title": "北区",
+      "url": "https://mogtrip.jp/category/sapporo/north/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "タイトル短すぎ/空",
+      "title": "西区",
+      "url": "https://mogtrip.jp/category/sapporo/west/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "タイトル短すぎ/空",
+      "title": "東区",
+      "url": "https://mogtrip.jp/category/sapporo/east/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "タイトル短すぎ/空",
+      "title": "南区",
+      "url": "https://mogtrip.jp/category/sapporo/south/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "タイトル短すぎ/空",
+      "title": "豊平区",
+      "url": "https://mogtrip.jp/category/sapporo/toyohira/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "タイトル短すぎ/空",
+      "title": "白石区",
+      "url": "https://mogtrip.jp/category/sapporo/shiroishi/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "タイトル短すぎ/空",
+      "title": "厚別区",
+      "url": "https://mogtrip.jp/category/sapporo/atsubetsu/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "タイトル短すぎ/空",
+      "title": "清田区",
+      "url": "https://mogtrip.jp/category/sapporo/kiyota/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "タイトル短すぎ/空",
+      "title": "手稲区",
+      "url": "https://mogtrip.jp/category/sapporo/teine/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "URL重複",
+      "title": "札幌市外・その他 OUTSIDE",
+      "url": "https://mogtrip.jp/category/outside/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "タイトル短すぎ/空",
+      "title": "小樽",
+      "url": "https://mogtrip.jp/category/otaru/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "ナビゲーション/共通リンク",
+      "title": "函館（姉妹サイトへ）",
+      "url": "https://hkd.mogtrip.jp/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "ナビゲーション/共通リンク",
+      "title": "旭川（姉妹サイトへ）",
+      "url": "https://akj.mogtrip.jp/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "ナビゲーション/共通リンク",
+      "title": "お土産（姉妹サイトへ）",
+      "url": "https://giftrip-hokkaido.jp/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "ナビゲーション/共通リンク",
+      "title": "宅配弁当 DELIVERY",
+      "url": "https://mogtrip.jp/category/delivery-food/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "URL重複",
+      "title": "ライター WRITER",
+      "url": "https://mogtrip.jp/writer-profile/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "ナビゲーション/共通リンク",
+      "title": "お問合せ CONTACT",
+      "url": "https://mogtrip.jp/contact/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "タイトル短すぎ/空",
+      "title": "ホーム",
+      "url": "https://mogtrip.jp/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "URL重複",
+      "title": "スポット・コラム",
+      "url": "https://mogtrip.jp/category/spot/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "タイトル短すぎ/空",
+      "title": "編集部",
+      "url": "https://mogtrip.jp/author/administrator/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "URL重複",
+      "title": "【2026年】札幌「閉店情報一覧」飲食店のみ",
+      "url": "https://mogtrip.jp/closed-2026/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "タイトル短すぎ/空",
+      "title": "薫ㇽ風",
+      "url": "https://www.instagram.com/kaor_ukaze/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "タイトル短すぎ/空",
+      "title": "片隅",
+      "url": "https://www.instagram.com/katasumi_sapporo/"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "タイトル短すぎ/空",
+      "title": "cue",
+      "url": "https://www.instagram.com/cue___9"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "タイトル短すぎ/空",
+      "title": "豚梵",
+      "url": "https://www.instagram.com/but_bon2089"
+    },
+    {
+      "source": "mogtrip・新店",
+      "reason": "タイトル短すぎ/空",
+      "title": "ハンキ",
+      "url": "https://www.instagram.com/hanki_sapporo"
     },
     {
       "source": "mogtrip・閉店",
-      "reason": "robots.txt禁止",
-      "title": "",
-      "url": ""
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "開閉ステータス不明",
-      "title": "札幌ショップス",
-      "url": "https://www.shopship.jp/sapporo/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "開閉ステータス不明",
-      "title": "🔍 ショップ一覧",
-      "url": "https://www.shopship.jp/sapporo/shop-list/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "開閉ステータス不明",
-      "title": "全ショップ一覧",
-      "url": "https://www.shopship.jp/shop-list/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "開閉ステータス不明",
-      "title": "ショップス編集部ブログ",
-      "url": "https://www.shopship.jp/blog/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "飲食店判定NG",
-      "title": "開店・閉店情報",
-      "url": "https://www.shopship.jp/open-close/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "飲食店判定NG",
-      "title": "新オープン店舗一覧",
-      "url": "https://www.shopship.jp/open-shop-list/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "開閉ステータス不明",
-      "title": "クローズ店舗一覧",
-      "url": "https://www.shopship.jp/close-shop-list/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "開閉ステータス不明",
-      "title": "ショップスについて",
-      "url": "https://www.shopship.jp/about/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
       "reason": "ナビゲーション/共通リンク",
-      "title": "お問い合わせ",
-      "url": "https://www.shopship.jp/contact/"
+      "title": "here",
+      "url": "https://mogtrip.jp/closed-2026/?PageSpeed=noscript"
     },
     {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "URL重複",
-      "title": "札幌エリア",
-      "url": "https://www.shopship.jp/sapporo/"
+      "source": "mogtrip・閉店",
+      "reason": "ナビゲーション/共通リンク",
+      "title": "HOME",
+      "url": "http://mogtrip2018.xsrv.jp/"
     },
     {
-      "source": "札幌ショップス・開店閉店",
+      "source": "mogtrip・閉店",
+      "reason": "タイトル短すぎ/空",
+      "title": "札幌市",
+      "url": "https://mogtrip.jp/category/sapporo/"
+    },
+    {
+      "source": "mogtrip・閉店",
       "reason": "タイトル短すぎ/空",
       "title": "中央区",
-      "url": "https://www.shopship.jp/chuo/"
+      "url": "https://mogtrip.jp/category/sapporo/chuo/"
     },
     {
-      "source": "札幌ショップス・開店閉店",
+      "source": "mogtrip・閉店",
+      "reason": "タイトル短すぎ/空",
+      "title": "札幌駅",
+      "url": "https://mogtrip.jp/category/sapporo/chuo/sapporo-station/"
+    },
+    {
+      "source": "mogtrip・閉店",
       "reason": "タイトル短すぎ/空",
       "title": "北区",
-      "url": "https://www.shopship.jp/kita/"
+      "url": "https://mogtrip.jp/category/sapporo/north/"
     },
     {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "タイトル短すぎ/空",
-      "title": "東区",
-      "url": "https://www.shopship.jp/higashi/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "タイトル短すぎ/空",
-      "title": "白石区",
-      "url": "https://www.shopship.jp/shiroishi/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "タイトル短すぎ/空",
-      "title": "厚別区",
-      "url": "https://www.shopship.jp/atsubetsu/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "タイトル短すぎ/空",
-      "title": "豊平区",
-      "url": "https://www.shopship.jp/toyohira/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "タイトル短すぎ/空",
-      "title": "清田区",
-      "url": "https://www.shopship.jp/kiyota/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "タイトル短すぎ/空",
-      "title": "南区",
-      "url": "https://www.shopship.jp/minami/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
+      "source": "mogtrip・閉店",
       "reason": "タイトル短すぎ/空",
       "title": "西区",
-      "url": "https://www.shopship.jp/nishi/"
+      "url": "https://mogtrip.jp/category/sapporo/west/"
     },
     {
-      "source": "札幌ショップス・開店閉店",
+      "source": "mogtrip・閉店",
+      "reason": "タイトル短すぎ/空",
+      "title": "東区",
+      "url": "https://mogtrip.jp/category/sapporo/east/"
+    },
+    {
+      "source": "mogtrip・閉店",
+      "reason": "タイトル短すぎ/空",
+      "title": "南区",
+      "url": "https://mogtrip.jp/category/sapporo/south/"
+    },
+    {
+      "source": "mogtrip・閉店",
+      "reason": "タイトル短すぎ/空",
+      "title": "豊平区",
+      "url": "https://mogtrip.jp/category/sapporo/toyohira/"
+    },
+    {
+      "source": "mogtrip・閉店",
+      "reason": "タイトル短すぎ/空",
+      "title": "白石区",
+      "url": "https://mogtrip.jp/category/sapporo/shiroishi/"
+    },
+    {
+      "source": "mogtrip・閉店",
+      "reason": "タイトル短すぎ/空",
+      "title": "厚別区",
+      "url": "https://mogtrip.jp/category/sapporo/atsubetsu/"
+    },
+    {
+      "source": "mogtrip・閉店",
+      "reason": "タイトル短すぎ/空",
+      "title": "清田区",
+      "url": "https://mogtrip.jp/category/sapporo/kiyota/"
+    },
+    {
+      "source": "mogtrip・閉店",
       "reason": "タイトル短すぎ/空",
       "title": "手稲区",
-      "url": "https://www.shopship.jp/teine/"
+      "url": "https://mogtrip.jp/category/sapporo/teine/"
     },
     {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "タイトル短すぎ/空",
-      "title": "大通",
-      "url": "https://www.shopship.jp/odori/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "開閉ステータス不明",
-      "title": "すすきの",
-      "url": "https://www.shopship.jp/susukino/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "開閉ステータス不明",
-      "title": "道央エリア",
-      "url": "https://www.shopship.jp/douo/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "タイトル短すぎ/空",
-      "title": "千歳",
-      "url": "https://www.shopship.jp/chitose/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
+      "source": "mogtrip・閉店",
       "reason": "タイトル短すぎ/空",
       "title": "小樽",
-      "url": "https://www.shopship.jp/otaru/"
+      "url": "https://mogtrip.jp/category/otaru/"
     },
     {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "タイトル短すぎ/空",
-      "title": "北広島",
-      "url": "https://www.shopship.jp/kitahiroshima/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "タイトル短すぎ/空",
-      "title": "恵庭",
-      "url": "https://www.shopship.jp/eniwa/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "タイトル短すぎ/空",
-      "title": "岩見沢",
-      "url": "https://www.shopship.jp/iwamizawa/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "タイトル短すぎ/空",
-      "title": "江別",
-      "url": "https://www.shopship.jp/ebetsu/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "タイトル短すぎ/空",
-      "title": "室蘭",
-      "url": "https://www.shopship.jp/muroran/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "タイトル短すぎ/空",
-      "title": "登別",
-      "url": "https://www.shopship.jp/noboribetsu/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "タイトル短すぎ/空",
-      "title": "苫小牧",
-      "url": "https://www.shopship.jp/tomakomai/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "タイトル短すぎ/空",
-      "title": "富良野",
-      "url": "https://www.shopship.jp/furano/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "タイトル短すぎ/空",
-      "title": "余市",
-      "url": "https://www.shopship.jp/yoichi/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "タイトル短すぎ/空",
-      "title": "石狩",
-      "url": "https://www.shopship.jp/ishikari/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "開閉ステータス不明",
-      "title": "道東エリア",
-      "url": "https://www.shopship.jp/doto/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "タイトル短すぎ/空",
-      "title": "帯広",
-      "url": "https://www.shopship.jp/obihiro/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "タイトル短すぎ/空",
-      "title": "釧路",
-      "url": "https://www.shopship.jp/kushiro/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "開閉ステータス不明",
-      "title": "道南エリア",
-      "url": "https://www.shopship.jp/donan/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "タイトル短すぎ/空",
-      "title": "函館",
-      "url": "https://www.shopship.jp/hakodate/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "タイトル短すぎ/空",
-      "title": "北斗",
-      "url": "https://www.shopship.jp/hokuto/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "開閉ステータス不明",
-      "title": "道北エリア",
-      "url": "https://www.shopship.jp/dohoku/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "タイトル短すぎ/空",
-      "title": "旭川",
-      "url": "https://www.shopship.jp/asahikawa/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "タイトル短すぎ/空",
-      "title": "北見",
-      "url": "https://www.shopship.jp/kitami/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "タイトル短すぎ/空",
-      "title": "名寄",
-      "url": "https://www.shopship.jp/nayoro/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "タイトル短すぎ/空",
-      "title": "紋別",
-      "url": "https://www.shopship.jp/monbetsu/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "タイトル短すぎ/空",
-      "title": "網走",
-      "url": "https://www.shopship.jp/abashiri/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "開閉ステータス不明",
-      "title": "ショップスTOP",
-      "url": "https://www.shopship.jp/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "URL重複",
-      "title": "札幌ショップス",
-      "url": "https://www.shopship.jp/sapporo/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "URL重複",
-      "title": "札幌エリア ×",
-      "url": "https://www.shopship.jp/open-close/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "飲食店判定NG",
-      "title": "開店情報 中央区 【開店】札幌市中央区に『ボストンベイク宮の森店』が2026年09月04日(金)よりOPEN!! ボストンベイク宮の森店 2026/09/13",
-      "url": "https://www.shopship.jp/sapporo/open-close/bostonbake_miyanomori/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "飲食店判定NG",
-      "title": "開店情報 狸小路 【開店】札幌市中央区 狸小路に『薫ﾙ風』が2026年09月05日(土)より移転OPEN!! 薫ﾙ風 2026/09/07",
-      "url": "https://www.shopship.jp/sapporo/open-close/kaor_ukaze/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "飲食店判定NG",
-      "title": "開店情報 中央区 【開店】札幌市中央区にアメリカンダイナー『50’s DINER ROCA』が2026年09月05日(土)よりリニューアルOPEN!! 50’s DINER ROCA 2026/09/05",
-      "url": "https://www.shopship.jp/sapporo/open-close/629roca/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "飲食店判定NG",
-      "title": "開店情報 すすきの 【開店】札幌市中央区 すすきのに『ダーツ&パーティー REGALO 札幌すすきの駅前店』が2026年09月18日(金)よりOPEN!! ダーツ&パーティー REGALO 札幌すすきの駅前店 2026/09/03",
-      "url": "https://www.shopship.jp/susukino/open-close/regaro_susukino/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "飲食店判定NG",
-      "title": "開店情報 すすきの 【開店】札幌市中央区 すすきのに『北海道炉端アカオニ』が2026年09月16日(水)よりOPEN!! 北海道炉端アカオニ 2026/09/03",
-      "url": "https://www.shopship.jp/susukino/open-close/robata_akaoni/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "飲食店判定NG",
-      "title": "開店情報 中央区 【開店】札幌市中央区に『味酒屋Sonotoki』が2026年08月28日(金)よりOPEN!! 味酒屋Sonotoki 2026/09/03",
-      "url": "https://www.shopship.jp/sapporo/open-close/mizakaya-sonotoki/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "飲食店判定NG",
-      "title": "開店情報 すすきの 【開店】札幌市中央区 すすきのに『ばぐ恋』が2026年06月05日(金)よりOPEN!! ばぐ恋 2026/09/03",
-      "url": "https://www.shopship.jp/susukino/open-close/bugkoi_official/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "飲食店判定NG",
-      "title": "閉店情報 南区 【閉店】札幌市南区の『CAFÉ de ROMAN 札幌藻岩店』が2026年08月27日(木)をもって閉店 CAFÉ de ROMAN 札幌藻岩店 2026/09/01",
-      "url": "https://www.shopship.jp/sapporo/open-close/cafe_de_roman/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "タイトル短すぎ/空",
-      "title": "2",
-      "url": "https://www.shopship.jp/sapporo/open-close/?paged=2"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "タイトル短すぎ/空",
-      "title": "37",
-      "url": "https://www.shopship.jp/sapporo/open-close/?paged=37"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "タイトル短すぎ/空",
-      "title": "",
-      "url": "https://www.shopship.jp/sapporo/open-close/?paged=2"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "開閉ステータス不明",
-      "title": "札幌エリア",
-      "url": "https://www.shopship.jp/sapporo/open-close/?area_category=sapporo"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "タイトル短すぎ/空",
-      "title": "中央区",
-      "url": "https://www.shopship.jp/sapporo/open-close/?area_category=sapporo_chuo"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "タイトル短すぎ/空",
-      "title": "東区",
-      "url": "https://www.shopship.jp/sapporo/open-close/?area_category=sapporo_higashi"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "タイトル短すぎ/空",
-      "title": "西区",
-      "url": "https://www.shopship.jp/sapporo/open-close/?area_category=sapporo_nishi"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "タイトル短すぎ/空",
-      "title": "南区",
-      "url": "https://www.shopship.jp/sapporo/open-close/?area_category=sapporo_minami"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "タイトル短すぎ/空",
-      "title": "北区",
-      "url": "https://www.shopship.jp/sapporo/open-close/?area_category=sapporo_kita"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "タイトル短すぎ/空",
-      "title": "厚別区",
-      "url": "https://www.shopship.jp/atsubetsu/open-close/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "タイトル短すぎ/空",
-      "title": "白石区",
-      "url": "https://www.shopship.jp/shiroishi/open-close/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "タイトル短すぎ/空",
-      "title": "豊平区",
-      "url": "https://www.shopship.jp/toyohira/open-close/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "タイトル短すぎ/空",
-      "title": "清田区",
-      "url": "https://www.shopship.jp/kiyota/open-close/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "タイトル短すぎ/空",
-      "title": "手稲区",
-      "url": "https://www.shopship.jp/teine/open-close/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "飲食店判定NG",
-      "title": "開店情報",
-      "url": "https://www.shopship.jp/sapporo/open-close/?open-close_category=shop-open"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "飲食店判定NG",
-      "title": "閉店情報",
-      "url": "https://www.shopship.jp/sapporo/open-close/?open-close_category=shop-close"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "タイトル短すぎ/空",
-      "title": "",
-      "url": "https://www.shopship.jp/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "URL重複",
-      "title": "全ショップ一覧",
-      "url": "https://www.shopship.jp/shop-list/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "URL重複",
-      "title": "ショップス編集部ブログ",
-      "url": "https://www.shopship.jp/blog/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "URL重複",
-      "title": "開店・閉店情報",
-      "url": "https://www.shopship.jp/open-close/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "URL重複",
-      "title": "新オープン店舗一覧",
-      "url": "https://www.shopship.jp/open-shop-list/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "URL重複",
-      "title": "クローズ店舗一覧",
-      "url": "https://www.shopship.jp/close-shop-list/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "URL重複",
-      "title": "ショップスについて",
-      "url": "https://www.shopship.jp/about/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
+      "source": "mogtrip・閉店",
       "reason": "ナビゲーション/共通リンク",
-      "title": "お問い合わせ",
-      "url": "https://www.shopship.jp/contact/"
+      "title": "函館（姉妹サイトへ）",
+      "url": "https://hkd.mogtrip.jp/"
     },
     {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "タイトル短すぎ/空",
-      "title": "",
-      "url": "https://www.instagram.com/shops_search/"
+      "source": "mogtrip・閉店",
+      "reason": "ナビゲーション/共通リンク",
+      "title": "旭川（姉妹サイトへ）",
+      "url": "https://akj.mogtrip.jp/"
     },
     {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "タイトル短すぎ/空",
-      "title": "",
-      "url": "https://x.com/shops_search/"
+      "source": "mogtrip・閉店",
+      "reason": "ナビゲーション/共通リンク",
+      "title": "お土産（姉妹サイトへ）",
+      "url": "https://giftrip-hokkaido.jp/"
     },
     {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "URL重複",
-      "title": "札幌エリア",
-      "url": "https://www.shopship.jp/sapporo/"
+      "source": "mogtrip・閉店",
+      "reason": "ナビゲーション/共通リンク",
+      "title": "宅配弁当 DELIVERY",
+      "url": "https://mogtrip.jp/category/delivery-food/"
     },
     {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "タイトル短すぎ/空",
-      "title": "中央区",
-      "url": "https://www.shopship.jp/chuo/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "タイトル短すぎ/空",
-      "title": "北区",
-      "url": "https://www.shopship.jp/kita/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "タイトル短すぎ/空",
-      "title": "東区",
-      "url": "https://www.shopship.jp/higashi/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "タイトル短すぎ/空",
-      "title": "白石区",
-      "url": "https://www.shopship.jp/shiroishi/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "タイトル短すぎ/空",
-      "title": "厚別区",
-      "url": "https://www.shopship.jp/atsubetsu/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "タイトル短すぎ/空",
-      "title": "豊平区",
-      "url": "https://www.shopship.jp/toyohira/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "タイトル短すぎ/空",
-      "title": "清田区",
-      "url": "https://www.shopship.jp/kiyota/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "タイトル短すぎ/空",
-      "title": "南区",
-      "url": "https://www.shopship.jp/minami/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "タイトル短すぎ/空",
-      "title": "西区",
-      "url": "https://www.shopship.jp/nishi/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "タイトル短すぎ/空",
-      "title": "手稲区",
-      "url": "https://www.shopship.jp/teine/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "タイトル短すぎ/空",
-      "title": "大通",
-      "url": "https://www.shopship.jp/odori/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "URL重複",
-      "title": "すすきの",
-      "url": "https://www.shopship.jp/susukino/"
-    },
-    {
-      "source": "札幌ショップス・開店閉店",
-      "reason": "URL重複",
-      "title": "道央エリア",
-      "url": "https://www.shopship.jp/douo/"
+      "source": "mogtrip・閉店",
+      "reason": "ナビゲーション/共通リンク",
+      "title": "ライター紹介",
+      "url": "https://mogtrip.jp/writer-profile/"
     }
   ]
 }
