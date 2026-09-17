@@ -1,6 +1,6 @@
 {
   "version": "7.1",
-  "generated_at": "2026-09-17T03:28:33",
+  "generated_at": "2026-09-17T08:37:50",
   "date": "2026-09-17",
   "areas": {
     "chuo": [
@@ -125,7 +125,7 @@
             "priority": 90
           }
         ],
-        "confidence": 0.79,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-17",
         "last_seen": "2026-09-17"
@@ -243,7 +243,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-16",
-        "last_seen": "2026-09-16"
+        "last_seen": "2026-09-17"
       },
       {
         "name": "2026年9月7日 北海道, 居酒屋, 札幌, 開店情報, 飲食店 【開店】個室✕海鮮居酒屋 北海道を喰らえ 札幌大通店",
@@ -264,7 +264,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-16",
-        "last_seen": "2026-09-16"
+        "last_seen": "2026-09-17"
       },
       {
         "name": "佐藤堂 大丸札幌店",
@@ -4233,7 +4233,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-16",
-        "last_seen": "2026-09-16"
+        "last_seen": "2026-09-17"
       },
       {
         "name": "幸福中華サワダ",
@@ -4997,6 +4997,6 @@
       }
     ]
   },
-  "unmatched": 154,
+  "unmatched": 157,
   "source_count": 25
 }

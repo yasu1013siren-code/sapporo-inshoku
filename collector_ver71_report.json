@@ -1,27 +1,27 @@
 {
   "version": "7.1",
-  "generated_at": "2026-09-17T03:28:33",
+  "generated_at": "2026-09-17T08:37:50",
   "date": "2026-09-17",
   "summary": {
-    "raw_candidates": 279,
-    "merged_candidates": 246,
+    "raw_candidates": 298,
+    "merged_candidates": 265,
     "news_json_total": 233,
-    "raw_unmatched_ward": 29,
-    "news_json_unmatched": 154,
+    "raw_unmatched_ward": 45,
+    "news_json_unmatched": 157,
     "status_raw": {
-      "open": 242,
-      "closed": 36,
+      "open": 258,
+      "closed": 39,
       "upcoming": 1
     },
     "ward_raw": {
-      "中央区": 106,
+      "中央区": 108,
       "北区": 26,
       "東区": 18,
       "白石区": 21,
       "豊平区": 16,
       "南区": 15,
       "西区": 13,
-      "厚別区": 13,
+      "厚別区": 14,
       "手稲区": 14,
       "清田区": 8
     },
@@ -279,18 +279,25 @@
       "name": "開店閉店.com・札幌",
       "url": "https://kaiten-heiten-24.com/category/sapporo/",
       "scanned": 124,
-      "link_candidates": 111,
-      "accepted": 0,
-      "rejected": 124,
+      "link_candidates": 39,
+      "accepted": 19,
+      "rejected": 105,
       "errors": 0,
       "reasons": {
-        "タイトル短すぎ/空": 11,
-        "開閉ステータス不明": 110,
-        "タイトル長すぎ": 2,
-        "飲食店判定NG": 1
+        "タイトル短すぎ/空": 83,
+        "飲食店判定NG": 16,
+        "開閉ステータス不明": 4,
+        "ナビゲーション/共通リンク": 2
       },
-      "wards": {},
-      "statuses": {}
+      "wards": {
+        "区不明": 16,
+        "厚別区": 1,
+        "中央区": 2
+      },
+      "statuses": {
+        "open": 16,
+        "closed": 3
+      }
     },
     {
       "id": "teine_magazine",
