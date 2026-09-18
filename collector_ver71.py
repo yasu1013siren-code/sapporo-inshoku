@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-札幌市10区 飲食店 開店・閉店 自動収集 Ver.7
+札幌圏＋道央4市 飲食店 開店・閉店 自動収集 Ver.7.2
 ================================================
-Ver.6系の「イベント収集」から分離し、札幌市10区の飲食店の
+Ver.6系の「イベント収集」から分離し、札幌市10区＋千歳市・北広島市・苫小牧市・恵庭市の飲食店の
 開店・閉店・開店予定を幅広い情報源から自動収集する専用コレクター。
 
 主な特徴
@@ -42,7 +42,7 @@ from urllib.parse import urljoin, urlparse
 import requests
 from bs4 import BeautifulSoup
 
-VERSION = "7.1"
+VERSION = "7.2"
 BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR / "data"
 DATA_DIR.mkdir(exist_ok=True)
@@ -93,10 +93,20 @@ WARD_ALIASES = {
     "手稲": "手稲区", "清田": "清田区",
 }
 
+# 札幌市外の追加対象エリア
+MUNICIPALITIES = {
+    "千歳市": "chitose",
+    "北広島市": "kitahiroshima",
+    "苫小牧市": "tomakomai",
+    "恵庭市": "eniwa",
+}
+
+AREA_MAP = {**WARDS, **MUNICIPALITIES}
+
 # ---------------- 住所抽出 ----------------
 # 「札幌市中央区南1条西2丁目3-4」のような和文住所表記をテキストからざっくり抜き出す。
 # 完全ではないが、「最新ニュース速報」欄に場所のヒントを添えるには十分な精度を狙う。
-_WARD_PATTERN = "|".join(WARDS.keys())
+_WARD_PATTERN = "|".join(list(WARDS.keys()) + list(MUNICIPALITIES.keys()))
 ADDRESS_RE = re.compile(
     rf"(?:札幌市)?(?:{_WARD_PATTERN})"
     r"[^\s、。！!？?「」『』()（）\[\]\d]{0,12}"
@@ -186,6 +196,18 @@ SOURCE_CONFIG = [
     {"id": "shopship_chuo", "name": "札幌ショップス・中央区", "url": "https://www.shopship.jp/chuo/open-close/", "kind": "article_list", "priority": 85, "force_ward": "中央区"},
     {"id": "living_sapporo", "name": "リビング札幌Web・開店閉店", "url": "https://mrs.living.jp/sapporo/newopen", "kind": "article_list", "priority": 70},
     {"id": "satsutter", "name": "サツッター・新店舗", "url": "https://satsutter.com/tag/%E6%96%B0%E5%BA%97%E8%88%97%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3", "kind": "article_list", "priority": 65, "default_status": "open"},
+    # 札幌圏4市：号外NET
+    {"id": "gogai_chitose_eniwa_kitahiroshima", "name": "号外NET 千歳市・恵庭市・北広島市", "url": "https://chitose-eniwa-kitahiroshima.goguynet.jp/category/cat_openclose/", "kind": "gogai_city_list", "priority": 80},
+    {"id": "gogai_tomakomai", "name": "号外NET 苫小牧市", "url": "https://tomakomai.goguynet.jp/category/cat_openclose/", "kind": "gogai_city_list", "priority": 80},
+    # 札幌圏4市：ショップス
+    {"id": "shopship_chitose", "name": "千歳ショップス・開店閉店", "url": "https://www.shopship.jp/chitose/open-close/", "kind": "article_list", "priority": 85, "force_ward": "千歳市"},
+    {"id": "shopship_kitahiroshima", "name": "北広島ショップス・開店閉店", "url": "https://www.shopship.jp/kitahiroshima/open-close/", "kind": "article_list", "priority": 85, "force_ward": "北広島市"},
+    {"id": "shopship_tomakomai", "name": "苫小牧ショップス・開店閉店", "url": "https://www.shopship.jp/tomakomai/open-close/", "kind": "article_list", "priority": 85, "force_ward": "苫小牧市"},
+    {"id": "shopship_eniwa", "name": "恵庭ショップス・開店閉店", "url": "https://www.shopship.jp/eniwa/open-close/", "kind": "article_list", "priority": 85, "force_ward": "恵庭市"},
+    # 札幌開店閉店インフォの4市カテゴリも巡回
+    {"id": "chamonix_chitose", "name": "札幌開店閉店インフォ・千歳市", "url": "https://chamonix-cakes.com/category/%E6%96%B0%E5%BA%97%E6%83%85%E5%A0%B1/%E5%8D%83%E6%AD%B3%E5%B8%82%E3%81%AE%E6%96%B0%E5%BA%97%E6%83%85%E5%A0%B1/", "kind": "article_list", "priority": 65, "default_status": "open", "force_ward": "千歳市"},
+    {"id": "chamonix_kitahiroshima", "name": "札幌開店閉店インフォ・北広島市", "url": "https://chamonix-cakes.com/category/%E9%96%89%E5%BA%97%E6%83%85%E5%A0%B1/%E5%8C%97%E5%BA%83%E5%B3%B6%E5%B8%82%E3%81%AE%E9%96%89%E5%BA%97%E6%83%85%E5%A0%B1/", "kind": "article_list", "priority": 65, "default_status": "closed", "force_ward": "北広島市"},
+    {"id": "chamonix_eniwa", "name": "札幌開店閉店インフォ・恵庭市", "url": "https://chamonix-cakes.com/category/%E6%96%B0%E5%BA%97%E6%83%85%E5%A0%B1/%E6%81%B5%E5%BA%AD%E5%B8%82%E3%81%AE%E6%96%B0%E5%BA%97%E6%83%85%E5%A0%B1/", "kind": "article_list", "priority": 65, "default_status": "open", "force_ward": "恵庭市"},
     {"id": "chamonix", "name": "札幌開店閉店インフォ", "url": "https://chamonix-cakes.com/", "kind": "article_list", "priority": 65},
 ]
 
@@ -365,6 +387,10 @@ def detect_ward(text: str) -> str:
     for alias, ward in WARD_ALIASES.items():
         if len(alias) >= 2 and norm(alias) in t:
             return ward
+    # 札幌市外の追加対象4市
+    for city in MUNICIPALITIES:
+        if norm(city) in t:
+            return city
     # 札幌の代表エリア → 区推定
     guesses = {
         "すすきの": "中央区", "大通": "中央区", "狸小路": "中央区", "円山": "中央区",
@@ -824,12 +850,12 @@ def load_rows(conn):
 
 
 def build_news_json(conn, today: str):
-    areas = {v: [] for v in WARDS.values()}
+    areas = {v: [] for v in AREA_MAP.values()}
     unmatched = []
 
     for row in load_rows(conn):
         key, name, ward, status, d, place, note, url, source, sources_json, conf, first_seen, last_seen = row
-        area = WARDS.get(ward)
+        area = AREA_MAP.get(ward)
         if not area:
             unmatched.append(row)
             continue
@@ -869,6 +895,8 @@ def build_news_json(conn, today: str):
         "areas": areas,
         "unmatched": len(unmatched),
         "source_count": len(SOURCE_CONFIG),
+        "area_count": len(AREA_MAP),
+        "areas_master": AREA_MAP,
     }
     NEWS_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     return payload
@@ -888,7 +916,7 @@ def save_new_csv(new_items):
 
 
 def write_report(raw, merged, payload, today):
-    ward_raw = {w: 0 for w in WARDS}
+    ward_raw = {w: 0 for w in AREA_MAP}
     status_raw = {}
     unmatched_raw = 0
     for item in raw:
@@ -898,8 +926,8 @@ def write_report(raw, merged, payload, today):
             unmatched_raw += 1
         status_raw[item.status] = status_raw.get(item.status, 0) + 1
 
-    ward_final = {w: 0 for w in WARDS}
-    for w, area in WARDS.items():
+    ward_final = {w: 0 for w in AREA_MAP}
+    for w, area in AREA_MAP.items():
         ward_final[w] = len(payload["areas"].get(area, []))
 
     report = {
@@ -1048,6 +1076,64 @@ def collect_all():
             accept(source, item)
             yield item
 
+    def collect_gogai_city_source(source: dict):
+        """号外NETの市単位ページ。タイトル先頭の【千歳市】等から対象市を判定。"""
+        init_source_stats(source)
+        if not is_allowed_by_robots(source["url"]):
+            log.warning("robots.txtにより除外: %s (%s)", source["name"], source["url"])
+            reject(source, "robots.txt禁止")
+            return
+        html = fetch_text(source["url"])
+        if not html:
+            SOURCE_STATS[source["id"]]["errors"] += 1
+            reject(source, "取得失敗")
+            return
+
+        seen_urls = set()
+        # 市外の別地域リンクを拾わないため、北海道の対象4市タグだけを採用
+        city_tag_re = re.compile(r"^【(千歳市|恵庭市|北広島市|苫小牧市)】")
+        for m in GOGAI_LINK_RE.finditer(html):
+            href, year, month, day, raw_text = m.groups()
+            SOURCE_STATS[source["id"]]["scanned"] += 1
+            title_raw = gogai_clean(raw_text)
+            if len(title_raw) < 8:
+                reject(source, "タイトル短すぎ/空", title_raw, href)
+                continue
+            if href in seen_urls:
+                reject(source, "URL重複", title_raw, href)
+                continue
+            seen_urls.add(href)
+            SOURCE_STATS[source["id"]]["link_candidates"] += 1
+
+            cm = city_tag_re.match(title_raw)
+            if not cm:
+                reject(source, "市タグなし", title_raw, href)
+                continue
+            city_name = cm.group(1)
+            name_text = title_raw[cm.end():].strip()
+            status = detect_status(name_text)
+            if status == "unknown":
+                reject(source, "開閉ステータス不明", name_text, href)
+                continue
+            if not is_food(name_text):
+                reject(source, "飲食店判定NG", name_text, href)
+                continue
+            name = extract_name_from_title(name_text)
+            if not name:
+                reject(source, "店名抽出失敗", name_text, href)
+                continue
+
+            item = RestaurantItem(
+                name=name, ward=city_name, status=status,
+                date=f"{year}-{month}-{day}",
+                place=extract_address(name_text),
+                note=name_text, url=href,
+                source=source["name"], source_id=source["id"],
+                source_priority=source["priority"],
+            )
+            accept(source, item)
+            yield item
+
     for source in SOURCE_CONFIG:
         if source["kind"] == "official_license":
             log.info("=== %s ===", source["name"])
@@ -1055,6 +1141,14 @@ def collect_all():
                 yield from collect_sapporo_official()
             except Exception as e:
                 log.exception("公式データ収集中にエラー: %s", e)
+            continue
+
+        if source["kind"] == "gogai_city_list":
+            log.info("=== %s ===", source["name"])
+            try:
+                yield from collect_gogai_city_source(source)
+            except Exception as e:
+                log.exception("%s でエラー: %s", source["name"], e)
             continue
 
         if source["kind"] == "gogai_list":
@@ -1120,9 +1214,9 @@ def main():
     write_report(raw, merged, payload, today)
     conn.close()
 
-    counts = {w: 0 for w in WARDS}
+    counts = {w: 0 for w in AREA_MAP}
     for area, items in payload["areas"].items():
-        ward = next((k for k, v in WARDS.items() if v == area), None)
+        ward = next((k for k, v in AREA_MAP.items() if v == area), None)
         if ward:
             counts[ward] = len(items)
 
