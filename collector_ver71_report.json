@@ -1,21 +1,20 @@
 {
   "version": "7.1",
-  "generated_at": "2026-09-17T08:37:50",
-  "date": "2026-09-17",
+  "generated_at": "2026-09-18T03:14:17",
+  "date": "2026-09-18",
   "summary": {
-    "raw_candidates": 298,
-    "merged_candidates": 265,
-    "news_json_total": 233,
+    "raw_candidates": 294,
+    "merged_candidates": 263,
+    "news_json_total": 234,
     "raw_unmatched_ward": 45,
-    "news_json_unmatched": 157,
+    "news_json_unmatched": 159,
     "status_raw": {
-      "open": 258,
-      "closed": 39,
-      "upcoming": 1
+      "open": 253,
+      "closed": 41
     },
     "ward_raw": {
-      "中央区": 108,
-      "北区": 26,
+      "中央区": 105,
+      "北区": 25,
       "東区": 18,
       "白石区": 21,
       "豊平区": 16,
@@ -26,7 +25,7 @@
       "清田区": 8
     },
     "ward_final": {
-      "中央区": 99,
+      "中央区": 100,
       "北区": 20,
       "東区": 16,
       "白石区": 20,
@@ -118,24 +117,24 @@
       "url": "https://www.shopship.jp/sapporo/open-close/",
       "scanned": 136,
       "link_candidates": 38,
-      "accepted": 12,
-      "rejected": 124,
+      "accepted": 11,
+      "rejected": 125,
       "errors": 0,
       "reasons": {
         "開閉ステータス不明": 14,
-        "飲食店判定NG": 12,
+        "飲食店判定NG": 13,
         "ナビゲーション/共通リンク": 3,
         "URL重複": 15,
         "タイトル短すぎ/空": 80
       },
       "wards": {
-        "中央区": 9,
+        "中央区": 8,
         "豊平区": 1,
         "北区": 1,
         "白石区": 1
       },
       "statuses": {
-        "open": 10,
+        "open": 9,
         "closed": 2
       }
     },
@@ -145,21 +144,21 @@
       "url": "https://sapporochuo.goguynet.jp/category/cat_openclose/",
       "scanned": 37,
       "link_candidates": 19,
-      "accepted": 8,
-      "rejected": 29,
+      "accepted": 7,
+      "rejected": 30,
       "errors": 0,
       "reasons": {
         "区タグなし": 1,
+        "飲食店判定NG": 6,
         "開閉ステータス不明": 5,
-        "飲食店判定NG": 5,
         "タイトル短すぎ/空": 11,
         "URL重複": 7
       },
       "wards": {
-        "中央区": 8
+        "中央区": 7
       },
       "statuses": {
-        "open": 6,
+        "open": 5,
         "closed": 2
       }
     },
@@ -169,23 +168,22 @@
       "url": "https://sapporokitaku.goguynet.jp/category/cat_openclose/",
       "scanned": 37,
       "link_candidates": 20,
-      "accepted": 7,
-      "rejected": 30,
+      "accepted": 6,
+      "rejected": 31,
       "errors": 0,
       "reasons": {
         "区タグなし": 1,
-        "飲食店判定NG": 8,
+        "飲食店判定NG": 9,
         "開閉ステータス不明": 4,
         "タイトル短すぎ/空": 11,
         "URL重複": 6
       },
       "wards": {
-        "北区": 7
+        "北区": 6
       },
       "statuses": {
         "open": 4,
-        "closed": 2,
-        "upcoming": 1
+        "closed": 2
       }
     },
     {
@@ -202,8 +200,8 @@
         "飲食店判定NG": 12,
         "開閉ステータス不明": 6,
         "タイトル短すぎ/空": 11,
-        "URL重複": 3,
-        "区名不明": 1
+        "区名不明": 1,
+        "URL重複": 3
       },
       "wards": {
         "西区": 3
@@ -217,54 +215,60 @@
       "name": "札幌速報・閉店",
       "url": "https://sapporo-sokuho.com/archives/category/%E9%96%8B%E5%BA%97%E3%83%BB%E9%96%89%E5%BA%97/%E9%96%89%E5%BA%97%E6%83%85%E5%A0%B1",
       "scanned": 48,
-      "link_candidates": 28,
-      "accepted": 0,
-      "rejected": 48,
+      "link_candidates": 26,
+      "accepted": 2,
+      "rejected": 46,
       "errors": 0,
       "reasons": {
-        "飲食店判定NG": 28,
-        "タイトル短すぎ/空": 8,
-        "URL重複": 12
+        "タイトル短すぎ/空": 12,
+        "飲食店判定NG": 24,
+        "URL重複": 9,
+        "ナビゲーション/共通リンク": 1
       },
-      "wards": {},
-      "statuses": {}
+      "wards": {
+        "南区": 1,
+        "区不明": 1
+      },
+      "statuses": {
+        "closed": 2
+      }
     },
     {
       "id": "sapporo_list_open",
       "name": "札幌リスト・開店",
       "url": "https://sapporo-list.info/open/",
       "scanned": 61,
-      "link_candidates": 37,
-      "accepted": 6,
-      "rejected": 55,
+      "link_candidates": 36,
+      "accepted": 5,
+      "rejected": 56,
       "errors": 0,
       "reasons": {
         "タイトル短すぎ/空": 19,
         "ナビゲーション/共通リンク": 3,
         "飲食店判定NG": 31,
-        "URL重複": 2
+        "URL重複": 3
       },
       "wards": {
-        "区不明": 6
+        "区不明": 5
       },
       "statuses": {
-        "open": 6
+        "open": 5
       }
     },
     {
       "id": "sapporo_yard",
       "name": "SAPPOROYARD",
       "url": "https://sapporoyard.com/archives/openclose.html",
-      "scanned": 79,
-      "link_candidates": 31,
+      "scanned": 83,
+      "link_candidates": 32,
       "accepted": 1,
-      "rejected": 78,
+      "rejected": 82,
       "errors": 0,
       "reasons": {
-        "タイトル短すぎ/空": 29,
+        "タイトル短すぎ/空": 30,
         "飲食店判定NG": 4,
-        "開閉ステータス不明": 26,
-        "URL重複": 17,
+        "開閉ステータス不明": 27,
+        "URL重複": 19,
         "ナビゲーション/共通リンク": 2
       },
       "wards": {
@@ -280,22 +284,22 @@
       "url": "https://kaiten-heiten-24.com/category/sapporo/",
       "scanned": 124,
       "link_candidates": 39,
-      "accepted": 19,
-      "rejected": 105,
+      "accepted": 20,
+      "rejected": 104,
       "errors": 0,
       "reasons": {
         "タイトル短すぎ/空": 83,
-        "飲食店判定NG": 16,
+        "飲食店判定NG": 15,
         "開閉ステータス不明": 4,
         "ナビゲーション/共通リンク": 2
       },
       "wards": {
+        "中央区": 3,
         "区不明": 16,
-        "厚別区": 1,
-        "中央区": 2
+        "厚別区": 1
       },
       "statuses": {
-        "open": 16,
+        "open": 17,
         "closed": 3
       }
     },
@@ -447,21 +451,21 @@
       "url": "https://www.shopship.jp/minami/open-close/",
       "scanned": 126,
       "link_candidates": 39,
-      "accepted": 8,
-      "rejected": 118,
+      "accepted": 7,
+      "rejected": 119,
       "errors": 0,
       "reasons": {
         "開閉ステータス不明": 15,
-        "飲食店判定NG": 16,
+        "飲食店判定NG": 17,
         "ナビゲーション/共通リンク": 3,
         "タイトル短すぎ/空": 70,
         "URL重複": 14
       },
       "wards": {
-        "南区": 8
+        "南区": 7
       },
       "statuses": {
-        "open": 8
+        "open": 7
       }
     },
     {
@@ -540,21 +544,21 @@
       "url": "https://www.shopship.jp/chuo/open-close/",
       "scanned": 135,
       "link_candidates": 42,
-      "accepted": 11,
-      "rejected": 124,
+      "accepted": 9,
+      "rejected": 126,
       "errors": 0,
       "reasons": {
         "開閉ステータス不明": 18,
-        "飲食店判定NG": 13,
+        "飲食店判定NG": 15,
         "ナビゲーション/共通リンク": 3,
         "タイトル短すぎ/空": 76,
         "URL重複": 14
       },
       "wards": {
-        "中央区": 11
+        "中央区": 9
       },
       "statuses": {
-        "open": 10,
+        "open": 8,
         "closed": 1
       }
     },
