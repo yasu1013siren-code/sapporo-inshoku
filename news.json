@@ -1,6 +1,6 @@
 {
-  "version": "7.1",
-  "generated_at": "2026-09-18T03:14:17",
+  "version": "7.2",
+  "generated_at": "2026-09-18T11:08:16",
   "date": "2026-09-18",
   "areas": {
     "chuo": [
@@ -104,7 +104,7 @@
             "priority": 70
           }
         ],
-        "confidence": 0.66,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-18",
         "last_seen": "2026-09-18"
@@ -5016,8 +5016,768 @@
         "first_seen": "2026-09-13",
         "last_seen": "2026-09-18"
       }
+    ],
+    "chitose": [
+      {
+        "name": "幸福中華サワダ",
+        "title": "幸福中華サワダ",
+        "date": "2026-09-15",
+        "place": "千歳市",
+        "note": "【閉店】札幌市厚別区の『幸福中華サワダ』が2026年9月15日(火)をもって閉店。",
+        "type": "closed",
+        "url": "https://chamonix-cakes.com/heiten-ab4lm5xjrzrdwu2bnc/",
+        "source": "札幌開店閉店インフォ・千歳市",
+        "sources": [
+          {
+            "name": "札幌開店閉店インフォ・千歳市",
+            "url": "https://chamonix-cakes.com/heiten-ab4lm5xjrzrdwu2bnc/",
+            "priority": 65
+          }
+        ],
+        "confidence": 0.54,
+        "source_count": 1,
+        "first_seen": "2026-09-18",
+        "last_seen": "2026-09-18"
+      },
+      {
+        "name": "手打ちそば たて庵",
+        "title": "手打ちそば たて庵",
+        "date": "2026-06-20",
+        "place": "千歳市の新店情報",
+        "note": "開店情報 千歳市 【開店】千歳市に『手打ちそば たて庵』が2026年06月20日(土)よりOPEN!! 手打ちそば たて庵 2026/05/29",
+        "type": "open",
+        "url": "https://www.shopship.jp/chitose/open-close/tatean_chitose/",
+        "source": "千歳ショップス・開店閉店",
+        "sources": [
+          {
+            "name": "千歳ショップス・開店閉店",
+            "url": "https://www.shopship.jp/chitose/open-close/tatean_chitose/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-18",
+        "last_seen": "2026-09-18"
+      },
+      {
+        "name": "Sweet Shop togo",
+        "title": "Sweet Shop togo",
+        "date": "2026-05-29",
+        "place": "千歳市】チョコレート専門店",
+        "note": "【千歳市】チョコレート専門店「Sweet Shop togo」5月22日オープン！北海道素材を活かしたショコラを提供 サツッター編集部 北海道素材を活かしたボンボンショコラや焼き菓子が楽しめる新店が5月22日千歳にオープン！ チョコレート専門店「Sweet Shop togo…",
+        "type": "open",
+        "url": "https://satsutter.com/posts/news/39544.html",
+        "source": "サツッター・新店舗",
+        "sources": [
+          {
+            "name": "サツッター・新店舗",
+            "url": "https://satsutter.com/posts/news/39544.html",
+            "priority": 65
+          }
+        ],
+        "confidence": 0.54,
+        "source_count": 1,
+        "first_seen": "2026-09-18",
+        "last_seen": "2026-09-18"
+      },
+      {
+        "name": "立呑み中華 カミナリドッカン",
+        "title": "立呑み中華 カミナリドッカン",
+        "date": "2026-04-06",
+        "place": "千歳市",
+        "note": "立呑みスタイルの「立呑み中華 カミナリドッカン」がオープン！",
+        "type": "open",
+        "url": "https://chitose-eniwa-kitahiroshima.goguynet.jp/2026/04/06/post-10686/",
+        "source": "号外NET 千歳市・恵庭市・北広島市",
+        "sources": [
+          {
+            "name": "号外NET 千歳市・恵庭市・北広島市",
+            "url": "https://chitose-eniwa-kitahiroshima.goguynet.jp/2026/04/06/post-10686/",
+            "priority": 80
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-18",
+        "last_seen": "2026-09-18"
+      },
+      {
+        "name": "新千歳空港国内線旅客ターミナルビル3階の北海道ラーメン道場に、ラーメン店",
+        "title": "新千歳空港国内線旅客ターミナルビル3階の北海道ラーメン道場に、ラーメン店",
+        "date": "2025-12-12",
+        "place": "千歳市",
+        "note": "新千歳空港国内線旅客ターミナルビル3階の北海道ラーメン道場に、ラーメン店がオープンすることが分かりました！",
+        "type": "open",
+        "url": "https://chitose-eniwa-kitahiroshima.goguynet.jp/2025/12/12/ramen-2/",
+        "source": "号外NET 千歳市・恵庭市・北広島市",
+        "sources": [
+          {
+            "name": "号外NET 千歳市・恵庭市・北広島市",
+            "url": "https://chitose-eniwa-kitahiroshima.goguynet.jp/2025/12/12/ramen-2/",
+            "priority": 80
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-18",
+        "last_seen": "2026-09-18"
+      },
+      {
+        "name": "新しいデイサービス施設",
+        "title": "新しいデイサービス施設",
+        "date": "2025-11-30",
+        "place": "千歳市",
+        "note": "新しいデイサービス施設がオープンしますよ！昭和×喫茶店がコンセプトですよ。",
+        "type": "open",
+        "url": "https://chitose-eniwa-kitahiroshima.goguynet.jp/2025/11/30/azusa/",
+        "source": "号外NET 千歳市・恵庭市・北広島市",
+        "sources": [
+          {
+            "name": "号外NET 千歳市・恵庭市・北広島市",
+            "url": "https://chitose-eniwa-kitahiroshima.goguynet.jp/2025/11/30/azusa/",
+            "priority": 80
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-18",
+        "last_seen": "2026-09-18"
+      },
+      {
+        "name": "cafe RoKo",
+        "title": "cafe RoKo",
+        "date": "2025-11-29",
+        "place": "千歳市",
+        "note": "11月上旬に新しくオープンした「cafe RoKo」。ランチ、ソフトクリーム、週末ちょい飲みをやっていますよ。",
+        "type": "open",
+        "url": "https://chitose-eniwa-kitahiroshima.goguynet.jp/2025/11/29/caferoko/",
+        "source": "号外NET 千歳市・恵庭市・北広島市",
+        "sources": [
+          {
+            "name": "号外NET 千歳市・恵庭市・北広島市",
+            "url": "https://chitose-eniwa-kitahiroshima.goguynet.jp/2025/11/29/caferoko/",
+            "priority": 80
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-18",
+        "last_seen": "2026-09-18"
+      },
+      {
+        "name": "悲報です。ペンギンベーカリー千歳店",
+        "title": "悲報です。ペンギンベーカリー千歳店",
+        "date": "2025-10-07",
+        "place": "千歳市",
+        "note": "悲報です。ペンギンベーカリー千歳店が閉店しました。",
+        "type": "closed",
+        "url": "https://chitose-eniwa-kitahiroshima.goguynet.jp/2025/10/07/bakery-close/",
+        "source": "号外NET 千歳市・恵庭市・北広島市",
+        "sources": [
+          {
+            "name": "号外NET 千歳市・恵庭市・北広島市",
+            "url": "https://chitose-eniwa-kitahiroshima.goguynet.jp/2025/10/07/bakery-close/",
+            "priority": 80
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-18",
+        "last_seen": "2026-09-18"
+      },
+      {
+        "name": "居酒屋えんむすび",
+        "title": "居酒屋えんむすび",
+        "date": "2025-09-20",
+        "place": "千歳市",
+        "note": "開店情報 千歳市 【開店】千歳市に『居酒屋えんむすび』が2025年9月20日(土)よりOPEN!! 居酒屋えんむすび 2026/04/09",
+        "type": "open",
+        "url": "https://www.shopship.jp/chitose/open-close/enmu_subi/",
+        "source": "千歳ショップス・開店閉店",
+        "sources": [
+          {
+            "name": "千歳ショップス・開店閉店",
+            "url": "https://www.shopship.jp/chitose/open-close/enmu_subi/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-18",
+        "last_seen": "2026-09-18"
+      }
+    ],
+    "kitahiroshima": [
+      {
+        "name": "幸福中華サワダ",
+        "title": "幸福中華サワダ",
+        "date": "2026-09-15",
+        "place": "北広島市",
+        "note": "【閉店】札幌市厚別区の『幸福中華サワダ』が2026年9月15日(火)をもって閉店。",
+        "type": "closed",
+        "url": "https://chamonix-cakes.com/heiten-ab4lm5xjrzrdwu2bnc/",
+        "source": "札幌開店閉店インフォ・北広島市",
+        "sources": [
+          {
+            "name": "札幌開店閉店インフォ・北広島市",
+            "url": "https://chamonix-cakes.com/heiten-ab4lm5xjrzrdwu2bnc/",
+            "priority": 65
+          }
+        ],
+        "confidence": 0.54,
+        "source_count": 1,
+        "first_seen": "2026-09-18",
+        "last_seen": "2026-09-18"
+      },
+      {
+        "name": "ラーメン山岡家 大曲店",
+        "title": "ラーメン山岡家 大曲店",
+        "date": "2026-06-16",
+        "place": "北広島市",
+        "note": "開店情報 北広島市 【開店】北広島市に『ラーメン山岡家 大曲店』が2026年06月16日(火)よりOPEN!! ラーメン山岡家 大曲店 2026/06/18",
+        "type": "open",
+        "url": "https://www.shopship.jp/kitahiroshima/open-close/yamaokaya-oomagari/",
+        "source": "北広島ショップス・開店閉店",
+        "sources": [
+          {
+            "name": "北広島ショップス・開店閉店",
+            "url": "https://www.shopship.jp/kitahiroshima/open-close/yamaokaya-oomagari/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-18",
+        "last_seen": "2026-09-18"
+      },
+      {
+        "name": "クリスピー・クリーム・ドーナツ",
+        "title": "クリスピー・クリーム・ドーナツ",
+        "date": "2026-06-11",
+        "place": "北広島市",
+        "note": "開店情報 北広島市 【開店】北広島市に『クリスピー・クリーム・ドーナツ』が2026年06月11日(木)よりOPEN!! クリスピー・クリーム・ドーナツ 2026/06/01",
+        "type": "open",
+        "url": "https://www.shopship.jp/kitahiroshima/open-close/krispykreme_kitahiroshima/",
+        "source": "北広島ショップス・開店閉店",
+        "sources": [
+          {
+            "name": "北広島ショップス・開店閉店",
+            "url": "https://www.shopship.jp/kitahiroshima/open-close/krispykreme_kitahiroshima/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-18",
+        "last_seen": "2026-09-18"
+      },
+      {
+        "name": "スターバックスコーヒー三井アウトレットパーク札幌北広島店",
+        "title": "スターバックスコーヒー三井アウトレットパーク札幌北広島店",
+        "date": "2026-04-18",
+        "place": "北広島市",
+        "note": "開店情報 北広島市 【開店】北広島市に『スターバックスコーヒー三井アウトレットパーク札幌北広島店』が2026年04月18日(土)よりOPEN!! スターバックスコーヒー三井アウトレットパーク札幌北広島店 2026/05/02",
+        "type": "open",
+        "url": "https://www.shopship.jp/kitahiroshima/open-close/starbucks_mitsui-outlet-park/",
+        "source": "北広島ショップス・開店閉店",
+        "sources": [
+          {
+            "name": "北広島ショップス・開店閉店",
+            "url": "https://www.shopship.jp/kitahiroshima/open-close/starbucks_mitsui-outlet-park/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-18",
+        "last_seen": "2026-09-18"
+      },
+      {
+        "name": "札幌農学校",
+        "title": "札幌農学校",
+        "date": "2026-04-17",
+        "place": "北広島市内初出店",
+        "note": "三井アウトレットパーク札幌北広島に4月18日（土）新エリア誕生！「札幌農学校」が北広島市内初出店！ サツッター編集部 北広島の三井アウトレットパークに、新エリアがグランドオープン！スターバックスやスワロフスキーなど新店が並ぶ中、札幌農学校の専門店も登場します…",
+        "type": "open",
+        "url": "https://satsutter.com/posts/news/38250.html",
+        "source": "サツッター・新店舗",
+        "sources": [
+          {
+            "name": "サツッター・新店舗",
+            "url": "https://satsutter.com/posts/news/38250.html",
+            "priority": 65
+          }
+        ],
+        "confidence": 0.54,
+        "source_count": 1,
+        "first_seen": "2026-09-18",
+        "last_seen": "2026-09-18"
+      },
+      {
+        "name": "南インドスープカレー 天竺",
+        "title": "南インドスープカレー 天竺",
+        "date": "2026-04-15",
+        "place": "北広島市",
+        "note": "開店情報 北広島市 【移転】北広島市に『南インドスープカレー 天竺』が2026年04月15日(水)より移転OPEN!! 南インドスープカレー 天竺 2026/05/03",
+        "type": "open",
+        "url": "https://www.shopship.jp/kitahiroshima/open-close/tenjiku_kiyota/",
+        "source": "北広島ショップス・開店閉店",
+        "sources": [
+          {
+            "name": "北広島ショップス・開店閉店",
+            "url": "https://www.shopship.jp/kitahiroshima/open-close/tenjiku_kiyota/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-18",
+        "last_seen": "2026-09-18"
+      },
+      {
+        "name": "定食屋じゅーく",
+        "title": "定食屋じゅーく",
+        "date": "2025-10-19",
+        "place": "北広島市",
+        "note": "開店情報 北広島市 【開店】北広島市に『定食屋じゅーく』が2025年10月19日(日)よりOPEN!! 定食屋じゅーく 2026/04/09",
+        "type": "open",
+        "url": "https://www.shopship.jp/kitahiroshima/open-close/teisyokuya19/",
+        "source": "北広島ショップス・開店閉店",
+        "sources": [
+          {
+            "name": "北広島ショップス・開店閉店",
+            "url": "https://www.shopship.jp/kitahiroshima/open-close/teisyokuya19/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-18",
+        "last_seen": "2026-09-18"
+      },
+      {
+        "name": "蛇の目寿司 トナリエ北広島店",
+        "title": "蛇の目寿司 トナリエ北広島店",
+        "date": "2025-10-17",
+        "place": "北広島市",
+        "note": "開店情報 北広島市 【開店】北広島市に『蛇の目寿司 トナリエ北広島店』が2025年10月17日(金)よりOPEN!! 蛇の目寿司 トナリエ北広島店 2026/04/09",
+        "type": "open",
+        "url": "https://www.shopship.jp/kitahiroshima/open-close/rumoi-jyanome/",
+        "source": "北広島ショップス・開店閉店",
+        "sources": [
+          {
+            "name": "北広島ショップス・開店閉店",
+            "url": "https://www.shopship.jp/kitahiroshima/open-close/rumoi-jyanome/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-18",
+        "last_seen": "2026-09-18"
+      },
+      {
+        "name": "スターバックスコーヒー北海道ボールパークFビレッジ店",
+        "title": "スターバックスコーヒー北海道ボールパークFビレッジ店",
+        "date": "2025-06-25",
+        "place": "北広島市",
+        "note": "開店情報 北広島市 【開店】北広島市に『スターバックスコーヒー北海道ボールパークFビレッジ店』が2025年06月25日(水)よりOPEN!! スターバックスコーヒー北海道ボールパークFビレッジ店 2026/05/02",
+        "type": "open",
+        "url": "https://www.shopship.jp/kitahiroshima/open-close/starbucks_f-village/",
+        "source": "北広島ショップス・開店閉店",
+        "sources": [
+          {
+            "name": "北広島ショップス・開店閉店",
+            "url": "https://www.shopship.jp/kitahiroshima/open-close/starbucks_f-village/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-18",
+        "last_seen": "2026-09-18"
+      }
+    ],
+    "tomakomai": [
+      {
+        "name": "GAME BAR Familiar",
+        "title": "GAME BAR Familiar",
+        "date": "2026-09-07",
+        "place": "苫小牧市",
+        "note": "大町の「GAME BAR Familiar」が9月26日をもって閉店。9月25日・26日には閉店イベントが開催されます。",
+        "type": "closed",
+        "url": "https://tomakomai.goguynet.jp/2026/09/07/gamebarfamiliar-heiten/",
+        "source": "号外NET 苫小牧市",
+        "sources": [
+          {
+            "name": "号外NET 苫小牧市",
+            "url": "https://tomakomai.goguynet.jp/2026/09/07/gamebarfamiliar-heiten/",
+            "priority": 80
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-18",
+        "last_seen": "2026-09-18"
+      },
+      {
+        "name": "札幌ラーメン三九",
+        "title": "札幌ラーメン三九",
+        "date": "2026-09-01",
+        "place": "苫小牧市",
+        "note": "休業中だった船見町の「札幌ラーメン三九」が営業を再開しました！",
+        "type": "closed",
+        "url": "https://tomakomai.goguynet.jp/2026/09/01/sankyu-saikai/",
+        "source": "号外NET 苫小牧市",
+        "sources": [
+          {
+            "name": "号外NET 苫小牧市",
+            "url": "https://tomakomai.goguynet.jp/2026/09/01/sankyu-saikai/",
+            "priority": 80
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-18",
+        "last_seen": "2026-09-18"
+      },
+      {
+        "name": "立ち飲み研究所",
+        "title": "立ち飲み研究所",
+        "date": "2026-08-30",
+        "place": "苫小牧市",
+        "note": "JR苫小牧駅構内に今年オープンした「立ち飲み研究所」に行ってきました！焼鳥とビールでサクッと一杯！",
+        "type": "open",
+        "url": "https://tomakomai.goguynet.jp/2026/08/30/tachinomikenkyu/",
+        "source": "号外NET 苫小牧市",
+        "sources": [
+          {
+            "name": "号外NET 苫小牧市",
+            "url": "https://tomakomai.goguynet.jp/2026/08/30/tachinomikenkyu/",
+            "priority": 80
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-18",
+        "last_seen": "2026-09-18"
+      },
+      {
+        "name": "麺こころ",
+        "title": "麺こころ",
+        "date": "2026-08-28",
+        "place": "苫小牧市",
+        "note": "表町のシンボルストリート沿いのラーメン店「麺こころ」がリニューアルのため9月1日から休業します。",
+        "type": "closed",
+        "url": "https://tomakomai.goguynet.jp/2026/08/28/mennkokoro-kyugyo/",
+        "source": "号外NET 苫小牧市",
+        "sources": [
+          {
+            "name": "号外NET 苫小牧市",
+            "url": "https://tomakomai.goguynet.jp/2026/08/28/mennkokoro-kyugyo/",
+            "priority": 80
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-18",
+        "last_seen": "2026-09-18"
+      },
+      {
+        "name": "呑み食い処 嘉門",
+        "title": "呑み食い処 嘉門",
+        "date": "2026-08-18",
+        "place": "苫小牧市",
+        "note": "ときわ町の「呑み食い処 嘉門」が8月30日で閉店。住宅街で28年間営業してきた居酒屋です。",
+        "type": "closed",
+        "url": "https://tomakomai.goguynet.jp/2026/08/18/kamon-heiten/",
+        "source": "号外NET 苫小牧市",
+        "sources": [
+          {
+            "name": "号外NET 苫小牧市",
+            "url": "https://tomakomai.goguynet.jp/2026/08/18/kamon-heiten/",
+            "priority": 80
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-18",
+        "last_seen": "2026-09-18"
+      },
+      {
+        "name": "輝麺組",
+        "title": "輝麺組",
+        "date": "2026-08-14",
+        "place": "苫小牧市",
+        "note": "大町の一条通り沿いに油そばや牛すじカレーのお店「輝麺組」が9月2日にオープン予定！",
+        "type": "upcoming",
+        "url": "https://tomakomai.goguynet.jp/2026/08/14/kimengumi-open/",
+        "source": "号外NET 苫小牧市",
+        "sources": [
+          {
+            "name": "号外NET 苫小牧市",
+            "url": "https://tomakomai.goguynet.jp/2026/08/14/kimengumi-open/",
+            "priority": 80
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-18",
+        "last_seen": "2026-09-18"
+      },
+      {
+        "name": "ピザドゥ 北海道 苫小牧店",
+        "title": "ピザドゥ 北海道 苫小牧店",
+        "date": "2026-07-24",
+        "place": "苫小牧市",
+        "note": "開店情報 苫小牧市 【開店】苫小牧市に『ピザドゥ 北海道 苫小牧店』が2026年07月24日(金)よりOPEN!! ピザドゥ 北海道 苫小牧店 2026/07/23",
+        "type": "open",
+        "url": "https://www.shopship.jp/tomakomai/open-close/pizzadeux_hokkaido_tomakomai/",
+        "source": "苫小牧ショップス・開店閉店",
+        "sources": [
+          {
+            "name": "苫小牧ショップス・開店閉店",
+            "url": "https://www.shopship.jp/tomakomai/open-close/pizzadeux_hokkaido_tomakomai/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-18",
+        "last_seen": "2026-09-18"
+      },
+      {
+        "name": "湖畔の食堂 銀座三州屋〜楓〜",
+        "title": "湖畔の食堂 銀座三州屋〜楓〜",
+        "date": "2026-06-20",
+        "place": "苫小牧市",
+        "note": "開店情報 苫小牧市 【開店】苫小牧市に『湖畔の食堂 銀座三州屋〜楓〜』が2026年06月20日(土)よりOPEN!! 湖畔の食堂 銀座三州屋〜楓〜 2026/06/22",
+        "type": "open",
+        "url": "https://www.shopship.jp/tomakomai/open-close/ginzasansyuyakaede_utonaiko/",
+        "source": "苫小牧ショップス・開店閉店",
+        "sources": [
+          {
+            "name": "苫小牧ショップス・開店閉店",
+            "url": "https://www.shopship.jp/tomakomai/open-close/ginzasansyuyakaede_utonaiko/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-18",
+        "last_seen": "2026-09-18"
+      },
+      {
+        "name": "バーミヤン 苫小牧店",
+        "title": "バーミヤン 苫小牧店",
+        "date": "2026-04-29",
+        "place": "苫小牧市",
+        "note": "開店情報 苫小牧市 【開店】苫小牧市に『バーミヤン 苫小牧店』が2026年04月29日(水)よりOPEN!! バーミヤン 苫小牧店 2026/05/01",
+        "type": "open",
+        "url": "https://www.shopship.jp/tomakomai/open-close/bamiyan_tomakomai/",
+        "source": "苫小牧ショップス・開店閉店",
+        "sources": [
+          {
+            "name": "苫小牧ショップス・開店閉店",
+            "url": "https://www.shopship.jp/tomakomai/open-close/bamiyan_tomakomai/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-18",
+        "last_seen": "2026-09-18"
+      },
+      {
+        "name": "手巻きと海鮮 いっきゅう",
+        "title": "手巻きと海鮮 いっきゅう",
+        "date": "2026-04-28",
+        "place": "苫小牧市",
+        "note": "開店情報 苫小牧市 【開店】苫小牧市に『手巻きと海鮮 いっきゅう』が2026年04月28日(火)よりOPEN!! 手巻きと海鮮 いっきゅう 2026/05/04",
+        "type": "open",
+        "url": "https://www.shopship.jp/tomakomai/open-close/ikkyu_tomakomai-2/",
+        "source": "苫小牧ショップス・開店閉店",
+        "sources": [
+          {
+            "name": "苫小牧ショップス・開店閉店",
+            "url": "https://www.shopship.jp/tomakomai/open-close/ikkyu_tomakomai-2/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-18",
+        "last_seen": "2026-09-18"
+      },
+      {
+        "name": "cafe Kizunavi",
+        "title": "cafe Kizunavi",
+        "date": "2026-04-25",
+        "place": "苫小牧市",
+        "note": "開店情報 苫小牧市 【開店】苫小牧市に『cafe Kizunavi』が2026年04月25日(土)よりOPEN!! cafe Kizunavi 2026/05/02",
+        "type": "open",
+        "url": "https://www.shopship.jp/tomakomai/open-close/cafe_kizunavi/",
+        "source": "苫小牧ショップス・開店閉店",
+        "sources": [
+          {
+            "name": "苫小牧ショップス・開店閉店",
+            "url": "https://www.shopship.jp/tomakomai/open-close/cafe_kizunavi/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-18",
+        "last_seen": "2026-09-18"
+      }
+    ],
+    "eniwa": [
+      {
+        "name": "幸福中華サワダ",
+        "title": "幸福中華サワダ",
+        "date": "2026-09-15",
+        "place": "恵庭市",
+        "note": "【閉店】札幌市厚別区の『幸福中華サワダ』が2026年9月15日(火)をもって閉店。",
+        "type": "closed",
+        "url": "https://chamonix-cakes.com/heiten-ab4lm5xjrzrdwu2bnc/",
+        "source": "札幌開店閉店インフォ・恵庭市",
+        "sources": [
+          {
+            "name": "札幌開店閉店インフォ・恵庭市",
+            "url": "https://chamonix-cakes.com/heiten-ab4lm5xjrzrdwu2bnc/",
+            "priority": 65
+          }
+        ],
+        "confidence": 0.54,
+        "source_count": 1,
+        "first_seen": "2026-09-18",
+        "last_seen": "2026-09-18"
+      },
+      {
+        "name": "昼飲み定食屋 はまや",
+        "title": "昼飲み定食屋 はまや",
+        "date": "2026-06-17",
+        "place": "恵庭市の新店情報",
+        "note": "開店情報 恵庭市 【開店】恵庭市に『昼飲み定食屋はまや』が2026年06月17日(水)よりOPEN!! 昼飲み定食屋はまや 2026/06/22",
+        "type": "open",
+        "url": "https://www.shopship.jp/eniwa/open-close/hamaya-megumino/",
+        "source": "恵庭ショップス・開店閉店",
+        "sources": [
+          {
+            "name": "恵庭ショップス・開店閉店",
+            "url": "https://www.shopship.jp/eniwa/open-close/hamaya-megumino/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-18",
+        "last_seen": "2026-09-18"
+      },
+      {
+        "name": "クラフトドーナツワークス 恵み野駅前店",
+        "title": "クラフトドーナツワークス 恵み野駅前店",
+        "date": "2026-02-20",
+        "place": "恵庭市の新店情報",
+        "note": "開店情報 恵庭市 【開店】恵庭市に『クラフトドーナツワークス 恵み野駅前店』が2026年02月20日(金)よりOPEN!! クラフトドーナツワークス 恵み野駅前店 2026/05/02",
+        "type": "open",
+        "url": "https://www.shopship.jp/eniwa/open-close/craft_donut_works_megumino/",
+        "source": "恵庭ショップス・開店閉店",
+        "sources": [
+          {
+            "name": "恵庭ショップス・開店閉店",
+            "url": "https://www.shopship.jp/eniwa/open-close/craft_donut_works_megumino/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-18",
+        "last_seen": "2026-09-18"
+      },
+      {
+        "name": "鉄板亭 縄翔",
+        "title": "鉄板亭 縄翔",
+        "date": "2024-11-29",
+        "place": "恵庭市に鉄板定食屋",
+        "note": "開店情報 恵庭市 【新店舗】恵庭市に鉄板定食屋『鉄板亭 縄翔』が2024年11月29日(金)よりOPEN!! 2024/11/30",
+        "type": "open",
+        "url": "https://www.shopship.jp/eniwa/open-close/teppantei-nawashou/",
+        "source": "恵庭ショップス・開店閉店",
+        "sources": [
+          {
+            "name": "恵庭ショップス・開店閉店",
+            "url": "https://www.shopship.jp/eniwa/open-close/teppantei-nawashou/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-18",
+        "last_seen": "2026-09-18"
+      },
+      {
+        "name": "お食事処 永〜ながれ〜",
+        "title": "お食事処 永〜ながれ〜",
+        "date": "2024-11-15",
+        "place": "恵庭市に居酒屋",
+        "note": "開店情報 恵庭市 【新店舗】恵庭市に居酒屋『お食事処 永〜ながれ〜』が2024年11月15日(金)よりOPEN!! 2024/11/30",
+        "type": "open",
+        "url": "https://www.shopship.jp/eniwa/open-close/nagare-eniwa/",
+        "source": "恵庭ショップス・開店閉店",
+        "sources": [
+          {
+            "name": "恵庭ショップス・開店閉店",
+            "url": "https://www.shopship.jp/eniwa/open-close/nagare-eniwa/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-18",
+        "last_seen": "2026-09-18"
+      },
+      {
+        "name": "キッチン 京",
+        "title": "キッチン 京",
+        "date": "2024-10-01",
+        "place": "恵庭市に魚介類専門の創作和定食処",
+        "note": "開店情報 恵庭市 【新店舗】恵庭市に魚介類専門の創作和定食処『キッチン 京』が2024年10月1日(火)よりOPEN!! キッチン 京 2026/04/09",
+        "type": "open",
+        "url": "https://www.shopship.jp/eniwa/open-close/kitchen-kyo/",
+        "source": "恵庭ショップス・開店閉店",
+        "sources": [
+          {
+            "name": "恵庭ショップス・開店閉店",
+            "url": "https://www.shopship.jp/eniwa/open-close/kitchen-kyo/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-18",
+        "last_seen": "2026-09-18"
+      }
     ]
   },
-  "unmatched": 159,
-  "source_count": 25
+  "unmatched": 160,
+  "source_count": 34,
+  "area_count": 14,
+  "areas_master": {
+    "中央区": "chuo",
+    "北区": "kita",
+    "東区": "higashi",
+    "白石区": "shiroishi",
+    "豊平区": "toyohira",
+    "南区": "minami",
+    "西区": "nishi",
+    "厚別区": "atsubetsu",
+    "手稲区": "teine",
+    "清田区": "kiyota",
+    "千歳市": "chitose",
+    "北広島市": "kitahiroshima",
+    "苫小牧市": "tomakomai",
+    "恵庭市": "eniwa"
+  }
 }
