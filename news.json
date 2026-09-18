@@ -1,6 +1,6 @@
 {
-  "version": "7.2",
-  "generated_at": "2026-09-18T11:38:58",
+  "version": "7.3",
+  "generated_at": "2026-09-18T11:54:03",
   "date": "2026-09-18",
   "areas": {
     "chuo": [
@@ -5762,7 +5762,7 @@
     ]
   },
   "unmatched": 160,
-  "source_count": 34,
+  "source_count": 90,
   "area_count": 14,
   "areas_master": {
     "中央区": "chuo",
@@ -5779,5 +5779,15 @@
     "北広島市": "kitahiroshima",
     "苫小牧市": "tomakomai",
     "恵庭市": "eniwa"
+  },
+  "deep_collection": {
+    "social_source_count": 56,
+    "social_signal_count": 0,
+    "social_platforms": [
+      "instagram",
+      "x",
+      "tiktok",
+      "youtube"
+    ]
   }
 }

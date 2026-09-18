@@ -1,11 +1,13 @@
 {
-  "version": "7.2",
-  "generated_at": "2026-09-18T11:38:58",
+  "version": "7.3",
+  "generated_at": "2026-09-18T11:54:03",
   "date": "2026-09-18",
   "summary": {
     "raw_candidates": 329,
     "merged_candidates": 294,
     "news_json_total": 269,
+    "social_sources": 56,
+    "social_signals": 0,
     "raw_unmatched_ward": 41,
     "news_json_unmatched": 160,
     "status_raw": {
