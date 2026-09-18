@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-札幌圏＋道央4市 飲食店 開店・閉店 自動収集 Ver.7.2
+札幌圏＋道央4市 飲食店 開店・閉店 自動収集 Ver.7.3 深掘り収集
 ================================================
 Ver.6系の「イベント収集」から分離し、札幌市10区＋千歳市・北広島市・苫小牧市・恵庭市の飲食店の
 開店・閉店・開店予定を幅広い情報源から自動収集する専用コレクター。
@@ -16,6 +16,9 @@ Ver.6系の「イベント収集」から分離し、札幌市10区＋千歳市�
 - GitHub Pages の index.html がそのまま読める news.json を出力
 - SQLite に履歴を保存
 - 新規発見だけ new_YYYY-MM-DD.csv に保存
+- Instagram / X / TikTok / YouTube は公開索引（Google News RSS）のsite検索で深掘り
+- SNS単独情報は低優先度で保持し、複数媒体との一致で信頼度を上げる
+- SNS深掘り結果は social_signals.json にも分離保存
 
 必要パッケージ:
     pip install requests beautifulsoup4 lxml
@@ -36,13 +39,14 @@ import urllib.robotparser
 import zipfile
 from dataclasses import dataclass, field, asdict
 from datetime import date, datetime, timedelta
+from email.utils import parsedate_to_datetime
 from pathlib import Path
-from urllib.parse import urljoin, urlparse
+from urllib.parse import urljoin, urlparse, urlencode
 
 import requests
 from bs4 import BeautifulSoup
 
-VERSION = "7.2"
+VERSION = "7.3"
 BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR / "data"
 DATA_DIR.mkdir(exist_ok=True)
@@ -59,7 +63,7 @@ INTERVAL = 1.0
 USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
     "AppleWebKit/537.36 Chrome/140 Safari/537.36 "
-    "(SapporoInshokutenCollector/7.1 personal-use)"
+    "(SapporoInshokutenCollector/7.3 personal-use)"
 )
 
 HEADERS = {"User-Agent": USER_AGENT, "Accept-Language": "ja,en;q=0.8"}
@@ -72,7 +76,7 @@ logging.basicConfig(
         logging.StreamHandler(),
     ],
 )
-log = logging.getLogger("ver71")
+log = logging.getLogger("ver73")
 
 WARDS = {
     "中央区": "chuo",
@@ -210,6 +214,54 @@ SOURCE_CONFIG = [
     {"id": "chamonix_eniwa", "name": "札幌開店閉店インフォ・恵庭市", "url": "https://chamonix-cakes.com/category/%E6%96%B0%E5%BA%97%E6%83%85%E5%A0%B1/%E6%81%B5%E5%BA%AD%E5%B8%82%E3%81%AE%E6%96%B0%E5%BA%97%E6%83%85%E5%A0%B1/", "kind": "article_list", "priority": 65, "default_status": "open", "force_ward": "恵庭市"},
     {"id": "chamonix", "name": "札幌開店閉店インフォ", "url": "https://chamonix-cakes.com/", "kind": "article_list", "priority": 65},
 ]
+
+# ---------------- SNS・マイナー情報の深掘り検索 ----------------
+# Instagram / X / TikTok / YouTube の投稿ページを直接クロールするのではなく、
+# Google News の公開RSSに「site:」検索をかけ、検索エンジンに公開・索引された
+# SNS投稿や動画、ローカル記事を発見する方式。各SNSのrobots/仕様を直接回避しない。
+# 取得できたものは「SNS検索シグナル」として低優先度で保存し、他媒体との一致で信頼度を上げる。
+SOCIAL_PLATFORMS = {
+    "instagram": "Instagram検索",
+    "x": "X検索",
+    "tiktok": "TikTok検索",
+    "youtube": "YouTube検索",
+}
+SOCIAL_TERMS = [
+    "開店", "オープン", "新店", "閉店", "営業終了", "移転", "移転オープン",
+    "開業", "プレオープン", "近日オープン", "リニューアル", "休業",
+]
+
+def build_social_queries():
+    queries = []
+    # 札幌10区＋道央4市を個別検索。市区単位にすることで「札幌」の大きなノイズを減らす。
+    for area_name in list(WARDS.keys()) + list(MUNICIPALITIES.keys()):
+        if area_name in WARDS:
+            loc = f"札幌市{area_name}"
+            force = area_name
+        else:
+            loc = area_name
+            force = area_name
+        for platform, label in SOCIAL_PLATFORMS.items():
+            domain = {
+                "instagram": "instagram.com",
+                "x": "x.com",
+                "tiktok": "tiktok.com",
+                "youtube": "youtube.com",
+            }[platform]
+            term_expr = " OR ".join(f'"{x}"' for x in SOCIAL_TERMS[:8])
+            q = f'site:{domain} "{loc}" ({term_expr}) 飲食店'
+            queries.append({
+                "id": f"social_{platform}_{force}",
+                "name": f"SNS深掘り・{label}・{loc}",
+                "query": q,
+                "force_ward": force,
+                "priority": 45,
+                "platform": platform,
+            })
+    return queries
+
+SOCIAL_SOURCE_CONFIG = build_social_queries()
+SOCIAL_SIGNALS: list[dict] = []
 
 session = requests.Session()
 session.headers.update(HEADERS)
@@ -894,11 +946,23 @@ def build_news_json(conn, today: str):
         "date": today,
         "areas": areas,
         "unmatched": len(unmatched),
-        "source_count": len(SOURCE_CONFIG),
+        "source_count": len(SOURCE_CONFIG) + len(SOCIAL_SOURCE_CONFIG),
         "area_count": len(AREA_MAP),
         "areas_master": AREA_MAP,
+        "deep_collection": {
+            "social_source_count": len(SOCIAL_SOURCE_CONFIG),
+            "social_signal_count": len(SOCIAL_SIGNALS),
+            "social_platforms": list(SOCIAL_PLATFORMS.keys()),
+        },
     }
     NEWS_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    social_path = BASE_DIR / "social_signals.json"
+    social_path.write_text(json.dumps({
+        "version": VERSION,
+        "generated_at": datetime.now().isoformat(timespec="seconds"),
+        "count": len(SOCIAL_SIGNALS),
+        "signals": SOCIAL_SIGNALS[:500],
+    }, ensure_ascii=False, indent=2), encoding="utf-8")
     return payload
 
 
@@ -938,6 +1002,8 @@ def write_report(raw, merged, payload, today):
             "raw_candidates": len(raw),
             "merged_candidates": len(merged),
             "news_json_total": sum(len(v) for v in payload["areas"].values()),
+            "social_sources": len(SOCIAL_SOURCE_CONFIG),
+            "social_signals": len(SOCIAL_SIGNALS),
             "raw_unmatched_ward": unmatched_raw,
             "news_json_unmatched": payload.get("unmatched", 0),
             "status_raw": status_raw,
@@ -976,6 +1042,100 @@ def write_report(raw, merged, payload, today):
     log.info("詳細レポート: %s", REPORT_JSON_PATH)
     log.info("詳細CSV: %s", REPORT_CSV_PATH)
     return report
+
+
+def fetch_google_news_rss(query: str):
+    """Google News公開RSSから検索結果を取得。SNS本文そのものではなく公開索引を利用する。"""
+    base = "https://news.google.com/rss/search"
+    params = {"q": query, "hl": "ja", "gl": "JP", "ceid": "JP:ja"}
+    return fetch_text(base + "?" + urlencode(params))
+
+
+def collect_social_rss_source(source: dict):
+    """SNSの公開索引を深掘りし、開店・閉店シグナルを抽出する。"""
+    init_source_stats(source)
+    rss_url = "https://news.google.com/rss/search"
+    if not is_allowed_by_robots(rss_url):
+        reject(source, "Google News robots.txt禁止")
+        return
+
+    xml = fetch_google_news_rss(source["query"])
+    if not xml:
+        SOURCE_STATS[source["id"]]["errors"] += 1
+        reject(source, "RSS取得失敗")
+        return
+
+    soup = BeautifulSoup(xml, "xml")
+    seen = set()
+    for entry in soup.find_all("item"):
+        title = clean(entry.find("title").get_text(" ", strip=True) if entry.find("title") else "")
+        href = clean(entry.find("link").get_text(" ", strip=True) if entry.find("link") else "")
+        desc = clean(entry.find("description").get_text(" ", strip=True) if entry.find("description") else "")
+        pub = clean(entry.find("pubDate").get_text(" ", strip=True) if entry.find("pubDate") else "")
+        text = clean(f"{title} {desc}")
+        SOURCE_STATS[source["id"]]["scanned"] += 1
+        if not title or not href or href in seen:
+            reject(source, "タイトル/URL不正または重複", title, href)
+            continue
+        seen.add(href)
+        SOURCE_STATS[source["id"]]["link_candidates"] += 1
+
+        # Google News側の検索語だけで通すのではなく、本文/タイトルでも状態を再確認。
+        status = detect_status(text)
+        if status == "unknown":
+            reject(source, "開閉ステータス不明", title, href)
+            continue
+        if not is_food(text):
+            reject(source, "飲食店判定NG", title, href)
+            continue
+
+        # 検索対象エリアと本文の整合性を確認。強制エリアは「その区の検索」で得た結果に限定。
+        force_ward = source.get("force_ward", "")
+        detected = detect_ward(text)
+        if force_ward and detected and detected != force_ward:
+            reject(source, "対象エリア不一致", title, href)
+            continue
+
+        name = extract_name_from_title(title)
+        if not name or len(name) < 2:
+            reject(source, "店名抽出失敗", title, href)
+            continue
+
+        d = parse_date(text)
+        if not d and pub:
+            try:
+                dt = parsedate_to_datetime(pub)
+                d = dt.astimezone().strftime("%Y-%m-%d") if dt else ""
+            except Exception:
+                d = ""
+
+        note = f"[SNS検索:{source.get('platform','')}] {title}"
+        if desc:
+            note += f" / {desc[:300]}"
+        item = RestaurantItem(
+            name=name,
+            ward=force_ward or detected,
+            status=status,
+            date=d,
+            place=extract_address(text),
+            note=note,
+            url=href,
+            source=source["name"],
+            source_id=source["id"],
+            source_priority=source["priority"],
+        )
+        accept(source, item)
+        SOCIAL_SIGNALS.append({
+            "platform": source.get("platform", ""),
+            "area": force_ward or detected,
+            "name": name,
+            "type": status,
+            "date": d,
+            "title": title,
+            "url": href,
+            "source": source["name"],
+        })
+        yield item
 
 
 def collect_all():
@@ -1134,6 +1294,14 @@ def collect_all():
             accept(source, item)
             yield item
 
+    # まずSNS公開索引を深掘り。低優先度でDBへ入れ、他媒体との一致で信頼度を上げる。
+    for source in SOCIAL_SOURCE_CONFIG:
+        log.info("=== %s ===", source["name"])
+        try:
+            yield from collect_social_rss_source(source)
+        except Exception as e:
+            log.exception("%s でエラー: %s", source["name"], e)
+
     for source in SOURCE_CONFIG:
         if source["kind"] == "official_license":
             log.info("=== %s ===", source["name"])
@@ -1171,6 +1339,7 @@ def main():
     today = datetime.now().strftime("%Y-%m-%d")
     SOURCE_STATS.clear()
     REJECTION_EXAMPLES.clear()
+    SOCIAL_SIGNALS.clear()
     log.info("===== Sapporo Inshokuten Collector Ver.%s START =====", VERSION)
 
     conn = sqlite3.connect(DB_PATH)
