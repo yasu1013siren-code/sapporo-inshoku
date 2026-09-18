@@ -46,7 +46,7 @@ from urllib.parse import urljoin, urlparse, urlencode
 import requests
 from bs4 import BeautifulSoup
 
-VERSION = "7.3"
+VERSION = "7.4"
 BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR / "data"
 DATA_DIR.mkdir(exist_ok=True)
@@ -76,7 +76,7 @@ logging.basicConfig(
         logging.StreamHandler(),
     ],
 )
-log = logging.getLogger("ver73")
+log = logging.getLogger("ver74")
 
 WARDS = {
     "中央区": "chuo",
@@ -215,6 +215,32 @@ SOURCE_CONFIG = [
     {"id": "chamonix", "name": "札幌開店閉店インフォ", "url": "https://chamonix-cakes.com/", "kind": "article_list", "priority": 65},
 ]
 
+# 深掘り用の追加情報源。
+DEEP_SOURCE_CONFIG = [
+    {"id": "atorino_2026", "name": "ATORINO・札幌開店閉店2026", "url": "https://atorino-lab.com/sapporo-closing-opening-list-2026/", "kind": "article_list", "priority": 55},
+    {"id": "kaiten_heiten_map_sapporo", "name": "開店閉店MAP・札幌", "url": "https://kaiten-heiten-map.com/city/%E5%8C%97%E6%B5%B7%E9%81%93%E6%9C%AD%E5%B9%8C%E5%B8%82", "kind": "article_list", "priority": 55},
+    {"id": "hokkaidos_open_sapporo", "name": "北海道ねっと・札幌開店閉店", "url": "https://hokkaidos.net/open-sapporo/", "kind": "article_list", "priority": 50},
+    {"id": "tabelog_job_opening_sapporo", "name": "食べログ求人・オープニングスタッフ", "url": "https://job.tabelog.com/search?condition=opening_staff_wanted&major_municipality=1100", "kind": "article_list", "priority": 40, "default_status": "upcoming", "signal_only": True},
+]
+
+# Google News公開RSSを使った検索エンジン型深掘り。
+DEEP_SEARCH_TERMS = [
+    '"オープン予定"', '"開店予定"', '"閉店予定"', '"オープニングスタッフ"',
+    '"プレオープン"', '"新店舗"', '"移転オープン"', '"営業終了"', '"閉店"',
+]
+
+def build_deep_web_queries():
+    queries = []
+    for area_name in list(WARDS.keys()) + list(MUNICIPALITIES.keys()):
+        loc = f"札幌市{area_name}" if area_name in WARDS else area_name
+        for mode, terms in [("open", DEEP_SEARCH_TERMS[:7]), ("close", DEEP_SEARCH_TERMS[2:])]:
+            expr = " OR ".join(terms)
+            q = f'"{loc}" ({expr}) (飲食店 OR レストラン OR ラーメン OR カフェ OR 居酒屋 OR 焼肉 OR バー)'
+            queries.append({"id": f"deepweb_{mode}_{AREA_MAP[area_name]}", "name": f"Web深掘り・{loc}・{mode}", "query": q, "force_ward": area_name, "priority": 35, "platform": "web_search"})
+    return queries
+
+DEEP_WEB_SEARCH_CONFIG = build_deep_web_queries()
+
 # ---------------- SNS・マイナー情報の深掘り検索 ----------------
 # Instagram / X / TikTok / YouTube の投稿ページを直接クロールするのではなく、
 # Google News の公開RSSに「site:」検索をかけ、検索エンジンに公開・索引された
@@ -262,6 +288,8 @@ def build_social_queries():
 
 SOCIAL_SOURCE_CONFIG = build_social_queries()
 SOCIAL_SIGNALS: list[dict] = []
+UNCONFIRMED_SIGNALS: list[dict] = []
+SIGNAL_ITEMS: list[RestaurantItem] = []
 
 session = requests.Session()
 session.headers.update(HEADERS)
@@ -946,13 +974,18 @@ def build_news_json(conn, today: str):
         "date": today,
         "areas": areas,
         "unmatched": len(unmatched),
-        "source_count": len(SOURCE_CONFIG) + len(SOCIAL_SOURCE_CONFIG),
+        "source_count": len(SOURCE_CONFIG) + len(DEEP_SOURCE_CONFIG) + len(SOCIAL_SOURCE_CONFIG) + len(DEEP_WEB_SEARCH_CONFIG),
         "area_count": len(AREA_MAP),
+        "unconfirmed": UNCONFIRMED_SIGNALS,
+        "unconfirmed_count": len(UNCONFIRMED_SIGNALS),
         "areas_master": AREA_MAP,
         "deep_collection": {
             "social_source_count": len(SOCIAL_SOURCE_CONFIG),
             "social_signal_count": len(SOCIAL_SIGNALS),
             "social_platforms": list(SOCIAL_PLATFORMS.keys()),
+            "deep_web_source_count": len(DEEP_WEB_SEARCH_CONFIG),
+            "deep_fixed_source_count": len(DEEP_SOURCE_CONFIG),
+            "unconfirmed_count": len(UNCONFIRMED_SIGNALS),
         },
     }
     NEWS_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
@@ -962,6 +995,14 @@ def build_news_json(conn, today: str):
         "generated_at": datetime.now().isoformat(timespec="seconds"),
         "count": len(SOCIAL_SIGNALS),
         "signals": SOCIAL_SIGNALS[:500],
+        "unconfirmed_count": len(UNCONFIRMED_SIGNALS),
+        "unconfirmed": UNCONFIRMED_SIGNALS[:500],
+    }, ensure_ascii=False, indent=2), encoding="utf-8")
+    (BASE_DIR / "unconfirmed_signals.json").write_text(json.dumps({
+        "version": VERSION,
+        "generated_at": datetime.now().isoformat(timespec="seconds"),
+        "count": len(UNCONFIRMED_SIGNALS),
+        "signals": UNCONFIRMED_SIGNALS[:500],
     }, ensure_ascii=False, indent=2), encoding="utf-8")
     return payload
 
@@ -1004,6 +1045,8 @@ def write_report(raw, merged, payload, today):
             "news_json_total": sum(len(v) for v in payload["areas"].values()),
             "social_sources": len(SOCIAL_SOURCE_CONFIG),
             "social_signals": len(SOCIAL_SIGNALS),
+            "deep_signals": len(SIGNAL_ITEMS),
+            "unconfirmed_signals": len(UNCONFIRMED_SIGNALS),
             "raw_unmatched_ward": unmatched_raw,
             "news_json_unmatched": payload.get("unmatched", 0),
             "status_raw": status_raw,
@@ -1125,6 +1168,7 @@ def collect_social_rss_source(source: dict):
             source_priority=source["priority"],
         )
         accept(source, item)
+        SIGNAL_ITEMS.append(item)
         SOCIAL_SIGNALS.append({
             "platform": source.get("platform", ""),
             "area": force_ward or detected,
@@ -1135,7 +1179,60 @@ def collect_social_rss_source(source: dict):
             "url": href,
             "source": source["name"],
         })
-        yield item
+
+
+def collect_deep_web_source(source: dict):
+    """一般Web検索の公開RSSから、小規模媒体・求人・店舗告知などを拾う。"""
+    init_source_stats(source)
+    rss_url = "https://news.google.com/rss/search"
+    if not is_allowed_by_robots(rss_url):
+        reject(source, "Google News robots.txt禁止")
+        return
+    xml = fetch_google_news_rss(source["query"])
+    if not xml:
+        SOURCE_STATS[source["id"]]["errors"] += 1
+        reject(source, "RSS取得失敗")
+        return
+    soup = BeautifulSoup(xml, "xml")
+    seen = set()
+    for entry in soup.find_all("item"):
+        title = clean(entry.find("title").get_text(" ", strip=True) if entry.find("title") else "")
+        href = clean(entry.find("link").get_text(" ", strip=True) if entry.find("link") else "")
+        desc = clean(entry.find("description").get_text(" ", strip=True) if entry.find("description") else "")
+        pub = clean(entry.find("pubDate").get_text(" ", strip=True) if entry.find("pubDate") else "")
+        text = clean(f"{title} {desc}")
+        SOURCE_STATS[source["id"]]["scanned"] += 1
+        if not title or not href or href in seen:
+            reject(source, "タイトル/URL不正または重複", title, href)
+            continue
+        seen.add(href)
+        SOURCE_STATS[source["id"]]["link_candidates"] += 1
+        status = detect_status(text)
+        if status == "unknown":
+            reject(source, "開閉ステータス不明", title, href)
+            continue
+        if not is_food(text):
+            reject(source, "飲食店判定NG", title, href)
+            continue
+        force = source.get("force_ward", "")
+        detected = detect_ward(text)
+        if force and detected and detected != force:
+            reject(source, "対象エリア不一致", title, href)
+            continue
+        name = extract_name_from_title(title)
+        if not name or len(name) < 2:
+            reject(source, "店名抽出失敗", title, href)
+            continue
+        d = parse_date(text)
+        if not d and pub:
+            try:
+                dt = parsedate_to_datetime(pub)
+                d = dt.astimezone().strftime("%Y-%m-%d") if dt else ""
+            except Exception:
+                d = ""
+        item = RestaurantItem(name=name, ward=force or detected, status=status, date=d, place=extract_address(text), note=f"[Web深掘り] {title} / {desc[:300]}", url=href, source=source["name"], source_id=source["id"], source_priority=source["priority"])
+        accept(source, item)
+        SIGNAL_ITEMS.append(item)
 
 
 def collect_all():
@@ -1302,6 +1399,24 @@ def collect_all():
         except Exception as e:
             log.exception("%s でエラー: %s", source["name"], e)
 
+    for source in DEEP_WEB_SEARCH_CONFIG:
+        log.info("=== %s ===", source["name"])
+        try:
+            collect_deep_web_source(source)
+        except Exception as e:
+            log.exception("%s でエラー: %s", source["name"], e)
+
+    for source in DEEP_SOURCE_CONFIG:
+        log.info("=== %s ===", source["name"])
+        try:
+            if source.get("signal_only"):
+                for item in collect_article_source(source):
+                    SIGNAL_ITEMS.append(item)
+            else:
+                yield from collect_article_source(source)
+        except Exception as e:
+            log.exception("%s でエラー: %s", source["name"], e)
+
     for source in SOURCE_CONFIG:
         if source["kind"] == "official_license":
             log.info("=== %s ===", source["name"])
@@ -1335,11 +1450,65 @@ def collect_all():
             log.exception("%s でエラー: %s", source["name"], e)
 
 
+def signal_match_score(signal: RestaurantItem, item: RestaurantItem) -> int:
+    """深掘りシグナルと通常情報を店名・住所・エリアで照合する。"""
+    if signal.ward and item.ward and signal.ward != item.ward:
+        return 0
+    a = normalize_name(signal.name)
+    b = normalize_name(item.name)
+    if not a or not b:
+        return 0
+    score = 0
+    if a == b:
+        score += 80
+    elif a in b or b in a:
+        score += 55
+    else:
+        at = set(re.findall(r"[\wぁ-んァ-ヶ一-龥]{2,}", a))
+        bt = set(re.findall(r"[\wぁ-んァ-ヶ一-龥]{2,}", b))
+        if len(at & bt) >= 2:
+            score += 35
+    if signal.place and item.place:
+        sa = norm(signal.place); sb = norm(item.place)
+        if sa and sb and (sa in sb or sb in sa):
+            score += 20
+    if signal.status == item.status:
+        score += 10
+    return score
+
+
+def process_deep_signals(merged: dict):
+    """SNS/Web深掘りを通常情報と照合。未一致は未確認情報として別枠保存。"""
+    for signal in SIGNAL_ITEMS:
+        best_key = None; best_score = 0
+        for key, item in merged.items():
+            score = signal_match_score(signal, item)
+            if score > best_score:
+                best_key, best_score = key, score
+        if best_key is not None and best_score >= 55:
+            item = merged[best_key]
+            item.sources = item.sources or []
+            if signal.url and not any(x.get("url") == signal.url for x in item.sources):
+                item.sources.append({"name": signal.source, "url": signal.url, "priority": signal.source_priority, "signal": True})
+            item.confidence = confidence(item, len(item.sources))
+            item.note = (item.note + " / 深掘り照合済み").strip(" /")
+        else:
+            UNCONFIRMED_SIGNALS.append({"name": signal.name, "title": signal.name, "area": signal.ward, "type": signal.status, "date": signal.date, "place": signal.place, "note": signal.note, "url": signal.url, "source": signal.source, "confidence": 0.30, "matched": False})
+    seen = set(); unique = []
+    for x in UNCONFIRMED_SIGNALS:
+        k = (normalize_name(x["name"]), x["area"], x["type"], x["url"])
+        if k in seen: continue
+        seen.add(k); unique.append(x)
+    UNCONFIRMED_SIGNALS[:] = unique[:500]
+
+
 def main():
     today = datetime.now().strftime("%Y-%m-%d")
     SOURCE_STATS.clear()
     REJECTION_EXAMPLES.clear()
     SOCIAL_SIGNALS.clear()
+    UNCONFIRMED_SIGNALS.clear()
+    SIGNAL_ITEMS.clear()
     log.info("===== Sapporo Inshokuten Collector Ver.%s START =====", VERSION)
 
     conn = sqlite3.connect(DB_PATH)
@@ -1370,6 +1539,8 @@ def main():
             merged[k] = item
         else:
             merged[k] = merge_item(merged[k], item)
+
+    process_deep_signals(merged)
 
     new_items = []
     for item in merged.values():

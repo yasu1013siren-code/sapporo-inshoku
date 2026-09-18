@@ -204,6 +204,19 @@
   .source-grid a:hover{color:var(--stamp-indigo);}
   .source-grid a span{display:block;font-size:11.5px;color:var(--ink-soft);}
 
+
+  .unconfirmed-panel{
+    max-width:920px;margin:34px auto 0;padding:20px;
+    border:2px dashed var(--stamp-red);background:var(--paper-card2);
+  }
+  .unconfirmed-panel h2{margin:0 0 6px;font-family:'Shippori Mincho B1',serif;}
+  .unconfirmed-lede{font-size:13px;color:var(--ink-soft);margin:0 0 14px;}
+  .unconfirmed-list{display:grid;gap:10px;}
+  .unconfirmed-card{padding:12px 14px;border:1px solid var(--line);background:var(--paper-card);}
+  .unconfirmed-card h3{margin:0 0 4px;font-size:16px;}
+  .unconfirmed-meta{font-size:12px;color:var(--ink-soft);}
+  .unconfirmed-card p{margin:5px 0;font-size:13px;}
+
   footer{
     max-width:920px;margin:50px auto 0;padding:18px 20px 0;
     border-top:1px solid var(--ink);
@@ -236,6 +249,12 @@
   <div class="tabs" id="tabs" role="tablist" aria-label="エリア切り替え"></div>
 
   <div id="area-sections"></div>
+
+  <section class="unconfirmed-panel" id="unconfirmed-panel">
+    <h2>未確認情報・SNS／マイナー情報</h2>
+    <p class="unconfirmed-lede">SNS、求人、地域ブログなどで先に見つかった情報。既存情報との照合が取れていないため、確定情報とは分けて表示しています。</p>
+    <div class="unconfirmed-list" id="unconfirmed-list"><p class="empty-note">読み込み中…</p></div>
+  </section>
 
   <!-- 情報源 -->
   <div class="sources">
@@ -763,6 +782,23 @@ function newsItemHTML(item){
   </div>`;
 }
 
+function renderUnconfirmed(items){
+  const el = document.getElementById("unconfirmed-list");
+  if(!el) return;
+  const sorted = (items || []).slice().sort((a,b)=>{
+    const da=parseDateLoose(a.date), db=parseDateLoose(b.date);
+    if(da && db) return db-da;
+    if(da) return -1; if(db) return 1; return 0;
+  }).slice(0,120);
+  el.innerHTML = sorted.length ? sorted.map(i=>`<article class="unconfirmed-card">
+    <h3>${escapeHTML(i.name || "店名未確認")}</h3>
+    <div class="unconfirmed-meta">${escapeHTML(i.area || "エリア不明")}　${escapeHTML(i.type || "未判定")}　${escapeHTML(i.date || "日付未定")}</div>
+    ${i.place ? `<div class="unconfirmed-meta">${escapeHTML(i.place)}</div>` : ""}
+    ${i.note ? `<p>${escapeHTML(i.note)}</p>` : ""}
+    ${i.source ? `<a class="src-link" href="${i.url || "#"}" target="_blank" rel="noopener noreferrer">情報源：${escapeHTML(i.source)} ↗</a>` : ""}
+  </article>`).join("") : `<p class="empty-note">現在、未確認の深掘り情報はありません。</p>`;
+}
+
 async function loadAutoNews(){
   const areaIds = AREA_META.map(a=>a.id);
   areaIds.forEach(area=>{
@@ -783,6 +819,8 @@ async function loadAutoNews(){
       if(!d) return true; // 日付未定は除外しすぎないよう残す
       return d >= windowStart && d <= windowEnd;
     };
+
+    renderUnconfirmed(data.unconfirmed || []);
 
     areaIds.forEach(area=>{
       const el = document.getElementById(`${area}-news`);
