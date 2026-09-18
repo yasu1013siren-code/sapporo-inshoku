@@ -1,6 +1,6 @@
 {
-  "version": "7.2",
-  "generated_at": "2026-09-18T11:38:58",
+  "version": "7.4",
+  "generated_at": "2026-09-18T21:12:47",
   "date": "2026-09-18",
   "areas": {
     "chuo": [
@@ -781,6 +781,27 @@
         "last_seen": "2026-09-18"
       },
       {
+        "name": "HARE/PAN (ハレパン) すすきの店",
+        "title": "HARE/PAN (ハレパン) すすきの店",
+        "date": "",
+        "place": "札幌市中央区南4条西3丁目3",
+        "note": "HARE/PAN (ハレパン) すすきの店",
+        "type": "open",
+        "url": "https://www.hare-pan.com/",
+        "source": "北海道ねっと・札幌開店閉店",
+        "sources": [
+          {
+            "name": "北海道ねっと・札幌開店閉店",
+            "url": "https://www.hare-pan.com/",
+            "priority": 50
+          }
+        ],
+        "confidence": 0.5,
+        "source_count": 1,
+        "first_seen": "2026-09-18",
+        "last_seen": "2026-09-18"
+      },
+      {
         "name": "LUNA & LAPIN",
         "title": "LUNA & LAPIN",
         "date": "",
@@ -883,6 +904,27 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
+        "last_seen": "2026-09-18"
+      },
+      {
+        "name": "MidNight食堂 赤目のおやじ",
+        "title": "MidNight食堂 赤目のおやじ",
+        "date": "",
+        "place": "札幌市中央区南5条西3丁目8",
+        "note": "MidNight食堂 赤目のおやじ",
+        "type": "closed",
+        "url": "https://www.instagram.com/akameno_oyaji",
+        "source": "北海道ねっと・札幌開店閉店",
+        "sources": [
+          {
+            "name": "北海道ねっと・札幌開店閉店",
+            "url": "https://www.instagram.com/akameno_oyaji",
+            "priority": 50
+          }
+        ],
+        "confidence": 0.5,
+        "source_count": 1,
+        "first_seen": "2026-09-18",
         "last_seen": "2026-09-18"
       },
       {
@@ -1054,6 +1096,27 @@
         "last_seen": "2026-09-18"
       },
       {
+        "name": "allee cafe",
+        "title": "allee cafe",
+        "date": "",
+        "place": "札幌市中央区北4条西14丁目1-6",
+        "note": "allee cafe",
+        "type": "closed",
+        "url": "https://hokkaidos.net/allee-cafe/",
+        "source": "北海道ねっと・札幌開店閉店",
+        "sources": [
+          {
+            "name": "北海道ねっと・札幌開店閉店",
+            "url": "https://hokkaidos.net/allee-cafe/",
+            "priority": 50
+          }
+        ],
+        "confidence": 0.5,
+        "source_count": 1,
+        "first_seen": "2026-09-18",
+        "last_seen": "2026-09-18"
+      },
+      {
         "name": "cafe CLV（セラヴィ）",
         "title": "cafe CLV（セラヴィ）",
         "date": "",
@@ -1205,7 +1268,7 @@
         "title": "すすきの",
         "date": "",
         "place": "中央区",
-        "note": "すすきの",
+        "note": "すすきの / 深掘り照合済み",
         "type": "open",
         "url": "https://mogtrip.jp/category/sapporo/chuo/susukino/",
         "source": "mogtrip・新店",
@@ -1285,6 +1348,27 @@
         "last_seen": "2026-09-18"
       },
       {
+        "name": "めいきゅ～と狸小路店・秋葉亭",
+        "title": "めいきゅ～と狸小路店・秋葉亭",
+        "date": "",
+        "place": "札幌市中央区南三条西6丁目3-3",
+        "note": "めいきゅ～と狸小路店・秋葉亭",
+        "type": "closed",
+        "url": "https://hokkaidos.net/makeucute/",
+        "source": "北海道ねっと・札幌開店閉店",
+        "sources": [
+          {
+            "name": "北海道ねっと・札幌開店閉店",
+            "url": "https://hokkaidos.net/makeucute/",
+            "priority": 50
+          }
+        ],
+        "confidence": 0.5,
+        "source_count": 1,
+        "first_seen": "2026-09-18",
+        "last_seen": "2026-09-18"
+      },
+      {
         "name": "らむすけ 別邸",
         "title": "らむすけ 別邸",
         "date": "",
@@ -1324,6 +1408,27 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
+        "last_seen": "2026-09-18"
+      },
+      {
+        "name": "クールガーデン",
+        "title": "クールガーデン",
+        "date": "",
+        "place": "札幌市中央区南3条西5丁目20",
+        "note": "クールガーデン",
+        "type": "closed",
+        "url": "https://www.instagram.com/coolgarden_noboribetsu/",
+        "source": "北海道ねっと・札幌開店閉店",
+        "sources": [
+          {
+            "name": "北海道ねっと・札幌開店閉店",
+            "url": "https://www.instagram.com/coolgarden_noboribetsu/",
+            "priority": 50
+          }
+        ],
+        "confidence": 0.5,
+        "source_count": 1,
+        "first_seen": "2026-09-18",
         "last_seen": "2026-09-18"
       },
       {
@@ -1390,6 +1495,27 @@
         "last_seen": "2026-09-18"
       },
       {
+        "name": "ミルク＆パフェ よつ葉ホワイトコージ 札幌ステラプレイス店",
+        "title": "ミルク＆パフェ よつ葉ホワイトコージ 札幌ステラプレイス店",
+        "date": "",
+        "place": "札幌市中央区北5条西2丁目",
+        "note": "ミルク＆パフェ よつ葉ホワイトコージ 札幌ステラプレイス店",
+        "type": "open",
+        "url": "https://www.yotsuba.co.jp/white/",
+        "source": "北海道ねっと・札幌開店閉店",
+        "sources": [
+          {
+            "name": "北海道ねっと・札幌開店閉店",
+            "url": "https://www.yotsuba.co.jp/white/",
+            "priority": 50
+          }
+        ],
+        "confidence": 0.5,
+        "source_count": 1,
+        "first_seen": "2026-09-18",
+        "last_seen": "2026-09-18"
+      },
+      {
         "name": "ラスベガス 別邸",
         "title": "ラスベガス 別邸",
         "date": "",
@@ -1432,6 +1558,27 @@
         "last_seen": "2026-09-18"
       },
       {
+        "name": "一夜干しと海鮮丼 できたて屋 札幌ステラプレイス店",
+        "title": "一夜干しと海鮮丼 できたて屋 札幌ステラプレイス店",
+        "date": "",
+        "place": "札幌市中央区北5条西2丁目",
+        "note": "一夜干しと海鮮丼 できたて屋 札幌ステラプレイス店",
+        "type": "open",
+        "url": "https://www.sushi-hanamaru.com/",
+        "source": "北海道ねっと・札幌開店閉店",
+        "sources": [
+          {
+            "name": "北海道ねっと・札幌開店閉店",
+            "url": "https://www.sushi-hanamaru.com/",
+            "priority": 50
+          }
+        ],
+        "confidence": 0.5,
+        "source_count": 1,
+        "first_seen": "2026-09-18",
+        "last_seen": "2026-09-18"
+      },
+      {
         "name": "三都うどん",
         "title": "三都うどん",
         "date": "",
@@ -1450,6 +1597,27 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
+        "last_seen": "2026-09-18"
+      },
+      {
+        "name": "串鳥 工場直売所",
+        "title": "串鳥 工場直売所",
+        "date": "",
+        "place": "札幌市中央区南3条東5丁目2",
+        "note": "串鳥 工場直売所",
+        "type": "open",
+        "url": "https://kushidori.com/",
+        "source": "北海道ねっと・札幌開店閉店",
+        "sources": [
+          {
+            "name": "北海道ねっと・札幌開店閉店",
+            "url": "https://kushidori.com/",
+            "priority": 50
+          }
+        ],
+        "confidence": 0.5,
+        "source_count": 1,
+        "first_seen": "2026-09-18",
         "last_seen": "2026-09-18"
       },
       {
@@ -1912,6 +2080,27 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
+        "last_seen": "2026-09-18"
+      },
+      {
+        "name": "焼肉いち すすきの店",
+        "title": "焼肉いち すすきの店",
+        "date": "",
+        "place": "札幌市中央区南6条西2丁目8-5",
+        "note": "焼肉いち すすきの店 / 深掘り照合済み",
+        "type": "open",
+        "url": "https://www.instagram.com/ichisusukino/",
+        "source": "北海道ねっと・札幌開店閉店",
+        "sources": [
+          {
+            "name": "北海道ねっと・札幌開店閉店",
+            "url": "https://www.instagram.com/ichisusukino/",
+            "priority": 50
+          }
+        ],
+        "confidence": 0.5,
+        "source_count": 1,
+        "first_seen": "2026-09-18",
         "last_seen": "2026-09-18"
       },
       {
@@ -2511,6 +2700,48 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
+        "last_seen": "2026-09-18"
+      },
+      {
+        "name": "ハナサカクレープ 新琴似店",
+        "title": "ハナサカクレープ 新琴似店",
+        "date": "",
+        "place": "札幌市北区新琴似12条10丁目3-20",
+        "note": "ハナサカクレープ 新琴似店",
+        "type": "closed",
+        "url": "https://www.instagram.com/hanasaka__crepe",
+        "source": "北海道ねっと・札幌開店閉店",
+        "sources": [
+          {
+            "name": "北海道ねっと・札幌開店閉店",
+            "url": "https://www.instagram.com/hanasaka__crepe",
+            "priority": 50
+          }
+        ],
+        "confidence": 0.5,
+        "source_count": 1,
+        "first_seen": "2026-09-18",
+        "last_seen": "2026-09-18"
+      },
+      {
+        "name": "パレフォセット",
+        "title": "パレフォセット",
+        "date": "",
+        "place": "札幌市北区麻生町5-4-13",
+        "note": "パレフォセット",
+        "type": "closed",
+        "url": "https://hokkaidos.net/palefossette/",
+        "source": "北海道ねっと・札幌開店閉店",
+        "sources": [
+          {
+            "name": "北海道ねっと・札幌開店閉店",
+            "url": "https://hokkaidos.net/palefossette/",
+            "priority": 50
+          }
+        ],
+        "confidence": 0.5,
+        "source_count": 1,
+        "first_seen": "2026-09-18",
         "last_seen": "2026-09-18"
       },
       {
@@ -3305,6 +3536,27 @@
         "last_seen": "2026-09-18"
       },
       {
+        "name": "サバ6&油そばアブラボ 札幌南郷通14丁目店",
+        "title": "サバ6&油そばアブラボ 札幌南郷通14丁目店",
+        "date": "",
+        "place": "札幌市白石区南郷通14丁目",
+        "note": "サバ6&油そばアブラボ 札幌南郷通14丁目店",
+        "type": "closed",
+        "url": "https://www.instagram.com/saba6seimenjo",
+        "source": "北海道ねっと・札幌開店閉店",
+        "sources": [
+          {
+            "name": "北海道ねっと・札幌開店閉店",
+            "url": "https://www.instagram.com/saba6seimenjo",
+            "priority": 50
+          }
+        ],
+        "confidence": 0.5,
+        "source_count": 1,
+        "first_seen": "2026-09-18",
+        "last_seen": "2026-09-18"
+      },
+      {
         "name": "ラムジェット",
         "title": "ラムジェット",
         "date": "",
@@ -3590,6 +3842,69 @@
         "last_seen": "2026-09-18"
       },
       {
+        "name": "YOG JOY soft cream",
+        "title": "YOG JOY soft cream",
+        "date": "2025-05-29",
+        "place": "豊平区",
+        "note": "札幌 札幌月寒公園前のソフトクリーム「YOG JOY soft cream」プレオープン行ってきた 2025-05-29",
+        "type": "open",
+        "url": "https://hokkaidos.net/yog/",
+        "source": "北海道ねっと・札幌開店閉店",
+        "sources": [
+          {
+            "name": "北海道ねっと・札幌開店閉店",
+            "url": "https://hokkaidos.net/yog/",
+            "priority": 50
+          }
+        ],
+        "confidence": 0.54,
+        "source_count": 1,
+        "first_seen": "2026-09-18",
+        "last_seen": "2026-09-18"
+      },
+      {
+        "name": "詠月珈琲EIGETSU COFFEE",
+        "title": "詠月珈琲EIGETSU COFFEE",
+        "date": "2025-05-09",
+        "place": "豊平区",
+        "note": "詠月珈琲EIGETSU COFFEEが札幌中の島にオープン 2025-05-09",
+        "type": "open",
+        "url": "https://hokkaidos.net/eigetsu-coffee/",
+        "source": "北海道ねっと・札幌開店閉店",
+        "sources": [
+          {
+            "name": "北海道ねっと・札幌開店閉店",
+            "url": "https://hokkaidos.net/eigetsu-coffee/",
+            "priority": 50
+          }
+        ],
+        "confidence": 0.54,
+        "source_count": 1,
+        "first_seen": "2026-09-18",
+        "last_seen": "2026-09-18"
+      },
+      {
+        "name": "HANDLE BakeStand",
+        "title": "HANDLE BakeStand",
+        "date": "",
+        "place": "札幌市豊平区月寒東1条7丁目2-5",
+        "note": "HANDLE BakeStand",
+        "type": "closed",
+        "url": "https://hokkaidos.net/handle-bakestand/",
+        "source": "北海道ねっと・札幌開店閉店",
+        "sources": [
+          {
+            "name": "北海道ねっと・札幌開店閉店",
+            "url": "https://hokkaidos.net/handle-bakestand/",
+            "priority": 50
+          }
+        ],
+        "confidence": 0.5,
+        "source_count": 1,
+        "first_seen": "2026-09-18",
+        "last_seen": "2026-09-18"
+      },
+      {
         "name": "LEVANGA CAFE",
         "title": "LEVANGA CAFE",
         "date": "",
@@ -3608,6 +3923,27 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
+        "last_seen": "2026-09-18"
+      },
+      {
+        "name": "サンドイッチカフェひらら",
+        "title": "サンドイッチカフェひらら",
+        "date": "",
+        "place": "札幌市豊平区中の島1条2丁目3-7",
+        "note": "サンドイッチカフェひらら",
+        "type": "closed",
+        "url": "https://hokkaidos.net/hirara/",
+        "source": "北海道ねっと・札幌開店閉店",
+        "sources": [
+          {
+            "name": "北海道ねっと・札幌開店閉店",
+            "url": "https://hokkaidos.net/hirara/",
+            "priority": 50
+          }
+        ],
+        "confidence": 0.5,
+        "source_count": 1,
+        "first_seen": "2026-09-18",
         "last_seen": "2026-09-18"
       },
       {
@@ -4996,6 +5332,27 @@
         "last_seen": "2026-09-18"
       },
       {
+        "name": "カレー気分",
+        "title": "カレー気分",
+        "date": "",
+        "place": "札幌市清田区北野6条2",
+        "note": "カレー気分",
+        "type": "closed",
+        "url": "https://hokkaidos.net/curry-kibun/",
+        "source": "北海道ねっと・札幌開店閉店",
+        "sources": [
+          {
+            "name": "北海道ねっと・札幌開店閉店",
+            "url": "https://hokkaidos.net/curry-kibun/",
+            "priority": 50
+          }
+        ],
+        "confidence": 0.5,
+        "source_count": 1,
+        "first_seen": "2026-09-18",
+        "last_seen": "2026-09-18"
+      },
+      {
         "name": "麺や 山田",
         "title": "麺や 山田",
         "date": "",
@@ -5761,9 +6118,129 @@
       }
     ]
   },
-  "unmatched": 160,
-  "source_count": 34,
+  "unmatched": 164,
+  "source_count": 122,
   "area_count": 14,
+  "unconfirmed": [
+    {
+      "name": "焼鳥 鳥頂 札幌駅前店",
+      "title": "焼鳥 鳥頂 札幌駅前店",
+      "area": "",
+      "type": "upcoming",
+      "date": "",
+      "place": "",
+      "note": "焼鳥 鳥頂 札幌駅前店",
+      "url": "https://job.tabelog.com/restaurants?id=1084108",
+      "source": "食べログ求人・オープニングスタッフ",
+      "confidence": 0.3,
+      "matched": false
+    },
+    {
+      "name": "炭火野菜巻き串と餃子 博多うずまき 札幌大通り店",
+      "title": "炭火野菜巻き串と餃子 博多うずまき 札幌大通り店",
+      "area": "中央区",
+      "type": "upcoming",
+      "date": "",
+      "place": "",
+      "note": "炭火野菜巻き串と餃子 博多うずまき 札幌大通り店",
+      "url": "https://job.tabelog.com/restaurants?id=1070677",
+      "source": "食べログ求人・オープニングスタッフ",
+      "confidence": 0.3,
+      "matched": false
+    },
+    {
+      "name": "北海道ヨーロピアンダイニング LUGAR",
+      "title": "北海道ヨーロピアンダイニング LUGAR",
+      "area": "",
+      "type": "upcoming",
+      "date": "",
+      "place": "",
+      "note": "北海道ヨーロピアンダイニング LUGAR",
+      "url": "https://job.tabelog.com/restaurants?id=1065846",
+      "source": "食べログ求人・オープニングスタッフ",
+      "confidence": 0.3,
+      "matched": false
+    },
+    {
+      "name": "ジンギスカン えいじん 薄野店",
+      "title": "ジンギスカン えいじん 薄野店",
+      "area": "",
+      "type": "upcoming",
+      "date": "",
+      "place": "",
+      "note": "ジンギスカン えいじん 薄野店",
+      "url": "https://job.tabelog.com/restaurants?id=1076052",
+      "source": "食べログ求人・オープニングスタッフ",
+      "confidence": 0.3,
+      "matched": false
+    },
+    {
+      "name": "THE BARK",
+      "title": "THE BARK",
+      "area": "",
+      "type": "upcoming",
+      "date": "",
+      "place": "",
+      "note": "THE BARK",
+      "url": "https://job.tabelog.com/restaurants?id=1060908",
+      "source": "食べログ求人・オープニングスタッフ",
+      "confidence": 0.3,
+      "matched": false
+    },
+    {
+      "name": "池袋サイゴンレストラン 円山店",
+      "title": "池袋サイゴンレストラン 円山店",
+      "area": "中央区",
+      "type": "upcoming",
+      "date": "",
+      "place": "",
+      "note": "池袋サイゴンレストラン 円山店",
+      "url": "https://job.tabelog.com/restaurants?id=1078058",
+      "source": "食べログ求人・オープニングスタッフ",
+      "confidence": 0.3,
+      "matched": false
+    },
+    {
+      "name": "- バイト - バー",
+      "title": "- バイト - バー",
+      "area": "",
+      "type": "upcoming",
+      "date": "",
+      "place": "",
+      "note": "札幌市 - バイト - バー",
+      "url": "https://job.tabelog.com/search?major_municipality=1100&employment=parttime&genre=BC01",
+      "source": "食べログ求人・オープニングスタッフ",
+      "confidence": 0.3,
+      "matched": false
+    },
+    {
+      "name": "- バイト - 焼肉",
+      "title": "- バイト - 焼肉",
+      "area": "",
+      "type": "upcoming",
+      "date": "",
+      "place": "",
+      "note": "札幌市 - バイト - 焼肉",
+      "url": "https://job.tabelog.com/search?major_municipality=1100&employment=parttime&genre=RC1301",
+      "source": "食べログ求人・オープニングスタッフ",
+      "confidence": 0.3,
+      "matched": false
+    },
+    {
+      "name": "飲食店の求人情報 - 札幌市",
+      "title": "飲食店の求人情報 - 札幌市",
+      "area": "",
+      "type": "upcoming",
+      "date": "",
+      "place": "",
+      "note": "飲食店の求人情報 - 札幌市",
+      "url": "https://job.tabelog.com/search?major_municipality=1100",
+      "source": "食べログ求人・オープニングスタッフ",
+      "confidence": 0.3,
+      "matched": false
+    }
+  ],
+  "unconfirmed_count": 9,
   "areas_master": {
     "中央区": "chuo",
     "北区": "kita",
@@ -5779,5 +6256,18 @@
     "北広島市": "kitahiroshima",
     "苫小牧市": "tomakomai",
     "恵庭市": "eniwa"
+  },
+  "deep_collection": {
+    "social_source_count": 56,
+    "social_signal_count": 0,
+    "social_platforms": [
+      "instagram",
+      "x",
+      "tiktok",
+      "youtube"
+    ],
+    "deep_web_source_count": 28,
+    "deep_fixed_source_count": 4,
+    "unconfirmed_count": 9
   }
 }
