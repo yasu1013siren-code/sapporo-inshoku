@@ -1,35 +1,32 @@
 {
-  "version": "7.3",
-  "generated_at": "2026-09-19T03:10:53",
+  "version": "7.1",
+  "generated_at": "2026-09-19T06:45:57",
   "date": "2026-09-19",
   "summary": {
-    "raw_candidates": 333,
-    "merged_candidates": 297,
+    "raw_candidates": 300,
+    "merged_candidates": 267,
     "news_json_total": 270,
-    "social_sources": 56,
-    "social_signals": 0,
-    "raw_unmatched_ward": 43,
+    "raw_unmatched_ward": 26,
     "news_json_unmatched": 163,
     "status_raw": {
-      "open": 283,
-      "closed": 49,
-      "upcoming": 1
+      "open": 261,
+      "closed": 39
     },
     "ward_raw": {
-      "中央区": 107,
+      "中央区": 104,
       "北区": 25,
       "東区": 18,
       "白石区": 21,
       "豊平区": 16,
       "南区": 15,
       "西区": 13,
-      "厚別区": 14,
+      "厚別区": 13,
       "手稲区": 14,
       "清田区": 8,
-      "千歳市": 10,
-      "北広島市": 9,
-      "苫小牧市": 12,
-      "恵庭市": 8
+      "千歳市": 8,
+      "恵庭市": 5,
+      "北広島市": 8,
+      "苫小牧市": 6
     },
     "ward_final": {
       "中央区": 101,
@@ -43,9 +40,9 @@
       "手稲区": 14,
       "清田区": 9,
       "千歳市": 9,
+      "恵庭市": 6,
       "北広島市": 9,
-      "苫小牧市": 11,
-      "恵庭市": 6
+      "苫小牧市": 11
     }
   },
   "sources": [
@@ -178,16 +175,16 @@
       "name": "号外NET 札幌市北区",
       "url": "https://sapporokitaku.goguynet.jp/category/cat_openclose/",
       "scanned": 37,
-      "link_candidates": 20,
+      "link_candidates": 21,
       "accepted": 6,
       "rejected": 31,
       "errors": 0,
       "reasons": {
         "区タグなし": 1,
         "飲食店判定NG": 9,
-        "開閉ステータス不明": 4,
+        "開閉ステータス不明": 5,
         "タイトル短すぎ/空": 11,
-        "URL重複": 6
+        "URL重複": 5
       },
       "wards": {
         "北区": 6
@@ -219,6 +216,123 @@
       },
       "statuses": {
         "open": 3
+      }
+    },
+    {
+      "id": "gogai_chitose_eniwa_kitahiroshima",
+      "name": "号外NET 千歳市・恵庭市・北広島市",
+      "url": "https://chitose-eniwa-kitahiroshima.goguynet.jp/category/cat_openclose/",
+      "scanned": 37,
+      "link_candidates": 24,
+      "accepted": 5,
+      "rejected": 32,
+      "errors": 0,
+      "reasons": {
+        "区タグなし": 1,
+        "飲食店判定NG": 12,
+        "開閉ステータス不明": 5,
+        "タイトル短すぎ/空": 11,
+        "URL重複": 2,
+        "区名不明": 1
+      },
+      "wards": {
+        "千歳市": 5
+      },
+      "statuses": {
+        "open": 4,
+        "closed": 1
+      }
+    },
+    {
+      "id": "shopship_chitose",
+      "name": "札幌ショップス・千歳市",
+      "url": "https://www.shopship.jp/chitose/open-close/",
+      "scanned": 128,
+      "link_candidates": 40,
+      "accepted": 2,
+      "rejected": 126,
+      "errors": 0,
+      "reasons": {
+        "開閉ステータス不明": 16,
+        "飲食店判定NG": 22,
+        "ナビゲーション/共通リンク": 3,
+        "タイトル短すぎ/空": 71,
+        "URL重複": 14
+      },
+      "wards": {
+        "千歳市": 2
+      },
+      "statuses": {
+        "open": 2
+      }
+    },
+    {
+      "id": "shopship_eniwa",
+      "name": "札幌ショップス・恵庭市",
+      "url": "https://www.shopship.jp/eniwa/open-close/",
+      "scanned": 119,
+      "link_candidates": 34,
+      "accepted": 5,
+      "rejected": 114,
+      "errors": 0,
+      "reasons": {
+        "開閉ステータス不明": 15,
+        "飲食店判定NG": 14,
+        "ナビゲーション/共通リンク": 3,
+        "タイトル短すぎ/空": 68,
+        "URL重複": 14
+      },
+      "wards": {
+        "恵庭市": 5
+      },
+      "statuses": {
+        "open": 5
+      }
+    },
+    {
+      "id": "shopship_kitahiroshima",
+      "name": "札幌ショップス・北広島市",
+      "url": "https://www.shopship.jp/kitahiroshima/open-close/",
+      "scanned": 124,
+      "link_candidates": 40,
+      "accepted": 7,
+      "rejected": 117,
+      "errors": 0,
+      "reasons": {
+        "開閉ステータス不明": 16,
+        "飲食店判定NG": 17,
+        "ナビゲーション/共通リンク": 3,
+        "タイトル短すぎ/空": 67,
+        "URL重複": 14
+      },
+      "wards": {
+        "北広島市": 7
+      },
+      "statuses": {
+        "open": 7
+      }
+    },
+    {
+      "id": "shopship_tomakomai",
+      "name": "札幌ショップス・苫小牧市",
+      "url": "https://www.shopship.jp/tomakomai/open-close/",
+      "scanned": 126,
+      "link_candidates": 40,
+      "accepted": 6,
+      "rejected": 120,
+      "errors": 0,
+      "reasons": {
+        "開閉ステータス不明": 16,
+        "飲食店判定NG": 18,
+        "ナビゲーション/共通リンク": 3,
+        "タイトル短すぎ/空": 69,
+        "URL重複": 14
+      },
+      "wards": {
+        "苫小牧市": 6
+      },
+      "statuses": {
+        "open": 6
       }
     },
     {
@@ -294,25 +408,18 @@
       "name": "開店閉店.com・札幌",
       "url": "https://kaiten-heiten-24.com/category/sapporo/",
       "scanned": 124,
-      "link_candidates": 39,
-      "accepted": 21,
-      "rejected": 103,
+      "link_candidates": 112,
+      "accepted": 0,
+      "rejected": 124,
       "errors": 0,
       "reasons": {
-        "タイトル短すぎ/空": 83,
-        "飲食店判定NG": 14,
-        "開閉ステータス不明": 4,
-        "ナビゲーション/共通リンク": 2
+        "タイトル短すぎ/空": 11,
+        "開閉ステータス不明": 111,
+        "タイトル長すぎ": 1,
+        "飲食店判定NG": 1
       },
-      "wards": {
-        "中央区": 3,
-        "区不明": 17,
-        "厚別区": 1
-      },
-      "statuses": {
-        "open": 18,
-        "closed": 3
-      }
+      "wards": {},
+      "statuses": {}
     },
     {
       "id": "teine_magazine",
@@ -612,215 +719,6 @@
       },
       "statuses": {
         "open": 13
-      }
-    },
-    {
-      "id": "gogai_chitose_eniwa_kitahiroshima",
-      "name": "号外NET 千歳市・恵庭市・北広島市",
-      "url": "https://chitose-eniwa-kitahiroshima.goguynet.jp/category/cat_openclose/",
-      "scanned": 37,
-      "link_candidates": 24,
-      "accepted": 5,
-      "rejected": 32,
-      "errors": 0,
-      "reasons": {
-        "市タグなし": 2,
-        "飲食店判定NG": 12,
-        "開閉ステータス不明": 5,
-        "タイトル短すぎ/空": 11,
-        "URL重複": 2
-      },
-      "wards": {
-        "千歳市": 5
-      },
-      "statuses": {
-        "open": 4,
-        "closed": 1
-      }
-    },
-    {
-      "id": "gogai_tomakomai",
-      "name": "号外NET 苫小牧市",
-      "url": "https://tomakomai.goguynet.jp/category/cat_openclose/",
-      "scanned": 37,
-      "link_candidates": 20,
-      "accepted": 6,
-      "rejected": 31,
-      "errors": 0,
-      "reasons": {
-        "市タグなし": 1,
-        "飲食店判定NG": 8,
-        "開閉ステータス不明": 5,
-        "タイトル短すぎ/空": 11,
-        "URL重複": 6
-      },
-      "wards": {
-        "苫小牧市": 6
-      },
-      "statuses": {
-        "closed": 4,
-        "upcoming": 1,
-        "open": 1
-      }
-    },
-    {
-      "id": "shopship_chitose",
-      "name": "千歳ショップス・開店閉店",
-      "url": "https://www.shopship.jp/chitose/open-close/",
-      "scanned": 128,
-      "link_candidates": 40,
-      "accepted": 2,
-      "rejected": 126,
-      "errors": 0,
-      "reasons": {
-        "開閉ステータス不明": 16,
-        "飲食店判定NG": 22,
-        "ナビゲーション/共通リンク": 3,
-        "タイトル短すぎ/空": 71,
-        "URL重複": 14
-      },
-      "wards": {
-        "千歳市": 2
-      },
-      "statuses": {
-        "open": 2
-      }
-    },
-    {
-      "id": "shopship_kitahiroshima",
-      "name": "北広島ショップス・開店閉店",
-      "url": "https://www.shopship.jp/kitahiroshima/open-close/",
-      "scanned": 124,
-      "link_candidates": 40,
-      "accepted": 7,
-      "rejected": 117,
-      "errors": 0,
-      "reasons": {
-        "開閉ステータス不明": 16,
-        "飲食店判定NG": 17,
-        "ナビゲーション/共通リンク": 3,
-        "タイトル短すぎ/空": 67,
-        "URL重複": 14
-      },
-      "wards": {
-        "北広島市": 7
-      },
-      "statuses": {
-        "open": 7
-      }
-    },
-    {
-      "id": "shopship_tomakomai",
-      "name": "苫小牧ショップス・開店閉店",
-      "url": "https://www.shopship.jp/tomakomai/open-close/",
-      "scanned": 126,
-      "link_candidates": 40,
-      "accepted": 6,
-      "rejected": 120,
-      "errors": 0,
-      "reasons": {
-        "開閉ステータス不明": 16,
-        "飲食店判定NG": 18,
-        "ナビゲーション/共通リンク": 3,
-        "タイトル短すぎ/空": 69,
-        "URL重複": 14
-      },
-      "wards": {
-        "苫小牧市": 6
-      },
-      "statuses": {
-        "open": 6
-      }
-    },
-    {
-      "id": "shopship_eniwa",
-      "name": "恵庭ショップス・開店閉店",
-      "url": "https://www.shopship.jp/eniwa/open-close/",
-      "scanned": 119,
-      "link_candidates": 34,
-      "accepted": 5,
-      "rejected": 114,
-      "errors": 0,
-      "reasons": {
-        "開閉ステータス不明": 15,
-        "飲食店判定NG": 14,
-        "ナビゲーション/共通リンク": 3,
-        "タイトル短すぎ/空": 68,
-        "URL重複": 14
-      },
-      "wards": {
-        "恵庭市": 5
-      },
-      "statuses": {
-        "open": 5
-      }
-    },
-    {
-      "id": "chamonix_chitose",
-      "name": "札幌開店閉店インフォ・千歳市",
-      "url": "https://chamonix-cakes.com/category/%E6%96%B0%E5%BA%97%E6%83%85%E5%A0%B1/%E5%8D%83%E6%AD%B3%E5%B8%82%E3%81%AE%E6%96%B0%E5%BA%97%E6%83%85%E5%A0%B1/",
-      "scanned": 128,
-      "link_candidates": 118,
-      "accepted": 2,
-      "rejected": 126,
-      "errors": 0,
-      "reasons": {
-        "タイトル短すぎ/空": 5,
-        "飲食店判定NG": 116,
-        "ナビゲーション/共通リンク": 2,
-        "URL重複": 3
-      },
-      "wards": {
-        "千歳市": 2
-      },
-      "statuses": {
-        "open": 1,
-        "closed": 1
-      }
-    },
-    {
-      "id": "chamonix_kitahiroshima",
-      "name": "札幌開店閉店インフォ・北広島市",
-      "url": "https://chamonix-cakes.com/category/%E9%96%89%E5%BA%97%E6%83%85%E5%A0%B1/%E5%8C%97%E5%BA%83%E5%B3%B6%E5%B8%82%E3%81%AE%E9%96%89%E5%BA%97%E6%83%85%E5%A0%B1/",
-      "scanned": 128,
-      "link_candidates": 118,
-      "accepted": 1,
-      "rejected": 127,
-      "errors": 0,
-      "reasons": {
-        "タイトル短すぎ/空": 5,
-        "飲食店判定NG": 117,
-        "ナビゲーション/共通リンク": 2,
-        "URL重複": 3
-      },
-      "wards": {
-        "北広島市": 1
-      },
-      "statuses": {
-        "closed": 1
-      }
-    },
-    {
-      "id": "chamonix_eniwa",
-      "name": "札幌開店閉店インフォ・恵庭市",
-      "url": "https://chamonix-cakes.com/category/%E6%96%B0%E5%BA%97%E6%83%85%E5%A0%B1/%E6%81%B5%E5%BA%AD%E5%B8%82%E3%81%AE%E6%96%B0%E5%BA%97%E6%83%85%E5%A0%B1/",
-      "scanned": 128,
-      "link_candidates": 118,
-      "accepted": 3,
-      "rejected": 125,
-      "errors": 0,
-      "reasons": {
-        "タイトル短すぎ/空": 5,
-        "飲食店判定NG": 115,
-        "ナビゲーション/共通リンク": 2,
-        "URL重複": 3
-      },
-      "wards": {
-        "恵庭市": 3
-      },
-      "statuses": {
-        "open": 2,
-        "closed": 1
       }
     },
     {
