@@ -1,20 +1,22 @@
 {
-  "version": "7.2",
-  "generated_at": "2026-09-18T11:38:58",
-  "date": "2026-09-18",
+  "version": "7.3",
+  "generated_at": "2026-09-19T03:10:53",
+  "date": "2026-09-19",
   "summary": {
-    "raw_candidates": 329,
-    "merged_candidates": 294,
-    "news_json_total": 269,
-    "raw_unmatched_ward": 41,
-    "news_json_unmatched": 160,
+    "raw_candidates": 333,
+    "merged_candidates": 297,
+    "news_json_total": 270,
+    "social_sources": 56,
+    "social_signals": 0,
+    "raw_unmatched_ward": 43,
+    "news_json_unmatched": 163,
     "status_raw": {
-      "open": 278,
-      "closed": 50,
+      "open": 283,
+      "closed": 49,
       "upcoming": 1
     },
     "ward_raw": {
-      "中央区": 105,
+      "中央区": 107,
       "北区": 25,
       "東区": 18,
       "白石区": 21,
@@ -30,7 +32,7 @@
       "恵庭市": 8
     },
     "ward_final": {
-      "中央区": 100,
+      "中央区": 101,
       "北区": 20,
       "東区": 16,
       "白石区": 20,
@@ -126,24 +128,24 @@
       "url": "https://www.shopship.jp/sapporo/open-close/",
       "scanned": 136,
       "link_candidates": 38,
-      "accepted": 11,
-      "rejected": 125,
+      "accepted": 12,
+      "rejected": 124,
       "errors": 0,
       "reasons": {
         "開閉ステータス不明": 14,
-        "飲食店判定NG": 13,
+        "飲食店判定NG": 12,
         "ナビゲーション/共通リンク": 3,
         "URL重複": 15,
         "タイトル短すぎ/空": 80
       },
       "wards": {
-        "中央区": 8,
+        "中央区": 9,
         "豊平区": 1,
         "北区": 1,
         "白石区": 1
       },
       "statuses": {
-        "open": 9,
+        "open": 10,
         "closed": 2
       }
     },
@@ -293,23 +295,23 @@
       "url": "https://kaiten-heiten-24.com/category/sapporo/",
       "scanned": 124,
       "link_candidates": 39,
-      "accepted": 19,
-      "rejected": 105,
+      "accepted": 21,
+      "rejected": 103,
       "errors": 0,
       "reasons": {
         "タイトル短すぎ/空": 83,
-        "飲食店判定NG": 16,
+        "飲食店判定NG": 14,
         "開閉ステータス不明": 4,
         "ナビゲーション/共通リンク": 2
       },
       "wards": {
         "中央区": 3,
-        "区不明": 15,
+        "区不明": 17,
         "厚別区": 1
       },
       "statuses": {
-        "open": 15,
-        "closed": 4
+        "open": 18,
+        "closed": 3
       }
     },
     {
@@ -553,21 +555,21 @@
       "url": "https://www.shopship.jp/chuo/open-close/",
       "scanned": 135,
       "link_candidates": 42,
-      "accepted": 9,
-      "rejected": 126,
+      "accepted": 10,
+      "rejected": 125,
       "errors": 0,
       "reasons": {
         "開閉ステータス不明": 18,
-        "飲食店判定NG": 15,
+        "飲食店判定NG": 14,
         "ナビゲーション/共通リンク": 3,
         "タイトル短すぎ/空": 76,
         "URL重複": 14
       },
       "wards": {
-        "中央区": 9
+        "中央区": 10
       },
       "statuses": {
-        "open": 8,
+        "open": 9,
         "closed": 1
       }
     },
