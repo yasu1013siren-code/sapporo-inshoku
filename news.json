@@ -1,6 +1,6 @@
 {
-  "version": "7.3",
-  "generated_at": "2026-09-19T03:10:53",
+  "version": "7.1",
+  "generated_at": "2026-09-19T06:45:57",
   "date": "2026-09-19",
   "areas": {
     "chuo": [
@@ -41,7 +41,7 @@
             "priority": 90
           }
         ],
-        "confidence": 0.79,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-19",
         "last_seen": "2026-09-19"
@@ -5229,6 +5229,134 @@
         "last_seen": "2026-09-19"
       }
     ],
+    "eniwa": [
+      {
+        "name": "幸福中華サワダ",
+        "title": "幸福中華サワダ",
+        "date": "2026-09-15",
+        "place": "恵庭市",
+        "note": "【閉店】札幌市厚別区の『幸福中華サワダ』が2026年9月15日(火)をもって閉店。",
+        "type": "closed",
+        "url": "https://chamonix-cakes.com/heiten-ab4lm5xjrzrdwu2bnc/",
+        "source": "札幌開店閉店インフォ・恵庭市",
+        "sources": [
+          {
+            "name": "札幌開店閉店インフォ・恵庭市",
+            "url": "https://chamonix-cakes.com/heiten-ab4lm5xjrzrdwu2bnc/",
+            "priority": 65
+          }
+        ],
+        "confidence": 0.54,
+        "source_count": 1,
+        "first_seen": "2026-09-18",
+        "last_seen": "2026-09-19"
+      },
+      {
+        "name": "昼飲み定食屋 はまや",
+        "title": "昼飲み定食屋 はまや",
+        "date": "2026-06-17",
+        "place": "恵庭市の新店情報",
+        "note": "開店情報 恵庭市 【開店】恵庭市に『昼飲み定食屋はまや』が2026年06月17日(水)よりOPEN!! 昼飲み定食屋はまや 2026/06/22",
+        "type": "open",
+        "url": "https://www.shopship.jp/eniwa/open-close/hamaya-megumino/",
+        "source": "恵庭ショップス・開店閉店",
+        "sources": [
+          {
+            "name": "恵庭ショップス・開店閉店",
+            "url": "https://www.shopship.jp/eniwa/open-close/hamaya-megumino/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.54,
+        "source_count": 1,
+        "first_seen": "2026-09-18",
+        "last_seen": "2026-09-19"
+      },
+      {
+        "name": "クラフトドーナツワークス 恵み野駅前店",
+        "title": "クラフトドーナツワークス 恵み野駅前店",
+        "date": "2026-02-20",
+        "place": "恵庭市の新店情報",
+        "note": "開店情報 恵庭市 【開店】恵庭市に『クラフトドーナツワークス 恵み野駅前店』が2026年02月20日(金)よりOPEN!! クラフトドーナツワークス 恵み野駅前店 2026/05/02",
+        "type": "open",
+        "url": "https://www.shopship.jp/eniwa/open-close/craft_donut_works_megumino/",
+        "source": "恵庭ショップス・開店閉店",
+        "sources": [
+          {
+            "name": "恵庭ショップス・開店閉店",
+            "url": "https://www.shopship.jp/eniwa/open-close/craft_donut_works_megumino/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.54,
+        "source_count": 1,
+        "first_seen": "2026-09-18",
+        "last_seen": "2026-09-19"
+      },
+      {
+        "name": "鉄板亭 縄翔",
+        "title": "鉄板亭 縄翔",
+        "date": "2024-11-29",
+        "place": "恵庭市に鉄板定食屋",
+        "note": "開店情報 恵庭市 【新店舗】恵庭市に鉄板定食屋『鉄板亭 縄翔』が2024年11月29日(金)よりOPEN!! 2024/11/30",
+        "type": "open",
+        "url": "https://www.shopship.jp/eniwa/open-close/teppantei-nawashou/",
+        "source": "恵庭ショップス・開店閉店",
+        "sources": [
+          {
+            "name": "恵庭ショップス・開店閉店",
+            "url": "https://www.shopship.jp/eniwa/open-close/teppantei-nawashou/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.54,
+        "source_count": 1,
+        "first_seen": "2026-09-18",
+        "last_seen": "2026-09-19"
+      },
+      {
+        "name": "お食事処 永〜ながれ〜",
+        "title": "お食事処 永〜ながれ〜",
+        "date": "2024-11-15",
+        "place": "恵庭市に居酒屋",
+        "note": "開店情報 恵庭市 【新店舗】恵庭市に居酒屋『お食事処 永〜ながれ〜』が2024年11月15日(金)よりOPEN!! 2024/11/30",
+        "type": "open",
+        "url": "https://www.shopship.jp/eniwa/open-close/nagare-eniwa/",
+        "source": "恵庭ショップス・開店閉店",
+        "sources": [
+          {
+            "name": "恵庭ショップス・開店閉店",
+            "url": "https://www.shopship.jp/eniwa/open-close/nagare-eniwa/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.54,
+        "source_count": 1,
+        "first_seen": "2026-09-18",
+        "last_seen": "2026-09-19"
+      },
+      {
+        "name": "キッチン 京",
+        "title": "キッチン 京",
+        "date": "2024-10-01",
+        "place": "恵庭市に魚介類専門の創作和定食処",
+        "note": "開店情報 恵庭市 【新店舗】恵庭市に魚介類専門の創作和定食処『キッチン 京』が2024年10月1日(火)よりOPEN!! キッチン 京 2026/04/09",
+        "type": "open",
+        "url": "https://www.shopship.jp/eniwa/open-close/kitchen-kyo/",
+        "source": "恵庭ショップス・開店閉店",
+        "sources": [
+          {
+            "name": "恵庭ショップス・開店閉店",
+            "url": "https://www.shopship.jp/eniwa/open-close/kitchen-kyo/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.54,
+        "source_count": 1,
+        "first_seen": "2026-09-18",
+        "last_seen": "2026-09-19"
+      }
+    ],
     "kitahiroshima": [
       {
         "name": "幸福中華サワダ",
@@ -5652,163 +5780,8 @@
         "first_seen": "2026-09-18",
         "last_seen": "2026-09-19"
       }
-    ],
-    "eniwa": [
-      {
-        "name": "幸福中華サワダ",
-        "title": "幸福中華サワダ",
-        "date": "2026-09-15",
-        "place": "恵庭市",
-        "note": "【閉店】札幌市厚別区の『幸福中華サワダ』が2026年9月15日(火)をもって閉店。",
-        "type": "closed",
-        "url": "https://chamonix-cakes.com/heiten-ab4lm5xjrzrdwu2bnc/",
-        "source": "札幌開店閉店インフォ・恵庭市",
-        "sources": [
-          {
-            "name": "札幌開店閉店インフォ・恵庭市",
-            "url": "https://chamonix-cakes.com/heiten-ab4lm5xjrzrdwu2bnc/",
-            "priority": 65
-          }
-        ],
-        "confidence": 0.54,
-        "source_count": 1,
-        "first_seen": "2026-09-18",
-        "last_seen": "2026-09-19"
-      },
-      {
-        "name": "昼飲み定食屋 はまや",
-        "title": "昼飲み定食屋 はまや",
-        "date": "2026-06-17",
-        "place": "恵庭市の新店情報",
-        "note": "開店情報 恵庭市 【開店】恵庭市に『昼飲み定食屋はまや』が2026年06月17日(水)よりOPEN!! 昼飲み定食屋はまや 2026/06/22",
-        "type": "open",
-        "url": "https://www.shopship.jp/eniwa/open-close/hamaya-megumino/",
-        "source": "恵庭ショップス・開店閉店",
-        "sources": [
-          {
-            "name": "恵庭ショップス・開店閉店",
-            "url": "https://www.shopship.jp/eniwa/open-close/hamaya-megumino/",
-            "priority": 85
-          }
-        ],
-        "confidence": 0.54,
-        "source_count": 1,
-        "first_seen": "2026-09-18",
-        "last_seen": "2026-09-19"
-      },
-      {
-        "name": "クラフトドーナツワークス 恵み野駅前店",
-        "title": "クラフトドーナツワークス 恵み野駅前店",
-        "date": "2026-02-20",
-        "place": "恵庭市の新店情報",
-        "note": "開店情報 恵庭市 【開店】恵庭市に『クラフトドーナツワークス 恵み野駅前店』が2026年02月20日(金)よりOPEN!! クラフトドーナツワークス 恵み野駅前店 2026/05/02",
-        "type": "open",
-        "url": "https://www.shopship.jp/eniwa/open-close/craft_donut_works_megumino/",
-        "source": "恵庭ショップス・開店閉店",
-        "sources": [
-          {
-            "name": "恵庭ショップス・開店閉店",
-            "url": "https://www.shopship.jp/eniwa/open-close/craft_donut_works_megumino/",
-            "priority": 85
-          }
-        ],
-        "confidence": 0.54,
-        "source_count": 1,
-        "first_seen": "2026-09-18",
-        "last_seen": "2026-09-19"
-      },
-      {
-        "name": "鉄板亭 縄翔",
-        "title": "鉄板亭 縄翔",
-        "date": "2024-11-29",
-        "place": "恵庭市に鉄板定食屋",
-        "note": "開店情報 恵庭市 【新店舗】恵庭市に鉄板定食屋『鉄板亭 縄翔』が2024年11月29日(金)よりOPEN!! 2024/11/30",
-        "type": "open",
-        "url": "https://www.shopship.jp/eniwa/open-close/teppantei-nawashou/",
-        "source": "恵庭ショップス・開店閉店",
-        "sources": [
-          {
-            "name": "恵庭ショップス・開店閉店",
-            "url": "https://www.shopship.jp/eniwa/open-close/teppantei-nawashou/",
-            "priority": 85
-          }
-        ],
-        "confidence": 0.54,
-        "source_count": 1,
-        "first_seen": "2026-09-18",
-        "last_seen": "2026-09-19"
-      },
-      {
-        "name": "お食事処 永〜ながれ〜",
-        "title": "お食事処 永〜ながれ〜",
-        "date": "2024-11-15",
-        "place": "恵庭市に居酒屋",
-        "note": "開店情報 恵庭市 【新店舗】恵庭市に居酒屋『お食事処 永〜ながれ〜』が2024年11月15日(金)よりOPEN!! 2024/11/30",
-        "type": "open",
-        "url": "https://www.shopship.jp/eniwa/open-close/nagare-eniwa/",
-        "source": "恵庭ショップス・開店閉店",
-        "sources": [
-          {
-            "name": "恵庭ショップス・開店閉店",
-            "url": "https://www.shopship.jp/eniwa/open-close/nagare-eniwa/",
-            "priority": 85
-          }
-        ],
-        "confidence": 0.54,
-        "source_count": 1,
-        "first_seen": "2026-09-18",
-        "last_seen": "2026-09-19"
-      },
-      {
-        "name": "キッチン 京",
-        "title": "キッチン 京",
-        "date": "2024-10-01",
-        "place": "恵庭市に魚介類専門の創作和定食処",
-        "note": "開店情報 恵庭市 【新店舗】恵庭市に魚介類専門の創作和定食処『キッチン 京』が2024年10月1日(火)よりOPEN!! キッチン 京 2026/04/09",
-        "type": "open",
-        "url": "https://www.shopship.jp/eniwa/open-close/kitchen-kyo/",
-        "source": "恵庭ショップス・開店閉店",
-        "sources": [
-          {
-            "name": "恵庭ショップス・開店閉店",
-            "url": "https://www.shopship.jp/eniwa/open-close/kitchen-kyo/",
-            "priority": 85
-          }
-        ],
-        "confidence": 0.54,
-        "source_count": 1,
-        "first_seen": "2026-09-18",
-        "last_seen": "2026-09-19"
-      }
     ]
   },
   "unmatched": 163,
-  "source_count": 90,
-  "area_count": 14,
-  "areas_master": {
-    "中央区": "chuo",
-    "北区": "kita",
-    "東区": "higashi",
-    "白石区": "shiroishi",
-    "豊平区": "toyohira",
-    "南区": "minami",
-    "西区": "nishi",
-    "厚別区": "atsubetsu",
-    "手稲区": "teine",
-    "清田区": "kiyota",
-    "千歳市": "chitose",
-    "北広島市": "kitahiroshima",
-    "苫小牧市": "tomakomai",
-    "恵庭市": "eniwa"
-  },
-  "deep_collection": {
-    "social_source_count": 56,
-    "social_signal_count": 0,
-    "social_platforms": [
-      "instagram",
-      "x",
-      "tiktok",
-      "youtube"
-    ]
-  }
+  "source_count": 30
 }
