@@ -1,26 +1,26 @@
 {
   "version": "7.1",
-  "generated_at": "2026-09-19T06:54:40",
+  "generated_at": "2026-09-19T14:01:10",
   "date": "2026-09-19",
   "summary": {
-    "raw_candidates": 300,
-    "merged_candidates": 267,
+    "raw_candidates": 319,
+    "merged_candidates": 286,
     "news_json_total": 270,
-    "raw_unmatched_ward": 26,
-    "news_json_unmatched": 163,
+    "raw_unmatched_ward": 41,
+    "news_json_unmatched": 167,
     "status_raw": {
-      "open": 261,
-      "closed": 39
+      "open": 276,
+      "closed": 43
     },
     "ward_raw": {
-      "中央区": 104,
+      "中央区": 107,
       "北区": 25,
       "東区": 18,
       "白石区": 21,
       "豊平区": 16,
       "南区": 15,
       "西区": 13,
-      "厚別区": 13,
+      "厚別区": 14,
       "手稲区": 14,
       "清田区": 8,
       "千歳市": 8,
@@ -341,21 +341,21 @@
       "url": "https://sapporo-sokuho.com/archives/category/%E9%96%8B%E5%BA%97%E3%83%BB%E9%96%89%E5%BA%97/%E9%96%89%E5%BA%97%E6%83%85%E5%A0%B1",
       "scanned": 48,
       "link_candidates": 26,
-      "accepted": 2,
-      "rejected": 46,
+      "accepted": 3,
+      "rejected": 45,
       "errors": 0,
       "reasons": {
         "タイトル短すぎ/空": 12,
-        "飲食店判定NG": 24,
+        "飲食店判定NG": 23,
         "URL重複": 9,
         "ナビゲーション/共通リンク": 1
       },
       "wards": {
-        "南区": 1,
-        "区不明": 1
+        "区不明": 2,
+        "南区": 1
       },
       "statuses": {
-        "closed": 2
+        "closed": 3
       }
     },
     {
@@ -408,18 +408,25 @@
       "name": "開店閉店.com・札幌",
       "url": "https://kaiten-heiten-24.com/category/sapporo/",
       "scanned": 124,
-      "link_candidates": 112,
-      "accepted": 0,
-      "rejected": 124,
+      "link_candidates": 39,
+      "accepted": 18,
+      "rejected": 106,
       "errors": 0,
       "reasons": {
-        "タイトル短すぎ/空": 11,
-        "開閉ステータス不明": 111,
-        "タイトル長すぎ": 1,
-        "飲食店判定NG": 1
+        "タイトル短すぎ/空": 83,
+        "飲食店判定NG": 17,
+        "開閉ステータス不明": 4,
+        "ナビゲーション/共通リンク": 2
       },
-      "wards": {},
-      "statuses": {}
+      "wards": {
+        "区不明": 14,
+        "中央区": 3,
+        "厚別区": 1
+      },
+      "statuses": {
+        "open": 15,
+        "closed": 3
+      }
     },
     {
       "id": "teine_magazine",
