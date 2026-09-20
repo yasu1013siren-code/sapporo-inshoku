@@ -1,6 +1,6 @@
 {
   "version": "7.1",
-  "generated_at": "2026-09-20T03:03:12",
+  "generated_at": "2026-09-20T03:27:38",
   "date": "2026-09-20",
   "areas": {
     "chuo": [
@@ -107,6 +107,27 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
+        "last_seen": "2026-09-20"
+      },
+      {
+        "name": "サカヤノノミヤ｜札幌中央区すすきの 2026-09-20 すすきの",
+        "title": "サカヤノノミヤ｜札幌中央区すすきの 2026-09-20 すすきの",
+        "date": "2026-09-20",
+        "place": "中央区すすきの",
+        "note": "サカヤノノミヤ｜札幌中央区すすきの 2026-09-20 すすきの",
+        "type": "closed",
+        "url": "https://mogtrip.jp/sakaya-no-nomiya/",
+        "source": "mogtrip・閉店",
+        "sources": [
+          {
+            "name": "mogtrip・閉店",
+            "url": "https://mogtrip.jp/sakaya-no-nomiya/",
+            "priority": 90
+          }
+        ],
+        "confidence": 0.79,
+        "source_count": 1,
+        "first_seen": "2026-09-20",
         "last_seen": "2026-09-20"
       },
       {

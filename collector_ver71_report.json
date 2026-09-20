@@ -1,11 +1,11 @@
 {
   "version": "7.1",
-  "generated_at": "2026-09-20T03:03:12",
+  "generated_at": "2026-09-20T03:27:38",
   "date": "2026-09-20",
   "summary": {
     "raw_candidates": 306,
     "merged_candidates": 273,
-    "news_json_total": 270,
+    "news_json_total": 271,
     "raw_unmatched_ward": 27,
     "news_json_unmatched": 167,
     "status_raw": {
@@ -30,7 +30,7 @@
       "苫小牧市": 11
     },
     "ward_final": {
-      "中央区": 101,
+      "中央区": 102,
       "北区": 20,
       "東区": 16,
       "白石区": 20,
