@@ -171,12 +171,15 @@ SOURCE_CONFIG = [
     {"id": "gogai_kita", "name": "号外NET 札幌市北区", "url": "https://sapporokitaku.goguynet.jp/category/cat_openclose/", "kind": "gogai_list", "priority": 80},
     {"id": "gogai_nishi_teine", "name": "号外NET 札幌市西区・手稲区", "url": "https://sapporonishi-teine.goguynet.jp/category/cat_openclose/", "kind": "gogai_list", "priority": 80},
     {"id": "gogai_chitose_eniwa_kitahiroshima", "name": "号外NET 千歳市・恵庭市・北広島市", "url": "https://chitose-eniwa-kitahiroshima.goguynet.jp/category/cat_openclose/", "kind": "gogai_list", "priority": 80},
+    {"id": "gogai_tomakomai", "name": "号外NET 苫小牧市", "url": "https://tomakomai.goguynet.jp/category/cat_openclose/", "kind": "gogai_list", "priority": 80},
 
     # 札幌近郊4市（区ではないがショップスに専用ページがある）
     {"id": "shopship_chitose", "name": "札幌ショップス・千歳市", "url": "https://www.shopship.jp/chitose/open-close/", "kind": "article_list", "priority": 85, "force_ward": "千歳市"},
     {"id": "shopship_eniwa", "name": "札幌ショップス・恵庭市", "url": "https://www.shopship.jp/eniwa/open-close/", "kind": "article_list", "priority": 85, "force_ward": "恵庭市"},
     {"id": "shopship_kitahiroshima", "name": "札幌ショップス・北広島市", "url": "https://www.shopship.jp/kitahiroshima/open-close/", "kind": "article_list", "priority": 85, "force_ward": "北広島市"},
     {"id": "shopship_tomakomai", "name": "札幌ショップス・苫小牧市", "url": "https://www.shopship.jp/tomakomai/open-close/", "kind": "article_list", "priority": 85, "force_ward": "苫小牧市"},
+    {"id": "mypl_tomakomai", "name": "まいぷれ苫小牧・新店特集", "url": "https://tomakomai.mypl.net/article/newopen_tomakomai", "kind": "article_list", "priority": 75, "force_ward": "苫小牧市", "default_status": "open"},
+    {"id": "mypl_chitose", "name": "まいぷれ千歳・新店特集", "url": "https://chitose-eniwa.mypl.net/article/newopen_chitose", "kind": "article_list", "priority": 75, "default_status": "open"},
     {"id": "sapporo_sokuho_close", "name": "札幌速報・閉店", "url": "https://sapporo-sokuho.com/archives/category/%E9%96%8B%E5%BA%97%E3%83%BB%E9%96%89%E5%BA%97/%E9%96%89%E5%BA%97%E6%83%85%E5%A0%B1", "kind": "article_list", "priority": 80, "default_status": "closed"},
     {"id": "sapporo_list_open", "name": "札幌リスト・開店", "url": "https://sapporo-list.info/open/", "kind": "article_list", "priority": 75, "default_status": "open"},
     {"id": "sapporo_yard", "name": "SAPPOROYARD", "url": "https://sapporoyard.com/archives/openclose.html", "kind": "article_list", "priority": 70},
