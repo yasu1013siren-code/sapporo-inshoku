@@ -1,32 +1,33 @@
 {
   "version": "7.1",
-  "generated_at": "2026-09-19T14:01:10",
-  "date": "2026-09-19",
+  "generated_at": "2026-09-20T02:48:03",
+  "date": "2026-09-20",
   "summary": {
-    "raw_candidates": 319,
-    "merged_candidates": 286,
+    "raw_candidates": 306,
+    "merged_candidates": 273,
     "news_json_total": 270,
-    "raw_unmatched_ward": 41,
+    "raw_unmatched_ward": 27,
     "news_json_unmatched": 167,
     "status_raw": {
-      "open": 276,
-      "closed": 43
+      "open": 261,
+      "closed": 44,
+      "upcoming": 1
     },
     "ward_raw": {
-      "中央区": 107,
+      "中央区": 104,
       "北区": 25,
       "東区": 18,
       "白石区": 21,
       "豊平区": 16,
       "南区": 15,
       "西区": 13,
-      "厚別区": 14,
+      "厚別区": 13,
       "手稲区": 14,
       "清田区": 8,
       "千歳市": 8,
       "恵庭市": 5,
       "北広島市": 8,
-      "苫小牧市": 6
+      "苫小牧市": 11
     },
     "ward_final": {
       "中央区": 101,
@@ -157,8 +158,8 @@
       "errors": 0,
       "reasons": {
         "区タグなし": 1,
-        "飲食店判定NG": 6,
-        "開閉ステータス不明": 5,
+        "飲食店判定NG": 7,
+        "開閉ステータス不明": 4,
         "タイトル短すぎ/空": 11,
         "URL重複": 7
       },
@@ -241,6 +242,30 @@
       "statuses": {
         "open": 4,
         "closed": 1
+      }
+    },
+    {
+      "id": "gogai_tomakomai",
+      "name": "号外NET 苫小牧市",
+      "url": "https://tomakomai.goguynet.jp/category/cat_openclose/",
+      "scanned": 37,
+      "link_candidates": 20,
+      "accepted": 5,
+      "rejected": 32,
+      "errors": 0,
+      "reasons": {
+        "区タグなし": 1,
+        "飲食店判定NG": 8,
+        "開閉ステータス不明": 6,
+        "タイトル短すぎ/空": 11,
+        "URL重複": 6
+      },
+      "wards": {
+        "苫小牧市": 5
+      },
+      "statuses": {
+        "closed": 4,
+        "upcoming": 1
       }
     },
     {
@@ -336,6 +361,36 @@
       }
     },
     {
+      "id": "mypl_tomakomai",
+      "name": "まいぷれ苫小牧・新店特集",
+      "url": "https://tomakomai.mypl.net/article/newopen_tomakomai",
+      "scanned": 0,
+      "link_candidates": 0,
+      "accepted": 0,
+      "rejected": 1,
+      "errors": 0,
+      "reasons": {
+        "robots.txt禁止": 1
+      },
+      "wards": {},
+      "statuses": {}
+    },
+    {
+      "id": "mypl_chitose",
+      "name": "まいぷれ千歳・新店特集",
+      "url": "https://chitose-eniwa.mypl.net/article/newopen_chitose",
+      "scanned": 0,
+      "link_candidates": 0,
+      "accepted": 0,
+      "rejected": 1,
+      "errors": 0,
+      "reasons": {
+        "robots.txt禁止": 1
+      },
+      "wards": {},
+      "statuses": {}
+    },
+    {
       "id": "sapporo_sokuho_close",
       "name": "札幌速報・閉店",
       "url": "https://sapporo-sokuho.com/archives/category/%E9%96%8B%E5%BA%97%E3%83%BB%E9%96%89%E5%BA%97/%E9%96%89%E5%BA%97%E6%83%85%E5%A0%B1",
@@ -408,25 +463,18 @@
       "name": "開店閉店.com・札幌",
       "url": "https://kaiten-heiten-24.com/category/sapporo/",
       "scanned": 124,
-      "link_candidates": 39,
-      "accepted": 18,
-      "rejected": 106,
+      "link_candidates": 112,
+      "accepted": 0,
+      "rejected": 124,
       "errors": 0,
       "reasons": {
-        "タイトル短すぎ/空": 83,
-        "飲食店判定NG": 17,
-        "開閉ステータス不明": 4,
-        "ナビゲーション/共通リンク": 2
+        "タイトル短すぎ/空": 11,
+        "開閉ステータス不明": 111,
+        "タイトル長すぎ": 1,
+        "飲食店判定NG": 1
       },
-      "wards": {
-        "区不明": 14,
-        "中央区": 3,
-        "厚別区": 1
-      },
-      "statuses": {
-        "open": 15,
-        "closed": 3
-      }
+      "wards": {},
+      "statuses": {}
     },
     {
       "id": "teine_magazine",
