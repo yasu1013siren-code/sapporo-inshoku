@@ -1,49 +1,48 @@
 {
   "version": "7.1",
-  "generated_at": "2026-09-20T03:27:38",
-  "date": "2026-09-20",
+  "generated_at": "2026-09-21T03:22:43",
+  "date": "2026-09-21",
   "summary": {
-    "raw_candidates": 306,
-    "merged_candidates": 273,
-    "news_json_total": 271,
-    "raw_unmatched_ward": 27,
-    "news_json_unmatched": 167,
+    "raw_candidates": 326,
+    "merged_candidates": 293,
+    "news_json_total": 280,
+    "raw_unmatched_ward": 44,
+    "news_json_unmatched": 171,
     "status_raw": {
-      "open": 261,
-      "closed": 44,
-      "upcoming": 1
+      "open": 278,
+      "closed": 48
     },
     "ward_raw": {
-      "中央区": 104,
-      "北区": 25,
-      "東区": 18,
+      "中央区": 105,
+      "北区": 26,
+      "東区": 17,
       "白石区": 21,
-      "豊平区": 16,
+      "豊平区": 17,
       "南区": 15,
-      "西区": 13,
-      "厚別区": 13,
+      "西区": 14,
+      "厚別区": 14,
       "手稲区": 14,
       "清田区": 8,
       "千歳市": 8,
       "恵庭市": 5,
       "北広島市": 8,
-      "苫小牧市": 11
+      "苫小牧市": 10
     },
     "ward_final": {
-      "中央区": 102,
-      "北区": 20,
+      "中央区": 106,
+      "北区": 21,
       "東区": 16,
       "白石区": 20,
-      "豊平区": 14,
+      "豊平区": 15,
       "南区": 14,
-      "西区": 13,
+      "西区": 15,
       "厚別区": 14,
       "手稲区": 14,
       "清田区": 9,
       "千歳市": 9,
       "恵庭市": 6,
       "北広島市": 9,
-      "苫小牧市": 11
+      "苫小牧市": 12
     }
   },
   "sources": [
@@ -75,13 +74,13 @@
         "URL重複": 10
       },
       "wards": {
-        "中央区": 66,
+        "中央区": 65,
         "区不明": 5,
         "南区": 6,
-        "西区": 7,
+        "西区": 8,
         "白石区": 8,
-        "東区": 7,
-        "北区": 9,
+        "東区": 6,
+        "北区": 10,
         "豊平区": 4,
         "手稲区": 5,
         "清田区": 1,
@@ -250,22 +249,21 @@
       "url": "https://tomakomai.goguynet.jp/category/cat_openclose/",
       "scanned": 37,
       "link_candidates": 20,
-      "accepted": 5,
-      "rejected": 32,
+      "accepted": 4,
+      "rejected": 33,
       "errors": 0,
       "reasons": {
         "区タグなし": 1,
-        "飲食店判定NG": 8,
+        "飲食店判定NG": 9,
         "開閉ステータス不明": 6,
         "タイトル短すぎ/空": 11,
         "URL重複": 6
       },
       "wards": {
-        "苫小牧市": 5
+        "苫小牧市": 4
       },
       "statuses": {
-        "closed": 4,
-        "upcoming": 1
+        "closed": 4
       }
     },
     {
@@ -395,22 +393,22 @@
       "name": "札幌速報・閉店",
       "url": "https://sapporo-sokuho.com/archives/category/%E9%96%8B%E5%BA%97%E3%83%BB%E9%96%89%E5%BA%97/%E9%96%89%E5%BA%97%E6%83%85%E5%A0%B1",
       "scanned": 48,
-      "link_candidates": 26,
-      "accepted": 3,
-      "rejected": 45,
+      "link_candidates": 25,
+      "accepted": 4,
+      "rejected": 44,
       "errors": 0,
       "reasons": {
         "タイトル短すぎ/空": 12,
-        "飲食店判定NG": 23,
-        "URL重複": 9,
+        "飲食店判定NG": 21,
+        "URL重複": 10,
         "ナビゲーション/共通リンク": 1
       },
       "wards": {
-        "区不明": 2,
+        "区不明": 3,
         "南区": 1
       },
       "statuses": {
-        "closed": 3
+        "closed": 4
       }
     },
     {
@@ -463,18 +461,26 @@
       "name": "開店閉店.com・札幌",
       "url": "https://kaiten-heiten-24.com/category/sapporo/",
       "scanned": 124,
-      "link_candidates": 112,
-      "accepted": 0,
-      "rejected": 124,
+      "link_candidates": 39,
+      "accepted": 21,
+      "rejected": 103,
       "errors": 0,
       "reasons": {
-        "タイトル短すぎ/空": 11,
-        "開閉ステータス不明": 111,
-        "タイトル長すぎ": 1,
-        "飲食店判定NG": 1
+        "タイトル短すぎ/空": 83,
+        "飲食店判定NG": 14,
+        "開閉ステータス不明": 4,
+        "ナビゲーション/共通リンク": 2
       },
-      "wards": {},
-      "statuses": {}
+      "wards": {
+        "豊平区": 1,
+        "区不明": 16,
+        "中央区": 3,
+        "厚別区": 1
+      },
+      "statuses": {
+        "closed": 3,
+        "open": 18
+      }
     },
     {
       "id": "teine_magazine",
@@ -782,12 +788,12 @@
       "url": "https://chamonix-cakes.com/",
       "scanned": 133,
       "link_candidates": 122,
-      "accepted": 5,
-      "rejected": 128,
+      "accepted": 4,
+      "rejected": 129,
       "errors": 0,
       "reasons": {
         "タイトル短すぎ/空": 3,
-        "飲食店判定NG": 48,
+        "飲食店判定NG": 49,
         "ナビゲーション/共通リンク": 2,
         "URL重複": 6,
         "開閉ステータス不明": 69
@@ -795,11 +801,10 @@
       "wards": {
         "豊平区": 1,
         "白石区": 2,
-        "厚別区": 1,
-        "中央区": 1
+        "厚別区": 1
       },
       "statuses": {
-        "open": 4,
+        "open": 3,
         "closed": 1
       }
     }
