@@ -1,27 +1,28 @@
 {
   "version": "7.1",
-  "generated_at": "2026-09-21T03:22:43",
-  "date": "2026-09-21",
+  "generated_at": "2026-09-22T03:21:50",
+  "date": "2026-09-22",
   "summary": {
     "raw_candidates": 326,
-    "merged_candidates": 293,
-    "news_json_total": 280,
-    "raw_unmatched_ward": 44,
-    "news_json_unmatched": 171,
+    "merged_candidates": 292,
+    "news_json_total": 283,
+    "raw_unmatched_ward": 41,
+    "news_json_unmatched": 173,
     "status_raw": {
-      "open": 278,
-      "closed": 48
+      "open": 280,
+      "closed": 45,
+      "upcoming": 1
     },
     "ward_raw": {
       "中央区": 105,
       "北区": 26,
       "東区": 17,
       "白石区": 21,
-      "豊平区": 17,
+      "豊平区": 19,
       "南区": 15,
       "西区": 14,
-      "厚別区": 14,
-      "手稲区": 14,
+      "厚別区": 13,
+      "手稲区": 16,
       "清田区": 8,
       "千歳市": 8,
       "恵庭市": 5,
@@ -33,11 +34,11 @@
       "北区": 21,
       "東区": 16,
       "白石区": 20,
-      "豊平区": 15,
+      "豊平区": 17,
       "南区": 14,
       "西区": 15,
       "厚別区": 14,
-      "手稲区": 14,
+      "手稲区": 15,
       "清田区": 9,
       "千歳市": 9,
       "恵庭市": 6,
@@ -125,24 +126,25 @@
       "url": "https://www.shopship.jp/sapporo/open-close/",
       "scanned": 136,
       "link_candidates": 38,
-      "accepted": 12,
-      "rejected": 124,
+      "accepted": 13,
+      "rejected": 123,
       "errors": 0,
       "reasons": {
         "開閉ステータス不明": 14,
-        "飲食店判定NG": 12,
+        "飲食店判定NG": 11,
         "ナビゲーション/共通リンク": 3,
         "URL重複": 15,
         "タイトル短すぎ/空": 80
       },
       "wards": {
+        "手稲区": 1,
         "中央区": 9,
         "豊平区": 1,
         "北区": 1,
         "白石区": 1
       },
       "statuses": {
-        "open": 10,
+        "open": 11,
         "closed": 2
       }
     },
@@ -199,16 +201,16 @@
       "name": "号外NET 札幌市西区・手稲区",
       "url": "https://sapporonishi-teine.goguynet.jp/category/cat_openclose/",
       "scanned": 37,
-      "link_candidates": 23,
+      "link_candidates": 24,
       "accepted": 3,
       "rejected": 34,
       "errors": 0,
       "reasons": {
         "区タグなし": 1,
         "飲食店判定NG": 12,
-        "開閉ステータス不明": 6,
+        "開閉ステータス不明": 7,
         "タイトル短すぎ/空": 11,
-        "URL重複": 3,
+        "URL重複": 2,
         "区名不明": 1
       },
       "wards": {
@@ -254,8 +256,8 @@
       "errors": 0,
       "reasons": {
         "区タグなし": 1,
-        "飲食店判定NG": 9,
-        "開閉ステータス不明": 6,
+        "飲食店判定NG": 10,
+        "開閉ステータス不明": 5,
         "タイトル短すぎ/空": 11,
         "URL重複": 6
       },
@@ -394,21 +396,23 @@
       "url": "https://sapporo-sokuho.com/archives/category/%E9%96%8B%E5%BA%97%E3%83%BB%E9%96%89%E5%BA%97/%E9%96%89%E5%BA%97%E6%83%85%E5%A0%B1",
       "scanned": 48,
       "link_candidates": 25,
-      "accepted": 4,
-      "rejected": 44,
+      "accepted": 3,
+      "rejected": 45,
       "errors": 0,
       "reasons": {
         "タイトル短すぎ/空": 12,
-        "飲食店判定NG": 21,
+        "飲食店判定NG": 22,
         "URL重複": 10,
         "ナビゲーション/共通リンク": 1
       },
       "wards": {
-        "区不明": 3,
-        "南区": 1
+        "豊平区": 1,
+        "南区": 1,
+        "区不明": 1
       },
       "statuses": {
-        "closed": 4
+        "upcoming": 1,
+        "closed": 2
       }
     },
     {
@@ -462,24 +466,24 @@
       "url": "https://kaiten-heiten-24.com/category/sapporo/",
       "scanned": 124,
       "link_candidates": 39,
-      "accepted": 21,
-      "rejected": 103,
+      "accepted": 20,
+      "rejected": 104,
       "errors": 0,
       "reasons": {
         "タイトル短すぎ/空": 83,
-        "飲食店判定NG": 14,
+        "飲食店判定NG": 15,
         "開閉ステータス不明": 4,
         "ナビゲーション/共通リンク": 2
       },
       "wards": {
         "豊平区": 1,
-        "区不明": 16,
+        "区不明": 15,
         "中央区": 3,
         "厚別区": 1
       },
       "statuses": {
         "closed": 3,
-        "open": 18
+        "open": 17
       }
     },
     {
@@ -487,16 +491,16 @@
       "name": "手稲マガジン・開店閉店",
       "url": "https://teine-magazine.com/category/kaitenheiten/",
       "scanned": 121,
-      "link_candidates": 41,
+      "link_candidates": 40,
       "accepted": 3,
       "rejected": 118,
       "errors": 0,
       "reasons": {
         "タイトル短すぎ/空": 38,
         "飲食店判定NG": 9,
-        "開閉ステータス不明": 29,
+        "開閉ステータス不明": 28,
         "ナビゲーション/共通リンク": 3,
-        "URL重複": 39
+        "URL重複": 40
       },
       "wards": {
         "手稲区": 3
@@ -676,21 +680,21 @@
       "url": "https://www.shopship.jp/teine/open-close/",
       "scanned": 126,
       "link_candidates": 39,
-      "accepted": 6,
-      "rejected": 120,
+      "accepted": 7,
+      "rejected": 119,
       "errors": 0,
       "reasons": {
         "開閉ステータス不明": 15,
-        "飲食店判定NG": 18,
+        "飲食店判定NG": 17,
         "ナビゲーション/共通リンク": 3,
         "タイトル短すぎ/空": 70,
         "URL重複": 14
       },
       "wards": {
-        "手稲区": 6
+        "手稲区": 7
       },
       "statuses": {
-        "open": 6
+        "open": 7
       }
     },
     {
@@ -799,13 +803,11 @@
         "開閉ステータス不明": 69
       },
       "wards": {
-        "豊平区": 1,
-        "白石区": 2,
-        "厚別区": 1
+        "豊平区": 2,
+        "白石区": 2
       },
       "statuses": {
-        "open": 3,
-        "closed": 1
+        "open": 4
       }
     }
   ],
