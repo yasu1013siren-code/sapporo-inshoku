@@ -87,6 +87,7 @@ WARDS = {
     "清田区": "kiyota",
     # 札幌市近郊の4市（区ではないが同じ仕組みでエリアとして扱う）
     "千歳市": "chitose",
+    "江別市": "ebetsu",
     "恵庭市": "eniwa",
     "北広島市": "kitahiroshima",
     "苫小牧市": "tomakomai",
@@ -96,7 +97,7 @@ WARD_ALIASES = {
     "中央": "中央区", "北": "北区", "東": "東区", "白石": "白石区",
     "豊平": "豊平区", "南": "南区", "西": "西区", "厚別": "厚別区",
     "手稲": "手稲区", "清田": "清田区",
-    "千歳": "千歳市", "恵庭": "恵庭市", "北広島": "北広島市", "苫小牧": "苫小牧市",
+    "千歳": "千歳市", "恵庭": "恵庭市", "北広島": "北広島市", "苫小牧": "苫小牧市", "江別": "江別市",
 }
 
 # ---------------- 住所抽出 ----------------
@@ -180,6 +181,8 @@ SOURCE_CONFIG = [
     {"id": "shopship_tomakomai", "name": "札幌ショップス・苫小牧市", "url": "https://www.shopship.jp/tomakomai/open-close/", "kind": "article_list", "priority": 85, "force_ward": "苫小牧市"},
     {"id": "mypl_tomakomai", "name": "まいぷれ苫小牧・新店特集", "url": "https://tomakomai.mypl.net/article/newopen_tomakomai", "kind": "article_list", "priority": 75, "force_ward": "苫小牧市", "default_status": "open"},
     {"id": "mypl_chitose", "name": "まいぷれ千歳・新店特集", "url": "https://chitose-eniwa.mypl.net/article/newopen_chitose", "kind": "article_list", "priority": 75, "default_status": "open"},
+    {"id": "mypl_ebetsu", "name": "まいぷれ江別・新店特集", "url": "https://ebetsu-iwamizawa.mypl.net/article/newopen_ebetsu-iwamizawa/", "kind": "article_list", "priority": 75, "default_status": "open"},
+    {"id": "ebetsu_life", "name": "北海道江別の暮らし情報・開店", "url": "https://helen-harumin.com/?cat=224", "kind": "article_list", "priority": 75, "force_ward": "江別市", "default_status": "open"},
     {"id": "sapporo_sokuho_close", "name": "札幌速報・閉店", "url": "https://sapporo-sokuho.com/archives/category/%E9%96%8B%E5%BA%97%E3%83%BB%E9%96%89%E5%BA%97/%E9%96%89%E5%BA%97%E6%83%85%E5%A0%B1", "kind": "article_list", "priority": 80, "default_status": "closed"},
     {"id": "sapporo_list_open", "name": "札幌リスト・開店", "url": "https://sapporo-list.info/open/", "kind": "article_list", "priority": 75, "default_status": "open"},
     {"id": "sapporo_yard", "name": "SAPPOROYARD", "url": "https://sapporoyard.com/archives/openclose.html", "kind": "article_list", "priority": 70},
