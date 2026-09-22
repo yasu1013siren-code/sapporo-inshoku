@@ -1,6 +1,6 @@
 {
   "version": "7.1",
-  "generated_at": "2026-09-22T03:21:50",
+  "generated_at": "2026-09-22T09:01:53",
   "date": "2026-09-22",
   "areas": {
     "chuo": [
@@ -3836,7 +3836,7 @@
             "priority": 80
           }
         ],
-        "confidence": 0.68,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-22",
         "last_seen": "2026-09-22"
@@ -4799,7 +4799,7 @@
             "priority": 90
           }
         ],
-        "confidence": 0.79,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-22",
         "last_seen": "2026-09-22"
@@ -6055,6 +6055,6 @@
       }
     ]
   },
-  "unmatched": 173,
+  "unmatched": 177,
   "source_count": 33
 }
