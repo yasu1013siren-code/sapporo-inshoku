@@ -1,6 +1,6 @@
 {
   "version": "7.1",
-  "generated_at": "2026-09-22T09:01:53",
+  "generated_at": "2026-09-22T09:52:18",
   "date": "2026-09-22",
   "areas": {
     "chuo": [
@@ -2454,10 +2454,15 @@
             "name": "mogtrip・新店",
             "url": "https://www.instagram.com/izakaya_tototo",
             "priority": 90
+          },
+          {
+            "name": "号外NET 札幌市北区",
+            "url": "https://sapporokitaku.goguynet.jp/2026/09/22/tototo/",
+            "priority": 80
           }
         ],
-        "confidence": 0.58,
-        "source_count": 2,
+        "confidence": 0.62,
+        "source_count": 3,
         "first_seen": "2026-09-13",
         "last_seen": "2026-09-22"
       },
@@ -5481,6 +5486,260 @@
         "last_seen": "2026-09-22"
       }
     ],
+    "ebetsu": [
+      {
+        "name": "ぱん屋ニレカゼ",
+        "title": "ぱん屋ニレカゼ",
+        "date": "2026-09-18",
+        "place": "江別市にあるベーカリー",
+        "note": "江別パン屋「ぱん屋ニレカゼ」9月22日営業再開！移転オープン",
+        "type": "closed",
+        "url": "https://helen-harumin.com/?p=21658",
+        "source": "北海道江別の暮らし情報・開店",
+        "sources": [
+          {
+            "name": "北海道江別の暮らし情報・開店",
+            "url": "https://helen-harumin.com/?p=21658",
+            "priority": 75
+          }
+        ],
+        "confidence": 0.66,
+        "source_count": 1,
+        "first_seen": "2026-09-22",
+        "last_seen": "2026-09-22"
+      },
+      {
+        "name": "ボンヴィヴァント",
+        "title": "ボンヴィヴァント",
+        "date": "2026-07-31",
+        "place": "江別市",
+        "note": "江別カフェ「ボンヴィヴァント」2026年7月31日閉店｜営業10年の軌跡とは？",
+        "type": "closed",
+        "url": "https://helen-harumin.com/?p=21676",
+        "source": "北海道江別の暮らし情報・開店",
+        "sources": [
+          {
+            "name": "北海道江別の暮らし情報・開店",
+            "url": "https://helen-harumin.com/?p=21676",
+            "priority": 75
+          }
+        ],
+        "confidence": 0.66,
+        "source_count": 1,
+        "first_seen": "2026-09-22",
+        "last_seen": "2026-09-22"
+      },
+      {
+        "name": "マクドナルドイオン江別店",
+        "title": "マクドナルドイオン江別店",
+        "date": "2026-07-23",
+        "place": "江別市内のマクドナルドファンの方",
+        "note": "「マクドナルドイオン江別店」休業中_リニューアルオープンはいつ？どう変わる？【2026年】",
+        "type": "closed",
+        "url": "https://helen-harumin.com/?p=20863",
+        "source": "北海道江別の暮らし情報・開店",
+        "sources": [
+          {
+            "name": "北海道江別の暮らし情報・開店",
+            "url": "https://helen-harumin.com/?p=20863",
+            "priority": 75
+          }
+        ],
+        "confidence": 0.66,
+        "source_count": 1,
+        "first_seen": "2026-09-22",
+        "last_seen": "2026-09-22"
+      },
+      {
+        "name": "桜井製麺所江別店",
+        "title": "桜井製麺所江別店",
+        "date": "2026-06-29",
+        "place": "江別市",
+        "note": "「桜井製麺所江別店」2026年7月オープン！記念500円油そばと学生応援詳細",
+        "type": "open",
+        "url": "https://helen-harumin.com/?p=20576",
+        "source": "北海道江別の暮らし情報・開店",
+        "sources": [
+          {
+            "name": "北海道江別の暮らし情報・開店",
+            "url": "https://helen-harumin.com/?p=20576",
+            "priority": 75
+          }
+        ],
+        "confidence": 0.66,
+        "source_count": 1,
+        "first_seen": "2026-09-22",
+        "last_seen": "2026-09-22"
+      },
+      {
+        "name": "はま寿司江別店",
+        "title": "はま寿司江別店",
+        "date": "2026-06-28",
+        "place": "江別市にあるお寿司屋さん",
+        "note": "「はま寿司江別店」2026年リニューアルオープン_子連れファミリーが混雑を避ける秘訣は？",
+        "type": "open",
+        "url": "https://helen-harumin.com/?p=20566",
+        "source": "北海道江別の暮らし情報・開店",
+        "sources": [
+          {
+            "name": "北海道江別の暮らし情報・開店",
+            "url": "https://helen-harumin.com/?p=20566",
+            "priority": 75
+          }
+        ],
+        "confidence": 0.66,
+        "source_count": 1,
+        "first_seen": "2026-09-22",
+        "last_seen": "2026-09-22"
+      },
+      {
+        "name": "すき家12号江別野幌店",
+        "title": "すき家12号江別野幌店",
+        "date": "2026-06-19",
+        "place": "江別市民の皆さんや国道12号線を利用するド",
+        "note": "【江別市】「すき家12号江別野幌店」改装一時閉店！7月22日リニューアルオープン",
+        "type": "closed",
+        "url": "https://helen-harumin.com/?p=20516",
+        "source": "北海道江別の暮らし情報・開店",
+        "sources": [
+          {
+            "name": "北海道江別の暮らし情報・開店",
+            "url": "https://helen-harumin.com/?p=20516",
+            "priority": 75
+          }
+        ],
+        "confidence": 0.66,
+        "source_count": 1,
+        "first_seen": "2026-09-22",
+        "last_seen": "2026-09-22"
+      },
+      {
+        "name": "アネラカフェ江別野幌店",
+        "title": "アネラカフェ江別野幌店",
+        "date": "2026-05-30",
+        "place": "江別市】保護犬猫",
+        "note": "【江別市】保護犬猫「アネラカフェ江別野幌店」2026年5月30日31日プレオープン！30分無料",
+        "type": "open",
+        "url": "https://helen-harumin.com/?p=20472",
+        "source": "北海道江別の暮らし情報・開店",
+        "sources": [
+          {
+            "name": "北海道江別の暮らし情報・開店",
+            "url": "https://helen-harumin.com/?p=20472",
+            "priority": 75
+          }
+        ],
+        "confidence": 0.66,
+        "source_count": 1,
+        "first_seen": "2026-09-22",
+        "last_seen": "2026-09-22"
+      },
+      {
+        "name": "ソフトクリーム・アイス・ジェラート・パフェ・フラッペ",
+        "title": "ソフトクリーム・アイス・ジェラート・パフェ・フラッペ",
+        "date": "2025-08-06",
+        "place": "江別市の人気",
+        "note": "【完全保存版】北海道江別市の人気「ソフトクリーム・アイス・ジェラート・パフェ・フラッペ」おすすめスポット21選",
+        "type": "open",
+        "url": "https://helen-harumin.com/?p=9232",
+        "source": "北海道江別の暮らし情報・開店",
+        "sources": [
+          {
+            "name": "北海道江別の暮らし情報・開店",
+            "url": "https://helen-harumin.com/?p=9232",
+            "priority": 75
+          }
+        ],
+        "confidence": 0.66,
+        "source_count": 1,
+        "first_seen": "2026-09-22",
+        "last_seen": "2026-09-22"
+      },
+      {
+        "name": "EBRIエブリ",
+        "title": "EBRIエブリ",
+        "date": "",
+        "place": "江別市",
+        "note": "EBRIエブリ",
+        "type": "open",
+        "url": "https://helen-harumin.com/?cat=228",
+        "source": "北海道江別の暮らし情報・開店",
+        "sources": [
+          {
+            "name": "北海道江別の暮らし情報・開店",
+            "url": "https://helen-harumin.com/?cat=228",
+            "priority": 75
+          }
+        ],
+        "confidence": 0.62,
+        "source_count": 1,
+        "first_seen": "2026-09-22",
+        "last_seen": "2026-09-22"
+      },
+      {
+        "name": "イベント",
+        "title": "イベント",
+        "date": "",
+        "place": "江別市",
+        "note": "イベント",
+        "type": "open",
+        "url": "https://helen-harumin.com/?cat=211",
+        "source": "北海道江別の暮らし情報・開店",
+        "sources": [
+          {
+            "name": "北海道江別の暮らし情報・開店",
+            "url": "https://helen-harumin.com/?cat=211",
+            "priority": 75
+          }
+        ],
+        "confidence": 0.62,
+        "source_count": 1,
+        "first_seen": "2026-09-22",
+        "last_seen": "2026-09-22"
+      },
+      {
+        "name": "スイーツ",
+        "title": "スイーツ",
+        "date": "",
+        "place": "江別市",
+        "note": "スイーツ",
+        "type": "open",
+        "url": "https://helen-harumin.com/?cat=86",
+        "source": "北海道江別の暮らし情報・開店",
+        "sources": [
+          {
+            "name": "北海道江別の暮らし情報・開店",
+            "url": "https://helen-harumin.com/?cat=86",
+            "priority": 75
+          }
+        ],
+        "confidence": 0.62,
+        "source_count": 1,
+        "first_seen": "2026-09-22",
+        "last_seen": "2026-09-22"
+      },
+      {
+        "name": "地域・まちづくり",
+        "title": "地域・まちづくり",
+        "date": "",
+        "place": "江別市",
+        "note": "地域・まちづくり",
+        "type": "open",
+        "url": "https://helen-harumin.com/?cat=132",
+        "source": "北海道江別の暮らし情報・開店",
+        "sources": [
+          {
+            "name": "北海道江別の暮らし情報・開店",
+            "url": "https://helen-harumin.com/?cat=132",
+            "priority": 75
+          }
+        ],
+        "confidence": 0.62,
+        "source_count": 1,
+        "first_seen": "2026-09-22",
+        "last_seen": "2026-09-22"
+      }
+    ],
     "eniwa": [
       {
         "name": "幸福中華サワダ",
@@ -6056,5 +6315,5 @@
     ]
   },
   "unmatched": 177,
-  "source_count": 33
+  "source_count": 35
 }
