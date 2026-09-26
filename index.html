@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>札幌市10区+近郊5市 飲食店 開店閉店速報板</title>
+<title>札幌市10区+近郊4市 飲食店 開店閉店速報板</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@600;800&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&display=swap" rel="stylesheet">
 <style>
@@ -223,13 +223,13 @@
       <span class="eyebrow">SAPPORO INSHOKUTEN GOGAI ／ 飲食店開店閉店速報</span>
       <span class="eyebrow" id="auto-refresh-status">自動更新：待機中</span>
     </div>
-    <h1>札幌市10区+近郊5市<small>飲食店 開店・閉店 速報板</small></h1>
-    <p class="lede">ラーメンから割烹、バーまで業種は問いません。札幌市10区に加え、千歳市・恵庭市・北広島市・苫小牧市・江別市の飲食店の新規開店・閉店・開店予定情報も、複数の情報源から集めてまとめています。</p>
+    <h1>札幌市10区+近郊4市<small>飲食店 開店・閉店 速報板</small></h1>
+    <p class="lede">ラーメンから割烹、バーまで業種は問いません。札幌市10区に加え、千歳市・恵庭市・北広島市・苫小牧市の飲食店の新規開店・閉店・開店予定情報も、複数の情報源から集めてまとめています。</p>
   </div>
   <div class="stamp">号外</div>
 </div>
 
-<p class="updated-line">最終更新：2026年9月20日時点で確認できた情報を掲載しています（札幌市10区＋千歳市・恵庭市・北広島市・苫小牧市・江別市）。</p>
+<p class="updated-line">最終更新：2026年9月20日時点で確認できた情報を掲載しています（札幌市10区＋千歳市・恵庭市・北広島市・苫小牧市）。</p>
 
 <div class="wrap">
 
@@ -265,7 +265,6 @@ const AREA_META = [
   {id:"eniwa", label:"恵庭市"},
   {id:"kitahiroshima", label:"北広島市"},
   {id:"tomakomai", label:"苫小牧市"},
-  {id:"ebetsu", label:"江別市"},
 ];
 
 function buildTabsAndSections(){
@@ -613,17 +612,6 @@ const CONFIRMED = {
       {name:"ラ・ペテガリ", date:"2026-06-16", place:"北栄町 かたる横丁内", note:"移転のため現店舗での営業を終了。", source:"号外NET", url:"https://tomakomai.goguynet.jp/category/cat_openclose/"},
     ]
   },
-  ebetsu: {
-    open: [
-      {name:"桜井製麺所 ～情熱腹パン編～ 江別店", date:"2026-07-03", place:"江別市", note:"自家製麺の油そばが名物。", source:"北海道江別の暮らし情報", url:"https://helen-harumin.com/?cat=224"},
-      {name:"ANELLA CAFE 江別野幌店", date:"2026-05-30", place:"野幌", note:"", source:"札幌開店閉店インフォ", url:"https://chamonix-cakes.com/category/%E6%96%B0%E5%BA%97%E6%83%85%E5%A0%B1/%E6%B1%9F%E5%88%A5%E5%B8%82%E3%81%AE%E6%96%B0%E5%BA%97%E6%83%85%E5%A0%B1/"},
-      {name:"Éclat douce（エクラドゥース）", date:"2026-05-27", place:"江別市", note:"", source:"札幌開店閉店インフォ", url:"https://chamonix-cakes.com/category/%E6%96%B0%E5%BA%97%E6%83%85%E5%A0%B1/%E6%B1%9F%E5%88%A5%E5%B8%82%E3%81%AE%E6%96%B0%E5%BA%97%E6%83%85%E5%A0%B1/"},
-      {name:"マクドナルド イオン江別店（改装リニューアル）", date:"2026-07-31", place:"イオン江別店", note:"改装休業からグランドオープン。", source:"北海道江別の暮らし情報", url:"https://helen-harumin.com/?cat=224"},
-    ],
-    closed: [
-      {name:"江別市役所地下売店", date:"2026-07-31", place:"江別市役所本庁舎地下1階", note:"", source:"北海道江別の暮らし情報", url:"https://helen-harumin.com/?cat=224"},
-    ]
-  }
 };
 
 // 開店予定（確定オープン日が判明しているもの／目安2ヶ月以内）
@@ -691,10 +679,7 @@ const UPCOMING = {
   chitose: [],
   eniwa: [],
   kitahiroshima: [],
-  tomakomai: [],
-  ebetsu: [
-    {name:"ぱん屋ニレカゼ（移転再開）", date:"2026年9月", place:"文京台南町 野幌森林公園「大沢口」近く", note:"日付未定・要確認。", source:"北海道江別の暮らし情報", url:"https://ebetsunopporo.com/?cat=2404"},
-  ]
+  tomakomai: []
 };
 
 const MONTH_NAMES = ["1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"];
@@ -825,8 +810,6 @@ const SOURCES = [
   {name:"札幌ショップス 苫小牧", desc:"開店・閉店情報", url:"https://www.shopship.jp/tomakomai/open-close/"},
   {name:"号外NET 苫小牧市", desc:"開店・閉店カテゴリ", url:"https://tomakomai.goguynet.jp/category/cat_openclose/"},
   {name:"まいぷれ 苫小牧", desc:"地域情報サイト・新店特集", url:"https://tomakomai.mypl.net/article/newopen_tomakomai"},
-  {name:"北海道江別の暮らし情報", desc:"江別市の開店・閉店ニュース", url:"https://helen-harumin.com/?cat=224"},
-  {name:"まいぷれ 江別・岩見沢・当別", desc:"地域情報サイト・新店特集", url:"https://ebetsu-iwamizawa.mypl.net/article/newopen_ebetsu-iwamizawa/"},
   {name:"mogtrip 札幌新店開店情報一覧", desc:"飲食店のみ・随時更新", url:"https://mogtrip.jp/newopen-2026/"},
   {name:"mogtrip 札幌閉店情報一覧", desc:"飲食店のみ・随時更新", url:"https://mogtrip.jp/closed-2026/"},
   {name:"食べログ 中央区 ニューオープン順", desc:"新規オープン店舗一覧", url:"https://tabelog.com/hokkaido/C1101/rstLst/cond16-00-00/"},
