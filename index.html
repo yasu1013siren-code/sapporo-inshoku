@@ -192,6 +192,13 @@
 
   .empty-note{font-size:13px;color:var(--ink-soft);padding:10px 0;}
 
+
+  /* ---------- unconfirmed signals (A only) ---------- */
+  .unconfirmed-box{margin-top:8px;padding:12px;border:1px dashed #8a6a24;background:rgba(138,106,36,0.06);}
+  .unconfirmed-note{font-size:12px;color:var(--ink-soft);margin:0 0 10px;line-height:1.65;}
+  .event-card.unconfirmed-card{border-left:4px solid #8a6a24;}
+  .tag.unconfirmed-tag{background:rgba(138,106,36,0.16);color:#725718;}
+
   /* ---------- sources ---------- */
   .sources{margin-top:44px;}
   .sources h2{font-family:'Shippori Mincho B1',serif;font-size:19px;margin-bottom:12px;}
@@ -286,8 +293,14 @@ function buildTabsAndSections(){
       </div>
       <div class="event-feed" id="${a.id}-history"></div>
 
-      <div class="section-head"><h2>最新ニュース速報</h2><span class="count">号外NETより自動収集・毎日9:00更新</span></div>
+      <div class="section-head"><h2>最新ニュース速報</h2><span class="count">自動収集・最新情報</span></div>
       <div class="event-feed" id="${a.id}-news"></div>
+
+      <div class="section-head"><h2>🔎 未確認情報</h2><span class="count">A判定のみ表示・一次情報で要確認</span></div>
+      <div class="unconfirmed-box">
+        <p class="unconfirmed-note">SNS・求人・地域媒体などから検出した候補です。確定情報ではありません。内容変更・延期・誤認の可能性があるため、来店前に店舗公式情報などをご確認ください。</p>
+        <div class="event-feed" id="${a.id}-unconfirmed"></div>
+      </div>
     </section>
   `).join("");
 }
@@ -845,16 +858,66 @@ function newsItemHTML(item){
   </div>`;
 }
 
+const AREA_LABEL_TO_ID = Object.fromEntries(AREA_META.map(a=>[a.label, a.id]));
+
+function unconfirmedItemHTML(item){
+  const d = parseDateLoose(item.date_hint);
+  const day = d ? String(d.getDate()).padStart(2,"0") : "?";
+  const month = d ? MONTH_NAMES[d.getMonth()] : "日付未定";
+  const type = item.status === "closed" ? "closed" : "upcoming";
+  const statusLabel = item.status === "closed" ? "閉店情報" : "開店予定";
+  const name = item.store_name || "店名未発表";
+  const place = item.address_hint || item.area || "";
+  const source = item.source || item.source_type || "公開情報";
+  const href = item.url || "#";
+  return `<div class="event-card unconfirmed-card" data-type="unconfirmed">
+    <div class="date-badge type-${type}"><span class="day">${day}</span><span class="month">${month}</span></div>
+    <div class="event-body">
+      <div class="event-tags">
+        <span class="tag unconfirmed-tag">未確認・A判定</span>
+        <span class="tag type-${type}">${statusLabel}</span>
+        <span class="tag area-tag">${escapeHTML(item.area || "")}</span>
+      </div>
+      <h3><a class="src-link" href="${href}" target="_blank" rel="noopener noreferrer">${escapeHTML(name)} ↗</a></h3>
+      ${place ? `<p>${escapeHTML(place)}</p>` : ""}
+      <div class="tip-src">情報源：${escapeHTML(source)} ／ 確認状況：未確認</div>
+    </div>
+  </div>`;
+}
+
+function renderUnconfirmed(data){
+  AREA_META.forEach(a=>{
+    const el = document.getElementById(`${a.id}-unconfirmed`);
+    if(el) el.innerHTML = `<p class="empty-note">現在、A判定の未確認情報はありません。</p>`;
+  });
+  const items = Array.isArray(data.unconfirmed) ? data.unconfirmed : [];
+  const grouped = {};
+  items.filter(x=>x.review_class === "A" && x.display_eligible !== false).forEach(item=>{
+    const id = AREA_LABEL_TO_ID[item.area];
+    if(!id) return;
+    (grouped[id] ||= []).push(item);
+  });
+  Object.entries(grouped).forEach(([id, rows])=>{
+    const el = document.getElementById(`${id}-unconfirmed`);
+    if(!el) return;
+    rows.sort((a,b)=>(a.date_hint || "9999").localeCompare(b.date_hint || "9999"));
+    el.innerHTML = rows.map(unconfirmedItemHTML).join("");
+  });
+}
+
 async function loadAutoNews(){
   const areaIds = AREA_META.map(a=>a.id);
   areaIds.forEach(area=>{
     const el = document.getElementById(`${area}-news`);
     if(el) el.innerHTML = `<p class="empty-note">読み込み中…</p>`;
+    const uel = document.getElementById(`${area}-unconfirmed`);
+    if(uel) uel.innerHTML = `<p class="empty-note">読み込み中…</p>`;
   });
   try{
     const res = await fetch("news.json", {cache:"no-store"});
     if(!res.ok) throw new Error("news.json の取得に失敗しました");
     const data = await res.json();
+    renderUnconfirmed(data);
 
     // 表示は「今日から前後1ヶ月」に絞る（日付未定のものは念のため残す）
     const now = new Date(); now.setHours(0,0,0,0);
@@ -878,6 +941,8 @@ async function loadAutoNews(){
     areaIds.forEach(area=>{
       const el = document.getElementById(`${area}-news`);
       if(el) el.innerHTML = `<p class="empty-note">自動収集データを読み込めませんでした（news.jsonがまだ生成されていない可能性があります）。</p>`;
+      const uel = document.getElementById(`${area}-unconfirmed`);
+      if(uel) uel.innerHTML = `<p class="empty-note">未確認情報を読み込めませんでした。</p>`;
     });
   }
 }

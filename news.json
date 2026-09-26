@@ -1,6 +1,6 @@
 {
   "version": "7.2",
-  "generated_at": "2026-09-26T21:47:18",
+  "generated_at": "2026-09-26T23:42:11",
   "date": "2026-09-26",
   "areas": {
     "chuo": [
@@ -5218,7 +5218,7 @@
             "priority": 80
           }
         ],
-        "confidence": 0.72,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-26",
         "last_seen": "2026-09-26"
@@ -5537,7 +5537,7 @@
             "priority": 70
           }
         ],
-        "confidence": 0.66,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-26",
         "last_seen": "2026-09-26"
@@ -5558,7 +5558,7 @@
             "priority": 70
           }
         ],
-        "confidence": 0.66,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-26",
         "last_seen": "2026-09-26"
@@ -5791,7 +5791,7 @@
             "priority": 70
           }
         ],
-        "confidence": 0.66,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-26",
         "last_seen": "2026-09-26"
@@ -5812,7 +5812,7 @@
             "priority": 70
           }
         ],
-        "confidence": 0.66,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-26",
         "last_seen": "2026-09-26"
@@ -5961,7 +5961,7 @@
             "priority": 70
           }
         ],
-        "confidence": 0.66,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-26",
         "last_seen": "2026-09-26"
@@ -5982,7 +5982,7 @@
             "priority": 70
           }
         ],
-        "confidence": 0.66,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-26",
         "last_seen": "2026-09-26"
@@ -6066,7 +6066,7 @@
             "priority": 70
           }
         ],
-        "confidence": 0.66,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-26",
         "last_seen": "2026-09-26"
@@ -6453,6 +6453,274 @@
       }
     ]
   },
-  "unmatched": 213,
-  "source_count": 38
+  "unmatched": 214,
+  "source_count": 38,
+  "collector_version": "7.3.6",
+  "unconfirmed_count": 7,
+  "unconfirmed_total_count": 202,
+  "unconfirmed_class_counts": {
+    "A": 7,
+    "B": 104,
+    "C": 91
+  },
+  "unconfirmed_updated_at": "2026-09-26T23:42:34",
+  "unconfirmed": [
+    {
+      "title": "〜絆養鶏場新店舗オープンのお知らせ〜 拝啓 時下ますますご清栄のこととお慶び申し上げます。 この度、令和7年11月22日 午前9時 札幌市北区屯田9条2丁目1-10にて 絆養鶏場 純国産平飼い鶏卵専門店を 新規オープンさせて頂くことになりました。 これもひとえに、皆様方の - instagram.com",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBHZTdEdk92YjF5elNJMjNTSXlVSTVpaEFma3hXaGVzV2lncTJDYVByZkNkTDMycVJCSm1VMDRrOXR1VVB6MS15Zi14ejRsLUhOLXNZd1JR?oc=5",
+      "source": "instagram.com",
+      "source_type": "instagram",
+      "area": "北区",
+      "status": "upcoming",
+      "store_name": "〜絆養鶏場",
+      "address_hint": "札幌市北区屯田9条2丁目1-10にて 絆養鶏場 純国産平飼い鶏卵専門店を 新規オープンさせて頂くこと",
+      "date_hint": "2026-11-22",
+      "snippet": "〜絆養鶏場新店舗オープンのお知らせ〜 拝啓 時下ますますご清栄のこととお慶び申し上げます。 この度、令和7年11月22日 午前9時 札幌市北区屯田9条2丁目1-10にて 絆養鶏場 純国産平飼い鶏卵専門店を 新規オープンさせて頂くことになりました。 これもひとえに、皆様方の instagram.com",
+      "first_seen": "2026-09-26",
+      "confidence": 0.92,
+      "match_score": 0.0,
+      "matched_store": "",
+      "matched_url": "",
+      "verification": "unconfirmed",
+      "candidate_type": "named_store",
+      "display_eligible": true,
+      "review_class": "A",
+      "review_label": "掲載候補",
+      "review_score": 15,
+      "review_reasons": [
+        "店名品質:2",
+        "対象地域を特定",
+        "住所・場所情報あり",
+        "開閉店時期あり",
+        "開閉店状態を判定",
+        "SNS公開情報",
+        "抽出信頼度が高い",
+        "将来の開店予定日"
+      ],
+      "reasons": [
+        "公開Web検索で開店・閉店シグナルを検出",
+        "SNS由来の公開情報/検索インデックス",
+        "既存の確定情報に十分な一致なし"
+      ]
+    },
+    {
+      "title": "【苫小牧市】錦岡に海が見えるカフェ「CAFE&DELI KITAZAWA.」が12月21日にオープンします！ - tomakomai.goguynet.jp",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBaQTBESTVSTnNQNXJ4X2s4WGFIUGpwa2FVbmhoZHUyOUhZUTlxVjNLdjMxbjVvQzhRLWFrY2hxT1UtdUxPdlFlUjc0OUhoWUdocmtJUmJRelNLLXNRdzJkSVBwV1ZjMDUxdGx6X2R4QQ?oc=5",
+      "source": "tomakomai.goguynet.jp",
+      "source_type": "web",
+      "area": "苫小牧市",
+      "status": "upcoming",
+      "store_name": "CAFE&DELI KITAZAWA.",
+      "address_hint": "苫小牧市】錦岡に海が見えるカフェ「CAFE&DELI KITAZAWA.」が12月21日にオープン",
+      "date_hint": "2026-12-21",
+      "snippet": "【苫小牧市】錦岡に海が見えるカフェ「CAFE&DELI KITAZAWA.」が12月21日にオープンします！ tomakomai.goguynet.jp",
+      "first_seen": "2026-09-26",
+      "confidence": 0.88,
+      "match_score": 0.356,
+      "matched_store": "",
+      "matched_url": "",
+      "verification": "unconfirmed",
+      "candidate_type": "named_store",
+      "display_eligible": true,
+      "review_class": "A",
+      "review_label": "掲載候補",
+      "review_score": 15,
+      "review_reasons": [
+        "店名品質:3",
+        "対象地域を特定",
+        "住所・場所情報あり",
+        "開閉店時期あり",
+        "開閉店状態を判定",
+        "抽出信頼度が高い",
+        "将来の開店予定日"
+      ],
+      "reasons": [
+        "公開Web検索で開店・閉店シグナルを検出",
+        "既存の確定情報に十分な一致なし"
+      ]
+    },
+    {
+      "title": "【苫小牧市】美園町に「ネパールレストランSAINO」が11月27日オープンします！5月で閉店した麺屋『頑張増SU』の跡地です！ - tomakomai.goguynet.jp",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBLTjBqbGpWcm9KWGpJLVlqSnpoX3c2bnd2dTdiX25XRmlaV2ZNaTNfOUhEWXB4ZnphNmdZMjhWYkR4M3E1akpPUjJ6V0NsYVBOZ05HdXdILURpeHl2TUJtLQ?oc=5",
+      "source": "tomakomai.goguynet.jp",
+      "source_type": "web",
+      "area": "苫小牧市",
+      "status": "upcoming",
+      "store_name": "ネパールレストランSAINO",
+      "address_hint": "苫小牧市】美園町に「ネパールレストランSAINO」が11月27日オープンします！5月で閉店した麺屋",
+      "date_hint": "2026-11-27",
+      "snippet": "【苫小牧市】美園町に「ネパールレストランSAINO」が11月27日オープンします！5月で閉店した麺屋『頑張増SU』の跡地です！ tomakomai.goguynet.jp",
+      "first_seen": "2026-09-26",
+      "confidence": 0.88,
+      "match_score": 0.0,
+      "matched_store": "",
+      "matched_url": "",
+      "verification": "unconfirmed",
+      "candidate_type": "named_store",
+      "display_eligible": true,
+      "review_class": "A",
+      "review_label": "掲載候補",
+      "review_score": 15,
+      "review_reasons": [
+        "店名品質:3",
+        "対象地域を特定",
+        "住所・場所情報あり",
+        "開閉店時期あり",
+        "開閉店状態を判定",
+        "抽出信頼度が高い",
+        "将来の開店予定日"
+      ],
+      "reasons": [
+        "公開Web検索で開店・閉店シグナルを検出",
+        "既存の確定情報に十分な一致なし"
+      ]
+    },
+    {
+      "title": "✨ ネネチキン札幌すすきの本店｜オープニングスタッフ募集 🍗 ネネチキン札幌すすきの店 12月21日のグランドオープンに向けて オープニングスタッフ大募集！ 韓国No.1チキンブランドで、一緒に新店舗を盛り上げませんか？🇰🇷✨ 【募集職種】 ・キッチンスタッフ ・ホールスタッフ 【 - instagram.com",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9jaEFCSjVtLTlXMndTZlJ1QkxtQ1JLNmNRU0t5VzFvblFXLU9KV1JoVkNUbUs1czhRcGFoaktSVTZ2WWdlQVhmVHNpR3pONWhYTlE?oc=5",
+      "source": "instagram.com",
+      "source_type": "instagram",
+      "area": "中央区",
+      "status": "upcoming",
+      "store_name": "ネネチキン札幌すすきの本店",
+      "address_hint": "",
+      "date_hint": "2026-12-21",
+      "snippet": "✨ ネネチキン札幌すすきの本店｜オープニングスタッフ募集 🍗 ネネチキン札幌すすきの店 12月21日のグランドオープンに向けて オープニングスタッフ大募集！ 韓国No.1チキンブランドで、一緒に新店舗を盛り上げませんか？🇰🇷✨ 【募集職種】 ・キッチンスタッフ ・ホールスタッフ 【 instagram.com",
+      "first_seen": "2026-09-26",
+      "confidence": 0.84,
+      "match_score": 0.582,
+      "matched_store": "すすきの",
+      "matched_url": "https://mogtrip.jp/category/sapporo/chuo/susukino/",
+      "verification": "unconfirmed",
+      "candidate_type": "named_store",
+      "display_eligible": true,
+      "review_class": "A",
+      "review_label": "掲載候補",
+      "review_score": 14,
+      "review_reasons": [
+        "店名品質:3",
+        "対象地域を特定",
+        "開閉店時期あり",
+        "開閉店状態を判定",
+        "SNS公開情報",
+        "抽出信頼度が一定以上",
+        "既存情報に類似候補あり",
+        "将来の開店予定日"
+      ],
+      "reasons": [
+        "公開Web検索で開店・閉店シグナルを検出",
+        "SNS由来の公開情報/検索インデックス",
+        "予定・募集等の事前シグナル",
+        "既存情報に類似候補あり・要確認"
+      ]
+    },
+    {
+      "title": "札幌すすきのに待望の新店が11月6日オープン🎊 「グラッツェ！」の声が飛び交う活気ある店内。 おしゃれで少し照明を落とした空間に、本格イタリアンの香りが広がるそんな“美味しい瞬間”に出会えます✨ まず感動したのが前菜盛り合わせ¥1628(2人前から注文可) バジル香るサ - TikTok",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBjRGRIdVdSbE9ZbzFHNE04bE8yQ2k0Q3M2dlBCRHkxUmZTTzdtQ3pwTXE3ZXg2aF9UZVBhT3lFLVhORHJTQWEwQzhmQThIdnNCQnRkbzVRcWJyVHlyVHViSGVGUEhUalhCZXp2cg?oc=5",
+      "source": "TikTok",
+      "source_type": "tiktok",
+      "area": "中央区",
+      "status": "upcoming",
+      "store_name": "グラッツェ！",
+      "address_hint": "",
+      "date_hint": "2026-11-06",
+      "snippet": "札幌すすきのに待望の新店が11月6日オープン🎊 「グラッツェ！」の声が飛び交う活気ある店内。 おしゃれで少し照明を落とした空間に、本格イタリアンの香りが広がるそんな“美味しい瞬間”に出会えます✨ まず感動したのが前菜盛り合わせ¥1628(2人前から注文可) バジル香るサ TikTok",
+      "first_seen": "2026-09-26",
+      "confidence": 0.84,
+      "match_score": 0.0,
+      "matched_store": "",
+      "matched_url": "",
+      "verification": "unconfirmed",
+      "candidate_type": "named_store",
+      "display_eligible": true,
+      "review_class": "A",
+      "review_label": "掲載候補",
+      "review_score": 12,
+      "review_reasons": [
+        "店名品質:2",
+        "対象地域を特定",
+        "開閉店時期あり",
+        "開閉店状態を判定",
+        "SNS公開情報",
+        "抽出信頼度が一定以上",
+        "将来の開店予定日"
+      ],
+      "reasons": [
+        "公開Web検索で開店・閉店シグナルを検出",
+        "SNS由来の公開情報/検索インデックス",
+        "既存の確定情報に十分な一致なし"
+      ]
+    },
+    {
+      "title": "「オリーブの丘札幌新琴似店」2026年10月22日オープン、「すき家」「はま寿司」と揃い踏み - リアルエコノミー",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5LektaQzNqaVVNNEpMWTNrNWVuSDlUQ0M5a19RRWpuSXZGQXBISTltd1dkYURfUGhraC0yU1dkdWVmWEJ4U2NpTTIwRnBvV1E5dVY5UGpkaEwyQQ?oc=5",
+      "source": "リアルエコノミー",
+      "source_type": "web",
+      "area": "北区",
+      "status": "upcoming",
+      "store_name": "オリーブの丘札幌新琴似店",
+      "address_hint": "",
+      "date_hint": "2026-10-22",
+      "snippet": "「オリーブの丘札幌新琴似店」2026年10月22日オープン、「すき家」「はま寿司」と揃い踏み リアルエコノミー",
+      "first_seen": "2026-09-26",
+      "confidence": 0.8,
+      "match_score": 0.0,
+      "matched_store": "",
+      "matched_url": "",
+      "verification": "unconfirmed",
+      "candidate_type": "named_store",
+      "display_eligible": true,
+      "review_class": "A",
+      "review_label": "掲載候補",
+      "review_score": 12,
+      "review_reasons": [
+        "店名品質:3",
+        "対象地域を特定",
+        "開閉店時期あり",
+        "開閉店状態を判定",
+        "抽出信頼度が一定以上",
+        "将来の開店予定日"
+      ],
+      "reasons": [
+        "公開Web検索で開店・閉店シグナルを検出",
+        "既存の確定情報に十分な一致なし"
+      ]
+    },
+    {
+      "title": "【閉店】9月30日（水）閉店！「カフェ・ド・クリエ 札幌駅北口店」 - au Webポータル",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1xdHBPMnBpU0dYaDB1SElRQ3VlRVZaQ3dTZmxpVG85RERuSlRlUVp4NDduMDNmT2ZsNjYzcElFUmZJZ3VVUHZ6ZzhkWUpsSHRsbjMxbTRQdjRxSktia0hXTkgyd25pcnpTQ1AwdmZ3?oc=5",
+      "source": "au Webポータル",
+      "source_type": "web",
+      "area": "北区",
+      "status": "closed",
+      "store_name": "カフェ・ド・クリエ 札幌駅北口店",
+      "address_hint": "",
+      "date_hint": "2026-09-30",
+      "snippet": "【閉店】9月30日（水）閉店！「カフェ・ド・クリエ 札幌駅北口店」 au Webポータル",
+      "first_seen": "2026-09-26",
+      "confidence": 0.8,
+      "match_score": 0.632,
+      "matched_store": "カフェ・ド・クリエ",
+      "matched_url": "https://sapporokitaku.goguynet.jp/2026/08/16/cafedecrie-close/",
+      "verification": "unconfirmed",
+      "candidate_type": "named_store",
+      "display_eligible": true,
+      "review_class": "A",
+      "review_label": "掲載候補",
+      "review_score": 12,
+      "review_reasons": [
+        "店名品質:3",
+        "対象地域を特定",
+        "開閉店時期あり",
+        "開閉店状態を判定",
+        "抽出信頼度が一定以上",
+        "既存情報に類似候補あり",
+        "閉店予定または閉店後30日以内"
+      ],
+      "reasons": [
+        "公開Web検索で開店・閉店シグナルを検出",
+        "既存情報に類似候補あり・要確認"
+      ]
+    }
+  ]
 }
