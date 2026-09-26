@@ -1,3 +1,6 @@
 collector_ver71.log
 data/new_*.csv
 data/collector_ver71_report_*.csv
+collector_ver72.log
+collector_ver72_report.json
+data/collector_ver72_report_*.csv

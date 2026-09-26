@@ -1,6 +1,6 @@
 {
   "version": "7.2",
-  "generated_at": "2026-09-26T15:12:01",
+  "generated_at": "2026-09-26T21:33:46",
   "date": "2026-09-26",
   "areas": {
     "chuo": [
@@ -132,7 +132,7 @@
         ],
         "confidence": 0.54,
         "source_count": 1,
-        "first_seen": "2026-09-26",
+        "first_seen": "2026-09-23",
         "last_seen": "2026-09-26"
       },
       {
@@ -288,6 +288,27 @@
         "last_seen": "2026-09-26"
       },
       {
+        "name": "中華料理 永伸",
+        "title": "中華料理 永伸",
+        "date": "2026-09-14",
+        "place": "中央区南6条西3丁目6-31",
+        "note": "札幌市中央区の新店情報 【新店】札幌市中央区に『中華料理 永伸』が2026年9月14日(月)よりオープン！ 2026-09-22",
+        "type": "open",
+        "url": "https://www.instagram.com/eishin1830",
+        "source": "mogtrip・新店",
+        "sources": [
+          {
+            "name": "mogtrip・新店",
+            "url": "https://www.instagram.com/eishin1830",
+            "priority": 90
+          }
+        ],
+        "confidence": 0.54,
+        "source_count": 1,
+        "first_seen": "2026-09-21",
+        "last_seen": "2026-09-26"
+      },
+      {
         "name": "大衆酒場フレンチマン ココノススキノ店",
         "title": "大衆酒場フレンチマン ココノススキノ店",
         "date": "2026-09-13",
@@ -395,7 +416,49 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-16",
-        "last_seen": "2026-09-22"
+        "last_seen": "2026-09-25"
+      },
+      {
+        "name": "PIA Gótico cafe",
+        "title": "PIA Gótico cafe",
+        "date": "2026-09-07",
+        "place": "札幌市中央区の新店情報",
+        "note": "札幌市中央区の新店情報 【新店】札幌市中央区に『PIA Gótico cafe』が2026年9月7日(月)よりオープン！ 2026-09-22",
+        "type": "open",
+        "url": "https://chamonix-cakes.com/kaiten-abrzp1ykdx3mhq2bno/",
+        "source": "札幌開店閉店インフォ",
+        "sources": [
+          {
+            "name": "札幌開店閉店インフォ",
+            "url": "https://chamonix-cakes.com/kaiten-abrzp1ykdx3mhq2bno/",
+            "priority": 65
+          }
+        ],
+        "confidence": 0.54,
+        "source_count": 1,
+        "first_seen": "2026-09-23",
+        "last_seen": "2026-09-25"
+      },
+      {
+        "name": "BAR HUG",
+        "title": "BAR HUG",
+        "date": "2026-09-06",
+        "place": "札幌市中央区の新店情報",
+        "note": "札幌市中央区の新店情報 【新店】札幌市中央区に『BAR HUG』が2026年9月6日(日)よりオープン！ 2026-09-22",
+        "type": "open",
+        "url": "https://chamonix-cakes.com/kaiten-abcrknecja6kyp2bno/",
+        "source": "札幌開店閉店インフォ",
+        "sources": [
+          {
+            "name": "札幌開店閉店インフォ",
+            "url": "https://chamonix-cakes.com/kaiten-abcrknecja6kyp2bno/",
+            "priority": 65
+          }
+        ],
+        "confidence": 0.54,
+        "source_count": 1,
+        "first_seen": "2026-09-23",
+        "last_seen": "2026-09-25"
       },
       {
         "name": "佐藤堂 大丸札幌店",
@@ -422,7 +485,7 @@
         "name": "元祖美唄焼鳥 三船 円山店",
         "title": "元祖美唄焼鳥 三船 円山店",
         "date": "2026-09-04",
-        "place": "中央区",
+        "place": "札幌市中央区の新店情報",
         "note": "開店情報 円山 【開店】円山に焼き鳥居酒屋『元祖美唄焼鳥 三船 円山店』が2026年09月04日(金)よりOPEN!! 元祖美唄焼鳥 三船 円山店 2026/09/06",
         "type": "open",
         "url": "https://www.shopship.jp/sapporo/open-close/mifune_maruyama/",
@@ -499,7 +562,7 @@
         ],
         "confidence": 0.54,
         "source_count": 1,
-        "first_seen": "2026-09-26",
+        "first_seen": "2026-09-23",
         "last_seen": "2026-09-26"
       },
       {
@@ -714,7 +777,7 @@
         ],
         "confidence": 0.54,
         "source_count": 1,
-        "first_seen": "2026-09-26",
+        "first_seen": "2026-09-23",
         "last_seen": "2026-09-26"
       },
       {
@@ -736,7 +799,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-09-22"
+        "last_seen": "2026-09-23"
       },
       {
         "name": "アーバンネット札幌リンクタワー",
@@ -1623,27 +1686,6 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-09-26"
-      },
-      {
-        "name": "中華料理 永伸",
-        "title": "中華料理 永伸",
-        "date": "",
-        "place": "中央区南6条西3丁目6-31",
-        "note": "中華料理 永伸",
-        "type": "open",
-        "url": "https://www.instagram.com/eishin1830",
-        "source": "mogtrip・新店",
-        "sources": [
-          {
-            "name": "mogtrip・新店",
-            "url": "https://www.instagram.com/eishin1830",
-            "priority": 90
-          }
-        ],
-        "confidence": 0.5,
-        "source_count": 1,
-        "first_seen": "2026-09-21",
         "last_seen": "2026-09-26"
       },
       {
@@ -2543,10 +2585,15 @@
             "name": "mogtrip・新店",
             "url": "https://www.instagram.com/izakaya_tototo",
             "priority": 90
+          },
+          {
+            "name": "号外NET 札幌市北区",
+            "url": "https://sapporokitaku.goguynet.jp/2026/09/22/tototo/",
+            "priority": 80
           }
         ],
-        "confidence": 0.58,
-        "source_count": 2,
+        "confidence": 0.62,
+        "source_count": 3,
         "first_seen": "2026-09-13",
         "last_seen": "2026-09-26"
       },
@@ -3951,7 +3998,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-09-22"
+        "last_seen": "2026-09-25"
       },
       {
         "name": "食堂ほそ矢",
@@ -4252,11 +4299,16 @@
             "name": "札幌速報・閉店",
             "url": "https://sapporo-sokuho.com/archives/post-112141.html",
             "priority": 80
+          },
+          {
+            "name": "札幌リスト・開店",
+            "url": "https://sapporo-list.info/shop/lemonbakery-kotoni/",
+            "priority": 75
           }
         ],
-        "confidence": 0.54,
-        "source_count": 1,
-        "first_seen": "2026-09-26",
+        "confidence": 0.58,
+        "source_count": 2,
+        "first_seen": "2026-09-25",
         "last_seen": "2026-09-26"
       },
       {
@@ -4298,7 +4350,7 @@
         ],
         "confidence": 0.54,
         "source_count": 1,
-        "first_seen": "2026-09-26",
+        "first_seen": "2026-09-25",
         "last_seen": "2026-09-26"
       },
       {
@@ -4852,7 +4904,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-09-22"
+        "last_seen": "2026-09-23"
       },
       {
         "name": "MAIKO COFFEE",
@@ -5166,7 +5218,7 @@
             "priority": 80
           }
         ],
-        "confidence": 0.54,
+        "confidence": 0.72,
         "source_count": 1,
         "first_seen": "2026-09-26",
         "last_seen": "2026-09-26"
@@ -5485,7 +5537,7 @@
             "priority": 70
           }
         ],
-        "confidence": 0.54,
+        "confidence": 0.66,
         "source_count": 1,
         "first_seen": "2026-09-26",
         "last_seen": "2026-09-26"
@@ -5506,7 +5558,7 @@
             "priority": 70
           }
         ],
-        "confidence": 0.54,
+        "confidence": 0.66,
         "source_count": 1,
         "first_seen": "2026-09-26",
         "last_seen": "2026-09-26"
@@ -5739,7 +5791,7 @@
             "priority": 70
           }
         ],
-        "confidence": 0.54,
+        "confidence": 0.66,
         "source_count": 1,
         "first_seen": "2026-09-26",
         "last_seen": "2026-09-26"
@@ -5760,7 +5812,7 @@
             "priority": 70
           }
         ],
-        "confidence": 0.54,
+        "confidence": 0.66,
         "source_count": 1,
         "first_seen": "2026-09-26",
         "last_seen": "2026-09-26"
@@ -5909,7 +5961,7 @@
             "priority": 70
           }
         ],
-        "confidence": 0.54,
+        "confidence": 0.66,
         "source_count": 1,
         "first_seen": "2026-09-26",
         "last_seen": "2026-09-26"
@@ -5930,7 +5982,7 @@
             "priority": 70
           }
         ],
-        "confidence": 0.54,
+        "confidence": 0.66,
         "source_count": 1,
         "first_seen": "2026-09-26",
         "last_seen": "2026-09-26"
@@ -6014,7 +6066,7 @@
             "priority": 70
           }
         ],
-        "confidence": 0.54,
+        "confidence": 0.66,
         "source_count": 1,
         "first_seen": "2026-09-26",
         "last_seen": "2026-09-26"
@@ -6401,6 +6453,6 @@
       }
     ]
   },
-  "unmatched": 186,
+  "unmatched": 212,
   "source_count": 38
 }
