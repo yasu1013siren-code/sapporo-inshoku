@@ -1,6 +1,6 @@
 {
   "version": "7.2",
-  "generated_at": "2026-09-27T16:53:39",
+  "generated_at": "2026-09-27T17:11:08",
   "date": "2026-09-27",
   "areas": {
     "chuo": [
@@ -6548,52 +6548,5 @@
     ]
   },
   "unmatched": 218,
-  "source_count": 38,
-  "collector_version": "7.3.7.4",
-  "unconfirmed_count": 1,
-  "unconfirmed_total_count": 345,
-  "unconfirmed_class_counts": {
-    "A": 1,
-    "B": 197,
-    "C": 147
-  },
-  "unconfirmed_updated_at": "2026-09-27T16:55:43",
-  "unconfirmed": [
-    {
-      "title": "JR札幌駅北口の『カフェ・ド・クリエ 札幌駅北口店』が9月30日(水)をもって閉店 - 札幌速報",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9jd1liOU9kbGp5aW5LZnZ6RkV5UWtUZTcwU3hjV2djNmxHNEJpR0pQd0tQcGotblFYb0Y2eDNXaVFxd2VjX0NNbGZzXzBQMGV6OFI3a2J0MjV1QXYwT2U5dEpR?oc=5",
-      "source": "札幌速報",
-      "source_type": "web",
-      "area": "北区",
-      "status": "closed",
-      "store_name": "カフェ・ド・クリエ 札幌駅北口店",
-      "address_hint": "",
-      "date_hint": "2026-09-30",
-      "snippet": "JR札幌駅北口の『カフェ・ド・クリエ 札幌駅北口店』が9月30日(水)をもって閉店 札幌速報",
-      "first_seen": "2026-09-27",
-      "confidence": 0.8,
-      "match_score": 0.632,
-      "matched_store": "カフェ・ド・クリエ",
-      "matched_url": "https://sapporokitaku.goguynet.jp/2026/08/16/cafedecrie-close/",
-      "verification": "unconfirmed",
-      "candidate_type": "named_store",
-      "display_eligible": true,
-      "review_class": "A",
-      "review_label": "掲載候補",
-      "review_score": 12,
-      "review_reasons": [
-        "店名品質:3",
-        "対象地域を特定",
-        "開閉店時期あり",
-        "開閉店状態を判定",
-        "抽出信頼度が一定以上",
-        "既存情報に類似候補あり",
-        "閉店予定または閉店後30日以内"
-      ],
-      "reasons": [
-        "公開Web検索で開店・閉店シグナルを検出",
-        "既存情報に類似候補あり・要確認"
-      ]
-    }
-  ]
+  "source_count": 38
 }
