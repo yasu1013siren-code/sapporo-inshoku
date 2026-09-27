@@ -1,6 +1,6 @@
 {
   "version": "7.2",
-  "generated_at": "2026-09-27T15:50:23",
+  "generated_at": "2026-09-27T16:01:21",
   "date": "2026-09-27",
   "areas": {
     "chuo": [
@@ -20,7 +20,7 @@
             "priority": 90
           }
         ],
-        "confidence": 0.79,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-27",
         "last_seen": "2026-09-27"
@@ -974,7 +974,7 @@
             "priority": 90
           }
         ],
-        "confidence": 0.75,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-27",
         "last_seen": "2026-09-27"
@@ -2796,7 +2796,7 @@
             "priority": 90
           }
         ],
-        "confidence": 0.75,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-27",
         "last_seen": "2026-09-27"
@@ -4395,7 +4395,7 @@
             "priority": 70
           }
         ],
-        "confidence": 0.66,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-27",
         "last_seen": "2026-09-27"
@@ -6549,29 +6549,29 @@
   },
   "unmatched": 216,
   "source_count": 38,
-  "collector_version": "7.3.7",
-  "unconfirmed_count": 11,
-  "unconfirmed_total_count": 342,
+  "collector_version": "7.3.7.1",
+  "unconfirmed_count": 10,
+  "unconfirmed_total_count": 339,
   "unconfirmed_class_counts": {
-    "A": 11,
-    "B": 201,
-    "C": 130
+    "A": 10,
+    "B": 187,
+    "C": 142
   },
-  "unconfirmed_updated_at": "2026-09-27T15:52:10",
+  "unconfirmed_updated_at": "2026-09-27T16:03:19",
   "unconfirmed": [
     {
-      "title": "【北海道初上陸＆全国拡大中】福祉型保護犬猫ふれあいカフェ「ANELLA CAFE 札幌清田店」10月30日オープン—癒やし×ずっとの家族探し×就労支援で“三方良し”、地域に新たな温もりを。 - PR TIMES",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5aeHlGWmMxLXFRUzZmaWhNN212NGFCRjRWQnZXdVgyV1VReTJMVFNaS1JQb2pKSDcxc3NVVHBXNzZEVk11alpDamZXSFdaMDRlMnc2eC1OQlhpeEN1ZFB1bl83a2s3a2p4S3c?oc=5",
-      "source": "PR TIMES",
-      "source_type": "press_release",
-      "area": "清田区",
+      "title": "⸜ 𝙉𝙚𝙬 𝙊𝙥𝙚𝙣 ⸝ ＿＿＿＿＿＿＿＿＿＿ 【千乃灯（せんのあかり）】 @sushi_sennoakari 12月6日(土)オープン！！ ＿＿＿＿＿＿＿＿＿＿ 「回転寿司以上、高級寿司未満」の “ちょっといいお寿司”がいただける お寿司屋さんがオープンします！！ 店主は千歳市内の回転寿司 - instagram.com",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA2c3d4cXhMbjFobV9meWFrRnFmQ2RDQzZxVmcwVFU3R3JqTjg5UzRtNUJWMU5YRGFycENmRG5DcUk3eHo3bjAzQ2JCejF0am9UWVE?oc=5",
+      "source": "instagram.com",
+      "source_type": "instagram",
+      "area": "千歳市",
       "status": "upcoming",
-      "store_name": "北海道初上陸＆全国拡大中",
-      "address_hint": "",
-      "date_hint": "2026-10-30",
-      "snippet": "【北海道初上陸＆全国拡大中】福祉型保護犬猫ふれあいカフェ「ANELLA CAFE 札幌清田店」10月30日オープン—癒やし×ずっとの家族探し×就労支援で“三方良し”、地域に新たな温もりを。 PR TIMES",
+      "store_name": "回転寿司以上、高級寿司未満",
+      "address_hint": "千歳市内の回転寿司 - instagram.com ⸜ 𝙉𝙚𝙬 𝙊𝙥𝙚𝙣 ⸝ ＿＿＿＿＿＿＿＿＿",
+      "date_hint": "2026-12-06",
+      "snippet": "⸜ 𝙉𝙚𝙬 𝙊𝙥𝙚𝙣 ⸝ ＿＿＿＿＿＿＿＿＿＿ 【千乃灯（せんのあかり）】 @sushi_sennoakari 12月6日(土)オープン！！ ＿＿＿＿＿＿＿＿＿＿ 「回転寿司以上、高級寿司未満」の “ちょっといいお寿司”がいただける お寿司屋さんがオープンします！！ 店主は千歳市内の回転寿司 instagram.com",
       "first_seen": "2026-09-27",
-      "confidence": 0.9,
+      "confidence": 0.92,
       "match_score": 0.0,
       "matched_store": "",
       "matched_url": "",
@@ -6580,9 +6580,47 @@
       "display_eligible": true,
       "review_class": "A",
       "review_label": "掲載候補",
-      "review_score": 15,
+      "review_score": 16,
       "review_reasons": [
-        "店名品質:2",
+        "店名品質:3",
+        "対象地域を特定",
+        "住所・場所情報あり",
+        "開閉店時期あり",
+        "開閉店状態を判定",
+        "SNS公開情報",
+        "抽出信頼度が高い",
+        "将来の開店予定日"
+      ],
+      "reasons": [
+        "公開Web検索で開店・閉店シグナルを検出",
+        "SNS由来の公開情報/検索インデックス",
+        "既存の確定情報に十分な一致なし"
+      ]
+    },
+    {
+      "title": "【北海道初上陸＆全国拡大中】福祉型保護犬猫ふれあいカフェ「ANELLA CAFE 札幌清田店」10月30日オープン—癒やし×ずっとの家族探し×就労支援で“三方良し”、地域に新たな温もりを。 - PR TIMES",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5aeHlGWmMxLXFRUzZmaWhNN212NGFCRjRWQnZXdVgyV1VReTJMVFNaS1JQb2pKSDcxc3NVVHBXNzZEVk11alpDamZXSFdaMDRlMnc2eC1OQlhpeEN1ZFB1bl83a2s3a2p4S3c?oc=5",
+      "source": "PR TIMES",
+      "source_type": "press_release",
+      "area": "清田区",
+      "status": "upcoming",
+      "store_name": "ANELLA CAFE 札幌清田店",
+      "address_hint": "",
+      "date_hint": "2026-10-30",
+      "snippet": "【北海道初上陸＆全国拡大中】福祉型保護犬猫ふれあいカフェ「ANELLA CAFE 札幌清田店」10月30日オープン—癒やし×ずっとの家族探し×就労支援で“三方良し”、地域に新たな温もりを。 PR TIMES",
+      "first_seen": "2026-09-27",
+      "confidence": 0.9,
+      "match_score": 0.308,
+      "matched_store": "",
+      "matched_url": "",
+      "verification": "unconfirmed",
+      "candidate_type": "named_store",
+      "display_eligible": true,
+      "review_class": "A",
+      "review_label": "掲載候補",
+      "review_score": 16,
+      "review_reasons": [
+        "店名品質:3",
         "対象地域を特定",
         "開閉店時期あり",
         "開閉店状態を判定",
@@ -6597,16 +6635,16 @@
       ]
     },
     {
-      "title": "【苫小牧市】錦岡に海が見えるカフェ「CAFE&DELI KITAZAWA.」が12月21日にオープンします！ - 地域ニュースサイト号外NET",
+      "title": "【苫小牧市】錦岡に海が見えるカフェ「CAFE&DELI KITAZAWA.」が12月21日にオープンします！ - tomakomai.goguynet.jp",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBaQTBESTVSTnNQNXJ4X2s4WGFIUGpwa2FVbmhoZHUyOUhZUTlxVjNLdjMxbjVvQzhRLWFrY2hxT1UtdUxPdlFlUjc0OUhoWUdocmtJUmJRelNLLXNRdzJkSVBwV1ZjMDUxdGx6X2R4QQ?oc=5",
-      "source": "地域ニュースサイト号外NET",
+      "source": "tomakomai.goguynet.jp",
       "source_type": "web",
       "area": "苫小牧市",
       "status": "upcoming",
       "store_name": "CAFE&DELI KITAZAWA.",
       "address_hint": "苫小牧市】錦岡に海が見えるカフェ「CAFE&DELI KITAZAWA.」が12月21日にオープン",
       "date_hint": "2026-12-21",
-      "snippet": "【苫小牧市】錦岡に海が見えるカフェ「CAFE&DELI KITAZAWA.」が12月21日にオープンします！ 地域ニュースサイト号外NET",
+      "snippet": "【苫小牧市】錦岡に海が見えるカフェ「CAFE&DELI KITAZAWA.」が12月21日にオープンします！ tomakomai.goguynet.jp",
       "first_seen": "2026-09-27",
       "confidence": 0.88,
       "match_score": 0.356,
@@ -6665,56 +6703,21 @@
       ],
       "reasons": [
         "公開Web検索で開店・閉店シグナルを検出",
+        "プレスリリース由来",
         "既存の確定情報に十分な一致なし"
       ]
     },
     {
-      "title": "【苫小牧市】美園町に「ネパールレストランSAINO」が11月27日オープンします！5月で閉店した麺屋『頑張増SU』の跡地です！ - 地域ニュースサイト号外NET",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBLTjBqbGpWcm9KWGpJLVlqSnpoX3c2bnd2dTdiX25XRmlaV2ZNaTNfOUhEWXB4ZnphNmdZMjhWYkR4M3E1akpPUjJ6V0NsYVBOZ05HdXdILURpeHl2TUJtLQ?oc=5",
-      "source": "地域ニュースサイト号外NET",
-      "source_type": "web",
-      "area": "豊平区",
-      "status": "upcoming",
-      "store_name": "ネパールレストランSAINO",
-      "address_hint": "苫小牧市】美園町に「ネパールレストランSAINO」が11月27日オープンします！5月で閉店した麺屋",
-      "date_hint": "2026-11-27",
-      "snippet": "【苫小牧市】美園町に「ネパールレストランSAINO」が11月27日オープンします！5月で閉店した麺屋『頑張増SU』の跡地です！ 地域ニュースサイト号外NET",
-      "first_seen": "2026-09-27",
-      "confidence": 0.88,
-      "match_score": 0.0,
-      "matched_store": "",
-      "matched_url": "",
-      "verification": "unconfirmed",
-      "candidate_type": "named_store",
-      "display_eligible": true,
-      "review_class": "A",
-      "review_label": "掲載候補",
-      "review_score": 15,
-      "review_reasons": [
-        "店名品質:3",
-        "対象地域を特定",
-        "住所・場所情報あり",
-        "開閉店時期あり",
-        "開閉店状態を判定",
-        "抽出信頼度が高い",
-        "将来の開店予定日"
-      ],
-      "reasons": [
-        "公開Web検索で開店・閉店シグナルを検出",
-        "既存の確定情報に十分な一致なし"
-      ]
-    },
-    {
-      "title": "【苫小牧市】糸井にネパールカレーの「ヒマラヤダイニング」が10月30日にオープンします！ - 地域ニュースサイト号外NET",
+      "title": "【苫小牧市】糸井にネパールカレーの「ヒマラヤダイニング」が10月30日にオープンします！ - tomakomai.goguynet.jp",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBxYUlIWDFJREZPb2hvNVRRVDRWZm9ubVVHbGxaSFJCRFg3a3FvajhJMjM0NXpxcFpBTVE4aG1FakhhRzU0M210SFo4eG4zWlZISy1aUHJIQm10M3RrWlhxLWNNZzMwZw?oc=5",
-      "source": "地域ニュースサイト号外NET",
+      "source": "tomakomai.goguynet.jp",
       "source_type": "web",
       "area": "苫小牧市",
       "status": "upcoming",
       "store_name": "ヒマラヤダイニング",
-      "address_hint": "苫小牧市】糸井にネパールカレーの「ヒマラヤダイニング」が10月30日にオープンします！ - 地域ニ",
+      "address_hint": "苫小牧市】糸井にネパールカレーの「ヒマラヤダイニング」が10月30日にオープンします！ - tom",
       "date_hint": "2026-10-30",
-      "snippet": "【苫小牧市】糸井にネパールカレーの「ヒマラヤダイニング」が10月30日にオープンします！ 地域ニュースサイト号外NET",
+      "snippet": "【苫小牧市】糸井にネパールカレーの「ヒマラヤダイニング」が10月30日にオープンします！ tomakomai.goguynet.jp",
       "first_seen": "2026-09-27",
       "confidence": 0.88,
       "match_score": 0.0,
@@ -6876,41 +6879,6 @@
       "review_score": 12,
       "review_reasons": [
         "店名品質:3",
-        "対象地域を特定",
-        "開閉店時期あり",
-        "開閉店状態を判定",
-        "抽出信頼度が一定以上",
-        "将来の開店予定日"
-      ],
-      "reasons": [
-        "公開Web検索で開店・閉店シグナルを検出",
-        "既存の確定情報に十分な一致なし"
-      ]
-    },
-    {
-      "title": "神戸元町高架下エリアに、さつまいもスイーツ専門店「La mei (ラメイ)」さんが12月20日にオープン！生芋けんびやさつまいものチップスなど優しい甘さを楽しんで♪ #新規オープン #新店情報 #開店情報 #芋けんび - higashinada-journal.com",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBLUjFfZUZIUzFoTmM1R2ZOcmxVLWtWSDk4cHRNNHh3QWVQdzNlNmFyTFhENnlQN0RscGZQbmRBX0RvYkRadS02ekJEZTlrR0tjaHJ4dGdYdElpX0QwNkVZ?oc=5",
-      "source": "higashinada-journal.com",
-      "source_type": "web",
-      "area": "東区",
-      "status": "upcoming",
-      "store_name": "La mei (ラメイ)",
-      "address_hint": "",
-      "date_hint": "2026-12-20",
-      "snippet": "神戸元町高架下エリアに、さつまいもスイーツ専門店「La mei (ラメイ)」さんが12月20日にオープン！生芋けんびやさつまいものチップスなど優しい甘さを楽しんで♪ #新規オープン #新店情報 #開店情報 #芋けんび higashinada-journal.com",
-      "first_seen": "2026-09-27",
-      "confidence": 0.8,
-      "match_score": 0.0,
-      "matched_store": "",
-      "matched_url": "",
-      "verification": "unconfirmed",
-      "candidate_type": "named_store",
-      "display_eligible": true,
-      "review_class": "A",
-      "review_label": "掲載候補",
-      "review_score": 11,
-      "review_reasons": [
-        "店名品質:2",
         "対象地域を特定",
         "開閉店時期あり",
         "開閉店状態を判定",
