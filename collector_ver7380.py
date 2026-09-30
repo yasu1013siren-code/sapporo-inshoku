@@ -39,7 +39,7 @@ from urllib.parse import quote_plus, urlparse
 
 import requests
 
-VERSION = "7.3.8.2"
+VERSION = "7.3.8.3"
 BASE_DIR = Path(__file__).resolve().parent
 CORE_PATH = BASE_DIR / "collector_ver72_hakodate.py"
 NEWS_PATH = BASE_DIR / "news.json"
@@ -216,7 +216,7 @@ def has_target_location_context(text: str) -> bool:
     return True
 
 
-# Ver.7.3.8.2: 原材料・食材の産地を店舗所在地と誤認しない。
+# Ver.7.3.8.3: 原材料・食材の産地を店舗所在地と誤認しない。
 # 例: 「千歳市戸田牧場の生乳100%使用」は千歳市の店舗を意味しない。
 def mask_ingredient_origin_context(text: str) -> str:
     t = clean(text)
@@ -821,7 +821,7 @@ def extract_date_hint(text: str) -> str:
         year, month = map(int, m.groups())
         return f"{year:04d}-{month:02d}" if 1 <= month <= 12 else ""
 
-    # Ver.7.3.8.2: 「昨年10月OPEN」等の月単位表現を前年として確定。
+    # Ver.7.3.8.3: 「昨年10月OPEN」等の月単位表現を前年として確定。
     rel_month = re.search(
         r"(昨年|去年|前年|今年|本年|来年|翌年)\s*(\d{1,2})月"
         r"[^。！？\n]{0,24}(?:オープン|OPEN|開店|閉店)",
@@ -1121,6 +1121,7 @@ def make_queries():
 
 def load_confirmed_items(news: dict):
     rows = []
+    area_names=dict(zip(("chuo","kita","higashi","shiroishi","toyohira","minami","nishi","atsubetsu","teine","kiyota","hakodate"),TARGET_AREAS))
     areas = news.get("areas", {})
     if isinstance(areas, dict):
         for area_key, items in areas.items():
@@ -1131,9 +1132,10 @@ def load_confirmed_items(news: dict):
                     continue
                 rows.append({
                     "name": clean(str(x.get("name") or x.get("title") or "")),
-                    "area": clean(str(x.get("ward") or x.get("area") or area_key or "")),
+                    "area": clean(str(x.get("ward") or x.get("area") or area_names.get(area_key,area_key) or "")),
                     "place": clean(str(x.get("place") or x.get("address") or "")),
                     "status": clean(str(x.get("status") or x.get("type") or "")),
+                    "date": clean(str(x.get("date") or "")),
                     "url": clean(str(x.get("url") or "")),
                 })
     return rows
@@ -1157,9 +1159,16 @@ def match_confirmed(sig: Signal, confirmed: list[dict]):
     best_score = 0.0
     for row in confirmed:
         ns = name_similarity(sig.store_name, row["name"])
+        if sig.date_hint and row.get("date") and sig.date_hint != row["date"] and not (sig.date_hint.startswith(row["date"]) or row["date"].startswith(sig.date_hint)):
+            continue
         if ns < 0.45:
             continue
         score = ns * 0.72
+        # 店名完全一致＋同地域＋同状態は住所抽出に依存せず既存一致。
+        same_name=norm(sig.store_name)==norm(row["name"])
+        same_event=sig.status==row["status"] and sig.area==row["area"]
+        if same_name and same_event:
+            score=0.85
         if sig.area and sig.area != "札幌市・区不明":
             if sig.area == row["area"] or norm(sig.area) in norm(row["area"]):
                 score += 0.18
@@ -1347,7 +1356,7 @@ def has_strong_past_opening_context(text: str) -> bool:
 
 
 def review_signal(sig: Signal) -> tuple[str, str, int, list[str]]:
-    """Ver.7.3.8.2: 7.3.7.3基準を維持し、過去年・産地・店名ノイズ・文脈整合だけを補強。"""
+    """Ver.7.3.8.3: 7.3.7.3基準を維持し、過去年・産地・店名ノイズ・文脈整合だけを補強。"""
     score = 0
     reasons = []
     text = f"{sig.title} {sig.snippet}"
@@ -1617,7 +1626,7 @@ def main():
     log.info("既存確定情報: %d件", len(confirmed))
 
     # 2) 深掘りライン
-    log.info("=== Ver.7.3.8.2 札幌・函館 深掘りシグナル収集 ===")
+    log.info("=== Ver.7.3.8.3 札幌・函館 深掘りシグナル収集 ===")
     signals, query_count = collect_deep_signals()
     log.info("深掘り候補: %d件", len(signals))
 

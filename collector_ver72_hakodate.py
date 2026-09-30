@@ -454,19 +454,55 @@ def url_publication_date(url: str) -> str:
     m=re.search(r"/(20\d{2})/(\d{2})/(\d{2})/",url)
     return "-".join(m.groups()) if m else ""
 
+INVALID_STORE_NAMES = {"閉業", "閉店", "開店", "オープン", "営業終了", "休業", "外"}
+
+def store_event_context(text, name, status):
+    action = r"(?:閉店|閉業|営業終了|営業を終了)" if status == "closed" else r"(?:オープン|OPEN|開店|再開)"
+    target=norm(name)
+    sentences=re.split(r"[。！？\n]",text or "")
+    candidates=[]
+    for pos,sentence in enumerate(sentences):
+        if not re.search(action,sentence,re.I):
+            continue
+        quotes=list(re.finditer(r"[『「]([^『』「」]+)[』」]",sentence))
+        valid=[m for m in quotes if clean(m.group(1)) not in INVALID_STORE_NAMES]
+        for m in valid:
+            q=norm(m.group(1))
+            same=(q==target or (min(len(q),len(target))>=3 and (q in target or target in q)))
+            if not same and name not in INVALID_STORE_NAMES and valid:
+                continue
+            # 副題や建物名の引用と動詞の間に別の引用があるなら不採用。
+            tail=sentence[m.end():]
+            end=re.search(action,tail,re.I)
+            if not end or re.search(r"[『「]",tail[:end.start()]):
+                continue
+            # 同じ文でも直前の別店舗の日付を使わない。
+            start=valid[valid.index(m)-1].end() if valid.index(m)>0 else 0
+            segment=sentence[start:m.end()+end.end()+20]
+            candidates.append((pos,segment))
+        if not quotes and target and target in norm(sentence):
+            candidates.append((pos,sentence))
+    return min(candidates)[1] if candidates else ""
+
+
 def sanitize_item(item):
     if not is_article_link(item.url,item.name):
         return False
-    # 開閉店動詞に近い引用店名を優先し、建物名の誤抽出を補正。
-    m=re.search(r"[『「]([^』」]+)[』」][^。]{0,20}(?:が|を)?(?:オープン|閉店|営業終了)",item.note,re.I)
-    if m:
-        item.name=clean(m.group(1))
+    if len(item.note)<500:
+        candidate=extract_name_from_title(item.note)
+        if re.search(r"[『「]",item.note) and candidate not in INVALID_STORE_NAMES:
+            item.name=candidate
+    evidence = store_event_context(item.note, item.name, item.status)
+    if evidence:
+        item.name=extract_name_from_title(evidence)
+    elif item.name in INVALID_STORE_NAMES:
+        return False
     location=resolve_location(item.note, item.place, item.ward)
     if location == "対象外" or location not in WARDS:
         return False
     item.ward=location
     ref=url_publication_date(item.url) or item.first_seen
-    found=event_date(item.note, ref)
+    found=event_date(evidence or item.note[:300], ref)
     if found:
         item.date=found
     elif "goguynet.jp" in item.url:
@@ -506,10 +542,15 @@ def extract_name_from_title(title: str) -> str:
         r"「(.+?)」",
         r"〖(.+?)〗",
     ]
-    for p in patterns:
-        m = re.search(p, t)
-        if m:
+    quotes=list(re.finditer(r"[『「]([^『』「」]+)[』」]",t))
+    valid=[m for m in quotes if clean(m.group(1)) not in INVALID_STORE_NAMES]
+    for m in valid:
+        tail=t[m.end():]
+        act=re.search(r"オープン|OPEN|閉店|営業終了",tail,re.I)
+        if act and not re.search(r"[『「]",tail[:act.start()]):
             return clean(m.group(1))
+    if valid:
+        return clean(valid[0].group(1))
     # よくある記事タイトルの先頭部分を軽く整理
     t = re.sub(r"^(?:【.*?】|\[.*?\])\s*", "", t)
     t = re.sub(r"^(?:札幌市[^ ]*区|札幌市)\s*", "", t)
@@ -588,12 +629,6 @@ def article_candidates(source: dict, max_items: int = 120):
     
             heading = a.select_one("h1, h2, h3, .entry-title, .post-title")
             title = clean((heading or a).get_text(" ", strip=True))
-            if source["id"] == "hakodate_navi" and not heading:
-                card = a.find_parent("article")
-                if card:
-                    h=card.select_one("h1, h2, h3, .entry-title")
-                    if h:
-                        title=clean(h.get_text(" ",strip=True))
             href = urljoin(source["url"], a["href"])
             if not title or len(title) < 4:
                 reject(source, "タイトル短すぎ/空", title, href)
@@ -649,9 +684,9 @@ def collect_article_source(source: dict):
                 detail = fetch_text(href)
                 if detail:
                     doc=BeautifulSoup(detail,"lxml")
-                    body=doc.select_one(".entry-content, .post-content, article")
+                    body=doc.select_one(".entry-content, .post-content")
                     if body:
-                        for junk in body.select("nav, aside, footer, script, style, .related-posts"):
+                        for junk in body.select("nav, aside, footer, script, style, .related-posts, .related, .post-navigation, .navigation, .wp-block-latest-posts, .sns-share"):
                             junk.decompose()
                         context=body.get_text(" ",strip=True)[:5000]
         text = f"{title} {context}"
@@ -659,17 +694,13 @@ def collect_article_source(source: dict):
         if status == "unknown":
             status=detect_status(text)
         if source["id"] in ("hakodate_navi", "ehako_news"):
-            if status == "unknown" or not is_food(text):
+            if status == "unknown" or not is_food(title):
                 reject(source, "本文確認後:開閉店/飲食根拠不足", title, href)
                 continue
         if status == "unknown" and source.get("default_status"):
             # このページ自体が「新店だけ」「閉店だけ」の一覧である場合の救済措置
             status = source["default_status"]
         name = extract_name_from_title(title)
-        if source["id"] in ("hakodate_navi", "ehako_news") and not re.search(r"[『「]",title):
-            quoted = re.search(r"[『「]([^』」]{2,60})[』」]", context)
-            if quoted:
-                name=quoted.group(1)
         ward = resolve_location(text, fallback=source.get("force_ward", ""))
         d = event_date(text, url_publication_date(href) or parse_date(context))
 

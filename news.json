@@ -1,6 +1,6 @@
 {
   "version": "7.2",
-  "generated_at": "2026-09-30T21:32:20",
+  "generated_at": "2026-09-30T22:11:59",
   "date": "2026-09-30",
   "areas": {
     "chuo": [
@@ -215,6 +215,48 @@
         "last_seen": "2026-09-29"
       },
       {
+        "name": "BARISTART COFFEE “UNDER CONSTRUCTION”",
+        "title": "BARISTART COFFEE “UNDER CONSTRUCTION”",
+        "date": "2026-10-01",
+        "place": "札幌市中央区の新店情報",
+        "note": "【移転ｵｰﾌﾟﾝ】札幌市中央区に『BARISTART COFFEE “UNDER CONSTRUCTION”』が2026年10月1日(木)よりオープン！",
+        "type": "upcoming",
+        "url": "https://chamonix-cakes.com/kaiten-abnor8rl4odxes2bno/",
+        "source": "札幌開店閉店インフォ",
+        "sources": [
+          {
+            "name": "札幌開店閉店インフォ",
+            "url": "https://chamonix-cakes.com/kaiten-abnor8rl4odxes2bno/",
+            "priority": 65
+          }
+        ],
+        "confidence": 0.54,
+        "source_count": 1,
+        "first_seen": "2026-09-30",
+        "last_seen": "2026-09-30"
+      },
+      {
+        "name": "すすきの横丁居酒屋",
+        "title": "すすきの横丁居酒屋",
+        "date": "2026-10-01",
+        "place": "札幌市中央区の新店情報",
+        "note": "【新店】札幌市中央区に『すすきの横丁居酒屋』が2026年10月1日(木)よりオープン！",
+        "type": "upcoming",
+        "url": "https://chamonix-cakes.com/kaiten-ab4ggpnor8xwug2bno/",
+        "source": "札幌開店閉店インフォ",
+        "sources": [
+          {
+            "name": "札幌開店閉店インフォ",
+            "url": "https://chamonix-cakes.com/kaiten-ab4ggpnor8xwug2bno/",
+            "priority": 65
+          }
+        ],
+        "confidence": 0.54,
+        "source_count": 1,
+        "first_seen": "2026-09-30",
+        "last_seen": "2026-09-30"
+      },
+      {
         "name": "成吉思汗 ラム中",
         "title": "成吉思汗 ラム中",
         "date": "2026-10-01",
@@ -366,7 +408,7 @@
             "priority": 70
           }
         ],
-        "confidence": 0.66,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -393,8 +435,8 @@
         "last_seen": "2026-09-16"
       },
       {
-        "name": "個室居酒屋 弐合",
-        "title": "個室居酒屋 弐合",
+        "name": "個室居酒屋弐合",
+        "title": "個室居酒屋弐合",
         "date": "2026-09-18",
         "place": "中央区北2条東1丁目4-9",
         "note": "開店情報 中央区 【開店】札幌市中央区に居酒屋『個室居酒屋弐合』が2026年09月18日(金)よりOPEN!! 個室居酒屋弐合 2026/09/26",
@@ -922,6 +964,27 @@
         "last_seen": "2026-09-30"
       },
       {
+        "name": "居酒屋 柳",
+        "title": "居酒屋 柳",
+        "date": "2026-08-31",
+        "place": "札幌市中央区の閉店情報",
+        "note": "【閉店】札幌市中央区の『居酒屋 柳』が2026年8月31日(月)をもって閉店。",
+        "type": "closed",
+        "url": "https://chamonix-cakes.com/heiten-abrayi7pgbfqpo2bnc/",
+        "source": "札幌開店閉店インフォ",
+        "sources": [
+          {
+            "name": "札幌開店閉店インフォ",
+            "url": "https://chamonix-cakes.com/heiten-abrayi7pgbfqpo2bnc/",
+            "priority": 65
+          }
+        ],
+        "confidence": 0.54,
+        "source_count": 1,
+        "first_seen": "2026-09-30",
+        "last_seen": "2026-09-30"
+      },
+      {
         "name": "MUSEUM SHOP ＆ CAFE きねずみ",
         "title": "MUSEUM SHOP ＆ CAFE きねずみ",
         "date": "2026-08-30",
@@ -1152,7 +1215,7 @@
             "priority": 70
           }
         ],
-        "confidence": 0.66,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -1368,8 +1431,8 @@
         "last_seen": "2026-09-30"
       },
       {
-        "name": "Hakko &",
-        "title": "Hakko &",
+        "name": "WEST Table",
+        "title": "WEST Table",
         "date": "2026-02-01",
         "place": "中央区",
         "note": "三井ガーデンホテル札幌&札幌ウエストに新レストラン「Hakko &」・「WEST Table」2/1オープン 発酵と洋食で朝から夜まで サツッター編集部 発酵で整える朝か、焼き立てパンで始める朝か。札幌の旅に、新しい“朝ごはんの楽しみ”が増えました。 三井ガーデンホテル札幌は、2026年2月1…",
@@ -3029,6 +3092,27 @@
         "last_seen": "2026-09-30"
       },
       {
+        "name": "北海道海鮮 個室居酒屋 うおっと 札幌駅北口店",
+        "title": "北海道海鮮 個室居酒屋 うおっと 札幌駅北口店",
+        "date": "2026-10-14",
+        "place": "札幌市北区の新店情報",
+        "note": "【新店】札幌市北区に『北海道海鮮 個室居酒屋 うおっと 札幌駅北口店』が2026年10月14日(水)よりオープン！",
+        "type": "upcoming",
+        "url": "https://chamonix-cakes.com/kaiten-ab8xy3tbasmr7m2bno/",
+        "source": "札幌開店閉店インフォ",
+        "sources": [
+          {
+            "name": "札幌開店閉店インフォ",
+            "url": "https://chamonix-cakes.com/kaiten-ab8xy3tbasmr7m2bno/",
+            "priority": 65
+          }
+        ],
+        "confidence": 0.54,
+        "source_count": 1,
+        "first_seen": "2026-09-30",
+        "last_seen": "2026-09-30"
+      },
+      {
         "name": "ニャンと一杯",
         "title": "ニャンと一杯",
         "date": "2026-10-01",
@@ -3086,7 +3170,7 @@
             "priority": 70
           }
         ],
-        "confidence": 0.66,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -3138,7 +3222,7 @@
         "title": "BONTEMPS（ボンタン）",
         "date": "2026-09-05",
         "place": "北区に9月5日",
-        "note": "韓国カフェ「BONTEMPS（ボンタン）」北海道初上陸！札幌北区に9月5日（金）オープン サツッター編集部 SNS映え必至！韓国カフェ『BONTEMPS』が札幌に初オープン。約20種類の華やかなクァベギドーナツと話題のドリンクが楽しめます。 韓国で…",
+        "note": "韓国カフェ「BONTEMPS（ボンタン）」北海道初上陸！札幌北区に9月5日（金）オープン",
         "type": "open",
         "url": "https://satsutter.com/posts/news/32736.html",
         "source": "サツッター・新店舗",
@@ -3275,8 +3359,8 @@
         "last_seen": "2026-09-30"
       },
       {
-        "name": "居酒屋 ととと。",
-        "title": "居酒屋 ととと。",
+        "name": "居酒屋ととと。",
+        "title": "居酒屋ととと。",
         "date": "2026-08-08",
         "place": "北区麻生町5丁目4-13",
         "note": "開店情報 北区 【開店】札幌市北区に『居酒屋ととと。』が2026年08月08日(土)よりOPEN!! 居酒屋ととと。 2026/08/09",
@@ -3657,6 +3741,27 @@
         "last_seen": "2026-09-30"
       },
       {
+        "name": "BONTEMPS",
+        "title": "BONTEMPS",
+        "date": "2025-09-05",
+        "place": "北区に9月5日",
+        "note": "韓国カフェ「BONTEMPS（ボンタン）」北海道初上陸！札幌北区に9月5日（金）オープン サツッター編集部 SNS映え必至！韓国カフェ『BONTEMPS』が札幌に初オープン。約20種類の華やかなクァベギドーナツと話題のドリンクが楽しめます。 韓国で…",
+        "type": "open",
+        "url": "https://satsutter.com/posts/news/32736.html",
+        "source": "サツッター・新店舗",
+        "sources": [
+          {
+            "name": "サツッター・新店舗",
+            "url": "https://satsutter.com/posts/news/32736.html",
+            "priority": 65
+          }
+        ],
+        "confidence": 0.54,
+        "source_count": 1,
+        "first_seen": "2026-09-30",
+        "last_seen": "2026-09-30"
+      },
+      {
         "name": "KARAUS",
         "title": "KARAUS",
         "date": "",
@@ -3693,7 +3798,7 @@
             "priority": 80
           }
         ],
-        "confidence": 0.68,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -3867,6 +3972,48 @@
         "last_seen": "2026-09-30"
       },
       {
+        "name": "安安",
+        "title": "安安",
+        "date": "",
+        "place": "北区",
+        "note": "篠路の「鯖一」跡地に焼肉店「安安」がオープンへ！ランチは1,000円以下の定食も",
+        "type": "upcoming",
+        "url": "https://sapporokitaku.goguynet.jp/2026/08/11/anan-2/",
+        "source": "号外NET 札幌市北区",
+        "sources": [
+          {
+            "name": "号外NET 札幌市北区",
+            "url": "https://sapporokitaku.goguynet.jp/2026/08/11/anan-2/",
+            "priority": 80
+          }
+        ],
+        "confidence": 0.68,
+        "source_count": 1,
+        "first_seen": "2026-09-30",
+        "last_seen": "2026-09-30"
+      },
+      {
+        "name": "屯田らーめん蕾",
+        "title": "屯田らーめん蕾",
+        "date": "",
+        "place": "北区",
+        "note": "「麺やきよた」跡に「屯田らーめん蕾」がリニューアルオープン！4種類のラーメンを楽しめる新店に",
+        "type": "open",
+        "url": "https://sapporokitaku.goguynet.jp/2026/07/28/rai/",
+        "source": "号外NET 札幌市北区",
+        "sources": [
+          {
+            "name": "号外NET 札幌市北区",
+            "url": "https://sapporokitaku.goguynet.jp/2026/07/28/rai/",
+            "priority": 80
+          }
+        ],
+        "confidence": 0.68,
+        "source_count": 1,
+        "first_seen": "2026-09-30",
+        "last_seen": "2026-09-30"
+      },
+      {
         "name": "新得そば SOBA-BA",
         "title": "新得そば SOBA-BA",
         "date": "",
@@ -3888,6 +4035,27 @@
         "last_seen": "2026-09-30"
       },
       {
+        "name": "炭火焼肉くろひめ屯田店",
+        "title": "炭火焼肉くろひめ屯田店",
+        "date": "",
+        "place": "北区",
+        "note": "続報！閉店した「焼肉家かねよし 屯田店」跡地に「炭火焼肉くろひめ屯田店」がオープンします！",
+        "type": "closed",
+        "url": "https://sapporokitaku.goguynet.jp/2026/07/17/kaneyoshi-2/",
+        "source": "号外NET 札幌市北区",
+        "sources": [
+          {
+            "name": "号外NET 札幌市北区",
+            "url": "https://sapporokitaku.goguynet.jp/2026/07/17/kaneyoshi-2/",
+            "priority": 80
+          }
+        ],
+        "confidence": 0.68,
+        "source_count": 1,
+        "first_seen": "2026-09-30",
+        "last_seen": "2026-09-30"
+      },
+      {
         "name": "炭火豚丼ふじなみ",
         "title": "炭火豚丼ふじなみ",
         "date": "",
@@ -3906,69 +4074,6 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-09-30"
-      },
-      {
-        "name": "焼肉家かねよし 屯田店",
-        "title": "焼肉家かねよし 屯田店",
-        "date": "",
-        "place": "北区",
-        "note": "続報！閉店した「焼肉家かねよし 屯田店」跡地に「炭火焼肉くろひめ屯田店」がオープンします！",
-        "type": "closed",
-        "url": "https://sapporokitaku.goguynet.jp/2026/07/17/kaneyoshi-2/",
-        "source": "号外NET 札幌市北区",
-        "sources": [
-          {
-            "name": "号外NET 札幌市北区",
-            "url": "https://sapporokitaku.goguynet.jp/2026/07/17/kaneyoshi-2/",
-            "priority": 80
-          }
-        ],
-        "confidence": 0.5,
-        "source_count": 1,
-        "first_seen": "2026-09-30",
-        "last_seen": "2026-09-30"
-      },
-      {
-        "name": "鯖一",
-        "title": "鯖一",
-        "date": "",
-        "place": "北区",
-        "note": "篠路の「鯖一」跡地に焼肉店「安安」がオープンへ！ランチは1,000円以下の定食も",
-        "type": "upcoming",
-        "url": "https://sapporokitaku.goguynet.jp/2026/08/11/anan-2/",
-        "source": "号外NET 札幌市北区",
-        "sources": [
-          {
-            "name": "号外NET 札幌市北区",
-            "url": "https://sapporokitaku.goguynet.jp/2026/08/11/anan-2/",
-            "priority": 80
-          }
-        ],
-        "confidence": 0.5,
-        "source_count": 1,
-        "first_seen": "2026-09-30",
-        "last_seen": "2026-09-30"
-      },
-      {
-        "name": "麺やきよた",
-        "title": "麺やきよた",
-        "date": "",
-        "place": "北区",
-        "note": "「麺やきよた」跡に「屯田らーめん蕾」がリニューアルオープン！4種類のラーメンを楽しめる新店に",
-        "type": "open",
-        "url": "https://sapporokitaku.goguynet.jp/2026/07/28/rai/",
-        "source": "号外NET 札幌市北区",
-        "sources": [
-          {
-            "name": "号外NET 札幌市北区",
-            "url": "https://sapporokitaku.goguynet.jp/2026/07/28/rai/",
-            "priority": 80
-          }
-        ],
-        "confidence": 0.5,
-        "source_count": 1,
-        "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
       },
       {
@@ -4157,7 +4262,7 @@
             "priority": 70
           }
         ],
-        "confidence": 0.66,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -4548,8 +4653,8 @@
         "last_seen": "2026-09-30"
       },
       {
-        "name": "Cafe & Meal Ulysses",
-        "title": "Cafe & Meal Ulysses",
+        "name": "Cafe＆Meal Ulysses",
+        "title": "Cafe＆Meal Ulysses",
         "date": "2026-08-13",
         "place": "白石区菊水3条2丁目6-20",
         "note": "開店情報 白石区 【開店】札幌市白石区に『Cafe＆Meal Ulysses』が2026年08月13日(木)よりOPEN!! Cafe＆Meal Ulysses 2026/08/07",
@@ -4652,7 +4757,7 @@
             "priority": 70
           }
         ],
-        "confidence": 0.66,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -5074,7 +5179,7 @@
             "priority": 70
           }
         ],
-        "confidence": 0.66,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -6517,7 +6622,7 @@
             "priority": 70
           }
         ],
-        "confidence": 0.66,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -6559,7 +6664,7 @@
             "priority": 70
           }
         ],
-        "confidence": 0.66,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -6902,7 +7007,7 @@
             "priority": 70
           }
         ],
-        "confidence": 0.66,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -7301,7 +7406,7 @@
             "priority": 75
           }
         ],
-        "confidence": 0.62,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -7343,14 +7448,14 @@
             "priority": 75
           }
         ],
-        "confidence": 0.62,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
       },
       {
-        "name": "ぱん処 みしま屋",
-        "title": "ぱん処 みしま屋",
+        "name": "ぱん処みしま屋",
+        "title": "ぱん処みしま屋",
         "date": "",
         "place": "手稲区前田5条14丁目6-17",
         "note": "【新店 手稲】前田のトライアル横にパン屋「ぱん処みしま屋」が8/24オープ... こんにちは！手稲区の地域情報をお届けする「手稲マガジン」編集長です。 手稲に住むみなさん、そしてこれから手稲での暮らしを考えてい... 2026.07.20",
@@ -7370,8 +7475,8 @@
         "last_seen": "2026-09-30"
       },
       {
-        "name": "むしろザン... 手稲区前田、石狩手稲通沿いにあった**「カレーハウスCoCo壱番屋 手稲区前田店",
-        "title": "むしろザン... 手稲区前田、石狩手稲通沿いにあった**「カレーハウスCoCo壱番屋 手稲区前田店",
+        "name": "カレーハウスCoCo壱番屋 手稲区前田店",
+        "title": "カレーハウスCoCo壱番屋 手稲区前田店",
         "date": "",
         "place": "手稲区前田",
         "note": "【手稲 グルメ】旧ココイチ跡地がついに始動！看板に書かれた「むしろザン... 手稲区前田、石狩手稲通沿いにあった**「カレーハウスCoCo壱番屋 手稲区前田店」**。 惜しまれつつ閉店してからしばらく動きが... 2026.04.13",
@@ -7412,8 +7517,8 @@
         "last_seen": "2026-09-30"
       },
       {
-        "name": "メンノジカン（メ... 手稲の住民のみなさん、そして将来手稲に住んでみたいと考えているみなさん、こんにちは！「手稲マガジン",
-        "title": "メンノジカン（メ... 手稲の住民のみなさん、そして将来手稲に住んでみたいと考えているみなさん、こんにちは！「手稲マガジン",
+        "name": "手稲マガジン",
+        "title": "手稲マガジン",
         "date": "",
         "place": "手稲区",
         "note": "【新店 手稲】朝7時から行列！？SNSで話題のラーメン店「メンノジカン（メ... 手稲の住民のみなさん、そして将来手稲に住んでみたいと考えているみなさん、こんにちは！「手稲マガジン」編集長です。 今回は、SNS... 2026.05.27",
@@ -7490,14 +7595,14 @@
             "priority": 75
           }
         ],
-        "confidence": 0.62,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
       },
       {
-        "name": "大衆食べ呑み... 手稲にお住まいのみなさん、こんにちは！手稲の地域情報をお届けする「手稲マガジン",
-        "title": "大衆食べ呑み... 手稲にお住まいのみなさん、こんにちは！手稲の地域情報をお届けする「手稲マガジン",
+        "name": "手稲マガジン",
+        "title": "手稲マガジン",
         "date": "",
         "place": "手稲区",
         "note": "【新店 手稲】定食ランチの超穴場！あの名店の味が楽しめる「大衆食べ呑み... 手稲にお住まいのみなさん、こんにちは！手稲の地域情報をお届けする「手稲マガジン」編集長です！ 毎日のご飯作り、本当にお疲れ様です... 2026.06.18",
@@ -7532,7 +7637,7 @@
             "priority": 75
           }
         ],
-        "confidence": 0.62,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -7553,7 +7658,7 @@
             "priority": 75
           }
         ],
-        "confidence": 0.62,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -7574,7 +7679,7 @@
             "priority": 75
           }
         ],
-        "confidence": 0.62,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -7595,7 +7700,7 @@
             "priority": 75
           }
         ],
-        "confidence": 0.62,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -7744,7 +7849,7 @@
             "priority": 70
           }
         ],
-        "confidence": 0.66,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -7941,6 +8046,27 @@
     ],
     "hakodate": [
       {
+        "name": "中華桃園",
+        "title": "中華桃園",
+        "date": "2026-10-31",
+        "place": "函館市西桔梗町の",
+        "note": "函館市湯川町2丁目にコメリPRO湯川店｜届出上の新設予定日は2027/4/11、店舗面積2,281㎡・届出では朝6:30から営業 函館市湯川町2丁目にコメリPRO湯川店｜届出上の新設予定日は2027/4/11、店舗面積2,281㎡・届出では朝6:30から営業 2026 9/20 函館市 湯の川・東部 2026年9月20日 北海道の告示（令和8年9月7日付）によると、株式会社コメリが、函館市湯川町2丁目10－1 ほかに「コメリPRO湯川店」を新設する届出を出しています。届出上の新設をする日は令和9年（2027年）4月11日で、店舗面積の合計は2,281平方メートル、開店時刻は午前6時30分です。これらは届出上の内容で、開店日として発表されたものではありません。 函館市の湯の川温泉周辺の海岸（撮影 663highland／ CC BY 2.5 ） TOC 届出の内容（北海道告示第11422号） 大規模小売店舗立地法第5条第1項に基づく新設の届出です。告示に書かれている内容は次のとおりです。 名称: コメリPRO湯川店 所在地: 函館市湯川町2丁目10－1 ほか 設置者・小売業を行う者: 株式会社コメリ（新潟県新潟市南区清水4501番地1） 新設をする日: 令和9年（2027年）4月11日 大規模小売店舗内の店舗面積の合計: 2,281平方メートル 駐車場の収容台数: 25台 駐輪場の収容台数: 7台 届出年月日: 令和8年8月10日 届出上の開店・閉店の時刻 開店時刻: 午前6時30分 閉店時刻: 午後9時 来客が駐車場を利用できる時間帯: 午前6時から午後9時30分まで 駐車場の自動車の出入口: 3箇所 荷さばき施設で荷さばきができる時間帯: 午前6時から午後10時まで この時刻は届出のもので、コメリの開店の発表ではありません。 コメリPROとは（コメリの説明） 株式会社コメリの2026年3月10日のニュースリリースには、コメリPROについて次の説明があります。「資材や建材、工具・金物など仕事に必要な商品を大量に在庫し、早朝営業や取り置き、取り寄せ、修理、工具レンタルといった各種サービスを充実させることでお客様の暮らしと仕事をサポートしてまいります」。同じリリースによると、当時のコメリの店舗数は、パワー118店舗、ハード&グリーン1,088店舗、PRO24店舗、アテーナ2店舗の合計1,232店舗です。 函館市の湯の川温泉の足湯（撮影 OraMAAG／ CC BY 4.0 ） ほかのコメリPRO店の例（湯川店のものではありません） 同じリリースには、2026年3月に開店した3店の情報があります。湯川店の発表ではなく、ほかの県の店の例です。 コメリPRO盛岡上堂店（岩手県）: 売場面積2,432平方メートル、2026年3月24日(火)午前7時開店 コメリPRO熊谷久保島店（埼玉県）: 売場面積2,468平方メートル、2026年3月26日(木)午前7時開店 コメリPRO高岡店（富山県）: 売場面積2,455平方メートル、2026年3月28日(土)午前7時開店 3店とも営業時間は、平日・土曜・祝日が午前7時から午後8時まで、日曜が午前9時から午後8時まで（不定休）と書かれています。主な取扱い品種は、資材、建材、工具・金物、作業衣料ほかです。湯川店の届出上の営業は午前6時30分から午後9時までで、届出の時刻がそのまま開店時に使われるとは限りません。 函館市内の既存店と、道内の「PRO」の店名 コメリの店舗検索によると、函館市内の既存店には「コメリパワー函館西桔梗店」（西桔梗町246－4）があり、営業時間は9:00〜20:00で、特記事項に「本館9:00～20:00/資材館7:30～20:00（日曜以外）」とあります。 コメリパワー公式サイトの店舗一覧（パワーとPROの店が載る一覧。ハード&グリーンの店は載っていない）では、北海道で店名に「PRO」が付く店は、2026年9月19日時点で「コメリパワー音更店PRO」だけです。 届出書の縦覧と、意見書の提出 告示によると、届出書は令和8年9月7日(月)から令和9年1月7日(木)まで縦覧できます（日曜日、土曜日、国民の祝日、12月29日から31日、1月2日・3日を除く。午前8時45分から午後5時15分まで）。縦覧の場所は、北海道経済部地域経済局中小企業課と、北海道渡島総合振興局産業振興部商工労働観光課です。函館市にも協力を依頼する予定で、縦覧の場所や時間は函館市へ問い合わせるよう書かれています。 この店の周辺地域の生活環境の保持について意見を持つ人は、書面で令和9年1月7日までに、渡島総合振興局産業振興部商工労働観光課に到着するよう提出できます。 あわせて読む 函館市のほかの記事は、 函館市の記事一覧 にまとめています。 函館市の湯の川温泉周辺の海岸（撮影 663highland／ CC BY 2.5 ） 情報源 北海道告示第11422号（令和8年9月7日付、大規模小売店舗立地法第5条第1項の届出）: 北海道告示第11422号（PDF） 北海道「R8告示状況」（2026年9月16日更新）: https://www.pref.hokkaido.lg.jp/kz/csk/richi/todokede/kokuzi1/251386.html 株式会社コメリ ニュースリリース「3月下旬にコメリPROが3店舗オープン　埼玉県内では初！」（2026年3月10日）: https://www.komeri.bit.or.jp/news/2026/2026_03_10_2.html コメリパワー公式サイト 店舗一覧: https://www.komeri.bit.or.jp/pw/store-search/ コメリ 店舗検索（函館市）: https://www.komeri.com/shop/storeSearch/StoreSelect.aspx アイキャッチ写真: 函館市の湯の川温泉周辺の海岸（イメージ。店の場所ではありません。文字を加工）。撮影 663highland／Wikimedia Commons／CC BY 2.5 https://commons.wikimedia.org/wiki/File:Yunokawa_Onsen_Hakodate_Hokkaido_Japan10s5.jpg 函館市 湯の川・東部 コメリPRO ホームセンター 函館市湯川町 Let's share this post ! Copied the URL ! Copied the URL ! 函館市の港町ふ頭が10/2-3に一部立入制限｜函館港で津波防災訓練、10/3 10:30から 函館市西桔梗町の「中華桃園」が10/31で閉店｜創業1972年、営業は11-14時・17:30-20:30、店は公式Instagramで告知 関連記事 函館市の冬タイヤ交換、タイヤ館は10/31-11/23が1台+1,100円｜軽は4,400→5,500円、初雪は平年11/1・2025年は10/28 2026年9月30日 丸井今井函館店のうまいもの大会は10/7に店が入れ替わる｜函館市本町で10/12まで、2,000円以上で駐車2時間無料 2026年9月30日 函館市の函館山、10/1からマイカー規制は16時から｜ロープウェイ上り最終は20:30に、10/6は14時始発 2026年9月29日 函館市電の箱館ハイカラ號は今季10/12まで、残りは10/3・4・10-12｜完全予約制で当日8時まで、大人630円から 2026年9月29日 函館市の初雪は平年11/1、2025年は10/28｜立待岬は11/9の15時まで、函館山登山道は11/9の11時から車は通行止め 2026年9月28日 函館市の高齢者インフル・コロナ予防接種が10/1から｜自己負担はインフル1,500円・コロナ11,800円、非課税世帯は免除 2026年9月28日 函館市の五稜郭タワーが10/1展望の日、先着101名にタオル｜展望料金は大人1,200円、塗装工事は11/15まで・営業は通常どおり 2026年9月27日 函館市西旭岡町にCafe Ikazuwaが9/24開店｜営業は木金土の10-15時だけ、12席・駐車3台・現金のみ 2026年9月26日",
+        "type": "closed",
+        "url": "https://hakodate.goguynet.jp/2026/08/17/chuka-toyen/",
+        "source": "号外NET 函館市",
+        "sources": [
+          {
+            "name": "号外NET 函館市",
+            "url": "https://hakodate.goguynet.jp/2026/08/17/chuka-toyen/",
+            "priority": 80
+          }
+        ],
+        "confidence": 0.54,
+        "source_count": 1,
+        "first_seen": "2026-09-30",
+        "last_seen": "2026-09-30"
+      },
+      {
         "name": "横浜家系ラーメン おばら家 鍛治店",
         "title": "横浜家系ラーメン おばら家 鍛治店",
         "date": "2026-10-04",
@@ -8130,27 +8256,6 @@
         "last_seen": "2026-09-30"
       },
       {
-        "name": "中華桃園",
-        "title": "中華桃園",
-        "date": "2026-04-11",
-        "place": "函館市西桔梗町の",
-        "note": "函館市湯川町2丁目にコメリPRO湯川店｜届出上の新設予定日は2027/4/11、店舗面積2,281㎡・届出では朝6:30から営業 函館市湯川町2丁目にコメリPRO湯川店｜届出上の新設予定日は2027/4/11、店舗面積2,281㎡・届出では朝6:30から営業 2026 9/20 函館市 湯の川・東部 2026年9月20日 北海道の告示（令和8年9月7日付）によると、株式会社コメリが、函館市湯川町2丁目10－1 ほかに「コメリPRO湯川店」を新設する届出を出しています。届出上の新設をする日は令和9年（2027年）4月11日で、店舗面積の合計は2,281平方メートル、開店時刻は午前6時30分です。これらは届出上の内容で、開店日として発表されたものではありません。 函館市の湯の川温泉周辺の海岸（撮影 663highland／ CC BY 2.5 ） TOC 届出の内容（北海道告示第11422号） 大規模小売店舗立地法第5条第1項に基づく新設の届出です。告示に書かれている内容は次のとおりです。 名称: コメリPRO湯川店 所在地: 函館市湯川町2丁目10－1 ほか 設置者・小売業を行う者: 株式会社コメリ（新潟県新潟市南区清水4501番地1） 新設をする日: 令和9年（2027年）4月11日 大規模小売店舗内の店舗面積の合計: 2,281平方メートル 駐車場の収容台数: 25台 駐輪場の収容台数: 7台 届出年月日: 令和8年8月10日 届出上の開店・閉店の時刻 開店時刻: 午前6時30分 閉店時刻: 午後9時 来客が駐車場を利用できる時間帯: 午前6時から午後9時30分まで 駐車場の自動車の出入口: 3箇所 荷さばき施設で荷さばきができる時間帯: 午前6時から午後10時まで この時刻は届出のもので、コメリの開店の発表ではありません。 コメリPROとは（コメリの説明） 株式会社コメリの2026年3月10日のニュースリリースには、コメリPROについて次の説明があります。「資材や建材、工具・金物など仕事に必要な商品を大量に在庫し、早朝営業や取り置き、取り寄せ、修理、工具レンタルといった各種サービスを充実させることでお客様の暮らしと仕事をサポートしてまいります」。同じリリースによると、当時のコメリの店舗数は、パワー118店舗、ハード&グリーン1,088店舗、PRO24店舗、アテーナ2店舗の合計1,232店舗です。 函館市の湯の川温泉の足湯（撮影 OraMAAG／ CC BY 4.0 ） ほかのコメリPRO店の例（湯川店のものではありません） 同じリリースには、2026年3月に開店した3店の情報があります。湯川店の発表ではなく、ほかの県の店の例です。 コメリPRO盛岡上堂店（岩手県）: 売場面積2,432平方メートル、2026年3月24日(火)午前7時開店 コメリPRO熊谷久保島店（埼玉県）: 売場面積2,468平方メートル、2026年3月26日(木)午前7時開店 コメリPRO高岡店（富山県）: 売場面積2,455平方メートル、2026年3月28日(土)午前7時開店 3店とも営業時間は、平日・土曜・祝日が午前7時から午後8時まで、日曜が午前9時から午後8時まで（不定休）と書かれています。主な取扱い品種は、資材、建材、工具・金物、作業衣料ほかです。湯川店の届出上の営業は午前6時30分から午後9時までで、届出の時刻がそのまま開店時に使われるとは限りません。 函館市内の既存店と、道内の「PRO」の店名 コメリの店舗検索によると、函館市内の既存店には「コメリパワー函館西桔梗店」（西桔梗町246－4）があり、営業時間は9:00〜20:00で、特記事項に「本館9:00～20:00/資材館7:30～20:00（日曜以外）」とあります。 コメリパワー公式サイトの店舗一覧（パワーとPROの店が載る一覧。ハード&グリーンの店は載っていない）では、北海道で店名に「PRO」が付く店は、2026年9月19日時点で「コメリパワー音更店PRO」だけです。 届出書の縦覧と、意見書の提出 告示によると、届出書は令和8年9月7日(月)から令和9年1月7日(木)まで縦覧できます（日曜日、土曜日、国民の祝日、12月29日から31日、1月2日・3日を除く。午前8時45分から午後5時15分まで）。縦覧の場所は、北海道経済部地域経済局中小企業課と、北海道渡島総合振興局産業振興部商工労働観光課です。函館市にも協力を依頼する予定で、縦覧の場所や時間は函館市へ問い合わせるよう書かれています。 この店の周辺地域の生活環境の保持について意見を持つ人は、書面で令和9年1月7日までに、渡島総合振興局産業振興部商工労働観光課に到着するよう提出できます。 あわせて読む 函館市のほかの記事は、 函館市の記事一覧 にまとめています。 函館市の湯の川温泉周辺の海岸（撮影 663highland／ CC BY 2.5 ） 情報源 北海道告示第11422号（令和8年9月7日付、大規模小売店舗立地法第5条第1項の届出）: 北海道告示第11422号（PDF） 北海道「R8告示状況」（2026年9月16日更新）: https://www.pref.hokkaido.lg.jp/kz/csk/richi/todokede/kokuzi1/251386.html 株式会社コメリ ニュースリリース「3月下旬にコメリPROが3店舗オープン　埼玉県内では初！」（2026年3月10日）: https://www.komeri.bit.or.jp/news/2026/2026_03_10_2.html コメリパワー公式サイト 店舗一覧: https://www.komeri.bit.or.jp/pw/store-search/ コメリ 店舗検索（函館市）: https://www.komeri.com/shop/storeSearch/StoreSelect.aspx アイキャッチ写真: 函館市の湯の川温泉周辺の海岸（イメージ。店の場所ではありません。文字を加工）。撮影 663highland／Wikimedia Commons／CC BY 2.5 https://commons.wikimedia.org/wiki/File:Yunokawa_Onsen_Hakodate_Hokkaido_Japan10s5.jpg 函館市 湯の川・東部 コメリPRO ホームセンター 函館市湯川町 Let's share this post ! Copied the URL ! Copied the URL ! 函館市の港町ふ頭が10/2-3に一部立入制限｜函館港で津波防災訓練、10/3 10:30から 函館市西桔梗町の「中華桃園」が10/31で閉店｜創業1972年、営業は11-14時・17:30-20:30、店は公式Instagramで告知 関連記事 函館市の冬タイヤ交換、タイヤ館は10/31-11/23が1台+1,100円｜軽は4,400→5,500円、初雪は平年11/1・2025年は10/28 2026年9月30日 丸井今井函館店のうまいもの大会は10/7に店が入れ替わる｜函館市本町で10/12まで、2,000円以上で駐車2時間無料 2026年9月30日 函館市の函館山、10/1からマイカー規制は16時から｜ロープウェイ上り最終は20:30に、10/6は14時始発 2026年9月29日 函館市電の箱館ハイカラ號は今季10/12まで、残りは10/3・4・10-12｜完全予約制で当日8時まで、大人630円から 2026年9月29日 函館市の初雪は平年11/1、2025年は10/28｜立待岬は11/9の15時まで、函館山登山道は11/9の11時から車は通行止め 2026年9月28日 函館市の高齢者インフル・コロナ予防接種が10/1から｜自己負担はインフル1,500円・コロナ11,800円、非課税世帯は免除 2026年9月28日 函館市の五稜郭タワーが10/1展望の日、先着101名にタオル｜展望料金は大人1,200円、塗装工事は11/15まで・営業は通常どおり 2026年9月27日 函館市西旭岡町にCafe Ikazuwaが9/24開店｜営業は木金土の10-15時だけ、12席・駐車3台・現金のみ 2026年9月26日",
-        "type": "closed",
-        "url": "https://hakodate.goguynet.jp/2026/08/17/chuka-toyen/",
-        "source": "号外NET 函館市",
-        "sources": [
-          {
-            "name": "号外NET 函館市",
-            "url": "https://hakodate.goguynet.jp/2026/08/17/chuka-toyen/",
-            "priority": 80
-          }
-        ],
-        "confidence": 0.54,
-        "source_count": 1,
-        "first_seen": "2026-09-30",
-        "last_seen": "2026-09-30"
-      },
-      {
         "name": "白い恋人 Hakodate Bay Museum",
         "title": "白い恋人 Hakodate Bay Museum",
         "date": "2026-04-10",
@@ -8214,27 +8319,6 @@
         "last_seen": "2026-09-30"
       },
       {
-        "name": "炭火居酒屋 炎 函館美原2号店",
-        "title": "炭火居酒屋 炎 函館美原2号店",
-        "date": "2026-02-18",
-        "place": "函館市",
-        "note": "2026年2月18日「ケーズデンキ函館本店」建物内に「炭火居酒屋 炎 函館美原2号店」がオープンするそうです",
-        "type": "open",
-        "url": "https://hakodate.goguynet.jp/2026/02/14/sumibiizakayaenmihara-2/",
-        "source": "号外NET 函館市",
-        "sources": [
-          {
-            "name": "号外NET 函館市",
-            "url": "https://hakodate.goguynet.jp/2026/02/14/sumibiizakayaenmihara-2/",
-            "priority": 80
-          }
-        ],
-        "confidence": 0.72,
-        "source_count": 1,
-        "first_seen": "2026-09-30",
-        "last_seen": "2026-09-30"
-      },
-      {
         "name": "バラエティショップあさひや",
         "title": "バラエティショップあさひや",
         "date": "2026-02-11",
@@ -8272,27 +8356,6 @@
           }
         ],
         "confidence": 0.54,
-        "source_count": 1,
-        "first_seen": "2026-09-30",
-        "last_seen": "2026-09-30"
-      },
-      {
-        "name": "民芸はこだて",
-        "title": "民芸はこだて",
-        "date": "2025-09-16",
-        "place": "函館市",
-        "note": "2025年9月16日「民芸はこだて」の店内にある『喫茶 民藝』が閉店していました",
-        "type": "closed",
-        "url": "https://hakodate.goguynet.jp/2025/09/23/mingei-hakodate-2/",
-        "source": "号外NET 函館市",
-        "sources": [
-          {
-            "name": "号外NET 函館市",
-            "url": "https://hakodate.goguynet.jp/2025/09/23/mingei-hakodate-2/",
-            "priority": 80
-          }
-        ],
-        "confidence": 0.72,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -8424,8 +8487,8 @@
         "last_seen": "2026-09-30"
       },
       {
-        "name": "閉業",
-        "title": "閉業",
+        "name": "そば処 ひいらぎ",
+        "title": "そば処 ひいらぎ",
         "date": "",
         "place": "函館市",
         "note": "「閉業」の理由や閉店された日は、わかりませんが川原町の『そば処 ひいらぎ』が閉店したようです",
@@ -8439,7 +8502,7 @@
             "priority": 80
           }
         ],
-        "confidence": 0.68,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -8464,203 +8527,61 @@
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
+      },
+      {
+        "name": "喫茶 民藝",
+        "title": "喫茶 民藝",
+        "date": "",
+        "place": "函館市",
+        "note": "2025年9月16日「民芸はこだて」の店内にある『喫茶 民藝』が閉店していました",
+        "type": "closed",
+        "url": "https://hakodate.goguynet.jp/2025/09/23/mingei-hakodate-2/",
+        "source": "号外NET 函館市",
+        "sources": [
+          {
+            "name": "号外NET 函館市",
+            "url": "https://hakodate.goguynet.jp/2025/09/23/mingei-hakodate-2/",
+            "priority": 80
+          }
+        ],
+        "confidence": 0.54,
+        "source_count": 1,
+        "first_seen": "2026-09-30",
+        "last_seen": "2026-09-30"
+      },
+      {
+        "name": "炭火居酒屋 炎 函館美原2号店",
+        "title": "炭火居酒屋 炎 函館美原2号店",
+        "date": "",
+        "place": "函館市",
+        "note": "2026年2月18日「ケーズデンキ函館本店」建物内に「炭火居酒屋 炎 函館美原2号店」がオープンするそうです",
+        "type": "open",
+        "url": "https://hakodate.goguynet.jp/2026/02/14/sumibiizakayaenmihara-2/",
+        "source": "号外NET 函館市",
+        "sources": [
+          {
+            "name": "号外NET 函館市",
+            "url": "https://hakodate.goguynet.jp/2026/02/14/sumibiizakayaenmihara-2/",
+            "priority": 80
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-09-30",
+        "last_seen": "2026-09-30"
       }
     ]
   },
   "unmatched": 276,
   "source_count": 30,
-  "collector_version": "7.3.8.2",
-  "unconfirmed_count": 5,
-  "unconfirmed_total_count": 322,
+  "collector_version": "7.3.8.3",
+  "unconfirmed_count": 0,
+  "unconfirmed_total_count": 281,
   "unconfirmed_class_counts": {
-    "A": 5,
-    "B": 176,
-    "C": 141
+    "A": 0,
+    "B": 150,
+    "C": 131
   },
-  "unconfirmed_updated_at": "2026-09-30T21:34:23",
-  "unconfirmed": [
-    {
-      "title": "【函館市】2026年10月4日（日） 鍛治にある『横浜家系ラーメンおばら家 鍛治店』が閉店するそうです - 地域ニュースサイト号外NET",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5TZC1idFJra0ZjdkQyM3dYdHFfY1RubDVHTno1QzN3NVEtOXJFU2w1TWt6M2VPc01XS2dkMHRGYzNvNzhwRzlZcWxFeUhTZVp5Tl91NmxFVU40UUdOWEdF?oc=5",
-      "source": "地域ニュースサイト号外NET",
-      "source_type": "web",
-      "area": "函館市",
-      "status": "closed",
-      "store_name": "横浜家系ラーメンおばら家 鍛治店",
-      "address_hint": "函館市】2026年10月4日（日） 鍛治にある『横浜家系ラーメンおばら家 鍛治店』が閉店するそう",
-      "date_hint": "2026-10-04",
-      "snippet": "【函館市】2026年10月4日（日） 鍛治にある『横浜家系ラーメンおばら家 鍛治店』が閉店するそうです 地域ニュースサイト号外NET",
-      "first_seen": "2026-09-30",
-      "confidence": 0.88,
-      "match_score": 0.69,
-      "matched_store": "横浜家系ラーメン おばら家 鍛治店",
-      "matched_url": "https://hakodate.goguynet.jp/2026/09/24/obaraya-2/",
-      "verification": "unconfirmed",
-      "candidate_type": "named_store",
-      "display_eligible": true,
-      "review_class": "A",
-      "review_label": "掲載候補",
-      "review_score": 15,
-      "review_reasons": [
-        "店名品質:3",
-        "対象地域を特定",
-        "住所・場所情報あり",
-        "開閉店時期あり",
-        "開閉店状態を判定",
-        "抽出信頼度が高い",
-        "既存情報に類似候補あり",
-        "閉店予定または閉店後30日以内"
-      ],
-      "reasons": [
-        "公開Web検索で開店・閉店シグナルを検出",
-        "既存情報に類似候補あり・要確認"
-      ]
-    },
-    {
-      "title": "【函館市】2026年10月31日（土）で西桔梗町にある『中華桃園』が閉店するそうです。 - 地域ニュースサイト号外NET",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9uQThpY2xxdjRNNU84MjJ3V3JvNWcyamFsR3BpaTBpLVRaLWhnYm5STk1UT0VVa0YzRHBhRVVhZTFQQ2hxWkxXZlg2bkJlMHk1UnVoU2JPQ1B2NTdSMVVWUXVB?oc=5",
-      "source": "地域ニュースサイト号外NET",
-      "source_type": "web",
-      "area": "函館市",
-      "status": "closed",
-      "store_name": "中華桃園",
-      "address_hint": "函館市】2026年10月31日（土）で西桔梗町にある『中華桃園』が閉店するそうです",
-      "date_hint": "2026-10-31",
-      "snippet": "【函館市】2026年10月31日（土）で西桔梗町にある『中華桃園』が閉店するそうです。 地域ニュースサイト号外NET",
-      "first_seen": "2026-09-30",
-      "confidence": 0.88,
-      "match_score": 0.69,
-      "matched_store": "中華桃園",
-      "matched_url": "https://hakodate.goguynet.jp/2026/08/17/chuka-toyen/",
-      "verification": "unconfirmed",
-      "candidate_type": "named_store",
-      "display_eligible": true,
-      "review_class": "A",
-      "review_label": "掲載候補",
-      "review_score": 14,
-      "review_reasons": [
-        "店名品質:2",
-        "対象地域を特定",
-        "住所・場所情報あり",
-        "開閉店時期あり",
-        "開閉店状態を判定",
-        "抽出信頼度が高い",
-        "既存情報に類似候補あり",
-        "閉店予定または閉店後30日以内"
-      ],
-      "reasons": [
-        "公開Web検索で開店・閉店シグナルを検出",
-        "既存情報に類似候補あり・要確認"
-      ]
-    },
-    {
-      "title": "ブランチ札幌月寒に『回転寿司 函館 旬花』が11月オープン予定！函館・五稜郭発の回転寿司、札幌初出店 - 札幌速報",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBDVjFtMkdIUS10ZFNLMnZoZEtZRWtKc3YtYzBfdk1tbi1WY0xyQlRiSm9HZzIxTERITkZvSDdHRjJiUUM0RWJXU0FLcVczTkN1Njg4SFpzOG5jTEliWVY3dHpR?oc=5",
-      "source": "札幌速報",
-      "source_type": "web",
-      "area": "豊平区",
-      "status": "upcoming",
-      "store_name": "回転寿司 函館 旬花",
-      "address_hint": "",
-      "date_hint": "2026-11",
-      "snippet": "ブランチ札幌月寒に『回転寿司 函館 旬花』が11月オープン予定！函館・五稜郭発の回転寿司、札幌初出店 札幌速報",
-      "first_seen": "2026-09-30",
-      "confidence": 0.8,
-      "match_score": 0.69,
-      "matched_store": "回転寿司 函館 旬花",
-      "matched_url": "https://sapporo-sokuho.com/archives/post-111895.html",
-      "verification": "unconfirmed",
-      "candidate_type": "named_store",
-      "display_eligible": true,
-      "review_class": "A",
-      "review_label": "掲載候補",
-      "review_score": 13,
-      "review_reasons": [
-        "店名品質:3",
-        "対象地域を特定",
-        "開閉店時期あり",
-        "開閉店状態を判定",
-        "抽出信頼度が一定以上",
-        "既存情報に類似候補あり",
-        "将来の開店予定日"
-      ],
-      "reasons": [
-        "公開Web検索で開店・閉店シグナルを検出",
-        "予定・募集等の事前シグナル",
-        "既存情報に類似候補あり・要確認"
-      ]
-    },
-    {
-      "title": "JR札幌駅北口の『カフェ・ド・クリエ 札幌駅北口店』が9月30日(水)をもって閉店 - 札幌速報",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9jd1liOU9kbGp5aW5LZnZ6RkV5UWtUZTcwU3hjV2djNmxHNEJpR0pQd0tQcGotblFYb0Y2eDNXaVFxd2VjX0NNbGZzXzBQMGV6OFI3a2J0MjV1QXYwT2U5dEpR?oc=5",
-      "source": "札幌速報",
-      "source_type": "web",
-      "area": "北区",
-      "status": "closed",
-      "store_name": "カフェ・ド・クリエ 札幌駅北口店",
-      "address_hint": "",
-      "date_hint": "2026-09-30",
-      "snippet": "JR札幌駅北口の『カフェ・ド・クリエ 札幌駅北口店』が9月30日(水)をもって閉店 札幌速報",
-      "first_seen": "2026-09-30",
-      "confidence": 0.8,
-      "match_score": 0.632,
-      "matched_store": "カフェ・ド・クリエ",
-      "matched_url": "https://sapporokitaku.goguynet.jp/2026/08/16/cafedecrie-close/",
-      "verification": "unconfirmed",
-      "candidate_type": "named_store",
-      "display_eligible": true,
-      "review_class": "A",
-      "review_label": "掲載候補",
-      "review_score": 12,
-      "review_reasons": [
-        "店名品質:3",
-        "対象地域を特定",
-        "開閉店時期あり",
-        "開閉店状態を判定",
-        "抽出信頼度が一定以上",
-        "既存情報に類似候補あり",
-        "閉店予定または閉店後30日以内"
-      ],
-      "reasons": [
-        "公開Web検索で開店・閉店シグナルを検出",
-        "既存情報に類似候補あり・要確認"
-      ]
-    },
-    {
-      "title": "【さよなら】北海道函館市本町にある中華料理店『東春』が、店主の体力の限界により9月27日をもって閉店。約55年の歴史に幕。https://t.co/R6c97irW2f - x.com",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1neEw2NXZXNTQtbk1zT1dNb2pzbUVqRThBaWFzaWpBR1k1RW5lcmxoYnk5Ry1LVEpGcXREa3FyZ01EWnc0X01mU1ktTnVEcnFrdEJweHNfM05TSTA5QVE?oc=5",
-      "source": "x.com",
-      "source_type": "web",
-      "area": "函館市",
-      "status": "closed",
-      "store_name": "東春",
-      "address_hint": "函館市本町にある中華料理店『東春』が、店主の体力の限界により9月27日をもって閉店",
-      "date_hint": "2026-09-27",
-      "snippet": "【さよなら】北海道函館市本町にある中華料理店『東春』が、店主の体力の限界により9月27日をもって閉店。約55年の歴史に幕。https://t.co/R6c97irW2f x.com",
-      "first_seen": "2026-09-30",
-      "confidence": 0.72,
-      "match_score": 0.0,
-      "matched_store": "",
-      "matched_url": "",
-      "verification": "unconfirmed",
-      "candidate_type": "named_store",
-      "display_eligible": true,
-      "review_class": "A",
-      "review_label": "掲載候補",
-      "review_score": 12,
-      "review_reasons": [
-        "店名品質:2",
-        "対象地域を特定",
-        "住所・場所情報あり",
-        "開閉店時期あり",
-        "開閉店状態を判定",
-        "抽出信頼度が一定以上",
-        "閉店予定または閉店後30日以内"
-      ],
-      "reasons": [
-        "公開Web検索で開店・閉店シグナルを検出",
-        "既存の確定情報に十分な一致なし"
-      ]
-    }
-  ]
+  "unconfirmed_updated_at": "2026-09-30T22:14:07",
+  "unconfirmed": []
 }

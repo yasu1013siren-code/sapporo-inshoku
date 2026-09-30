@@ -224,7 +224,7 @@
       <span class="eyebrow" id="auto-refresh-status">自動更新：待機中</span>
     </div>
     <h1>札幌市10区＋函館市<small>飲食店 開店・閉店 速報板</small></h1>
-    <p class="lede">ラーメンから割烹、バーまで業種は問いません。札幌市10区と函館市の飲食店の新規開店・閉店・開店予定情報も、複数の情報源から集めてまとめています。</p>
+    <p class="lede">ラーメンから割烹、バーまで業種は問いません。札幌市10区と函館市の飲食店の開店済み・閉店・開店予定情報も、複数の情報源から集めてまとめています。</p>
   </div>
   <div class="stamp">号外</div>
 </div>
@@ -272,12 +272,12 @@ function buildTabsAndSections(){
   ).join("");
   sectionsEl.innerHTML = AREA_META.map((a,i)=>`
     <section class="area${i===0?" active":""}" id="area-${a.id}">
-      <div class="section-head"><h2>開店・閉店情報</h2><span class="count">過去90日・今後の予定・日付未定</span></div>
+      <div class="section-head"><h2>開店・閉店情報</h2><span class="count">過去30日・今後の予定・日付未定</span></div>
       <div class="filter-row" data-area="${a.id}">
         <button class="chip active" data-filter="all">すべて</button>
-        <button class="chip" data-filter="open">新規開店</button>
-        <button class="chip" data-filter="closed">閉店</button>
         <button class="chip" data-filter="upcoming">開店予定</button>
+        <button class="chip" data-filter="open">開店済み</button>
+        <button class="chip" data-filter="closed">閉店</button>
       </div>
       <div class="event-feed" id="${a.id}-history"></div>
 
@@ -617,7 +617,7 @@ const UPCOMING = {
 };
 
 const MONTH_NAMES = ["1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"];
-const TYPE_TAG_LABEL = {open:"新規開店", closed:"閉店", upcoming:"開店予定", unknown:"要確認"};
+const TYPE_TAG_LABEL = {open:"開店済み", closed:"閉店", upcoming:"開店予定", unknown:"要確認"};
 
 function parseDateLoose(dateStr){
   // "2026-09-01" のような形式のみ日付として解釈。"2026年"等はnullを返す。
@@ -678,7 +678,7 @@ function dateRange(value){
 }
 function renderHistory(){
   const now=new Date(); now.setHours(0,0,0,0);
-  const cutoff=new Date(now.getTime()-90*86400000);
+  const cutoff=new Date(now.getTime()-30*86400000);
   AREA_META.forEach(({id:area})=>{
     const el=document.getElementById(`${area}-history`);
     const fallback=[...(CONFIRMED[area]?.open || []).map(i=>({...i,type:"open"})),...(CONFIRMED[area]?.closed || []).map(i=>({...i,type:"closed"})),...(UPCOMING[area] || []).map(i=>({...i,type:"upcoming"}))];
@@ -699,9 +699,10 @@ function renderHistory(){
       if(seen.has(key)) return false;
       seen.add(key); return true;
     }).sort((a,b)=>{
-      const af=a.range && a.range[0]>now,bf=b.range && b.range[0]>now;
-      if(!!af!==!!bf) return af ? -1 : 1;
-      if(a.range && b.range) return af ? a.range[0]-b.range[0] : b.range[0]-a.range[0];
+      const rank={upcoming:0,open:1,closed:2,unknown:3};
+      const group=(rank[a._type] ?? 3)-(rank[b._type] ?? 3);
+      if(group) return group;
+      if(a.range && b.range) return a._type==="upcoming" ? a.range[0]-b.range[0] : b.range[0]-a.range[0];
       return a.range ? -1 : b.range ? 1 : 0;
     });
     el.innerHTML=items.length ? items.map(i=>eventCardHTML(i,i._type)).join("") : '<p class="empty-note">対象期間の情報はありません。</p>';
