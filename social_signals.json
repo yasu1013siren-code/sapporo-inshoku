@@ -1,8 +1,8 @@
 {
-  "version": "7.3.8.0",
-  "generated_at": "2026-09-30T20:16:59",
+  "version": "7.3.8.1",
+  "generated_at": "2026-09-30T20:50:19",
   "description": "公開Web・SNS検索インデックス・求人・プレスリリース等から得た深掘り候補。確定情報ではありません。",
-  "count": 316,
+  "count": 314,
   "items": [
     {
       "title": "札幌❣️新店オープン → @yuz.repo 📍SAPPORO(札幌) 【 アーバンネット札幌リンクタワー 】 🏃‍♀️大通駅から徒歩6分ほど ━🌟point━━━━━━━━━━━ 札幌の中心部に新ビル誕生！ グルメ街があって、先に3店舗が9/1本日オープンしたよ！その他のお店は10月以降に - instagram.com",
@@ -385,27 +385,26 @@
       "snippet": "札幌❣️注目の新店ラーメン！ → @yuz.repo 📍SAPPORO(札幌) 【#麺燕参上すすきの 】 🏃‍♀️すすきの駅徒歩7分ほど ━🔖menu ━━━━━━━━━━━ 俺流燕参上ラーメン￥1100 新潟燕参上ラーメン￥1100 ━🌟point━━━━━━━━━━━ すすきのに7/7オープンし instagram.com",
       "first_seen": "2026-09-30",
       "confidence": 0.76,
-      "match_score": 0.582,
-      "matched_store": "すすきの",
-      "matched_url": "https://mogtrip.jp/category/sapporo/chuo/susukino/",
+      "match_score": 0.28,
+      "matched_store": "",
+      "matched_url": "",
       "verification": "unconfirmed",
       "candidate_type": "named_store",
       "display_eligible": false,
       "review_class": "B",
       "review_label": "要確認",
-      "review_score": 10,
+      "review_score": 9,
       "review_reasons": [
         "店名品質:2",
         "対象地域を特定",
         "開閉店状態を判定",
         "SNS公開情報",
-        "抽出信頼度が一定以上",
-        "既存情報に類似候補あり"
+        "抽出信頼度が一定以上"
       ],
       "reasons": [
         "公開Web検索で開店・閉店シグナルを検出",
         "SNS由来の公開情報/検索インデックス",
-        "既存情報に類似候補あり・要確認"
+        "既存の確定情報に十分な一致なし"
       ]
     },
     {
@@ -421,7 +420,7 @@
       "snippet": "【すすきの新店】プチ忘年会にぴったりなイタリアン？？ ⁡ もっくんです🙆‍♂️ 他の旨いグルメはこちら▶︎ @mokkun_sapporo ⁡ 今日は友だちの誕生日なので、 新店イタリアンでサプライズ忘年会してきました！ ⁡ ■今回食べたのは ・前菜盛り合わせ2人前 ¥3256 ・プッラータ生 instagram.com",
       "first_seen": "2026-09-30",
       "confidence": 0.76,
-      "match_score": 0.582,
+      "match_score": 0.632,
       "matched_store": "おすすめ屋 すすきの店",
       "matched_url": "https://www.hotpepper.jp/strJ004698995/",
       "verification": "unconfirmed",
@@ -645,20 +644,21 @@
       "snippet": "札幌の赤れんがテラスに新店オープン🎉富良野の人気パン屋さんが上陸🤤 イートインスペースもあるし朝8:00オープンなの嬉しい✨️ #札幌#札幌グルメ#札幌新店#札幌パン屋 TikTok",
       "first_seen": "2026-09-30",
       "confidence": 0.6,
-      "match_score": 0.36,
-      "matched_store": "",
-      "matched_url": "",
+      "match_score": 0.662,
+      "matched_store": "なんと札幌の人気パン屋どんぐり琴似店",
+      "matched_url": "https://sapporonishi-teine.goguynet.jp/2026/01/09/dongurikotonitenheiten/",
       "verification": "unconfirmed",
       "candidate_type": "named_store",
       "display_eligible": false,
       "review_class": "C",
       "review_label": "保存のみ",
-      "review_score": 4,
+      "review_score": 5,
       "review_reasons": [
         "店名品質:3",
         "区市町村を特定できない",
         "開閉店状態を判定",
         "SNS公開情報",
+        "既存情報に類似候補あり",
         "対象地域との市区整合性を確認できない",
         "記事本文で対象地域の強い根拠を確認できない",
         "店名・所在地・開閉店情報が同一文脈で確認できない"
@@ -666,7 +666,7 @@
       "reasons": [
         "公開Web検索で開店・閉店シグナルを検出",
         "SNS由来の公開情報/検索インデックス",
-        "既存の確定情報に十分な一致なし"
+        "既存情報に類似候補あり・要確認"
       ]
     },
     {
@@ -756,7 +756,7 @@
       "snippet": "札幌❣️新店蕎麦屋 → @yuz.repo 📍SAPPORO(札幌) 【 #そば処つゆ 】 🏃‍♀️札幌駅直結 ━🔖menu ━━━━━━━━━━━ かけそば￥390 ━🌟point━━━━━━━━━━━ 札幌駅直結にオープンしたお蕎麦屋さん✨️ かけ蕎麦390円〜とお手頃価格でお蕎麦を楽しめる instagram.com",
       "first_seen": "2026-09-30",
       "confidence": 0.6,
-      "match_score": 0.0,
+      "match_score": 0.36,
       "matched_store": "",
       "matched_url": "",
       "verification": "unconfirmed",
@@ -1012,15 +1012,15 @@
       "snippet": "【新店オープン】全国200店舗、東京で行列のできる居酒屋『新時代』2025年10月27日(月)『新時代 札幌麻生店』NEWOPEN PR TIMES",
       "first_seen": "2026-09-30",
       "confidence": 0.9,
-      "match_score": 0.0,
-      "matched_store": "",
-      "matched_url": "",
+      "match_score": 0.69,
+      "matched_store": "新時代",
+      "matched_url": "https://satsutter.com/posts/news/33870.html",
       "verification": "unconfirmed",
       "candidate_type": "named_store",
       "display_eligible": false,
       "review_class": "B",
       "review_label": "要確認",
-      "review_score": 9,
+      "review_score": 10,
       "review_reasons": [
         "店名品質:2",
         "対象地域を特定",
@@ -1028,12 +1028,13 @@
         "開閉店状態を判定",
         "プレスリリース",
         "抽出信頼度が高い",
+        "既存情報に類似候補あり",
         "開店予定日が既に45日超過"
       ],
       "reasons": [
         "公開Web検索で開店・閉店シグナルを検出",
         "プレスリリース由来",
-        "既存の確定情報に十分な一致なし"
+        "既存情報に類似候補あり・要確認"
       ]
     },
     {
@@ -1189,15 +1190,15 @@
       "snippet": "✨ ネネチキン札幌すすきの本店｜オープニングスタッフ募集 🍗 ネネチキン札幌すすきの店 12月21日のグランドオープンに向けて オープニングスタッフ大募集！ 韓国No.1チキンブランドで、一緒に新店舗を盛り上げませんか？🇰🇷✨ 【募集職種】 ・キッチンスタッフ ・ホールスタッフ 【 instagram.com",
       "first_seen": "2026-09-30",
       "confidence": 0.84,
-      "match_score": 0.582,
-      "matched_store": "すすきの",
-      "matched_url": "https://mogtrip.jp/category/sapporo/chuo/susukino/",
+      "match_score": 0.293,
+      "matched_store": "",
+      "matched_url": "",
       "verification": "unconfirmed",
       "candidate_type": "named_store",
       "display_eligible": false,
       "review_class": "B",
       "review_label": "要確認",
-      "review_score": 8,
+      "review_score": 7,
       "review_reasons": [
         "店名品質:3",
         "対象地域を特定",
@@ -1205,14 +1206,13 @@
         "開閉店状態を判定",
         "SNS公開情報",
         "抽出信頼度が一定以上",
-        "既存情報に類似候補あり",
         "開店予定日が既に45日超過"
       ],
       "reasons": [
         "公開Web検索で開店・閉店シグナルを検出",
         "SNS由来の公開情報/検索インデックス",
         "予定・募集等の事前シグナル",
-        "既存情報に類似候補あり・要確認"
+        "既存の確定情報に十分な一致なし"
       ]
     },
     {
@@ -1302,7 +1302,7 @@
       "snippet": "ついについについに！！昨日から内装工事が始まりました！ 打ち合わせをしながら、少しずつ進めていっています！ 何もなかったところから少し枠組がついただけで段々とイメージが広がってきました😃 #札幌イタリアン#札幌元町グルメ#札幌ニューオープン #札幌東区ランチ#北 instagram.com",
       "first_seen": "2026-09-30",
       "confidence": 0.84,
-      "match_score": 0.582,
+      "match_score": 0.632,
       "matched_store": "回転寿司 函館 旬花 ブランチ札幌月寒店",
       "matched_url": "https://chamonix-cakes.com/kaiten-ab4wel9yaqfid02bno/",
       "verification": "unconfirmed",
@@ -1450,29 +1450,28 @@
       "snippet": "回鍋肉 全て自家製の調味料（辣油、花椒油、豆板醤、甜麺醬、豆豉醬）を使用しています。 【札幌中華すすきの亭】 札幌市中央区南4条西1丁目4-3 営業時間 18:00-翌06:00 定休日 日曜日 #オープン準備中 #わんたん麺 #雲呑麺 #手包みわんたん #中華料理 #町中華 #すすきの instagram.com",
       "first_seen": "2026-09-30",
       "confidence": 0.84,
-      "match_score": 0.682,
-      "matched_store": "すすきの",
-      "matched_url": "https://mogtrip.jp/category/sapporo/chuo/susukino/",
+      "match_score": 0.409,
+      "matched_store": "",
+      "matched_url": "",
       "verification": "unconfirmed",
       "candidate_type": "named_store",
       "display_eligible": false,
       "review_class": "B",
       "review_label": "要確認",
-      "review_score": 13,
+      "review_score": 12,
       "review_reasons": [
         "店名品質:3",
         "対象地域を特定",
         "住所・場所情報あり",
         "開閉店状態を判定",
         "SNS公開情報",
-        "抽出信頼度が一定以上",
-        "既存情報に類似候補あり"
+        "抽出信頼度が一定以上"
       ],
       "reasons": [
         "公開Web検索で開店・閉店シグナルを検出",
         "SNS由来の公開情報/検索インデックス",
         "予定・募集等の事前シグナル",
-        "既存情報に類似候補あり・要確認"
+        "既存の確定情報に十分な一致なし"
       ]
     },
     {
@@ -2117,21 +2116,22 @@
       "snippet": "いつも辛いラーメン14をご利用いただき、誠にありがとうございます！！ この度、【辛いラーメン14 札幌南口本店】はビル取り壊しに伴い、 来年2027年3月末頃をもって閉店する予定となりました。 この場所での営業は、あと約1年。 寂しさはありますが、最後の日まで全力で営業い instagram.com",
       "first_seen": "2026-09-30",
       "confidence": 0.68,
-      "match_score": 0.0,
-      "matched_store": "",
-      "matched_url": "",
+      "match_score": 0.77,
+      "matched_store": "辛いラーメン14 札幌南口本店",
+      "matched_url": "https://sapporochuo.goguynet.jp/2026/03/15/karaira_men14/",
       "verification": "unconfirmed",
       "candidate_type": "named_store",
       "display_eligible": false,
       "review_class": "C",
       "review_label": "保存のみ",
-      "review_score": 1,
+      "review_score": 2,
       "review_reasons": [
         "店名品質:3",
         "区市町村を特定できない",
         "開閉店時期あり",
         "開閉店状態を判定",
         "SNS公開情報",
+        "既存情報に類似候補あり",
         "対象地域との市区整合性を確認できない",
         "記事本文で対象地域の強い根拠を確認できない",
         "閉店後30日を超過",
@@ -2141,7 +2141,7 @@
         "公開Web検索で開店・閉店シグナルを検出",
         "SNS由来の公開情報/検索インデックス",
         "予定・募集等の事前シグナル",
-        "既存の確定情報に十分な一致なし"
+        "既存情報に類似候補あり・要確認"
       ]
     },
     {
@@ -2157,7 +2157,7 @@
       "snippet": "1月31日、2月5日にオープンする｢ordinary｣のプレオープン！ 札幌市中央区北1条西27丁目シャトー円山2階 【 ordinary (オーディナリー) 】 @_ordinarycoffee 喫茶店のナポリタン ¥1,300 イタリアンプリン ¥ 700 ブレンド珈琲 ¥ 700 円山に2月5日にオープンする｢ordinary｣のプレ instagram.com",
       "first_seen": "2026-09-30",
       "confidence": 0.92,
-      "match_score": 0.252,
+      "match_score": 0.359,
       "matched_store": "",
       "matched_url": "",
       "verification": "unconfirmed",
@@ -2175,43 +2175,6 @@
         "SNS公開情報",
         "抽出信頼度が高い",
         "開店予定日が既に45日超過"
-      ],
-      "reasons": [
-        "公開Web検索で開店・閉店シグナルを検出",
-        "SNS由来の公開情報/検索インデックス",
-        "既存の確定情報に十分な一致なし"
-      ]
-    },
-    {
-      "title": "#カフェオープン準備中 #札幌カフェ - instagram.com",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5PLTlDWU45MEV3T3VHQS1PXzJIOFBKWHdBdWFQVTN4U2tGTDVRbV83QmFMczhxWWRNNXVPX0lnMlJaOEhvbHVQYmFUNzRObGhFOTY0OHdB?oc=5",
-      "source": "instagram.com",
-      "source_type": "instagram",
-      "area": "札幌市・区不明",
-      "status": "upcoming",
-      "store_name": "カフェオープン準備中",
-      "address_hint": "",
-      "date_hint": "",
-      "snippet": "#カフェオープン準備中 #札幌カフェ instagram.com",
-      "first_seen": "2026-09-30",
-      "confidence": 0.6,
-      "match_score": 0.0,
-      "matched_store": "",
-      "matched_url": "",
-      "verification": "unconfirmed",
-      "candidate_type": "named_store",
-      "display_eligible": false,
-      "review_class": "C",
-      "review_label": "保存のみ",
-      "review_score": 4,
-      "review_reasons": [
-        "店名品質:3",
-        "区市町村を特定できない",
-        "開閉店状態を判定",
-        "SNS公開情報",
-        "対象地域との市区整合性を確認できない",
-        "記事本文で対象地域の強い根拠を確認できない",
-        "店名・所在地・開閉店情報が同一文脈で確認できない"
       ],
       "reasons": [
         "公開Web検索で開店・閉店シグナルを検出",
@@ -3125,7 +3088,7 @@
       "snippet": "＼勉強カフェ札幌琴似スタジオ／ グランドオープン…できた…。 何とか間に合った〜😅 頑張ってくれた施工業者さん 職人さんに感謝！ 勉強カフェ札幌琴似スタジオ 〈営業時間〉 平日6時-23 土曜6時-23 日祝6時-23 #勉強カフェ #勉強カフェ札幌琴似スタジオ #勉強 #自習 #札幌コ instagram.com",
       "first_seen": "2026-09-30",
       "confidence": 0.76,
-      "match_score": 0.28,
+      "match_score": 0.313,
       "matched_store": "",
       "matched_url": "",
       "verification": "unconfirmed",
@@ -3198,15 +3161,15 @@
       "snippet": "焼肉バイキングウエスタンからのお知らせです。 6月20日（土）ウエスタン平岸店がリニューアルオープンします！ 以前よりも「焼肉屋」っぽくなった平岸店をよろしくお願いいたします。 ※詳しくはホームページをご覧ください。 #焼肉バイキング #札幌グルメ #焼肉食べ放題 #子連れに TikTok",
       "first_seen": "2026-09-30",
       "confidence": 0.84,
-      "match_score": 0.0,
-      "matched_store": "",
-      "matched_url": "",
+      "match_score": 0.582,
+      "matched_store": "焼肉屋さかい 函館五稜郭店",
+      "matched_url": "https://hakodate.goguynet.jp/2026/02/13/sakai/",
       "verification": "unconfirmed",
       "candidate_type": "named_store",
       "display_eligible": false,
       "review_class": "B",
       "review_label": "要確認",
-      "review_score": 7,
+      "review_score": 8,
       "review_reasons": [
         "店名品質:3",
         "対象地域を特定",
@@ -3214,12 +3177,13 @@
         "開閉店状態を判定",
         "SNS公開情報",
         "抽出信頼度が一定以上",
+        "既存情報に類似候補あり",
         "開店予定日が既に45日超過"
       ],
       "reasons": [
         "公開Web検索で開店・閉店シグナルを検出",
         "SNS由来の公開情報/検索インデックス",
-        "既存の確定情報に十分な一致なし"
+        "既存情報に類似候補あり・要確認"
       ]
     },
     {
@@ -3257,6 +3221,36 @@
         "公開Web検索で開店・閉店シグナルを検出",
         "プレスリリース由来",
         "既存の確定情報に十分な一致なし"
+      ]
+    },
+    {
+      "title": "七輪炭火焼肉×ハイボール1杯209円！札幌市北区篠路に『七輪焼肉 安安 札幌篠路店』が10月1日オープン - ラブすぽ",
+      "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxNWjhqS1dRVEgwQnB4TzFkNUNRRTQ4dk5BSFVMNFVHbldhRUdhY0tBNjB0NTJvel81NjdOSFBoSDJ1bVBNVWxiYy1XUzI5RjVsWlZlR29ydC03cWFDWV93dVlkRk9aREJ4RXFzWWNyOEhDV1M1cFdJUEgyQ3VIYl9FYUJyLWNpTnQwYW82dU5QS0V0QWVyelhjaDAwbk9TNFg3cW1vSkxqX3Rha05tZkloY2lkWTl4SUExSDNBT0JKeVRwc2x3b2lCdjhuVDRpU0pBdHhnRXRoS0VxYzh4VjhDVFBWUXpoSF9IanFPdUZZLXdxOUt3RVJiMmptekMxNFdfOS05UVhJZ1hKSC1fRTdEWjhvOWZKa0JIT29zakx6eWEtWkh0VGZjOUcxWXRKVWxxX1NhWkZtUU1wZW1PbzktVi12Z3RpdjQ?oc=5",
+      "source": "ラブすぽ",
+      "source_type": "web",
+      "area": "北区",
+      "status": "upcoming",
+      "store_name": "七輪焼肉 安安 札幌篠路店",
+      "address_hint": "札幌市北区篠路に『七輪焼肉 安安 札幌篠路店』が10月1日オープン - ラブすぽ 七輪炭火焼肉×ハイ",
+      "date_hint": "2026-10-01",
+      "snippet": "七輪炭火焼肉×ハイボール1杯209円！札幌市北区篠路に『七輪焼肉 安安 札幌篠路店』が10月1日オープン ラブすぽ",
+      "first_seen": "2026-09-30",
+      "confidence": 0.88,
+      "match_score": 0.79,
+      "matched_store": "七輪焼肉 安安 札幌篠路店",
+      "matched_url": "https://sapporokitaku.goguynet.jp/2026/09/29/yasuyasu/",
+      "verification": "matched_confirmed",
+      "candidate_type": "named_store",
+      "display_eligible": false,
+      "review_class": "C",
+      "review_label": "既存一致",
+      "review_score": 0,
+      "review_reasons": [
+        "既存確定情報と高一致のため未確認欄へ表示しない"
+      ],
+      "reasons": [
+        "公開Web検索で開店・閉店シグナルを検出",
+        "既存の確定情報と高一致"
       ]
     },
     {
@@ -4023,27 +4017,28 @@
       "snippet": "札幌地下街オーロラタウン、「ロッテリア」跡にカフェ風の「吉野家」が出店 リアルエコノミー",
       "first_seen": "2026-09-30",
       "confidence": 0.56,
-      "match_score": 0.0,
-      "matched_store": "",
-      "matched_url": "",
+      "match_score": 0.662,
+      "matched_store": "ロッテリアが展開する新ブランドのハンバーガーチェーン！イオン札幌西町に1月29日ゼッテリア",
+      "matched_url": "https://sapporonishi-teine.goguynet.jp/2026/02/06/zetterianishimachiopen/",
       "verification": "unconfirmed",
       "candidate_type": "named_store",
       "display_eligible": false,
       "review_class": "C",
       "review_label": "保存のみ",
-      "review_score": 0,
+      "review_score": 1,
       "review_reasons": [
         "店名品質:2",
         "区市町村を特定できない",
         "開閉店状態を判定",
         "抽出信頼度が低い",
+        "既存情報に類似候補あり",
         "対象地域との市区整合性を確認できない",
         "記事本文で対象地域の強い根拠を確認できない",
         "店名・所在地・開閉店情報が同一文脈で確認できない"
       ],
       "reasons": [
         "公開Web検索で開店・閉店シグナルを検出",
-        "既存の確定情報に十分な一致なし"
+        "既存情報に類似候補あり・要確認"
       ]
     },
     {
@@ -4243,20 +4238,21 @@
       "snippet": "「焼肉矢澤」札幌に5月オープン 道内初出店、美瑛で育てた和牛提供 北海道新聞デジタル",
       "first_seen": "2026-09-30",
       "confidence": 0.64,
-      "match_score": 0.0,
-      "matched_store": "",
-      "matched_url": "",
+      "match_score": 0.72,
+      "matched_store": "焼肉矢澤",
+      "matched_url": "https://sapporochuo.goguynet.jp/2026/05/01/yazawa-sapporo/",
       "verification": "unconfirmed",
       "candidate_type": "named_store",
       "display_eligible": false,
       "review_class": "C",
       "review_label": "保存のみ",
-      "review_score": -1,
+      "review_score": 0,
       "review_reasons": [
         "店名品質:2",
         "区市町村を特定できない",
         "開閉店時期あり",
         "開閉店状態を判定",
+        "既存情報に類似候補あり",
         "対象地域との市区整合性を確認できない",
         "記事本文で対象地域の強い根拠を確認できない",
         "開店予定日が既に45日超過",
@@ -4264,7 +4260,7 @@
       ],
       "reasons": [
         "公開Web検索で開店・閉店シグナルを検出",
-        "既存の確定情報に十分な一致なし"
+        "既存情報に類似候補あり・要確認"
       ]
     },
     {
@@ -4612,9 +4608,9 @@
       "snippet": "【ゆず庵】札幌市初出店！『寿司・しゃぶしゃぶ ゆず庵 南郷通店』が2026年6月25日(木)にグランドオープン PR TIMES",
       "first_seen": "2026-09-30",
       "confidence": 0.74,
-      "match_score": 0.0,
-      "matched_store": "",
-      "matched_url": "",
+      "match_score": 0.662,
+      "matched_store": "2026年6月24日 しゃぶしゃぶ, 北海道, 寿司, 札幌, 開店情報, 飲食店 【開店】寿司・しゃぶしゃぶ ゆず庵 南郷通店",
+      "matched_url": "https://kaiten-heiten-24.com/shabu-yuzuan-nangodori/",
       "verification": "unconfirmed",
       "candidate_type": "named_store",
       "display_eligible": false,
@@ -4628,6 +4624,7 @@
         "開閉店状態を判定",
         "プレスリリース",
         "抽出信頼度が一定以上",
+        "既存情報に類似候補あり",
         "対象地域との市区整合性を確認できない",
         "記事本文で対象地域の強い根拠を確認できない",
         "開店予定日が既に45日超過",
@@ -4636,7 +4633,7 @@
       "reasons": [
         "公開Web検索で開店・閉店シグナルを検出",
         "プレスリリース由来",
-        "既存の確定情報に十分な一致なし"
+        "既存情報に類似候補あり・要確認"
       ]
     },
     {
@@ -4689,9 +4686,9 @@
       "snippet": "【焼肉 矢澤 札幌】西11丁目に出店した理由。プリンスホテル近くの“隠れ家”を読み解く 札幌クリップ",
       "first_seen": "2026-09-30",
       "confidence": 0.72,
-      "match_score": 0.259,
-      "matched_store": "",
-      "matched_url": "",
+      "match_score": 0.582,
+      "matched_store": "焼肉矢澤",
+      "matched_url": "https://sapporochuo.goguynet.jp/2026/05/01/yazawa-sapporo/",
       "verification": "unconfirmed",
       "candidate_type": "named_store",
       "display_eligible": false,
@@ -4703,12 +4700,13 @@
         "対象地域を特定",
         "開閉店状態を判定",
         "抽出信頼度が一定以上",
+        "既存情報に類似候補あり",
         "対象地域との市区整合性を確認できない",
         "非飲食業態の可能性が高い"
       ],
       "reasons": [
         "公開Web検索で開店・閉店シグナルを検出",
-        "既存の確定情報に十分な一致なし"
+        "既存情報に類似候補あり・要確認"
       ]
     },
     {
@@ -4724,7 +4722,7 @@
       "snippet": "【札幌市東区】5月8日、カレーもラーメンも人気のお店「らーめん優月」の2号店がオープン！3日間はミニカレーのサービスも 地域ニュースサイト号外NET",
       "first_seen": "2026-09-30",
       "confidence": 0.8,
-      "match_score": 0.0,
+      "match_score": 0.4,
       "matched_store": "",
       "matched_url": "",
       "verification": "unconfirmed",
@@ -5274,9 +5272,9 @@
       "snippet": "創業147年カレーパン🍞 1879年創業の函館に愛された 西洋レストラン「五島軒」の 函館朝市の新店が 3月19日にNEW OPEN! お店でも人気のカレーパンだけに絞った 専門店で食べ歩きも出来るようになってます！ サクサクのカレーパンに 割と辛さは感じなくて甘さもあって 誰も instagram.com",
       "first_seen": "2026-09-30",
       "confidence": 0.84,
-      "match_score": 0.582,
-      "matched_store": "函館五島軒 新千歳空港店｜千歳市新千歳空港 2026-09-25 札幌市外",
-      "matched_url": "https://mogtrip.jp/gotoken-newchitose/",
+      "match_score": 0.0,
+      "matched_store": "",
+      "matched_url": "",
       "verification": "unconfirmed",
       "candidate_type": "named_store",
       "display_eligible": false,
@@ -5290,7 +5288,6 @@
         "開閉店状態を判定",
         "SNS公開情報",
         "抽出信頼度が一定以上",
-        "既存情報に類似候補あり",
         "記事本文で対象地域の強い根拠を確認できない",
         "開店予定日が既に45日超過",
         "店名・所在地・開閉店情報が同一文脈で確認できない"
@@ -5298,7 +5295,7 @@
       "reasons": [
         "公開Web検索で開店・閉店シグナルを検出",
         "SNS由来の公開情報/検索インデックス",
-        "既存情報に類似候補あり・要確認"
+        "既存の確定情報に十分な一致なし"
       ]
     },
     {
@@ -5763,7 +5760,7 @@
       "snippet": "函館市本町にて11月始めにオープンいたします。 #函館カフェ #函館コーヒー instagram.com",
       "first_seen": "2026-09-30",
       "confidence": 0.92,
-      "match_score": 0.28,
+      "match_score": 0.313,
       "matched_store": "",
       "matched_url": "",
       "verification": "unconfirmed",
@@ -5801,7 +5798,7 @@
       "snippet": "いつもご利用ありがとうございます。 本日都合により８時にて閉店致します。 #五稜郭ラーメン #近くのラーメン #函館市オススメラーメン #函館市ラーメンオススメ instagram.com",
       "first_seen": "2026-09-30",
       "confidence": 0.84,
-      "match_score": 0.431,
+      "match_score": 0.513,
       "matched_store": "",
       "matched_url": "",
       "verification": "unconfirmed",
@@ -5910,7 +5907,7 @@
       "snippet": "真っ黒なスープにびっくり！函館らしさを詰め込んだ一杯🍜 【函館朝市ラーメン｜函館市若松町】 函館朝市ひろばのフードコートにオープンした「函館朝市ラーメン」✨ 看板商品は、王道の函館塩ラーメンと、インパクト抜群の「函館イカ墨ブラック」！ 真っ黒なスープは、市内に2店舗あ instagram.com",
       "first_seen": "2026-09-30",
       "confidence": 0.84,
-      "match_score": 0.404,
+      "match_score": 0.431,
       "matched_store": "",
       "matched_url": "",
       "verification": "unconfirmed",
@@ -6205,7 +6202,7 @@
       "snippet": "【韓流麺 函館五稜郭店】 📍函館市本町（すし蔵さんと同じ建物） ⚪︎ユッケジャン麺（¥1100） [ハーフ ¥850] ⚪︎〆チーズリゾット（¥600） [雑炊 ¥500] ⚪︎ハラミ丼（¥1,450）[ハーフ ¥1,000] ⚪︎冷麺（¥1,000） ・函館本町エリアにオープンした韓国料理のお店 ・19時から翌日10時まで TikTok",
       "first_seen": "2026-09-30",
       "confidence": 0.84,
-      "match_score": 0.0,
+      "match_score": 0.431,
       "matched_store": "",
       "matched_url": "",
       "verification": "unconfirmed",
@@ -6391,29 +6388,21 @@
       "snippet": "【函館市】2026年2月24日ファミリー層に人気だった「焼肉屋さかい函館五稜郭店」が閉店します（Nagare〆） - エキスパート - Yahoo!ニュース https://t.co/hYhVZOqP5v x.com",
       "first_seen": "2026-09-30",
       "confidence": 0.88,
-      "match_score": 0.0,
-      "matched_store": "",
-      "matched_url": "",
-      "verification": "unconfirmed",
+      "match_score": 0.79,
+      "matched_store": "焼肉屋さかい 函館五稜郭店",
+      "matched_url": "https://hakodate.goguynet.jp/2026/02/13/sakai/",
+      "verification": "matched_confirmed",
       "candidate_type": "named_store",
       "display_eligible": false,
       "review_class": "C",
-      "review_label": "保存のみ",
-      "review_score": 3,
+      "review_label": "既存一致",
+      "review_score": 0,
       "review_reasons": [
-        "店名品質:3",
-        "対象地域を特定",
-        "住所・場所情報あり",
-        "開閉店時期あり",
-        "開閉店状態を判定",
-        "抽出信頼度が高い",
-        "記事本文で対象地域の強い根拠を確認できない",
-        "閉店後30日を超過",
-        "店名・所在地・開閉店情報が同一文脈で確認できない"
+        "既存確定情報と高一致のため未確認欄へ表示しない"
       ],
       "reasons": [
         "公開Web検索で開店・閉店シグナルを検出",
-        "既存の確定情報に十分な一致なし"
+        "既存の確定情報と高一致"
       ]
     },
     {
@@ -6533,9 +6522,9 @@
       "snippet": "【丸源ラーメン】『丸源ラーメン 函館美原店』が2025年10⽉１日(水)にグランドオープン！ PR TIMES",
       "first_seen": "2026-09-30",
       "confidence": 0.9,
-      "match_score": 0.0,
-      "matched_store": "",
-      "matched_url": "",
+      "match_score": 0.64,
+      "matched_store": "丸源ラーメン 函館美原店",
+      "matched_url": "https://hakodate.goguynet.jp/2025/10/16/post-47559/",
       "verification": "unconfirmed",
       "candidate_type": "named_store",
       "display_eligible": false,
@@ -6549,6 +6538,7 @@
         "開閉店状態を判定",
         "プレスリリース",
         "抽出信頼度が高い",
+        "既存情報に類似候補あり",
         "記事本文で対象地域の強い根拠を確認できない",
         "開店予定日が既に45日超過",
         "店名・所在地・開閉店情報が同一文脈で確認できない"
@@ -6556,7 +6546,7 @@
       "reasons": [
         "公開Web検索で開店・閉店シグナルを検出",
         "プレスリリース由来",
-        "既存の確定情報に十分な一致なし"
+        "既存情報に類似候補あり・要確認"
       ]
     },
     {
@@ -6609,15 +6599,15 @@
       "snippet": "【函館市】2026年2月18日「ケーズデンキ函館本店」建物内に「炭火居酒屋 炎 函館美原2号店」がオープンするそうです 地域ニュースサイト号外NET",
       "first_seen": "2026-09-30",
       "confidence": 0.88,
-      "match_score": 0.0,
-      "matched_store": "",
-      "matched_url": "",
+      "match_score": 0.74,
+      "matched_store": "ケーズデンキ函館本店",
+      "matched_url": "https://hakodate.goguynet.jp/2026/02/14/sumibiizakayaenmihara-2/",
       "verification": "unconfirmed",
       "candidate_type": "named_store",
       "display_eligible": false,
       "review_class": "B",
       "review_label": "要確認",
-      "review_score": 9,
+      "review_score": 10,
       "review_reasons": [
         "店名品質:3",
         "対象地域を特定",
@@ -6625,11 +6615,12 @@
         "開閉店時期あり",
         "開閉店状態を判定",
         "抽出信頼度が高い",
+        "既存情報に類似候補あり",
         "開店予定日が既に45日超過"
       ],
       "reasons": [
         "公開Web検索で開店・閉店シグナルを検出",
-        "既存の確定情報に十分な一致なし"
+        "既存情報に類似候補あり・要確認"
       ]
     },
     {
@@ -6751,27 +6742,21 @@
       "snippet": "【札幌市北区】個性豊かな飲食店がそろう北24条エリア。2026年6月、新たな居酒屋「酒場ぶんぶく」がオープンへ！ 地域ニュースサイト号外NET",
       "first_seen": "2026-09-30",
       "confidence": 0.88,
-      "match_score": 0.0,
-      "matched_store": "",
-      "matched_url": "",
-      "verification": "unconfirmed",
+      "match_score": 0.79,
+      "matched_store": "酒場ぶんぶく",
+      "matched_url": "https://sapporokitaku.goguynet.jp/2026/06/04/bunbuku/",
+      "verification": "matched_confirmed",
       "candidate_type": "named_store",
       "display_eligible": false,
-      "review_class": "B",
-      "review_label": "要確認",
-      "review_score": 9,
+      "review_class": "C",
+      "review_label": "既存一致",
+      "review_score": 0,
       "review_reasons": [
-        "店名品質:3",
-        "対象地域を特定",
-        "住所・場所情報あり",
-        "開閉店時期あり",
-        "開閉店状態を判定",
-        "抽出信頼度が高い",
-        "開店予定日が既に45日超過"
+        "既存確定情報と高一致のため未確認欄へ表示しない"
       ],
       "reasons": [
         "公開Web検索で開店・閉店シグナルを検出",
-        "既存の確定情報に十分な一致なし"
+        "既存の確定情報と高一致"
       ]
     },
     {
@@ -7138,7 +7123,7 @@
       "snippet": "物語コーポレーション／札幌市に「丸源ラーメン アリオ札幌店」4／17オープン ryutsuu.biz",
       "first_seen": "2026-09-30",
       "confidence": 0.56,
-      "match_score": 0.0,
+      "match_score": 0.438,
       "matched_store": "",
       "matched_url": "",
       "verification": "unconfirmed",
@@ -7174,27 +7159,28 @@
       "snippet": "物語コーポレーション、「丸源ラーメン」道内2店舗目を「アリオ札幌」に出店 リアルエコノミー",
       "first_seen": "2026-09-30",
       "confidence": 0.56,
-      "match_score": 0.443,
-      "matched_store": "",
-      "matched_url": "",
+      "match_score": 0.662,
+      "matched_store": "丸源ラーメン 函館美原店",
+      "matched_url": "https://hakodate.goguynet.jp/2025/10/16/post-47559/",
       "verification": "unconfirmed",
       "candidate_type": "named_store",
       "display_eligible": false,
       "review_class": "C",
       "review_label": "保存のみ",
-      "review_score": 1,
+      "review_score": 2,
       "review_reasons": [
         "店名品質:3",
         "区市町村を特定できない",
         "開閉店状態を判定",
         "抽出信頼度が低い",
+        "既存情報に類似候補あり",
         "対象地域との市区整合性を確認できない",
         "記事本文で対象地域の強い根拠を確認できない",
         "店名・所在地・開閉店情報が同一文脈で確認できない"
       ],
       "reasons": [
         "公開Web検索で開店・閉店シグナルを検出",
-        "既存の確定情報に十分な一致なし"
+        "既存情報に類似候補あり・要確認"
       ]
     },
     {
@@ -7243,20 +7229,21 @@
       "snippet": "《BONTEMPS》北海道初上陸！韓国コーヒー＆ドーナツ『BONTEMPS 札幌店』が9/5(金)オープン決定！ PR TIMES",
       "first_seen": "2026-09-30",
       "confidence": 0.66,
-      "match_score": 0.403,
-      "matched_store": "",
-      "matched_url": "",
+      "match_score": 0.662,
+      "matched_store": "BONTEMPS",
+      "matched_url": "https://satsutter.com/posts/news/32736.html",
       "verification": "unconfirmed",
       "candidate_type": "named_store",
       "display_eligible": false,
       "review_class": "C",
       "review_label": "保存のみ",
-      "review_score": 6,
+      "review_score": 7,
       "review_reasons": [
         "店名品質:3",
         "区市町村を特定できない",
         "開閉店状態を判定",
         "プレスリリース",
+        "既存情報に類似候補あり",
         "対象地域との市区整合性を確認できない",
         "記事本文で対象地域の強い根拠を確認できない",
         "店名・所在地・開閉店情報が同一文脈で確認できない"
@@ -7264,20 +7251,20 @@
       "reasons": [
         "公開Web検索で開店・閉店シグナルを検出",
         "プレスリリース由来",
-        "既存の確定情報に十分な一致なし"
+        "既存情報に類似候補あり・要確認"
       ]
     },
     {
-      "title": "札幌・東区に「ISHIYA」直営店 3年ぶりのモール出店、ロールケーキも - 札幌経済新聞",
+      "title": "札幌・東区に「ISHIYA」直営店 3年ぶりのモール出店、ロールケーキも - sapporo.keizai.biz",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1CYm1WOHY3czJxQmhvZVFoMG5wNE96cnlPbFAyT2lsZWo2SFdISEJEMHZPM3Z0TXlpM2xWQlZtMGlZQmZtYmZZZWpGZEFDS3U5NERz?oc=5",
-      "source": "札幌経済新聞",
+      "source": "sapporo.keizai.biz",
       "source_type": "web",
       "area": "札幌市・区不明",
       "status": "upcoming",
       "store_name": "ISHIYA",
-      "address_hint": "東区に「ISHIYA」直営店 3年ぶりのモール出店、ロールケーキも - 札幌経済新聞 札幌・東",
+      "address_hint": "東区に「ISHIYA」直営店 3年ぶりのモール出店、ロールケーキも - sapporo.kei",
       "date_hint": "",
-      "snippet": "札幌・東区に「ISHIYA」直営店 3年ぶりのモール出店、ロールケーキも 札幌経済新聞",
+      "snippet": "札幌・東区に「ISHIYA」直営店 3年ぶりのモール出店、ロールケーキも sapporo.keizai.biz",
       "first_seen": "2026-09-30",
       "confidence": 0.64,
       "match_score": 0.0,
@@ -7387,7 +7374,7 @@
       "snippet": "「ファミリーマート」、札幌プリンスホテル「宮の森珈琲」跡に出店へ リアルエコノミー",
       "first_seen": "2026-09-30",
       "confidence": 0.72,
-      "match_score": 0.0,
+      "match_score": 0.252,
       "matched_store": "",
       "matched_url": "",
       "verification": "unconfirmed",
@@ -7777,25 +7764,26 @@
       "snippet": "【札幌市東区】アリオ札幌オープン続々！「丸源ラーメン」「MATSUYA」もオープンが決定しました。 地域ニュースサイト号外NET",
       "first_seen": "2026-09-30",
       "confidence": 0.8,
-      "match_score": 0.404,
-      "matched_store": "",
-      "matched_url": "",
+      "match_score": 0.582,
+      "matched_store": "丸源ラーメン 函館美原店",
+      "matched_url": "https://hakodate.goguynet.jp/2025/10/16/post-47559/",
       "verification": "unconfirmed",
       "candidate_type": "named_store",
       "display_eligible": false,
       "review_class": "B",
       "review_label": "要確認",
-      "review_score": 11,
+      "review_score": 12,
       "review_reasons": [
         "店名品質:3",
         "対象地域を特定",
         "住所・場所情報あり",
         "開閉店状態を判定",
-        "抽出信頼度が一定以上"
+        "抽出信頼度が一定以上",
+        "既存情報に類似候補あり"
       ],
       "reasons": [
         "公開Web検索で開店・閉店シグナルを検出",
-        "既存の確定情報に十分な一致なし"
+        "既存情報に類似候補あり・要確認"
       ]
     },
     {
@@ -7848,20 +7836,21 @@
       "snippet": "札幌に初登場！寿司もしゃぶしゃぶも食べ放題の「ゆず庵 南郷通店」が6月25日オープン いこーよニュース",
       "first_seen": "2026-09-30",
       "confidence": 0.64,
-      "match_score": 0.0,
-      "matched_store": "",
-      "matched_url": "",
+      "match_score": 0.662,
+      "matched_store": "2026年6月24日 しゃぶしゃぶ, 北海道, 寿司, 札幌, 開店情報, 飲食店 【開店】寿司・しゃぶしゃぶ ゆず庵 南郷通店",
+      "matched_url": "https://kaiten-heiten-24.com/shabu-yuzuan-nangodori/",
       "verification": "unconfirmed",
       "candidate_type": "named_store",
       "display_eligible": false,
       "review_class": "C",
       "review_label": "保存のみ",
-      "review_score": 0,
+      "review_score": 1,
       "review_reasons": [
         "店名品質:3",
         "区市町村を特定できない",
         "開閉店時期あり",
         "開閉店状態を判定",
+        "既存情報に類似候補あり",
         "対象地域との市区整合性を確認できない",
         "記事本文で対象地域の強い根拠を確認できない",
         "開店予定日が既に45日超過",
@@ -7869,7 +7858,7 @@
       ],
       "reasons": [
         "公開Web検索で開店・閉店シグナルを検出",
-        "既存の確定情報に十分な一致なし"
+        "既存情報に類似候補あり・要確認"
       ]
     },
     {
@@ -8054,16 +8043,16 @@
       ]
     },
     {
-      "title": "【菊水駅】8月オープン！可愛い「Cafe＆Meal Ulysses（ユリシス）」の絶品ランチ＆スイーツ - trilltrill.jp",
+      "title": "【菊水駅】8月オープン！可愛い「Cafe＆Meal Ulysses（ユリシス）」の絶品ランチ＆スイーツ - TRILL【トリル】",
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBMZERKdUpZX0pjU2tqVG5ldDRRTF9nSzNSMjZEcFdNRGJVcXhGVVpWZldxNzBGOEZiX3dYejR1RGVUUXM0cHBhUlJJdmNPWmM?oc=5",
-      "source": "trilltrill.jp",
+      "source": "TRILL【トリル】",
       "source_type": "web",
       "area": "白石区",
       "status": "upcoming",
       "store_name": "Cafe＆Meal Ulysses（ユリシス）",
       "address_hint": "",
       "date_hint": "2026-08",
-      "snippet": "【菊水駅】8月オープン！可愛い「Cafe＆Meal Ulysses（ユリシス）」の絶品ランチ＆スイーツ trilltrill.jp",
+      "snippet": "【菊水駅】8月オープン！可愛い「Cafe＆Meal Ulysses（ユリシス）」の絶品ランチ＆スイーツ TRILL【トリル】",
       "first_seen": "2026-09-30",
       "confidence": 0.8,
       "match_score": 0.582,
@@ -8138,7 +8127,7 @@
       "snippet": "「レバンガカフェ」8月21日オープン！「パワーチャージプレート」などオリジナルメニューが登場＿「北海きたえーる」が憩いと交流の場に〈札幌市豊平区〉 UHB 北海道文化放送",
       "first_seen": "2026-09-30",
       "confidence": 0.88,
-      "match_score": 0.0,
+      "match_score": 0.252,
       "matched_store": "",
       "matched_url": "",
       "verification": "unconfirmed",
@@ -8244,26 +8233,27 @@
       "snippet": "月寒中央に個室居酒屋『ひゃくや 月寒中央駅前店』が12月1日オープン！ 札幌速報",
       "first_seen": "2026-09-30",
       "confidence": 0.8,
-      "match_score": 0.424,
-      "matched_store": "",
-      "matched_url": "",
+      "match_score": 0.69,
+      "matched_store": "ひゃくや 月寒中央駅前店",
+      "matched_url": "https://satsutter.com/posts/news/34829.html",
       "verification": "unconfirmed",
       "candidate_type": "named_store",
       "display_eligible": false,
       "review_class": "B",
       "review_label": "要確認",
-      "review_score": 6,
+      "review_score": 7,
       "review_reasons": [
         "店名品質:3",
         "対象地域を特定",
         "開閉店時期あり",
         "開閉店状態を判定",
         "抽出信頼度が一定以上",
+        "既存情報に類似候補あり",
         "開店予定日が既に45日超過"
       ],
       "reasons": [
         "公開Web検索で開店・閉店シグナルを検出",
-        "既存の確定情報に十分な一致なし"
+        "既存情報に類似候補あり・要確認"
       ]
     },
     {
@@ -8455,27 +8445,21 @@
       "snippet": "【札幌市厚別区】「サッポロ珈琲館 厚別店」2026年2月25日で閉店へ 和風庭園が見える人気店が営業終了 ebetsunopporo.com",
       "first_seen": "2026-09-30",
       "confidence": 0.88,
-      "match_score": 0.0,
-      "matched_store": "",
-      "matched_url": "",
-      "verification": "unconfirmed",
+      "match_score": 0.79,
+      "matched_store": "サッポロ珈琲館 厚別店",
+      "matched_url": "https://sapporo-sokuho.com/archives/post-94133.html",
+      "verification": "matched_confirmed",
       "candidate_type": "named_store",
       "display_eligible": false,
-      "review_class": "B",
-      "review_label": "要確認",
-      "review_score": 9,
+      "review_class": "C",
+      "review_label": "既存一致",
+      "review_score": 0,
       "review_reasons": [
-        "店名品質:3",
-        "対象地域を特定",
-        "住所・場所情報あり",
-        "開閉店時期あり",
-        "開閉店状態を判定",
-        "抽出信頼度が高い",
-        "閉店後30日を超過"
+        "既存確定情報と高一致のため未確認欄へ表示しない"
       ],
       "reasons": [
         "公開Web検索で開店・閉店シグナルを検出",
-        "既存の確定情報に十分な一致なし"
+        "既存の確定情報と高一致"
       ]
     },
     {
@@ -8712,9 +8696,9 @@
       "snippet": "【札幌市西区】寿司・刺身・焼肉のトリプル業態！10月7日琴似に炙り居酒屋「うおぎゅう琴似店」 がオープンします！琴似店限定の新名物 「晴れ盛り」もありますよ！ 地域ニュースサイト号外NET",
       "first_seen": "2026-09-30",
       "confidence": 0.88,
-      "match_score": 0.0,
-      "matched_store": "",
-      "matched_url": "",
+      "match_score": 0.74,
+      "matched_store": "うおぎゅう琴似店",
+      "matched_url": "https://sapporonishi-teine.goguynet.jp/2025/09/29/uogyukotoniopen/",
       "verification": "unconfirmed",
       "candidate_type": "named_store",
       "display_eligible": false,
@@ -8728,6 +8712,7 @@
         "開閉店時期あり",
         "開閉店状態を判定",
         "抽出信頼度が高い",
+        "既存情報に類似候補あり",
         "記事本文で対象地域の強い根拠を確認できない",
         "開店予定日が既に45日超過",
         "店名・所在地・開閉店情報が同一文脈で確認できない"
@@ -8735,7 +8720,7 @@
       "reasons": [
         "公開Web検索で開店・閉店シグナルを検出",
         "プレスリリース由来",
-        "既存の確定情報に十分な一致なし"
+        "既存情報に類似候補あり・要確認"
       ]
     },
     {
@@ -8788,15 +8773,15 @@
       "snippet": "【札幌市西区】琴似の博多豚骨ラーメン一純屋が閉店し、10月からは別ジャンルのラーメン店がオープンしますよ！ 地域ニュースサイト号外NET",
       "first_seen": "2026-09-30",
       "confidence": 0.88,
-      "match_score": 0.0,
-      "matched_store": "",
-      "matched_url": "",
+      "match_score": 0.74,
+      "matched_store": "琴似の博多豚骨ラーメン一純屋",
+      "matched_url": "https://sapporonishi-teine.goguynet.jp/2025/09/25/suzunoya/",
       "verification": "unconfirmed",
       "candidate_type": "named_store",
       "display_eligible": false,
       "review_class": "B",
       "review_label": "要確認",
-      "review_score": 9,
+      "review_score": 10,
       "review_reasons": [
         "店名品質:3",
         "対象地域を特定",
@@ -8804,11 +8789,12 @@
         "開閉店時期あり",
         "開閉店状態を判定",
         "抽出信頼度が高い",
+        "既存情報に類似候補あり",
         "開店予定日が既に45日超過"
       ],
       "reasons": [
         "公開Web検索で開店・閉店シグナルを検出",
-        "既存の確定情報に十分な一致なし"
+        "既存情報に類似候補あり・要確認"
       ]
     },
     {
@@ -9029,6 +9015,43 @@
       ]
     },
     {
+      "title": "2026年9月末をもって閉店・休業する店舗まとめ - 札幌速報",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5DNjFvU1ZvTVJQMmEwTVNwYzhoM2VnRXZCeTEtUnd6RW1fTDkzSjRad2lwT0pKdzJwWVNPOHNLYkVGNFg0Q2MyUnpaWmNoR0ZTUl9TNmJvT0dyV0M3YWM3YUVn?oc=5",
+      "source": "札幌速報",
+      "source_type": "web",
+      "area": "札幌市・区不明",
+      "status": "closed",
+      "store_name": "2026年9月末をもって",
+      "address_hint": "",
+      "date_hint": "2026-09",
+      "snippet": "2026年9月末をもって閉店・休業する店舗まとめ 札幌速報",
+      "first_seen": "2026-09-30",
+      "confidence": 0.64,
+      "match_score": 0.0,
+      "matched_store": "",
+      "matched_url": "",
+      "verification": "unconfirmed",
+      "candidate_type": "named_store",
+      "display_eligible": false,
+      "review_class": "C",
+      "review_label": "保存のみ",
+      "review_score": -1,
+      "review_reasons": [
+        "店名品質:2",
+        "区市町村を特定できない",
+        "開閉店時期あり",
+        "開閉店状態を判定",
+        "対象地域との市区整合性を確認できない",
+        "記事本文で対象地域の強い根拠を確認できない",
+        "閉店後30日を超過",
+        "店名・所在地・開閉店情報が同一文脈で確認できない"
+      ],
+      "reasons": [
+        "公開Web検索で開店・閉店シグナルを検出",
+        "既存の確定情報に十分な一致なし"
+      ]
+    },
+    {
       "title": "厚別南にラーメン店「白鶏舎」初の単独店が4月21日オープン！ - 札幌速報",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBmU1FRR2hSMllZcWluUUFPN2lzOG5nUjFXVGVEUVkyUnBUVzd0aW5MRHpTekhnWmRQUkxNeFMyZWc0aXowRlg5aHZzSWlFUHpRcll5MkVvRXQ3LWlaTU9pSg?oc=5",
       "source": "札幌速報",
@@ -9205,16 +9228,16 @@
       ]
     },
     {
-      "title": "【札幌】4/21オープン！泡立つ鶏白湯ラーメン専門店『白鶏舎』が厚別に誕生。ポタージュのような“ふわ・あわ”スープと「〆のリゾめし」で自分へのご褒美を！ - love-spo.com",
+      "title": "【札幌】4/21オープン！泡立つ鶏白湯ラーメン専門店『白鶏舎』が厚別に誕生。ポタージュのような“ふわ・あわ”スープと「〆のリゾめし」で自分へのご褒美を！ - ラブすぽ",
       "url": "https://news.google.com/rss/articles/CBMixgJBVV95cUxNbjJZcmpBTVpZR25iM1NxZU5VcVE3dXZiYjc3X0hQbkxPZTdxdVYzNVF3YXJwQzRfMlpCVk4zbVJpSFVzVzhIWWQ5NHhWMnNOczRvY25Md0tMYk5nMERJSXh3NjczREI1UlVLY1BQdXIxUXJzT21YVGVsM3RTWUVJRlNVd29CejB0NWpvQXBOaWNKcWREZUNQTmtKUmloMTF0RzJvNElma3hyYlNJTlRPczVVcHc0RUxUZm1ZTDR2UEg2UVFYc3J0QmdVSXota0lyTVljSjZsOHJvZ3dEUEVXUldaYkluRTIzME11cjhUWHpQVWY3cHpYbFd0c3pkWjZTb3J3RXBCdmlJS0gxVlVLd3RKS1J6UjZqOWxxcllqLURyMnFKak1aZmRXN3FScEZlU21HN3lhQkg5SFVyWV8xVngxdVhwUQ?oc=5",
-      "source": "love-spo.com",
+      "source": "ラブすぽ",
       "source_type": "web",
       "area": "札幌市・区不明",
       "status": "upcoming",
       "store_name": "〆のリゾめし",
       "address_hint": "",
       "date_hint": "",
-      "snippet": "【札幌】4/21オープン！泡立つ鶏白湯ラーメン専門店『白鶏舎』が厚別に誕生。ポタージュのような“ふわ・あわ”スープと「〆のリゾめし」で自分へのご褒美を！ love-spo.com",
+      "snippet": "【札幌】4/21オープン！泡立つ鶏白湯ラーメン専門店『白鶏舎』が厚別に誕生。ポタージュのような“ふわ・あわ”スープと「〆のリゾめし」で自分へのご褒美を！ ラブすぽ",
       "first_seen": "2026-09-30",
       "confidence": 0.56,
       "match_score": 0.0,
@@ -9470,7 +9493,7 @@
       "snippet": "新オープンのカフェ“ふわしゅわパンケーキ”庭の緑に癒やされる【手稲区】 SASARU",
       "first_seen": "2026-09-30",
       "confidence": 0.64,
-      "match_score": 0.0,
+      "match_score": 0.33,
       "matched_store": "",
       "matched_url": "",
       "verification": "unconfirmed",
@@ -9492,16 +9515,16 @@
       ]
     },
     {
-      "title": "【手稲】バケツで食べたい絶品アイス！新店「cafe＆dining bouquet（（カフェ＆ダイニング ブーケ））」でテイクアウト - trilltrill.jp",
+      "title": "【手稲】バケツで食べたい絶品アイス！新店「cafe＆dining bouquet（（カフェ＆ダイニング ブーケ））」でテイクアウト - TRILL【トリル】",
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1xano1TTRfN0NhNjNteE9IZlY4TTdkbHNIZHNFcVJmUm1oa19CVTVYajY2bURsZHQxQVFkd0VMZXg2MkxjQmxjbF9IZGxFTTg?oc=5",
-      "source": "trilltrill.jp",
+      "source": "TRILL【トリル】",
       "source_type": "web",
       "area": "手稲区",
       "status": "upcoming",
       "store_name": "cafe＆dining bouquet（（カフェ＆ダイニング ブーケ））",
       "address_hint": "",
       "date_hint": "",
-      "snippet": "【手稲】バケツで食べたい絶品アイス！新店「cafe＆dining bouquet（（カフェ＆ダイニング ブーケ））」でテイクアウト trilltrill.jp",
+      "snippet": "【手稲】バケツで食べたい絶品アイス！新店「cafe＆dining bouquet（（カフェ＆ダイニング ブーケ））」でテイクアウト TRILL【トリル】",
       "first_seen": "2026-09-30",
       "confidence": 0.72,
       "match_score": 0.501,
@@ -9556,43 +9579,6 @@
         "対象地域との市区整合性を確認できない",
         "記事本文で対象地域の強い根拠を確認できない",
         "開店予定日が既に45日超過",
-        "店名・所在地・開閉店情報が同一文脈で確認できない"
-      ],
-      "reasons": [
-        "公開Web検索で開店・閉店シグナルを検出",
-        "既存の確定情報に十分な一致なし"
-      ]
-    },
-    {
-      "title": "2026年9月末をもって閉店・休業する店舗まとめ - 札幌速報",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5DNjFvU1ZvTVJQMmEwTVNwYzhoM2VnRXZCeTEtUnd6RW1fTDkzSjRad2lwT0pKdzJwWVNPOHNLYkVGNFg0Q2MyUnpaWmNoR0ZTUl9TNmJvT0dyV0M3YWM3YUVn?oc=5",
-      "source": "札幌速報",
-      "source_type": "web",
-      "area": "札幌市・区不明",
-      "status": "closed",
-      "store_name": "2026年9月末をもって",
-      "address_hint": "",
-      "date_hint": "2026-09",
-      "snippet": "2026年9月末をもって閉店・休業する店舗まとめ 札幌速報",
-      "first_seen": "2026-09-30",
-      "confidence": 0.64,
-      "match_score": 0.0,
-      "matched_store": "",
-      "matched_url": "",
-      "verification": "unconfirmed",
-      "candidate_type": "named_store",
-      "display_eligible": false,
-      "review_class": "C",
-      "review_label": "保存のみ",
-      "review_score": -1,
-      "review_reasons": [
-        "店名品質:2",
-        "区市町村を特定できない",
-        "開閉店時期あり",
-        "開閉店状態を判定",
-        "対象地域との市区整合性を確認できない",
-        "記事本文で対象地域の強い根拠を確認できない",
-        "閉店後30日を超過",
         "店名・所在地・開閉店情報が同一文脈で確認できない"
       ],
       "reasons": [
@@ -9684,15 +9670,15 @@
       "snippet": "【北海道初上陸＆全国拡大中】福祉型保護犬猫ふれあいカフェ「ANELLA CAFE 札幌清田店」10月30日オープン—癒やし×ずっとの家族探し×就労支援で“三方良し”、地域に新たな温もりを。 PR TIMES",
       "first_seen": "2026-09-30",
       "confidence": 0.9,
-      "match_score": 0.308,
-      "matched_store": "",
-      "matched_url": "",
+      "match_score": 0.69,
+      "matched_store": "ANELLA CAFE 札幌清田店",
+      "matched_url": "https://satsutter.com/posts/news/34066.html",
       "verification": "unconfirmed",
       "candidate_type": "named_store",
       "display_eligible": false,
       "review_class": "B",
       "review_label": "要確認",
-      "review_score": 10,
+      "review_score": 11,
       "review_reasons": [
         "店名品質:3",
         "対象地域を特定",
@@ -9700,12 +9686,13 @@
         "開閉店状態を判定",
         "プレスリリース",
         "抽出信頼度が高い",
+        "既存情報に類似候補あり",
         "開店予定日が既に45日超過"
       ],
       "reasons": [
         "公開Web検索で開店・閉店シグナルを検出",
         "プレスリリース由来",
-        "既存の確定情報に十分な一致なし"
+        "既存情報に類似候補あり・要確認"
       ]
     },
     {
@@ -9756,7 +9743,7 @@
       "snippet": "【丸源ラーメン】『丸源ラーメン 札幌里塚店』が2025年10⽉８日(水)にグランドオープン！ PR TIMES",
       "first_seen": "2026-09-30",
       "confidence": 0.9,
-      "match_score": 0.0,
+      "match_score": 0.378,
       "matched_store": "",
       "matched_url": "",
       "verification": "unconfirmed",
@@ -9852,16 +9839,16 @@
       ]
     },
     {
-      "title": "【ヤマハ】北海道札幌市にYSPの新店舗「YSP札幌清田」がオープン！ ヤマハ バイクレンタルの取り扱いも - news.bikebros.co.jp",
+      "title": "【ヤマハ】北海道札幌市にYSPの新店舗「YSP札幌清田」がオープン！ ヤマハ バイクレンタルの取り扱いも - バイクブロス",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE15c0U0NjFneUp2eEpkVk5QNlRzNDN4TGphWnZGcE9jX0lpTEhDVVVRcWxPZWNpWFZqUmQwWUxpQUxyWE4zclV5dkEwY0xxWGQ1RjhxMzhOWlpDbnZKTjlPWg?oc=5",
-      "source": "news.bikebros.co.jp",
+      "source": "バイクブロス",
       "source_type": "web",
       "area": "清田区",
       "status": "upcoming",
       "store_name": "YSP札幌清田",
       "address_hint": "",
       "date_hint": "",
-      "snippet": "【ヤマハ】北海道札幌市にYSPの新店舗「YSP札幌清田」がオープン！ ヤマハ バイクレンタルの取り扱いも news.bikebros.co.jp",
+      "snippet": "【ヤマハ】北海道札幌市にYSPの新店舗「YSP札幌清田」がオープン！ ヤマハ バイクレンタルの取り扱いも バイクブロス",
       "first_seen": "2026-09-30",
       "confidence": 0.72,
       "match_score": 0.0,
@@ -9966,15 +9953,15 @@
       "snippet": "【函館市】2026年２月11日オープンしました 『バラエティショップあさひや』でタコスや焼き鳥がいただけます！ 地域ニュースサイト号外NET",
       "first_seen": "2026-09-30",
       "confidence": 0.88,
-      "match_score": 0.0,
-      "matched_store": "",
-      "matched_url": "",
+      "match_score": 0.74,
+      "matched_store": "バラエティショップあさひや",
+      "matched_url": "https://hakodate.goguynet.jp/2026/03/14/asahiya-2/",
       "verification": "unconfirmed",
       "candidate_type": "named_store",
       "display_eligible": false,
       "review_class": "C",
       "review_label": "保存のみ",
-      "review_score": 3,
+      "review_score": 4,
       "review_reasons": [
         "店名品質:2",
         "対象地域を特定",
@@ -9982,12 +9969,13 @@
         "開閉店時期あり",
         "開閉店状態を判定",
         "抽出信頼度が高い",
+        "既存情報に類似候補あり",
         "本文が開店済みの過去形",
         "開店予定日が既に45日超過"
       ],
       "reasons": [
         "公開Web検索で開店・閉店シグナルを検出",
-        "既存の確定情報に十分な一致なし"
+        "既存情報に類似候補あり・要確認"
       ]
     },
     {
@@ -10267,7 +10255,7 @@
       "snippet": ". ＼ 札幌第一号店が開店します！ ／ 全国で人気の美味しいヨーグルトや乳製品が楽しめる #岩泉カフェ 現在は旭川での展開ですが、6月26日に札幌市豊平区平岸のビッグハウスエクストラ内に札幌第一号店をオープンします✨ パフェが楽しみ🤤💕 ⭕️オープニングスタッフ募集中 instagram.com",
       "first_seen": "2026-09-30",
       "confidence": 0.84,
-      "match_score": 0.28,
+      "match_score": 0.313,
       "matched_store": "",
       "matched_url": "",
       "verification": "unconfirmed",
@@ -10283,44 +10271,6 @@
         "開閉店状態を判定",
         "SNS公開情報",
         "抽出信頼度が一定以上"
-      ],
-      "reasons": [
-        "公開Web検索で開店・閉店シグナルを検出",
-        "SNS由来の公開情報/検索インデックス",
-        "予定・募集等の事前シグナル",
-        "既存の確定情報に十分な一致なし"
-      ]
-    },
-    {
-      "title": "25.6.17～花論珈琲毎日札幌南4店がオープン予定 お一人のみでの入店専用カフェ☕ ゆったりと過ごせる空間を提供していきます！ 場所 北海道札幌市中央区南4条西9丁目1007-13 2階 ※１階は毎日新聞販売店になります。 営業時間 AM11時～PM7時まで 営業日 火曜〜土 - instagram.com",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5WeHdTWGpFbk9IZm9pUHRScnphTjgyeDJBVDVyb0Nqc3F3dzhsaDVzRHBKX2pQVW1lTmx0ZTJOV3ZIVVFEN2p3QjZGLUdIVkkyekE?oc=5",
-      "source": "instagram.com",
-      "source_type": "instagram",
-      "area": "中央区",
-      "status": "upcoming",
-      "store_name": "ゆったりと過ごせる空間を提供していきます！ 場所 北海道札幌市中央区南4条西9丁目1007-13 2階 ※１階は毎日新聞",
-      "address_hint": "札幌市中央区南4条西9丁目1007-13 2階 ※１階は毎日新聞販売店になります",
-      "date_hint": "",
-      "snippet": "25.6.17～花論珈琲毎日札幌南4店がオープン予定 お一人のみでの入店専用カフェ☕ ゆったりと過ごせる空間を提供していきます！ 場所 北海道札幌市中央区南4条西9丁目1007-13 2階 ※１階は毎日新聞販売店になります。 営業時間 AM11時～PM7時まで 営業日 火曜〜土 instagram.com",
-      "first_seen": "2026-09-30",
-      "confidence": 0.84,
-      "match_score": 0.0,
-      "matched_store": "",
-      "matched_url": "",
-      "verification": "unconfirmed",
-      "candidate_type": "named_store",
-      "display_eligible": false,
-      "review_class": "C",
-      "review_label": "保存のみ",
-      "review_score": 3,
-      "review_reasons": [
-        "店名品質:0",
-        "対象地域を特定",
-        "住所・場所情報あり",
-        "開閉店状態を判定",
-        "SNS公開情報",
-        "抽出信頼度が一定以上",
-        "一般語・文章断片を店名として検出"
       ],
       "reasons": [
         "公開Web検索で開店・閉店シグナルを検出",
@@ -10418,7 +10368,7 @@
       "snippet": "北大さんぽのひとやすみに CAFE de JIKAN（カフェ時館） 📍札幌市北区北19条西6-1-19 営業時間：11:30～21:00（L.O.20:00） ※日曜日のみ19時閉店 定休日：月曜 駐車場：近隣5台 撮影者 @kanameshi_222 様 #カフェ時館 #cafedejikan #ガレット #札幌 #札幌カフェ #札幌 instagram.com",
       "first_seen": "2026-09-30",
       "confidence": 0.84,
-      "match_score": 0.33,
+      "match_score": 0.413,
       "matched_store": "",
       "matched_url": "",
       "verification": "unconfirmed",
@@ -10529,8 +10479,8 @@
       "first_seen": "2026-09-30",
       "confidence": 0.76,
       "match_score": 0.582,
-      "matched_store": "新札幌大衆肉刺し酒場 ぺこら肉食堂",
-      "matched_url": "https://www.shopship.jp/shin-sapporo/open-close/pecora_29shokudo/",
+      "matched_store": "2026年7月3日 北海道, 寿司, 札幌, 焼肉・ホルモン, 開店情報, 飲食店 【開店】すたみな太郎 PREMIUM BUFFET 新札幌店",
+      "matched_url": "https://kaiten-heiten-24.com/sutamina-premium-buffet-shinsapporo/",
       "verification": "unconfirmed",
       "candidate_type": "named_store",
       "display_eligible": false,
@@ -11011,42 +10961,35 @@
       "snippet": "【函館市】『どばそば 和家』が移転 戸倉町で6月中旬以降再オープン予定 地域ニュースサイト号外NET",
       "first_seen": "2026-09-30",
       "confidence": 0.88,
-      "match_score": 0.682,
-      "matched_store": "どばそば和家戸倉店",
-      "matched_url": "https://www.shopship.jp/hakodate/open-close/dobasoba-kazuya_tokura/",
-      "verification": "unconfirmed",
+      "match_score": 0.79,
+      "matched_store": "どばそば 和家",
+      "matched_url": "https://hakodate.goguynet.jp/2026/05/26/dobasoba-2/",
+      "verification": "matched_confirmed",
       "candidate_type": "named_store",
       "display_eligible": false,
-      "review_class": "B",
-      "review_label": "要確認",
-      "review_score": 10,
+      "review_class": "C",
+      "review_label": "既存一致",
+      "review_score": 0,
       "review_reasons": [
-        "店名品質:3",
-        "対象地域を特定",
-        "住所・場所情報あり",
-        "開閉店時期あり",
-        "開閉店状態を判定",
-        "抽出信頼度が高い",
-        "既存情報に類似候補あり",
-        "開店予定日が既に45日超過"
+        "既存確定情報と高一致のため未確認欄へ表示しない"
       ],
       "reasons": [
         "公開Web検索で開店・閉店シグナルを検出",
         "予定・募集等の事前シグナル",
-        "既存情報に類似候補あり・要確認"
+        "既存の確定情報と高一致"
       ]
     },
     {
-      "title": "【明日オープン】函館に「513BAKERY」新店舗グランドオープン！（函館市） - 北海道Likers",
+      "title": "【明日オープン】函館に「513BAKERY」新店舗グランドオープン！（函館市） - hokkaidolikers.com",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB3V2V0bE1ZY0VtSGp2S3NlSkQ1eGRIeXNFNmlrQ0daUVVqel9DbUt0MHA0SVEzMXFLZ2lzTUk0V3VGdU43LUl4TDV4UUItLWNBYkln?oc=5",
-      "source": "北海道Likers",
+      "source": "hokkaidolikers.com",
       "source_type": "web",
       "area": "函館市",
       "status": "upcoming",
       "store_name": "513BAKERY",
-      "address_hint": "函館市） - 北海道Likers 【明日オープン】函館に「513BAKERY」新店舗グランドオー",
+      "address_hint": "函館市） - hokkaidolikers.com 【明日オープン】函館に「513BAKERY」",
       "date_hint": "",
-      "snippet": "【明日オープン】函館に「513BAKERY」新店舗グランドオープン！（函館市） 北海道Likers",
+      "snippet": "【明日オープン】函館に「513BAKERY」新店舗グランドオープン！（函館市） hokkaidolikers.com",
       "first_seen": "2026-09-30",
       "confidence": 0.8,
       "match_score": 0.266,
@@ -11145,42 +11088,6 @@
       ]
     },
     {
-      "title": "8月13日木曜日オープンです！ 場所は、函館市本町16-5 行啓通沿にある北陸銀行の裏手になります。 駐車場は近隣をご利用下さい。 シェフは北斗市でイタリアンを営んでいました北斗芯軒の八木橋シェフです。 お店の名前【Alvent】の意味もぜひ八木橋シェフに聞いてみて下さ - x.com",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5wOW5GdEo0ck9ZQ2hUSmw0VkJuWHpiYUlxbWk0ZG5qM1lVeF9Rc1JrZ2JORWtMRUp5Ynlpc3RWWUdJQjZzaEJqVTRMSTRObXdzWXV2MURTdk9Pb3kxNElMdl9R?oc=5",
-      "source": "x.com",
-      "source_type": "web",
-      "area": "函館市",
-      "status": "upcoming",
-      "store_name": "Alvent",
-      "address_hint": "函館市本町16-5 行啓通沿にある北陸銀行の裏手になります",
-      "date_hint": "2026-08-13",
-      "snippet": "8月13日木曜日オープンです！ 場所は、函館市本町16-5 行啓通沿にある北陸銀行の裏手になります。 駐車場は近隣をご利用下さい。 シェフは北斗市でイタリアンを営んでいました北斗芯軒の八木橋シェフです。 お店の名前【Alvent】の意味もぜひ八木橋シェフに聞いてみて下さ x.com",
-      "first_seen": "2026-09-30",
-      "confidence": 0.88,
-      "match_score": 0.28,
-      "matched_store": "",
-      "matched_url": "",
-      "verification": "unconfirmed",
-      "candidate_type": "named_store",
-      "display_eligible": false,
-      "review_class": "B",
-      "review_label": "要確認",
-      "review_score": 8,
-      "review_reasons": [
-        "店名品質:2",
-        "対象地域を特定",
-        "住所・場所情報あり",
-        "開閉店時期あり",
-        "開閉店状態を判定",
-        "抽出信頼度が高い",
-        "開店予定日が既に45日超過"
-      ],
-      "reasons": [
-        "公開Web検索で開店・閉店シグナルを検出",
-        "既存の確定情報に十分な一致なし"
-      ]
-    },
-    {
       "title": "【いよいよ明日OPEN】 函館エリア初のオイスターバー 「HAKODATE Oysters 1854（イチハチゴーヨン）」が、 いよいよ明日グランドオープンを迎えます。 場所はJR函館駅のすぐ目の前。 お仕事帰りや観光の合間に、 気軽にお立ち寄りいただける 便利なロケーション◎ 営業時間は - instagram.com",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5LLXBCQTh2NWtWWXN5YzhaWWhZLWZIZ3RhVFJLRld2UHhyTmpJZFQzRGpzcGVZN3pfbEJGR3dtLU9JSHBnMzAxX0hDdXJIYnlYTEE?oc=5",
       "source": "instagram.com",
@@ -11267,7 +11174,7 @@
       "snippet": "函館市本町に今年6月オープンした「ロケットチーズケーキ函館店」。 乃が美はなれ函館店に併設されています。 北海道産の生乳100%のクリームチーズで作られた絶品チーズケーキ。 焼きたての温かいまま食べるのもよし、冷やしてもよし。 濃厚なのにふわふわで軽やか。 x.com",
       "first_seen": "2026-09-30",
       "confidence": 0.88,
-      "match_score": 0.0,
+      "match_score": 0.458,
       "matched_store": "",
       "matched_url": "",
       "verification": "unconfirmed",
@@ -11485,20 +11392,21 @@
       "snippet": "昨日、北海道2店舗目となる、「ANELLA CAFE函館店」がオープンしましたー🎊 【 @anella_cafe_hakodate 】 しっかりとオープンからたくさんのお客様が⭐️ ANELLA CAFEブランドとしては\"１７店舗目\"//🎊 北海道の皆様、札幌に引き続き函館でもお待ちしてます〜⭐️ 私たちが目 instagram.com",
       "first_seen": "2026-09-30",
       "confidence": 0.6,
-      "match_score": 0.42,
-      "matched_store": "",
-      "matched_url": "",
+      "match_score": 0.616,
+      "matched_store": "ANELLA CAFE 札幌清田店",
+      "matched_url": "https://satsutter.com/posts/news/34066.html",
       "verification": "unconfirmed",
       "candidate_type": "named_store",
       "display_eligible": false,
       "review_class": "C",
       "review_label": "保存のみ",
-      "review_score": -1,
+      "review_score": 0,
       "review_reasons": [
         "店名品質:3",
         "区市町村を特定できない",
         "開閉店状態を判定",
         "SNS公開情報",
+        "既存情報に類似候補あり",
         "対象地域との市区整合性を確認できない",
         "記事本文で対象地域の強い根拠を確認できない",
         "本文が開店済みの過去形",
@@ -11507,7 +11415,7 @@
       "reasons": [
         "公開Web検索で開店・閉店シグナルを検出",
         "SNS由来の公開情報/検索インデックス",
-        "既存の確定情報に十分な一致なし"
+        "既存情報に類似候補あり・要確認"
       ]
     },
     {
@@ -11523,7 +11431,7 @@
       "snippet": "金曜・土曜・日曜限定の夜営業オープンしました。 ご予約は必要ありませんのでご来店の際は扉横のインターホンを 押してください。 お酒の他にもカフェメニューがございます。 #夜カフェバー #湯の川 #隠れ家 #非日常 #函館 instagram.com",
       "first_seen": "2026-09-30",
       "confidence": 0.76,
-      "match_score": 0.252,
+      "match_score": 0.28,
       "matched_store": "",
       "matched_url": "",
       "verification": "unconfirmed",

@@ -169,6 +169,8 @@ SOURCE_CONFIG = [
     {"id": "gogai_hakodate", "name": "号外NET 函館市", "url": "https://hakodate.goguynet.jp/category/cat_openclose/", "kind": "gogai_list", "priority": 80},
 
     {"id": "shopship_hakodate", "name": "函館ショップス・開店閉店", "url": "https://www.shopship.jp/hakodate/open-close/", "kind": "article_list", "priority": 85, "force_ward": "函館市"},
+    {"id": "hakodate_navi", "name": "函館イベントナビ", "url": "https://hakodate.8agarage.co.jp/", "kind": "article_list", "priority": 70, "force_ward": "函館市"},
+    {"id": "ehako_news", "name": "e-HAKODATE・道南ニュース", "url": "https://www.ehako.com/bookmark/", "kind": "article_list", "priority": 70},
     {"id": "atorino_sapporo", "name": "ATORINO・札幌開店閉店リスト", "url": "https://atorino-lab.com/sapporo-closing-opening-list-2026/", "kind": "article_list", "priority": 65},
     {"id": "sapporo_sokuho_close", "name": "札幌速報・閉店", "url": "https://sapporo-sokuho.com/archives/category/%E9%96%8B%E5%BA%97%E3%83%BB%E9%96%89%E5%BA%97/%E9%96%89%E5%BA%97%E6%83%85%E5%A0%B1", "kind": "article_list", "priority": 80, "default_status": "closed"},
     {"id": "sapporo_list_open", "name": "札幌リスト・開店", "url": "https://sapporo-list.info/open/", "kind": "article_list", "priority": 75, "default_status": "open"},
@@ -369,7 +371,7 @@ def detect_ward(text: str) -> str:
     # 1文字だけの略称（"北"="北区"など）は「北海道」のような無関係な単語にも
     # マッチしてしまい誤判定の原因になりやすいため、2文字以上の略称のみ使う。
     for alias, ward in WARD_ALIASES.items():
-        if len(alias) >= 2 and norm(alias) in t:
+        if alias != "函館" and len(alias) >= 2 and norm(alias) in t:
             return ward
     # 札幌の代表エリア → 区推定
     guesses = {
@@ -390,6 +392,84 @@ def detect_ward(text: str) -> str:
         if norm(key) in t:
             return ward
     return ""
+
+
+# Ver.7.3.8.1: 店名より所在地を優先。対象外の市を強制地域で上書きしない。
+OUTSIDE_CITIES = ("千歳市", "恵庭市", "北広島市", "苫小牧市", "江別市", "北斗市", "七飯町", "小樽市", "旭川市", "東京都")
+
+def is_article_link(url: str, title: str = "") -> bool:
+    path = urlparse(url).path.rstrip("/")
+    if not path or re.search(r"/(?:category|tag|author|page|archive|city)(?:/|$)", path):
+        return False
+    if re.search(r"\.(?:jpg|jpeg|png|gif|pdf|zip)$", path, re.I):
+        return False
+    return clean(title) not in ("外", "札幌市外", "函館市", "開店", "閉店", "開店情報", "閉店情報")
+
+def resolve_location(text: str, place: str = "", fallback: str = "") -> str:
+    # 実住所に市外所在地があれば店名・媒体の地域にかかわらず除外。
+    for part in (place, text):
+        if any(city in part for city in OUTSIDE_CITIES) or "新千歳空港" in part:
+            return "対象外"
+    direct = detect_ward(place)
+    if direct:
+        return direct
+    if fallback == "函館市" and not re.search(r"札幌市|(?:中央|北|東|白石|豊平|南|西|厚別|手稲|清田)区", text):
+        return fallback
+    direct = detect_ward(text)
+    if direct:
+        return direct
+    # 函館ブランド名だけを根拠に地域を決めない。
+    return fallback
+
+def event_date(text: str, reference: str = "") -> str:
+    """開閉店語に結び付いた日付のみ採用。記事公開日は代用しない。"""
+    t = unicodedata.normalize("NFKC", text or "")
+    t = t.replace("開店/閉店", "").replace("開店・閉店", "")
+    ref = parse_date(reference)
+    year = int(ref[:4]) if ref else None
+    token = r"(?:(20\d{2})[年/.-])?(\d{1,2})[月/.-](?:(\d{1,2})日?)?"
+    action = r"(?:オープン|OPEN|開店|閉店|営業終了|営業を終了|営業を再開|再オープン)"
+    candidates = []
+    for m in re.finditer(token, t, re.I):
+        before = t[max(0,m.start()-25):m.start()]
+        after = t[m.end():m.end()+45]
+        # 日付と動作の間に別の日付がある場合は結び付けない。
+        next_date = re.search(token, after)
+        close_after = after[:next_date.start()] if next_date else after
+        if not re.search(action, close_after, re.I) and not re.search(action+r"[^。！？]{0,12}$", before, re.I):
+            continue
+        y = int(m.group(1)) if m.group(1) else year
+        if y is None:
+            continue
+        mo,dy = int(m.group(2)),m.group(3)
+        try:
+            date(y,mo,int(dy or 1))
+        except ValueError:
+            continue
+        candidates.append((0 if re.search(action, close_after,re.I) else 1, m.start(), f"{y:04d}-{mo:02d}"+(f"-{int(dy):02d}" if dy else "")))
+    return min(candidates)[2] if candidates else ""
+
+def url_publication_date(url: str) -> str:
+    m=re.search(r"/(20\d{2})/(\d{2})/(\d{2})/",url)
+    return "-".join(m.groups()) if m else ""
+
+def sanitize_item(item):
+    if not is_article_link(item.url,item.name):
+        return False
+    location=resolve_location(item.note, item.place, item.ward)
+    if location == "対象外" or location not in WARDS:
+        return False
+    item.ward=location
+    ref=url_publication_date(item.url) or item.first_seen
+    found=event_date(item.note, ref)
+    if found:
+        item.date=found
+    elif "goguynet.jp" in item.url:
+        # 従来のURL投稿日から生成した日付を撤去。
+        item.date=""
+    if item.date and item.status=="open" and item.date>datetime.now().strftime("%Y-%m-%d")[:len(item.date)]:
+        item.status="upcoming"
+    return True
 
 
 def is_food(text: str) -> bool:
@@ -479,7 +559,7 @@ def article_candidates(source: dict, max_items: int = 120):
             href_next = urljoin(source["url"], a_next.get("href", ""))
             if href_next in visited_pages:
                 continue
-            if label in ("次へ", "次のページ", "Older Posts", "Next", "›", "»") or re.search(r"/page/\\d+/?$", href_next):
+            if label in ("次へ", "次のページ", "Older Posts", "Next", "›", "»") or re.search(r"/page/\d+/?$", href_next):
                 next_url = href_next
                 break
         if not next_url or not is_allowed_by_robots(next_url):
@@ -508,6 +588,9 @@ def article_candidates(source: dict, max_items: int = 120):
                 continue
             if len(title) > 180:
                 reject(source, "タイトル長すぎ", title, href)
+                continue
+            if not is_article_link(href, title):
+                reject(source, "分類/ナビゲーションリンク", title, href)
                 continue
             if href in seen:
                 reject(source, "URL重複", title, href)
@@ -543,15 +626,27 @@ def article_candidates(source: dict, max_items: int = 120):
     
 def collect_article_source(source: dict):
     init_source_stats(source)
+    detail_count = 0
     for title, href, context in article_candidates(source):
+        if source["id"] in ("hakodate_navi", "ehako_news") and detail_count < 20:
+            if is_allowed_by_robots(href):
+                detail_count += 1
+                detail = fetch_text(href)
+                if detail:
+                    doc=BeautifulSoup(detail,"lxml")
+                    body=doc.select_one(".entry-content, .post-content, article")
+                    if body:
+                        for junk in body.select("nav, aside, footer, script, style, .related-posts"):
+                            junk.decompose()
+                        context=body.get_text(" ",strip=True)[:5000]
         text = f"{title} {context}"
         status = detect_status(text)
         if status == "unknown" and source.get("default_status"):
             # このページ自体が「新店だけ」「閉店だけ」の一覧である場合の救済措置
             status = source["default_status"]
         name = extract_name_from_title(title)
-        ward = source.get("force_ward") or detect_ward(text)
-        d = parse_date(text)
+        ward = resolve_location(text, fallback=source.get("force_ward", ""))
+        d = event_date(text, url_publication_date(href) or parse_date(context))
 
         if not name:
             reject(source, "店名抽出失敗", title, href)
@@ -569,6 +664,9 @@ def collect_article_source(source: dict):
             source_id=source["id"],
             source_priority=source["priority"],
         )
+        if not sanitize_item(item):
+            reject(source, "所在地対象外/地域不明/分類リンク", title, href)
+            continue
         accept(source, item)
         yield item
 
@@ -858,8 +956,14 @@ def build_news_json(conn, today: str):
     areas = {v: [] for v in WARDS.values()}
     unmatched = []
 
+    seen_events = set()
     for row in load_rows(conn):
         key, name, ward, status, d, place, note, url, source, sources_json, conf, first_seen, last_seen = row
+        checked=RestaurantItem(name=name or "",ward=ward or "",status=status or "unknown",date=d or "",place=place or "",note=note or "",url=url or "",source=source or "",source_id="stored",source_priority=0,first_seen=first_seen or "")
+        if not sanitize_item(checked):
+            unmatched.append(row)
+            continue
+        ward,status,d=checked.ward,checked.status,checked.date
         area = WARDS.get(ward)
         if not area:
             unmatched.append(row)
@@ -886,7 +990,10 @@ def build_news_json(conn, today: str):
             "first_seen": first_seen or "",
             "last_seen": last_seen or "",
         }
-        areas[area].append(item)
+        dedup=(area,norm(name),status,d or "",url or "")
+        if dedup not in seen_events:
+            areas[area].append(item)
+            seen_events.add(dedup)
 
     # 1区あたり最新150件程度（日付が新しい順。日付不明は末尾に回す）
     for area in areas:
@@ -1024,8 +1131,17 @@ def collect_all():
             reject(source, "取得失敗")
             return
 
+        pages=[html]
+        for page in range(2,6):
+            page_url=source["url"].rstrip("/")+f"/page/{page}/"
+            if not is_allowed_by_robots(page_url):
+                break
+            more=fetch_text(page_url)
+            if not more or not GOGAI_LINK_RE.search(more):
+                break
+            pages.append(more)
         seen_urls = set()
-        for m in GOGAI_LINK_RE.finditer(html):
+        for m in GOGAI_LINK_RE.finditer("\n".join(pages)):
             href, year, month, day, raw_text = m.groups()
             SOURCE_STATS[source["id"]]["scanned"] += 1
             title_raw = gogai_clean(raw_text)
@@ -1068,7 +1184,7 @@ def collect_all():
                 name=name,
                 ward=ward_name,
                 status=status,
-                date=f"{year}-{month}-{day}",
+                date=event_date(name_text, f"{year}-{month}-{day}"),
                 place=extract_address(name_text),
                 note=name_text,
                 url=href,
@@ -1076,6 +1192,9 @@ def collect_all():
                 source_id=source["id"],
                 source_priority=source["priority"],
             )
+            if not sanitize_item(item):
+                reject(source, "所在地対象外/地域不明", name_text, href)
+                continue
             accept(source, item)
             yield item
 

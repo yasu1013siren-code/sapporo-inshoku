@@ -39,7 +39,7 @@ from urllib.parse import quote_plus, urlparse
 
 import requests
 
-VERSION = "7.3.8.0"
+VERSION = "7.3.8.1"
 BASE_DIR = Path(__file__).resolve().parent
 CORE_PATH = BASE_DIR / "collector_ver72_hakodate.py"
 NEWS_PATH = BASE_DIR / "news.json"
@@ -53,7 +53,7 @@ TARGET_AREAS = [
     "厚別区", "手稲区", "清田区",
     "函館市",
 ]
-EXCLUDED_AREAS = ["江別市", "江別", "千歳市", "恵庭市", "北広島市", "苫小牧市"]
+EXCLUDED_AREAS = ["江別市", "江別", "千歳市", "恵庭市", "北広島市", "苫小牧市", "北斗市", "七飯町", "新千歳空港"]
 
 AREA_HINTS = {
     "中央区": ["中央区", "すすきの", "大通", "狸小路", "円山", "札幌駅南口"],
@@ -216,7 +216,7 @@ def has_target_location_context(text: str) -> bool:
     return True
 
 
-# Ver.7.3.8.0: 原材料・食材の産地を店舗所在地と誤認しない。
+# Ver.7.3.8.1: 原材料・食材の産地を店舗所在地と誤認しない。
 # 例: 「千歳市戸田牧場の生乳100%使用」は千歳市の店舗を意味しない。
 def mask_ingredient_origin_context(text: str) -> str:
     t = clean(text)
@@ -821,7 +821,7 @@ def extract_date_hint(text: str) -> str:
         year, month = map(int, m.groups())
         return f"{year:04d}-{month:02d}" if 1 <= month <= 12 else ""
 
-    # Ver.7.3.8.0: 「昨年10月OPEN」等の月単位表現を前年として確定。
+    # Ver.7.3.8.1: 「昨年10月OPEN」等の月単位表現を前年として確定。
     rel_month = re.search(
         r"(昨年|去年|前年|今年|本年|来年|翌年)\s*(\d{1,2})月"
         r"[^。！？\n]{0,24}(?:オープン|OPEN|開店|閉店)",
@@ -1343,7 +1343,7 @@ def has_strong_past_opening_context(text: str) -> bool:
 
 
 def review_signal(sig: Signal) -> tuple[str, str, int, list[str]]:
-    """Ver.7.3.8.0: 7.3.7.3基準を維持し、過去年・産地・店名ノイズ・文脈整合だけを補強。"""
+    """Ver.7.3.8.1: 7.3.7.3基準を維持し、過去年・産地・店名ノイズ・文脈整合だけを補強。"""
     score = 0
     reasons = []
     text = f"{sig.title} {sig.snippet}"
@@ -1613,7 +1613,7 @@ def main():
     log.info("既存確定情報: %d件", len(confirmed))
 
     # 2) 深掘りライン
-    log.info("=== Ver.7.3.8.0 札幌・函館 深掘りシグナル収集 ===")
+    log.info("=== Ver.7.3.8.1 札幌・函館 深掘りシグナル収集 ===")
     signals, query_count = collect_deep_signals()
     log.info("深掘り候補: %d件", len(signals))
 
