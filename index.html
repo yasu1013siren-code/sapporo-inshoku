@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>札幌市10区+近郊4市 飲食店 開店閉店速報板</title>
+<title>札幌市10区＋函館市 飲食店 開店閉店速報板</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@600;800&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&display=swap" rel="stylesheet">
 <style>
@@ -192,13 +192,6 @@
 
   .empty-note{font-size:13px;color:var(--ink-soft);padding:10px 0;}
 
-
-  /* ---------- unconfirmed signals (A only) ---------- */
-  .unconfirmed-box{margin-top:8px;padding:12px;border:1px dashed #8a6a24;background:rgba(138,106,36,0.06);}
-  .unconfirmed-note{font-size:12px;color:var(--ink-soft);margin:0 0 10px;line-height:1.65;}
-  .event-card.unconfirmed-card{border-left:4px solid #8a6a24;}
-  .tag.unconfirmed-tag{background:rgba(138,106,36,0.16);color:#725718;}
-
   /* ---------- sources ---------- */
   .sources{margin-top:44px;}
   .sources h2{font-family:'Shippori Mincho B1',serif;font-size:19px;margin-bottom:12px;}
@@ -230,13 +223,13 @@
       <span class="eyebrow">SAPPORO INSHOKUTEN GOGAI ／ 飲食店開店閉店速報</span>
       <span class="eyebrow" id="auto-refresh-status">自動更新：待機中</span>
     </div>
-    <h1>札幌市10区+近郊4市<small>飲食店 開店・閉店 速報板</small></h1>
-    <p class="lede">ラーメンから割烹、バーまで業種は問いません。札幌市10区に加え、千歳市・恵庭市・北広島市・苫小牧市の飲食店の新規開店・閉店・開店予定情報も、複数の情報源から集めてまとめています。</p>
+    <h1>札幌市10区＋函館市<small>飲食店 開店・閉店 速報板</small></h1>
+    <p class="lede">ラーメンから割烹、バーまで業種は問いません。札幌市10区と函館市の飲食店の新規開店・閉店・開店予定情報も、複数の情報源から集めてまとめています。</p>
   </div>
   <div class="stamp">号外</div>
 </div>
 
-<p class="updated-line">最終更新：2026年9月20日時点で確認できた情報を掲載しています（札幌市10区＋千歳市・恵庭市・北広島市・苫小牧市）。</p>
+<p class="updated-line">掲載内容は自動収集で更新されます（札幌市10区＋函館市）。</p>
 
 <div class="wrap">
 
@@ -268,10 +261,7 @@ const AREA_META = [
   {id:"minami", label:"南区"},
   {id:"nishi", label:"西区"},
   {id:"teine", label:"手稲区"},
-  {id:"chitose", label:"千歳市"},
-  {id:"eniwa", label:"恵庭市"},
-  {id:"kitahiroshima", label:"北広島市"},
-  {id:"tomakomai", label:"苫小牧市"},
+  {id:"hakodate", label:"函館市"},
 ];
 
 function buildTabsAndSections(){
@@ -293,14 +283,8 @@ function buildTabsAndSections(){
       </div>
       <div class="event-feed" id="${a.id}-history"></div>
 
-      <div class="section-head"><h2>最新ニュース速報</h2><span class="count">自動収集・最新情報</span></div>
+      <div class="section-head"><h2>最新ニュース速報</h2><span class="count">号外NETより自動収集・毎日9:00更新</span></div>
       <div class="event-feed" id="${a.id}-news"></div>
-
-      <div class="section-head"><h2>🔎 未確認情報</h2><span class="count">A判定のみ表示・一次情報で要確認</span></div>
-      <div class="unconfirmed-box">
-        <p class="unconfirmed-note">SNS・求人・地域媒体などから検出した候補です。確定情報ではありません。内容変更・延期・誤認の可能性があるため、来店前に店舗公式情報などをご確認ください。</p>
-        <div class="event-feed" id="${a.id}-unconfirmed"></div>
-      </div>
     </section>
   `).join("");
 }
@@ -568,63 +552,7 @@ const CONFIRMED = {
       {name:"大漁丼家 札幌手稲店", date:"2026-02-15", place:"前田5条14丁目5-24", note:"", source:"mogtrip", url:"https://mogtrip.jp/closed-2026/"},
     ]
   },
-  chitose: {
-    open: [
-      {name:"ATHENA COFFEE（アテナコーヒー）", date:"2026年", place:"清水町", note:"", source:"まいぷれ千歳・恵庭", url:"https://chitose-eniwa.mypl.net/article/newopen_chitose"},
-      {name:"K.kitchen", date:"2026-08-06", place:"旭ヶ丘", note:"千歳市初のトレーラーハウス洋食レストラン。", source:"まいぷれ千歳・恵庭", url:"https://chitose-eniwa.mypl.net/article/newopen_chitose"},
-      {name:"菜食工房", date:"2026-06-10", place:"清流", note:"身体にやさしい料理を提供。", source:"まいぷれ千歳・恵庭", url:"https://chitose-eniwa.mypl.net/article/newopen_chitose"},
-      {name:"立呑み中華 カミナリドッカン", date:"2026-04-06", place:"幸町2-2-3 Satisfy1F", note:"立呑みスタイルの中華料理店。", source:"号外NET", url:"https://chitose-eniwa-kitahiroshima.goguynet.jp/category/cat_openclose/"},
-      {name:"森彦 AIRPORT", date:"2025-02-04", place:"新千歳空港国内線旅客ターミナルビル3階", note:"", source:"まいぷれ千歳・恵庭", url:"https://chitose-eniwa.mypl.net/article/newopen_chitose/archive"},
-      {name:"麺屋 板ずり 千歳店", date:"2025-01-28", place:"千歳市", note:"", source:"札幌ショップス", url:"https://www.shopship.jp/chitose/open-close/"},
-      {name:"Wine Bar La Uva（ラ・ウーヴァ）", date:"2025-03-27", place:"千歳市", note:"", source:"札幌ショップス", url:"https://www.shopship.jp/chitose/open-close/"},
-      {name:"蝦夷前そばと豚丼 北堂 新千歳空港店", date:"2025-05-27", place:"新千歳空港", note:"", source:"札幌開店閉店インフォ", url:"https://chamonix-cakes.com/category/%E6%96%B0%E5%BA%97%E6%83%85%E5%A0%B1/%E5%8D%83%E6%AD%B3%E5%B8%82%E3%81%AE%E6%96%B0%E5%BA%97%E6%83%85%E5%A0%B1/"},
-      {name:"且座喫茶 昊の扉", date:"2025-04-13", place:"千歳市", note:"", source:"札幌開店閉店インフォ", url:"https://chamonix-cakes.com/category/%E6%96%B0%E5%BA%97%E6%83%85%E5%A0%B1/%E5%8D%83%E6%AD%B3%E5%B8%82%E3%81%AE%E6%96%B0%E5%BA%97%E6%83%85%E5%A0%B1/"},
-      {name:"パン工房ゆう（移転）", date:"2025-04-24", place:"千歳市北栄", note:"札幌から移転オープン。", source:"まいぷれ千歳・恵庭", url:"https://chitose-eniwa.mypl.net/article/newopen_chitose/archive"},
-      {name:"ドン・キホーテ 千歳店", date:"2025-06-17", place:"千歳市", note:"", source:"札幌開店閉店インフォ", url:"https://chamonix-cakes.com/category/%E6%96%B0%E5%BA%97%E6%83%85%E5%A0%B1/%E5%8D%83%E6%AD%B3%E5%B8%82%E3%81%AE%E6%96%B0%E5%BA%97%E6%83%85%E5%A0%B1/"},
-    ],
-    closed: [
-      {name:"味のまんぷく（ちとせモール内）", date:"2026-03-25", place:"ちとせモール", note:"リニューアルオープン予定あり。", source:"号外NET", url:"https://chitose-eniwa-kitahiroshima.goguynet.jp/category/cat_openclose/"},
-    ]
-  },
-  eniwa: {
-    open: [
-      {name:"食堂小ばちゃん 島松店", date:"2026-06-09", place:"島松", note:"ランチ営業スタート。", source:"まいぷれ千歳・恵庭", url:"https://chitose-eniwa.mypl.net/article/newopen_chitose"},
-      {name:"炭火豚丼 希々（のの）", date:"2026-08-01", place:"和光町", note:"炭火で焼き上げる豚丼とソフトクリーム。", source:"まいぷれ千歳・恵庭", url:"https://chitose-eniwa.mypl.net/article/newopen_chitose"},
-      {name:"nijiiro", date:"2026-07-24", place:"恵み野", note:"催事で人気だったスイーツ店が実店舗をオープン。", source:"まいぷれ千歳・恵庭", url:"https://chitose-eniwa.mypl.net/article/newopen_chitose"},
-      {name:"ジャンボやきとり串タロー", date:"2026年", place:"めぐみの横丁内", note:"ジャンボサイズの焼き鳥が名物。", source:"まいぷれ千歳・恵庭", url:"https://chitose-eniwa.mypl.net/article/newopen_chitose"},
-      {name:"麺道 ◯志", date:"2026年", place:"恵み野西1-8-3", note:"長年ラーメン店に勤めた店主による一杯。", source:"まいぷれ千歳・恵庭", url:"https://chitose-eniwa.mypl.net/shop/list?c=1"},
-    ],
-    closed: []
-  },
-  kitahiroshima: {
-    open: [
-      {name:"定食屋じゅーく", date:"2025-10-19", place:"北広島市", note:"", source:"札幌ショップス", url:"https://www.shopship.jp/kitahiroshima/open-close/"},
-      {name:"Petit ZIKKA", date:"2026-07-14", place:"北広島市", note:"", source:"kaiten-heiten", url:"https://kaiten-heiten-24.com/category/kitahiroshima/"},
-      {name:"ラーメン山岡家 大曲店", date:"2026-06-11", place:"大曲", note:"", source:"kaiten-heiten", url:"https://kaiten-heiten-24.com/category/kitahiroshima/"},
-      {name:"クリスピー・クリーム・ドーナツ 三井アウトレットパーク札幌北広島店", date:"2026-05-17", place:"三井アウトレットパーク札幌北広島", note:"", source:"kaiten-heiten", url:"https://kaiten-heiten-24.com/category/kitahiroshima/"},
-      {name:"天丼専門 銀座いつき 三井アウトレットパーク札幌北広島店", date:"2026-04-22", place:"三井アウトレットパーク札幌北広島", note:"", source:"札幌ショップス", url:"https://www.shopship.jp/kitahiroshima/open-close/"},
-      {name:"スターバックスコーヒー三井アウトレットパーク札幌北広島店", date:"2026-04-18", place:"三井アウトレットパーク札幌北広島", note:"", source:"札幌ショップス", url:"https://www.shopship.jp/kitahiroshima/open-close/"},
-      {name:"札幌農学校 札幌北広島店", date:"2026-04-11", place:"北広島市", note:"コーヒーショップ。", source:"kaiten-heiten", url:"https://kaiten-heiten-24.com/category/kitahiroshima/"},
-      {name:"三井アウトレットパーク札幌北広島「東エントランス 新エリア」", date:"2026-04-05", place:"三井アウトレットパーク札幌北広島", note:"グランドオープン。飲食テナント含む新エリア。", source:"号外NET", url:"https://chitose-eniwa-kitahiroshima.goguynet.jp/category/cat_openclose/"},
-    ],
-    closed: [
-      {name:"笑mina donuts 大曲店", date:"2026-06-16", place:"大曲", note:"", source:"kaiten-heiten", url:"https://kaiten-heiten-24.com/category/kitahiroshima/"},
-    ]
-  },
-  tomakomai: {
-    open: [
-      {name:"喫茶店 豆の木", date:"2026年", place:"汐見町", note:"10年ぶりに復活した喫茶店。", source:"まいぷれ苫小牧", url:"https://tomakomai.mypl.net/article/newopen_tomakomai"},
-      {name:"居酒屋 ハットトリック", date:"2026年", place:"錦町", note:"", source:"まいぷれ苫小牧", url:"https://tomakomai.mypl.net/article/newopen_tomakomai"},
-      {name:"ハンバーグのお店 食と仕事", date:"2026年", place:"大町", note:"", source:"まいぷれ苫小牧", url:"https://tomakomai.mypl.net/article/newopen_tomakomai"},
-      {name:"酔って手羽って もんじゃっ亭", date:"2026-06-24", place:"錦町 一条通", note:"", source:"号外NET", url:"https://tomakomai.goguynet.jp/category/cat_openclose/"},
-      {name:"湖畔の食堂 銀座三州屋〜楓〜", date:"2026-06-14", place:"道の駅ウトナイ湖", note:"新レストランとしてグランドオープン。", source:"号外NET", url:"https://tomakomai.goguynet.jp/category/cat_openclose/"},
-      {name:"北々亭（旧・海天丸 苫小牧店）", date:"2026-07-10", place:"船見町", note:"回転寿司店からリニューアル。", source:"号外NET", url:"https://tomakomai.goguynet.jp/category/cat_openclose/"},
-      {name:"鰻の成瀬 苫小牧店（リニューアル）", date:"2026-07-01", place:"苫小牧駅周辺", note:"うな重のラインナップを刷新してリニューアル。", source:"食べログ", url:"https://tabelog.com/hokkaido/A0104/"},
-    ],
-    closed: [
-      {name:"ラ・ペテガリ", date:"2026-06-16", place:"北栄町 かたる横丁内", note:"移転のため現店舗での営業を終了。", source:"号外NET", url:"https://tomakomai.goguynet.jp/category/cat_openclose/"},
-    ]
-  },
+  hakodate: {open: [], closed: []}
 };
 
 // 開店予定（確定オープン日が判明しているもの／目安2ヶ月以内）
@@ -689,10 +617,7 @@ const UPCOMING = {
     {name:"オリーブの丘 札幌西町店", date:"2026-10-08", place:"西町北13丁目1-7", note:"", source:"mogtrip", url:"https://mogtrip.jp/newopen-2026/"},
   ],
   teine: [],
-  chitose: [],
-  eniwa: [],
-  kitahiroshima: [],
-  tomakomai: []
+  hakodate: []
 };
 
 const MONTH_NAMES = ["1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"];
@@ -818,11 +743,8 @@ const SOURCES = [
   {name:"号外NET 札幌市北区", desc:"開店・閉店カテゴリ", url:"https://sapporokitaku.goguynet.jp/category/cat_openclose/"},
   {name:"号外NET 札幌市西区・手稲区", desc:"開店・閉店カテゴリ", url:"https://sapporonishi-teine.goguynet.jp/category/cat_openclose/"},
   {name:"手稲マガジン", desc:"手稲区専門の地域情報サイト・開店閉店カテゴリ", url:"https://teine-magazine.com/category/kaitenheiten/"},
-  {name:"号外NET 千歳市・恵庭市・北広島市", desc:"開店・閉店カテゴリ", url:"https://chitose-eniwa-kitahiroshima.goguynet.jp/category/cat_openclose/"},
-  {name:"まいぷれ 千歳・恵庭", desc:"地域情報サイト", url:"https://chitose-eniwa.mypl.net/"},
-  {name:"札幌ショップス 苫小牧", desc:"開店・閉店情報", url:"https://www.shopship.jp/tomakomai/open-close/"},
-  {name:"号外NET 苫小牧市", desc:"開店・閉店カテゴリ", url:"https://tomakomai.goguynet.jp/category/cat_openclose/"},
-  {name:"まいぷれ 苫小牧", desc:"地域情報サイト・新店特集", url:"https://tomakomai.mypl.net/article/newopen_tomakomai"},
+  {name:"号外NET 函館市", desc:"開店・閉店カテゴリ", url:"https://hakodate.goguynet.jp/category/cat_openclose/"},
+  {name:"函館ショップス", desc:"開店・閉店情報", url:"https://www.shopship.jp/hakodate/open-close/"},
   {name:"mogtrip 札幌新店開店情報一覧", desc:"飲食店のみ・随時更新", url:"https://mogtrip.jp/newopen-2026/"},
   {name:"mogtrip 札幌閉店情報一覧", desc:"飲食店のみ・随時更新", url:"https://mogtrip.jp/closed-2026/"},
   {name:"食べログ 中央区 ニューオープン順", desc:"新規オープン店舗一覧", url:"https://tabelog.com/hokkaido/C1101/rstLst/cond16-00-00/"},
@@ -858,66 +780,16 @@ function newsItemHTML(item){
   </div>`;
 }
 
-const AREA_LABEL_TO_ID = Object.fromEntries(AREA_META.map(a=>[a.label, a.id]));
-
-function unconfirmedItemHTML(item){
-  const d = parseDateLoose(item.date_hint);
-  const day = d ? String(d.getDate()).padStart(2,"0") : "?";
-  const month = d ? MONTH_NAMES[d.getMonth()] : "日付未定";
-  const type = item.status === "closed" ? "closed" : "upcoming";
-  const statusLabel = item.status === "closed" ? "閉店情報" : "開店予定";
-  const name = item.store_name || "店名未発表";
-  const place = item.address_hint || item.area || "";
-  const source = item.source || item.source_type || "公開情報";
-  const href = item.url || "#";
-  return `<div class="event-card unconfirmed-card" data-type="unconfirmed">
-    <div class="date-badge type-${type}"><span class="day">${day}</span><span class="month">${month}</span></div>
-    <div class="event-body">
-      <div class="event-tags">
-        <span class="tag unconfirmed-tag">未確認・A判定</span>
-        <span class="tag type-${type}">${statusLabel}</span>
-        <span class="tag area-tag">${escapeHTML(item.area || "")}</span>
-      </div>
-      <h3><a class="src-link" href="${href}" target="_blank" rel="noopener noreferrer">${escapeHTML(name)} ↗</a></h3>
-      ${place ? `<p>${escapeHTML(place)}</p>` : ""}
-      <div class="tip-src">情報源：${escapeHTML(source)} ／ 確認状況：未確認</div>
-    </div>
-  </div>`;
-}
-
-function renderUnconfirmed(data){
-  AREA_META.forEach(a=>{
-    const el = document.getElementById(`${a.id}-unconfirmed`);
-    if(el) el.innerHTML = `<p class="empty-note">現在、A判定の未確認情報はありません。</p>`;
-  });
-  const items = Array.isArray(data.unconfirmed) ? data.unconfirmed : [];
-  const grouped = {};
-  items.filter(x=>x.review_class === "A" && x.display_eligible !== false).forEach(item=>{
-    const id = AREA_LABEL_TO_ID[item.area];
-    if(!id) return;
-    (grouped[id] ||= []).push(item);
-  });
-  Object.entries(grouped).forEach(([id, rows])=>{
-    const el = document.getElementById(`${id}-unconfirmed`);
-    if(!el) return;
-    rows.sort((a,b)=>(a.date_hint || "9999").localeCompare(b.date_hint || "9999"));
-    el.innerHTML = rows.map(unconfirmedItemHTML).join("");
-  });
-}
-
 async function loadAutoNews(){
   const areaIds = AREA_META.map(a=>a.id);
   areaIds.forEach(area=>{
     const el = document.getElementById(`${area}-news`);
     if(el) el.innerHTML = `<p class="empty-note">読み込み中…</p>`;
-    const uel = document.getElementById(`${area}-unconfirmed`);
-    if(uel) uel.innerHTML = `<p class="empty-note">読み込み中…</p>`;
   });
   try{
     const res = await fetch("news.json", {cache:"no-store"});
     if(!res.ok) throw new Error("news.json の取得に失敗しました");
     const data = await res.json();
-    renderUnconfirmed(data);
 
     // 表示は「今日から前後1ヶ月」に絞る（日付未定のものは念のため残す）
     const now = new Date(); now.setHours(0,0,0,0);
@@ -941,8 +813,6 @@ async function loadAutoNews(){
     areaIds.forEach(area=>{
       const el = document.getElementById(`${area}-news`);
       if(el) el.innerHTML = `<p class="empty-note">自動収集データを読み込めませんでした（news.jsonがまだ生成されていない可能性があります）。</p>`;
-      const uel = document.getElementById(`${area}-unconfirmed`);
-      if(uel) uel.innerHTML = `<p class="empty-note">未確認情報を読み込めませんでした。</p>`;
     });
   }
 }

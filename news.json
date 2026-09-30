@@ -1,6 +1,6 @@
 {
   "version": "7.2",
-  "generated_at": "2026-09-30T17:11:17",
+  "generated_at": "2026-09-30T20:08:46",
   "date": "2026-09-30",
   "areas": {
     "chuo": [
@@ -502,7 +502,7 @@
             "priority": 90
           }
         ],
-        "confidence": 0.79,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -1929,7 +1929,7 @@
             "priority": 90
           }
         ],
-        "confidence": 0.75,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -2139,7 +2139,7 @@
             "priority": 90
           }
         ],
-        "confidence": 0.75,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -4547,7 +4547,7 @@
             "priority": 90
           }
         ],
-        "confidence": 0.79,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -4568,7 +4568,7 @@
             "priority": 90
           }
         ],
-        "confidence": 0.79,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -4825,7 +4825,7 @@
             "priority": 90
           }
         ],
-        "confidence": 0.75,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -5977,7 +5977,7 @@
             "priority": 70
           }
         ],
-        "confidence": 0.66,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -6019,7 +6019,7 @@
             "priority": 70
           }
         ],
-        "confidence": 0.66,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -6252,7 +6252,7 @@
             "priority": 70
           }
         ],
-        "confidence": 0.66,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -6294,7 +6294,7 @@
             "priority": 70
           }
         ],
-        "confidence": 0.66,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -6464,7 +6464,7 @@
             "priority": 70
           }
         ],
-        "confidence": 0.66,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -6506,7 +6506,7 @@
             "priority": 70
           }
         ],
-        "confidence": 0.66,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -6956,6 +6956,89 @@
       }
     ]
   },
-  "unmatched": 225,
-  "source_count": 38
+  "unmatched": 226,
+  "source_count": 38,
+  "collector_version": "7.3.7.4",
+  "unconfirmed_count": 2,
+  "unconfirmed_total_count": 355,
+  "unconfirmed_class_counts": {
+    "A": 2,
+    "B": 200,
+    "C": 153
+  },
+  "unconfirmed_updated_at": "2026-09-30T20:10:51",
+  "unconfirmed": [
+    {
+      "title": "【札幌市厚別区】「どんぐり森林工房」閉店まであとわずか 9月30日で店舗営業終了へ - ebetsunopporo.com",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFA0bXhSNFpYRUVjbnhpalRGR1ZWcXBvMlFXYm5CZDFIT1ZKaktWMFdNRUhKM2N4aTVqLW93SThYQi1pZlFBbGEyelN3?oc=5",
+      "source": "ebetsunopporo.com",
+      "source_type": "web",
+      "area": "厚別区",
+      "status": "closed",
+      "store_name": "どんぐり森林工房",
+      "address_hint": "札幌市厚別区】「どんぐり森林工房」閉店まであとわずか 9月30日で店舗営業終了へ - ebetsuno",
+      "date_hint": "2026-09-30",
+      "snippet": "【札幌市厚別区】「どんぐり森林工房」閉店まであとわずか 9月30日で店舗営業終了へ ebetsunopporo.com",
+      "first_seen": "2026-09-30",
+      "confidence": 0.88,
+      "match_score": 0.0,
+      "matched_store": "",
+      "matched_url": "",
+      "verification": "unconfirmed",
+      "candidate_type": "named_store",
+      "display_eligible": true,
+      "review_class": "A",
+      "review_label": "掲載候補",
+      "review_score": 14,
+      "review_reasons": [
+        "店名品質:3",
+        "対象地域を特定",
+        "住所・場所情報あり",
+        "開閉店時期あり",
+        "開閉店状態を判定",
+        "抽出信頼度が高い",
+        "閉店予定または閉店後30日以内"
+      ],
+      "reasons": [
+        "公開Web検索で開店・閉店シグナルを検出",
+        "既存の確定情報に十分な一致なし"
+      ]
+    },
+    {
+      "title": "【閉店】9月30日（水）閉店！「カフェ・ド・クリエ 札幌駅北口店」 - au Webポータル",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1xdHBPMnBpU0dYaDB1SElRQ3VlRVZaQ3dTZmxpVG85RERuSlRlUVp4NDduMDNmT2ZsNjYzcElFUmZJZ3VVUHZ6ZzhkWUpsSHRsbjMxbTRQdjRxSktia0hXTkgyd25pcnpTQ1AwdmZ3?oc=5",
+      "source": "au Webポータル",
+      "source_type": "web",
+      "area": "北区",
+      "status": "closed",
+      "store_name": "カフェ・ド・クリエ 札幌駅北口店",
+      "address_hint": "",
+      "date_hint": "2026-09-30",
+      "snippet": "【閉店】9月30日（水）閉店！「カフェ・ド・クリエ 札幌駅北口店」 au Webポータル",
+      "first_seen": "2026-09-30",
+      "confidence": 0.8,
+      "match_score": 0.632,
+      "matched_store": "カフェ・ド・クリエ",
+      "matched_url": "https://sapporokitaku.goguynet.jp/2026/08/16/cafedecrie-close/",
+      "verification": "unconfirmed",
+      "candidate_type": "named_store",
+      "display_eligible": true,
+      "review_class": "A",
+      "review_label": "掲載候補",
+      "review_score": 12,
+      "review_reasons": [
+        "店名品質:3",
+        "対象地域を特定",
+        "開閉店時期あり",
+        "開閉店状態を判定",
+        "抽出信頼度が一定以上",
+        "既存情報に類似候補あり",
+        "閉店予定または閉店後30日以内"
+      ],
+      "reasons": [
+        "公開Web検索で開店・閉店シグナルを検出",
+        "既存情報に類似候補あり・要確認"
+      ]
+    }
+  ]
 }
