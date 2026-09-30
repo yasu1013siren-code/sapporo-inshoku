@@ -272,19 +272,15 @@ function buildTabsAndSections(){
   ).join("");
   sectionsEl.innerHTML = AREA_META.map((a,i)=>`
     <section class="area${i===0?" active":""}" id="area-${a.id}">
-      <div class="section-head"><h2>開店予定</h2><span class="count">目安：2ヶ月以内・日付が近い順</span></div>
-      <div class="event-feed" id="${a.id}-upcoming"></div>
-
-      <div class="section-head"><h2>更新履歴</h2><span class="count">前後1ヶ月・新着順・タップで絞り込み</span></div>
+      <div class="section-head"><h2>開店・閉店情報</h2><span class="count">過去90日・今後の予定・日付未定</span></div>
       <div class="filter-row" data-area="${a.id}">
         <button class="chip active" data-filter="all">すべて</button>
         <button class="chip" data-filter="open">新規開店</button>
         <button class="chip" data-filter="closed">閉店</button>
+        <button class="chip" data-filter="upcoming">開店予定</button>
       </div>
       <div class="event-feed" id="${a.id}-history"></div>
 
-      <div class="section-head"><h2>最新ニュース速報</h2><span class="count">複数の情報源から自動収集</span></div>
-      <div class="event-feed" id="${a.id}-news"></div>
     </section>
   `).join("");
 }
@@ -633,7 +629,7 @@ function parseDateLoose(dateStr){
 function eventCardHTML(item, type){
   const d = parseDateLoose(item.date);
   const day = d ? String(d.getDate()).padStart(2,"0") : "?";
-  const month = d ? MONTH_NAMES[d.getMonth()] : "日付未定";
+  const month = d ? MONTH_NAMES[d.getMonth()] : /^\d{4}-\d{2}$/.test(item.date || "") ? `${Number(item.date.slice(5))}月予定` : "日付未定";
   const nameClass = item.name.includes("未詳") ? "unnamed" : "";
   const countdown = type === "upcoming" ? daysUntilLabel(item.date) : "";
   return `<div class="event-card" data-type="${type}">
@@ -665,19 +661,7 @@ function daysUntilLabel(dateStr){
   return `あと${diff}日`;
 }
 
-function renderUpcoming(){
-  const now = new Date(); now.setHours(0,0,0,0);
-  const horizon = new Date(now.getTime() + 65*86400000); // 目安：約2ヶ月
-  AREA_META.map(a=>a.id).forEach(area=>{
-    const el = document.getElementById(`${area}-upcoming`);
-    const items = (UPCOMING[area] || [])
-      .filter(i => { const d = parseDateLoose(i.date); return d && d >= now && d <= horizon; })
-      .sort((a,b)=> parseDateLoose(a.date) - parseDateLoose(b.date));
-    el.innerHTML = items.length
-      ? items.map(i=>eventCardHTML(i,"upcoming")).join("")
-      : `<p class="empty-note">現在、日付が判明している開店予定情報はありません。</p>`;
-  });
-}
+function renderUpcoming(){ renderHistory(); }
 
 function escapeHTML(str){
   return String(str).replace(/[&<>"']/g, s => ({
@@ -685,29 +669,44 @@ function escapeHTML(str){
   }[s]));
 }
 
+let AUTO_NEWS = null;
+function dateRange(value){
+  const d=parseDateLoose(value);
+  if(d) return [d,d];
+  const m=/^(\d{4})-(\d{2})$/.exec(value || "");
+  return m ? [new Date(+m[1],+m[2]-1,1),new Date(+m[1],+m[2],0)] : null;
+}
 function renderHistory(){
-  const now = new Date(); now.setHours(0,0,0,0);
-  const windowStart = new Date(now.getTime() - 31*86400000);
-  const windowEnd = new Date(now.getTime() + 31*86400000);
-  AREA_META.map(a=>a.id).forEach(area=>{
-    const el = document.getElementById(`${area}-history`);
-    const merged = [
-      ...(CONFIRMED[area] ? CONFIRMED[area].open.map(i=>({...i, _type:"open"})) : []),
-      ...(CONFIRMED[area] ? CONFIRMED[area].closed.map(i=>({...i, _type:"closed"})) : []),
-    ].filter(i => {
-      const d = parseDateLoose(i.date);
-      if(!d) return true; // 日付未定は除外しすぎないよう残す
-      return d >= windowStart && d <= windowEnd;
+  const now=new Date(); now.setHours(0,0,0,0);
+  const cutoff=new Date(now.getTime()-90*86400000);
+  AREA_META.forEach(({id:area})=>{
+    const el=document.getElementById(`${area}-history`);
+    const fallback=[...(CONFIRMED[area]?.open || []).map(i=>({...i,type:"open"})),...(CONFIRMED[area]?.closed || []).map(i=>({...i,type:"closed"})),...(UPCOMING[area] || []).map(i=>({...i,type:"upcoming"}))];
+    const rows=AUTO_NEWS ? (AUTO_NEWS.areas?.[area] || []) : fallback;
+    const seen=new Set();
+    const items=rows.map(i=>{
+      const range=dateRange(i.date);
+      const type=i.type==="open" && range && range[0]>now ? "upcoming" : i.type;
+      return {...i,_type:type,range};
+    }).filter(i=>{
+      if(i.range && i.range[1]<cutoff) return false;
+      // 古い日付未定記事は、記事URLに投稿日がある場合のみ除外。
+      if(!i.range){
+        const pub=/\/(20\d{2})\/(\d{2})\/(\d{2})\//.exec(i.url || "");
+        if(pub && new Date(+pub[1],+pub[2]-1,+pub[3])<cutoff) return false;
+      }
+      const key=[i.name,i.date,i._type].join("|");
+      if(seen.has(key)) return false;
+      seen.add(key); return true;
     }).sort((a,b)=>{
-      const da = parseDateLoose(a.date), db = parseDateLoose(b.date);
-      if(da && db) return db - da; // 新しい日付が上
-      if(da) return -1;
-      if(db) return 1;
-      return 0;
+      const af=a.range && a.range[0]>now,bf=b.range && b.range[0]>now;
+      if(!!af!==!!bf) return af ? -1 : 1;
+      if(a.range && b.range) return af ? a.range[0]-b.range[0] : b.range[0]-a.range[0];
+      return a.range ? -1 : b.range ? 1 : 0;
     });
-    el.innerHTML = merged.length
-      ? merged.map(i=>eventCardHTML(i, i._type)).join("")
-      : `<p class="empty-note">直近1ヶ月で確認できている情報はありません。</p>`;
+    el.innerHTML=items.length ? items.map(i=>eventCardHTML(i,i._type)).join("") : '<p class="empty-note">対象期間の情報はありません。</p>';
+    const filter=document.querySelector(`.filter-row[data-area="${area}"] .active`)?.dataset.filter || "all";
+    el.querySelectorAll(".event-card").forEach(card=>card.classList.toggle("is-hidden",filter!=="all" && card.dataset.type!==filter));
   });
 }
 
@@ -763,7 +762,7 @@ document.getElementById("source-grid").innerHTML = SOURCES.map(s=>
 function newsItemHTML(item){
   const d = parseDateLoose(item.date);
   const day = d ? String(d.getDate()).padStart(2,"0") : "?";
-  const month = d ? MONTH_NAMES[d.getMonth()] : "日付未定";
+  const month = d ? MONTH_NAMES[d.getMonth()] : /^\d{4}-\d{2}$/.test(item.date || "") ? `${Number(item.date.slice(5))}月予定` : "日付未定";
   // typeが「unknown」（新スクリプトでは判定できた場合そのままopen/closed/upcomingが入る）の場合のみ「自動判定」と明示
   const guessedType = item.type && TYPE_TAG_LABEL[item.type] ? item.type : "unknown";
   const badgeType = guessedType === "unknown" ? "news" : guessedType;
@@ -783,39 +782,13 @@ function newsItemHTML(item){
 }
 
 async function loadAutoNews(){
-  const areaIds = AREA_META.map(a=>a.id);
-  areaIds.forEach(area=>{
-    const el = document.getElementById(`${area}-news`);
-    if(el) el.innerHTML = `<p class="empty-note">読み込み中…</p>`;
-  });
   try{
-    const res = await fetch("news.json", {cache:"no-store"});
-    if(!res.ok) throw new Error("news.json の取得に失敗しました");
-    const data = await res.json();
-
-    // 表示は「今日から前後1ヶ月」に絞る（日付未定のものは念のため残す）
-    const now = new Date(); now.setHours(0,0,0,0);
-    const windowStart = new Date(now.getTime() - 31*86400000);
-    const windowEnd = new Date(now.getTime() + 31*86400000);
-    const inWindow = (item) => {
-      const d = parseDateLoose(item.date);
-      if(!d) return true; // 日付未定は除外しすぎないよう残す
-      return d >= windowStart && d <= windowEnd;
-    };
-
-    areaIds.forEach(area=>{
-      const el = document.getElementById(`${area}-news`);
-      if(!el) return;
-      const items = ((data.areas && data.areas[area]) || []).filter(inWindow);
-      el.innerHTML = items.length
-        ? items.map(newsItemHTML).join("")
-        : `<p class="empty-note">この区の自動収集データ（直近1ヶ月分）は現在ありません（対応情報源が無い区もあります）。</p>`;
-    });
+    const res=await fetch("news.json",{cache:"no-store"});
+    if(!res.ok) throw new Error("news.json");
+    AUTO_NEWS=await res.json();
+    renderHistory();
   }catch(e){
-    areaIds.forEach(area=>{
-      const el = document.getElementById(`${area}-news`);
-      if(el) el.innerHTML = `<p class="empty-note">自動収集データを読み込めませんでした（news.jsonがまだ生成されていない可能性があります）。</p>`;
-    });
+    document.getElementById("area-sections").insertAdjacentHTML("afterbegin",'<p class="empty-note">最新データを読み込めませんでした。保存済み情報を表示しています。</p>');
   }
 }
 

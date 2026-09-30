@@ -39,7 +39,7 @@ from urllib.parse import quote_plus, urlparse
 
 import requests
 
-VERSION = "7.3.8.1"
+VERSION = "7.3.8.2"
 BASE_DIR = Path(__file__).resolve().parent
 CORE_PATH = BASE_DIR / "collector_ver72_hakodate.py"
 NEWS_PATH = BASE_DIR / "news.json"
@@ -216,7 +216,7 @@ def has_target_location_context(text: str) -> bool:
     return True
 
 
-# Ver.7.3.8.1: 原材料・食材の産地を店舗所在地と誤認しない。
+# Ver.7.3.8.2: 原材料・食材の産地を店舗所在地と誤認しない。
 # 例: 「千歳市戸田牧場の生乳100%使用」は千歳市の店舗を意味しない。
 def mask_ingredient_origin_context(text: str) -> str:
     t = clean(text)
@@ -821,7 +821,7 @@ def extract_date_hint(text: str) -> str:
         year, month = map(int, m.groups())
         return f"{year:04d}-{month:02d}" if 1 <= month <= 12 else ""
 
-    # Ver.7.3.8.1: 「昨年10月OPEN」等の月単位表現を前年として確定。
+    # Ver.7.3.8.2: 「昨年10月OPEN」等の月単位表現を前年として確定。
     rel_month = re.search(
         r"(昨年|去年|前年|今年|本年|来年|翌年)\s*(\d{1,2})月"
         r"[^。！？\n]{0,24}(?:オープン|OPEN|開店|閉店)",
@@ -1045,6 +1045,10 @@ def make_queries():
                     seen.add(q)
                     yield q
 
+    for domain in ("hakodate.8agarage.co.jp", "ehako.com", "shopship.jp/hakodate", "hkd.mogtrip.jp", "hakobura.jp", "instagram.com", "x.com"):
+        q=f'函館市 (飲食 OR カフェ OR ラーメン OR 居酒屋 OR パン) (開店 OR オープン OR 閉店 OR オープニング) site:{domain}'
+        if q not in seen:
+            seen.add(q); yield q
     # 中央区・北区以外の札幌8区を重点検索。
     focus_areas = {
         "札幌市東区": ["苗穂", "元町", "栄町", "東区役所前", "環状通東", "伏古", "丘珠"],
@@ -1076,7 +1080,7 @@ def make_queries():
                     seen.add(q); yield q
 
     # 函館市の駅・繁華街・周辺地区を深掘り。
-    nearby = {"函館市": ["函館駅", "五稜郭", "湯の川", "本町", "美原", "函館朝市"]}
+    nearby = {"函館市": ["函館駅", "五稜郭", "湯の川", "本町", "美原", "函館朝市", "桔梗", "石川町", "昭和", "港町", "松風町", "大門", "末広町", "十字街", "柏木町", "花園町", "戸倉町", "西旭岡", "八幡町"]}
     for city, spots in nearby.items():
         for i in range(0, len(spots), 3):
             spot_group = " OR ".join(spots[i:i+3])
@@ -1343,7 +1347,7 @@ def has_strong_past_opening_context(text: str) -> bool:
 
 
 def review_signal(sig: Signal) -> tuple[str, str, int, list[str]]:
-    """Ver.7.3.8.1: 7.3.7.3基準を維持し、過去年・産地・店名ノイズ・文脈整合だけを補強。"""
+    """Ver.7.3.8.2: 7.3.7.3基準を維持し、過去年・産地・店名ノイズ・文脈整合だけを補強。"""
     score = 0
     reasons = []
     text = f"{sig.title} {sig.snippet}"
@@ -1613,7 +1617,7 @@ def main():
     log.info("既存確定情報: %d件", len(confirmed))
 
     # 2) 深掘りライン
-    log.info("=== Ver.7.3.8.1 札幌・函館 深掘りシグナル収集 ===")
+    log.info("=== Ver.7.3.8.2 札幌・函館 深掘りシグナル収集 ===")
     signals, query_count = collect_deep_signals()
     log.info("深掘り候補: %d件", len(signals))
 

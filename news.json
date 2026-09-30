@@ -1,6 +1,6 @@
 {
   "version": "7.2",
-  "generated_at": "2026-09-30T20:48:33",
+  "generated_at": "2026-09-30T21:32:20",
   "date": "2026-09-30",
   "areas": {
     "chuo": [
@@ -20,7 +20,7 @@
             "priority": 80
           }
         ],
-        "confidence": 0.72,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -188,7 +188,7 @@
             "priority": 90
           }
         ],
-        "confidence": 0.79,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -349,6 +349,27 @@
         "source_count": 1,
         "first_seen": "2026-09-18",
         "last_seen": "2026-09-27"
+      },
+      {
+        "name": "DARTS & PARTY REGALO札幌すすきの駅前店",
+        "title": "DARTS & PARTY REGALO札幌すすきの駅前店",
+        "date": "2026-09-18",
+        "place": "中央区",
+        "note": "【開店】DARTS & PARTY REGALO札幌すすきの駅前店",
+        "type": "open",
+        "url": "https://kaiten-heiten-24.com/darts-party-regalo-sapporosusukinoekimae/",
+        "source": "開店閉店.com・札幌",
+        "sources": [
+          {
+            "name": "開店閉店.com・札幌",
+            "url": "https://kaiten-heiten-24.com/darts-party-regalo-sapporosusukinoekimae/",
+            "priority": 70
+          }
+        ],
+        "confidence": 0.66,
+        "source_count": 1,
+        "first_seen": "2026-09-30",
+        "last_seen": "2026-09-30"
       },
       {
         "name": "ゴッドバーグ",
@@ -1116,6 +1137,27 @@
         "last_seen": "2026-09-30"
       },
       {
+        "name": "海鮮炉端と焼鳥 しのぶれ すすきの店",
+        "title": "海鮮炉端と焼鳥 しのぶれ すすきの店",
+        "date": "2026-06-11",
+        "place": "中央区",
+        "note": "【開店】海鮮炉端と焼鳥 しのぶれ すすきの店",
+        "type": "open",
+        "url": "https://kaiten-heiten-24.com/shinobure-susukino/",
+        "source": "開店閉店.com・札幌",
+        "sources": [
+          {
+            "name": "開店閉店.com・札幌",
+            "url": "https://kaiten-heiten-24.com/shinobure-susukino/",
+            "priority": 70
+          }
+        ],
+        "confidence": 0.66,
+        "source_count": 1,
+        "first_seen": "2026-09-30",
+        "last_seen": "2026-09-30"
+      },
+      {
         "name": "マルヤマベーグル LOOP",
         "title": "マルヤマベーグル LOOP",
         "date": "2026-05-24",
@@ -1131,7 +1173,7 @@
             "priority": 80
           }
         ],
-        "confidence": 0.72,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -1152,7 +1194,7 @@
             "priority": 80
           }
         ],
-        "confidence": 0.72,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -1215,7 +1257,7 @@
             "priority": 80
           }
         ],
-        "confidence": 0.72,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -1257,7 +1299,7 @@
             "priority": 80
           }
         ],
-        "confidence": 0.72,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -1299,7 +1341,7 @@
             "priority": 80
           }
         ],
-        "confidence": 0.72,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -1320,7 +1362,7 @@
             "priority": 80
           }
         ],
-        "confidence": 0.72,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -1656,7 +1698,7 @@
             "priority": 80
           }
         ],
-        "confidence": 0.68,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -1740,7 +1782,7 @@
             "priority": 80
           }
         ],
-        "confidence": 0.68,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -1824,7 +1866,7 @@
             "priority": 80
           }
         ],
-        "confidence": 0.68,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -2475,7 +2517,7 @@
             "priority": 80
           }
         ],
-        "confidence": 0.68,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -2622,7 +2664,7 @@
             "priority": 80
           }
         ],
-        "confidence": 0.68,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -2945,8 +2987,8 @@
     ],
     "kita": [
       {
-        "name": "かなや",
-        "title": "かなや",
+        "name": "カネナカかなや食堂",
+        "title": "カネナカかなや食堂",
         "date": "2026-12-31",
         "place": "北区",
         "note": "「かなや」と言えば「かにめし」。その味を楽しめた、新琴似の「カネナカかなや食堂」が12月31日で閉店へ……",
@@ -2966,8 +3008,8 @@
         "last_seen": "2026-09-30"
       },
       {
-        "name": "新時代",
-        "title": "新時代",
+        "name": "新時代 札幌麻生店",
+        "title": "新時代 札幌麻生店",
         "date": "2026-10-27",
         "place": "北区",
         "note": "居酒屋「新時代」が札幌3店舗目「新時代 札幌麻生店」10月27日（月）オープン！ サツッター編集部 全国で行列を生む居酒屋『新時代』が、札幌3店舗目となる「新時代 札幌麻生店」を10月27日（月）にオープン。名物の揚げ皮串「伝串」1本50円…",
@@ -3029,6 +3071,27 @@
         "last_seen": "2026-09-30"
       },
       {
+        "name": "銀だこハイボール酒場 北24条店",
+        "title": "銀だこハイボール酒場 北24条店",
+        "date": "2026-09-30",
+        "place": "北区",
+        "note": "【開店】銀だこハイボール酒場 北24条店",
+        "type": "open",
+        "url": "https://kaiten-heiten-24.com/gindaco-hbs-kita24jo/",
+        "source": "開店閉店.com・札幌",
+        "sources": [
+          {
+            "name": "開店閉店.com・札幌",
+            "url": "https://kaiten-heiten-24.com/gindaco-hbs-kita24jo/",
+            "priority": 70
+          }
+        ],
+        "confidence": 0.66,
+        "source_count": 1,
+        "first_seen": "2026-09-30",
+        "last_seen": "2026-09-30"
+      },
+      {
         "name": "原始焼き酒場ルンゴカーニバル 極",
         "title": "原始焼き酒場ルンゴカーニバル 極",
         "date": "2026-09-19",
@@ -3071,8 +3134,8 @@
         "last_seen": "2026-09-30"
       },
       {
-        "name": "BONTEMPS",
-        "title": "BONTEMPS",
+        "name": "BONTEMPS（ボンタン）",
+        "title": "BONTEMPS（ボンタン）",
         "date": "2026-09-05",
         "place": "北区に9月5日",
         "note": "韓国カフェ「BONTEMPS（ボンタン）」北海道初上陸！札幌北区に9月5日（金）オープン サツッター編集部 SNS映え必至！韓国カフェ『BONTEMPS』が札幌に初オープン。約20種類の華やかなクァベギドーナツと話題のドリンクが楽しめます。 韓国で…",
@@ -3175,7 +3238,7 @@
             "priority": 80
           }
         ],
-        "confidence": 0.72,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -3347,14 +3410,14 @@
             "priority": 80
           }
         ],
-        "confidence": 0.72,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
       },
       {
-        "name": "モスバーガー 札幌麻生店",
-        "title": "モスバーガー 札幌麻生店",
+        "name": "モスバーガー札幌麻生店",
+        "title": "モスバーガー札幌麻生店",
         "date": "2026-07-14",
         "place": "北区",
         "note": "閉店情報 北区 【閉店】札幌市北区の『モスバーガー札幌麻生店』が2026年07月14日(火)をもって閉店 モスバーガー札幌麻生店 2026/07/15",
@@ -3504,7 +3567,7 @@
             "priority": 80
           }
         ],
-        "confidence": 0.72,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -3525,7 +3588,7 @@
             "priority": 75
           }
         ],
-        "confidence": 0.66,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -3546,7 +3609,7 @@
             "priority": 80
           }
         ],
-        "confidence": 0.72,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -3567,7 +3630,7 @@
             "priority": 80
           }
         ],
-        "confidence": 0.72,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -3588,7 +3651,7 @@
             "priority": 80
           }
         ],
-        "confidence": 0.72,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -3606,6 +3669,27 @@
           {
             "name": "号外NET 札幌市北区",
             "url": "https://sapporokitaku.goguynet.jp/2026/05/22/kauras/",
+            "priority": 80
+          }
+        ],
+        "confidence": 0.5,
+        "source_count": 1,
+        "first_seen": "2026-09-30",
+        "last_seen": "2026-09-30"
+      },
+      {
+        "name": "SALTY DINING",
+        "title": "SALTY DINING",
+        "date": "",
+        "place": "北区",
+        "note": "麻生駅徒歩1分！「串揚オイルマルシェ」姉妹店の創作ビストロ「SALTY DINING」がグランドオープン",
+        "type": "open",
+        "url": "https://sapporokitaku.goguynet.jp/2026/05/18/saltydining/",
+        "source": "号外NET 札幌市北区",
+        "sources": [
+          {
+            "name": "号外NET 札幌市北区",
+            "url": "https://sapporokitaku.goguynet.jp/2026/05/18/saltydining/",
             "priority": 80
           }
         ],
@@ -3651,7 +3735,7 @@
             "priority": 80
           }
         ],
-        "confidence": 0.68,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -3693,7 +3777,7 @@
             "priority": 80
           }
         ],
-        "confidence": 0.68,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -3714,7 +3798,7 @@
             "priority": 80
           }
         ],
-        "confidence": 0.68,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -3735,7 +3819,7 @@
             "priority": 80
           }
         ],
-        "confidence": 0.68,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -3756,28 +3840,7 @@
             "priority": 80
           }
         ],
-        "confidence": 0.68,
-        "source_count": 1,
-        "first_seen": "2026-09-30",
-        "last_seen": "2026-09-30"
-      },
-      {
-        "name": "串揚オイルマルシェ",
-        "title": "串揚オイルマルシェ",
-        "date": "",
-        "place": "北区",
-        "note": "麻生駅徒歩1分！「串揚オイルマルシェ」姉妹店の創作ビストロ「SALTY DINING」がグランドオープン",
-        "type": "open",
-        "url": "https://sapporokitaku.goguynet.jp/2026/05/18/saltydining/",
-        "source": "号外NET 札幌市北区",
-        "sources": [
-          {
-            "name": "号外NET 札幌市北区",
-            "url": "https://sapporokitaku.goguynet.jp/2026/05/18/saltydining/",
-            "priority": 80
-          }
-        ],
-        "confidence": 0.68,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -3798,7 +3861,7 @@
             "priority": 80
           }
         ],
-        "confidence": 0.68,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -3861,7 +3924,7 @@
             "priority": 80
           }
         ],
-        "confidence": 0.68,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -3882,7 +3945,7 @@
             "priority": 80
           }
         ],
-        "confidence": 0.68,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -3903,7 +3966,7 @@
             "priority": 80
           }
         ],
-        "confidence": 0.68,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -3924,7 +3987,7 @@
             "priority": 80
           }
         ],
-        "confidence": 0.68,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -3995,6 +4058,27 @@
         "last_seen": "2026-09-30"
       },
       {
+        "name": "MORIHICO.（モリヒコ）函館元町",
+        "title": "MORIHICO.（モリヒコ）函館元町",
+        "date": "2026-09-23",
+        "place": "東区",
+        "note": "函館で行きたい、ノスタルジックな新オープンのリノベカフェ3（ELLE） - Yahoo!ニュース 函館で行きたい、ノスタルジックな新オープンのリノベカフェ3 9/23(水) 20:50 配信 函館で行きたい、ノスタルジックな新オープンのリノベカフェ（TOMOMI NAKAMURA） 異国情緒と港町の歴史が息づく北海道・函館。石畳の坂道や洋館、海が彩るノスタルジックな街並みを満喫した後は、ひと息つけるスポットへ。ゆったりと流れる時間を楽しめる、新オープンの函館のリノベカフェをナビゲート。涼しく過ごせる北海道の夏旅やシルバーウイークの参考にしてみて。 MORIHICO.函館元町 TOMOMI NAKAMURA 2026年6月、日本の道百選としても知られる大三坂沿いにオープンした「MORIHICO.（モリヒコ）函館元町」は、札幌で人気を誇るコーヒーブランド「MORIHICO.」が手掛けるカフェ。店内に一歩足を踏み入れると、香り高いコーヒーの香りがふんわりと漂う。 1921年築の「大三坂ビルヂング」をリノベーションした店内は、大正モダンの面影が残る温もりあふれる空間。縦長の窓や格子状に浮き彫りの装飾が入ったティンパネル風の天井、壁かけのアンティーク時計など、趣を感じるインテリアも魅力だ。 一人でも過ごしやすいカウンター席から寛げるソファ席まで揃い、積み重ねられてきた時間に耳を澄ませながら、思い思いのひとときを過ごせる。 TOMOMI NAKAMURA 世界各国から厳選したコーヒー豆を、自社ロースタリーの直火式焙煎機で焙煎し、北海道の風土に寄り添う独自のブレンドを追求する「MORIHICO.」。ネルドリップで抽出した「函館元町ブレンド」（￥748～）は、豊かなコクとほろ苦さがありながらも、やさしい甘みが心地いい一杯だ。豆の量と仕上がり量を選んで好みの味わいを楽しめる「函館式ドリップ」で提供している。 コーヒーと一緒にオーダーしたいのは、断面が美しい「フルーツキューブサンド」（￥1,320、ドリンクとセットで￥100引き）。 食パンをキューブ型にカットし、季節のフルーツと生クリームをたっぷり挟んだサンドは、すっきりとした後味と濃厚なコクを兼ね備えた北海道産生クリームと、フルーツの酸味や甘みが絶妙に調和した、軽やかな味わいが魅力。くちどけがよく、手が止まらなくなること間違いなし。 前へ 1 2 3 次へ 1 / 3ページ 【関連リンク】 旅好きエディターに聞く、朝食がおいしい国内ホテル12選 軽井沢グルメを地元の料理家が厳選！ 今行きたい注目5店 2026年に行くべき、東京のニューオープンカフェ10選 鎌倉のニューオープンカフェ＆レストラン10選。朝から夜まで楽しめるひとり散歩ガイド 食のプロが選ぶ、長野＆大阪・堺で絶対外さない地元グルメ 8選",
+        "type": "open",
+        "url": "https://news.yahoo.co.jp/articles/be69748cce3c35ec93ac5dfe9dc80072c8c9de30",
+        "source": "e-HAKODATE・道南ニュース",
+        "sources": [
+          {
+            "name": "e-HAKODATE・道南ニュース",
+            "url": "https://news.yahoo.co.jp/articles/be69748cce3c35ec93ac5dfe9dc80072c8c9de30",
+            "priority": 70
+          }
+        ],
+        "confidence": 0.66,
+        "source_count": 1,
+        "first_seen": "2026-09-30",
+        "last_seen": "2026-09-30"
+      },
+      {
         "name": "函館で行きたい、ノスタルジックな新オープンのリノベカフェ3（ELLE） - Yahoo!ニュース",
         "title": "函館で行きたい、ノスタルジックな新オープンのリノベカフェ3（ELLE） - Yahoo!ニュース",
         "date": "2026-09-23",
@@ -4042,6 +4126,27 @@
         "date": "2026-07-20",
         "place": "東区",
         "note": "2026年7月20日 ラーメン・ちゃんぽん, 北海道, 札幌, 開店情報, 飲食店 【開店】福恩麻辣湯 イオンモール札幌苗穂店",
+        "type": "open",
+        "url": "https://kaiten-heiten-24.com/fuenmaratan-am-sapporonaeho/",
+        "source": "開店閉店.com・札幌",
+        "sources": [
+          {
+            "name": "開店閉店.com・札幌",
+            "url": "https://kaiten-heiten-24.com/fuenmaratan-am-sapporonaeho/",
+            "priority": 70
+          }
+        ],
+        "confidence": 0.66,
+        "source_count": 1,
+        "first_seen": "2026-09-30",
+        "last_seen": "2026-09-30"
+      },
+      {
+        "name": "福恩麻辣湯 イオンモール札幌苗穂店",
+        "title": "福恩麻辣湯 イオンモール札幌苗穂店",
+        "date": "2026-07-20",
+        "place": "東区",
+        "note": "【開店】福恩麻辣湯 イオンモール札幌苗穂店",
         "type": "open",
         "url": "https://kaiten-heiten-24.com/fuenmaratan-am-sapporonaeho/",
         "source": "開店閉店.com・札幌",
@@ -4532,6 +4637,27 @@
         "last_seen": "2026-09-30"
       },
       {
+        "name": "寿司・しゃぶしゃぶ ゆず庵 南郷通店",
+        "title": "寿司・しゃぶしゃぶ ゆず庵 南郷通店",
+        "date": "2026-06-24",
+        "place": "白石区",
+        "note": "【開店】寿司・しゃぶしゃぶ ゆず庵 南郷通店",
+        "type": "open",
+        "url": "https://kaiten-heiten-24.com/shabu-yuzuan-nangodori/",
+        "source": "開店閉店.com・札幌",
+        "sources": [
+          {
+            "name": "開店閉店.com・札幌",
+            "url": "https://kaiten-heiten-24.com/shabu-yuzuan-nangodori/",
+            "priority": 70
+          }
+        ],
+        "confidence": 0.66,
+        "source_count": 1,
+        "first_seen": "2026-09-30",
+        "last_seen": "2026-09-30"
+      },
+      {
         "name": "ドトールコーヒーショップ札幌ルーシー店",
         "title": "ドトールコーヒーショップ札幌ルーシー店",
         "date": "2026-06-12",
@@ -4931,6 +5057,27 @@
         "source_count": 1,
         "first_seen": "2026-09-21",
         "last_seen": "2026-09-27"
+      },
+      {
+        "name": "みよしの 中の島店",
+        "title": "みよしの 中の島店",
+        "date": "2026-09-20",
+        "place": "豊平区",
+        "note": "【閉店】みよしの 中の島店",
+        "type": "closed",
+        "url": "https://kaiten-heiten-24.com/miyoshino-nakanoshima/",
+        "source": "開店閉店.com・札幌",
+        "sources": [
+          {
+            "name": "開店閉店.com・札幌",
+            "url": "https://kaiten-heiten-24.com/miyoshino-nakanoshima/",
+            "priority": 70
+          }
+        ],
+        "confidence": 0.66,
+        "source_count": 1,
+        "first_seen": "2026-09-30",
+        "last_seen": "2026-09-30"
       },
       {
         "name": "岩泉Cafe 東光ストア豊平店",
@@ -5775,7 +5922,7 @@
             "priority": 80
           }
         ],
-        "confidence": 0.72,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -5817,7 +5964,7 @@
             "priority": 80
           }
         ],
-        "confidence": 0.72,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -5838,7 +5985,7 @@
             "priority": 80
           }
         ],
-        "confidence": 0.72,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -5859,7 +6006,7 @@
             "priority": 80
           }
         ],
-        "confidence": 0.72,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -5880,7 +6027,7 @@
             "priority": 80
           }
         ],
-        "confidence": 0.72,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -5901,7 +6048,7 @@
             "priority": 80
           }
         ],
-        "confidence": 0.72,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -5922,7 +6069,7 @@
             "priority": 80
           }
         ],
-        "confidence": 0.72,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -5943,7 +6090,7 @@
             "priority": 80
           }
         ],
-        "confidence": 0.72,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -5985,7 +6132,7 @@
             "priority": 80
           }
         ],
-        "confidence": 0.72,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -6006,7 +6153,7 @@
             "priority": 80
           }
         ],
-        "confidence": 0.72,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -6111,7 +6258,7 @@
             "priority": 80
           }
         ],
-        "confidence": 0.68,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -6132,7 +6279,7 @@
             "priority": 80
           }
         ],
-        "confidence": 0.68,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -6258,7 +6405,7 @@
             "priority": 80
           }
         ],
-        "confidence": 0.68,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -6355,11 +6502,53 @@
         "last_seen": "2026-09-30"
       },
       {
+        "name": "鰻の成瀬 厚別南店",
+        "title": "鰻の成瀬 厚別南店",
+        "date": "2026-09-15",
+        "place": "厚別区",
+        "note": "【閉店】鰻の成瀬 厚別南店",
+        "type": "closed",
+        "url": "https://kaiten-heiten-24.com/unagi-naruse-atsubetsuminami-2/",
+        "source": "開店閉店.com・札幌",
+        "sources": [
+          {
+            "name": "開店閉店.com・札幌",
+            "url": "https://kaiten-heiten-24.com/unagi-naruse-atsubetsuminami-2/",
+            "priority": 70
+          }
+        ],
+        "confidence": 0.66,
+        "source_count": 1,
+        "first_seen": "2026-09-30",
+        "last_seen": "2026-09-30"
+      },
+      {
         "name": "2026年7月3日 北海道, 寿司, 札幌, 焼肉・ホルモン, 開店情報, 飲食店 【開店】すたみな太郎 PREMIUM BUFFET 新札幌店",
         "title": "2026年7月3日 北海道, 寿司, 札幌, 焼肉・ホルモン, 開店情報, 飲食店 【開店】すたみな太郎 PREMIUM BUFFET 新札幌店",
         "date": "2026-07-03",
         "place": "厚別区",
         "note": "2026年7月3日 北海道, 寿司, 札幌, 焼肉・ホルモン, 開店情報, 飲食店 【開店】すたみな太郎 PREMIUM BUFFET 新札幌店",
+        "type": "open",
+        "url": "https://kaiten-heiten-24.com/sutamina-premium-buffet-shinsapporo/",
+        "source": "開店閉店.com・札幌",
+        "sources": [
+          {
+            "name": "開店閉店.com・札幌",
+            "url": "https://kaiten-heiten-24.com/sutamina-premium-buffet-shinsapporo/",
+            "priority": 70
+          }
+        ],
+        "confidence": 0.66,
+        "source_count": 1,
+        "first_seen": "2026-09-30",
+        "last_seen": "2026-09-30"
+      },
+      {
+        "name": "すたみな太郎 PREMIUM BUFFET 新札幌店",
+        "title": "すたみな太郎 PREMIUM BUFFET 新札幌店",
+        "date": "2026-07-03",
+        "place": "厚別区",
+        "note": "【開店】すたみな太郎 PREMIUM BUFFET 新札幌店",
         "type": "open",
         "url": "https://kaiten-heiten-24.com/sutamina-premium-buffet-shinsapporo/",
         "source": "開店閉店.com・札幌",
@@ -6698,6 +6887,27 @@
         "last_seen": "2026-09-30"
       },
       {
+        "name": "銀座花のれん イオン札幌手稲駅前店",
+        "title": "銀座花のれん イオン札幌手稲駅前店",
+        "date": "2026-07-11",
+        "place": "手稲区",
+        "note": "【閉店】銀座花のれん イオン札幌手稲駅前店",
+        "type": "closed",
+        "url": "https://kaiten-heiten-24.com/hananoren-aeon-sapporoteine/",
+        "source": "開店閉店.com・札幌",
+        "sources": [
+          {
+            "name": "開店閉店.com・札幌",
+            "url": "https://kaiten-heiten-24.com/hananoren-aeon-sapporoteine/",
+            "priority": 70
+          }
+        ],
+        "confidence": 0.66,
+        "source_count": 1,
+        "first_seen": "2026-09-30",
+        "last_seen": "2026-09-30"
+      },
+      {
         "name": "オロモンテ",
         "title": "オロモンテ",
         "date": "2026-07-09",
@@ -6713,7 +6923,7 @@
             "priority": 75
           }
         ],
-        "confidence": 0.66,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -6734,7 +6944,7 @@
             "priority": 75
           }
         ],
-        "confidence": 0.66,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -6761,6 +6971,27 @@
         "last_seen": "2026-09-30"
       },
       {
+        "name": "ひゃくや 手稲駅前店",
+        "title": "ひゃくや 手稲駅前店",
+        "date": "2026-07-06",
+        "place": "手稲区手稲本町2条3丁目6-12",
+        "note": "【開店】ひゃくや 手稲駅前店",
+        "type": "open",
+        "url": "https://www.hotpepper.jp/strJ004634127/",
+        "source": "mogtrip・新店",
+        "sources": [
+          {
+            "name": "mogtrip・新店",
+            "url": "https://www.hotpepper.jp/strJ004634127/",
+            "priority": 90
+          }
+        ],
+        "confidence": 0.54,
+        "source_count": 1,
+        "first_seen": "2026-09-13",
+        "last_seen": "2026-09-30"
+      },
+      {
         "name": "ノースクリーム",
         "title": "ノースクリーム",
         "date": "2026-06-13",
@@ -6776,7 +7007,7 @@
             "priority": 75
           }
         ],
-        "confidence": 0.66,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -6839,7 +7070,7 @@
             "priority": 75
           }
         ],
-        "confidence": 0.66,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -6860,7 +7091,7 @@
             "priority": 75
           }
         ],
-        "confidence": 0.66,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -6944,7 +7175,7 @@
             "priority": 80
           }
         ],
-        "confidence": 0.72,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -7055,6 +7286,27 @@
         "last_seen": "2026-09-30"
       },
       {
+        "name": "おしゃれ空間でヘルシーランチ！待望の「cafe&dining bo...",
+        "title": "おしゃれ空間でヘルシーランチ！待望の「cafe&dining bo...",
+        "date": "",
+        "place": "手稲区",
+        "note": "【新店 手稲】おしゃれ空間でヘルシーランチ！待望の「cafe&dining bo...",
+        "type": "open",
+        "url": "https://teine-magazine.com/%e3%80%90%e6%96%b0%e5%ba%97-%e6%89%8b%e7%a8%b2%e3%80%91%e3%81%8a%e3%81%97%e3%82%83%e3%82%8c%e7%a9%ba%e9%96%93%e3%81%a7%e3%83%98%e3%83%ab%e3%82%b7%e3%83%bc%e3%83%a9%e3%83%b3%e3%83%81%ef%bc%81%e5%be%85/",
+        "source": "手稲マガジン・開店閉店",
+        "sources": [
+          {
+            "name": "手稲マガジン・開店閉店",
+            "url": "https://teine-magazine.com/%e3%80%90%e6%96%b0%e5%ba%97-%e6%89%8b%e7%a8%b2%e3%80%91%e3%81%8a%e3%81%97%e3%82%83%e3%82%8c%e7%a9%ba%e9%96%93%e3%81%a7%e3%83%98%e3%83%ab%e3%82%b7%e3%83%bc%e3%83%a9%e3%83%b3%e3%83%81%ef%bc%81%e5%be%85/",
+            "priority": 75
+          }
+        ],
+        "confidence": 0.62,
+        "source_count": 1,
+        "first_seen": "2026-09-30",
+        "last_seen": "2026-09-30"
+      },
+      {
         "name": "おしゃれ空間でヘルシーランチ！待望の「cafe&dining bo... 手稲にお住まいの皆さん、そして将来手稲に住んでみたい！とワクワクした街の情報を探している皆さん、こんにちは！地域情報ブログ『手",
         "title": "おしゃれ空間でヘルシーランチ！待望の「cafe&dining bo... 手稲にお住まいの皆さん、そして将来手稲に住んでみたい！とワクワクした街の情報を探している皆さん、こんにちは！地域情報ブログ『手",
         "date": "",
@@ -7076,6 +7328,27 @@
         "last_seen": "2026-09-30"
       },
       {
+        "name": "こがねショッピングプラザに注目のお洒落カフェ誕生！「...",
+        "title": "こがねショッピングプラザに注目のお洒落カフェ誕生！「...",
+        "date": "",
+        "place": "手稲区",
+        "note": "【新店 手稲星置】こがねショッピングプラザに注目のお洒落カフェ誕生！「...",
+        "type": "open",
+        "url": "https://teine-magazine.com/%e3%80%90%e6%96%b0%e5%ba%97-%e6%89%8b%e7%a8%b2%e6%98%9f%e7%bd%ae%e3%80%91%e3%81%93%e3%81%8c%e3%81%ad%e3%82%b7%e3%83%a7%e3%83%83%e3%83%94%e3%83%b3%e3%82%b0%e3%83%97%e3%83%a9%e3%82%b6%e3%81%ab%e6%b3%a8/",
+        "source": "手稲マガジン・開店閉店",
+        "sources": [
+          {
+            "name": "手稲マガジン・開店閉店",
+            "url": "https://teine-magazine.com/%e3%80%90%e6%96%b0%e5%ba%97-%e6%89%8b%e7%a8%b2%e6%98%9f%e7%bd%ae%e3%80%91%e3%81%93%e3%81%8c%e3%81%ad%e3%82%b7%e3%83%a7%e3%83%83%e3%83%94%e3%83%b3%e3%82%b0%e3%83%97%e3%83%a9%e3%82%b6%e3%81%ab%e6%b3%a8/",
+            "priority": 75
+          }
+        ],
+        "confidence": 0.62,
+        "source_count": 1,
+        "first_seen": "2026-09-30",
+        "last_seen": "2026-09-30"
+      },
+      {
         "name": "ぱん処 みしま屋",
         "title": "ぱん処 みしま屋",
         "date": "",
@@ -7088,27 +7361,6 @@
           {
             "name": "mogtrip・新店",
             "url": "https://www.instagram.com/pan_mishimaya",
-            "priority": 90
-          }
-        ],
-        "confidence": 0.5,
-        "source_count": 1,
-        "first_seen": "2026-09-13",
-        "last_seen": "2026-09-30"
-      },
-      {
-        "name": "ひゃくや 手稲駅前店",
-        "title": "ひゃくや 手稲駅前店",
-        "date": "",
-        "place": "手稲区手稲本町2条3丁目6-12",
-        "note": "ひゃくや 手稲駅前店",
-        "type": "open",
-        "url": "https://www.hotpepper.jp/strJ004634127/",
-        "source": "mogtrip・新店",
-        "sources": [
-          {
-            "name": "mogtrip・新店",
-            "url": "https://www.hotpepper.jp/strJ004634127/",
             "priority": 90
           }
         ],
@@ -7196,7 +7448,7 @@
             "priority": 75
           }
         ],
-        "confidence": 0.62,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -7217,7 +7469,28 @@
             "priority": 80
           }
         ],
-        "confidence": 0.68,
+        "confidence": 0.5,
+        "source_count": 1,
+        "first_seen": "2026-09-30",
+        "last_seen": "2026-09-30"
+      },
+      {
+        "name": "前田に本格派！『センチュリー スープカレー＆インドネパー...",
+        "title": "前田に本格派！『センチュリー スープカレー＆インドネパー...",
+        "date": "",
+        "place": "手稲区のみなさん",
+        "note": "【新店 手稲】前田に本格派！『センチュリー スープカレー＆インドネパー...",
+        "type": "open",
+        "url": "https://teine-magazine.com/%e3%80%90%e6%96%b0%e5%ba%97-%e6%89%8b%e7%a8%b2%e3%80%91%e5%89%8d%e7%94%b0%e3%81%ab%e6%9c%ac%e6%a0%bc%e6%b4%be%ef%bc%81%e3%80%8e%e3%82%bb%e3%83%b3%e3%83%81%e3%83%a5%e3%83%aa%e3%83%bc-%e3%82%b9%e3%83%bc/",
+        "source": "手稲マガジン・開店閉店",
+        "sources": [
+          {
+            "name": "手稲マガジン・開店閉店",
+            "url": "https://teine-magazine.com/%e3%80%90%e6%96%b0%e5%ba%97-%e6%89%8b%e7%a8%b2%e3%80%91%e5%89%8d%e7%94%b0%e3%81%ab%e6%9c%ac%e6%a0%bc%e6%b4%be%ef%bc%81%e3%80%8e%e3%82%bb%e3%83%b3%e3%83%81%e3%83%a5%e3%83%aa%e3%83%bc-%e3%82%b9%e3%83%bc/",
+            "priority": 75
+          }
+        ],
+        "confidence": 0.62,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -7244,6 +7517,90 @@
         "last_seen": "2026-09-30"
       },
       {
+        "name": "定食ランチの超穴場！あの名店の味が楽しめる「大衆食べ呑み...",
+        "title": "定食ランチの超穴場！あの名店の味が楽しめる「大衆食べ呑み...",
+        "date": "",
+        "place": "手稲区",
+        "note": "【新店 手稲】定食ランチの超穴場！あの名店の味が楽しめる「大衆食べ呑み...",
+        "type": "open",
+        "url": "https://teine-magazine.com/%e3%80%90%e6%96%b0%e5%ba%97-%e6%89%8b%e7%a8%b2%e3%80%91%e5%ae%9a%e9%a3%9f%e3%83%a9%e3%83%b3%e3%83%81%e3%81%ae%e8%b6%85%e7%a9%b4%e5%a0%b4%ef%bc%81%e3%81%82%e3%81%ae%e5%90%8d%e5%ba%97%e3%81%ae%e5%91%b3/",
+        "source": "手稲マガジン・開店閉店",
+        "sources": [
+          {
+            "name": "手稲マガジン・開店閉店",
+            "url": "https://teine-magazine.com/%e3%80%90%e6%96%b0%e5%ba%97-%e6%89%8b%e7%a8%b2%e3%80%91%e5%ae%9a%e9%a3%9f%e3%83%a9%e3%83%b3%e3%83%81%e3%81%ae%e8%b6%85%e7%a9%b4%e5%a0%b4%ef%bc%81%e3%81%82%e3%81%ae%e5%90%8d%e5%ba%97%e3%81%ae%e5%91%b3/",
+            "priority": 75
+          }
+        ],
+        "confidence": 0.62,
+        "source_count": 1,
+        "first_seen": "2026-09-30",
+        "last_seen": "2026-09-30"
+      },
+      {
+        "name": "旧ココイチ跡地がついに始動！看板に書かれた「むしろザン...",
+        "title": "旧ココイチ跡地がついに始動！看板に書かれた「むしろザン...",
+        "date": "",
+        "place": "手稲区前田",
+        "note": "【手稲 グルメ】旧ココイチ跡地がついに始動！看板に書かれた「むしろザン...",
+        "type": "closed",
+        "url": "https://teine-magazine.com/%e3%80%90%e6%89%8b%e7%a8%b2-%e3%82%b0%e3%83%ab%e3%83%a1%e3%80%91%e6%97%a7%e3%82%b3%e3%82%b3%e3%82%a4%e3%83%81%e8%b7%a1%e5%9c%b0%e3%81%8c%e3%81%a4%e3%81%84%e3%81%ab%e5%a7%8b%e5%8b%95%ef%bc%81%e7%9c%8b/",
+        "source": "手稲マガジン・開店閉店",
+        "sources": [
+          {
+            "name": "手稲マガジン・開店閉店",
+            "url": "https://teine-magazine.com/%e3%80%90%e6%89%8b%e7%a8%b2-%e3%82%b0%e3%83%ab%e3%83%a1%e3%80%91%e6%97%a7%e3%82%b3%e3%82%b3%e3%82%a4%e3%83%81%e8%b7%a1%e5%9c%b0%e3%81%8c%e3%81%a4%e3%81%84%e3%81%ab%e5%a7%8b%e5%8b%95%ef%bc%81%e7%9c%8b/",
+            "priority": 75
+          }
+        ],
+        "confidence": 0.62,
+        "source_count": 1,
+        "first_seen": "2026-09-30",
+        "last_seen": "2026-09-30"
+      },
+      {
+        "name": "朝7時から行列！？SNSで話題のラーメン店「メンノジカン（メ...",
+        "title": "朝7時から行列！？SNSで話題のラーメン店「メンノジカン（メ...",
+        "date": "",
+        "place": "手稲区",
+        "note": "【新店 手稲】朝7時から行列！？SNSで話題のラーメン店「メンノジカン（メ...",
+        "type": "open",
+        "url": "https://teine-magazine.com/%e3%80%90%e6%96%b0%e5%ba%97-%e6%89%8b%e7%a8%b2%e3%80%91%e6%9c%9d7%e6%99%82%e3%81%8b%e3%82%89%e8%a1%8c%e5%88%97%ef%bc%81%ef%bc%9fsns%e3%81%a7%e8%a9%b1%e9%a1%8c%e3%81%ae%e3%83%a9%e3%83%bc%e3%83%a1/",
+        "source": "手稲マガジン・開店閉店",
+        "sources": [
+          {
+            "name": "手稲マガジン・開店閉店",
+            "url": "https://teine-magazine.com/%e3%80%90%e6%96%b0%e5%ba%97-%e6%89%8b%e7%a8%b2%e3%80%91%e6%9c%9d7%e6%99%82%e3%81%8b%e3%82%89%e8%a1%8c%e5%88%97%ef%bc%81%ef%bc%9fsns%e3%81%a7%e8%a9%b1%e9%a1%8c%e3%81%ae%e3%83%a9%e3%83%bc%e3%83%a1/",
+            "priority": 75
+          }
+        ],
+        "confidence": 0.62,
+        "source_count": 1,
+        "first_seen": "2026-09-30",
+        "last_seen": "2026-09-30"
+      },
+      {
+        "name": "移転オープンで話題！『石臼挽き手打ちそば 武柳庵（ぶりゅ...",
+        "title": "移転オープンで話題！『石臼挽き手打ちそば 武柳庵（ぶりゅ...",
+        "date": "",
+        "place": "手稲区",
+        "note": "【新店 手稲】移転オープンで話題！『石臼挽き手打ちそば 武柳庵（ぶりゅ...",
+        "type": "open",
+        "url": "https://teine-magazine.com/%e3%80%90%e6%96%b0%e5%ba%97-%e6%89%8b%e7%a8%b2%e3%80%91%e7%a7%bb%e8%bb%a2%e3%82%aa%e3%83%bc%e3%83%97%e3%83%b3%e3%81%a7%e8%a9%b1%e9%a1%8c%ef%bc%81%e3%80%8e%e7%9f%b3%e8%87%bc%e6%8c%bd%e3%81%8d%e6%89%8b/",
+        "source": "手稲マガジン・開店閉店",
+        "sources": [
+          {
+            "name": "手稲マガジン・開店閉店",
+            "url": "https://teine-magazine.com/%e3%80%90%e6%96%b0%e5%ba%97-%e6%89%8b%e7%a8%b2%e3%80%91%e7%a7%bb%e8%bb%a2%e3%82%aa%e3%83%bc%e3%83%97%e3%83%b3%e3%81%a7%e8%a9%b1%e9%a1%8c%ef%bc%81%e3%80%8e%e7%9f%b3%e8%87%bc%e6%8c%bd%e3%81%8d%e6%89%8b/",
+            "priority": 75
+          }
+        ],
+        "confidence": 0.62,
+        "source_count": 1,
+        "first_seen": "2026-09-30",
+        "last_seen": "2026-09-30"
+      },
+      {
         "name": "種類豊富な海鮮丼メニュー",
         "title": "種類豊富な海鮮丼メニュー",
         "date": "",
@@ -7259,7 +7616,7 @@
             "priority": 80
           }
         ],
-        "confidence": 0.68,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -7356,6 +7713,27 @@
         "date": "2026-07-11",
         "place": "清田区",
         "note": "2026年7月11日 北海道, 札幌, 洋菓子, 開店情報, 飲食店 【開店】六花亭 イオン札幌平岡店",
+        "type": "open",
+        "url": "https://kaiten-heiten-24.com/rokkatei-aeon-sapporohiraoka/",
+        "source": "開店閉店.com・札幌",
+        "sources": [
+          {
+            "name": "開店閉店.com・札幌",
+            "url": "https://kaiten-heiten-24.com/rokkatei-aeon-sapporohiraoka/",
+            "priority": 70
+          }
+        ],
+        "confidence": 0.66,
+        "source_count": 1,
+        "first_seen": "2026-09-30",
+        "last_seen": "2026-09-30"
+      },
+      {
+        "name": "六花亭 イオン札幌平岡店",
+        "title": "六花亭 イオン札幌平岡店",
+        "date": "2026-07-11",
+        "place": "清田区",
+        "note": "【開店】六花亭 イオン札幌平岡店",
         "type": "open",
         "url": "https://kaiten-heiten-24.com/rokkatei-aeon-sapporohiraoka/",
         "source": "開店閉店.com・札幌",
@@ -7563,32 +7941,11 @@
     ],
     "hakodate": [
       {
-        "name": "中華 桃園",
-        "title": "中華 桃園",
-        "date": "2026-10-31",
-        "place": "函館市",
-        "note": "閉店情報 函館市 【閉店】函館市の『中華 桃園』が2026年10月31日(土)をもって閉店 中華 桃園 2026/08/14",
-        "type": "closed",
-        "url": "https://hakodate.goguynet.jp/2026/08/17/chuka-toyen/",
-        "source": "号外NET 函館市",
-        "sources": [
-          {
-            "name": "号外NET 函館市",
-            "url": "https://hakodate.goguynet.jp/2026/08/17/chuka-toyen/",
-            "priority": 80
-          }
-        ],
-        "confidence": 0.54,
-        "source_count": 1,
-        "first_seen": "2026-09-30",
-        "last_seen": "2026-09-30"
-      },
-      {
-        "name": "横浜家系ラーメンおばら家 鍛治店",
-        "title": "横浜家系ラーメンおばら家 鍛治店",
+        "name": "横浜家系ラーメン おばら家 鍛治店",
+        "title": "横浜家系ラーメン おばら家 鍛治店",
         "date": "2026-10-04",
         "place": "函館市のラーメン屋",
-        "note": "閉店情報 函館市 【閉店】函館市のラーメン屋『横浜家系ラーメンおばら家 鍛治店』が2026年10月04日(日)をもって閉店 横浜家系ラーメンおばら家 鍛治店 2026/09/27",
+        "note": "函館市鍛治の横浜家系ラーメンおばら家 鍛治店が10/4で閉店｜昭和店は営業を続ける、ラーメン醤油・塩920円 函館市鍛治の横浜家系ラーメンおばら家 鍛治店が10/4で閉店｜昭和店は営業を続ける、ラーメン醤油・塩920円 2026 9/24 函館市 美原・桔梗・北部 2026年9月25日 函館市鍛治2-7-8の「横浜家系ラーメン おばら家 鍛治店」は、10月4日(日)をもって閉店します。店は2026年9月20日に公式Instagramで閉店を告知し、同じおばら家の昭和店（函館市昭和4-27-22）はこれからも営業すると伝えています。鍛治店の閉店時刻は22:00、ラストオーダーは21:30です。 AIで作成したイメージ アイキャッチ写真: AIで作成したイメージ TOC 閉店日は10/4(日) 店の公式Instagramの2026年9月20日の投稿「閉店のお知らせ」には、鍛治店が10月4日(日)をもって閉店することと、長い間の来店への感謝が書かれています。閉店の理由は、投稿には書かれていません。 同じ投稿には、新しいラーメン店についての告知らしい一文もありますが、店の場所や時期は読み取れませんでした。鍛治店の跡に入るとは書かれていません。 営業の時間・場所・駐車場 店名: 横浜家系ラーメン おばら家 鍛治店 住所: 北海道函館市鍛治2-7-8 閉店時刻: 22:00（ラストオーダー 21:30） 電話: 0138-85-6880（店の公式サイトに載っている鍛治店の番号） 駐車場: あり バス: 函館バス「白百合学園前停」から徒歩1分 開店の時刻と定休日は、店の公式サイトとInstagramの説明文で書き方が違うため、この記事では書いていません。閉店時刻とラストオーダーは、どちらも22:00と21:30で同じです。 主なメニューの価格（公式サイトの表示、2026年9月時点） 店の公式サイトの鍛治店のページに載っている価格です（更新日はページに書かれていません）。 ラーメン（醤油・塩）: 920円、味噌: 960円 中華そば（醤油・塩・味噌）: 860円 つけ麺: 1,050円 お子様ラーメン: 390円 チャーハン: 390円 Instagramの説明文には「鍛治店はチャーハンあり」と書かれています。 閉店後は昭和店 閉店の告知で、店は「おばら家 昭和店」がこれからも営業すると伝えています。店の公式サイトに載っている昭和店の情報は次のとおりです。 住所: 北海道函館市昭和4-27-22 電話: 0138-86-6076 駐車場: あり（13台） バス: 函館バス「中央昭和バス停」から徒歩すぐ 昭和店の営業時間は、公式サイトに2通りの時間が並んでいて、どの日にどちらの時間なのかが読み取れなかったため、この記事では書いていません。 サービス券を持っている人は 店の公式サイトによると、ラーメン1杯につきサービス券が1枚付き、ためると交換できる仕組みで、交換はすべてのサービス券が1年以内のものに限られます。鍛治店の閉店後に、鍛治店でもらったサービス券を昭和店で使えるかどうかは、公式サイトにも閉店の告知にも書かれていません。使う予定の人は、店に確かめる必要があります。 閉店前に訪れた人の声 X（旧Twitter）で「おばら家 鍛治」を含む9月20日〜24日の投稿は2件でした。1件は閉店を知って驚いたという内容、もう1件は閉店が近いので食べに行った、あと何回行けるかという内容でした。 あわせて読む 函館市のほかの記事は、 函館市の記事一覧 にまとめています。同じ函館市北部の閉店として、 函館市西桔梗町の「中華桃園」が10/31で閉店 の記事があります。 情報源 横浜家系ラーメン おばら家 鍛治店 公式Instagram（2026年9月20日の投稿「閉店のお知らせ」）: https://www.instagram.com/eak.obaraya.kajiten/ おばら家 公式サイト 鍛治店のページ（株式会社SELECTPACKAGE）: https://selectpackage.jp/obaraya/kaji.html おばら家 公式サイト（昭和店）: https://selectpackage.jp/obaraya/ 函館市 美原・桔梗・北部 おばら家 函館市鍛治 閉店 Let's share this post ! Copied the URL ! Copied the URL ! 函館市川原町の函館自動車学校で函自祭が9/27｜10-14時、フリマ50店・雨天中止、駐車場は混雑見込み 函館市の函館公園でBOOK PARK HAKODATEが9/27｜10-16時、雨天は旧丸山園倉庫、トークは定員20名・申込制 関連記事 函館市の冬タイヤ交換、タイヤ館は10/31-11/23が1台+1,100円｜軽は4,400→5,500円、初雪は平年11/1・2025年は10/28 2026年9月30日 丸井今井函館店のうまいもの大会は10/7に店が入れ替わる｜函館市本町で10/12まで、2,000円以上で駐車2時間無料 2026年9月30日 函館市の函館山、10/1からマイカー規制は16時から｜ロープウェイ上り最終は20:30に、10/6は14時始発 2026年9月29日 函館市電の箱館ハイカラ號は今季10/12まで、残りは10/3・4・10-12｜完全予約制で当日8時まで、大人630円から 2026年9月29日 函館市の初雪は平年11/1、2025年は10/28｜立待岬は11/9の15時まで、函館山登山道は11/9の11時から車は通行止め 2026年9月28日 函館市の高齢者インフル・コロナ予防接種が10/1から｜自己負担はインフル1,500円・コロナ11,800円、非課税世帯は免除 2026年9月28日 函館市の五稜郭タワーが10/1展望の日、先着101名にタオル｜展望料金は大人1,200円、塗装工事は11/15まで・営業は通常どおり 2026年9月27日 函館市西旭岡町にCafe Ikazuwaが9/24開店｜営業は木金土の10-15時だけ、12席・駐車3台・現金のみ 2026年9月26日",
         "type": "closed",
         "url": "https://hakodate.goguynet.jp/2026/09/24/obaraya-2/",
         "source": "号外NET 函館市",
@@ -7600,6 +7957,27 @@
           }
         ],
         "confidence": 0.54,
+        "source_count": 1,
+        "first_seen": "2026-09-30",
+        "last_seen": "2026-09-30"
+      },
+      {
+        "name": "Cafe Ikazuwa",
+        "title": "Cafe Ikazuwa",
+        "date": "2026-09-24",
+        "place": "函館市西旭岡町にCafe",
+        "note": "函館市西旭岡町にCafe Ikazuwaが9/24開店｜営業は木金土の10-15時だけ、12席・駐車3台・現金のみ 函館市西旭岡町にCafe Ikazuwaが9/24開店｜営業は木金土の10-15時だけ、12席・駐車3台・現金のみ 2026 9/26 函館市 湯の川・東部 2026年9月26日 函館市西旭岡町3-24-46に、カフェ「Cafe Ikazuwa」が2026年9月24日(木)にグランドオープンしました。店の公式Instagramによると、営業は木・金・土の10〜15時です。席は12席、駐車場は3台で、支払いは現金のみです。 AIで作成したイメージ アイキャッチ写真: AIで作成したイメージ TOC 営業日・時間・場所 店名: Cafe Ikazuwa 開店: 2026年9月24日(木) 10:00 グランドオープン 営業: 木・金・土 10〜15時 住所: 函館市西旭岡町3-24-46 席: 12席 駐車場: 3台 支払い: 現金のみ 予約・問い合わせ: 0138-50-4120（店の公式Instagramのプロフィール欄に載っている番号） 店のプロフィール欄に営業日として書かれているのは、木・金・土の3日です。祝日や臨時休業の扱いは書かれていません。席が12席、駐車場が3台の小さな店で、店は予約・問い合わせの電話番号を出しています。 開店までの流れ 店の公式Instagramの投稿によると、8月21日と25日にランチメニューを紹介し、9月4日にはオープンの日が近づいていることを伝えていました。9月12日にオープンが決まったと告知し、9月19日に1日限定のプレオープンを行いました。同じ9月19日の投稿で、グランドオープンを9月24日(木)10:00と案内していました。開店前の9月3日と9日には、店内のテーブルや花の写真を投稿していました。 函館市が公表している「食品衛生関係施設の情報」の一覧（2026年8月分）には、屋号「ＩＫＡＺＵＷＡ」の飲食店が、同じ西旭岡町3丁目24番46号で2026年8月10日に営業許可を受けたと載っています。一覧に載っている電話番号も、Instagramのプロフィール欄の番号と同じです。 どんな店か（店の紹介） 店はプロフィール欄で、こだわりのネルドリップ珈琲が飲める小さなカフェで、信州おやきとの相性がよいと紹介しています。窓からの風景と鳥のさえずりの中でゆったり過ごせる店で、夫婦2人で営んでいると書いています。 8月25日の投稿では、ランチメニューとして「たまねぎカレー」を紹介していました。料金は、店のプロフィール欄にも投稿にも書かれていません。 訪れた人の声 X（旧Twitter）で「Ikazuwa」を含む9月24日〜25日の投稿は4件で、そのうち店を訪れた人の投稿は2件でした。1件はたまねぎカレーと野沢菜のおやき、ネルドリップ珈琲を楽しんだという内容でした。もう1件は、住宅街の中にある木のぬくもりのある店と紹介し、「おなめし定食」を食べたと書いていました（「おなめし定食」は、店の公式では確かめていないメニュー名です）。混雑や待ち時間に触れた投稿はありませんでした。 行く前に確かめること 営業は週3日・1日5時間で、席と駐車場の数も限られています。店は予約・問い合わせの電話番号（0138-50-4120）を出しています。最寄りのバス停や道順は、店のプロフィール欄には書かれていません。 函館市のほかの開店の記事 函館市日乃出町に中・大型犬専門トリミング「VELVET ROOM」が9/9開店 函館市柏木町にプロノ函館柏木店が10/23開店 あわせて読む 函館市のほかの記事は、 函館市の記事一覧 にまとめています。 情報源 Cafe Ikazuwa 公式Instagram（プロフィール欄と2026年9月12日・19日、8月25日の投稿。2026年9月26日に確認）: https://www.instagram.com/cafeikazuwa/ 函館市「食品衛生関係施設の情報」2026年8月分（営業許可の一覧、CSV）: https://www.city.hakodate.hokkaido.jp/docs/2019100700015/ 函館市 湯の川・東部 Cafe Ikazuwa カフェ 函館市西旭岡町 Let's share this post ! Copied the URL ! Copied the URL ! 函館市西桔梗町でトラック☆フェスティバルが9/27｜10-14時・小雨決行、仮面ライダーマイスショーは11時と13:15、先着300名に記念品 函館市の五稜郭タワーが10/1展望の日、先着101名にタオル｜展望料金は大人1,200円、塗装工事は11/15まで・営業は通常どおり 関連記事 函館市の冬タイヤ交換、タイヤ館は10/31-11/23が1台+1,100円｜軽は4,400→5,500円、初雪は平年11/1・2025年は10/28 2026年9月30日 丸井今井函館店のうまいもの大会は10/7に店が入れ替わる｜函館市本町で10/12まで、2,000円以上で駐車2時間無料 2026年9月30日 函館市の函館山、10/1からマイカー規制は16時から｜ロープウェイ上り最終は20:30に、10/6は14時始発 2026年9月29日 函館市電の箱館ハイカラ號は今季10/12まで、残りは10/3・4・10-12｜完全予約制で当日8時まで、大人630円から 2026年9月29日 函館市の初雪は平年11/1、2025年は10/28｜立待岬は11/9の15時まで、函館山登山道は11/9の11時から車は通行止め 2026年9月28日 函館市の高齢者インフル・コロナ予防接種が10/1から｜自己負担はインフル1,500円・コロナ11,800円、非課税世帯は免除 2026年9月28日 函館市の五稜郭タワーが10/1展望の日、先着101名にタオル｜展望料金は大人1,200円、塗装工事は11/15まで・営業は通常どおり 2026年9月27日 函館市西桔梗町でトラック☆フェスティバルが9/27｜10-14時・小雨決行、仮面ライダーマイスショーは11時と13:15、先着300名に記念品 2026年9月26日",
+        "type": "open",
+        "url": "https://hakodate.8agarage.co.jp/hakodate-cafe-ikazuwa-open-2026-09-24/",
+        "source": "函館イベントナビ",
+        "sources": [
+          {
+            "name": "函館イベントナビ",
+            "url": "https://hakodate.8agarage.co.jp/hakodate-cafe-ikazuwa-open-2026-09-24/",
+            "priority": 70
+          }
+        ],
+        "confidence": 0.66,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -7662,7 +8040,7 @@
             "priority": 80
           }
         ],
-        "confidence": 0.72,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -7725,7 +8103,7 @@
             "priority": 80
           }
         ],
-        "confidence": 0.72,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -7743,6 +8121,27 @@
           {
             "name": "号外NET 函館市",
             "url": "https://hakodate.goguynet.jp/2026/07/01/delicafe-kitchen-kurumi/",
+            "priority": 80
+          }
+        ],
+        "confidence": 0.54,
+        "source_count": 1,
+        "first_seen": "2026-09-30",
+        "last_seen": "2026-09-30"
+      },
+      {
+        "name": "中華桃園",
+        "title": "中華桃園",
+        "date": "2026-04-11",
+        "place": "函館市西桔梗町の",
+        "note": "函館市湯川町2丁目にコメリPRO湯川店｜届出上の新設予定日は2027/4/11、店舗面積2,281㎡・届出では朝6:30から営業 函館市湯川町2丁目にコメリPRO湯川店｜届出上の新設予定日は2027/4/11、店舗面積2,281㎡・届出では朝6:30から営業 2026 9/20 函館市 湯の川・東部 2026年9月20日 北海道の告示（令和8年9月7日付）によると、株式会社コメリが、函館市湯川町2丁目10－1 ほかに「コメリPRO湯川店」を新設する届出を出しています。届出上の新設をする日は令和9年（2027年）4月11日で、店舗面積の合計は2,281平方メートル、開店時刻は午前6時30分です。これらは届出上の内容で、開店日として発表されたものではありません。 函館市の湯の川温泉周辺の海岸（撮影 663highland／ CC BY 2.5 ） TOC 届出の内容（北海道告示第11422号） 大規模小売店舗立地法第5条第1項に基づく新設の届出です。告示に書かれている内容は次のとおりです。 名称: コメリPRO湯川店 所在地: 函館市湯川町2丁目10－1 ほか 設置者・小売業を行う者: 株式会社コメリ（新潟県新潟市南区清水4501番地1） 新設をする日: 令和9年（2027年）4月11日 大規模小売店舗内の店舗面積の合計: 2,281平方メートル 駐車場の収容台数: 25台 駐輪場の収容台数: 7台 届出年月日: 令和8年8月10日 届出上の開店・閉店の時刻 開店時刻: 午前6時30分 閉店時刻: 午後9時 来客が駐車場を利用できる時間帯: 午前6時から午後9時30分まで 駐車場の自動車の出入口: 3箇所 荷さばき施設で荷さばきができる時間帯: 午前6時から午後10時まで この時刻は届出のもので、コメリの開店の発表ではありません。 コメリPROとは（コメリの説明） 株式会社コメリの2026年3月10日のニュースリリースには、コメリPROについて次の説明があります。「資材や建材、工具・金物など仕事に必要な商品を大量に在庫し、早朝営業や取り置き、取り寄せ、修理、工具レンタルといった各種サービスを充実させることでお客様の暮らしと仕事をサポートしてまいります」。同じリリースによると、当時のコメリの店舗数は、パワー118店舗、ハード&グリーン1,088店舗、PRO24店舗、アテーナ2店舗の合計1,232店舗です。 函館市の湯の川温泉の足湯（撮影 OraMAAG／ CC BY 4.0 ） ほかのコメリPRO店の例（湯川店のものではありません） 同じリリースには、2026年3月に開店した3店の情報があります。湯川店の発表ではなく、ほかの県の店の例です。 コメリPRO盛岡上堂店（岩手県）: 売場面積2,432平方メートル、2026年3月24日(火)午前7時開店 コメリPRO熊谷久保島店（埼玉県）: 売場面積2,468平方メートル、2026年3月26日(木)午前7時開店 コメリPRO高岡店（富山県）: 売場面積2,455平方メートル、2026年3月28日(土)午前7時開店 3店とも営業時間は、平日・土曜・祝日が午前7時から午後8時まで、日曜が午前9時から午後8時まで（不定休）と書かれています。主な取扱い品種は、資材、建材、工具・金物、作業衣料ほかです。湯川店の届出上の営業は午前6時30分から午後9時までで、届出の時刻がそのまま開店時に使われるとは限りません。 函館市内の既存店と、道内の「PRO」の店名 コメリの店舗検索によると、函館市内の既存店には「コメリパワー函館西桔梗店」（西桔梗町246－4）があり、営業時間は9:00〜20:00で、特記事項に「本館9:00～20:00/資材館7:30～20:00（日曜以外）」とあります。 コメリパワー公式サイトの店舗一覧（パワーとPROの店が載る一覧。ハード&グリーンの店は載っていない）では、北海道で店名に「PRO」が付く店は、2026年9月19日時点で「コメリパワー音更店PRO」だけです。 届出書の縦覧と、意見書の提出 告示によると、届出書は令和8年9月7日(月)から令和9年1月7日(木)まで縦覧できます（日曜日、土曜日、国民の祝日、12月29日から31日、1月2日・3日を除く。午前8時45分から午後5時15分まで）。縦覧の場所は、北海道経済部地域経済局中小企業課と、北海道渡島総合振興局産業振興部商工労働観光課です。函館市にも協力を依頼する予定で、縦覧の場所や時間は函館市へ問い合わせるよう書かれています。 この店の周辺地域の生活環境の保持について意見を持つ人は、書面で令和9年1月7日までに、渡島総合振興局産業振興部商工労働観光課に到着するよう提出できます。 あわせて読む 函館市のほかの記事は、 函館市の記事一覧 にまとめています。 函館市の湯の川温泉周辺の海岸（撮影 663highland／ CC BY 2.5 ） 情報源 北海道告示第11422号（令和8年9月7日付、大規模小売店舗立地法第5条第1項の届出）: 北海道告示第11422号（PDF） 北海道「R8告示状況」（2026年9月16日更新）: https://www.pref.hokkaido.lg.jp/kz/csk/richi/todokede/kokuzi1/251386.html 株式会社コメリ ニュースリリース「3月下旬にコメリPROが3店舗オープン　埼玉県内では初！」（2026年3月10日）: https://www.komeri.bit.or.jp/news/2026/2026_03_10_2.html コメリパワー公式サイト 店舗一覧: https://www.komeri.bit.or.jp/pw/store-search/ コメリ 店舗検索（函館市）: https://www.komeri.com/shop/storeSearch/StoreSelect.aspx アイキャッチ写真: 函館市の湯の川温泉周辺の海岸（イメージ。店の場所ではありません。文字を加工）。撮影 663highland／Wikimedia Commons／CC BY 2.5 https://commons.wikimedia.org/wiki/File:Yunokawa_Onsen_Hakodate_Hokkaido_Japan10s5.jpg 函館市 湯の川・東部 コメリPRO ホームセンター 函館市湯川町 Let's share this post ! Copied the URL ! Copied the URL ! 函館市の港町ふ頭が10/2-3に一部立入制限｜函館港で津波防災訓練、10/3 10:30から 函館市西桔梗町の「中華桃園」が10/31で閉店｜創業1972年、営業は11-14時・17:30-20:30、店は公式Instagramで告知 関連記事 函館市の冬タイヤ交換、タイヤ館は10/31-11/23が1台+1,100円｜軽は4,400→5,500円、初雪は平年11/1・2025年は10/28 2026年9月30日 丸井今井函館店のうまいもの大会は10/7に店が入れ替わる｜函館市本町で10/12まで、2,000円以上で駐車2時間無料 2026年9月30日 函館市の函館山、10/1からマイカー規制は16時から｜ロープウェイ上り最終は20:30に、10/6は14時始発 2026年9月29日 函館市電の箱館ハイカラ號は今季10/12まで、残りは10/3・4・10-12｜完全予約制で当日8時まで、大人630円から 2026年9月29日 函館市の初雪は平年11/1、2025年は10/28｜立待岬は11/9の15時まで、函館山登山道は11/9の11時から車は通行止め 2026年9月28日 函館市の高齢者インフル・コロナ予防接種が10/1から｜自己負担はインフル1,500円・コロナ11,800円、非課税世帯は免除 2026年9月28日 函館市の五稜郭タワーが10/1展望の日、先着101名にタオル｜展望料金は大人1,200円、塗装工事は11/15まで・営業は通常どおり 2026年9月27日 函館市西旭岡町にCafe Ikazuwaが9/24開店｜営業は木金土の10-15時だけ、12席・駐車3台・現金のみ 2026年9月26日",
+        "type": "closed",
+        "url": "https://hakodate.goguynet.jp/2026/08/17/chuka-toyen/",
+        "source": "号外NET 函館市",
+        "sources": [
+          {
+            "name": "号外NET 函館市",
+            "url": "https://hakodate.goguynet.jp/2026/08/17/chuka-toyen/",
             "priority": 80
           }
         ],
@@ -7788,7 +8187,7 @@
             "priority": 80
           }
         ],
-        "confidence": 0.72,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -7809,14 +8208,14 @@
             "priority": 80
           }
         ],
-        "confidence": 0.72,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
       },
       {
-        "name": "ケーズデンキ函館本店",
-        "title": "ケーズデンキ函館本店",
+        "name": "炭火居酒屋 炎 函館美原2号店",
+        "title": "炭火居酒屋 炎 函館美原2号店",
         "date": "2026-02-18",
         "place": "函館市",
         "note": "2026年2月18日「ケーズデンキ函館本店」建物内に「炭火居酒屋 炎 函館美原2号店」がオープンするそうです",
@@ -7851,28 +8250,7 @@
             "priority": 80
           }
         ],
-        "confidence": 0.72,
-        "source_count": 1,
-        "first_seen": "2026-09-30",
-        "last_seen": "2026-09-30"
-      },
-      {
-        "name": "乃が美はなれ函館店",
-        "title": "乃が美はなれ函館店",
-        "date": "2025-12-30",
-        "place": "函館市",
-        "note": "2025年12月30日で『乃が美はなれ函館店』『ロケットチーズケーキ函館店』『乃が美はなれ七飯販売店』が閉店するそうです",
-        "type": "closed",
-        "url": "https://hakodate.goguynet.jp/2025/12/21/post-48084/",
-        "source": "号外NET 函館市",
-        "sources": [
-          {
-            "name": "号外NET 函館市",
-            "url": "https://hakodate.goguynet.jp/2025/12/21/post-48084/",
-            "priority": 80
-          }
-        ],
-        "confidence": 0.72,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -7893,14 +8271,14 @@
             "priority": 80
           }
         ],
-        "confidence": 0.72,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
       },
       {
-        "name": "喫茶 民藝",
-        "title": "喫茶 民藝",
+        "name": "民芸はこだて",
+        "title": "民芸はこだて",
         "date": "2025-09-16",
         "place": "函館市",
         "note": "2025年9月16日「民芸はこだて」の店内にある『喫茶 民藝』が閉店していました",
@@ -7935,7 +8313,7 @@
             "priority": 80
           }
         ],
-        "confidence": 0.72,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -7956,7 +8334,7 @@
             "priority": 80
           }
         ],
-        "confidence": 0.72,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -7998,7 +8376,7 @@
             "priority": 80
           }
         ],
-        "confidence": 0.72,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -8019,28 +8397,7 @@
             "priority": 80
           }
         ],
-        "confidence": 0.72,
-        "source_count": 1,
-        "first_seen": "2026-09-30",
-        "last_seen": "2026-09-30"
-      },
-      {
-        "name": "ファミリーレストラン中華ジャンジャン",
-        "title": "ファミリーレストラン中華ジャンジャン",
-        "date": "2025-04-30",
-        "place": "函館市",
-        "note": "2025年４月30日イオン上磯店の中にある『ファミリーレストラン中華ジャンジャン』が閉店するそうです",
-        "type": "closed",
-        "url": "https://hakodate.goguynet.jp/2025/04/22/post-46051/",
-        "source": "号外NET 函館市",
-        "sources": [
-          {
-            "name": "号外NET 函館市",
-            "url": "https://hakodate.goguynet.jp/2025/04/22/post-46051/",
-            "priority": 80
-          }
-        ],
-        "confidence": 0.72,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
@@ -8061,14 +8418,14 @@
             "priority": 80
           }
         ],
-        "confidence": 0.68,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
       },
       {
-        "name": "そば処 ひいらぎ",
-        "title": "そば処 ひいらぎ",
+        "name": "閉業",
+        "title": "閉業",
         "date": "",
         "place": "函館市",
         "note": "「閉業」の理由や閉店された日は、わかりませんが川原町の『そば処 ひいらぎ』が閉店したようです",
@@ -8103,24 +8460,24 @@
             "priority": 80
           }
         ],
-        "confidence": 0.68,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
       }
     ]
   },
-  "unmatched": 274,
+  "unmatched": 276,
   "source_count": 30,
-  "collector_version": "7.3.8.1",
+  "collector_version": "7.3.8.2",
   "unconfirmed_count": 5,
-  "unconfirmed_total_count": 309,
+  "unconfirmed_total_count": 322,
   "unconfirmed_class_counts": {
     "A": 5,
-    "B": 167,
-    "C": 137
+    "B": 176,
+    "C": 141
   },
-  "unconfirmed_updated_at": "2026-09-30T20:50:19",
+  "unconfirmed_updated_at": "2026-09-30T21:34:23",
   "unconfirmed": [
     {
       "title": "【函館市】2026年10月4日（日） 鍛治にある『横浜家系ラーメンおばら家 鍛治店』が閉店するそうです - 地域ニュースサイト号外NET",
@@ -8136,7 +8493,7 @@
       "first_seen": "2026-09-30",
       "confidence": 0.88,
       "match_score": 0.69,
-      "matched_store": "横浜家系ラーメンおばら家 鍛治店",
+      "matched_store": "横浜家系ラーメン おばら家 鍛治店",
       "matched_url": "https://hakodate.goguynet.jp/2026/09/24/obaraya-2/",
       "verification": "unconfirmed",
       "candidate_type": "named_store",
@@ -8160,21 +8517,21 @@
       ]
     },
     {
-      "title": "【札幌市厚別区】「どんぐり森林工房」閉店まであとわずか 9月30日で店舗営業終了へ - ebetsunopporo.com",
-      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFA0bXhSNFpYRUVjbnhpalRGR1ZWcXBvMlFXYm5CZDFIT1ZKaktWMFdNRUhKM2N4aTVqLW93SThYQi1pZlFBbGEyelN3?oc=5",
-      "source": "ebetsunopporo.com",
+      "title": "【函館市】2026年10月31日（土）で西桔梗町にある『中華桃園』が閉店するそうです。 - 地域ニュースサイト号外NET",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9uQThpY2xxdjRNNU84MjJ3V3JvNWcyamFsR3BpaTBpLVRaLWhnYm5STk1UT0VVa0YzRHBhRVVhZTFQQ2hxWkxXZlg2bkJlMHk1UnVoU2JPQ1B2NTdSMVVWUXVB?oc=5",
+      "source": "地域ニュースサイト号外NET",
       "source_type": "web",
-      "area": "厚別区",
+      "area": "函館市",
       "status": "closed",
-      "store_name": "どんぐり森林工房",
-      "address_hint": "札幌市厚別区】「どんぐり森林工房」閉店まであとわずか 9月30日で店舗営業終了へ - ebetsuno",
-      "date_hint": "2026-09-30",
-      "snippet": "【札幌市厚別区】「どんぐり森林工房」閉店まであとわずか 9月30日で店舗営業終了へ ebetsunopporo.com",
+      "store_name": "中華桃園",
+      "address_hint": "函館市】2026年10月31日（土）で西桔梗町にある『中華桃園』が閉店するそうです",
+      "date_hint": "2026-10-31",
+      "snippet": "【函館市】2026年10月31日（土）で西桔梗町にある『中華桃園』が閉店するそうです。 地域ニュースサイト号外NET",
       "first_seen": "2026-09-30",
       "confidence": 0.88,
-      "match_score": 0.0,
-      "matched_store": "",
-      "matched_url": "",
+      "match_score": 0.69,
+      "matched_store": "中華桃園",
+      "matched_url": "https://hakodate.goguynet.jp/2026/08/17/chuka-toyen/",
       "verification": "unconfirmed",
       "candidate_type": "named_store",
       "display_eligible": true,
@@ -8182,17 +8539,18 @@
       "review_label": "掲載候補",
       "review_score": 14,
       "review_reasons": [
-        "店名品質:3",
+        "店名品質:2",
         "対象地域を特定",
         "住所・場所情報あり",
         "開閉店時期あり",
         "開閉店状態を判定",
         "抽出信頼度が高い",
+        "既存情報に類似候補あり",
         "閉店予定または閉店後30日以内"
       ],
       "reasons": [
         "公開Web検索で開店・閉店シグナルを検出",
-        "既存の確定情報に十分な一致なし"
+        "既存情報に類似候補あり・要確認"
       ]
     },
     {
@@ -8233,16 +8591,16 @@
       ]
     },
     {
-      "title": "【閉店】9月30日（水）閉店！「カフェ・ド・クリエ 札幌駅北口店」 - au Webポータル",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1xdHBPMnBpU0dYaDB1SElRQ3VlRVZaQ3dTZmxpVG85RERuSlRlUVp4NDduMDNmT2ZsNjYzcElFUmZJZ3VVUHZ6ZzhkWUpsSHRsbjMxbTRQdjRxSktia0hXTkgyd25pcnpTQ1AwdmZ3?oc=5",
-      "source": "au Webポータル",
+      "title": "JR札幌駅北口の『カフェ・ド・クリエ 札幌駅北口店』が9月30日(水)をもって閉店 - 札幌速報",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9jd1liOU9kbGp5aW5LZnZ6RkV5UWtUZTcwU3hjV2djNmxHNEJpR0pQd0tQcGotblFYb0Y2eDNXaVFxd2VjX0NNbGZzXzBQMGV6OFI3a2J0MjV1QXYwT2U5dEpR?oc=5",
+      "source": "札幌速報",
       "source_type": "web",
       "area": "北区",
       "status": "closed",
       "store_name": "カフェ・ド・クリエ 札幌駅北口店",
       "address_hint": "",
       "date_hint": "2026-09-30",
-      "snippet": "【閉店】9月30日（水）閉店！「カフェ・ド・クリエ 札幌駅北口店」 au Webポータル",
+      "snippet": "JR札幌駅北口の『カフェ・ド・クリエ 札幌駅北口店』が9月30日(水)をもって閉店 札幌速報",
       "first_seen": "2026-09-30",
       "confidence": 0.8,
       "match_score": 0.632,

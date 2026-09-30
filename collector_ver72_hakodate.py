@@ -395,6 +395,7 @@ def detect_ward(text: str) -> str:
 
 
 # Ver.7.3.8.1: 店名より所在地を優先。対象外の市を強制地域で上書きしない。
+OUTSIDE_FACILITIES = ("イオン上磯", "新函館北斗", "七重浜", "七飯販売店")
 OUTSIDE_CITIES = ("千歳市", "恵庭市", "北広島市", "苫小牧市", "江別市", "北斗市", "七飯町", "小樽市", "旭川市", "東京都")
 
 def is_article_link(url: str, title: str = "") -> bool:
@@ -408,7 +409,7 @@ def is_article_link(url: str, title: str = "") -> bool:
 def resolve_location(text: str, place: str = "", fallback: str = "") -> str:
     # 実住所に市外所在地があれば店名・媒体の地域にかかわらず除外。
     for part in (place, text):
-        if any(city in part for city in OUTSIDE_CITIES) or "新千歳空港" in part:
+        if any(city in part for city in OUTSIDE_CITIES + OUTSIDE_FACILITIES) or "新千歳空港" in part:
             return "対象外"
     direct = detect_ward(place)
     if direct:
@@ -456,6 +457,10 @@ def url_publication_date(url: str) -> str:
 def sanitize_item(item):
     if not is_article_link(item.url,item.name):
         return False
+    # 開閉店動詞に近い引用店名を優先し、建物名の誤抽出を補正。
+    m=re.search(r"[『「]([^』」]+)[』」][^。]{0,20}(?:が|を)?(?:オープン|閉店|営業終了)",item.note,re.I)
+    if m:
+        item.name=clean(m.group(1))
     location=resolve_location(item.note, item.place, item.ward)
     if location == "対象外" or location not in WARDS:
         return False
@@ -581,12 +586,19 @@ def article_candidates(source: dict, max_items: int = 120):
             stat(source, "scanned", "") if False else None
             SOURCE_STATS[source["id"]]["scanned"] += 1
     
-            title = clean(a.get_text(" ", strip=True))
+            heading = a.select_one("h1, h2, h3, .entry-title, .post-title")
+            title = clean((heading or a).get_text(" ", strip=True))
+            if source["id"] == "hakodate_navi" and not heading:
+                card = a.find_parent("article")
+                if card:
+                    h=card.select_one("h1, h2, h3, .entry-title")
+                    if h:
+                        title=clean(h.get_text(" ",strip=True))
             href = urljoin(source["url"], a["href"])
             if not title or len(title) < 4:
                 reject(source, "タイトル短すぎ/空", title, href)
                 continue
-            if len(title) > 180:
+            if len(title) > (800 if source["id"] in ("hakodate_navi", "ehako_news") else 180):
                 reject(source, "タイトル長すぎ", title, href)
                 continue
             if not is_article_link(href, title):
@@ -612,13 +624,16 @@ def article_candidates(source: dict, max_items: int = 120):
             context = get_item_context(a, title)
             text = f"{title} {context}"
             status = detect_status(text)
-            if status == "unknown" and not source.get("default_status"):
+            if status == "unknown" and not source.get("default_status") and source["id"] not in ("hakodate_navi", "ehako_news"):
                 reject(source, "開閉ステータス不明", title, href)
                 continue
-            if not source.get("skip_food_check") and not is_food(text):
+            if source["id"] not in ("hakodate_navi", "ehako_news") and not source.get("skip_food_check") and not is_food(text):
                 reject(source, "飲食店判定NG", title, href)
                 continue
     
+            if source["id"] in ("hakodate_navi", "ehako_news") and status == "unknown" and not is_food(text):
+                reject(source, "本文確認対象外:飲食/開閉店手掛かりなし",title,href)
+                continue
             yield title, href, context
             if SOURCE_STATS[source["id"]]["accepted"] >= max_items:
                 break
@@ -640,11 +655,21 @@ def collect_article_source(source: dict):
                             junk.decompose()
                         context=body.get_text(" ",strip=True)[:5000]
         text = f"{title} {context}"
-        status = detect_status(text)
+        status = detect_status(title) if source["id"] in ("hakodate_navi", "ehako_news") else detect_status(text)
+        if status == "unknown":
+            status=detect_status(text)
+        if source["id"] in ("hakodate_navi", "ehako_news"):
+            if status == "unknown" or not is_food(text):
+                reject(source, "本文確認後:開閉店/飲食根拠不足", title, href)
+                continue
         if status == "unknown" and source.get("default_status"):
             # このページ自体が「新店だけ」「閉店だけ」の一覧である場合の救済措置
             status = source["default_status"]
         name = extract_name_from_title(title)
+        if source["id"] in ("hakodate_navi", "ehako_news") and not re.search(r"[『「]",title):
+            quoted = re.search(r"[『「]([^』」]{2,60})[』」]", context)
+            if quoted:
+                name=quoted.group(1)
         ward = resolve_location(text, fallback=source.get("force_ward", ""))
         d = event_date(text, url_publication_date(href) or parse_date(context))
 
@@ -658,7 +683,7 @@ def collect_article_source(source: dict):
             status=status,
             date=d,
             place=extract_address(text),
-            note=title,
+            note=text[:5000] if source["id"] in ("hakodate_navi", "ehako_news") else title,
             url=href,
             source=source["name"],
             source_id=source["id"],
@@ -963,7 +988,7 @@ def build_news_json(conn, today: str):
         if not sanitize_item(checked):
             unmatched.append(row)
             continue
-        ward,status,d=checked.ward,checked.status,checked.date
+        name,ward,status,d=checked.name,checked.ward,checked.status,checked.date
         area = WARDS.get(ward)
         if not area:
             unmatched.append(row)
