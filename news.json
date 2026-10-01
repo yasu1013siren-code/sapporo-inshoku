@@ -1,6 +1,6 @@
 {
   "version": "7.2",
-  "generated_at": "2026-10-01T17:12:46",
+  "generated_at": "2026-10-01T20:01:06",
   "date": "2026-10-01",
   "areas": {
     "chuo": [
@@ -272,7 +272,7 @@
             "priority": 90
           }
         ],
-        "confidence": 0.79,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-10-01",
         "last_seen": "2026-10-01"
@@ -1708,7 +1708,7 @@
             "priority": 90
           }
         ],
-        "confidence": 0.75,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-10-01",
         "last_seen": "2026-10-01"
@@ -2548,7 +2548,7 @@
             "priority": 90
           }
         ],
-        "confidence": 0.75,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-10-01",
         "last_seen": "2026-10-01"
@@ -3264,7 +3264,7 @@
             "priority": 90
           }
         ],
-        "confidence": 0.79,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-10-01",
         "last_seen": "2026-10-01"
@@ -6719,7 +6719,7 @@
             "priority": 90
           }
         ],
-        "confidence": 0.75,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-10-01",
         "last_seen": "2026-10-01"
@@ -8848,12 +8848,12 @@
   "source_count": 30,
   "collector_version": "7.3.8.3",
   "unconfirmed_count": 0,
-  "unconfirmed_total_count": 283,
+  "unconfirmed_total_count": 275,
   "unconfirmed_class_counts": {
     "A": 0,
-    "B": 154,
+    "B": 146,
     "C": 129
   },
-  "unconfirmed_updated_at": "2026-10-01T17:14:48",
+  "unconfirmed_updated_at": "2026-10-01T20:03:23",
   "unconfirmed": []
 }

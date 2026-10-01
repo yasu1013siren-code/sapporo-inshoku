@@ -213,6 +213,10 @@
   @media (prefers-reduced-motion: reduce){
     *{animation:none !important;transition:none !important;}
   }
+  .brief-note{margin:8px 0;font-size:14px;line-height:1.7;}
+  .note-details{margin:8px 0 12px;font-size:14px;}
+  .note-details summary{cursor:pointer;color:var(--blue,#24495b);font-weight:700;}
+  .full-note{margin-top:10px;line-height:1.8;max-height:320px;overflow:auto;padding:10px;border-left:2px solid #cabd9c;overflow-wrap:anywhere;}
 </style>
 </head>
 <body>
@@ -626,6 +630,14 @@ function parseDateLoose(dateStr){
   return new Date(Number(m[1]), Number(m[2])-1, Number(m[3]));
 }
 
+function compactNoteHTML(note){
+  const text=String(note || "").replace(/\s+/g," ").trim();
+  if(!text) return "";
+  if(text.length<=100) return `<p class="brief-note">${escapeHTML(text)}</p>`;
+  const snippet=text.slice(0,100)+"…";
+  return `<p class="brief-note">${escapeHTML(snippet)}</p><details class="note-details"><summary>詳しい内容を読む</summary><div class="full-note">${escapeHTML(text)}</div></details>`;
+}
+
 function eventCardHTML(item, type){
   const d = parseDateLoose(item.date);
   const day = d ? String(d.getDate()).padStart(2,"0") : "?";
@@ -641,7 +653,7 @@ function eventCardHTML(item, type){
       </div>
       <h3 class="${nameClass}">${escapeHTML(item.name)}</h3>
       <div class="meta">${escapeHTML(item.date)}　${escapeHTML(item.place || "")}</div>
-      ${item.note ? `<p>${escapeHTML(item.note)}</p>` : ""}
+      ${compactNoteHTML(item.note)}
       ${item.source ? (item.url
         ? `<a class="src-link" href="${item.url}" target="_blank" rel="noopener noreferrer">情報源：${escapeHTML(item.source)} ↗</a>`
         : `<span class="tip-src">情報源：${escapeHTML(item.source)}</span>`) : ""}
