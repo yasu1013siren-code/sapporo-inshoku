@@ -1,6 +1,6 @@
 {
   "version": "7.2",
-  "generated_at": "2026-10-03T17:12:36",
+  "generated_at": "2026-10-03T17:42:37",
   "date": "2026-10-03",
   "areas": {
     "chuo": [
@@ -8869,12 +8869,12 @@
   "source_count": 30,
   "collector_version": "7.3.8.3",
   "unconfirmed_count": 0,
-  "unconfirmed_total_count": 287,
+  "unconfirmed_total_count": 284,
   "unconfirmed_class_counts": {
     "A": 0,
-    "B": 160,
-    "C": 127
+    "B": 158,
+    "C": 126
   },
-  "unconfirmed_updated_at": "2026-10-03T17:14:40",
+  "unconfirmed_updated_at": "2026-10-03T17:44:39",
   "unconfirmed": []
 }
