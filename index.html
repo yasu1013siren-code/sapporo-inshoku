@@ -799,6 +799,19 @@ async function loadAutoNews(){
     const res=await fetch("news.json",{cache:"no-store"});
     if(!res.ok) throw new Error("news.json");
     AUTO_NEWS=await res.json();
+    // Stored geographic mistakes must not survive in another area's tab.
+    const moved=[];
+    for(const [area,rows] of Object.entries(AUTO_NEWS.areas || {})){
+      AUTO_NEWS.areas[area]=rows.filter(item=>{
+        const text=[item.name,item.title,(item.note || "").slice(0,300)].join(" ");
+        const explicitSapporo=/札幌市\s*(中央区|北区|東区|白石区|豊平区|南区|西区|厚別区|手稲区|清田区)/.test(text);
+        if(area!=="hakodate" && !explicitSapporo && /函館市|函館[・\s]*元町|函館で行きたい/.test(text)){
+          moved.push({...item,place:"函館市"}); return false;
+        }
+        return true;
+      });
+    }
+    AUTO_NEWS.areas.hakodate=[...(AUTO_NEWS.areas.hakodate || []),...moved];
     renderHistory();
   }catch(e){
     document.getElementById("area-sections").insertAdjacentHTML("afterbegin",'<p class="empty-note">最新データを読み込めませんでした。保存済み情報を表示しています。</p>');
@@ -837,3 +850,4 @@ document.addEventListener("visibilitychange", ()=>{
 
 </body>
 </html>
+
