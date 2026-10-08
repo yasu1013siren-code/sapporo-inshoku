@@ -174,6 +174,8 @@
   .tag.type-open{background:rgba(39,74,92,0.12);color:var(--stamp-indigo);}
   .tag.type-closed{background:rgba(169,51,38,0.12);color:var(--stamp-red);}
   .tag.type-upcoming{background:rgba(138,106,36,0.14);color:#8a6a24;}
+  .tag.type-pending{background:rgba(138,106,36,0.14);color:#8a6a24;}
+  .date-badge.type-pending{background:#8a6a24;}
   .tag.type-unknown{background:rgba(74,66,55,0.1);color:var(--ink-soft);}
   .tag.countdown{background:#8a6a24;color:#f8f0da;}
   .tag.area-tag{background:rgba(74,66,55,0.1);color:var(--ink-soft);}
@@ -282,6 +284,7 @@ function buildTabsAndSections(){
         <button class="chip" data-filter="upcoming">開店予定</button>
         <button class="chip" data-filter="open">開店済み</button>
         <button class="chip" data-filter="closed">閉店</button>
+        <button class="chip" data-filter="pending">開店確認待ち</button>
       </div>
       <div class="event-feed" id="${a.id}-history"></div>
 
@@ -621,7 +624,7 @@ const UPCOMING = {
 };
 
 const MONTH_NAMES = ["1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"];
-const TYPE_TAG_LABEL = {open:"開店済み", closed:"閉店", upcoming:"開店予定", unknown:"要確認"};
+const TYPE_TAG_LABEL = {open:"開店済み", closed:"閉店", upcoming:"開店予定", unknown:"要確認", pending:"予定日経過・開店確認待ち"};
 
 function parseDateLoose(dateStr){
   // "2026-09-01" のような形式のみ日付として解釈。"2026年"等はnullを返す。
@@ -693,6 +696,28 @@ function isNonRestaurantAnnouncement(item){
   return /懐中時計|記念グッズ|鉄道グッズ|記念乗車券|記念切符/.test(subject) ||
     (/発売開始|販売開始|新発売/.test(subject) && !/開店|オープン|新店舗|閉店|移転/.test(subject));
 }
+
+function openingIdentity(item){
+  return String(item.name || "").normalize("NFKC").toLowerCase().replace(/[\s“”"'「」『』‘’]/g,"");
+}
+function reconcileOpeningRows(rows, now){
+  const prepared=rows.map(i=>{
+    const range=dateRange(i.date);
+    const type=i.type==="open" && range && range[0]>now ? "upcoming" : i.type;
+    return {...i,_type:type,range};
+  });
+  const opened=prepared.filter(i=>i._type==="open" && i.range && i.range[1]<=now);
+  return prepared.filter(i=>{
+    if(i._type!=="upcoming" || !i.date) return true;
+    // Exact event date and normalized store identity (or identical source URL).
+    // Avoid merging different branches, relocations, and separate opening events.
+    return !opened.some(o=>o.date===i.date &&
+      ((openingIdentity(i) && openingIdentity(i)===openingIdentity(o)) ||
+       (i.url && i.url===o.url)));
+  }).map(i=>i._type==="upcoming" && i.range && i.range[1]<now
+    ? {...i,_type:"pending"} : i);
+}
+
 function renderHistory(){
   const now=new Date(); now.setHours(0,0,0,0);
   const cutoff=new Date(now.getTime()-30*86400000);
@@ -701,11 +726,7 @@ function renderHistory(){
     const fallback=[...(CONFIRMED[area]?.open || []).map(i=>({...i,type:"open"})),...(CONFIRMED[area]?.closed || []).map(i=>({...i,type:"closed"})),...(UPCOMING[area] || []).map(i=>({...i,type:"upcoming"}))];
     const rows=AUTO_NEWS ? (AUTO_NEWS.areas?.[area] || []) : fallback;
     const seen=new Set();
-    const items=rows.map(i=>{
-      const range=dateRange(i.date);
-      const type=i.type==="open" && range && range[0]>now ? "upcoming" : i.type;
-      return {...i,_type:type,range};
-    }).filter(i=>{
+    const items=reconcileOpeningRows(rows,now).filter(i=>{
       if(isNonRestaurantAnnouncement(i)) return false;
       if(i.range && i.range[1]<cutoff) return false;
       // 古い日付未定記事は、記事URLに投稿日がある場合のみ除外。
@@ -717,7 +738,7 @@ function renderHistory(){
       if(seen.has(key)) return false;
       seen.add(key); return true;
     }).sort((a,b)=>{
-      const rank={upcoming:0,open:1,closed:2,unknown:3};
+      const rank={upcoming:0,open:1,closed:2,pending:3,unknown:4};
       const group=(rank[a._type] ?? 3)-(rank[b._type] ?? 3);
       if(group) return group;
       if(a.range && b.range) return a._type==="upcoming" ? a.range[0]-b.range[0] : b.range[0]-a.range[0];
