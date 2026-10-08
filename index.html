@@ -688,6 +688,11 @@ function dateRange(value){
   const m=/^(\d{4})-(\d{2})$/.exec(value || "");
   return m ? [new Date(+m[1],+m[2]-1,1),new Date(+m[1],+m[2],0)] : null;
 }
+function isNonRestaurantAnnouncement(item){
+  const subject=[item.name || "",item.title || ""].join(" ");
+  return /懐中時計|記念グッズ|鉄道グッズ|記念乗車券|記念切符/.test(subject) ||
+    (/発売開始|販売開始|新発売/.test(subject) && !/開店|オープン|新店舗|閉店|移転/.test(subject));
+}
 function renderHistory(){
   const now=new Date(); now.setHours(0,0,0,0);
   const cutoff=new Date(now.getTime()-30*86400000);
@@ -701,6 +706,7 @@ function renderHistory(){
       const type=i.type==="open" && range && range[0]>now ? "upcoming" : i.type;
       return {...i,_type:type,range};
     }).filter(i=>{
+      if(isNonRestaurantAnnouncement(i)) return false;
       if(i.range && i.range[1]<cutoff) return false;
       // 古い日付未定記事は、記事URLに投稿日がある場合のみ除外。
       if(!i.range){
