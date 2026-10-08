@@ -486,6 +486,8 @@ def store_event_context(text, name, status):
 
 
 def sanitize_item(item):
+    if is_non_restaurant_announcement(item.name, item.note):
+        return False
     if not is_article_link(item.url,item.name):
         return False
     if len(item.note)<500:
@@ -513,7 +515,18 @@ def sanitize_item(item):
     return True
 
 
+
+def is_non_restaurant_announcement(title: str, note: str = "") -> bool:
+    """Reject merchandise subjects; anniversary restaurant openings remain eligible."""
+    subject = title or ""
+    if re.search(r"懐中時計|記念グッズ|鉄道グッズ|記念乗車券|記念切符", subject):
+        return True
+    return bool(re.search(r"発売開始|販売開始|新発売", subject)
+                and not re.search(r"開店|オープン|新店舗|閉店|移転", subject))
+
 def is_food(text: str) -> bool:
+    if is_non_restaurant_announcement(text):
+        return False
     t = norm(text)
     if any(norm(x) in t for x in FOOD_NEGATIVE):
         # ただし「カフェ併設」「レストラン併設」などは文脈が複雑なので、
@@ -1020,6 +1033,8 @@ def build_news_json(conn, today: str):
             unmatched.append(row)
             continue
         name,ward,status,d=checked.name,checked.ward,checked.status,checked.date
+        if is_non_restaurant_announcement(name, note):
+            continue
         area = WARDS.get(ward)
         if not area:
             unmatched.append(row)

@@ -697,6 +697,15 @@ GENERIC_NAME_WORDS = [
 ]
 
 
+
+def is_non_restaurant_announcement(title: str, note: str = "") -> bool:
+    """Reject merchandise subjects; anniversary restaurant openings remain eligible."""
+    subject = title or ""
+    if re.search(r"懐中時計|記念グッズ|鉄道グッズ|記念乗車券|記念切符", subject):
+        return True
+    return bool(re.search(r"発売開始|販売開始|新発売", subject)
+                and not re.search(r"開店|オープン|新店舗|閉店|移転", subject))
+
 def has_non_food_primary_signal(text: str) -> bool:
     """非飲食業態が主題の候補を公開対象から落とす。"""
     t = norm(text)
@@ -1366,7 +1375,7 @@ def review_signal(sig: Signal) -> tuple[str, str, int, list[str]]:
     specific_area = bool(sig.area and sig.area != "札幌市・区不明")
     name_q = store_name_quality(sig.store_name) if named else (1 if unnamed else 0)
     relation = date_relation(sig.date_hint)
-    non_food = has_non_food_primary_signal(text)
+    non_food = has_non_food_primary_signal(text) or is_non_restaurant_announcement(sig.title, sig.snippet)
     temporary = is_temporary_event(text)
     outside = not has_target_location_context(text)
     geo_ok = target_geo_consistent(text, sig.area)
