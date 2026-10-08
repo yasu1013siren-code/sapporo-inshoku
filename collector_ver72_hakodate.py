@@ -360,6 +360,12 @@ def parse_date(text: str) -> str:
 
 
 def detect_ward(text: str) -> str:
+    # 市名・店舗所在地を、同名の町名より優先する。
+    explicit = re.search(r"札幌市\s*(中央区|北区|東区|白石区|豊平区|南区|西区|厚別区|手稲区|清田区)", text)
+    if explicit:
+        return explicit.group(1)
+    if re.search(r"函館市|函館[・\s]*元町|函館で行きたい", text):
+        return "函館市"
     t = norm(text)
     # 「北海道」「北海道新聞」等に含まれる「北」の1文字が、単独区名エイリアス
     # （WARD_ALIASESの"北"="北区"など）に誤マッチし続けていたための対策。
@@ -389,6 +395,8 @@ def detect_ward(text: str) -> str:
         "五稜郭": "函館市", "函館駅": "函館市", "湯の川": "函館市",
     }
     for key, ward in guesses.items():
+        if key in {"元町", "栄町"} and "札幌" not in text:
+            continue
         if norm(key) in t:
             return ward
     return ""
@@ -1020,6 +1028,11 @@ def build_news_json(conn, today: str):
             unmatched.append(row)
             continue
         name,ward,status,d=checked.name,checked.ward,checked.status,checked.date
+        resolved = detect_ward(checked.name + " " + (checked.note or "")[:300])
+        if resolved == "函館市" and place == ward:
+            place = resolved
+        if resolved == "函館市":
+            ward = resolved
         area = WARDS.get(ward)
         if not area:
             unmatched.append(row)
@@ -1340,3 +1353,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
