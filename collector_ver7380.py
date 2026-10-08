@@ -298,6 +298,12 @@ def target_geo_consistent(text: str, area: str) -> bool:
 
 
 def detect_area(text: str) -> str:
+    # 市名・店舗所在地を、同名の町名より優先する。
+    explicit = re.search(r"札幌市\s*(中央区|北区|東区|白石区|豊平区|南区|西区|厚別区|手稲区|清田区)", text)
+    if explicit:
+        return explicit.group(1)
+    if re.search(r"函館市|函館[・\s]*元町|函館で行きたい", text):
+        return "函館市"
     t0 = mask_ingredient_origin_context(text)
     t = norm(t0)
     if any(norm(x) in t for x in EXCLUDED_AREAS):
@@ -309,6 +315,8 @@ def detect_area(text: str) -> str:
     sapporo_explicit = bool(re.search(r"(?:北海道)?札幌市", t0))
     for area, hints in AREA_HINTS.items():
         for hint in hints:
+            if hint in {"元町", "栄町", "本町"} and not sapporo_explicit:
+                continue
             if norm(hint) not in t:
                 continue
             if area in {"中央区", "北区", "東区", "南区", "西区"} and hint == area and not sapporo_explicit:
@@ -1652,3 +1660,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
