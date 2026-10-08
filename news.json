@@ -1,6 +1,6 @@
 {
   "version": "7.2",
-  "generated_at": "2026-10-08T17:12:27",
+  "generated_at": "2026-10-08T18:37:25",
   "date": "2026-10-08",
   "areas": {
     "chuo": [
@@ -3416,7 +3416,7 @@
             "priority": 80
           }
         ],
-        "confidence": 0.72,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-10-08",
         "last_seen": "2026-10-08"
@@ -6231,7 +6231,7 @@
             "priority": 90
           }
         ],
-        "confidence": 0.79,
+        "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-10-08",
         "last_seen": "2026-10-08"
@@ -9131,12 +9131,12 @@
   "source_count": 30,
   "collector_version": "7.3.8.3",
   "unconfirmed_count": 0,
-  "unconfirmed_total_count": 264,
+  "unconfirmed_total_count": 269,
   "unconfirmed_class_counts": {
     "A": 0,
-    "B": 145,
-    "C": 119
+    "B": 147,
+    "C": 122
   },
-  "unconfirmed_updated_at": "2026-10-08T17:14:49",
+  "unconfirmed_updated_at": "2026-10-08T18:39:32",
   "unconfirmed": []
 }

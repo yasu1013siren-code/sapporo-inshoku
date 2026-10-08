@@ -1,13 +1,13 @@
 {
   "version": "7.3.8.3",
-  "generated_at": "2026-10-08T17:14:49",
+  "generated_at": "2026-10-08T18:39:32",
   "description": "未確認候補をA=掲載候補、B=要確認、C=保存のみの3段階で保存。確定情報ではありません。",
-  "count": 264,
+  "count": 269,
   "display_count": 0,
   "class_counts": {
     "A": 0,
-    "B": 145,
-    "C": 119
+    "B": 147,
+    "C": 122
   },
   "items": [
     {
@@ -1317,6 +1317,40 @@
       ]
     },
     {
+      "title": "さぁ閉店までラスト30分！(たぶん笑) また間に合いますよー( ｣ﾟДﾟ)｣＜ #神戸こむぎ館 #函館市 #松陰町 #桜ヶ丘通り #パン屋 #今日だけ焼き菓子屋さん - X",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1YeGsyTy05bWx2Yk5OUDA0MVpYNnNGRFdTZ3RhSzJ6RG9JM2J1dThoMFlBOS10N0MtRFZUMmtSZUpWdHZiOWptQ3QzWDJjUjl4XzNrakttdGtJa3F0aDd3?oc=5",
+      "source": "X",
+      "source_type": "web",
+      "area": "函館市",
+      "status": "closed",
+      "store_name": "神戸こむぎ館",
+      "address_hint": "函館市 #松陰町 #桜ヶ丘通り #パン屋 #今日だけ焼き菓子屋さん - X さぁ閉店までラスト3",
+      "date_hint": "",
+      "snippet": "さぁ閉店までラスト30分！(たぶん笑) また間に合いますよー( ｣ﾟДﾟ)｣＜ #神戸こむぎ館 #函館市 #松陰町 #桜ヶ丘通り #パン屋 #今日だけ焼き菓子屋さん X",
+      "first_seen": "2026-10-08",
+      "confidence": 0.8,
+      "match_score": 0.0,
+      "matched_store": "",
+      "matched_url": "",
+      "verification": "unconfirmed",
+      "candidate_type": "named_store",
+      "display_eligible": false,
+      "review_class": "B",
+      "review_label": "要確認",
+      "review_score": 11,
+      "review_reasons": [
+        "店名品質:3",
+        "対象地域を特定",
+        "住所・場所情報あり",
+        "開閉店状態を判定",
+        "抽出信頼度が一定以上"
+      ],
+      "reasons": [
+        "公開Web検索で開店・閉店シグナルを検出",
+        "既存の確定情報に十分な一致なし"
+      ]
+    },
+    {
       "title": "8/15(土)本日もこむぎ館朝8時開店です✨ 一日のどこかにパンタイムいかがでしょう😊 #神戸こむぎ館 #函館市 #松陰町 #桜ヶ丘通り #パン屋 - X",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAxTU5tRUY0NmZDUklBenh4V0xqZjhaTEozSzQycWwwWWlCQzRvWHNXS0VtWjE1VGV2OEtZM2hWMDM3T09TMHNINmtMUnViSGRycnFFQUhua3VSakNfWUJBQVBOdTBVckJNR2hZ?oc=5",
       "source": "X",
@@ -1815,44 +1849,6 @@
       ]
     },
     {
-      "title": "🚗国道12号沿いのあの店舗に変化 札幌市厚別区厚別東5条1丁目、オートバックス新札幌店前にあった眼鏡店「弐萬圓堂 新札幌店」が閉店し、店舗の看板が撤去されていました。 同店は2026年3月22日をもって閉店。長年営業していた店舗だけに、利用していた方にとっては気 - Instagram",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5neHNaVFhyeGpBRHEzdi1ubDk5aXZ4MVd3OG1HMUtXa0dqRzc5VVRYRExaQTUySC1lb2ZfS1o2T2Juc0VLNldsZU5XYnM2azNYd2c?oc=5",
-      "source": "Instagram",
-      "source_type": "instagram",
-      "area": "厚別区",
-      "status": "closed",
-      "store_name": "弐萬圓堂 新札幌店",
-      "address_hint": "札幌市厚別区厚別東5条1丁目、オートバックス新札幌店前にあった眼鏡店「弐萬圓堂 新札幌店」が閉店し、店",
-      "date_hint": "2026-03-22",
-      "snippet": "🚗国道12号沿いのあの店舗に変化 札幌市厚別区厚別東5条1丁目、オートバックス新札幌店前にあった眼鏡店「弐萬圓堂 新札幌店」が閉店し、店舗の看板が撤去されていました。 同店は2026年3月22日をもって閉店。長年営業していた店舗だけに、利用していた方にとっては気 Instagram",
-      "first_seen": "2026-10-08",
-      "confidence": 0.92,
-      "match_score": 0.0,
-      "matched_store": "",
-      "matched_url": "",
-      "verification": "unconfirmed",
-      "candidate_type": "named_store",
-      "display_eligible": false,
-      "review_class": "B",
-      "review_label": "要確認",
-      "review_score": 10,
-      "review_reasons": [
-        "店名品質:3",
-        "対象地域を特定",
-        "住所・場所情報あり",
-        "開閉店時期あり",
-        "開閉店状態を判定",
-        "SNS公開情報",
-        "抽出信頼度が高い",
-        "閉店後30日を超過"
-      ],
-      "reasons": [
-        "公開Web検索で開店・閉店シグナルを検出",
-        "SNS由来の公開情報/検索インデックス",
-        "既存の確定情報に十分な一致なし"
-      ]
-    },
-    {
       "title": "【札幌・手稲】姿刺身198円、生ビール253円。【のれん個室×刺身の旨い居酒屋】「ひゃくや 手稲駅前店」が2026年7月7日オープン - PR TIMES",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1OaDN4Z0FwLTBZMVB5VlNHM3o5NVoyNnFIUE5pdi1FX1NSTnByVGh4S0psbkVqRnNjLWhLSDZZLWpJMHpIcVdWWnprZlVEM0ozWm1ITkMyem85cFZuTzgtdm5DcEJaWGVmNUE?oc=5",
       "source": "PR TIMES",
@@ -2308,6 +2304,42 @@
       ],
       "reasons": [
         "公開Web検索で開店・閉店シグナルを検出",
+        "既存の確定情報に十分な一致なし"
+      ]
+    },
+    {
+      "title": "札幌❣️新店アミューズメントBAR → @yuz.repo 📍SAPPORO(札幌) 【#AMUSEMENT&DININGBARHANGOUT 】 🏃‍♀️すすきの駅から徒歩4分 ━🔖menu ━━━━━━━━━━━ ・白老牛肉寿司 1500円 ・マルゲリータピザ 1200円 ・HANG OUT バーガー ポテト付き 700 - Instagram",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9UZGVyZ3FZWVVLc3drVVBxdGlhNmQ3OHFpU05vX3ZUSFFBSXcxU3A3dXQzalBkOHNlLTF6cjkxeG5jLTA2dHRYSlcwZjJDQkJ4cmo1eXRn?oc=5",
+      "source": "Instagram",
+      "source_type": "instagram",
+      "area": "中央区",
+      "status": "upcoming",
+      "store_name": "AMUSEMENT&DININGBARHANGOUT",
+      "address_hint": "",
+      "date_hint": "",
+      "snippet": "札幌❣️新店アミューズメントBAR → @yuz.repo 📍SAPPORO(札幌) 【#AMUSEMENT&DININGBARHANGOUT 】 🏃‍♀️すすきの駅から徒歩4分 ━🔖menu ━━━━━━━━━━━ ・白老牛肉寿司 1500円 ・マルゲリータピザ 1200円 ・HANG OUT バーガー ポテト付き 700 Instagram",
+      "first_seen": "2026-10-08",
+      "confidence": 0.76,
+      "match_score": 0.512,
+      "matched_store": "",
+      "matched_url": "",
+      "verification": "unconfirmed",
+      "candidate_type": "named_store",
+      "display_eligible": false,
+      "review_class": "B",
+      "review_label": "要確認",
+      "review_score": 10,
+      "review_reasons": [
+        "店名品質:3",
+        "対象地域を特定",
+        "開閉店状態を判定",
+        "SNS公開情報",
+        "抽出信頼度が一定以上",
+        "店名・所在地・開閉店情報が同一文脈で確認できない"
+      ],
+      "reasons": [
+        "公開Web検索で開店・閉店シグナルを検出",
+        "SNS由来の公開情報/検索インデックス",
         "既存の確定情報に十分な一致なし"
       ]
     },
@@ -2880,6 +2912,41 @@
         "SNS公開情報",
         "抽出信頼度が一定以上",
         "店名・所在地・開閉店情報が同一文脈で確認できない"
+      ],
+      "reasons": [
+        "公開Web検索で開店・閉店シグナルを検出",
+        "SNS由来の公開情報/検索インデックス",
+        "既存の確定情報に十分な一致なし"
+      ]
+    },
+    {
+      "title": "★北24条駅『ぱぴぷぺぽ』…札幌でも有数の飲食店激戦区・北24条駅にある1987年創業のお店 ★新店オープンや閉店も多い中…移り変わりの激しいエリアで…時が止まったかのような…癒しの昭和レトロな空間！...それと価格 この物価高のご時世でもワンコイン500円ランチメ - Instagram",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1IZkVsRFNMZWJFT1ZiQXRPV05vQ00yU1RsR3N1a09QX1F5dFhpN3N4YUF6bGJFTWhPU0gySGgyTGt1bWxIbldUOG9aTUFkQkFRelpzZ3Z3?oc=5",
+      "source": "Instagram",
+      "source_type": "instagram",
+      "area": "北区",
+      "status": "upcoming",
+      "store_name": "ぱぴぷぺぽ",
+      "address_hint": "",
+      "date_hint": "",
+      "snippet": "★北24条駅『ぱぴぷぺぽ』…札幌でも有数の飲食店激戦区・北24条駅にある1987年創業のお店 ★新店オープンや閉店も多い中…移り変わりの激しいエリアで…時が止まったかのような…癒しの昭和レトロな空間！...それと価格 この物価高のご時世でもワンコイン500円ランチメ Instagram",
+      "first_seen": "2026-10-08",
+      "confidence": 0.76,
+      "match_score": 0.0,
+      "matched_store": "",
+      "matched_url": "",
+      "verification": "unconfirmed",
+      "candidate_type": "named_store",
+      "display_eligible": false,
+      "review_class": "B",
+      "review_label": "要確認",
+      "review_score": 9,
+      "review_reasons": [
+        "店名品質:2",
+        "対象地域を特定",
+        "開閉店状態を判定",
+        "SNS公開情報",
+        "抽出信頼度が一定以上"
       ],
       "reasons": [
         "公開Web検索で開店・閉店シグナルを検出",
@@ -6095,16 +6162,16 @@
       ]
     },
     {
-      "title": "▽お店の詳細はこちら▽ ・ 【北のうまいもん食堂 わっしょい】 📍函館市新川町（はこだて自由市場内） ⚪︎２種のいくらとたらば蟹丼（¥500） （※7/3から期間限定） ⚪︎バフンウニ（¥950） ・６月にはこだて自由市場にオープンした新店 ・グランドオープン記念に500円の海鮮丼を提供し - TikTok",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1Wa2RfNjZNSDVUTW13RzdjT0FWMWg4S2plQjhCQnRFclFBSzFkZDJJX0RMdjgweTZXRm5WUDlPZXJaLWx0Z3EtQ1o0WUtIZlpYQzg1bFUyT0NxQTFEZlpHTTNwOE5CN2tzZ3lVWEFOVlhEZ2w4d2c?oc=5",
-      "source": "TikTok",
-      "source_type": "tiktok",
+      "title": "▽お店の詳細はこちら▽ ・ 【北のうまいもん食堂 わっしょい】 📍函館市新川町（はこだて自由市場内） ⚪︎ホタテとサーモン丼 いくらを添えて（¥500） （※7/13から期間限定） ・６月にはこだて自由市場にオープンした新店 ・グランドオープン記念に500円の海鮮丼を提供し話題に ・グ - Instagram",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE04YmZQY082Rm43MXBLbGhYaTVTa01MaFNfVV9kcXp0cFVnNFhuUFlqYU0yUDBKczZrb2VfRDY1TFkxekM3X1ZVNFd6RDFxT29iR2Y4M0hB?oc=5",
+      "source": "Instagram",
+      "source_type": "instagram",
       "area": "函館市",
       "status": "upcoming",
       "store_name": "北のうまいもん食堂 わっしょい",
-      "address_hint": "函館市新川町（はこだて自由市場内） ⚪︎２種のいくらとたらば蟹丼（¥500） （※7/3から期間",
+      "address_hint": "函館市新川町（はこだて自由市場内） ⚪︎ホタテとサーモン丼 いくらを添えて（¥500） （※7/",
       "date_hint": "2026-06",
-      "snippet": "▽お店の詳細はこちら▽ ・ 【北のうまいもん食堂 わっしょい】 📍函館市新川町（はこだて自由市場内） ⚪︎２種のいくらとたらば蟹丼（¥500） （※7/3から期間限定） ⚪︎バフンウニ（¥950） ・６月にはこだて自由市場にオープンした新店 ・グランドオープン記念に500円の海鮮丼を提供し TikTok",
+      "snippet": "▽お店の詳細はこちら▽ ・ 【北のうまいもん食堂 わっしょい】 📍函館市新川町（はこだて自由市場内） ⚪︎ホタテとサーモン丼 いくらを添えて（¥500） （※7/13から期間限定） ・６月にはこだて自由市場にオープンした新店 ・グランドオープン記念に500円の海鮮丼を提供し話題に ・グ Instagram",
       "first_seen": "2026-10-08",
       "confidence": 0.92,
       "match_score": 0.0,
@@ -6700,6 +6767,45 @@
       ]
     },
     {
+      "title": "【川口市】本町大通り沿いに「ラーメン鷹の目」の系列店「背脂ネギラーメン とんび」が5月オープン予定！ - 号外NET 川口市",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9wYjRfOFpLTFFoc3o5SjJsOV8tZExiWENBNHA2YUo4d1R1ajJRNE5UTUlXTy1YYnpHMzNJVS1ta0ZHTGNaMHpWZUVpWnBLZVZkQ3RnR3kyaTdVT3BVWWk2UXF3?oc=5",
+      "source": "号外NET 川口市",
+      "source_type": "web",
+      "area": "中央区",
+      "status": "upcoming",
+      "store_name": "ラーメン鷹の目",
+      "address_hint": "",
+      "date_hint": "2026-05",
+      "snippet": "【川口市】本町大通り沿いに「ラーメン鷹の目」の系列店「背脂ネギラーメン とんび」が5月オープン予定！ 号外NET 川口市",
+      "first_seen": "2026-10-08",
+      "confidence": 0.8,
+      "match_score": 0.591,
+      "matched_store": "ラーメンねるら",
+      "matched_url": "https://mogtrip.jp/nerura/",
+      "verification": "unconfirmed",
+      "candidate_type": "named_store",
+      "display_eligible": false,
+      "review_class": "C",
+      "review_label": "保存のみ",
+      "review_score": 3,
+      "review_reasons": [
+        "店名品質:3",
+        "対象地域を特定",
+        "開閉店時期あり",
+        "開閉店状態を判定",
+        "抽出信頼度が一定以上",
+        "既存情報に類似候補あり",
+        "記事本文で対象地域の強い根拠を確認できない",
+        "開店予定日が既に45日超過",
+        "店名・所在地・開閉店情報が同一文脈で確認できない"
+      ],
+      "reasons": [
+        "公開Web検索で開店・閉店シグナルを検出",
+        "予定・募集等の事前シグナル",
+        "既存情報に類似候補あり・要確認"
+      ]
+    },
+    {
       "title": "【新規オープン】岡山に初出店！手羽先自慢の居酒屋『居酒屋革命 酔っ手羽 岡山西口店』 2025年11月29日(土)オープン 当日は生ビール1円 - 山陽新聞",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBYVEE2WnQxdTMxazhKSjUwV2xpREtuazBKeFhIV2xPSDNKVjFCbzNJbWt6MmpCMTc5eG1lQ1ktMS1IeFpkc3A5UjNPaUU4eVZCb2c?oc=5",
       "source": "山陽新聞",
@@ -7133,6 +7239,42 @@
       ],
       "reasons": [
         "公開Web検索で開店・閉店シグナルを検出",
+        "既存の確定情報に十分な一致なし"
+      ]
+    },
+    {
+      "title": ". ラーメン元です🍜 . . ラーメン元、本日閉店します！！！！！ 今日が最終日です！！！！！！！ そして店主の誕生日🎂！笑 . . . . 円山で2年、豊平で20年。 あわせて22年、本当にみなさんありがとうございました。 . . 話したいことたくさんあるのですが それはまた後日、御礼の投稿 - Instagram",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9jM09FbUU0OVhfSzFNUWNHWWFrZThWVUFQN1VWN2xPQ3hJd2pMVmJIZ3E1OE9zS2pEV2FYLWItT3dlMTlHLVJCRXVIMlpOWGFpVGc?oc=5",
+      "source": "Instagram",
+      "source_type": "instagram",
+      "area": "中央区",
+      "status": "closed",
+      "store_name": ". . ラーメン元、本日閉店します！！！！！ 今日が最終日です！！！！！！！ そして店主の誕生日🎂！笑 . . . .",
+      "address_hint": "",
+      "date_hint": "",
+      "snippet": ". ラーメン元です🍜 . . ラーメン元、本日閉店します！！！！！ 今日が最終日です！！！！！！！ そして店主の誕生日🎂！笑 . . . . 円山で2年、豊平で20年。 あわせて22年、本当にみなさんありがとうございました。 . . 話したいことたくさんあるのですが それはまた後日、御礼の投稿 Instagram",
+      "first_seen": "2026-10-08",
+      "confidence": 0.76,
+      "match_score": 0.0,
+      "matched_store": "",
+      "matched_url": "",
+      "verification": "unconfirmed",
+      "candidate_type": "named_store",
+      "display_eligible": false,
+      "review_class": "C",
+      "review_label": "保存のみ",
+      "review_score": 3,
+      "review_reasons": [
+        "店名品質:0",
+        "対象地域を特定",
+        "開閉店状態を判定",
+        "SNS公開情報",
+        "抽出信頼度が一定以上",
+        "一般語・文章断片を店名として検出"
+      ],
+      "reasons": [
+        "公開Web検索で開店・閉店シグナルを検出",
+        "SNS由来の公開情報/検索インデックス",
         "既存の確定情報に十分な一致なし"
       ]
     },
@@ -7572,6 +7714,43 @@
       ],
       "reasons": [
         "公開Web検索で開店・閉店シグナルを検出",
+        "既存の確定情報に十分な一致なし"
+      ]
+    },
+    {
+      "title": "札幌に新感覚のアイス屋さんがあった🥹💭ふわふわ〜💖 イートインスペースもあったよ！ #札幌スイーツ#札幌カフェ#札幌グルメ#札幌新店#寄り道したくなるアイス屋さん - TikTok",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1Va19fOElHWkdnZWZfemxPNm5lMk8yQkdTY0JpWWNfX3VhVkhRcF9EeUpfSmJVUnFmWmtPYWxaRWJaNDI3d01iVUVNeTRIZUZBUlZXa1ZTWGowNnppeTd4WVRLWTR4cFhQV3c?oc=5",
+      "source": "TikTok",
+      "source_type": "tiktok",
+      "area": "札幌市・区不明",
+      "status": "upcoming",
+      "store_name": "スイーツ",
+      "address_hint": "",
+      "date_hint": "",
+      "snippet": "札幌に新感覚のアイス屋さんがあった🥹💭ふわふわ〜💖 イートインスペースもあったよ！ #札幌スイーツ#札幌カフェ#札幌グルメ#札幌新店#寄り道したくなるアイス屋さん TikTok",
+      "first_seen": "2026-10-08",
+      "confidence": 0.6,
+      "match_score": 0.0,
+      "matched_store": "",
+      "matched_url": "",
+      "verification": "unconfirmed",
+      "candidate_type": "named_store",
+      "display_eligible": false,
+      "review_class": "C",
+      "review_label": "保存のみ",
+      "review_score": 3,
+      "review_reasons": [
+        "店名品質:2",
+        "区市町村を特定できない",
+        "開閉店状態を判定",
+        "SNS公開情報",
+        "対象地域との市区整合性を確認できない",
+        "記事本文で対象地域の強い根拠を確認できない",
+        "店名・所在地・開閉店情報が同一文脈で確認できない"
+      ],
+      "reasons": [
+        "公開Web検索で開店・閉店シグナルを検出",
+        "SNS由来の公開情報/検索インデックス",
         "既存の確定情報に十分な一致なし"
       ]
     },
