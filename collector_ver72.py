@@ -1,4 +1,4 @@
-﻿# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 """
 札幌市10区 飲食店 開店・閉店 自動収集 Ver.7
 ================================================
@@ -37,7 +37,7 @@ import zipfile
 from dataclasses import dataclass, field, asdict
 from datetime import date, datetime, timedelta
 from pathlib import Path
-from urllib.parse import urljoin, urlparse
+from urllib.parse import parse_qsl, urlencode, urljoin, urlparse, urlsplit, urlunsplit
 
 import requests
 from bs4 import BeautifulSoup
@@ -354,6 +354,24 @@ def fetch_bytes(url: str) -> bytes | None:
     return None
 
 
+def canonical_url(url: str) -> str:
+    """同じ記事を別URLに見せる広告・ランキング用パラメータだけを除く。"""
+    parts = urlsplit(url)
+    path = parts.path
+    # リビング札幌は同じ記事IDを /newopen/ と /a_feature/ など複数の
+    # カテゴリーパスで配信する。記事IDを正規キーにし、日次差分の偽陽性を防ぐ。
+    if parts.netloc.casefold() == "mrs.living.jp":
+        match = re.search(r"/article/(\d+)(?:/)?$", path)
+        if match:
+            path = f"/sapporo/article/{match.group(1)}"
+    tracking = {"fbclid", "gclid", "dclid", "mc_cid", "mc_eid"}
+    query = [
+        (key, value) for key, value in parse_qsl(parts.query, keep_blank_values=True)
+        if not key.casefold().startswith("utm_") and key.casefold() not in tracking
+    ]
+    return urlunsplit((parts.scheme, parts.netloc, path, urlencode(query), ""))
+
+
 def parse_date(text: str) -> str:
     t = unicodedata.normalize("NFKC", text or "")
     # 2026年9月5日 / 2026-09-05 / 2026/09/05
@@ -539,7 +557,7 @@ def article_candidates(source: dict, max_items: int = 120):
             if len(title) > 180:
                 reject(source, "タイトル長すぎ", title, href)
                 continue
-            if href in seen:
+            if canonical_url(href).rstrip("/") in seen:
                 reject(source, "URL重複", title, href)
                 continue
             parsed = urlparse(href)
@@ -554,7 +572,7 @@ def article_candidates(source: dict, max_items: int = 120):
                 reject(source, "ナビゲーション/共通リンク", title, href)
                 continue
     
-            seen.add(href)
+            seen.add(canonical_url(href).rstrip("/"))
             SOURCE_STATS[source["id"]]["link_candidates"] += 1
             context = get_item_context(a, title)
             text = f"{title} {context}"
@@ -636,9 +654,9 @@ def collect_sapporo_official():
     seen = set()
     selected = []
     for txt, href in links:
-        if href in seen:
+        if canonical_url(href).rstrip("/") in seen:
             continue
-        seen.add(href)
+        seen.add(canonical_url(href).rstrip("/"))
         selected.append((txt, href))
         if len(selected) >= 3:
             break
@@ -812,8 +830,8 @@ def merge_item(existing: RestaurantItem, item: RestaurantItem) -> RestaurantItem
     if item.note and len(item.note) > len(existing.note):
         existing.note = item.note
 
-    urls = {x.get("url") for x in existing.sources if x.get("url")}
-    if item.url and item.url not in urls:
+    urls = {canonical_url(x["url"]).rstrip("/") for x in existing.sources if x.get("url")}
+    if item.url and canonical_url(item.url).rstrip("/") not in urls:
         existing.sources.append({
             "name": item.source,
             "url": item.url,
@@ -1064,10 +1082,10 @@ def collect_all():
             if len(title_raw) < 8:
                 reject(source, "タイトル短すぎ/空", title_raw, href)
                 continue
-            if href in seen_urls:
+            if canonical_url(href).rstrip("/") in seen_urls:
                 reject(source, "URL重複", title_raw, href)
                 continue
-            seen_urls.add(href)
+            seen_urls.add(canonical_url(href).rstrip("/"))
             SOURCE_STATS[source["id"]]["link_candidates"] += 1
 
             wm = GOGAI_WARD_TAG_RE.match(title_raw)

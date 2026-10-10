@@ -1225,11 +1225,11 @@ def dedupe_signals(signals: list[Signal]):
     merged = {}
     for s in signals:
         if s.candidate_type == "unnamed_opening":
-            key = ("unnamed", s.area, norm(s.address_hint) or norm(s.title))
+            key = ("unnamed", s.area, norm(s.address_hint) or norm(s.title), s.status, s.date_hint or s.url)
         else:
-            key = (norm(s.store_name), s.area, s.status)
+            key = (norm(s.store_name), s.area, s.status, s.date_hint or s.url)
             if not key[0]:
-                key = (norm(s.title), s.area, s.status)
+                key = (norm(s.title), s.area, s.status, s.date_hint or s.url)
         if key not in merged:
             merged[key] = s
             continue
