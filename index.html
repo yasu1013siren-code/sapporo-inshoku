@@ -718,6 +718,19 @@ function reconcileOpeningRows(rows, now){
     ? {...i,_type:"pending"} : i);
 }
 
+function articleIdentity(raw){
+  try{
+    const u=new URL(raw);
+    const match=u.hostname==="mrs.living.jp" && /\/article\/(\d+)\/?$/.exec(u.pathname);
+    if(match) u.pathname=`/sapporo/article/${match[1]}`;
+    for(const key of [...u.searchParams.keys()]){
+      if(/^utm_/i.test(key) || /^(fbclid|gclid|dclid|mc_cid|mc_eid)$/i.test(key)) u.searchParams.delete(key);
+    }
+    u.hash=""; u.pathname=u.pathname.replace(/\/$/,"");
+    return u.href;
+  }catch(e){return raw || "";}
+}
+
 function renderHistory(){
   const now=new Date(); now.setHours(0,0,0,0);
   const cutoff=new Date(now.getTime()-30*86400000);
@@ -726,6 +739,7 @@ function renderHistory(){
     const fallback=[...(CONFIRMED[area]?.open || []).map(i=>({...i,type:"open"})),...(CONFIRMED[area]?.closed || []).map(i=>({...i,type:"closed"})),...(UPCOMING[area] || []).map(i=>({...i,type:"upcoming"}))];
     const rows=AUTO_NEWS ? (AUTO_NEWS.areas?.[area] || []) : fallback;
     const seen=new Set();
+    const seenArticles=new Set();
     const items=reconcileOpeningRows(rows,now).filter(i=>{
       if(isNonRestaurantAnnouncement(i)) return false;
       if(i.range && i.range[1]<cutoff) return false;
@@ -735,8 +749,9 @@ function renderHistory(){
         if(pub && new Date(+pub[1],+pub[2]-1,+pub[3])<cutoff) return false;
       }
       const key=[i.name,i.date,i._type].join("|");
-      if(seen.has(key)) return false;
-      seen.add(key); return true;
+      const articleKey=i.url ? [articleIdentity(i.url),i.date,i._type].join("|") : "";
+      if(seen.has(key) || (articleKey && seenArticles.has(articleKey))) return false;
+      seen.add(key); if(articleKey) seenArticles.add(articleKey); return true;
     }).sort((a,b)=>{
       const rank={upcoming:0,open:1,closed:2,pending:3,unknown:4};
       const group=(rank[a._type] ?? 3)-(rank[b._type] ?? 3);
