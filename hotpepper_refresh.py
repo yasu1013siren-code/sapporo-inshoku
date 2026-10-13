@@ -58,7 +58,9 @@ def check(item, prior):
         for query in variants:
             url,count=search(query)
             evidence.append(url); counts.append(count)
-        address = result.get('verified_address', '')
+        address = result.get('verified_address') or (item.get('place','') if item.get('address_verified') else '')
+        if address:
+            result['verified_address']=address
         address_ok = bool(re.search(r'函館市[^\d]+\d+[-－丁目番地号\d]+', address))
         if address_ok:
             url,count=search(address.replace('北海道',''))
@@ -77,7 +79,15 @@ def apply_live_selection(payload, base_dir):
     path=base_dir/'hotpepper_reviews.json'
     old=json.loads(path.read_text(encoding='utf-8')) if path.exists() else []
     indexed={identity(r):r for r in old}
-    items=payload.get('areas',{}).get('hakodate',[])
+    from hakodate_directory import collect_directory
+    events=payload.get('areas',{}).get('hakodate',[])
+    candidates=collect_directory(base_dir)
+    indexed_candidates={identity(item):item for item in candidates}
+    for item in events:
+        if item.get('type') != 'closed':
+            indexed_candidates.setdefault(identity(item),item)
+    items=list(indexed_candidates.values())
+    payload=dict(payload,hakodate_directory_candidates=items)
     # Bound each daily batch; all remaining stores stay pending.
     ordered=sorted(items,key=lambda item:indexed.get(identity(item),{}).get('attempted_at',''))
     batch=ordered[:30]
@@ -89,7 +99,7 @@ def apply_live_selection(payload, base_dir):
     records += [r for r in old if identity(r) not in keys]
     path.write_text(json.dumps(records,ensure_ascii=False,indent=2),encoding='utf-8')
     result,queue=select(payload,records)
-    for item in result['areas'].get('hakodate',[]):
+    for item in result.get('hakodate_directory',[]):
         record=next(r for r in records if identity(r)==identity(item))
         if record.get('verified_address'):
             item['place']=record['verified_address']

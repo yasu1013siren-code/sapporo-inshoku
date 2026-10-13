@@ -749,7 +749,6 @@ function renderHistory(){
     const seenArticles=new Set();
     const items=reconcileOpeningRows(rows,now).filter(i=>{
       if(isNonRestaurantAnnouncement(i)) return false;
-      if(area==="hakodate" && !validHakodateReview(i)) return false;
       if(i.range && i.range[1]<cutoff) return false;
       // 古い日付未定記事は、記事URLに投稿日がある場合のみ除外。
       if(!i.range){
@@ -770,10 +769,14 @@ function renderHistory(){
     el.innerHTML=items.length ? items.map(i=>eventCardHTML(i,i._type)).join("") : '<p class="empty-note">対象期間の情報はありません。</p>';
     if(area==="hakodate") {
       const pending=AUTO_NEWS?.hakodate_selection?.pending;
-      el.insertAdjacentHTML("afterbegin", `<p class="empty-note">函館はホットペッパーの掲載が確認できない店舗のみ掲載しています。${pending ? `照合待ち：${pending}件。` : ""}</p>`);
+      el.insertAdjacentHTML("afterbegin", `<p class="empty-note">新規開店・閉店情報はホットペッパー掲載の有無に関係なく収集しています。${pending ? `照合待ち：${pending}件。` : ""}</p>`);
+    }
+    if(area==="hakodate") {
+      const directory=(AUTO_NEWS?.hakodate_directory || []).filter(validHakodateReview);
+      el.insertAdjacentHTML("beforeend", `<section style="margin-top:32px"><h2>ホットペッパー掲載確認なしの店舗</h2><p class="empty-note">開店日・記事の日付を問わない店舗一覧です。検索失敗・未確認は掲載しません。</p>${directory.length ? directory.map(i=>`<article class="event-card"><div class="event-body"><h3>${escapeHTML(i.name || i.title || "")}</h3><div class="meta">${escapeHTML(i.place || "")}</div><p>確認日時点で掲載なし：${escapeHTML(i.hotpepper_check.checked_at.slice(0,10))}</p>${i.url ? `<a href="${escapeHTML(i.url)}" target="_blank" rel="noopener noreferrer">店舗の情報源 ↗</a>` : ""}</div></article>`).join("") : '<p class="empty-note">照合済みの対象店舗はありません。</p>'}</section>`);
     }
     const filter=document.querySelector(`.filter-row[data-area="${area}"] .active`)?.dataset.filter || "all";
-    el.querySelectorAll(".event-card").forEach(card=>card.classList.toggle("is-hidden",filter!=="all" && card.dataset.type!==filter));
+    el.querySelectorAll(".event-card").forEach(card=>card.classList.toggle("is-hidden",card.dataset.type && filter!=="all" && card.dataset.type!==filter));
   });
 }
 

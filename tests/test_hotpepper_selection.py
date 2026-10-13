@@ -12,13 +12,14 @@ class SelectionTests(unittest.TestCase):
             name_variants_checked=True, address_checked=True)
     def test_absence_includes_and_preserves_sapporo_and_input(self):
         result, queue = select(self.payload, [self.record], self.now)
-        self.assertEqual(len(result['areas']['hakodate']), 1)
+        self.assertEqual(len(result['hakodate_directory']), 1)
+        self.assertEqual(result['areas']['hakodate'],self.payload['areas']['hakodate'])
         self.assertEqual(result['areas']['higashi'], self.payload['areas']['higashi'])
         self.assertNotIn('hotpepper_check', self.item)
     def test_listed_excluded(self):
         self.record['status']='listed'
         result, queue=select(self.payload,[self.record],self.now)
-        self.assertEqual(result['areas']['hakodate'],[])
+        self.assertEqual(result['hakodate_directory'],[])
         self.assertEqual(len(queue['excluded_listed']),1)
     def test_unknown_stale_conflicts_and_wrong_address_pending(self):
         scenarios=[[],[dict(self.record,status='error')],[dict(self.record,checked_at='2026-10-01T00:00:00+00:00')],
@@ -28,7 +29,7 @@ class SelectionTests(unittest.TestCase):
         for records in scenarios:
             with self.subTest(records=records):
                 result,queue=select(self.payload,records,self.now)
-                self.assertEqual(result['areas']['hakodate'],[])
+                self.assertEqual(result['hakodate_directory'],[])
                 self.assertEqual(len(queue['pending']),1)
 
 if __name__=='__main__': unittest.main()
