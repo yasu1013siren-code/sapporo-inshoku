@@ -80,7 +80,7 @@ if not exist "news.json" (
 )
 
 echo [4/6] Checking changes...
-git add index.html news.json hotpepper_reviews.json hakodate_pending.json
+git add index.html news.json hotpepper_reviews.json hakodate_pending.json hakodate_directory_candidates.json hakodate_directory_state.json
 
 git diff --cached --quiet
 if not errorlevel 1 (

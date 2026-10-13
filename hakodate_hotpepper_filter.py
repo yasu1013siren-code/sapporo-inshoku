@@ -26,8 +26,17 @@ def select(payload, reviews, now=None, max_age_days=7):
     indexed = {}
     for review in reviews:
         indexed.setdefault(identity(review), []).append(review)
+        if review.get('verified_address'):
+            alias=identity(dict(review,place=review['verified_address']))
+            if alias != identity(review):
+                indexed.setdefault(alias, []).append(review)
     kept, excluded, pending = [], [], []
-    for item in result.get('areas', {}).get('hakodate', []):
+    candidates = result.get('hakodate_directory_candidates', result.get('areas', {}).get('hakodate', []))
+    seen = set()
+    for item in copy.deepcopy(candidates):
+        if item.get('type') == 'closed' or identity(item) in seen:
+            continue
+        seen.add(identity(item))
         records = indexed.get(identity(item), [])
         # Duplicate or conflicting records require review, never arbitrary selection.
         record = records[0] if len(records) == 1 else None
@@ -56,7 +65,7 @@ def select(payload, reviews, now=None, max_age_days=7):
             excluded.append(item)
         else:
             pending.append(item)
-    result.setdefault('areas', {})['hakodate'] = kept
+    result['hakodate_directory'] = kept
     result['hakodate_selection'] = {'checked_at': now.isoformat(), 'max_age_days': max_age_days,
         'included': len(kept), 'excluded_listed': len(excluded), 'pending': len(pending)}
     return result, {'pending': pending, 'excluded_listed': excluded}
