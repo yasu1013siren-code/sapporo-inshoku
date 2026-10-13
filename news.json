@@ -1,7 +1,7 @@
 {
   "version": "7.2",
-  "generated_at": "2026-10-11T17:13:29",
-  "date": "2026-10-11",
+  "generated_at": "2026-10-13T17:59:50",
+  "date": "2026-10-13",
   "areas": {
     "chuo": [
       {
@@ -23,7 +23,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "ひゃくや 月寒中央駅前店",
@@ -44,7 +44,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "大衆酒場フレンチマン ココノススキノ店",
@@ -86,7 +86,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "全席個室 蒸しと酒 みちる 札幌駅前店",
@@ -107,7 +107,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-10-09",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "YOGURT WORLD COCONO SUSUKINO店",
@@ -149,7 +149,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "の〜すくり〜む",
@@ -170,7 +170,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "焼き鳥食べ飲み放題 おすすめ屋",
@@ -212,7 +212,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-27",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "おすすめ屋 すすきの店",
@@ -259,7 +259,7 @@
         "confidence": 0.58,
         "source_count": 2,
         "first_seen": "2026-10-06",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "牛たん ささ川 円山店",
@@ -280,7 +280,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-10-06",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "ノースコンチネント 赤レンガ店",
@@ -364,7 +364,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-10-01",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "すすきの横丁居酒屋",
@@ -411,7 +411,7 @@
         "confidence": 0.58,
         "source_count": 2,
         "first_seen": "2026-10-01",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "成吉思汗 ラム中",
@@ -432,7 +432,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-19",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "成吉思汗 ラム中",
@@ -479,7 +479,7 @@
         "confidence": 0.58,
         "source_count": 2,
         "first_seen": "2026-09-17",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "5.hundred",
@@ -500,7 +500,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-27",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "蕎麦前 酒BAR 福ちゃん家",
@@ -522,6 +522,27 @@
         "source_count": 1,
         "first_seen": "2026-09-13",
         "last_seen": "2026-09-22"
+      },
+      {
+        "name": "のみ亭",
+        "title": "のみ亭",
+        "date": "2026-09-24",
+        "place": "中央区",
+        "note": "【開店】札幌市中央区 西11丁目駅近くに居酒屋『のみ亭』が2026年09月24日(木)よりOPEN!!",
+        "type": "open",
+        "url": "https://www.shopship.jp/sapporo/open-close/nomitei-sapporo-nishi11/",
+        "source": "札幌ショップス・開店閉店",
+        "sources": [
+          {
+            "name": "札幌ショップス・開店閉店",
+            "url": "https://www.shopship.jp/sapporo/open-close/nomitei-sapporo-nishi11/",
+            "priority": 90
+          }
+        ],
+        "confidence": 0.79,
+        "source_count": 1,
+        "first_seen": "2026-10-13",
+        "last_seen": "2026-10-13"
       },
       {
         "name": "北海道焼肉 百折歩撓 羊と牛とジビエと海鮮",
@@ -547,7 +568,7 @@
         "confidence": 0.58,
         "source_count": 2,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "サカヤノノミヤ｜札幌中央区すすきの 2026-09-20 すすきの",
@@ -568,7 +589,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-20",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "2026年9月18日 バー・バル・ダイニング, 北海道, 札幌, 開店情報, 飲食店 【開店】DARTS & PARTY REGALO札幌すすきの駅前店",
@@ -610,7 +631,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "ゴッドバーグ",
@@ -652,7 +673,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-21",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "喫茶プリモナ",
@@ -673,7 +694,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "BAR ちゃりんこ",
@@ -694,7 +715,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-10-07",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "芋芋屋（ヤムヤムヤーン）｜札幌中央区双子山 2026-09-17 中央区",
@@ -715,7 +736,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-17",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "中華料理 永伸",
@@ -736,7 +757,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-21",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "日本茶カフェpocha",
@@ -762,7 +783,7 @@
         "confidence": 0.58,
         "source_count": 2,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "北京ダックと中華みね",
@@ -783,7 +804,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "銀だこハイボール酒場 すすきのグルーヴビル店",
@@ -809,7 +830,7 @@
         "confidence": 0.58,
         "source_count": 2,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "2026年9月7日 たこ焼き・お好み焼き, 北海道, 居酒屋, 札幌, 開店情報, 飲食店 【開店】銀だこハイボール酒場 すすきのグルーヴビル店",
@@ -893,7 +914,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "個室✕海鮮居酒屋 北海道を喰らえ 札幌大通店",
@@ -914,7 +935,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "BAR HUG",
@@ -940,7 +961,7 @@
         "confidence": 0.58,
         "source_count": 2,
         "first_seen": "2026-09-23",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "佐藤堂 大丸札幌店",
@@ -1008,7 +1029,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "キャプテンラーメン すすきの店",
@@ -1034,7 +1055,7 @@
         "confidence": 0.58,
         "source_count": 2,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "BAR anyone",
@@ -1060,7 +1081,7 @@
         "confidence": 0.58,
         "source_count": 2,
         "first_seen": "2026-09-23",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "BAR Écart",
@@ -1123,7 +1144,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "アーバンネット札幌リンクタワー",
@@ -1144,7 +1165,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "吉野家×はなまるうどん",
@@ -1165,7 +1186,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "増田うどん-至誠-",
@@ -1191,7 +1212,7 @@
         "confidence": 0.58,
         "source_count": 2,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "ポールタウン店",
@@ -1212,7 +1233,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "居酒屋 柳",
@@ -1275,7 +1296,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "増田うどん",
@@ -1317,7 +1338,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-10-01",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "うなぎと季節料理とらや｜札幌中央区円山 2026-08-14 中央区",
@@ -1359,7 +1380,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "喫茶プリモナ",
@@ -1401,7 +1422,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-23",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "SATURDAYS Co ココノすすきの店",
@@ -1422,7 +1443,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-10-01",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "THE BUTTER",
@@ -1448,7 +1469,7 @@
         "confidence": 0.58,
         "source_count": 2,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "海鮮和食 玖",
@@ -1532,7 +1553,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "梅光軒すすきの店",
@@ -1553,7 +1574,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "なまら旨い 鮨道 狸小路",
@@ -1574,7 +1595,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "ヒルダケ",
@@ -1595,7 +1616,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "焼肉矢澤",
@@ -1616,7 +1637,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "BIOTOP SAPPORO（ビオトープ サッポロ）",
@@ -1637,7 +1658,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "SATURDAYS Chocolate Factory &amp; Cafe",
@@ -1658,7 +1679,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "ROBACE（ロバ―チェ）",
@@ -1679,7 +1700,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "タリーズコーヒー＆ TEA札幌桑園北3条店",
@@ -1700,7 +1721,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "縁",
@@ -1721,7 +1742,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "WEST Table",
@@ -1763,7 +1784,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "BLUE POND（ブルーポンド）",
@@ -1784,7 +1805,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "BAR AWaaaKE",
@@ -1826,7 +1847,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "2F MALDINI",
@@ -1847,7 +1868,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-10-01",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "50’s DINER ROCA",
@@ -1868,7 +1889,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "BOUL’ANGE 大丸札幌店",
@@ -1910,7 +1931,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "Bon repas TAZAWA",
@@ -1931,7 +1952,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "LUNA & LAPIN",
@@ -1973,7 +1994,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "Lueur Sweets Bar",
@@ -1994,7 +2015,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "Marley ROASTER",
@@ -2015,7 +2036,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "Nippon Ramen 凛 Rin SAPPORO",
@@ -2033,10 +2054,10 @@
             "priority": 90
           }
         ],
-        "confidence": 0.75,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-10-11",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "ORIGAMI soft",
@@ -2057,7 +2078,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "PERFECT BEER KITCHEN",
@@ -2078,7 +2099,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "PERFECT BEER KITCHEN 札幌",
@@ -2120,7 +2141,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "R-30 hizen",
@@ -2141,7 +2162,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "READY BURG （レディバーグ）",
@@ -2162,7 +2183,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "REGALO 札幌すすきの駅前店",
@@ -2183,7 +2204,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-21",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "SHOGUN BURGER",
@@ -2204,7 +2225,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "SeasideChill 潮結",
@@ -2225,7 +2246,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "THE ALLEY （ジアレイ）",
@@ -2246,7 +2267,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "Taverna incrocio",
@@ -2267,7 +2288,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-15",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "The North Rolls 円山店",
@@ -2288,7 +2309,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "WINE BAR KOZO",
@@ -2309,7 +2330,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "cafe CLV（セラヴィ）",
@@ -2330,7 +2351,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "cafe&bar nuit.",
@@ -2372,7 +2393,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "holiday",
@@ -2393,7 +2414,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "layer",
@@ -2414,7 +2435,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "おすすめ屋",
@@ -2432,10 +2453,10 @@
             "priority": 80
           }
         ],
-        "confidence": 0.68,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-10-11",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "かしのきパン",
@@ -2456,7 +2477,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "かにたま 札幌本店",
@@ -2477,7 +2498,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "ちょこっと寿司 季わ美",
@@ -2498,7 +2519,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "まんまるさん角",
@@ -2519,7 +2540,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "らむすけ 別邸",
@@ -2540,7 +2561,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "クレープとちょっといいお菓子 穂と麦",
@@ -2561,7 +2582,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "ザ・ニューシマヤ",
@@ -2603,7 +2624,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "ミミノヤ 台湾豆花",
@@ -2624,7 +2645,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "ラスベガス 別邸",
@@ -2645,7 +2666,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "ラーメンねるら",
@@ -2666,7 +2687,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "三都うどん",
@@ -2708,7 +2729,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-10-01",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "北の大地 かに源 別邸",
@@ -2750,7 +2771,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "北海道食市場 丸海屋 南三条店",
@@ -2813,7 +2834,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "味酒屋Sonotoki",
@@ -2834,7 +2855,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "喫茶•喫煙 ワルダ",
@@ -2855,7 +2876,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "喫茶ブルーバード",
@@ -2876,7 +2897,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "地酒とおばんざい93（くみ）",
@@ -2897,7 +2918,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "奥’clock店",
@@ -2918,7 +2939,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "奥芝商店 奥’clock店",
@@ -2939,7 +2960,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "居酒屋ひとそれぞれ",
@@ -3002,7 +3023,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "普通の居酒屋 のみ亭",
@@ -3023,7 +3044,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "札幌そうめん 池田商店",
@@ -3044,7 +3065,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "極み塩熱成ジンキスカンゆうひ うめえ～プル店",
@@ -3086,7 +3107,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "炉端とおでん 新なるぼんず すすきの本店",
@@ -3107,7 +3128,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "炉端とおばんざいつどヰ",
@@ -3149,7 +3170,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "焼き鳥やむや",
@@ -3170,7 +3191,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "牛乃家 北3条店",
@@ -3191,28 +3212,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
-      },
-      {
-        "name": "琉球処ちゅらうたや",
-        "title": "琉球処ちゅらうたや",
-        "date": "",
-        "place": "中央区南2条西3丁目11-4",
-        "note": "琉球処ちゅらうたや",
-        "type": "open",
-        "url": "https://www.instagram.com/churautaya_sapporo/",
-        "source": "mogtrip・新店",
-        "sources": [
-          {
-            "name": "mogtrip・新店",
-            "url": "https://www.instagram.com/churautaya_sapporo/",
-            "priority": 90
-          }
-        ],
-        "confidence": 0.5,
-        "source_count": 1,
-        "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       }
     ],
     "kita": [
@@ -3256,7 +3256,28 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-10-04",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
+      },
+      {
+        "name": "Im Spice",
+        "title": "Im Spice",
+        "date": "2026-10-28",
+        "place": "北区",
+        "note": "スパイスカレーの「Im Spice」が10月28日で現店舗の営業終了へ。移転先が決まるのを楽しみに待ちましょう",
+        "type": "closed",
+        "url": "https://sapporokitaku.goguynet.jp/2026/10/13/imspice/",
+        "source": "号外NET 札幌市北区",
+        "sources": [
+          {
+            "name": "号外NET 札幌市北区",
+            "url": "https://sapporokitaku.goguynet.jp/2026/10/13/imspice/",
+            "priority": 80
+          }
+        ],
+        "confidence": 0.72,
+        "source_count": 1,
+        "first_seen": "2026-10-13",
+        "last_seen": "2026-10-13"
       },
       {
         "name": "新時代 札幌麻生店",
@@ -3298,7 +3319,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-10-01",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "北海道海鮮 個室居酒屋 うおっと 札幌駅北口店",
@@ -3322,6 +3343,27 @@
         "last_seen": "2026-10-08"
       },
       {
+        "name": "北海道海鮮 個室居酒屋 うおっと 魚人 札幌駅北口店",
+        "title": "北海道海鮮 個室居酒屋 うおっと 魚人 札幌駅北口店",
+        "date": "2026-10-14",
+        "place": "北区",
+        "note": "【開店】札幌市北区 札幌駅北口に居酒屋『北海道海鮮 個室居酒屋 うおっと 魚人 札幌駅北口店』が2026年10月14日(水)よりOPEN!!",
+        "type": "upcoming",
+        "url": "https://www.shopship.jp/sapporo/open-close/uotto-sapporoeki-kitaguti/",
+        "source": "札幌ショップス・開店閉店",
+        "sources": [
+          {
+            "name": "札幌ショップス・開店閉店",
+            "url": "https://www.shopship.jp/sapporo/open-close/uotto-sapporoeki-kitaguti/",
+            "priority": 90
+          }
+        ],
+        "confidence": 0.79,
+        "source_count": 1,
+        "first_seen": "2026-10-13",
+        "last_seen": "2026-10-13"
+      },
+      {
         "name": "ニャンと一杯",
         "title": "ニャンと一杯",
         "date": "2026-10-01",
@@ -3340,7 +3382,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-29",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "七輪焼肉 安安 札幌篠路店",
@@ -3361,7 +3403,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-29",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "ニャンと一杯",
@@ -3424,7 +3466,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-10-08",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "銀だこハイボール酒場 北24条店",
@@ -3445,7 +3487,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "SPROUT 札幌店",
@@ -3466,7 +3508,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-27",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "原始焼き酒場ルンゴカーニバル 極",
@@ -3487,7 +3529,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-21",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "フレッシュネスバーガー 札幌麻生店",
@@ -3508,7 +3550,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-15",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "BONTEMPS（ボンタン）",
@@ -3529,7 +3571,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "pond end.",
@@ -3555,7 +3597,7 @@
         "confidence": 0.58,
         "source_count": 2,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "カフェ・ド・クリエ",
@@ -3576,7 +3618,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-15",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "pond end.",
@@ -3597,7 +3639,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-15",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "らーめん清湯",
@@ -3618,7 +3660,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "いろどり弁当",
@@ -3649,7 +3691,7 @@
         "confidence": 0.62,
         "source_count": 3,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "居酒屋ととと。",
@@ -3680,7 +3722,7 @@
         "confidence": 0.62,
         "source_count": 3,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "空とぶおにぎり",
@@ -3701,7 +3743,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "空飛ぶおにぎり",
@@ -3722,7 +3764,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "炭火焼肉くろひめ 屯田店",
@@ -3743,7 +3785,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "とりやき酒場 鶏ん家 札幌麻生店",
@@ -3764,7 +3806,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "よいち餃子大王 札幌麻生店",
@@ -3790,7 +3832,7 @@
         "confidence": 0.58,
         "source_count": 2,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "北24条駅近くのカレー店",
@@ -3811,7 +3853,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "モスバーガー札幌麻生店",
@@ -3837,7 +3879,7 @@
         "confidence": 0.58,
         "source_count": 2,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "2026年7月12日 ハンバーガー, 北海道, 札幌, 閉店情報, 飲食店 【閉店】モスバーガー札幌麻生店",
@@ -3900,7 +3942,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "フレッシュネスバーガー 麻生店",
@@ -3921,7 +3963,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "喫茶いぬの隠れ家",
@@ -3947,7 +3989,7 @@
         "confidence": 0.58,
         "source_count": 2,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "酒場ぶんぶく",
@@ -3968,7 +4010,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "北区の人気店",
@@ -3989,7 +4031,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "LANI.",
@@ -4010,7 +4052,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "カフェらふる",
@@ -4031,7 +4073,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "日の出水産",
@@ -4094,7 +4136,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-10-06",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "KARAUS",
@@ -4178,7 +4220,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "やきとりさんきゅう北24条店",
@@ -4199,7 +4241,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "よいち餃子大王",
@@ -4220,7 +4262,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "フレッシュネスバーガー",
@@ -4241,7 +4283,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "創成川通沿いに気になる新店！お財布に優しい町中華のお弁当屋さん",
@@ -4283,7 +4325,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "屯田らーめん蕾",
@@ -4304,7 +4346,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "新得そば SOBA-BA",
@@ -4325,7 +4367,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-15",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "炭火焼肉くろひめ屯田店",
@@ -4346,7 +4388,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "炭火豚丼ふじなみ",
@@ -4367,7 +4409,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "麺やきよた",
@@ -4388,7 +4430,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "さんぱちラーメン 新琴似店",
@@ -4409,7 +4451,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-15",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "新得そば SOBA-BA（ソバーバ）",
@@ -4430,7 +4472,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-16",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       }
     ],
     "higashi": [
@@ -4453,7 +4495,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "MORIHICO.（モリヒコ）函館元町",
@@ -4516,7 +4558,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "2026年7月20日 ラーメン・ちゃんぽん, 北海道, 札幌, 開店情報, 飲食店 【開店】福恩麻辣湯 イオンモール札幌苗穂店",
@@ -4558,7 +4600,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "居酒屋和み",
@@ -4584,7 +4626,7 @@
         "confidence": 0.58,
         "source_count": 2,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "丸美珈琲店 イオンモール札幌苗穂",
@@ -4605,7 +4647,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "そば切り めい鈴",
@@ -4626,7 +4668,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "炭火焼肉 ひふみ",
@@ -4647,7 +4689,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "ラーメンショップ〇化 サッポロ店",
@@ -4668,7 +4710,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "エゾバルバンバン環状通東店",
@@ -4689,7 +4731,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "北海道イタリアン居酒屋 エゾバルバンバン環状通東店",
@@ -4710,7 +4752,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "コトワ（個室のある親子カフェ）",
@@ -4731,7 +4773,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "K.L.I.M 東区役所前店",
@@ -4773,7 +4815,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "お諏訪さん茶房",
@@ -4794,7 +4836,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "トルドルキンパ",
@@ -4815,7 +4857,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "中華そば巌窟王",
@@ -4836,7 +4878,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "中華そば色即是空",
@@ -4857,7 +4899,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "手打ちそば さくら 伏古店",
@@ -4878,7 +4920,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       }
     ],
     "shiroishi": [
@@ -4901,7 +4943,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-10-07",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "foodcafe siroca",
@@ -4948,7 +4990,7 @@
         "confidence": 0.58,
         "source_count": 2,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "炭火やBB 南郷13丁目店",
@@ -5037,7 +5079,7 @@
         "confidence": 0.58,
         "source_count": 2,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "UNIQUE SPICE（ユニークスパイス）｜札幌白石区本通 2026-08-12 白石区",
@@ -5079,7 +5121,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "2026年6月24日 しゃぶしゃぶ, 北海道, 寿司, 札幌, 開店情報, 飲食店 【開店】寿司・しゃぶしゃぶ ゆず庵 南郷通店",
@@ -5142,7 +5184,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "ラーメン餃子ハナウタ",
@@ -5163,7 +5205,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "中華蕎麦 心加亭",
@@ -5184,7 +5226,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "そらとうみ食堂",
@@ -5205,7 +5247,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "J食堂",
@@ -5226,7 +5268,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "HAV cafe",
@@ -5247,7 +5289,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "大型犬カフェ Share Hapi",
@@ -5268,7 +5310,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "BELONG",
@@ -5289,7 +5331,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "Cafe Posche",
@@ -5310,7 +5352,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "SNOWMILK",
@@ -5331,7 +5373,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "UNIQUE SPICE",
@@ -5352,7 +5394,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "zzz365 ラソラ札幌店",
@@ -5373,7 +5415,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "ぎょうざ《るみるみ食堂》店舗オープン！",
@@ -5394,7 +5436,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "ラムジェット",
@@ -5415,7 +5457,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "北麦パン店",
@@ -5436,7 +5478,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       }
     ],
     "toyohira": [
@@ -5501,7 +5543,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "千日そば",
@@ -5522,7 +5564,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-10-11",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "2026年9月20日 カレー店, 北海道, 札幌, 閉店情報, 飲食店 【閉店】みよしの 中の島店",
@@ -5564,7 +5606,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "平岸三条そば",
@@ -5585,7 +5627,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-10-06",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "岩泉Cafe 東光ストア豊平店",
@@ -5611,7 +5653,7 @@
         "confidence": 0.58,
         "source_count": 2,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "韓国料理屋 HANKI",
@@ -5632,7 +5674,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "岩泉Cafe ビッグハウスエクストラ店",
@@ -5653,7 +5695,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "ごまそば あずみ",
@@ -5674,7 +5716,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "ラーメン ピッコロ大将",
@@ -5695,7 +5737,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "徳光珈琲 月寒西店",
@@ -5721,7 +5763,7 @@
         "confidence": 0.58,
         "source_count": 2,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "月寒ラーメン 麺とスープ",
@@ -5742,7 +5784,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "ラーメン小太郎",
@@ -5763,7 +5805,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "O-PUS cafe",
@@ -5784,7 +5826,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "手打ちそば 砂子",
@@ -5826,7 +5868,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "ソバチョウすたぁんど",
@@ -5847,7 +5889,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "麺屋蒼天",
@@ -5891,7 +5933,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-10-06",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "CasualBar TIFANY",
@@ -5959,7 +6001,7 @@
         "confidence": 0.58,
         "source_count": 2,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "ラーメン今日もまこまない。",
@@ -5985,7 +6027,7 @@
         "confidence": 0.58,
         "source_count": 2,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "カラオケスナックバー COCO",
@@ -6006,7 +6048,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "はま寿司 札幌川沿店",
@@ -6027,7 +6069,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "寄り道したくなるアイス屋さん",
@@ -6048,7 +6090,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "魚屋の寿司かねこ",
@@ -6069,7 +6111,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "まだ名前のない喫茶店",
@@ -6153,7 +6195,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "MATENA",
@@ -6174,7 +6216,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "MIIMO",
@@ -6195,7 +6237,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "mog mog",
@@ -6216,7 +6258,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       }
     ],
     "nishi": [
@@ -6260,7 +6302,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-10-08",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "Hachinohe Lover",
@@ -6281,7 +6323,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "ベーカリー リンクス",
@@ -6302,7 +6344,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "ベーカリー リンクス",
@@ -6344,14 +6386,14 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "街角のレモンベーカリー琴似店",
         "title": "街角のレモンベーカリー琴似店",
         "date": "2026-09-28",
-        "place": "西区",
-        "note": "イオン札幌琴似店に『街角のレモンベーカリー琴似店』が9月28日オープン！どんぐり跡へ",
+        "place": "札幌市西区琴似にパン屋",
+        "note": "【開店】札幌市西区琴似にパン屋『街角のレモンベーカリー琴似店』が2026年09月28日(月)よりOPEN!!",
         "type": "open",
         "url": "https://sapporo-sokuho.com/archives/post-112141.html",
         "source": "札幌速報・閉店",
@@ -6370,12 +6412,17 @@
             "name": "開店閉店.com・札幌",
             "url": "https://kaiten-heiten-24.com/machikadonolemonbakery-kotoni/",
             "priority": 70
+          },
+          {
+            "name": "札幌ショップス・開店閉店",
+            "url": "https://www.shopship.jp/sapporo/open-close/lemonbakery_kotoni/",
+            "priority": 90
           }
         ],
-        "confidence": 0.62,
-        "source_count": 3,
+        "confidence": 0.66,
+        "source_count": 4,
         "first_seen": "2026-09-25",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "2026年9月27日 パン・ベーカリー, 北海道, 札幌, 開店情報, 飲食店 【開店】街角のレモンベーカリー琴似店",
@@ -6438,7 +6485,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-25",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "はま寿司 札幌西町店",
@@ -6459,7 +6506,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "アナンコーヒー",
@@ -6480,7 +6527,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "3月8日西野にオープン！Mr.くれーぷはお子様連れ大歓迎の道産米粉を使用したクレープ屋さんですよ。キッズスペースもあります。",
@@ -6501,7 +6548,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-15",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "大衆食堂 中華そばとおコメの店 メシケン。",
@@ -6522,7 +6569,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "中華爆弾くっきー",
@@ -6543,7 +6590,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-15",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "ロッテリアが展開する新ブランドのハンバーガーチェーン！イオン札幌西町に1月29日ゼッテリア",
@@ -6564,7 +6611,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "1月10日オープン！THE DOGMAN’S CAFEは愛犬と一緒にくつろげるドッグフレンドリーな古民家カフェですよ。",
@@ -6585,7 +6632,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "手巻き寿司と酒 エイトハーフ",
@@ -6606,7 +6653,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "2025年11月15日琴似にスープカレーを提供するKiTi",
@@ -6627,7 +6674,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "10月31日オープン！地下鉄宮の沢駅から徒歩30秒！お寿司1貫税込65円からのや台ずし",
@@ -6648,7 +6695,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "うおぎゅう琴似店",
@@ -6669,7 +6716,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "琴似の博多豚骨ラーメン一純屋",
@@ -6690,7 +6737,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "daria by ジーバーFOOD",
@@ -6732,7 +6779,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "8時間煮込んだほぐしチャーシューとすっきり醤油スープが特徴のキャプテンラーメン",
@@ -6753,7 +6800,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "Bakery Lynx（リンクス）",
@@ -6795,7 +6842,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "LILY（リリー）",
@@ -6816,7 +6863,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "RootS & BAKERY",
@@ -6834,10 +6881,10 @@
             "priority": 90
           }
         ],
-        "confidence": 0.75,
+        "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-10-11",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "なんと札幌の人気パン屋どんぐり琴似店",
@@ -6858,7 +6905,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "八軒の中華晋香苑",
@@ -6879,7 +6926,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "好運来麻辣烫 琴似店",
@@ -6900,7 +6947,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "小樽茶房 HACO店",
@@ -6921,7 +6968,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-21",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "小樽茶房 札幌・二十四軒",
@@ -6963,7 +7010,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-10-01",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "津軽海峡を渡って来た男 あきら 琴似店",
@@ -6984,7 +7031,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "珈琲屋 la chic. -らしく-",
@@ -7005,7 +7052,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "発寒にある59年間営業した老舗食堂が無期限休業になることが判明しました。",
@@ -7026,7 +7073,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "米麦食堂",
@@ -7047,7 +7094,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "西町に",
@@ -7068,7 +7115,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-15",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       }
     ],
     "atsubetsu": [
@@ -7091,7 +7138,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-10-07",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "2026年9月15日 うなぎ・あなご, 北海道, 札幌, 閉店情報, 飲食店 【閉店】鰻の成瀬 厚別南店",
@@ -7138,7 +7185,7 @@
         "confidence": 0.58,
         "source_count": 2,
         "first_seen": "2026-09-17",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "鰻の成瀬 厚別南店",
@@ -7159,7 +7206,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "2026年7月3日 北海道, 寿司, 札幌, 焼肉・ホルモン, 開店情報, 飲食店 【開店】すたみな太郎 PREMIUM BUFFET 新札幌店",
@@ -7201,7 +7248,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "新札幌大衆肉刺し酒場 ぺこら肉食堂",
@@ -7227,7 +7274,7 @@
         "confidence": 0.58,
         "source_count": 2,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "白鶏舎",
@@ -7248,7 +7295,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "鶏白湯ラーメン 白鶏舎 厚別南店",
@@ -7269,7 +7316,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "サッポロ珈琲館 厚別店",
@@ -7290,7 +7337,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "焼き鳥 鳥幸",
@@ -7311,7 +7358,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "デカ盛り弁当 はるき 新札幌店",
@@ -7353,7 +7400,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "お食事処りんか",
@@ -7374,7 +7421,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "焼肉のわびすけ",
@@ -7395,7 +7442,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       }
     ],
     "teine": [
@@ -7418,7 +7465,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-26",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "SOTORENT手稲駅前店",
@@ -7439,7 +7486,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-22",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "ミルクル",
@@ -7460,7 +7507,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "札幌みその 手稲店",
@@ -7481,7 +7528,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "こがねショッピングプラザに注目のお洒落カフェ誕生！「... 皆さん、こんにちは！手稲マガジン編集長です。 本日は、手稲エリアのカフェ好き・パン好きの皆さんにぜひ知っていただきたい、最新スポ... 20",
@@ -7544,7 +7591,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "オロモンテ",
@@ -7565,7 +7612,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "刺身がうまい居酒屋 ひゃくや",
@@ -7586,7 +7633,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "2026年7月6日 北海道, 居酒屋, 札幌, 開店情報, 飲食店 【開店】ひゃくや 手稲駅前店",
@@ -7628,7 +7675,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "ノースクリーム",
@@ -7649,7 +7696,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "cafe & dining bouquet (ブーケ)",
@@ -7670,7 +7717,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "移転オープンで話題！『石臼挽き手打ちそば 武柳庵（ぶりゅ... こんにちは！手稲マガジン編集部です。 北海道も昼間はすっかり夏の陽気になり、冷たいのどごしのお蕎麦が恋しい季節になりましたね。 ... ",
@@ -7712,7 +7759,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "まみーれ",
@@ -7733,7 +7780,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "まみーれクレープ",
@@ -7754,7 +7801,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "魚豚中華そば ラギ⭐︎一番",
@@ -7775,7 +7822,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "スターバックスコーヒー イオン札幌手稲駅前店",
@@ -7796,7 +7843,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "ミスタードーナツ イオン札幌手稲ショップ",
@@ -7817,7 +7864,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "𝗠𝗨𝗡’𝗦 𝗗𝗢𝗨𝗚𝗛𝗡𝗨𝗧 / ムンズドーナツ",
@@ -7838,7 +7885,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "cozy cafe",
@@ -7859,7 +7906,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "ジェラテリア ラ タッツィーナ",
@@ -7901,7 +7948,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "YUHIA SWEETREE",
@@ -7922,7 +7969,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "おしゃれ空間でヘルシーランチ！待望の「cafe&dining bo...",
@@ -7943,7 +7990,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "おしゃれ空間でヘルシーランチ！待望の「cafe&dining bo... 手稲にお住まいの皆さん、そして将来手稲に住んでみたい！とワクワクした街の情報を探している皆さん、こんにちは！地域情報ブログ『手",
@@ -7985,7 +8032,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "ぱん処みしま屋",
@@ -8006,7 +8053,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "カレーハウスCoCo壱番屋 手稲区前田店",
@@ -8090,7 +8137,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "全国で大人気のチョコクロワッサンTonyBake 手稲店",
@@ -8111,7 +8158,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "前田に本格派！『センチュリー スープカレー＆インドネパー...",
@@ -8132,7 +8179,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "手稲マガジン",
@@ -8174,7 +8221,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "旧ココイチ跡地がついに始動！看板に書かれた「むしろザン...",
@@ -8195,7 +8242,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "朝7時から行列！？SNSで話題のラーメン店「メンノジカン（メ...",
@@ -8216,7 +8263,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "移転オープンで話題！『石臼挽き手打ちそば 武柳庵（ぶりゅ...",
@@ -8237,7 +8284,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "種類豊富な海鮮丼メニュー",
@@ -8258,7 +8305,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "隠家酒場かっぺ",
@@ -8279,7 +8326,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       }
     ],
     "kiyota": [
@@ -8323,7 +8370,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "Yagien softcream & coffee",
@@ -8344,7 +8391,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-29",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "2026年7月11日 北海道, 札幌, 洋菓子, 開店情報, 飲食店 【開店】六花亭 イオン札幌平岡店",
@@ -8386,7 +8433,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "北海道ジンギスカン えいじん 清田店",
@@ -8449,7 +8496,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "自家製酵母パン 太郎山",
@@ -8512,7 +8559,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "Cafe Charme",
@@ -8533,7 +8580,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "175°DENO担担麺 清田店",
@@ -8554,7 +8601,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "麺や 山田",
@@ -8575,7 +8622,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-13",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       }
     ],
     "hakodate": [
@@ -8598,7 +8645,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "函館市鍛治の横浜家系ラーメンおばら家 鍛治店",
@@ -8640,7 +8687,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "中華料理 東春",
@@ -8661,7 +8708,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-10-06",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "Cafe Ikazuwa",
@@ -8687,7 +8734,7 @@
         "confidence": 0.58,
         "source_count": 2,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "ラーメン五稜郭",
@@ -8708,7 +8755,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "どばそば和家戸倉店",
@@ -8729,7 +8776,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "みなと食堂",
@@ -8750,7 +8797,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "中の橋食堂",
@@ -8771,7 +8818,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "北海道函館旬宴驚キ海鮮居酒屋うおっと 魚人 函館五稜郭店",
@@ -8792,7 +8839,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "どばそば 和家",
@@ -8813,7 +8860,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "DELICAFE kitchen くるみ",
@@ -8834,7 +8881,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "白い恋人 Hakodate Bay Museum",
@@ -8855,7 +8902,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "ちいさなチルゴハンココロストーンリバー",
@@ -8876,7 +8923,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "焼肉屋さかい 函館五稜郭店",
@@ -8897,7 +8944,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "バラエティショップあさひや",
@@ -8918,7 +8965,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "丸源ラーメン 函館美原店",
@@ -8939,7 +8986,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "やきそば 杏梨 AN-RIN",
@@ -8960,7 +9007,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "北海ラーメン",
@@ -8981,7 +9028,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "富士宮やきそば かえで",
@@ -9023,7 +9070,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "ちいさなしあわせパン☆",
@@ -9044,7 +9091,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "Burger Shop HOT BOX",
@@ -9065,7 +9112,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "そば処 ひいらぎ",
@@ -9086,7 +9133,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "夏井珈琲Brucke（ブリュッケ）",
@@ -9107,7 +9154,7 @@
         "confidence": 0.5,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "喫茶 民藝",
@@ -9128,7 +9175,7 @@
         "confidence": 0.54,
         "source_count": 1,
         "first_seen": "2026-09-30",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-13"
       },
       {
         "name": "炭火居酒屋 炎 函館美原2号店",
@@ -9157,13 +9204,13 @@
   "source_count": 30,
   "collector_version": "7.3.8.3",
   "unconfirmed_count": 1,
-  "unconfirmed_total_count": 268,
+  "unconfirmed_total_count": 266,
   "unconfirmed_class_counts": {
     "A": 1,
-    "B": 145,
-    "C": 122
+    "B": 142,
+    "C": 123
   },
-  "unconfirmed_updated_at": "2026-10-11T17:15:35",
+  "unconfirmed_updated_at": "2026-10-13T18:02:10",
   "unconfirmed": [
     {
       "title": "札幌大通・海鮮居酒屋うおっとの3号店「北海道海鮮 個室居酒屋 うおっと 魚人 札幌駅北口店」が2026年10月14日にNEW OPEN！ | 株式会社WONDER CREWのプレスリリース - PR TIMES",
@@ -9176,11 +9223,11 @@
       "address_hint": "",
       "date_hint": "2026-10-14",
       "snippet": "札幌大通・海鮮居酒屋うおっとの3号店「北海道海鮮 個室居酒屋 うおっと 魚人 札幌駅北口店」が2026年10月14日にNEW OPEN！ | 株式会社WONDER CREWのプレスリリース PR TIMES",
-      "first_seen": "2026-10-11",
+      "first_seen": "2026-10-13",
       "confidence": 0.9,
-      "match_score": 0.656,
-      "matched_store": "北海道海鮮 個室居酒屋 うおっと 札幌駅北口店",
-      "matched_url": "https://chamonix-cakes.com/kaiten-ab8xy3tbasmr7m2bno/",
+      "match_score": 0.69,
+      "matched_store": "北海道海鮮 個室居酒屋 うおっと 魚人 札幌駅北口店",
+      "matched_url": "https://www.shopship.jp/sapporo/open-close/uotto-sapporoeki-kitaguti/",
       "verification": "unconfirmed",
       "candidate_type": "named_store",
       "display_eligible": true,
