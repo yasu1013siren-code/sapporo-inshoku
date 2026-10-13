@@ -9263,11 +9263,11 @@
     }
   ],
   "hakodate_selection": {
-    "checked_at": "2026-10-13T20:41:59.096070+09:00",
+    "checked_at": "2026-10-13T12:06:42.902Z",
     "max_age_days": 7,
-    "included": 1,
-    "excluded_listed": 2,
-    "pending": 10
+    "included": 5,
+    "excluded_listed": 4,
+    "pending": 9
   },
   "hakodate_directory_candidates": [
     {
@@ -9861,7 +9861,73 @@
       "date": "",
       "url": "https://www.hakobura.jp/spots/47",
       "source": "函館市公式観光サイト はこぶら",
-      "last_seen": "2026-10-13T20:40:47.118656+09:00"
+      "last_seen": "2026-10-13T21:04:18.340531+09:00"
+    },
+    {
+      "name": "cafe 海と硝子",
+      "place": "函館市住吉町15-2",
+      "name_variants": [
+        "海と硝子",
+        "海とガラス",
+        "cafe 海と硝子"
+      ],
+      "address_verified": true,
+      "type": "restaurant",
+      "date": "",
+      "url": "https://www.misuzu-glass.com/cafe",
+      "source": "店舗公式サイト"
+    },
+    {
+      "name": "TAILORED COFFEE 本町店",
+      "place": "函館市本町7-13",
+      "name_variants": [
+        "TAILORED COFFEE",
+        "テーラードコーヒー",
+        "テイラードコーヒー"
+      ],
+      "address_verified": true,
+      "type": "restaurant",
+      "date": "",
+      "url": "https://tailoredcoffee.shop-pro.jp/?mode=f1",
+      "source": "店舗公式サイト"
+    },
+    {
+      "name": "えほんカフェひっぽ",
+      "place": "函館市神山3丁目64-2",
+      "name_variants": [
+        "えほんカフェひっぽ",
+        "絵本カフェひっぽ",
+        "カフェひっぽ"
+      ],
+      "address_verified": true,
+      "type": "restaurant",
+      "date": "",
+      "url": "https://hakodate-ehoncafe-hippo.com/",
+      "source": "店舗公式サイト"
+    },
+    {
+      "name": "ごはんおやつシプル",
+      "place": "函館市船見町7-24",
+      "name_variants": [
+        "シプル",
+        "ごはんおやつシプル",
+        "siple"
+      ],
+      "address_verified": true,
+      "type": "restaurant",
+      "date": "",
+      "url": "https://omoikkiri-hokkaido.jp/spot/hakodate-10/",
+      "source": "北海道観光振興機構 おもいっきり北海道"
+    },
+    {
+      "name": "滋養軒",
+      "place": "函館市松風町7-12",
+      "address_verified": true,
+      "type": "restaurant",
+      "date": "",
+      "url": "https://www.hakobura.jp/spots/162",
+      "source": "函館市公式観光サイト はこぶら",
+      "last_seen": "2026-10-13T21:04:24.968597+09:00"
     }
   ],
   "hakodate_directory": [
@@ -9899,6 +9965,106 @@
           "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=Ikazuwa",
           "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=%E3%82%A4%E3%82%AB%E3%82%BA%E3%83%AF",
           "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=%E5%87%BD%E9%A4%A8%E5%B8%82%E8%A5%BF%E6%97%AD%E5%B2%A1%E7%94%BA3-24-46"
+        ]
+      }
+    },
+    {
+      "name": "cafe 海と硝子",
+      "place": "函館市住吉町15-2",
+      "name_variants": [
+        "海と硝子",
+        "海とガラス",
+        "cafe 海と硝子"
+      ],
+      "address_verified": true,
+      "type": "restaurant",
+      "date": "",
+      "url": "https://www.misuzu-glass.com/cafe",
+      "source": "店舗公式サイト",
+      "hotpepper_check": {
+        "status": "not_found",
+        "checked_at": "2026-10-13T21:05:02.200636+09:00",
+        "label": "確認日時点で掲載なし",
+        "evidence_urls": [
+          "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=%E6%B5%B7%E3%81%A8%E7%A1%9D%E5%AD%90",
+          "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=%E6%B5%B7%E3%81%A8%E3%82%AC%E3%83%A9%E3%82%B9",
+          "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=cafe+%E6%B5%B7%E3%81%A8%E7%A1%9D%E5%AD%90",
+          "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=%E5%87%BD%E9%A4%A8%E5%B8%82%E4%BD%8F%E5%90%89%E7%94%BA15-2"
+        ]
+      }
+    },
+    {
+      "name": "TAILORED COFFEE 本町店",
+      "place": "函館市本町7-13",
+      "name_variants": [
+        "TAILORED COFFEE",
+        "テーラードコーヒー",
+        "テイラードコーヒー"
+      ],
+      "address_verified": true,
+      "type": "restaurant",
+      "date": "",
+      "url": "https://tailoredcoffee.shop-pro.jp/?mode=f1",
+      "source": "店舗公式サイト",
+      "hotpepper_check": {
+        "status": "not_found",
+        "checked_at": "2026-10-13T21:05:02.033610+09:00",
+        "label": "確認日時点で掲載なし",
+        "evidence_urls": [
+          "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=TAILORED+COFFEE",
+          "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=%E3%83%86%E3%83%BC%E3%83%A9%E3%83%BC%E3%83%89%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC",
+          "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=%E3%83%86%E3%82%A4%E3%83%A9%E3%83%BC%E3%83%89%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC",
+          "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=%E5%87%BD%E9%A4%A8%E5%B8%82%E6%9C%AC%E7%94%BA7-13"
+        ]
+      }
+    },
+    {
+      "name": "えほんカフェひっぽ",
+      "place": "函館市神山3丁目64-2",
+      "name_variants": [
+        "えほんカフェひっぽ",
+        "絵本カフェひっぽ",
+        "カフェひっぽ"
+      ],
+      "address_verified": true,
+      "type": "restaurant",
+      "date": "",
+      "url": "https://hakodate-ehoncafe-hippo.com/",
+      "source": "店舗公式サイト",
+      "hotpepper_check": {
+        "status": "not_found",
+        "checked_at": "2026-10-13T21:05:55.344107+09:00",
+        "label": "確認日時点で掲載なし",
+        "evidence_urls": [
+          "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=%E3%81%88%E3%81%BB%E3%82%93%E3%82%AB%E3%83%95%E3%82%A7%E3%81%B2%E3%81%A3%E3%81%BD",
+          "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=%E7%B5%B5%E6%9C%AC%E3%82%AB%E3%83%95%E3%82%A7%E3%81%B2%E3%81%A3%E3%81%BD",
+          "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=%E3%82%AB%E3%83%95%E3%82%A7%E3%81%B2%E3%81%A3%E3%81%BD",
+          "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=%E5%87%BD%E9%A4%A8%E5%B8%82%E7%A5%9E%E5%B1%B13%E4%B8%81%E7%9B%AE64-2"
+        ]
+      }
+    },
+    {
+      "name": "ごはんおやつシプル",
+      "place": "函館市船見町7-24",
+      "name_variants": [
+        "シプル",
+        "ごはんおやつシプル",
+        "siple"
+      ],
+      "address_verified": true,
+      "type": "restaurant",
+      "date": "",
+      "url": "https://omoikkiri-hokkaido.jp/spot/hakodate-10/",
+      "source": "北海道観光振興機構 おもいっきり北海道",
+      "hotpepper_check": {
+        "status": "not_found",
+        "checked_at": "2026-10-13T21:05:55.090015+09:00",
+        "label": "確認日時点で掲載なし",
+        "evidence_urls": [
+          "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=%E3%82%B7%E3%83%97%E3%83%AB",
+          "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=%E3%81%94%E3%81%AF%E3%82%93%E3%81%8A%E3%82%84%E3%81%A4%E3%82%B7%E3%83%97%E3%83%AB",
+          "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=siple",
+          "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=%E5%87%BD%E9%A4%A8%E5%B8%82%E8%88%B9%E8%A6%8B%E7%94%BA7-24"
         ]
       }
     }

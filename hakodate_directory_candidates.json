@@ -7,6 +7,72 @@
     "date": "",
     "url": "https://www.hakobura.jp/spots/47",
     "source": "函館市公式観光サイト はこぶら",
-    "last_seen": "2026-10-13T20:40:47.118656+09:00"
+    "last_seen": "2026-10-13T21:04:18.340531+09:00"
+  },
+  {
+    "name": "cafe 海と硝子",
+    "place": "函館市住吉町15-2",
+    "name_variants": [
+      "海と硝子",
+      "海とガラス",
+      "cafe 海と硝子"
+    ],
+    "address_verified": true,
+    "type": "restaurant",
+    "date": "",
+    "url": "https://www.misuzu-glass.com/cafe",
+    "source": "店舗公式サイト"
+  },
+  {
+    "name": "TAILORED COFFEE 本町店",
+    "place": "函館市本町7-13",
+    "name_variants": [
+      "TAILORED COFFEE",
+      "テーラードコーヒー",
+      "テイラードコーヒー"
+    ],
+    "address_verified": true,
+    "type": "restaurant",
+    "date": "",
+    "url": "https://tailoredcoffee.shop-pro.jp/?mode=f1",
+    "source": "店舗公式サイト"
+  },
+  {
+    "name": "えほんカフェひっぽ",
+    "place": "函館市神山3丁目64-2",
+    "name_variants": [
+      "えほんカフェひっぽ",
+      "絵本カフェひっぽ",
+      "カフェひっぽ"
+    ],
+    "address_verified": true,
+    "type": "restaurant",
+    "date": "",
+    "url": "https://hakodate-ehoncafe-hippo.com/",
+    "source": "店舗公式サイト"
+  },
+  {
+    "name": "ごはんおやつシプル",
+    "place": "函館市船見町7-24",
+    "name_variants": [
+      "シプル",
+      "ごはんおやつシプル",
+      "siple"
+    ],
+    "address_verified": true,
+    "type": "restaurant",
+    "date": "",
+    "url": "https://omoikkiri-hokkaido.jp/spot/hakodate-10/",
+    "source": "北海道観光振興機構 おもいっきり北海道"
+  },
+  {
+    "name": "滋養軒",
+    "place": "函館市松風町7-12",
+    "address_verified": true,
+    "type": "restaurant",
+    "date": "",
+    "url": "https://www.hakobura.jp/spots/162",
+    "source": "函館市公式観光サイト はこぶら",
+    "last_seen": "2026-10-13T21:04:24.968597+09:00"
   }
 ]
