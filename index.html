@@ -789,7 +789,7 @@ document.querySelectorAll(".filter-row").forEach(row=>{
     btn.classList.add("active");
     const area = row.dataset.area;
     const filter = btn.dataset.filter;
-    document.querySelectorAll(`#${area}-history .event-card`).forEach(card=>{
+    document.querySelectorAll(`#${area}-history .event-card[data-type]`).forEach(card=>{
       card.classList.toggle("is-hidden", filter !== "all" && card.dataset.type !== filter);
     });
   });
