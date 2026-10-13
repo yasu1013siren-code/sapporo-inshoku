@@ -1097,6 +1097,8 @@ def build_news_json(conn, today: str):
         "unmatched": len(unmatched),
         "source_count": len(SOURCE_CONFIG),
     }
+    from hotpepper_refresh import apply_live_selection
+    payload = apply_live_selection(payload, BASE_DIR)
     NEWS_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     return payload
 
