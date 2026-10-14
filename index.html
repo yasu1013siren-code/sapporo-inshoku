@@ -180,9 +180,9 @@
   .tag.countdown{background:#8a6a24;color:#f8f0da;}
   .tag.area-tag{background:rgba(74,66,55,0.1);color:var(--ink-soft);}
 
-  .event-body h3{margin:0 0 3px;font-size:15px;font-weight:700;}
+  .event-body h3{margin:0 0 3px;font-size:15px;font-weight:700;overflow-wrap:anywhere;}
   .event-body h3.unnamed{color:var(--ink-soft);font-style:italic;font-weight:500;}
-  .event-body .meta{font-size:12px;color:var(--ink-soft);margin-bottom:4px;}
+  .event-body .meta{font-size:12px;color:var(--ink-soft);margin-bottom:4px;overflow-wrap:anywhere;}
   .event-body p{margin:0 0 4px;font-size:13.5px;color:var(--ink-soft);}
   .event-body .src-link{font-size:11.5px;color:var(--stamp-indigo);text-decoration:underline;}
   .event-body .src-link:hover{color:var(--ink);}
@@ -215,7 +215,7 @@
   @media (prefers-reduced-motion: reduce){
     *{animation:none !important;transition:none !important;}
   }
-  .brief-note{margin:8px 0;font-size:14px;line-height:1.7;}
+  .brief-note{margin:4px 0;font-size:13px;line-height:1.6;overflow-wrap:anywhere;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}
   .note-details{margin:8px 0 12px;font-size:14px;}
   .note-details summary{cursor:pointer;color:var(--blue,#24495b);font-weight:700;}
   .full-note{margin-top:10px;line-height:1.8;max-height:320px;overflow:auto;padding:10px;border-left:2px solid #cabd9c;overflow-wrap:anywhere;}
@@ -636,8 +636,8 @@ function parseDateLoose(dateStr){
 function compactNoteHTML(note){
   const text=String(note || "").replace(/\s+/g," ").trim();
   if(!text) return "";
-  if(text.length<=100) return `<p class="brief-note">${escapeHTML(text)}</p>`;
-  const snippet=text.slice(0,100)+"…";
+  if(text.length<=60) return `<p class="brief-note">${escapeHTML(text)}</p>`;
+  const snippet=text.slice(0,60)+"…";
   return `<p class="brief-note">${escapeHTML(snippet)}</p><details class="note-details"><summary>詳しい内容を読む</summary><div class="full-note">${escapeHTML(text)}</div></details>`;
 }
 
@@ -773,7 +773,7 @@ function renderHistory(){
     }
     if(area==="hakodate") {
       const directory=(AUTO_NEWS?.hakodate_directory || []).filter(validHakodateReview);
-      el.insertAdjacentHTML("beforeend", `<section style="margin-top:32px"><h2>ホットペッパー掲載確認なしの店舗</h2><p class="empty-note">開店日・記事の日付を問わない店舗一覧です。検索失敗・未確認は掲載しません。</p>${directory.length ? directory.map(i=>`<article class="event-card"><div class="event-body"><h3>${escapeHTML(i.name || i.title || "")}</h3><div class="meta">${escapeHTML(i.place || "")}</div>${i.note ? `<p>${escapeHTML(i.note)}</p>` : ""}<p>確認日時点で掲載なし：${escapeHTML(i.hotpepper_check.checked_at.slice(0,10))}</p>${i.url ? `<a href="${escapeHTML(i.url)}" target="_blank" rel="noopener noreferrer">店舗の情報源 ↗</a>` : ""}</div></article>`).join("") : '<p class="empty-note">照合済みの対象店舗はありません。</p>'}</section>`);
+      el.insertAdjacentHTML("beforeend", `<section style="margin-top:32px"><h2>ホットペッパー掲載確認なしの店舗</h2><p class="empty-note">開店日・記事の日付を問わない店舗一覧です。検索失敗・未確認は掲載しません。</p>${directory.length ? directory.map(i=>`<article class="event-card"><div class="event-body"><h3>${escapeHTML(i.name || i.title || "")}</h3><div class="meta">${escapeHTML(i.place || "")}</div>${compactNoteHTML(i.note)}<p>確認日時点で掲載なし：${escapeHTML(i.hotpepper_check.checked_at.slice(0,10))}</p>${i.url ? `<a href="${escapeHTML(i.url)}" target="_blank" rel="noopener noreferrer">店舗の情報源 ↗</a>` : ""}</div></article>`).join("") : '<p class="empty-note">照合済みの対象店舗はありません。</p>'}</section>`);
     }
     const filter=document.querySelector(`.filter-row[data-area="${area}"] .active`)?.dataset.filter || "all";
     el.querySelectorAll(".event-card[data-type]").forEach(card=>card.classList.toggle("is-hidden",filter!=="all" && card.dataset.type!==filter));
