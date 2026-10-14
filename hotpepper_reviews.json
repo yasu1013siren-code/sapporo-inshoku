@@ -747,5 +747,262 @@
     "address_checked": true,
     "reason": "all_verified_queries_zero",
     "external_search_checked": true
+  },
+  {
+    "name": "居酒屋 宝来東屋",
+    "place": "函館市宝来町20-9",
+    "name_variants": [
+      "宝来東屋",
+      "居酒屋 宝来東屋",
+      "東屋"
+    ],
+    "note": "店長が一人で切り盛りする大衆居酒屋。炭火焼き鳥・手ごねつくね・日本酒。",
+    "type": "restaurant",
+    "date": "",
+    "address_verified": true,
+    "url": "https://www.hakobura.jp/features/368",
+    "source": "函館市公式観光サイト はこぶら",
+    "category": "酒場",
+    "ownership": "地域の小規模店（個人事業か法人かは未確認）",
+    "verified_address": "函館市宝来町20-9",
+    "attempted_at": "2026-10-14T21:23:02.882689+09:00",
+    "status": "unknown",
+    "checked_at": "2026-10-14T21:23:39.169476+09:00",
+    "evidence_urls": [
+      "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=%E5%AE%9D%E6%9D%A5%E6%9D%B1%E5%B1%8B",
+      "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=%E5%B1%85%E9%85%92%E5%B1%8B+%E5%AE%9D%E6%9D%A5%E6%9D%B1%E5%B1%8B",
+      "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=%E6%9D%B1%E5%B1%8B",
+      "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=%E5%87%BD%E9%A4%A8%E5%B8%82%E5%AE%9D%E6%9D%A5%E7%94%BA20-9"
+    ],
+    "result_counts": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "name_variants_checked": true,
+    "address_checked": true,
+    "reason": "requires_identity_review",
+    "external_search_checked": true
+  },
+  {
+    "name": "箱館立ち飲み バグ",
+    "place": "函館市末広町15-6",
+    "name_variants": [
+      "箱館立ち飲み バグ",
+      "立ち飲み バグ",
+      "カネサ商店"
+    ],
+    "note": "伝統的建造物を店主が復元した小さな立ち飲み店。鹿肉串・ピザ・ウイスキー。",
+    "type": "restaurant",
+    "date": "",
+    "address_verified": true,
+    "url": "https://www.hakobura.jp/features/368",
+    "source": "函館市公式観光サイト はこぶら",
+    "category": "酒場",
+    "ownership": "地域の小規模店（個人事業か法人かは未確認）",
+    "verified_address": "函館市末広町15-6",
+    "attempted_at": "2026-10-14T21:23:02.883318+09:00",
+    "status": "not_found",
+    "checked_at": "2026-10-14T21:23:40.045820+09:00",
+    "evidence_urls": [
+      "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=%E7%AE%B1%E9%A4%A8%E7%AB%8B%E3%81%A1%E9%A3%B2%E3%81%BF+%E3%83%90%E3%82%B0",
+      "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=%E7%AB%8B%E3%81%A1%E9%A3%B2%E3%81%BF+%E3%83%90%E3%82%B0",
+      "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=%E3%82%AB%E3%83%8D%E3%82%B5%E5%95%86%E5%BA%97",
+      "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=%E5%87%BD%E9%A4%A8%E5%B8%82%E6%9C%AB%E5%BA%83%E7%94%BA15-6"
+    ],
+    "result_counts": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "name_variants_checked": true,
+    "address_checked": true,
+    "reason": "all_verified_queries_zero",
+    "external_search_checked": true
+  },
+  {
+    "name": "ライオンのサム",
+    "place": "函館市末広町12-8",
+    "name_variants": [
+      "ライオンのサム",
+      "ライオン サム",
+      "BAR ライオンのサム"
+    ],
+    "note": "店主が開業したバー兼ビリヤード店。酒と生ハム・ザージャン麺。",
+    "type": "restaurant",
+    "date": "",
+    "address_verified": true,
+    "url": "https://www.hakobura.jp/features/368",
+    "source": "函館市公式観光サイト はこぶら",
+    "category": "酒場",
+    "ownership": "地域の小規模店（個人事業か法人かは未確認）",
+    "verified_address": "函館市末広町12-8",
+    "attempted_at": "2026-10-14T21:23:02.884138+09:00",
+    "status": "not_found",
+    "checked_at": "2026-10-14T21:23:40.611011+09:00",
+    "evidence_urls": [
+      "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=%E3%83%A9%E3%82%A4%E3%82%AA%E3%83%B3%E3%81%AE%E3%82%B5%E3%83%A0",
+      "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=%E3%83%A9%E3%82%A4%E3%82%AA%E3%83%B3+%E3%82%B5%E3%83%A0",
+      "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=BAR+%E3%83%A9%E3%82%A4%E3%82%AA%E3%83%B3%E3%81%AE%E3%82%B5%E3%83%A0",
+      "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=%E5%87%BD%E9%A4%A8%E5%B8%82%E6%9C%AB%E5%BA%83%E7%94%BA12-8"
+    ],
+    "result_counts": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "name_variants_checked": true,
+    "address_checked": true,
+    "reason": "all_verified_queries_zero",
+    "external_search_checked": true
+  },
+  {
+    "name": "ozigi brewing 函館麦酒醸造所",
+    "place": "函館市末広町16-13",
+    "name_variants": [
+      "ozigi brewing",
+      "オジギブリューイング",
+      "函館麦酒醸造所"
+    ],
+    "note": "小規模醸造所併設のブリューパブ。クラフトビールと地場食材の料理。",
+    "type": "restaurant",
+    "date": "",
+    "address_verified": true,
+    "url": "https://www.hakobura.jp/features/368",
+    "source": "函館市公式観光サイト はこぶら",
+    "category": "酒場",
+    "ownership": "地域の小規模店（個人事業か法人かは未確認）",
+    "verified_address": "函館市末広町16-13",
+    "attempted_at": "2026-10-14T21:23:39.169546+09:00",
+    "status": "not_found",
+    "checked_at": "2026-10-14T21:24:11.371602+09:00",
+    "evidence_urls": [
+      "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=ozigi+brewing",
+      "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=%E3%82%AA%E3%82%B8%E3%82%AE%E3%83%96%E3%83%AA%E3%83%A5%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%B0",
+      "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=%E5%87%BD%E9%A4%A8%E9%BA%A6%E9%85%92%E9%86%B8%E9%80%A0%E6%89%80",
+      "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=%E5%87%BD%E9%A4%A8%E5%B8%82%E6%9C%AB%E5%BA%83%E7%94%BA16-13"
+    ],
+    "result_counts": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "name_variants_checked": true,
+    "address_checked": true,
+    "reason": "all_verified_queries_zero",
+    "external_search_checked": true
+  },
+  {
+    "name": "Cafe＆Dining D’s 秀華",
+    "place": "函館市日吉町3丁目44-13",
+    "name_variants": [
+      "秀華",
+      "Dining D",
+      "ダイニング ディーズ"
+    ],
+    "note": "カウンター10席の小さな酒場。季節料理と店主が選ぶ日本酒。",
+    "type": "restaurant",
+    "date": "",
+    "address_verified": true,
+    "url": "https://dining-ds.com/",
+    "source": "店舗公式サイト",
+    "category": "酒場",
+    "ownership": "地域の小規模店（個人事業か法人かは未確認）",
+    "verified_address": "函館市日吉町3丁目44-13",
+    "attempted_at": "2026-10-14T21:23:40.045888+09:00",
+    "status": "unknown",
+    "checked_at": "2026-10-14T21:24:10.878674+09:00",
+    "evidence_urls": [
+      "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=%E7%A7%80%E8%8F%AF",
+      "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=Dining+D",
+      "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=%E3%83%80%E3%82%A4%E3%83%8B%E3%83%B3%E3%82%B0+%E3%83%87%E3%82%A3%E3%83%BC%E3%82%BA",
+      "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=%E5%87%BD%E9%A4%A8%E5%B8%82%E6%97%A5%E5%90%89%E7%94%BA3%E4%B8%81%E7%9B%AE44-13"
+    ],
+    "result_counts": [
+      1,
+      7,
+      0,
+      0
+    ],
+    "name_variants_checked": true,
+    "address_checked": true,
+    "reason": "requires_identity_review",
+    "external_search_checked": true
+  },
+  {
+    "name": "小料理 WAGAYA",
+    "place": "函館市松風町5-12",
+    "name_variants": [
+      "小料理 WAGAYA",
+      "小料理 ワガヤ",
+      "ワガヤ"
+    ],
+    "note": "夫婦で営む小料理店。おばんざいとイタリアン、〆の料理。",
+    "url": "https://www.sgnavi.com/hakodate/column/watashiga-eranda-syokuba/13541/",
+    "source": "函館シゴトガイド・店主取材",
+    "type": "restaurant",
+    "date": "",
+    "address_verified": true,
+    "category": "居酒屋・小料理",
+    "verified_address": "函館市松風町5-12",
+    "attempted_at": "2026-10-14T21:23:49.615345+09:00",
+    "status": "not_found",
+    "checked_at": "2026-10-14T21:24:26.424859+09:00",
+    "evidence_urls": [
+      "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=%E5%B0%8F%E6%96%99%E7%90%86+WAGAYA",
+      "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=%E5%B0%8F%E6%96%99%E7%90%86+%E3%83%AF%E3%82%AC%E3%83%A4",
+      "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=%E3%83%AF%E3%82%AC%E3%83%A4",
+      "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=%E5%87%BD%E9%A4%A8%E5%B8%82%E6%9D%BE%E9%A2%A8%E7%94%BA5-12"
+    ],
+    "result_counts": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "name_variants_checked": true,
+    "address_checked": true,
+    "reason": "all_verified_queries_zero",
+    "external_search_checked": true
+  },
+  {
+    "name": "酒肴菜友 じょっぱり",
+    "place": "函館市杉並町20-1",
+    "name_variants": [
+      "じょっぱり",
+      "酒肴菜友 じょっぱり",
+      "酒肴菜友"
+    ],
+    "note": "北海道食材の囲炉裏焼き、カニ味噌グラタンと酒を楽しむ料理店。",
+    "url": "https://shukousaiyuu-joppari.com/",
+    "source": "店舗公式サイト",
+    "type": "restaurant",
+    "date": "",
+    "address_verified": true,
+    "category": "居酒屋・小料理",
+    "verified_address": "函館市杉並町20-1",
+    "attempted_at": "2026-10-14T21:23:49.615648+09:00",
+    "status": "unknown",
+    "checked_at": "2026-10-14T21:24:26.690007+09:00",
+    "evidence_urls": [
+      "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=%E3%81%98%E3%82%87%E3%81%A3%E3%81%B1%E3%82%8A",
+      "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=%E9%85%92%E8%82%B4%E8%8F%9C%E5%8F%8B+%E3%81%98%E3%82%87%E3%81%A3%E3%81%B1%E3%82%8A",
+      "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=%E9%85%92%E8%82%B4%E8%8F%9C%E5%8F%8B",
+      "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=%E5%87%BD%E9%A4%A8%E5%B8%82%E6%9D%89%E4%B8%A6%E7%94%BA20-1"
+    ],
+    "result_counts": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "name_variants_checked": true,
+    "address_checked": true,
+    "reason": "same_address_other_name_requires_review",
+    "external_search_checked": true
   }
 ]

@@ -188,6 +188,56 @@
       "source_count": 1,
       "first_seen": "2026-09-30",
       "last_seen": "2026-10-07"
+    },
+    {
+      "name": "居酒屋 宝来東屋",
+      "place": "函館市宝来町20-9",
+      "name_variants": [
+        "宝来東屋",
+        "居酒屋 宝来東屋",
+        "東屋"
+      ],
+      "note": "店長が一人で切り盛りする大衆居酒屋。炭火焼き鳥・手ごねつくね・日本酒。",
+      "type": "restaurant",
+      "date": "",
+      "address_verified": true,
+      "url": "https://www.hakobura.jp/features/368",
+      "source": "函館市公式観光サイト はこぶら",
+      "category": "酒場",
+      "ownership": "地域の小規模店（個人事業か法人かは未確認）"
+    },
+    {
+      "name": "Cafe＆Dining D’s 秀華",
+      "place": "函館市日吉町3丁目44-13",
+      "name_variants": [
+        "秀華",
+        "Dining D",
+        "ダイニング ディーズ"
+      ],
+      "note": "カウンター10席の小さな酒場。季節料理と店主が選ぶ日本酒。",
+      "type": "restaurant",
+      "date": "",
+      "address_verified": true,
+      "url": "https://dining-ds.com/",
+      "source": "店舗公式サイト",
+      "category": "酒場",
+      "ownership": "地域の小規模店（個人事業か法人かは未確認）"
+    },
+    {
+      "name": "酒肴菜友 じょっぱり",
+      "place": "函館市杉並町20-1",
+      "name_variants": [
+        "じょっぱり",
+        "酒肴菜友 じょっぱり",
+        "酒肴菜友"
+      ],
+      "note": "北海道食材の囲炉裏焼き、カニ味噌グラタンと酒を楽しむ料理店。",
+      "url": "https://shukousaiyuu-joppari.com/",
+      "source": "店舗公式サイト",
+      "type": "restaurant",
+      "date": "",
+      "address_verified": true,
+      "category": "居酒屋・小料理"
     }
   ],
   "excluded_listed": [
