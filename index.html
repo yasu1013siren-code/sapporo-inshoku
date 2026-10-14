@@ -776,7 +776,7 @@ function renderHistory(){
       el.insertAdjacentHTML("beforeend", `<section style="margin-top:32px"><h2>ホットペッパー掲載確認なしの店舗</h2><p class="empty-note">開店日・記事の日付を問わない店舗一覧です。検索失敗・未確認は掲載しません。</p>${directory.length ? directory.map(i=>`<article class="event-card"><div class="event-body"><h3>${escapeHTML(i.name || i.title || "")}</h3><div class="meta">${escapeHTML(i.place || "")}</div><p>確認日時点で掲載なし：${escapeHTML(i.hotpepper_check.checked_at.slice(0,10))}</p>${i.url ? `<a href="${escapeHTML(i.url)}" target="_blank" rel="noopener noreferrer">店舗の情報源 ↗</a>` : ""}</div></article>`).join("") : '<p class="empty-note">照合済みの対象店舗はありません。</p>'}</section>`);
     }
     const filter=document.querySelector(`.filter-row[data-area="${area}"] .active`)?.dataset.filter || "all";
-    el.querySelectorAll(".event-card").forEach(card=>card.classList.toggle("is-hidden",card.dataset.type && filter!=="all" && card.dataset.type!==filter));
+    el.querySelectorAll(".event-card[data-type]").forEach(card=>card.classList.toggle("is-hidden",filter!=="all" && card.dataset.type!==filter));
   });
 }
 
