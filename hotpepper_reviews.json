@@ -783,7 +783,16 @@
     "name_variants_checked": true,
     "address_checked": true,
     "reason": "requires_identity_review",
-    "external_search_checked": true
+    "external_search_checked": true,
+    "identity_review": {
+      "result": "predecessor_listing_current_identity_unresolved",
+      "candidate_name": "東屋",
+      "candidate_address": "函館市宝来町20-9",
+      "candidate_url": "https://www.hotpepper.jp/strJ000733848/",
+      "current_phone": "0138-76-2193",
+      "history_evidence_url": "https://www.hakobura.jp/features/368",
+      "decision": "pending"
+    }
   },
   {
     "name": "箱館立ち飲み バグ",
@@ -931,7 +940,17 @@
     "name_variants_checked": true,
     "address_checked": true,
     "reason": "requires_identity_review",
-    "external_search_checked": true
+    "external_search_checked": true,
+    "identity_review": {
+      "result": "old_address_listing_possible_same_business",
+      "candidate_name": "里の味・秀華",
+      "candidate_address": "函館市本町10-16",
+      "candidate_url": "https://www.hotpepper.jp/strJ000257853/",
+      "current_address": "函館市日吉町3丁目44-13",
+      "current_phone": "0138-76-0130",
+      "relocation_evidence_url": "https://www.sgnavi.com/hokkaido/jobs/xqUeFbUA89u3GnJc/",
+      "decision": "pending"
+    }
   },
   {
     "name": "小料理 WAGAYA",
@@ -973,9 +992,10 @@
     "name": "酒肴菜友 じょっぱり",
     "place": "函館市杉並町20-1",
     "name_variants": [
-      "じょっぱり",
       "酒肴菜友 じょっぱり",
-      "酒肴菜友"
+      "じょっぱり",
+      "酒肴菜友",
+      "0138-32-8555"
     ],
     "note": "北海道食材の囲炉裏焼き、カニ味噌グラタンと酒を楽しむ料理店。",
     "url": "https://shukousaiyuu-joppari.com/",
@@ -985,16 +1005,18 @@
     "address_verified": true,
     "category": "居酒屋・小料理",
     "verified_address": "函館市杉並町20-1",
-    "attempted_at": "2026-10-14T21:23:49.615648+09:00",
-    "status": "unknown",
-    "checked_at": "2026-10-14T21:24:26.690007+09:00",
+    "attempted_at": "2026-10-14T21:33:08.450729+09:00",
+    "status": "not_found",
+    "checked_at": "2026-10-14T21:33:55.921801+09:00",
     "evidence_urls": [
-      "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=%E3%81%98%E3%82%87%E3%81%A3%E3%81%B1%E3%82%8A",
       "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=%E9%85%92%E8%82%B4%E8%8F%9C%E5%8F%8B+%E3%81%98%E3%82%87%E3%81%A3%E3%81%B1%E3%82%8A",
+      "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=%E3%81%98%E3%82%87%E3%81%A3%E3%81%B1%E3%82%8A",
       "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=%E9%85%92%E8%82%B4%E8%8F%9C%E5%8F%8B",
+      "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=0138-32-8555",
       "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=%E5%87%BD%E9%A4%A8%E5%B8%82%E6%9D%89%E4%B8%A6%E7%94%BA20-1"
     ],
     "result_counts": [
+      0,
       0,
       0,
       0,
@@ -1002,7 +1024,16 @@
     ],
     "name_variants_checked": true,
     "address_checked": true,
-    "reason": "same_address_other_name_requires_review",
+    "reason": "all_verified_queries_zero",
+    "identity_review": {
+      "result": "different_store_at_same_address",
+      "candidate_name": "雅楽",
+      "candidate_phone": "0138-52-0151",
+      "current_phone": "0138-32-8555",
+      "candidate_url": "https://www.hotpepper.jp/strJ000733888/",
+      "phone_evidence_url": "https://www.hotpepper.jp/strJ000733888/tel/",
+      "current_url": "https://shukousaiyuu-joppari.com/access.html"
+    },
     "external_search_checked": true
   }
 ]

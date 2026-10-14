@@ -9263,11 +9263,11 @@
     }
   ],
   "hakodate_selection": {
-    "checked_at": "2026-10-14T12:25:17.593Z",
+    "checked_at": "2026-10-14T12:34:56.988Z",
     "max_age_days": 7,
-    "included": 11,
+    "included": 12,
     "excluded_listed": 4,
-    "pending": 12
+    "pending": 11
   },
   "hakodate_directory_candidates": [
     {
@@ -10387,6 +10387,41 @@
           "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=%E5%87%BD%E9%A4%A8%E5%B8%82%E6%9D%BE%E9%A2%A8%E7%94%BA5-12"
         ]
       }
+    },
+    {
+      "name": "酒肴菜友 じょっぱり",
+      "place": "函館市杉並町20-1",
+      "name_variants": [
+        "じょっぱり",
+        "酒肴菜友 じょっぱり",
+        "酒肴菜友"
+      ],
+      "note": "北海道食材の囲炉裏焼き、カニ味噌グラタンと酒を楽しむ料理店。",
+      "url": "https://shukousaiyuu-joppari.com/",
+      "source": "店舗公式サイト",
+      "type": "restaurant",
+      "date": "",
+      "address_verified": true,
+      "category": "居酒屋・小料理",
+      "hotpepper_check": {
+        "status": "not_found",
+        "checked_at": "2026-10-14T21:33:55.921801+09:00",
+        "label": "確認日時点で掲載なし",
+        "evidence_urls": [
+          "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=%E9%85%92%E8%82%B4%E8%8F%9C%E5%8F%8B+%E3%81%98%E3%82%87%E3%81%A3%E3%81%B1%E3%82%8A",
+          "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=%E3%81%98%E3%82%87%E3%81%A3%E3%81%B1%E3%82%8A",
+          "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=%E9%85%92%E8%82%B4%E8%8F%9C%E5%8F%8B",
+          "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=0138-32-8555",
+          "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=%E5%87%BD%E9%A4%A8%E5%B8%82%E6%9D%89%E4%B8%A6%E7%94%BA20-1"
+        ]
+      }
     }
-  ]
+  ],
+  "hakodate_collection_scope": {
+    "independent_stores": true,
+    "chains": true,
+    "franchises": true,
+    "opening_date_required": false,
+    "hotpepper_listing_check_required": true
+  }
 }

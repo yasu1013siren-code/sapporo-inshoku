@@ -222,22 +222,6 @@
       "source": "店舗公式サイト",
       "category": "酒場",
       "ownership": "地域の小規模店（個人事業か法人かは未確認）"
-    },
-    {
-      "name": "酒肴菜友 じょっぱり",
-      "place": "函館市杉並町20-1",
-      "name_variants": [
-        "じょっぱり",
-        "酒肴菜友 じょっぱり",
-        "酒肴菜友"
-      ],
-      "note": "北海道食材の囲炉裏焼き、カニ味噌グラタンと酒を楽しむ料理店。",
-      "url": "https://shukousaiyuu-joppari.com/",
-      "source": "店舗公式サイト",
-      "type": "restaurant",
-      "date": "",
-      "address_verified": true,
-      "category": "居酒屋・小料理"
     }
   ],
   "excluded_listed": [
