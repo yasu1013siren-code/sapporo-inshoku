@@ -9263,9 +9263,9 @@
     }
   ],
   "hakodate_selection": {
-    "checked_at": "2026-10-13T12:06:42.902Z",
+    "checked_at": "2026-10-14T12:18:29.195Z",
     "max_age_days": 7,
-    "included": 5,
+    "included": 7,
     "excluded_listed": 4,
     "pending": 9
   },
@@ -9928,6 +9928,48 @@
       "url": "https://www.hakobura.jp/spots/162",
       "source": "函館市公式観光サイト はこぶら",
       "last_seen": "2026-10-13T21:04:24.968597+09:00"
+    },
+    {
+      "name": "cafe akira",
+      "place": "函館市大手町12-11",
+      "name_variants": [
+        "cafe akira",
+        "カフェ アキラ",
+        "カフェアキラ"
+      ],
+      "url": "https://www.cafe-akira.com/",
+      "source": "店舗公式サイト",
+      "type": "restaurant",
+      "date": "",
+      "address_verified": true
+    },
+    {
+      "name": "THE LAMPS",
+      "place": "函館市乃木町2-20",
+      "name_variants": [
+        "THE LAMPS",
+        "ザ ランプス",
+        "ランプス"
+      ],
+      "url": "https://omoikkiri-hokkaido.jp/spot/hakodate-10/",
+      "source": "北海道観光振興機構",
+      "type": "restaurant",
+      "date": "",
+      "address_verified": true
+    },
+    {
+      "name": "TAILORED COFFEE 宮前店",
+      "place": "函館市宮前町25-5",
+      "name_variants": [
+        "TAILORED COFFEE 宮前",
+        "テーラードコーヒー",
+        "テイラードコーヒー"
+      ],
+      "url": "https://tailoredcoffee.shop-pro.jp/?mode=f1",
+      "source": "店舗公式サイト",
+      "type": "restaurant",
+      "date": "",
+      "address_verified": true
     }
   ],
   "hakodate_directory": [
@@ -10065,6 +10107,56 @@
           "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=%E3%81%94%E3%81%AF%E3%82%93%E3%81%8A%E3%82%84%E3%81%A4%E3%82%B7%E3%83%97%E3%83%AB",
           "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=siple",
           "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=%E5%87%BD%E9%A4%A8%E5%B8%82%E8%88%B9%E8%A6%8B%E7%94%BA7-24"
+        ]
+      }
+    },
+    {
+      "name": "cafe akira",
+      "place": "函館市大手町12-11",
+      "name_variants": [
+        "cafe akira",
+        "カフェ アキラ",
+        "カフェアキラ"
+      ],
+      "url": "https://www.cafe-akira.com/",
+      "source": "店舗公式サイト",
+      "type": "restaurant",
+      "date": "",
+      "address_verified": true,
+      "hotpepper_check": {
+        "status": "not_found",
+        "checked_at": "2026-10-14T21:17:57.118816+09:00",
+        "label": "確認日時点で掲載なし",
+        "evidence_urls": [
+          "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=cafe+akira",
+          "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=%E3%82%AB%E3%83%95%E3%82%A7+%E3%82%A2%E3%82%AD%E3%83%A9",
+          "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=%E3%82%AB%E3%83%95%E3%82%A7%E3%82%A2%E3%82%AD%E3%83%A9",
+          "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=%E5%87%BD%E9%A4%A8%E5%B8%82%E5%A4%A7%E6%89%8B%E7%94%BA12-11"
+        ]
+      }
+    },
+    {
+      "name": "TAILORED COFFEE 宮前店",
+      "place": "函館市宮前町25-5",
+      "name_variants": [
+        "TAILORED COFFEE 宮前",
+        "テーラードコーヒー",
+        "テイラードコーヒー"
+      ],
+      "url": "https://tailoredcoffee.shop-pro.jp/?mode=f1",
+      "source": "店舗公式サイト",
+      "type": "restaurant",
+      "date": "",
+      "address_verified": true,
+      "hotpepper_check": {
+        "status": "not_found",
+        "checked_at": "2026-10-14T21:17:56.530149+09:00",
+        "label": "確認日時点で掲載なし",
+        "evidence_urls": [
+          "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=TAILORED+COFFEE+%E5%AE%AE%E5%89%8D",
+          "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=%E3%83%86%E3%83%BC%E3%83%A9%E3%83%BC%E3%83%89%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC",
+          "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=%E3%83%86%E3%82%A4%E3%83%A9%E3%83%BC%E3%83%89%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC",
+          "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=%E5%87%BD%E9%A4%A8%E5%B8%82%E5%AE%AE%E5%89%8D%E7%94%BA25-5"
         ]
       }
     }

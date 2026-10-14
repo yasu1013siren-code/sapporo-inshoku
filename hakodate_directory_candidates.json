@@ -74,5 +74,47 @@
     "url": "https://www.hakobura.jp/spots/162",
     "source": "函館市公式観光サイト はこぶら",
     "last_seen": "2026-10-13T21:04:24.968597+09:00"
+  },
+  {
+    "name": "cafe akira",
+    "place": "函館市大手町12-11",
+    "name_variants": [
+      "cafe akira",
+      "カフェ アキラ",
+      "カフェアキラ"
+    ],
+    "url": "https://www.cafe-akira.com/",
+    "source": "店舗公式サイト",
+    "type": "restaurant",
+    "date": "",
+    "address_verified": true
+  },
+  {
+    "name": "THE LAMPS",
+    "place": "函館市乃木町2-20",
+    "name_variants": [
+      "THE LAMPS",
+      "ザ ランプス",
+      "ランプス"
+    ],
+    "url": "https://omoikkiri-hokkaido.jp/spot/hakodate-10/",
+    "source": "北海道観光振興機構",
+    "type": "restaurant",
+    "date": "",
+    "address_verified": true
+  },
+  {
+    "name": "TAILORED COFFEE 宮前店",
+    "place": "函館市宮前町25-5",
+    "name_variants": [
+      "TAILORED COFFEE 宮前",
+      "テーラードコーヒー",
+      "テイラードコーヒー"
+    ],
+    "url": "https://tailoredcoffee.shop-pro.jp/?mode=f1",
+    "source": "店舗公式サイト",
+    "type": "restaurant",
+    "date": "",
+    "address_verified": true
   }
 ]
