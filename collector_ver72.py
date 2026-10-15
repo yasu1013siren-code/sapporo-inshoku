@@ -953,6 +953,8 @@ def build_news_json(conn, today: str):
     }
     from hotpepper_refresh import apply_live_selection
     payload = apply_live_selection(payload, BASE_DIR)
+    from verified_information import apply_verified_updates
+    payload = apply_verified_updates(payload, BASE_DIR)
     NEWS_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     return payload
 

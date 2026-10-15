@@ -1,0 +1,144 @@
+[
+  {
+    "name": "やきとり大吉 北栄店",
+    "place": "札幌市東区北46条東7-2-12",
+    "area": "higashi",
+    "city": "札幌市",
+    "category": "焼き鳥",
+    "type": "restaurant",
+    "date": "",
+    "address_verified": true,
+    "verified_address": "札幌市東区北46条東7-2-12",
+    "url": "https://www.daikichi.co.jp/shop/shop_category/hokkaido/hokkaido01/",
+    "source": "チェーン公式店舗一覧",
+    "note": "焼き鳥チェーンの店舗。",
+    "attempted_at": "2026-10-15T07:37:19Z",
+    "checked_at": "2026-10-15T07:37:19Z",
+    "status": "listed",
+    "evidence_urls": [
+      "https://www.hotpepper.jp/strJ000252854/",
+      "https://www.daikichi.co.jp/shop/shop_category/hokkaido/hokkaido01/"
+    ],
+    "name_variants": [
+      "やきとり大吉 北栄店",
+      "やきとり大吉北栄店"
+    ],
+    "search_queries": [
+      "site:hotpepper.jp やきとり大吉 北栄店"
+    ],
+    "search_results": "ホットペッパー店舗ページの店名・番地が公式店舗一覧と一致。予約可否は判定に使用しない。",
+    "identity_review": {
+      "decision": "listed",
+      "result": "same_name_and_address"
+    },
+    "reason": "listing_page_verified"
+  },
+  {
+    "name": "やきとり大吉 新札幌店",
+    "place": "札幌市厚別区厚別南2-12-24",
+    "area": "atsubetsu",
+    "city": "札幌市",
+    "category": "焼き鳥",
+    "type": "restaurant",
+    "date": "",
+    "address_verified": true,
+    "verified_address": "札幌市厚別区厚別南2-12-24",
+    "url": "https://www.daikichi.co.jp/shop/shop_category/hokkaido/hokkaido01/",
+    "source": "チェーン公式店舗一覧",
+    "note": "焼き鳥チェーンの店舗。",
+    "attempted_at": "2026-10-15T07:37:19Z",
+    "checked_at": "2026-10-15T07:37:19Z",
+    "status": "listed",
+    "evidence_urls": [
+      "https://www.hotpepper.jp/strJ000254880/",
+      "https://www.daikichi.co.jp/shop/shop_category/hokkaido/hokkaido01/"
+    ],
+    "name_variants": [
+      "やきとり大吉 新札幌店",
+      "やきとり大吉新札幌店"
+    ],
+    "search_queries": [
+      "site:hotpepper.jp やきとり大吉 新札幌店"
+    ],
+    "search_results": "ホットペッパー店舗ページの店名・番地が公式店舗一覧と一致。予約可否は判定に使用しない。",
+    "identity_review": {
+      "decision": "listed",
+      "result": "same_name_and_address"
+    },
+    "reason": "listing_page_verified"
+  },
+  {
+    "name": "やきとり大吉 川沿店",
+    "place": "札幌市南区川沿10条2-4-8",
+    "area": "minami",
+    "city": "札幌市",
+    "category": "焼き鳥",
+    "type": "restaurant",
+    "date": "",
+    "address_verified": true,
+    "verified_address": "札幌市南区川沿10条2-4-8",
+    "url": "https://www.daikichi.co.jp/shop/shop_category/hokkaido/hokkaido01/",
+    "source": "チェーン公式店舗一覧",
+    "note": "焼き鳥チェーンの店舗。",
+    "attempted_at": "2026-10-15T07:37:19Z",
+    "checked_at": "2026-10-15T07:37:19Z",
+    "status": "listed",
+    "evidence_urls": [
+      "https://www.hotpepper.jp/strJ000301134/",
+      "https://www.daikichi.co.jp/shop/shop_category/hokkaido/hokkaido01/"
+    ],
+    "name_variants": [
+      "やきとり大吉 川沿店",
+      "やきとり大吉川沿店"
+    ],
+    "search_queries": [
+      "site:hotpepper.jp やきとり大吉 川沿店"
+    ],
+    "search_results": "ホットペッパー店舗ページの店名・番地が公式店舗一覧と一致。予約可否は判定に使用しない。",
+    "identity_review": {
+      "decision": "listed",
+      "result": "same_name_and_address"
+    },
+    "reason": "listing_page_verified"
+  },
+  {
+    "name": "やきとり大吉 四番通り店",
+    "place": "札幌市北区新琴似7条11-6-14",
+    "area": "kita",
+    "city": "札幌市",
+    "category": "焼き鳥",
+    "type": "restaurant",
+    "date": "",
+    "address_verified": true,
+    "verified_address": "札幌市北区新琴似7条11-6-14",
+    "url": "https://www.daikichi.co.jp/shop/shop_category/hokkaido/hokkaido01/",
+    "source": "チェーン公式店舗一覧",
+    "note": "焼き鳥チェーンの店舗。",
+    "attempted_at": "2026-10-15T07:37:19Z",
+    "status": "unknown",
+    "evidence_urls": [
+      "https://www.daikichi.co.jp/shop/shop_category/hokkaido/hokkaido01/"
+    ],
+    "name_variants": [
+      "やきとり大吉 四番通り店",
+      "やきとり大吉四番通り店",
+      "やきとり大吉 新琴似4番通り店",
+      "やきとり大吉 新琴似４番通り店"
+    ],
+    "search_queries": [
+      "site:hotpepper.jp やきとり大吉 四番通り店",
+      "site:hotpepper.jp \"011-765-9177\"",
+      "site:hotpepper.jp \"大吉\" \"新琴似7\"",
+      "site:hotpepper.jp (\"新琴似４番\" OR \"四番通り\" OR \"0117659177\" OR \"011-765-9177\") 大吉"
+    ],
+    "search_results": "外部検索では該当ページ未発見。北34条西11-3-5の新琴似店は住所が異なる。内部検索URL取得失敗のため保留。",
+    "identity_review": {
+      "decision": "pending",
+      "result": "internal_search_failed",
+      "phone": "011-765-9177",
+      "phone_source": "https://gourmet.suntory.co.jp/shop/0117659177/",
+      "different_branch_url": "https://www.hotpepper.jp/strJ000252426/"
+    },
+    "reason": "search_failed"
+  }
+]

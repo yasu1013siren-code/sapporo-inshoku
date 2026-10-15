@@ -3213,6 +3213,34 @@
         "source_count": 1,
         "first_seen": "2026-09-13",
         "last_seen": "2026-10-13"
+      },
+      {
+        "area": "chuo",
+        "name": "和牛すき焼き ごすけ",
+        "title": "和牛すき焼き ごすけ",
+        "place": "札幌市中央区南5条西3丁目1-3",
+        "category": "すき焼き",
+        "date": "2026-10-15",
+        "type": "upcoming",
+        "note": "すき焼きの新店。10月15日17時開店の告知。",
+        "url": "https://kaiten-heiten-24.com/wagyusukiyaki-gosuke/",
+        "source": "開店閉店.com",
+        "phone": "011-200-0420",
+        "sources": [
+          {
+            "name": "開店閉店.com",
+            "url": "https://kaiten-heiten-24.com/wagyusukiyaki-gosuke/"
+          },
+          {
+            "name": "札幌リスト",
+            "url": "https://sapporo-list.info/open/"
+          }
+        ],
+        "date_review": "求人では10/1、直近の開店告知と食べログは10/15。実営業開始は未確認。",
+        "first_seen": "2026-10-15T07:37:19Z",
+        "source_checked_at": "2026-10-15T07:37:19Z",
+        "source_count": 2,
+        "confidence": 0.85
       }
     ],
     "kita": [
@@ -9208,6 +9236,33 @@
         "source_count": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30"
+      },
+      {
+        "area": "hakodate",
+        "name": "肉・鰻・海鮮 箱膳",
+        "title": "肉・鰻・海鮮 箱膳",
+        "place": "函館市柏木町35-31",
+        "category": "まぶし御膳",
+        "date": "2026-10-08",
+        "type": "open",
+        "note": "牛・鰻などのまぶし御膳専門店。旧鰻の成瀬函館店跡。",
+        "url": "https://hakodate.blog/archives/86840",
+        "source": "函館の飲み食い日記",
+        "phone": "050-8892-9210",
+        "sources": [
+          {
+            "name": "函館の飲み食い日記",
+            "url": "https://hakodate.blog/archives/86840"
+          },
+          {
+            "name": "おもしろマガジン",
+            "url": "https://blog.livedoor.jp/moya_sic/archives/52460333.html"
+          }
+        ],
+        "first_seen": "2026-10-15T07:37:19Z",
+        "source_checked_at": "2026-10-15T07:37:19Z",
+        "source_count": 2,
+        "confidence": 0.85
       }
     ]
   },
@@ -10423,5 +10478,212 @@
     "franchises": true,
     "opening_date_required": false,
     "hotpepper_listing_check_required": true
+  },
+  "sapporo_directory": {
+    "chuo": [],
+    "kita": [],
+    "higashi": [],
+    "shiroishi": [],
+    "atsubetsu": [],
+    "toyohira": [],
+    "kiyota": [],
+    "minami": [],
+    "nishi": [],
+    "teine": []
+  },
+  "sapporo_directory_candidates": [
+    {
+      "name": "やきとり大吉 北栄店",
+      "place": "札幌市東区北46条東7-2-12",
+      "area": "higashi",
+      "city": "札幌市",
+      "category": "焼き鳥",
+      "type": "restaurant",
+      "date": "",
+      "address_verified": true,
+      "verified_address": "札幌市東区北46条東7-2-12",
+      "url": "https://www.daikichi.co.jp/shop/shop_category/hokkaido/hokkaido01/",
+      "source": "チェーン公式店舗一覧",
+      "note": "焼き鳥チェーンの店舗。",
+      "attempted_at": "2026-10-15T07:37:19Z",
+      "checked_at": "2026-10-15T07:37:19Z",
+      "status": "listed",
+      "evidence_urls": [
+        "https://www.hotpepper.jp/strJ000252854/",
+        "https://www.daikichi.co.jp/shop/shop_category/hokkaido/hokkaido01/"
+      ],
+      "name_variants": [
+        "やきとり大吉 北栄店",
+        "やきとり大吉北栄店"
+      ],
+      "search_queries": [
+        "site:hotpepper.jp やきとり大吉 北栄店"
+      ],
+      "search_results": "ホットペッパー店舗ページの店名・番地が公式店舗一覧と一致。予約可否は判定に使用しない。",
+      "identity_review": {
+        "decision": "listed",
+        "result": "same_name_and_address"
+      },
+      "reason": "listing_page_verified"
+    },
+    {
+      "name": "やきとり大吉 新札幌店",
+      "place": "札幌市厚別区厚別南2-12-24",
+      "area": "atsubetsu",
+      "city": "札幌市",
+      "category": "焼き鳥",
+      "type": "restaurant",
+      "date": "",
+      "address_verified": true,
+      "verified_address": "札幌市厚別区厚別南2-12-24",
+      "url": "https://www.daikichi.co.jp/shop/shop_category/hokkaido/hokkaido01/",
+      "source": "チェーン公式店舗一覧",
+      "note": "焼き鳥チェーンの店舗。",
+      "attempted_at": "2026-10-15T07:37:19Z",
+      "checked_at": "2026-10-15T07:37:19Z",
+      "status": "listed",
+      "evidence_urls": [
+        "https://www.hotpepper.jp/strJ000254880/",
+        "https://www.daikichi.co.jp/shop/shop_category/hokkaido/hokkaido01/"
+      ],
+      "name_variants": [
+        "やきとり大吉 新札幌店",
+        "やきとり大吉新札幌店"
+      ],
+      "search_queries": [
+        "site:hotpepper.jp やきとり大吉 新札幌店"
+      ],
+      "search_results": "ホットペッパー店舗ページの店名・番地が公式店舗一覧と一致。予約可否は判定に使用しない。",
+      "identity_review": {
+        "decision": "listed",
+        "result": "same_name_and_address"
+      },
+      "reason": "listing_page_verified"
+    },
+    {
+      "name": "やきとり大吉 川沿店",
+      "place": "札幌市南区川沿10条2-4-8",
+      "area": "minami",
+      "city": "札幌市",
+      "category": "焼き鳥",
+      "type": "restaurant",
+      "date": "",
+      "address_verified": true,
+      "verified_address": "札幌市南区川沿10条2-4-8",
+      "url": "https://www.daikichi.co.jp/shop/shop_category/hokkaido/hokkaido01/",
+      "source": "チェーン公式店舗一覧",
+      "note": "焼き鳥チェーンの店舗。",
+      "attempted_at": "2026-10-15T07:37:19Z",
+      "checked_at": "2026-10-15T07:37:19Z",
+      "status": "listed",
+      "evidence_urls": [
+        "https://www.hotpepper.jp/strJ000301134/",
+        "https://www.daikichi.co.jp/shop/shop_category/hokkaido/hokkaido01/"
+      ],
+      "name_variants": [
+        "やきとり大吉 川沿店",
+        "やきとり大吉川沿店"
+      ],
+      "search_queries": [
+        "site:hotpepper.jp やきとり大吉 川沿店"
+      ],
+      "search_results": "ホットペッパー店舗ページの店名・番地が公式店舗一覧と一致。予約可否は判定に使用しない。",
+      "identity_review": {
+        "decision": "listed",
+        "result": "same_name_and_address"
+      },
+      "reason": "listing_page_verified"
+    },
+    {
+      "name": "やきとり大吉 四番通り店",
+      "place": "札幌市北区新琴似7条11-6-14",
+      "area": "kita",
+      "city": "札幌市",
+      "category": "焼き鳥",
+      "type": "restaurant",
+      "date": "",
+      "address_verified": true,
+      "verified_address": "札幌市北区新琴似7条11-6-14",
+      "url": "https://www.daikichi.co.jp/shop/shop_category/hokkaido/hokkaido01/",
+      "source": "チェーン公式店舗一覧",
+      "note": "焼き鳥チェーンの店舗。",
+      "attempted_at": "2026-10-15T07:37:19Z",
+      "status": "unknown",
+      "evidence_urls": [
+        "https://www.daikichi.co.jp/shop/shop_category/hokkaido/hokkaido01/"
+      ],
+      "name_variants": [
+        "やきとり大吉 四番通り店",
+        "やきとり大吉四番通り店",
+        "やきとり大吉 新琴似4番通り店",
+        "やきとり大吉 新琴似４番通り店"
+      ],
+      "search_queries": [
+        "site:hotpepper.jp やきとり大吉 四番通り店",
+        "site:hotpepper.jp \"011-765-9177\"",
+        "site:hotpepper.jp \"大吉\" \"新琴似7\"",
+        "site:hotpepper.jp (\"新琴似４番\" OR \"四番通り\" OR \"0117659177\" OR \"011-765-9177\") 大吉"
+      ],
+      "search_results": "外部検索では該当ページ未発見。北34条西11-3-5の新琴似店は住所が異なる。内部検索URL取得失敗のため保留。",
+      "identity_review": {
+        "decision": "pending",
+        "result": "internal_search_failed",
+        "phone": "011-765-9177",
+        "phone_source": "https://gourmet.suntory.co.jp/shop/0117659177/",
+        "different_branch_url": "https://www.hotpepper.jp/strJ000252426/"
+      },
+      "reason": "search_failed"
+    }
+  ],
+  "directory_research": {
+    "attempted_at": "2026-10-15T07:37:19Z",
+    "reviewed_candidates": 6,
+    "sapporo": {
+      "reviewed": 4,
+      "listed": 3,
+      "pending": 1,
+      "new_not_found": 0,
+      "visited_wards": [
+        "kita",
+        "higashi",
+        "atsubetsu",
+        "minami"
+      ],
+      "not_visited_this_run": [
+        "chuo",
+        "shiroishi",
+        "toyohira",
+        "kiyota",
+        "nishi",
+        "teine"
+      ],
+      "next_wards": [
+        "shiroishi",
+        "kiyota",
+        "teine"
+      ]
+    },
+    "hakodate": {
+      "reviewed": 2,
+      "pending": 2,
+      "new_not_found": 0,
+      "visited": [
+        "宝来町",
+        "日吉町"
+      ],
+      "next": [
+        "大門地区",
+        "湯の川地区"
+      ]
+    },
+    "new_events": {
+      "chuo": 1,
+      "hakodate": 1
+    },
+    "limitations": [
+      "内部検索取得失敗の候補は未掲載確定にしない",
+      "全10区の網羅調査は未実施",
+      "開店閉店と日付不問一覧は分離"
+    ]
   }
 }

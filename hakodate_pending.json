@@ -204,7 +204,22 @@
       "url": "https://www.hakobura.jp/features/368",
       "source": "函館市公式観光サイト はこぶら",
       "category": "酒場",
-      "ownership": "地域の小規模店（個人事業か法人かは未確認）"
+      "ownership": "地域の小規模店（個人事業か法人かは未確認）",
+      "identity_review": {
+        "result": "predecessor_listing_current_identity_unresolved",
+        "candidate_name": "東屋",
+        "candidate_address": "函館市宝来町20-9",
+        "candidate_url": "https://www.hotpepper.jp/strJ000733848/",
+        "current_phone": "0138-76-2193",
+        "history_evidence_url": "https://www.hakobura.jp/features/368",
+        "decision": "pending",
+        "rechecked_at": "2026-10-15T07:37:19Z",
+        "reason": "公式観光記事で2018年の事業承継を確認。同住所の旧東屋掲載の電話番号を取得できず現店舗との同一性未確定。",
+        "recheck_sources": [
+          "https://www.hakobura.jp/features/368",
+          "https://www.hotpepper.jp/strJ000733848/"
+        ]
+      }
     },
     {
       "name": "Cafe＆Dining D’s 秀華",
@@ -221,7 +236,24 @@
       "url": "https://dining-ds.com/",
       "source": "店舗公式サイト",
       "category": "酒場",
-      "ownership": "地域の小規模店（個人事業か法人かは未確認）"
+      "ownership": "地域の小規模店（個人事業か法人かは未確認）",
+      "identity_review": {
+        "result": "old_address_listing_possible_same_business",
+        "candidate_name": "里の味・秀華",
+        "candidate_address": "函館市本町10-16",
+        "candidate_url": "https://www.hotpepper.jp/strJ000257853/",
+        "current_address": "函館市日吉町3丁目44-13",
+        "current_phone": "0138-76-0130",
+        "relocation_evidence_url": "https://www.sgnavi.com/hokkaido/jobs/xqUeFbUA89u3GnJc/",
+        "decision": "pending",
+        "rechecked_at": "2026-10-15T07:37:19Z",
+        "reason": "公式サイトで現住所・電話を確認。移転求人と本町の旧掲載は確認できるが、現在の店への掲載対応は未確定。",
+        "recheck_sources": [
+          "https://dining-ds.com/",
+          "https://www.sgnavi.com/hokkaido/jobs/xqUeFbUA89u3GnJc/",
+          "https://www.hotpepper.jp/strJ000257853/"
+        ]
+      }
     }
   ],
   "excluded_listed": [
