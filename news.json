@@ -8651,6 +8651,59 @@
         "source_count": 1,
         "first_seen": "2026-09-13",
         "last_seen": "2026-10-13"
+      },
+      {
+        "area": "kiyota",
+        "name": "CREPE LAB",
+        "title": "CREPE LAB",
+        "place": "札幌市清田区清田3条1丁目2-5 コーポアフロス1F",
+        "category": "クレープ",
+        "date": "2026-09-19",
+        "type": "open",
+        "note": "クレープ店。9月19日開店、公式SNSはcrepelab.coffee。",
+        "url": "https://chamonix-cakes.com/kaiten-ab5jvpys1xgqnr2bno/",
+        "official_url": "https://www.instagram.com/crepelab.coffee/",
+        "source": "札幌開店閉店インフォ",
+        "sources": [
+          {
+            "name": "札幌開店閉店インフォ",
+            "url": "https://chamonix-cakes.com/kaiten-ab5jvpys1xgqnr2bno/"
+          },
+          {
+            "name": "食べログ店舗情報",
+            "url": "https://tabelog.com/tw/hokkaido/A0101/A010304/1086273/"
+          }
+        ],
+        "confidence": 0.85,
+        "first_seen": "2026-10-15T11:29:10Z",
+        "source_checked_at": "2026-10-15T11:29:10Z",
+        "source_count": 2
+      },
+      {
+        "area": "kiyota",
+        "name": "すき家 札幌平岡店",
+        "title": "すき家 札幌平岡店",
+        "place": "札幌市清田区平岡8条1丁目1-5",
+        "category": "牛丼",
+        "date": "2026-12",
+        "type": "upcoming",
+        "note": "12月開店予定。株式会社すき家の採用情報で確認。",
+        "url": "https://en-gage.net/user/search/desc/18344681/",
+        "source": "株式会社すき家・採用情報",
+        "sources": [
+          {
+            "name": "株式会社すき家・採用情報",
+            "url": "https://en-gage.net/user/search/desc/18344681/"
+          },
+          {
+            "name": "イーアイデム求人",
+            "url": "https://www.e-aidem.com/aps/04_AE0918289521_detail.htm"
+          }
+        ],
+        "confidence": 0.9,
+        "first_seen": "2026-10-15T11:29:10Z",
+        "source_checked_at": "2026-10-15T11:29:10Z",
+        "source_count": 2
       }
     ],
     "hakodate": [
@@ -9322,7 +9375,8 @@
     "max_age_days": 7,
     "included": 12,
     "excluded_listed": 4,
-    "pending": 11
+    "pending": 13,
+    "queue_updated_at": "2026-10-15T11:29:10Z"
   },
   "hakodate_directory_candidates": [
     {
@@ -10142,6 +10196,134 @@
       "date": "",
       "address_verified": true,
       "category": "居酒屋・小料理"
+    },
+    {
+      "name": "バーチョイス",
+      "place": "函館市本町32-13 第4LC館1F",
+      "area": "hakodate",
+      "category": "バー",
+      "phone": "080-6062-2951",
+      "url": "https://bar-choice.com/",
+      "source": "店舗公式",
+      "note": "立ち飲みもっきり風のバー。昼はカラオケも営業。",
+      "status": "unknown",
+      "type": "restaurant",
+      "date": "",
+      "first_seen": "2026-10-15T11:29:10Z",
+      "address_verified": true,
+      "verified_address": "函館市本町32-13 第4LC館1F",
+      "source_checked_at": "2026-10-15T11:29:10Z",
+      "attempted_at": "2026-10-15T11:29:10Z",
+      "name_variants": [
+        "バーチョイス",
+        "BAR CHOICE",
+        "Bar Choice"
+      ],
+      "external_search_checked": true,
+      "search_queries": [
+        "site:hotpepper.jp \"バーチョイス\" 函館",
+        "site:hotpepper.jp (\"080-6062-2951\" OR \"0138\" \"チョイス\" OR \"函館\" \"choice\")",
+        "site:hotpepper.jp \"バーチョイス\" \"函館市本町\""
+      ],
+      "evidence_urls": [
+        "https://bar-choice.com/",
+        "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=バーチョイス"
+      ],
+      "search_observations": [
+        {
+          "query": "site:hotpepper.jp \"バーチョイス\" 函館",
+          "attempted_at": "2026-10-15T11:29:10Z",
+          "result": "対象店舗の掲載ページは外部検索では未発見。未掲載確定ではない。"
+        },
+        {
+          "query": "site:hotpepper.jp (\"080-6062-2951\" OR \"0138\" \"チョイス\" OR \"函館\" \"choice\")",
+          "attempted_at": "2026-10-15T11:29:10Z",
+          "result": "対象店舗の掲載ページは外部検索では未発見。未掲載確定ではない。"
+        },
+        {
+          "query": "site:hotpepper.jp \"バーチョイス\" \"函館市本町\"",
+          "attempted_at": "2026-10-15T11:29:10Z",
+          "result": "対象店舗の掲載ページは外部検索では未発見。未掲載確定ではない。"
+        }
+      ],
+      "internal_search": {
+        "url": "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=バーチョイス",
+        "attempted_at": "2026-10-15T11:29:10Z",
+        "result": "取得失敗。件数は未取得。"
+      },
+      "reason": "search_failed",
+      "identity_review": {
+        "decision": "pending",
+        "result": "大阪心斎橋の同名店は別店舗。旧資料の梁川町18-23は現公式住所と異なるため、旧住所との継続照合が必要。内部検索取得失敗。"
+      }
+    },
+    {
+      "name": "お酒とチーズ madder",
+      "place": "函館市松風町7-5 大門横丁",
+      "area": "hakodate",
+      "category": "ダイニングバー",
+      "phone": "070-9027-4675",
+      "url": "https://www.instagram.com/_madder_daimon_/",
+      "source": "公式SNS（取得失敗）・地元取材・店舗情報",
+      "address_source": "https://tabelog.com/hokkaido/A0105/A010501/1081984/",
+      "additional_sources": [
+        "https://hakodate.blog/archives/62258",
+        "https://map.yahoo.co.jp/v3/place/jVH7DDUKzq2"
+      ],
+      "note": "大門横丁でチーズ料理と酒を楽しむ店。",
+      "status": "unknown",
+      "type": "restaurant",
+      "date": "",
+      "first_seen": "2026-10-15T11:29:10Z",
+      "address_verified": true,
+      "verified_address": "函館市松風町7-5 大門横丁",
+      "source_checked_at": "2026-10-15T11:29:10Z",
+      "attempted_at": "2026-10-15T11:29:10Z",
+      "name_variants": [
+        "お酒とチーズ madder",
+        "madder",
+        "マダー",
+        "ラビュフェット"
+      ],
+      "external_search_checked": true,
+      "search_queries": [
+        "site:hotpepper.jp \"madder\" 函館",
+        "site:hotpepper.jp (\"070-9027-4675\" OR \"お酒とチーズ\" OR \"函館\" \"マダー\" OR \"函館\" \"madder\")",
+        "site:hotpepper.jp \"ラビュフェット\" 函館"
+      ],
+      "evidence_urls": [
+        "https://tabelog.com/hokkaido/A0105/A010501/1081984/",
+        "https://hakodate.blog/archives/62258",
+        "https://map.yahoo.co.jp/v3/place/jVH7DDUKzq2",
+        "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=madder"
+      ],
+      "search_observations": [
+        {
+          "query": "site:hotpepper.jp \"madder\" 函館",
+          "attempted_at": "2026-10-15T11:29:10Z",
+          "result": "対象店舗の掲載ページは外部検索では未発見。未掲載確定ではない。"
+        },
+        {
+          "query": "site:hotpepper.jp (\"070-9027-4675\" OR \"お酒とチーズ\" OR \"函館\" \"マダー\" OR \"函館\" \"madder\")",
+          "attempted_at": "2026-10-15T11:29:10Z",
+          "result": "対象店舗の掲載ページは外部検索では未発見。未掲載確定ではない。"
+        },
+        {
+          "query": "site:hotpepper.jp \"ラビュフェット\" 函館",
+          "attempted_at": "2026-10-15T11:29:10Z",
+          "result": "対象店舗の掲載ページは外部検索では未発見。未掲載確定ではない。"
+        }
+      ],
+      "internal_search": {
+        "url": "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=madder",
+        "attempted_at": "2026-10-15T11:29:10Z",
+        "result": "取得失敗。件数は未取得。"
+      },
+      "reason": "search_failed",
+      "identity_review": {
+        "decision": "pending",
+        "result": "東京高田馬場のmadderは美容サロンで無関係。旧ラビュフェット跡の新店との口コミがあり、旧店舗対応も含め未確定。内部検索・公式SNS取得失敗。"
+      }
     }
   ],
   "hakodate_directory": [
@@ -10633,57 +10815,245 @@
         "different_branch_url": "https://www.hotpepper.jp/strJ000252426/"
       },
       "reason": "search_failed"
+    },
+    {
+      "name": "やきとり大吉 菊水元町店",
+      "place": "札幌市白石区菊水元町3条1丁目5-16",
+      "area": "shiroishi",
+      "category": "焼き鳥",
+      "phone": "011-874-6133",
+      "url": "https://www.daikichi.co.jp/shop/hokkaido/shop-434/",
+      "source": "チェーン公式",
+      "note": "焼き鳥チェーン。予約客を優先する地域の店。",
+      "status": "listed",
+      "type": "restaurant",
+      "date": "",
+      "first_seen": "2026-10-15T11:29:10Z",
+      "address_verified": true,
+      "verified_address": "札幌市白石区菊水元町3条1丁目5-16",
+      "source_checked_at": "2026-10-15T11:29:10Z",
+      "attempted_at": "2026-10-15T11:29:10Z",
+      "checked_at": "2026-10-15T11:29:10Z",
+      "name_variants": [
+        "やきとり大吉 菊水元町店",
+        "やきとり大吉菊水元町店"
+      ],
+      "external_search_checked": true,
+      "search_queries": [
+        "site:hotpepper.jp \"大吉\" \"菊水元町\""
+      ],
+      "evidence_urls": [
+        "https://www.daikichi.co.jp/shop/hokkaido/shop-434/",
+        "https://www.hotpepper.jp/strJ000254563/"
+      ],
+      "search_observations": [
+        {
+          "query": "site:hotpepper.jp \"大吉\" \"菊水元町\"",
+          "attempted_at": "2026-10-15T11:29:10Z",
+          "result": "該当店舗ページを確認"
+        }
+      ],
+      "reason": "listing_page_verified",
+      "identity_review": {
+        "decision": "listed",
+        "result": "公式住所と店舗ページの番地が一致。予約可否は判定に使用しない。",
+        "candidate_url": "https://www.hotpepper.jp/strJ000254563/"
+      }
+    },
+    {
+      "name": "居酒屋 ひなた",
+      "place": "札幌市手稲区手稲本町1条3丁目2-16",
+      "area": "teine",
+      "category": "居酒屋・焼き鳥",
+      "phone": "011-681-2375",
+      "url": "https://www.teine-hinata.com/",
+      "source": "店舗公式",
+      "note": "国産肉の備長炭焼き鳥と幅広い一品料理。",
+      "status": "listed",
+      "navigation_evidence": "https://www.hotpepper.jp/SA41/Y512/X511/9925110/G004/g046/dst2/",
+      "type": "restaurant",
+      "date": "",
+      "first_seen": "2026-10-15T11:29:10Z",
+      "address_verified": true,
+      "verified_address": "札幌市手稲区手稲本町1条3丁目2-16",
+      "source_checked_at": "2026-10-15T11:29:10Z",
+      "attempted_at": "2026-10-15T11:29:10Z",
+      "checked_at": "2026-10-15T11:29:10Z",
+      "name_variants": [
+        "居酒屋 ひなた",
+        "やき鳥居酒屋ひなた",
+        "やきとり居酒屋ひなた"
+      ],
+      "external_search_checked": true,
+      "search_queries": [
+        "site:hotpepper.jp \"ひなた\" \"手稲本町\"",
+        "site:hotpepper.jp \"やき鳥居酒屋ひなた\""
+      ],
+      "evidence_urls": [
+        "https://www.teine-hinata.com/",
+        "https://www.hotpepper.jp/strJ000252060/"
+      ],
+      "search_observations": [
+        {
+          "query": "site:hotpepper.jp \"ひなた\" \"手稲本町\"",
+          "attempted_at": "2026-10-15T11:29:10Z",
+          "result": "該当店舗ページを確認"
+        },
+        {
+          "query": "site:hotpepper.jp \"やき鳥居酒屋ひなた\"",
+          "attempted_at": "2026-10-15T11:29:10Z",
+          "result": "該当店舗ページを確認"
+        }
+      ],
+      "reason": "listing_page_verified",
+      "identity_review": {
+        "decision": "listed",
+        "result": "公式住所と店舗ページの番地が一致。予約可否は判定に使用しない。",
+        "candidate_url": "https://www.hotpepper.jp/strJ000252060/"
+      }
+    },
+    {
+      "name": "四喜彩一久",
+      "place": "札幌市清田区北野7条1丁目7-10 第一長井ビル1F",
+      "area": "kiyota",
+      "category": "和食居酒屋",
+      "phone": "011-836-5019",
+      "url": "https://www.shikisai-ikkyu.com/shop.html",
+      "source": "店舗公式",
+      "note": "枝幸の食材を生かす和食と季節の日本酒。",
+      "status": "unknown",
+      "type": "restaurant",
+      "date": "",
+      "first_seen": "2026-10-15T11:29:10Z",
+      "address_verified": true,
+      "verified_address": "札幌市清田区北野7条1丁目7-10 第一長井ビル1F",
+      "source_checked_at": "2026-10-15T11:29:10Z",
+      "attempted_at": "2026-10-15T11:29:10Z",
+      "name_variants": [
+        "四喜彩一久",
+        "四喜彩 一久",
+        "シキサイイッキュウ",
+        "しきさいいっきゅう"
+      ],
+      "external_search_checked": true,
+      "search_queries": [
+        "site:hotpepper.jp \"四喜彩一久\"",
+        "site:hotpepper.jp \"四喜彩\" \"一久\"",
+        "site:hotpepper.jp (\"011-836-5019\" OR \"四喜彩一久\" OR \"シキサイイッキュウ\" OR \"北野7条1丁目7-10\")"
+      ],
+      "evidence_urls": [
+        "https://www.shikisai-ikkyu.com/shop.html",
+        "https://www.hotpepper.jp/SA41/ff/?FWT=四喜彩一久"
+      ],
+      "search_observations": [
+        {
+          "query": "site:hotpepper.jp \"四喜彩一久\"",
+          "attempted_at": "2026-10-15T11:29:10Z",
+          "result": "対象店舗の掲載ページは外部検索では未発見。未掲載確定ではない。"
+        },
+        {
+          "query": "site:hotpepper.jp \"四喜彩\" \"一久\"",
+          "attempted_at": "2026-10-15T11:29:10Z",
+          "result": "対象店舗の掲載ページは外部検索では未発見。未掲載確定ではない。"
+        },
+        {
+          "query": "site:hotpepper.jp (\"011-836-5019\" OR \"四喜彩一久\" OR \"シキサイイッキュウ\" OR \"北野7条1丁目7-10\")",
+          "attempted_at": "2026-10-15T11:29:10Z",
+          "result": "対象店舗の掲載ページは外部検索では未発見。未掲載確定ではない。"
+        }
+      ],
+      "internal_search": {
+        "url": "https://www.hotpepper.jp/SA41/ff/?FWT=四喜彩一久",
+        "attempted_at": "2026-10-15T11:29:10Z",
+        "result": "取得失敗。件数は未取得。"
+      },
+      "reason": "search_failed",
+      "identity_review": {
+        "decision": "pending",
+        "result": "東京・水天宮前の一久は別地域の店舗。閉店・移転の根拠は今回の外部検索では発見せず。内部検索取得失敗。"
+      }
     }
   ],
   "directory_research": {
-    "attempted_at": "2026-10-15T07:37:19Z",
-    "reviewed_candidates": 6,
+    "attempted_at": "2026-10-15T11:29:10Z",
+    "reviewed_candidates": 7,
+    "new_candidates": 5,
+    "prior_candidates_researched": 2,
     "sapporo": {
-      "reviewed": 4,
-      "listed": 3,
+      "reviewed": 3,
+      "listed": 2,
       "pending": 1,
       "new_not_found": 0,
       "visited_wards": [
-        "kita",
-        "higashi",
-        "atsubetsu",
-        "minami"
+        "shiroishi",
+        "kiyota",
+        "teine"
       ],
       "not_visited_this_run": [
         "chuo",
-        "shiroishi",
+        "kita",
+        "higashi",
+        "atsubetsu",
         "toyohira",
+        "minami",
+        "nishi"
+      ],
+      "cumulative_visited_wards": [
+        "kita",
+        "higashi",
+        "atsubetsu",
+        "minami",
+        "shiroishi",
         "kiyota",
-        "nishi",
         "teine"
       ],
+      "not_visited_for_directory": [
+        "chuo",
+        "toyohira",
+        "nishi"
+      ],
       "next_wards": [
-        "shiroishi",
-        "kiyota",
-        "teine"
+        "toyohira",
+        "nishi",
+        "chuo"
       ]
     },
     "hakodate": {
-      "reviewed": 2,
-      "pending": 2,
+      "reviewed": 4,
+      "new_candidates": 2,
+      "listed": 0,
+      "pending": 4,
       "new_not_found": 0,
       "visited": [
-        "宝来町",
-        "日吉町"
+        "松風町・大門横丁",
+        "本町"
+      ],
+      "prior_identity_recheck": [
+        "宝来東屋",
+        "秀華"
       ],
       "next": [
-        "大門地区",
-        "湯の川地区"
+        "湯の川地区",
+        "大門地区の食堂"
       ]
     },
     "new_events": {
-      "chuo": 1,
-      "hakodate": 1
+      "kiyota": 2,
+      "hakodate": 0
     },
+    "new_closures": 0,
     "limitations": [
-      "内部検索取得失敗の候補は未掲載確定にしない",
-      "全10区の網羅調査は未実施",
-      "開店閉店と日付不問一覧は分離"
+      "内部検索3候補で取得失敗。0件とは扱わない。",
+      "函館madder公式SNS取得失敗。地元記事・店舗情報を記録し保留。",
+      "全10区の網羅調査ではない。",
+      "宝来東屋・秀華は新たな電話一致根拠なし。前回の確認日を更新しない。"
+    ],
+    "opening_sources_checked": [
+      "https://chamonix-cakes.com/category/新店情報/札幌市清田区の新店情報/",
+      "https://mogtrip.jp/newopen-2026/?PageSpeed=noscript",
+      "https://mogtrip.jp/closed-2026/",
+      "https://www.shopship.jp/shiroishi/",
+      "https://www.shopship.jp/hakodate/open-close/?sort=open_date_desc"
     ]
   }
 }

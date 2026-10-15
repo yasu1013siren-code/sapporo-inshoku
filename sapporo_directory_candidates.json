@@ -140,5 +140,162 @@
       "different_branch_url": "https://www.hotpepper.jp/strJ000252426/"
     },
     "reason": "search_failed"
+  },
+  {
+    "name": "やきとり大吉 菊水元町店",
+    "place": "札幌市白石区菊水元町3条1丁目5-16",
+    "area": "shiroishi",
+    "category": "焼き鳥",
+    "phone": "011-874-6133",
+    "url": "https://www.daikichi.co.jp/shop/hokkaido/shop-434/",
+    "source": "チェーン公式",
+    "note": "焼き鳥チェーン。予約客を優先する地域の店。",
+    "status": "listed",
+    "type": "restaurant",
+    "date": "",
+    "first_seen": "2026-10-15T11:29:10Z",
+    "address_verified": true,
+    "verified_address": "札幌市白石区菊水元町3条1丁目5-16",
+    "source_checked_at": "2026-10-15T11:29:10Z",
+    "attempted_at": "2026-10-15T11:29:10Z",
+    "checked_at": "2026-10-15T11:29:10Z",
+    "name_variants": [
+      "やきとり大吉 菊水元町店",
+      "やきとり大吉菊水元町店"
+    ],
+    "external_search_checked": true,
+    "search_queries": [
+      "site:hotpepper.jp \"大吉\" \"菊水元町\""
+    ],
+    "evidence_urls": [
+      "https://www.daikichi.co.jp/shop/hokkaido/shop-434/",
+      "https://www.hotpepper.jp/strJ000254563/"
+    ],
+    "search_observations": [
+      {
+        "query": "site:hotpepper.jp \"大吉\" \"菊水元町\"",
+        "attempted_at": "2026-10-15T11:29:10Z",
+        "result": "該当店舗ページを確認"
+      }
+    ],
+    "reason": "listing_page_verified",
+    "identity_review": {
+      "decision": "listed",
+      "result": "公式住所と店舗ページの番地が一致。予約可否は判定に使用しない。",
+      "candidate_url": "https://www.hotpepper.jp/strJ000254563/"
+    }
+  },
+  {
+    "name": "居酒屋 ひなた",
+    "place": "札幌市手稲区手稲本町1条3丁目2-16",
+    "area": "teine",
+    "category": "居酒屋・焼き鳥",
+    "phone": "011-681-2375",
+    "url": "https://www.teine-hinata.com/",
+    "source": "店舗公式",
+    "note": "国産肉の備長炭焼き鳥と幅広い一品料理。",
+    "status": "listed",
+    "navigation_evidence": "https://www.hotpepper.jp/SA41/Y512/X511/9925110/G004/g046/dst2/",
+    "type": "restaurant",
+    "date": "",
+    "first_seen": "2026-10-15T11:29:10Z",
+    "address_verified": true,
+    "verified_address": "札幌市手稲区手稲本町1条3丁目2-16",
+    "source_checked_at": "2026-10-15T11:29:10Z",
+    "attempted_at": "2026-10-15T11:29:10Z",
+    "checked_at": "2026-10-15T11:29:10Z",
+    "name_variants": [
+      "居酒屋 ひなた",
+      "やき鳥居酒屋ひなた",
+      "やきとり居酒屋ひなた"
+    ],
+    "external_search_checked": true,
+    "search_queries": [
+      "site:hotpepper.jp \"ひなた\" \"手稲本町\"",
+      "site:hotpepper.jp \"やき鳥居酒屋ひなた\""
+    ],
+    "evidence_urls": [
+      "https://www.teine-hinata.com/",
+      "https://www.hotpepper.jp/strJ000252060/"
+    ],
+    "search_observations": [
+      {
+        "query": "site:hotpepper.jp \"ひなた\" \"手稲本町\"",
+        "attempted_at": "2026-10-15T11:29:10Z",
+        "result": "該当店舗ページを確認"
+      },
+      {
+        "query": "site:hotpepper.jp \"やき鳥居酒屋ひなた\"",
+        "attempted_at": "2026-10-15T11:29:10Z",
+        "result": "該当店舗ページを確認"
+      }
+    ],
+    "reason": "listing_page_verified",
+    "identity_review": {
+      "decision": "listed",
+      "result": "公式住所と店舗ページの番地が一致。予約可否は判定に使用しない。",
+      "candidate_url": "https://www.hotpepper.jp/strJ000252060/"
+    }
+  },
+  {
+    "name": "四喜彩一久",
+    "place": "札幌市清田区北野7条1丁目7-10 第一長井ビル1F",
+    "area": "kiyota",
+    "category": "和食居酒屋",
+    "phone": "011-836-5019",
+    "url": "https://www.shikisai-ikkyu.com/shop.html",
+    "source": "店舗公式",
+    "note": "枝幸の食材を生かす和食と季節の日本酒。",
+    "status": "unknown",
+    "type": "restaurant",
+    "date": "",
+    "first_seen": "2026-10-15T11:29:10Z",
+    "address_verified": true,
+    "verified_address": "札幌市清田区北野7条1丁目7-10 第一長井ビル1F",
+    "source_checked_at": "2026-10-15T11:29:10Z",
+    "attempted_at": "2026-10-15T11:29:10Z",
+    "name_variants": [
+      "四喜彩一久",
+      "四喜彩 一久",
+      "シキサイイッキュウ",
+      "しきさいいっきゅう"
+    ],
+    "external_search_checked": true,
+    "search_queries": [
+      "site:hotpepper.jp \"四喜彩一久\"",
+      "site:hotpepper.jp \"四喜彩\" \"一久\"",
+      "site:hotpepper.jp (\"011-836-5019\" OR \"四喜彩一久\" OR \"シキサイイッキュウ\" OR \"北野7条1丁目7-10\")"
+    ],
+    "evidence_urls": [
+      "https://www.shikisai-ikkyu.com/shop.html",
+      "https://www.hotpepper.jp/SA41/ff/?FWT=四喜彩一久"
+    ],
+    "search_observations": [
+      {
+        "query": "site:hotpepper.jp \"四喜彩一久\"",
+        "attempted_at": "2026-10-15T11:29:10Z",
+        "result": "対象店舗の掲載ページは外部検索では未発見。未掲載確定ではない。"
+      },
+      {
+        "query": "site:hotpepper.jp \"四喜彩\" \"一久\"",
+        "attempted_at": "2026-10-15T11:29:10Z",
+        "result": "対象店舗の掲載ページは外部検索では未発見。未掲載確定ではない。"
+      },
+      {
+        "query": "site:hotpepper.jp (\"011-836-5019\" OR \"四喜彩一久\" OR \"シキサイイッキュウ\" OR \"北野7条1丁目7-10\")",
+        "attempted_at": "2026-10-15T11:29:10Z",
+        "result": "対象店舗の掲載ページは外部検索では未発見。未掲載確定ではない。"
+      }
+    ],
+    "internal_search": {
+      "url": "https://www.hotpepper.jp/SA41/ff/?FWT=四喜彩一久",
+      "attempted_at": "2026-10-15T11:29:10Z",
+      "result": "取得失敗。件数は未取得。"
+    },
+    "reason": "search_failed",
+    "identity_review": {
+      "decision": "pending",
+      "result": "東京・水天宮前の一久は別地域の店舗。閉店・移転の根拠は今回の外部検索では発見せず。内部検索取得失敗。"
+    }
   }
 ]

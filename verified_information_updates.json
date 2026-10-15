@@ -54,57 +54,194 @@
       "source_checked_at": "2026-10-15T07:37:19Z",
       "source_count": 2,
       "confidence": 0.85
+    },
+    {
+      "area": "kiyota",
+      "name": "CREPE LAB",
+      "title": "CREPE LAB",
+      "place": "札幌市清田区清田3条1丁目2-5 コーポアフロス1F",
+      "category": "クレープ",
+      "date": "2026-09-19",
+      "type": "open",
+      "note": "クレープ店。9月19日開店、公式SNSはcrepelab.coffee。",
+      "url": "https://chamonix-cakes.com/kaiten-ab5jvpys1xgqnr2bno/",
+      "official_url": "https://www.instagram.com/crepelab.coffee/",
+      "source": "札幌開店閉店インフォ",
+      "sources": [
+        {
+          "name": "札幌開店閉店インフォ",
+          "url": "https://chamonix-cakes.com/kaiten-ab5jvpys1xgqnr2bno/"
+        },
+        {
+          "name": "食べログ店舗情報",
+          "url": "https://tabelog.com/tw/hokkaido/A0101/A010304/1086273/"
+        }
+      ],
+      "confidence": 0.85,
+      "first_seen": "2026-10-15T11:29:10Z",
+      "source_checked_at": "2026-10-15T11:29:10Z",
+      "source_count": 2
+    },
+    {
+      "area": "kiyota",
+      "name": "すき家 札幌平岡店",
+      "title": "すき家 札幌平岡店",
+      "place": "札幌市清田区平岡8条1丁目1-5",
+      "category": "牛丼",
+      "date": "2026-12",
+      "type": "upcoming",
+      "note": "12月開店予定。株式会社すき家の採用情報で確認。",
+      "url": "https://en-gage.net/user/search/desc/18344681/",
+      "source": "株式会社すき家・採用情報",
+      "sources": [
+        {
+          "name": "株式会社すき家・採用情報",
+          "url": "https://en-gage.net/user/search/desc/18344681/"
+        },
+        {
+          "name": "イーアイデム求人",
+          "url": "https://www.e-aidem.com/aps/04_AE0918289521_detail.htm"
+        }
+      ],
+      "confidence": 0.9,
+      "first_seen": "2026-10-15T11:29:10Z",
+      "source_checked_at": "2026-10-15T11:29:10Z",
+      "source_count": 2
     }
   ],
   "research": {
-    "attempted_at": "2026-10-15T07:37:19Z",
-    "reviewed_candidates": 6,
+    "attempted_at": "2026-10-15T11:29:10Z",
+    "reviewed_candidates": 7,
+    "new_candidates": 5,
+    "prior_candidates_researched": 2,
     "sapporo": {
-      "reviewed": 4,
-      "listed": 3,
+      "reviewed": 3,
+      "listed": 2,
       "pending": 1,
       "new_not_found": 0,
       "visited_wards": [
-        "kita",
-        "higashi",
-        "atsubetsu",
-        "minami"
+        "shiroishi",
+        "kiyota",
+        "teine"
       ],
       "not_visited_this_run": [
         "chuo",
-        "shiroishi",
+        "kita",
+        "higashi",
+        "atsubetsu",
         "toyohira",
+        "minami",
+        "nishi"
+      ],
+      "cumulative_visited_wards": [
+        "kita",
+        "higashi",
+        "atsubetsu",
+        "minami",
+        "shiroishi",
         "kiyota",
-        "nishi",
         "teine"
       ],
+      "not_visited_for_directory": [
+        "chuo",
+        "toyohira",
+        "nishi"
+      ],
       "next_wards": [
-        "shiroishi",
-        "kiyota",
-        "teine"
+        "toyohira",
+        "nishi",
+        "chuo"
       ]
     },
     "hakodate": {
-      "reviewed": 2,
-      "pending": 2,
+      "reviewed": 4,
+      "new_candidates": 2,
+      "listed": 0,
+      "pending": 4,
       "new_not_found": 0,
       "visited": [
-        "宝来町",
-        "日吉町"
+        "松風町・大門横丁",
+        "本町"
+      ],
+      "prior_identity_recheck": [
+        "宝来東屋",
+        "秀華"
       ],
       "next": [
-        "大門地区",
-        "湯の川地区"
+        "湯の川地区",
+        "大門地区の食堂"
       ]
     },
     "new_events": {
-      "chuo": 1,
-      "hakodate": 1
+      "kiyota": 2,
+      "hakodate": 0
     },
+    "new_closures": 0,
     "limitations": [
-      "内部検索取得失敗の候補は未掲載確定にしない",
-      "全10区の網羅調査は未実施",
-      "開店閉店と日付不問一覧は分離"
+      "内部検索3候補で取得失敗。0件とは扱わない。",
+      "函館madder公式SNS取得失敗。地元記事・店舗情報を記録し保留。",
+      "全10区の網羅調査ではない。",
+      "宝来東屋・秀華は新たな電話一致根拠なし。前回の確認日を更新しない。"
+    ],
+    "opening_sources_checked": [
+      "https://chamonix-cakes.com/category/新店情報/札幌市清田区の新店情報/",
+      "https://mogtrip.jp/newopen-2026/?PageSpeed=noscript",
+      "https://mogtrip.jp/closed-2026/",
+      "https://www.shopship.jp/shiroishi/",
+      "https://www.shopship.jp/hakodate/open-close/?sort=open_date_desc"
     ]
-  }
+  },
+  "research_history": [
+    {
+      "attempted_at": "2026-10-15T07:37:19Z",
+      "reviewed_candidates": 6,
+      "sapporo": {
+        "reviewed": 4,
+        "listed": 3,
+        "pending": 1,
+        "new_not_found": 0,
+        "visited_wards": [
+          "kita",
+          "higashi",
+          "atsubetsu",
+          "minami"
+        ],
+        "not_visited_this_run": [
+          "chuo",
+          "shiroishi",
+          "toyohira",
+          "kiyota",
+          "nishi",
+          "teine"
+        ],
+        "next_wards": [
+          "shiroishi",
+          "kiyota",
+          "teine"
+        ]
+      },
+      "hakodate": {
+        "reviewed": 2,
+        "pending": 2,
+        "new_not_found": 0,
+        "visited": [
+          "宝来町",
+          "日吉町"
+        ],
+        "next": [
+          "大門地区",
+          "湯の川地区"
+        ]
+      },
+      "new_events": {
+        "chuo": 1,
+        "hakodate": 1
+      },
+      "limitations": [
+        "内部検索取得失敗の候補は未掲載確定にしない",
+        "全10区の網羅調査は未実施",
+        "開店閉店と日付不問一覧は分離"
+      ]
+    }
+  ]
 }

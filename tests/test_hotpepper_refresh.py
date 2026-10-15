@@ -18,9 +18,22 @@ class LiveCheckTests(unittest.TestCase):
     def test_zero_requires_verified_address(self, search):
         item={'name':'Test','place':'函館市'}
         self.assertEqual(check(item,None)['status'],'unknown')
-        self.assertEqual(check(item,{'verified_address':'函館市本町1-1'})['status'],'not_found')
+        record=check(item,{'verified_address':'函館市本町1-1'})
+        self.assertEqual(record['status'],'unknown')
+        self.assertEqual(record['reason'],'external_search_review_required')
     @patch('hotpepper_refresh.search',return_value=('https://www.hotpepper.jp/SA41/Y883/ff/?FWT=Test',1))
     def test_result_requires_identity_review(self, search):
         self.assertEqual(check({'name':'Test','place':'函館市'}, {'verified_address':'函館市本町1-1'})['status'],'unknown')
+
+    @patch('hotpepper_refresh.search',return_value=('https://www.hotpepper.jp/SA41/Y883/ff/?FWT=Test',0))
+    def test_stale_external_review_cannot_be_inherited(self, search):
+        item={'name':'Test','place':'函館市本町1-1'}
+        prior=dict(item,status='not_found',verified_address=item['place'],
+                   checked_at='2020-01-01T00:00:00+09:00',
+                   external_search_checked=True,
+                   identity_review={'decision':'not_found'})
+        record=check(item,prior)
+        self.assertEqual(record['status'],'unknown')
+        self.assertEqual(record['reason'],'external_search_review_required')
 
 if __name__=='__main__': unittest.main()

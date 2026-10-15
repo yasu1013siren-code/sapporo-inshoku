@@ -233,5 +233,133 @@
     "date": "",
     "address_verified": true,
     "category": "居酒屋・小料理"
+  },
+  {
+    "name": "バーチョイス",
+    "place": "函館市本町32-13 第4LC館1F",
+    "area": "hakodate",
+    "category": "バー",
+    "phone": "080-6062-2951",
+    "url": "https://bar-choice.com/",
+    "source": "店舗公式",
+    "note": "立ち飲みもっきり風のバー。昼はカラオケも営業。",
+    "status": "unknown",
+    "type": "restaurant",
+    "date": "",
+    "first_seen": "2026-10-15T11:29:10Z",
+    "address_verified": true,
+    "verified_address": "函館市本町32-13 第4LC館1F",
+    "source_checked_at": "2026-10-15T11:29:10Z",
+    "attempted_at": "2026-10-15T11:29:10Z",
+    "name_variants": [
+      "バーチョイス",
+      "BAR CHOICE",
+      "Bar Choice"
+    ],
+    "external_search_checked": true,
+    "search_queries": [
+      "site:hotpepper.jp \"バーチョイス\" 函館",
+      "site:hotpepper.jp (\"080-6062-2951\" OR \"0138\" \"チョイス\" OR \"函館\" \"choice\")",
+      "site:hotpepper.jp \"バーチョイス\" \"函館市本町\""
+    ],
+    "evidence_urls": [
+      "https://bar-choice.com/",
+      "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=バーチョイス"
+    ],
+    "search_observations": [
+      {
+        "query": "site:hotpepper.jp \"バーチョイス\" 函館",
+        "attempted_at": "2026-10-15T11:29:10Z",
+        "result": "対象店舗の掲載ページは外部検索では未発見。未掲載確定ではない。"
+      },
+      {
+        "query": "site:hotpepper.jp (\"080-6062-2951\" OR \"0138\" \"チョイス\" OR \"函館\" \"choice\")",
+        "attempted_at": "2026-10-15T11:29:10Z",
+        "result": "対象店舗の掲載ページは外部検索では未発見。未掲載確定ではない。"
+      },
+      {
+        "query": "site:hotpepper.jp \"バーチョイス\" \"函館市本町\"",
+        "attempted_at": "2026-10-15T11:29:10Z",
+        "result": "対象店舗の掲載ページは外部検索では未発見。未掲載確定ではない。"
+      }
+    ],
+    "internal_search": {
+      "url": "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=バーチョイス",
+      "attempted_at": "2026-10-15T11:29:10Z",
+      "result": "取得失敗。件数は未取得。"
+    },
+    "reason": "search_failed",
+    "identity_review": {
+      "decision": "pending",
+      "result": "大阪心斎橋の同名店は別店舗。旧資料の梁川町18-23は現公式住所と異なるため、旧住所との継続照合が必要。内部検索取得失敗。"
+    }
+  },
+  {
+    "name": "お酒とチーズ madder",
+    "place": "函館市松風町7-5 大門横丁",
+    "area": "hakodate",
+    "category": "ダイニングバー",
+    "phone": "070-9027-4675",
+    "url": "https://www.instagram.com/_madder_daimon_/",
+    "source": "公式SNS（取得失敗）・地元取材・店舗情報",
+    "address_source": "https://tabelog.com/hokkaido/A0105/A010501/1081984/",
+    "additional_sources": [
+      "https://hakodate.blog/archives/62258",
+      "https://map.yahoo.co.jp/v3/place/jVH7DDUKzq2"
+    ],
+    "note": "大門横丁でチーズ料理と酒を楽しむ店。",
+    "status": "unknown",
+    "type": "restaurant",
+    "date": "",
+    "first_seen": "2026-10-15T11:29:10Z",
+    "address_verified": true,
+    "verified_address": "函館市松風町7-5 大門横丁",
+    "source_checked_at": "2026-10-15T11:29:10Z",
+    "attempted_at": "2026-10-15T11:29:10Z",
+    "name_variants": [
+      "お酒とチーズ madder",
+      "madder",
+      "マダー",
+      "ラビュフェット"
+    ],
+    "external_search_checked": true,
+    "search_queries": [
+      "site:hotpepper.jp \"madder\" 函館",
+      "site:hotpepper.jp (\"070-9027-4675\" OR \"お酒とチーズ\" OR \"函館\" \"マダー\" OR \"函館\" \"madder\")",
+      "site:hotpepper.jp \"ラビュフェット\" 函館"
+    ],
+    "evidence_urls": [
+      "https://tabelog.com/hokkaido/A0105/A010501/1081984/",
+      "https://hakodate.blog/archives/62258",
+      "https://map.yahoo.co.jp/v3/place/jVH7DDUKzq2",
+      "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=madder"
+    ],
+    "search_observations": [
+      {
+        "query": "site:hotpepper.jp \"madder\" 函館",
+        "attempted_at": "2026-10-15T11:29:10Z",
+        "result": "対象店舗の掲載ページは外部検索では未発見。未掲載確定ではない。"
+      },
+      {
+        "query": "site:hotpepper.jp (\"070-9027-4675\" OR \"お酒とチーズ\" OR \"函館\" \"マダー\" OR \"函館\" \"madder\")",
+        "attempted_at": "2026-10-15T11:29:10Z",
+        "result": "対象店舗の掲載ページは外部検索では未発見。未掲載確定ではない。"
+      },
+      {
+        "query": "site:hotpepper.jp \"ラビュフェット\" 函館",
+        "attempted_at": "2026-10-15T11:29:10Z",
+        "result": "対象店舗の掲載ページは外部検索では未発見。未掲載確定ではない。"
+      }
+    ],
+    "internal_search": {
+      "url": "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=madder",
+      "attempted_at": "2026-10-15T11:29:10Z",
+      "result": "取得失敗。件数は未取得。"
+    },
+    "reason": "search_failed",
+    "identity_review": {
+      "decision": "pending",
+      "result": "東京高田馬場のmadderは美容サロンで無関係。旧ラビュフェット跡の新店との口コミがあり、旧店舗対応も含め未確定。内部検索・公式SNS取得失敗。"
+    }
   }
 ]

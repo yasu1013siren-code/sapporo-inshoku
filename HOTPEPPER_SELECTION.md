@@ -15,3 +15,7 @@ Windowsの次回 run_and_publish.bat で新処理を実行。店舗全件の実�
 ## 札幌10区の別枠（2026-10-15）
 
 札幌の開店・閉店情報は areas の既存10区へ保持し、日付不問の店舗候補は sapporo_directory_candidates.json と news.json の sapporo_directory（区別）へ分離。掲載あり・内部検索失敗・同一性未確定は公開一覧から除外する。verified_information.py は検証済み追加を収集後へ差分統合する。今回の巡回先・未巡回・次回候補は verified_information_updates.json の research に保存。候補照合は全地域合計5〜10件を目安にし、内部検索0件のみでは未掲載確定にしない。
+
+## 内部検索だけの否定判定を禁止（2026-10-15夜）
+
+hotpepper_refresh.check は店名・住所による内部検索がすべて0件でも unknown / external_search_review_required として返す。外部検索・旧名・別表記・同一性の追加照合を別途保存するまで未掲載一覧へ自動昇格しない。新規候補と保留、巡回履歴は前回記録に追記し、今回再確認していない checked_at は変更しない。

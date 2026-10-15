@@ -65,10 +65,12 @@ def check(item, prior):
         if address_ok:
             url,count=search(address.replace('北海道',''))
             evidence.append(url); counts.append(count)
-        result.update(status='not_found' if address_ok and all(c == 0 for c in counts) else 'unknown',
+        # Internal zero counts alone never establish absence. External identity
+        # review must be recorded separately; do not inherit an old negative check.
+        result.update(status='unknown',
             checked_at=datetime.now(JST).isoformat(), evidence_urls=evidence,
             result_counts=counts, name_variants_checked=True, address_checked=address_ok,
-            reason='all_verified_queries_zero' if address_ok and all(c == 0 for c in counts) else 'requires_identity_review')
+            reason='external_search_review_required' if address_ok and all(c == 0 for c in counts) else 'requires_identity_review')
         result.pop('error',None)
     except Exception as exc:
         result.update(status='unknown',reason='search_failed',error=type(exc).__name__)
