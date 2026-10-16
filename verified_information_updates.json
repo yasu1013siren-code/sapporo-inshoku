@@ -107,50 +107,102 @@
       "first_seen": "2026-10-15T11:29:10Z",
       "source_checked_at": "2026-10-15T11:29:10Z",
       "source_count": 2
+    },
+    {
+      "area": "toyohira",
+      "name": "ひゃくや 平岸駅前店",
+      "title": "ひゃくや 平岸駅前店",
+      "place": "札幌市豊平区平岸2条7丁目3-16",
+      "category": "居酒屋",
+      "date": "2026-10-22",
+      "type": "upcoming",
+      "note": "10月22日開店予定。全52席、のれんで仕切る個室居酒屋。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000005.000163231.html",
+      "source": "運営会社の公式プレスリリース",
+      "official_url": "https://www.hotpepper.jp/strJ004698752/",
+      "sources": [
+        {
+          "name": "株式会社Zeal's Planning公式発表",
+          "url": "https://prtimes.jp/main/html/rd/p/000000005.000163231.html"
+        },
+        {
+          "name": "札幌速報・開店閉店一覧",
+          "url": "https://sapporo-sokuho.com/archives/post-3016.html"
+        }
+      ],
+      "confidence": 0.95,
+      "first_seen": "2026-10-16T11:37:26Z",
+      "source_checked_at": "2026-10-16T11:37:26Z",
+      "source_count": 2
+    },
+    {
+      "area": "toyohira",
+      "name": "Le Pâttissier FURUTA 〜Salon de thé〜",
+      "title": "Le Pâttissier FURUTA 〜Salon de thé〜",
+      "place": "札幌市豊平区月寒西1条11丁目1-5",
+      "category": "カフェ",
+      "date": "2026-10-18",
+      "type": "closed",
+      "note": "10月18日閉店予定。月寒のサロン・ド・テ店舗。",
+      "url": "https://chamonix-cakes.com/heiten-abu5b3muajvzbf2bnc/",
+      "source": "札幌開店閉店インフォ",
+      "sources": [
+        {
+          "name": "札幌開店閉店インフォ",
+          "url": "https://chamonix-cakes.com/heiten-abu5b3muajvzbf2bnc/"
+        },
+        {
+          "name": "札幌速報・開店閉店一覧",
+          "url": "https://sapporo-sokuho.com/archives/post-3016.html"
+        }
+      ],
+      "verification_note": "地元情報2媒体の閉店予定が一致。公式の閉店告知本文は未取得。ブランド全店の閉店とは扱わない。",
+      "confidence": 0.8,
+      "first_seen": "2026-10-16T11:37:26Z",
+      "source_checked_at": "2026-10-16T11:37:26Z",
+      "source_count": 2
     }
   ],
   "research": {
-    "attempted_at": "2026-10-15T11:29:10Z",
+    "attempted_at": "2026-10-16T11:37:26Z",
     "reviewed_candidates": 7,
     "new_candidates": 5,
     "prior_candidates_researched": 2,
     "sapporo": {
       "reviewed": 3,
-      "listed": 2,
-      "pending": 1,
+      "listed": 1,
+      "pending": 2,
       "new_not_found": 0,
       "visited_wards": [
-        "shiroishi",
-        "kiyota",
-        "teine"
-      ],
-      "not_visited_this_run": [
-        "chuo",
-        "kita",
-        "higashi",
-        "atsubetsu",
-        "toyohira",
-        "minami",
-        "nishi"
-      ],
-      "cumulative_visited_wards": [
-        "kita",
-        "higashi",
-        "atsubetsu",
-        "minami",
-        "shiroishi",
-        "kiyota",
-        "teine"
-      ],
-      "not_visited_for_directory": [
-        "chuo",
-        "toyohira",
-        "nishi"
-      ],
-      "next_wards": [
         "toyohira",
         "nishi",
         "chuo"
+      ],
+      "not_visited_this_run": [
+        "kita",
+        "higashi",
+        "shiroishi",
+        "atsubetsu",
+        "kiyota",
+        "minami",
+        "teine"
+      ],
+      "cumulative_visited_wards": [
+        "chuo",
+        "kita",
+        "higashi",
+        "shiroishi",
+        "atsubetsu",
+        "toyohira",
+        "kiyota",
+        "minami",
+        "nishi",
+        "teine"
+      ],
+      "next_wards": [
+        "kita",
+        "higashi",
+        "atsubetsu"
       ]
     },
     "hakodate": {
@@ -160,34 +212,36 @@
       "pending": 4,
       "new_not_found": 0,
       "visited": [
-        "松風町・大門横丁",
-        "本町"
+        "湯川町"
       ],
-      "prior_identity_recheck": [
+      "prior_identity_followup": [
         "宝来東屋",
         "秀華"
       ],
       "next": [
-        "湯の川地区",
-        "大門地区の食堂"
+        "大門地区の食堂",
+        "亀田・美原の居酒屋"
       ]
     },
     "new_events": {
-      "kiyota": 2,
+      "toyohira": 1,
       "hakodate": 0
     },
-    "new_closures": 0,
+    "new_closures": {
+      "toyohira": 1,
+      "hakodate": 0
+    },
     "limitations": [
-      "内部検索3候補で取得失敗。0件とは扱わない。",
-      "函館madder公式SNS取得失敗。地元記事・店舗情報を記録し保留。",
-      "全10区の網羅調査ではない。",
-      "宝来東屋・秀華は新たな電話一致根拠なし。前回の確認日を更新しない。"
+      "新規4候補の内部検索取得失敗。外部検索未発見のみでは未掲載にしない。",
+      "宝来東屋・秀華の外部追加検索で新根拠なし。checked_atは保持。",
+      "全10区の毎回網羅ではなく巡回調査。",
+      "FURUTAは地元2媒体による閉店予定。公式告知本文は未取得。"
     ],
     "opening_sources_checked": [
-      "https://chamonix-cakes.com/category/新店情報/札幌市清田区の新店情報/",
-      "https://mogtrip.jp/newopen-2026/?PageSpeed=noscript",
+      "https://sapporo-sokuho.com/archives/post-3016.html",
+      "https://www.shopship.jp/sapporo/open-close/",
+      "https://www.shopship.jp/chuo/open-close/",
       "https://mogtrip.jp/closed-2026/",
-      "https://www.shopship.jp/shiroishi/",
       "https://www.shopship.jp/hakodate/open-close/?sort=open_date_desc"
     ]
   },
@@ -241,6 +295,88 @@
         "内部検索取得失敗の候補は未掲載確定にしない",
         "全10区の網羅調査は未実施",
         "開店閉店と日付不問一覧は分離"
+      ]
+    },
+    {
+      "attempted_at": "2026-10-15T11:29:10Z",
+      "reviewed_candidates": 7,
+      "new_candidates": 5,
+      "prior_candidates_researched": 2,
+      "sapporo": {
+        "reviewed": 3,
+        "listed": 2,
+        "pending": 1,
+        "new_not_found": 0,
+        "visited_wards": [
+          "shiroishi",
+          "kiyota",
+          "teine"
+        ],
+        "not_visited_this_run": [
+          "chuo",
+          "kita",
+          "higashi",
+          "atsubetsu",
+          "toyohira",
+          "minami",
+          "nishi"
+        ],
+        "cumulative_visited_wards": [
+          "kita",
+          "higashi",
+          "atsubetsu",
+          "minami",
+          "shiroishi",
+          "kiyota",
+          "teine"
+        ],
+        "not_visited_for_directory": [
+          "chuo",
+          "toyohira",
+          "nishi"
+        ],
+        "next_wards": [
+          "toyohira",
+          "nishi",
+          "chuo"
+        ]
+      },
+      "hakodate": {
+        "reviewed": 4,
+        "new_candidates": 2,
+        "listed": 0,
+        "pending": 4,
+        "new_not_found": 0,
+        "visited": [
+          "松風町・大門横丁",
+          "本町"
+        ],
+        "prior_identity_recheck": [
+          "宝来東屋",
+          "秀華"
+        ],
+        "next": [
+          "湯の川地区",
+          "大門地区の食堂"
+        ]
+      },
+      "new_events": {
+        "kiyota": 2,
+        "hakodate": 0
+      },
+      "new_closures": 0,
+      "limitations": [
+        "内部検索3候補で取得失敗。0件とは扱わない。",
+        "函館madder公式SNS取得失敗。地元記事・店舗情報を記録し保留。",
+        "全10区の網羅調査ではない。",
+        "宝来東屋・秀華は新たな電話一致根拠なし。前回の確認日を更新しない。"
+      ],
+      "opening_sources_checked": [
+        "https://chamonix-cakes.com/category/新店情報/札幌市清田区の新店情報/",
+        "https://mogtrip.jp/newopen-2026/?PageSpeed=noscript",
+        "https://mogtrip.jp/closed-2026/",
+        "https://www.shopship.jp/shiroishi/",
+        "https://www.shopship.jp/hakodate/open-close/?sort=open_date_desc"
       ]
     }
   ]

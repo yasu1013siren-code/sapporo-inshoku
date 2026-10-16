@@ -361,5 +361,125 @@
       "decision": "pending",
       "result": "東京高田馬場のmadderは美容サロンで無関係。旧ラビュフェット跡の新店との口コミがあり、旧店舗対応も含め未確定。内部検索・公式SNS取得失敗。"
     }
+  },
+  {
+    "name": "飲み食い処 やたら家",
+    "place": "函館市湯川町1丁目28-1",
+    "area": "hakodate",
+    "category": "居酒屋",
+    "phone": "070-2214-1452",
+    "url": "https://tabelog.com/hokkaido/A0105/A010501/1080915/",
+    "source": "店舗関係者掲載の食べログ（公式扱い）",
+    "note": "湯の川温泉電停近くの飲み食い処。",
+    "type": "restaurant",
+    "date": "",
+    "first_seen": "2026-10-16T11:37:26Z",
+    "address_verified": true,
+    "verified_address": "函館市湯川町1丁目28-1",
+    "source_checked_at": "2026-10-16T11:37:26Z",
+    "attempted_at": "2026-10-16T11:37:26Z",
+    "status": "unknown",
+    "name_variants": [
+      "飲み食い処 やたら家",
+      "飲み食い処やたら家",
+      "やたら家"
+    ],
+    "external_search_checked": true,
+    "search_queries": [
+      "site:hotpepper.jp (\"飲み食い処 やたら家\" OR \"JIPLA\" OR \"じぷら\") 函館",
+      "site:hotpepper.jp (\"飲み食い処やたら家\" OR \"070-2214-1452\" OR \"やたら家\" \"湯川町1\")",
+      "site:hotpepper.jp (\"07022141452\" OR \"070-2214-1452\" OR \"湯川町1-28-1\")"
+    ],
+    "search_observations": [
+      {
+        "query": "site:hotpepper.jp (\"飲み食い処 やたら家\" OR \"JIPLA\" OR \"じぷら\") 函館",
+        "attempted_at": "2026-10-16T11:37:26Z",
+        "result": "対象店舗の掲載ページは未発見。未掲載確定ではない。"
+      },
+      {
+        "query": "site:hotpepper.jp (\"飲み食い処やたら家\" OR \"070-2214-1452\" OR \"やたら家\" \"湯川町1\")",
+        "attempted_at": "2026-10-16T11:37:26Z",
+        "result": "対象店舗の掲載ページは未発見。未掲載確定ではない。"
+      },
+      {
+        "query": "site:hotpepper.jp (\"07022141452\" OR \"070-2214-1452\" OR \"湯川町1-28-1\")",
+        "attempted_at": "2026-10-16T11:37:26Z",
+        "result": "対象店舗の掲載ページは未発見。未掲載確定ではない。"
+      }
+    ],
+    "evidence_urls": [
+      "https://tabelog.com/hokkaido/A0105/A010501/1080915/",
+      "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=飲み食い処やたら家"
+    ],
+    "internal_search": {
+      "url": "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=飲み食い処やたら家",
+      "attempted_at": "2026-10-16T11:37:26Z",
+      "result": "取得失敗。結果件数は未取得。"
+    },
+    "reason": "search_failed",
+    "identity_review": {
+      "decision": "pending",
+      "result": "湯川町の居酒屋。根崎やたら家（根崎町）の蕎麦店との同一性は未確認で、同名だけで掲載ありとはしない。旧店名・移転履歴は未確定。内部検索失敗で保留。"
+    }
+  },
+  {
+    "name": "JIPLA（じぷら）",
+    "place": "函館市湯川町1丁目28-4",
+    "area": "hakodate",
+    "category": "ハンバーグ・洋食",
+    "phone": "0138-84-6699",
+    "url": "https://hamburg-jipla.com/",
+    "note": "鉄板で焼く合挽きハンバーグの専門店。",
+    "source": "店舗公式サイト",
+    "type": "restaurant",
+    "date": "",
+    "first_seen": "2026-10-16T11:37:26Z",
+    "address_verified": true,
+    "verified_address": "函館市湯川町1丁目28-4",
+    "source_checked_at": "2026-10-16T11:37:26Z",
+    "attempted_at": "2026-10-16T11:37:26Z",
+    "status": "unknown",
+    "name_variants": [
+      "JIPLA",
+      "じぷら",
+      "ジプラ"
+    ],
+    "external_search_checked": true,
+    "search_queries": [
+      "site:hotpepper.jp (\"JIPLA\" OR \"じぷら\" OR \"ジプラ\") 函館",
+      "site:hotpepper.jp (\"やたら家\" \"湯川町\" OR \"JIPLA\" OR \"ジプラ\")",
+      "site:hotpepper.jp (\"0138-84-6699\" OR \"0138846699\" OR \"湯川町1丁目28-4\")"
+    ],
+    "search_observations": [
+      {
+        "query": "site:hotpepper.jp (\"JIPLA\" OR \"じぷら\" OR \"ジプラ\") 函館",
+        "attempted_at": "2026-10-16T11:37:26Z",
+        "result": "対象店舗の掲載ページは未発見。未掲載確定ではない。"
+      },
+      {
+        "query": "site:hotpepper.jp (\"やたら家\" \"湯川町\" OR \"JIPLA\" OR \"ジプラ\")",
+        "attempted_at": "2026-10-16T11:37:26Z",
+        "result": "対象店舗の掲載ページは未発見。未掲載確定ではない。"
+      },
+      {
+        "query": "site:hotpepper.jp (\"0138-84-6699\" OR \"0138846699\" OR \"湯川町1丁目28-4\")",
+        "attempted_at": "2026-10-16T11:37:26Z",
+        "result": "対象店舗の掲載ページは未発見。未掲載確定ではない。"
+      }
+    ],
+    "evidence_urls": [
+      "https://hamburg-jipla.com/",
+      "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=JIPLA"
+    ],
+    "internal_search": {
+      "url": "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=JIPLA",
+      "attempted_at": "2026-10-16T11:37:26Z",
+      "result": "取得失敗。結果件数は未取得。"
+    },
+    "reason": "search_failed",
+    "identity_review": {
+      "decision": "pending",
+      "result": "公式サイトで住所・電話・業態を確認。外部検索では対象ページ未発見、旧名・移転は未確定。内部検索失敗で保留。"
+    }
   }
 ]

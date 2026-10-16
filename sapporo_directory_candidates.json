@@ -297,5 +297,179 @@
       "decision": "pending",
       "result": "東京・水天宮前の一久は別地域の店舗。閉店・移転の根拠は今回の外部検索では発見せず。内部検索取得失敗。"
     }
+  },
+  {
+    "name": "魚と肴 気まぐれ",
+    "place": "札幌市豊平区中の島1条2丁目1-8",
+    "area": "toyohira",
+    "category": "居酒屋・魚料理",
+    "phone": "011-595-8558",
+    "url": "https://sakanatosakana-kimagure.com/",
+    "note": "道産鮮魚と日本酒。中の島駅近くの居酒屋。",
+    "source": "店舗公式サイト",
+    "type": "restaurant",
+    "date": "",
+    "first_seen": "2026-10-16T11:37:26Z",
+    "address_verified": true,
+    "verified_address": "札幌市豊平区中の島1条2丁目1-8",
+    "source_checked_at": "2026-10-16T11:37:26Z",
+    "attempted_at": "2026-10-16T11:37:26Z",
+    "status": "unknown",
+    "name_variants": [
+      "魚と肴 気まぐれ",
+      "魚と肴気まぐれ",
+      "気まぐれ"
+    ],
+    "external_search_checked": true,
+    "search_queries": [
+      "site:hotpepper.jp \"魚と肴 気まぐれ\"",
+      "site:hotpepper.jp (\"気まぐれ\" \"中の島\" OR \"011-595-8558\")",
+      "site:hotpepper.jp (\"魚と肴気まぐれ\" OR \"中の島1条2丁目1-8\" OR \"0115958558\")"
+    ],
+    "search_observations": [
+      {
+        "query": "site:hotpepper.jp \"魚と肴 気まぐれ\"",
+        "attempted_at": "2026-10-16T11:37:26Z",
+        "result": "対象店舗の掲載ページは未発見。未掲載確定ではない。"
+      },
+      {
+        "query": "site:hotpepper.jp (\"気まぐれ\" \"中の島\" OR \"011-595-8558\")",
+        "attempted_at": "2026-10-16T11:37:26Z",
+        "result": "対象店舗の掲載ページは未発見。未掲載確定ではない。"
+      },
+      {
+        "query": "site:hotpepper.jp (\"魚と肴気まぐれ\" OR \"中の島1条2丁目1-8\" OR \"0115958558\")",
+        "attempted_at": "2026-10-16T11:37:26Z",
+        "result": "対象店舗の掲載ページは未発見。未掲載確定ではない。"
+      }
+    ],
+    "evidence_urls": [
+      "https://sakanatosakana-kimagure.com/",
+      "https://www.hotpepper.jp/SA41/ff/?FWT=魚と肴気まぐれ"
+    ],
+    "internal_search": {
+      "url": "https://www.hotpepper.jp/SA41/ff/?FWT=魚と肴気まぐれ",
+      "attempted_at": "2026-10-16T11:37:26Z",
+      "result": "取得失敗。結果件数は未取得。"
+    },
+    "reason": "search_failed",
+    "identity_review": {
+      "decision": "pending",
+      "result": "秋田県能代市・帯広市の気まぐれは別店舗。現店舗の公式住所・電話を確認。内部検索失敗のため保留。"
+    }
+  },
+  {
+    "name": "じぃじょ",
+    "place": "札幌市西区西町北20丁目5-6 I-BLD地下1階",
+    "area": "nishi",
+    "category": "家庭料理居酒屋",
+    "phone": "011-699-5773",
+    "url": "https://sakejijo.com/アクセス/",
+    "note": "宮の沢駅近く、家庭料理を出す小さな居酒屋。",
+    "source": "店舗公式サイト",
+    "type": "restaurant",
+    "date": "",
+    "first_seen": "2026-10-16T11:37:26Z",
+    "address_verified": true,
+    "verified_address": "札幌市西区西町北20丁目5-6 I-BLD地下1階",
+    "source_checked_at": "2026-10-16T11:37:26Z",
+    "attempted_at": "2026-10-16T11:37:26Z",
+    "status": "unknown",
+    "name_variants": [
+      "じぃじょ",
+      "じいじょ",
+      "家庭料理の小さな居酒屋 じぃじょ"
+    ],
+    "external_search_checked": true,
+    "search_queries": [
+      "site:hotpepper.jp \"じぃじょ\"",
+      "site:hotpepper.jp (\"じぃじょ\" OR \"011-699-5773\" OR \"じいじょ\" \"西町\")",
+      "site:hotpepper.jp (\"じぃじょ\" OR \"じいじょ\") \"札幌\""
+    ],
+    "search_observations": [
+      {
+        "query": "site:hotpepper.jp \"じぃじょ\"",
+        "attempted_at": "2026-10-16T11:37:26Z",
+        "result": "対象店舗の掲載ページは未発見。未掲載確定ではない。"
+      },
+      {
+        "query": "site:hotpepper.jp (\"じぃじょ\" OR \"011-699-5773\" OR \"じいじょ\" \"西町\")",
+        "attempted_at": "2026-10-16T11:37:26Z",
+        "result": "対象店舗の掲載ページは未発見。未掲載確定ではない。"
+      },
+      {
+        "query": "site:hotpepper.jp (\"じぃじょ\" OR \"じいじょ\") \"札幌\"",
+        "attempted_at": "2026-10-16T11:37:26Z",
+        "result": "対象店舗の掲載ページは未発見。未掲載確定ではない。"
+      }
+    ],
+    "evidence_urls": [
+      "https://sakejijo.com/アクセス/",
+      "https://www.hotpepper.jp/SA41/ff/?FWT=じぃじょ"
+    ],
+    "internal_search": {
+      "url": "https://www.hotpepper.jp/SA41/ff/?FWT=じぃじょ",
+      "attempted_at": "2026-10-16T11:37:26Z",
+      "result": "取得失敗。結果件数は未取得。"
+    },
+    "reason": "search_failed",
+    "identity_review": {
+      "decision": "pending",
+      "result": "公式アクセスとぐるなびの所在地が一致。外部検索では対象ページ未発見。内部検索失敗のため保留。"
+    }
+  },
+  {
+    "name": "蕎麦・立ち飲み 一味",
+    "place": "札幌市中央区北3条西3丁目1 大同生命札幌ビルB1F",
+    "area": "chuo",
+    "category": "立ち飲み・蕎麦",
+    "phone": "011-212-1341",
+    "url": "https://soba-ichimi.com/",
+    "note": "miredo地下で蕎麦と立ち飲みを楽しめる店。",
+    "source": "店舗公式サイト",
+    "type": "restaurant",
+    "date": "",
+    "first_seen": "2026-10-16T11:37:26Z",
+    "address_verified": true,
+    "verified_address": "札幌市中央区北3条西3丁目1 大同生命札幌ビルB1F",
+    "source_checked_at": "2026-10-16T11:37:26Z",
+    "attempted_at": "2026-10-16T11:37:26Z",
+    "status": "listed",
+    "checked_at": "2026-10-16T11:37:26Z",
+    "name_variants": [
+      "蕎麦・立ち飲み 一味",
+      "蕎麦 立ち飲み 一味",
+      "一味"
+    ],
+    "external_search_checked": true,
+    "search_queries": [
+      "site:hotpepper.jp \"蕎麦\" \"一味\" 札幌",
+      "site:hotpepper.jp \"蕎麦\" \"一味\" \"011-212-1341\""
+    ],
+    "search_observations": [
+      {
+        "query": "site:hotpepper.jp \"蕎麦\" \"一味\" 札幌",
+        "attempted_at": "2026-10-16T11:37:26Z",
+        "result": "該当店舗ページを発見し直接取得。"
+      },
+      {
+        "query": "site:hotpepper.jp \"蕎麦\" \"一味\" \"011-212-1341\"",
+        "attempted_at": "2026-10-16T11:37:26Z",
+        "result": "対象電話一致の追加結果は得られず。"
+      }
+    ],
+    "evidence_urls": [
+      "https://soba-ichimi.com/",
+      "https://miredo.jp/shop.php?shop=26",
+      "https://www.hotpepper.jp/strJ001282936/"
+    ],
+    "reason": "listing_page_verified",
+    "identity_review": {
+      "decision": "listed",
+      "result": "同名・大同生命ビル地下1階miredo・28席が一致。HP住所は西の丁目表記が欠落。電話ページ取得失敗も記録し、同館の当該店ページ存在により掲載ありと判断。",
+      "candidate_url": "https://www.hotpepper.jp/strJ001282936/",
+      "candidate_address": "北海道札幌市中央区北３条西１番地 大同生命ビルB１Fミレド内",
+      "phone_page_result": "取得失敗"
+    }
   }
 ]

@@ -5939,6 +5939,60 @@
         "source_count": 1,
         "first_seen": "2026-09-13",
         "last_seen": "2026-09-14"
+      },
+      {
+        "area": "toyohira",
+        "name": "ひゃくや 平岸駅前店",
+        "title": "ひゃくや 平岸駅前店",
+        "place": "札幌市豊平区平岸2条7丁目3-16",
+        "category": "居酒屋",
+        "date": "2026-10-22",
+        "type": "upcoming",
+        "note": "10月22日開店予定。全52席、のれんで仕切る個室居酒屋。",
+        "url": "https://prtimes.jp/main/html/rd/p/000000005.000163231.html",
+        "source": "運営会社の公式プレスリリース",
+        "official_url": "https://www.hotpepper.jp/strJ004698752/",
+        "sources": [
+          {
+            "name": "株式会社Zeal's Planning公式発表",
+            "url": "https://prtimes.jp/main/html/rd/p/000000005.000163231.html"
+          },
+          {
+            "name": "札幌速報・開店閉店一覧",
+            "url": "https://sapporo-sokuho.com/archives/post-3016.html"
+          }
+        ],
+        "confidence": 0.95,
+        "first_seen": "2026-10-16T11:37:26Z",
+        "source_checked_at": "2026-10-16T11:37:26Z",
+        "source_count": 2
+      },
+      {
+        "area": "toyohira",
+        "name": "Le Pâttissier FURUTA 〜Salon de thé〜",
+        "title": "Le Pâttissier FURUTA 〜Salon de thé〜",
+        "place": "札幌市豊平区月寒西1条11丁目1-5",
+        "category": "カフェ",
+        "date": "2026-10-18",
+        "type": "closed",
+        "note": "10月18日閉店予定。月寒のサロン・ド・テ店舗。",
+        "url": "https://chamonix-cakes.com/heiten-abu5b3muajvzbf2bnc/",
+        "source": "札幌開店閉店インフォ",
+        "sources": [
+          {
+            "name": "札幌開店閉店インフォ",
+            "url": "https://chamonix-cakes.com/heiten-abu5b3muajvzbf2bnc/"
+          },
+          {
+            "name": "札幌速報・開店閉店一覧",
+            "url": "https://sapporo-sokuho.com/archives/post-3016.html"
+          }
+        ],
+        "verification_note": "地元情報2媒体の閉店予定が一致。公式の閉店告知本文は未取得。ブランド全店の閉店とは扱わない。",
+        "confidence": 0.8,
+        "first_seen": "2026-10-16T11:37:26Z",
+        "source_checked_at": "2026-10-16T11:37:26Z",
+        "source_count": 2
       }
     ],
     "minami": [
@@ -9375,8 +9429,8 @@
     "max_age_days": 7,
     "included": 12,
     "excluded_listed": 4,
-    "pending": 13,
-    "queue_updated_at": "2026-10-15T11:29:10Z"
+    "pending": 15,
+    "queue_updated_at": "2026-10-16T11:37:26Z"
   },
   "hakodate_directory_candidates": [
     {
@@ -10324,6 +10378,126 @@
         "decision": "pending",
         "result": "東京高田馬場のmadderは美容サロンで無関係。旧ラビュフェット跡の新店との口コミがあり、旧店舗対応も含め未確定。内部検索・公式SNS取得失敗。"
       }
+    },
+    {
+      "name": "飲み食い処 やたら家",
+      "place": "函館市湯川町1丁目28-1",
+      "area": "hakodate",
+      "category": "居酒屋",
+      "phone": "070-2214-1452",
+      "url": "https://tabelog.com/hokkaido/A0105/A010501/1080915/",
+      "source": "店舗関係者掲載の食べログ（公式扱い）",
+      "note": "湯の川温泉電停近くの飲み食い処。",
+      "type": "restaurant",
+      "date": "",
+      "first_seen": "2026-10-16T11:37:26Z",
+      "address_verified": true,
+      "verified_address": "函館市湯川町1丁目28-1",
+      "source_checked_at": "2026-10-16T11:37:26Z",
+      "attempted_at": "2026-10-16T11:37:26Z",
+      "status": "unknown",
+      "name_variants": [
+        "飲み食い処 やたら家",
+        "飲み食い処やたら家",
+        "やたら家"
+      ],
+      "external_search_checked": true,
+      "search_queries": [
+        "site:hotpepper.jp (\"飲み食い処 やたら家\" OR \"JIPLA\" OR \"じぷら\") 函館",
+        "site:hotpepper.jp (\"飲み食い処やたら家\" OR \"070-2214-1452\" OR \"やたら家\" \"湯川町1\")",
+        "site:hotpepper.jp (\"07022141452\" OR \"070-2214-1452\" OR \"湯川町1-28-1\")"
+      ],
+      "search_observations": [
+        {
+          "query": "site:hotpepper.jp (\"飲み食い処 やたら家\" OR \"JIPLA\" OR \"じぷら\") 函館",
+          "attempted_at": "2026-10-16T11:37:26Z",
+          "result": "対象店舗の掲載ページは未発見。未掲載確定ではない。"
+        },
+        {
+          "query": "site:hotpepper.jp (\"飲み食い処やたら家\" OR \"070-2214-1452\" OR \"やたら家\" \"湯川町1\")",
+          "attempted_at": "2026-10-16T11:37:26Z",
+          "result": "対象店舗の掲載ページは未発見。未掲載確定ではない。"
+        },
+        {
+          "query": "site:hotpepper.jp (\"07022141452\" OR \"070-2214-1452\" OR \"湯川町1-28-1\")",
+          "attempted_at": "2026-10-16T11:37:26Z",
+          "result": "対象店舗の掲載ページは未発見。未掲載確定ではない。"
+        }
+      ],
+      "evidence_urls": [
+        "https://tabelog.com/hokkaido/A0105/A010501/1080915/",
+        "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=飲み食い処やたら家"
+      ],
+      "internal_search": {
+        "url": "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=飲み食い処やたら家",
+        "attempted_at": "2026-10-16T11:37:26Z",
+        "result": "取得失敗。結果件数は未取得。"
+      },
+      "reason": "search_failed",
+      "identity_review": {
+        "decision": "pending",
+        "result": "湯川町の居酒屋。根崎やたら家（根崎町）の蕎麦店との同一性は未確認で、同名だけで掲載ありとはしない。旧店名・移転履歴は未確定。内部検索失敗で保留。"
+      }
+    },
+    {
+      "name": "JIPLA（じぷら）",
+      "place": "函館市湯川町1丁目28-4",
+      "area": "hakodate",
+      "category": "ハンバーグ・洋食",
+      "phone": "0138-84-6699",
+      "url": "https://hamburg-jipla.com/",
+      "note": "鉄板で焼く合挽きハンバーグの専門店。",
+      "source": "店舗公式サイト",
+      "type": "restaurant",
+      "date": "",
+      "first_seen": "2026-10-16T11:37:26Z",
+      "address_verified": true,
+      "verified_address": "函館市湯川町1丁目28-4",
+      "source_checked_at": "2026-10-16T11:37:26Z",
+      "attempted_at": "2026-10-16T11:37:26Z",
+      "status": "unknown",
+      "name_variants": [
+        "JIPLA",
+        "じぷら",
+        "ジプラ"
+      ],
+      "external_search_checked": true,
+      "search_queries": [
+        "site:hotpepper.jp (\"JIPLA\" OR \"じぷら\" OR \"ジプラ\") 函館",
+        "site:hotpepper.jp (\"やたら家\" \"湯川町\" OR \"JIPLA\" OR \"ジプラ\")",
+        "site:hotpepper.jp (\"0138-84-6699\" OR \"0138846699\" OR \"湯川町1丁目28-4\")"
+      ],
+      "search_observations": [
+        {
+          "query": "site:hotpepper.jp (\"JIPLA\" OR \"じぷら\" OR \"ジプラ\") 函館",
+          "attempted_at": "2026-10-16T11:37:26Z",
+          "result": "対象店舗の掲載ページは未発見。未掲載確定ではない。"
+        },
+        {
+          "query": "site:hotpepper.jp (\"やたら家\" \"湯川町\" OR \"JIPLA\" OR \"ジプラ\")",
+          "attempted_at": "2026-10-16T11:37:26Z",
+          "result": "対象店舗の掲載ページは未発見。未掲載確定ではない。"
+        },
+        {
+          "query": "site:hotpepper.jp (\"0138-84-6699\" OR \"0138846699\" OR \"湯川町1丁目28-4\")",
+          "attempted_at": "2026-10-16T11:37:26Z",
+          "result": "対象店舗の掲載ページは未発見。未掲載確定ではない。"
+        }
+      ],
+      "evidence_urls": [
+        "https://hamburg-jipla.com/",
+        "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=JIPLA"
+      ],
+      "internal_search": {
+        "url": "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=JIPLA",
+        "attempted_at": "2026-10-16T11:37:26Z",
+        "result": "取得失敗。結果件数は未取得。"
+      },
+      "reason": "search_failed",
+      "identity_review": {
+        "decision": "pending",
+        "result": "公式サイトで住所・電話・業態を確認。外部検索では対象ページ未発見、旧名・移転は未確定。内部検索失敗で保留。"
+      }
     }
   ],
   "hakodate_directory": [
@@ -10972,50 +11146,222 @@
         "decision": "pending",
         "result": "東京・水天宮前の一久は別地域の店舗。閉店・移転の根拠は今回の外部検索では発見せず。内部検索取得失敗。"
       }
+    },
+    {
+      "name": "魚と肴 気まぐれ",
+      "place": "札幌市豊平区中の島1条2丁目1-8",
+      "area": "toyohira",
+      "category": "居酒屋・魚料理",
+      "phone": "011-595-8558",
+      "url": "https://sakanatosakana-kimagure.com/",
+      "note": "道産鮮魚と日本酒。中の島駅近くの居酒屋。",
+      "source": "店舗公式サイト",
+      "type": "restaurant",
+      "date": "",
+      "first_seen": "2026-10-16T11:37:26Z",
+      "address_verified": true,
+      "verified_address": "札幌市豊平区中の島1条2丁目1-8",
+      "source_checked_at": "2026-10-16T11:37:26Z",
+      "attempted_at": "2026-10-16T11:37:26Z",
+      "status": "unknown",
+      "name_variants": [
+        "魚と肴 気まぐれ",
+        "魚と肴気まぐれ",
+        "気まぐれ"
+      ],
+      "external_search_checked": true,
+      "search_queries": [
+        "site:hotpepper.jp \"魚と肴 気まぐれ\"",
+        "site:hotpepper.jp (\"気まぐれ\" \"中の島\" OR \"011-595-8558\")",
+        "site:hotpepper.jp (\"魚と肴気まぐれ\" OR \"中の島1条2丁目1-8\" OR \"0115958558\")"
+      ],
+      "search_observations": [
+        {
+          "query": "site:hotpepper.jp \"魚と肴 気まぐれ\"",
+          "attempted_at": "2026-10-16T11:37:26Z",
+          "result": "対象店舗の掲載ページは未発見。未掲載確定ではない。"
+        },
+        {
+          "query": "site:hotpepper.jp (\"気まぐれ\" \"中の島\" OR \"011-595-8558\")",
+          "attempted_at": "2026-10-16T11:37:26Z",
+          "result": "対象店舗の掲載ページは未発見。未掲載確定ではない。"
+        },
+        {
+          "query": "site:hotpepper.jp (\"魚と肴気まぐれ\" OR \"中の島1条2丁目1-8\" OR \"0115958558\")",
+          "attempted_at": "2026-10-16T11:37:26Z",
+          "result": "対象店舗の掲載ページは未発見。未掲載確定ではない。"
+        }
+      ],
+      "evidence_urls": [
+        "https://sakanatosakana-kimagure.com/",
+        "https://www.hotpepper.jp/SA41/ff/?FWT=魚と肴気まぐれ"
+      ],
+      "internal_search": {
+        "url": "https://www.hotpepper.jp/SA41/ff/?FWT=魚と肴気まぐれ",
+        "attempted_at": "2026-10-16T11:37:26Z",
+        "result": "取得失敗。結果件数は未取得。"
+      },
+      "reason": "search_failed",
+      "identity_review": {
+        "decision": "pending",
+        "result": "秋田県能代市・帯広市の気まぐれは別店舗。現店舗の公式住所・電話を確認。内部検索失敗のため保留。"
+      }
+    },
+    {
+      "name": "じぃじょ",
+      "place": "札幌市西区西町北20丁目5-6 I-BLD地下1階",
+      "area": "nishi",
+      "category": "家庭料理居酒屋",
+      "phone": "011-699-5773",
+      "url": "https://sakejijo.com/アクセス/",
+      "note": "宮の沢駅近く、家庭料理を出す小さな居酒屋。",
+      "source": "店舗公式サイト",
+      "type": "restaurant",
+      "date": "",
+      "first_seen": "2026-10-16T11:37:26Z",
+      "address_verified": true,
+      "verified_address": "札幌市西区西町北20丁目5-6 I-BLD地下1階",
+      "source_checked_at": "2026-10-16T11:37:26Z",
+      "attempted_at": "2026-10-16T11:37:26Z",
+      "status": "unknown",
+      "name_variants": [
+        "じぃじょ",
+        "じいじょ",
+        "家庭料理の小さな居酒屋 じぃじょ"
+      ],
+      "external_search_checked": true,
+      "search_queries": [
+        "site:hotpepper.jp \"じぃじょ\"",
+        "site:hotpepper.jp (\"じぃじょ\" OR \"011-699-5773\" OR \"じいじょ\" \"西町\")",
+        "site:hotpepper.jp (\"じぃじょ\" OR \"じいじょ\") \"札幌\""
+      ],
+      "search_observations": [
+        {
+          "query": "site:hotpepper.jp \"じぃじょ\"",
+          "attempted_at": "2026-10-16T11:37:26Z",
+          "result": "対象店舗の掲載ページは未発見。未掲載確定ではない。"
+        },
+        {
+          "query": "site:hotpepper.jp (\"じぃじょ\" OR \"011-699-5773\" OR \"じいじょ\" \"西町\")",
+          "attempted_at": "2026-10-16T11:37:26Z",
+          "result": "対象店舗の掲載ページは未発見。未掲載確定ではない。"
+        },
+        {
+          "query": "site:hotpepper.jp (\"じぃじょ\" OR \"じいじょ\") \"札幌\"",
+          "attempted_at": "2026-10-16T11:37:26Z",
+          "result": "対象店舗の掲載ページは未発見。未掲載確定ではない。"
+        }
+      ],
+      "evidence_urls": [
+        "https://sakejijo.com/アクセス/",
+        "https://www.hotpepper.jp/SA41/ff/?FWT=じぃじょ"
+      ],
+      "internal_search": {
+        "url": "https://www.hotpepper.jp/SA41/ff/?FWT=じぃじょ",
+        "attempted_at": "2026-10-16T11:37:26Z",
+        "result": "取得失敗。結果件数は未取得。"
+      },
+      "reason": "search_failed",
+      "identity_review": {
+        "decision": "pending",
+        "result": "公式アクセスとぐるなびの所在地が一致。外部検索では対象ページ未発見。内部検索失敗のため保留。"
+      }
+    },
+    {
+      "name": "蕎麦・立ち飲み 一味",
+      "place": "札幌市中央区北3条西3丁目1 大同生命札幌ビルB1F",
+      "area": "chuo",
+      "category": "立ち飲み・蕎麦",
+      "phone": "011-212-1341",
+      "url": "https://soba-ichimi.com/",
+      "note": "miredo地下で蕎麦と立ち飲みを楽しめる店。",
+      "source": "店舗公式サイト",
+      "type": "restaurant",
+      "date": "",
+      "first_seen": "2026-10-16T11:37:26Z",
+      "address_verified": true,
+      "verified_address": "札幌市中央区北3条西3丁目1 大同生命札幌ビルB1F",
+      "source_checked_at": "2026-10-16T11:37:26Z",
+      "attempted_at": "2026-10-16T11:37:26Z",
+      "status": "listed",
+      "checked_at": "2026-10-16T11:37:26Z",
+      "name_variants": [
+        "蕎麦・立ち飲み 一味",
+        "蕎麦 立ち飲み 一味",
+        "一味"
+      ],
+      "external_search_checked": true,
+      "search_queries": [
+        "site:hotpepper.jp \"蕎麦\" \"一味\" 札幌",
+        "site:hotpepper.jp \"蕎麦\" \"一味\" \"011-212-1341\""
+      ],
+      "search_observations": [
+        {
+          "query": "site:hotpepper.jp \"蕎麦\" \"一味\" 札幌",
+          "attempted_at": "2026-10-16T11:37:26Z",
+          "result": "該当店舗ページを発見し直接取得。"
+        },
+        {
+          "query": "site:hotpepper.jp \"蕎麦\" \"一味\" \"011-212-1341\"",
+          "attempted_at": "2026-10-16T11:37:26Z",
+          "result": "対象電話一致の追加結果は得られず。"
+        }
+      ],
+      "evidence_urls": [
+        "https://soba-ichimi.com/",
+        "https://miredo.jp/shop.php?shop=26",
+        "https://www.hotpepper.jp/strJ001282936/"
+      ],
+      "reason": "listing_page_verified",
+      "identity_review": {
+        "decision": "listed",
+        "result": "同名・大同生命ビル地下1階miredo・28席が一致。HP住所は西の丁目表記が欠落。電話ページ取得失敗も記録し、同館の当該店ページ存在により掲載ありと判断。",
+        "candidate_url": "https://www.hotpepper.jp/strJ001282936/",
+        "candidate_address": "北海道札幌市中央区北３条西１番地 大同生命ビルB１Fミレド内",
+        "phone_page_result": "取得失敗"
+      }
     }
   ],
   "directory_research": {
-    "attempted_at": "2026-10-15T11:29:10Z",
+    "attempted_at": "2026-10-16T11:37:26Z",
     "reviewed_candidates": 7,
     "new_candidates": 5,
     "prior_candidates_researched": 2,
     "sapporo": {
       "reviewed": 3,
-      "listed": 2,
-      "pending": 1,
+      "listed": 1,
+      "pending": 2,
       "new_not_found": 0,
       "visited_wards": [
-        "shiroishi",
-        "kiyota",
-        "teine"
-      ],
-      "not_visited_this_run": [
-        "chuo",
-        "kita",
-        "higashi",
-        "atsubetsu",
-        "toyohira",
-        "minami",
-        "nishi"
-      ],
-      "cumulative_visited_wards": [
-        "kita",
-        "higashi",
-        "atsubetsu",
-        "minami",
-        "shiroishi",
-        "kiyota",
-        "teine"
-      ],
-      "not_visited_for_directory": [
-        "chuo",
-        "toyohira",
-        "nishi"
-      ],
-      "next_wards": [
         "toyohira",
         "nishi",
         "chuo"
+      ],
+      "not_visited_this_run": [
+        "kita",
+        "higashi",
+        "shiroishi",
+        "atsubetsu",
+        "kiyota",
+        "minami",
+        "teine"
+      ],
+      "cumulative_visited_wards": [
+        "chuo",
+        "kita",
+        "higashi",
+        "shiroishi",
+        "atsubetsu",
+        "toyohira",
+        "kiyota",
+        "minami",
+        "nishi",
+        "teine"
+      ],
+      "next_wards": [
+        "kita",
+        "higashi",
+        "atsubetsu"
       ]
     },
     "hakodate": {
@@ -11025,34 +11371,36 @@
       "pending": 4,
       "new_not_found": 0,
       "visited": [
-        "松風町・大門横丁",
-        "本町"
+        "湯川町"
       ],
-      "prior_identity_recheck": [
+      "prior_identity_followup": [
         "宝来東屋",
         "秀華"
       ],
       "next": [
-        "湯の川地区",
-        "大門地区の食堂"
+        "大門地区の食堂",
+        "亀田・美原の居酒屋"
       ]
     },
     "new_events": {
-      "kiyota": 2,
+      "toyohira": 1,
       "hakodate": 0
     },
-    "new_closures": 0,
+    "new_closures": {
+      "toyohira": 1,
+      "hakodate": 0
+    },
     "limitations": [
-      "内部検索3候補で取得失敗。0件とは扱わない。",
-      "函館madder公式SNS取得失敗。地元記事・店舗情報を記録し保留。",
-      "全10区の網羅調査ではない。",
-      "宝来東屋・秀華は新たな電話一致根拠なし。前回の確認日を更新しない。"
+      "新規4候補の内部検索取得失敗。外部検索未発見のみでは未掲載にしない。",
+      "宝来東屋・秀華の外部追加検索で新根拠なし。checked_atは保持。",
+      "全10区の毎回網羅ではなく巡回調査。",
+      "FURUTAは地元2媒体による閉店予定。公式告知本文は未取得。"
     ],
     "opening_sources_checked": [
-      "https://chamonix-cakes.com/category/新店情報/札幌市清田区の新店情報/",
-      "https://mogtrip.jp/newopen-2026/?PageSpeed=noscript",
+      "https://sapporo-sokuho.com/archives/post-3016.html",
+      "https://www.shopship.jp/sapporo/open-close/",
+      "https://www.shopship.jp/chuo/open-close/",
       "https://mogtrip.jp/closed-2026/",
-      "https://www.shopship.jp/shiroishi/",
       "https://www.shopship.jp/hakodate/open-close/?sort=open_date_desc"
     ]
   }
