@@ -471,5 +471,212 @@
       "candidate_address": "北海道札幌市中央区北３条西１番地 大同生命ビルB１Fミレド内",
       "phone_page_result": "取得失敗"
     }
+  },
+  {
+    "name": "やきとり大吉 北32条店",
+    "area": "kita",
+    "city": "札幌市",
+    "place": "札幌市北区北32条西4-1-12",
+    "category": "焼き鳥",
+    "phone": "011-757-3007",
+    "url": "https://www.daikichi.co.jp/shop/hokkaido/shop-2893/",
+    "official_url": "https://www.daikichi.co.jp/shop/hokkaido/shop-2893/",
+    "source": "店舗・チェーン公式",
+    "note": "焼き鳥チェーンの北34条駅近くの店舗。",
+    "type": "restaurant",
+    "date": "",
+    "first_seen": "2026-10-17T11:57:50Z",
+    "source_checked_at": "2026-10-17T11:57:50Z",
+    "attempted_at": "2026-10-17T11:57:50Z",
+    "checked_at": "2026-10-17T11:57:50Z",
+    "address_verified": true,
+    "verified_address": "札幌市北区北32条西4-1-12",
+    "status": "listed",
+    "name_variants": [
+      "やきとり大吉 北32条店",
+      "やきとり大吉北32条店"
+    ],
+    "external_search_checked": true,
+    "search_queries": [
+      "site:hotpepper.jp \"大吉\" \"北32条\""
+    ],
+    "search_observations": [
+      {
+        "query": "site:hotpepper.jp \"大吉\" \"北32条\"",
+        "attempted_at": "2026-10-17T11:57:50Z",
+        "result": "対象店舗ページを発見。公式と店舗名・所在地を照合。"
+      }
+    ],
+    "evidence_urls": [
+      "https://www.daikichi.co.jp/shop/hokkaido/shop-2893/",
+      "https://www.hotpepper.jp/strJ003323110/"
+    ],
+    "reason": "listing_page_verified",
+    "identity_review": {
+      "decision": "listed",
+      "result": "公式と店名・番地が一致。予約可否は判定に使用しない。",
+      "candidate_url": "https://www.hotpepper.jp/strJ003323110/"
+    }
+  },
+  {
+    "name": "やきとり大吉 北大前通り店",
+    "area": "kita",
+    "city": "札幌市",
+    "place": "札幌市北区北18条西5-2-34",
+    "category": "焼き鳥",
+    "phone": "011-709-7227",
+    "url": "https://www.daikichi.co.jp/shop/hokkaido/shop-2669/",
+    "official_url": "https://www.daikichi.co.jp/shop/hokkaido/shop-2669/",
+    "source": "店舗・チェーン公式",
+    "note": "北18条駅近くの焼き鳥チェーン店。",
+    "type": "restaurant",
+    "date": "",
+    "first_seen": "2026-10-17T11:57:50Z",
+    "source_checked_at": "2026-10-17T11:57:50Z",
+    "attempted_at": "2026-10-17T11:57:50Z",
+    "address_verified": true,
+    "verified_address": "札幌市北区北18条西5-2-34",
+    "status": "unknown",
+    "name_variants": [
+      "やきとり大吉 北大前通り店",
+      "やきとり大吉北大前通り店",
+      "やきとり大吉北大前通店"
+    ],
+    "external_search_checked": true,
+    "search_queries": [
+      "site:hotpepper.jp \"大吉\" \"北大前\"",
+      "site:hotpepper.jp \"011-709-7227\"",
+      "site:hotpepper.jp \"北18条西5\" \"大吉\"",
+      "site:hotpepper.jp \"やきとり大吉北大前通店\" \"西5\""
+    ],
+    "search_observations": [
+      {
+        "query": "site:hotpepper.jp \"大吉\" \"北大前\"",
+        "attempted_at": "2026-10-17T11:57:50Z",
+        "result": "一覧スニペットに同名店は出るが、実取得した一覧では該当リンク・住所を確認できず。電話・住所検索も直接店舗ページ未発見。"
+      },
+      {
+        "query": "site:hotpepper.jp \"011-709-7227\"",
+        "attempted_at": "2026-10-17T11:57:50Z",
+        "result": "一覧スニペットに同名店は出るが、実取得した一覧では該当リンク・住所を確認できず。電話・住所検索も直接店舗ページ未発見。"
+      },
+      {
+        "query": "site:hotpepper.jp \"北18条西5\" \"大吉\"",
+        "attempted_at": "2026-10-17T11:57:50Z",
+        "result": "一覧スニペットに同名店は出るが、実取得した一覧では該当リンク・住所を確認できず。電話・住所検索も直接店舗ページ未発見。"
+      },
+      {
+        "query": "site:hotpepper.jp \"やきとり大吉北大前通店\" \"西5\"",
+        "attempted_at": "2026-10-17T11:57:50Z",
+        "result": "一覧スニペットに同名店は出るが、実取得した一覧では該当リンク・住所を確認できず。電話・住所検索も直接店舗ページ未発見。"
+      }
+    ],
+    "evidence_urls": [
+      "https://www.daikichi.co.jp/shop/hokkaido/shop-2669/",
+      "https://www.hotpepper.jp/SA41/Y510/XII0/9911250/G004/g046/",
+      "https://www.hotpepper.jp/SA41/ff/?FWT=やきとり大吉北大前通店"
+    ],
+    "reason": "listing_identity_unresolved",
+    "identity_review": {
+      "decision": "pending",
+      "result": "ホットペッパー一覧の検索スニペットに北大前通店の記載あり。直接店舗ページと住所の一致を確定できず保留。未掲載とはしない。"
+    },
+    "internal_search": {
+      "url": "https://www.hotpepper.jp/SA41/ff/?FWT=やきとり大吉北大前通店",
+      "attempted_at": "2026-10-17T11:57:50Z",
+      "result": "取得失敗。0件と判定しない。"
+    }
+  },
+  {
+    "name": "串鳥 元町駅前店",
+    "area": "higashi",
+    "city": "札幌市",
+    "place": "札幌市東区北24条東15丁目1-3 飯法師ビル1F",
+    "category": "焼き鳥",
+    "phone": "011-722-5555",
+    "url": "https://kushidori.com/shop/",
+    "official_url": "https://kushidori.com/shop/",
+    "source": "店舗・チェーン公式",
+    "note": "元町駅近く、炭火焼き鳥のチェーン店。",
+    "type": "restaurant",
+    "date": "",
+    "first_seen": "2026-10-17T11:57:50Z",
+    "source_checked_at": "2026-10-17T11:57:50Z",
+    "attempted_at": "2026-10-17T11:57:50Z",
+    "checked_at": "2026-10-17T11:57:50Z",
+    "address_verified": true,
+    "verified_address": "札幌市東区北24条東15丁目1-3 飯法師ビル1F",
+    "status": "listed",
+    "name_variants": [
+      "串鳥 元町駅前店",
+      "串鳥元町駅前店"
+    ],
+    "external_search_checked": true,
+    "search_queries": [
+      "site:hotpepper.jp \"串鳥 元町駅前店\""
+    ],
+    "search_observations": [
+      {
+        "query": "site:hotpepper.jp \"串鳥 元町駅前店\"",
+        "attempted_at": "2026-10-17T11:57:50Z",
+        "result": "対象店舗ページを発見。公式と店舗名・所在地を照合。"
+      }
+    ],
+    "evidence_urls": [
+      "https://kushidori.com/shop/",
+      "https://www.hotpepper.jp/strJ000252473/"
+    ],
+    "reason": "listing_page_verified",
+    "identity_review": {
+      "decision": "listed",
+      "result": "公式では丁目1まで、HPで1-3。店名・同ブロック・72席が一致。別支店とは扱わない。",
+      "candidate_url": "https://www.hotpepper.jp/strJ000252473/"
+    }
+  },
+  {
+    "name": "串鳥 新さっぽろ店",
+    "area": "atsubetsu",
+    "city": "札幌市",
+    "place": "札幌市厚別区厚別中央2条5丁目2-10",
+    "category": "焼き鳥居酒屋",
+    "phone": "011-896-2989",
+    "url": "https://kushidori.com/shop/",
+    "official_url": "https://kushidori.com/shop/",
+    "source": "店舗・チェーン公式",
+    "note": "新札幌駅エリアの焼き鳥居酒屋。",
+    "type": "restaurant",
+    "date": "",
+    "first_seen": "2026-10-17T11:57:50Z",
+    "source_checked_at": "2026-10-17T11:57:50Z",
+    "attempted_at": "2026-10-17T11:57:50Z",
+    "checked_at": "2026-10-17T11:57:50Z",
+    "address_verified": true,
+    "verified_address": "札幌市厚別区厚別中央2条5丁目2-10",
+    "status": "listed",
+    "name_variants": [
+      "串鳥 新さっぽろ店",
+      "串鳥新さっぽろ店"
+    ],
+    "external_search_checked": true,
+    "search_queries": [
+      "site:hotpepper.jp \"串鳥 新さっぽろ店\""
+    ],
+    "search_observations": [
+      {
+        "query": "site:hotpepper.jp \"串鳥 新さっぽろ店\"",
+        "attempted_at": "2026-10-17T11:57:50Z",
+        "result": "対象店舗ページを発見。公式と店舗名・所在地を照合。"
+      }
+    ],
+    "evidence_urls": [
+      "https://kushidori.com/shop/",
+      "https://www.hotpepper.jp/strJ001019572/"
+    ],
+    "reason": "listing_page_verified",
+    "identity_review": {
+      "decision": "listed",
+      "result": "公式と店名・番地が一致。予約可否は判定に使用しない。",
+      "candidate_url": "https://www.hotpepper.jp/strJ001019572/"
+    }
   }
 ]

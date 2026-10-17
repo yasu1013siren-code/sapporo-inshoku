@@ -132,7 +132,20 @@
     "url": "https://www.hakobura.jp/features/368",
     "source": "函館市公式観光サイト はこぶら",
     "category": "酒場",
-    "ownership": "地域の小規模店（個人事業か法人かは未確認）"
+    "ownership": "地域の小規模店（個人事業か法人かは未確認）",
+    "identity_review": {
+      "followup_attempts": [
+        {
+          "attempted_at": "2026-10-17T11:57:50Z",
+          "query": "site:hotpepper.jp \"0138-76-2193\"",
+          "result": "観光公式で2018年承継を再確認。旧東屋掲載は宝来町20-9。現電話との掲載一致は追加検索でも未確定、保留継続。",
+          "evidence_urls": [
+            "https://www.hakobura.jp/features/368",
+            "https://www.hotpepper.jp/strJ000733848/"
+          ]
+        }
+      ]
+    }
   },
   {
     "name": "箱館立ち飲み バグ",
@@ -200,7 +213,20 @@
     "url": "https://dining-ds.com/",
     "source": "店舗公式サイト",
     "category": "酒場",
-    "ownership": "地域の小規模店（個人事業か法人かは未確認）"
+    "ownership": "地域の小規模店（個人事業か法人かは未確認）",
+    "identity_review": {
+      "followup_attempts": [
+        {
+          "attempted_at": "2026-10-17T11:57:50Z",
+          "query": "site:hotpepper.jp \"0138-76-0130\"",
+          "result": "旧掲載は本町10-16。公式ドメインは取得できたが今回の取得内容では現住所を抽出できず。電話検索の追加一致根拠なし、保留継続。",
+          "evidence_urls": [
+            "https://dining-ds.com/",
+            "https://www.hotpepper.jp/strJ000257853/"
+          ]
+        }
+      ]
+    }
   },
   {
     "name": "小料理 WAGAYA",
@@ -480,6 +506,98 @@
     "identity_review": {
       "decision": "pending",
       "result": "公式サイトで住所・電話・業態を確認。外部検索では対象ページ未発見、旧名・移転は未確定。内部検索失敗で保留。"
+    }
+  },
+  {
+    "name": "居酒屋 さくら井",
+    "area": "hakodate",
+    "city": "函館市",
+    "place": "函館市亀田港町22-11",
+    "category": "居酒屋",
+    "phone": "0138-84-8988",
+    "url": "https://izakaya-sakurai.com/",
+    "official_url": "https://izakaya-sakurai.com/",
+    "source": "店舗・チェーン公式",
+    "note": "旬の魚介と道産肉の焼き鳥、日本酒を提供。",
+    "type": "restaurant",
+    "date": "",
+    "first_seen": "2026-10-17T11:57:50Z",
+    "source_checked_at": "2026-10-17T11:57:50Z",
+    "attempted_at": "2026-10-17T11:57:50Z",
+    "checked_at": "2026-10-17T11:57:50Z",
+    "address_verified": true,
+    "verified_address": "函館市亀田港町22-11",
+    "status": "listed",
+    "name_variants": [
+      "居酒屋 さくら井",
+      "居酒屋さくら井"
+    ],
+    "external_search_checked": true,
+    "search_queries": [
+      "site:hotpepper.jp \"居酒屋さくら井\" 函館"
+    ],
+    "search_observations": [
+      {
+        "query": "site:hotpepper.jp \"居酒屋さくら井\" 函館",
+        "attempted_at": "2026-10-17T11:57:50Z",
+        "result": "対象店舗ページを発見。公式と店舗名・所在地を照合。"
+      }
+    ],
+    "evidence_urls": [
+      "https://izakaya-sakurai.com/",
+      "https://www.hotpepper.jp/strJ003497427/"
+    ],
+    "reason": "listing_page_verified",
+    "identity_review": {
+      "decision": "listed",
+      "result": "公式と店名・番地が一致。予約可否は判定に使用しない。",
+      "candidate_url": "https://www.hotpepper.jp/strJ003497427/"
+    }
+  },
+  {
+    "name": "そば処更科",
+    "area": "hakodate",
+    "city": "函館市",
+    "place": "函館市美原1丁目41-6",
+    "category": "蕎麦・食堂",
+    "phone": "0138-43-7532",
+    "url": "https://www.hakodate-sarashina.com/",
+    "official_url": "https://www.hakodate-sarashina.com/",
+    "source": "店舗・チェーン公式",
+    "note": "蕎麦とうどん、丼物のセットを提供する店。",
+    "type": "restaurant",
+    "date": "",
+    "first_seen": "2026-10-17T11:57:50Z",
+    "source_checked_at": "2026-10-17T11:57:50Z",
+    "attempted_at": "2026-10-17T11:57:50Z",
+    "checked_at": "2026-10-17T11:57:50Z",
+    "address_verified": true,
+    "verified_address": "函館市美原1丁目41-6",
+    "status": "listed",
+    "name_variants": [
+      "そば処更科",
+      "そば処更科"
+    ],
+    "external_search_checked": true,
+    "search_queries": [
+      "site:hotpepper.jp \"そば処更科\" \"美原\""
+    ],
+    "search_observations": [
+      {
+        "query": "site:hotpepper.jp \"そば処更科\" \"美原\"",
+        "attempted_at": "2026-10-17T11:57:50Z",
+        "result": "対象店舗ページを発見。公式と店舗名・所在地を照合。"
+      }
+    ],
+    "evidence_urls": [
+      "https://www.hakodate-sarashina.com/",
+      "https://www.hotpepper.jp/strJ000258188/"
+    ],
+    "reason": "listing_page_verified",
+    "identity_review": {
+      "decision": "listed",
+      "result": "公式と店名・番地が一致。予約可否は判定に使用しない。",
+      "candidate_url": "https://www.hotpepper.jp/strJ000258188/"
     }
   }
 ]

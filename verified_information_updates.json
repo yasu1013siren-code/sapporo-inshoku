@@ -161,30 +161,86 @@
       "first_seen": "2026-10-16T11:37:26Z",
       "source_checked_at": "2026-10-16T11:37:26Z",
       "source_count": 2
+    },
+    {
+      "area": "kita",
+      "name": "林檎堂 札幌北24条店",
+      "place": "札幌市北区北24条西3丁目2-28 フロンティア243 1階",
+      "date": "2026-10-12",
+      "note": "10月12日閉店の告知。札幌市内の他店は継続営業。",
+      "title": "林檎堂 札幌北24条店",
+      "type": "closed",
+      "category": "りんご飴",
+      "source": "地元報道2媒体",
+      "url": "https://sapporo-sokuho.com/archives/post-113139.html",
+      "sources": [
+        {
+          "name": "札幌速報",
+          "url": "https://sapporo-sokuho.com/archives/post-113139.html"
+        },
+        {
+          "name": "号外NET札幌市北区（公式SNS引用）",
+          "url": "https://sapporokitaku.goguynet.jp/2026/10/11/ringo/"
+        }
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-17T11:57:50Z",
+      "source_checked_at": "2026-10-17T11:57:50Z",
+      "confidence": 0.85,
+      "verification_note": "公式SNSを引用する地元記事と別媒体の告知が一致。公式SNS本文は直接未取得。"
+    },
+    {
+      "area": "higashi",
+      "name": "林檎堂 イオン札幌元町店",
+      "place": "札幌市東区北31条東15丁目1-1 イオン札幌元町SC 1階",
+      "date": "2026-10-18",
+      "note": "10月18日閉店予定。ブランド全店の閉店ではない。",
+      "official_url": "https://www.aeon.jp/sc/sapporomotomachi/shop/store/food_085.html",
+      "phone": "011-769-0150",
+      "title": "林檎堂 イオン札幌元町店",
+      "type": "closed",
+      "category": "りんご飴",
+      "source": "地元報道2媒体",
+      "url": "https://sapporo-sokuho.com/archives/post-113139.html",
+      "sources": [
+        {
+          "name": "札幌速報",
+          "url": "https://sapporo-sokuho.com/archives/post-113139.html"
+        },
+        {
+          "name": "号外NET札幌市北区（公式SNS引用）",
+          "url": "https://sapporokitaku.goguynet.jp/2026/10/11/ringo/"
+        }
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-17T11:57:50Z",
+      "source_checked_at": "2026-10-17T11:57:50Z",
+      "confidence": 0.85,
+      "verification_note": "公式SNSを引用する地元記事と別媒体の告知が一致。公式SNS本文は直接未取得。"
     }
   ],
   "research": {
-    "attempted_at": "2026-10-16T11:37:26Z",
-    "reviewed_candidates": 7,
-    "new_candidates": 5,
+    "attempted_at": "2026-10-17T11:57:50Z",
+    "reviewed_candidates": 8,
+    "new_candidates": 6,
     "prior_candidates_researched": 2,
     "sapporo": {
-      "reviewed": 3,
-      "listed": 1,
-      "pending": 2,
+      "reviewed": 4,
+      "listed": 3,
+      "pending": 1,
       "new_not_found": 0,
       "visited_wards": [
-        "toyohira",
-        "nishi",
-        "chuo"
-      ],
-      "not_visited_this_run": [
         "kita",
         "higashi",
+        "atsubetsu"
+      ],
+      "not_visited_this_run": [
+        "chuo",
         "shiroishi",
-        "atsubetsu",
+        "toyohira",
         "kiyota",
         "minami",
+        "nishi",
         "teine"
       ],
       "cumulative_visited_wards": [
@@ -200,19 +256,20 @@
         "teine"
       ],
       "next_wards": [
-        "kita",
-        "higashi",
-        "atsubetsu"
+        "minami",
+        "shiroishi",
+        "teine"
       ]
     },
     "hakodate": {
       "reviewed": 4,
       "new_candidates": 2,
-      "listed": 0,
-      "pending": 4,
+      "listed": 2,
+      "pending": 2,
       "new_not_found": 0,
       "visited": [
-        "湯川町"
+        "亀田港町",
+        "美原"
       ],
       "prior_identity_followup": [
         "宝来東屋",
@@ -220,29 +277,30 @@
       ],
       "next": [
         "大門地区の食堂",
-        "亀田・美原の居酒屋"
+        "亀田・美原の小料理店"
       ]
     },
     "new_events": {
-      "toyohira": 1,
+      "sapporo": 0,
       "hakodate": 0
     },
     "new_closures": {
-      "toyohira": 1,
+      "kita": 1,
+      "higashi": 1,
       "hakodate": 0
     },
     "limitations": [
-      "新規4候補の内部検索取得失敗。外部検索未発見のみでは未掲載にしない。",
-      "宝来東屋・秀華の外部追加検索で新根拠なし。checked_atは保持。",
-      "全10区の毎回網羅ではなく巡回調査。",
-      "FURUTAは地元2媒体による閉店予定。公式告知本文は未取得。"
+      "北大前通り店は一覧スニペットに掲載兆候あり。直接店舗ページ・住所の一致未確定で保留。",
+      "宝来東屋・秀華は旧店舗掲載との現店舗対応未確定。従来checked_atは保持。",
+      "函館の開店閉店一覧を確認したが今回追加できる新規情報なし。",
+      "全10区を毎回網羅する調査ではない。",
+      "公式SNS閉店本文は直接未取得。地元2媒体の一致を記録。"
     ],
     "opening_sources_checked": [
-      "https://sapporo-sokuho.com/archives/post-3016.html",
-      "https://www.shopship.jp/sapporo/open-close/",
-      "https://www.shopship.jp/chuo/open-close/",
+      "https://sapporo-list.info/open/october-open/",
       "https://mogtrip.jp/closed-2026/",
-      "https://www.shopship.jp/hakodate/open-close/?sort=open_date_desc"
+      "https://www.shopship.jp/hakodate/",
+      "https://hakodate.goguynet.jp/category/cat_openclose/"
     ]
   },
   "research_history": [
@@ -376,6 +434,88 @@
         "https://mogtrip.jp/newopen-2026/?PageSpeed=noscript",
         "https://mogtrip.jp/closed-2026/",
         "https://www.shopship.jp/shiroishi/",
+        "https://www.shopship.jp/hakodate/open-close/?sort=open_date_desc"
+      ]
+    },
+    {
+      "attempted_at": "2026-10-16T11:37:26Z",
+      "reviewed_candidates": 7,
+      "new_candidates": 5,
+      "prior_candidates_researched": 2,
+      "sapporo": {
+        "reviewed": 3,
+        "listed": 1,
+        "pending": 2,
+        "new_not_found": 0,
+        "visited_wards": [
+          "toyohira",
+          "nishi",
+          "chuo"
+        ],
+        "not_visited_this_run": [
+          "kita",
+          "higashi",
+          "shiroishi",
+          "atsubetsu",
+          "kiyota",
+          "minami",
+          "teine"
+        ],
+        "cumulative_visited_wards": [
+          "chuo",
+          "kita",
+          "higashi",
+          "shiroishi",
+          "atsubetsu",
+          "toyohira",
+          "kiyota",
+          "minami",
+          "nishi",
+          "teine"
+        ],
+        "next_wards": [
+          "kita",
+          "higashi",
+          "atsubetsu"
+        ]
+      },
+      "hakodate": {
+        "reviewed": 4,
+        "new_candidates": 2,
+        "listed": 0,
+        "pending": 4,
+        "new_not_found": 0,
+        "visited": [
+          "湯川町"
+        ],
+        "prior_identity_followup": [
+          "宝来東屋",
+          "秀華"
+        ],
+        "next": [
+          "大門地区の食堂",
+          "亀田・美原の居酒屋"
+        ]
+      },
+      "new_events": {
+        "toyohira": 1,
+        "hakodate": 0
+      },
+      "new_closures": {
+        "toyohira": 1,
+        "hakodate": 0
+      },
+      "limitations": [
+        "新規4候補の内部検索取得失敗。外部検索未発見のみでは未掲載にしない。",
+        "宝来東屋・秀華の外部追加検索で新根拠なし。checked_atは保持。",
+        "全10区の毎回網羅ではなく巡回調査。",
+        "FURUTAは地元2媒体による閉店予定。公式告知本文は未取得。"
+      ],
+      "opening_sources_checked": [
+        "https://sapporo-sokuho.com/archives/post-3016.html",
+        "https://www.shopship.jp/sapporo/open-close/",
+        "https://www.shopship.jp/chuo/open-close/",
+        "https://mogtrip.jp/closed-2026/",
         "https://www.shopship.jp/hakodate/open-close/?sort=open_date_desc"
       ]
     }

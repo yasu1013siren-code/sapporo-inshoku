@@ -206,29 +206,15 @@
       "category": "酒場",
       "ownership": "地域の小規模店（個人事業か法人かは未確認）",
       "identity_review": {
-        "result": "predecessor_listing_current_identity_unresolved",
-        "candidate_name": "東屋",
-        "candidate_address": "函館市宝来町20-9",
-        "candidate_url": "https://www.hotpepper.jp/strJ000733848/",
-        "current_phone": "0138-76-2193",
-        "history_evidence_url": "https://www.hakobura.jp/features/368",
-        "decision": "pending",
-        "rechecked_at": "2026-10-15T11:29:10Z",
-        "reason": "公式観光記事で2018年の事業承継を確認。同住所の旧東屋掲載の電話番号を取得できず現店舗との同一性未確定。",
-        "recheck_sources": [
-          "https://www.hakobura.jp/features/368",
-          "https://www.hotpepper.jp/strJ000733848/"
-        ],
-        "last_attempt": {
-          "query": "site:hotpepper.jp \"0138-76-2193\" OR \"0138-76-0130\"",
-          "attempted_at": "2026-10-15T11:29:10Z",
-          "result": "対象電話番号に対応する新たな店舗ページは外部検索では未発見。同一性判断を進める根拠は増えず。"
-        },
         "followup_attempts": [
           {
-            "attempted_at": "2026-10-16T11:37:26Z",
-            "query": "site:hotpepper.jp \"0138-76-2193\" \"東屋\"",
-            "result": "外部検索では現店舗との新たな一致根拠なし。旧掲載との対応不明のため保留継続。内部検索の再取得・現住所の再確認は未実施。"
+            "attempted_at": "2026-10-17T11:57:50Z",
+            "query": "site:hotpepper.jp \"0138-76-2193\"",
+            "result": "観光公式で2018年承継を再確認。旧東屋掲載は宝来町20-9。現電話との掲載一致は追加検索でも未確定、保留継続。",
+            "evidence_urls": [
+              "https://www.hakobura.jp/features/368",
+              "https://www.hotpepper.jp/strJ000733848/"
+            ]
           }
         ]
       }
@@ -250,31 +236,15 @@
       "category": "酒場",
       "ownership": "地域の小規模店（個人事業か法人かは未確認）",
       "identity_review": {
-        "result": "old_address_listing_possible_same_business",
-        "candidate_name": "里の味・秀華",
-        "candidate_address": "函館市本町10-16",
-        "candidate_url": "https://www.hotpepper.jp/strJ000257853/",
-        "current_address": "函館市日吉町3丁目44-13",
-        "current_phone": "0138-76-0130",
-        "relocation_evidence_url": "https://www.sgnavi.com/hokkaido/jobs/xqUeFbUA89u3GnJc/",
-        "decision": "pending",
-        "rechecked_at": "2026-10-15T11:29:10Z",
-        "reason": "公式サイトで現住所・電話を確認。移転求人と本町の旧掲載は確認できるが、現在の店への掲載対応は未確定。",
-        "recheck_sources": [
-          "https://dining-ds.com/",
-          "https://www.sgnavi.com/hokkaido/jobs/xqUeFbUA89u3GnJc/",
-          "https://www.hotpepper.jp/strJ000257853/"
-        ],
-        "last_attempt": {
-          "query": "site:hotpepper.jp \"0138-76-2193\" OR \"0138-76-0130\"",
-          "attempted_at": "2026-10-15T11:29:10Z",
-          "result": "対象電話番号に対応する新たな店舗ページは外部検索では未発見。同一性判断を進める根拠は増えず。"
-        },
         "followup_attempts": [
           {
-            "attempted_at": "2026-10-16T11:37:26Z",
-            "query": "site:hotpepper.jp \"秀華\" \"日吉町\"",
-            "result": "外部検索では現店舗との新たな一致根拠なし。旧掲載との対応不明のため保留継続。内部検索の再取得・現住所の再確認は未実施。"
+            "attempted_at": "2026-10-17T11:57:50Z",
+            "query": "site:hotpepper.jp \"0138-76-0130\"",
+            "result": "旧掲載は本町10-16。公式ドメインは取得できたが今回の取得内容では現住所を抽出できず。電話検索の追加一致根拠なし、保留継続。",
+            "evidence_urls": [
+              "https://dining-ds.com/",
+              "https://www.hotpepper.jp/strJ000257853/"
+            ]
           }
         ]
       }
@@ -590,6 +560,98 @@
       "url": "https://www.hakobura.jp/spots/162",
       "source": "函館市公式観光サイト はこぶら",
       "last_seen": "2026-10-13T21:04:24.968597+09:00"
+    },
+    {
+      "name": "居酒屋 さくら井",
+      "area": "hakodate",
+      "city": "函館市",
+      "place": "函館市亀田港町22-11",
+      "category": "居酒屋",
+      "phone": "0138-84-8988",
+      "url": "https://izakaya-sakurai.com/",
+      "official_url": "https://izakaya-sakurai.com/",
+      "source": "店舗・チェーン公式",
+      "note": "旬の魚介と道産肉の焼き鳥、日本酒を提供。",
+      "type": "restaurant",
+      "date": "",
+      "first_seen": "2026-10-17T11:57:50Z",
+      "source_checked_at": "2026-10-17T11:57:50Z",
+      "attempted_at": "2026-10-17T11:57:50Z",
+      "checked_at": "2026-10-17T11:57:50Z",
+      "address_verified": true,
+      "verified_address": "函館市亀田港町22-11",
+      "status": "listed",
+      "name_variants": [
+        "居酒屋 さくら井",
+        "居酒屋さくら井"
+      ],
+      "external_search_checked": true,
+      "search_queries": [
+        "site:hotpepper.jp \"居酒屋さくら井\" 函館"
+      ],
+      "search_observations": [
+        {
+          "query": "site:hotpepper.jp \"居酒屋さくら井\" 函館",
+          "attempted_at": "2026-10-17T11:57:50Z",
+          "result": "対象店舗ページを発見。公式と店舗名・所在地を照合。"
+        }
+      ],
+      "evidence_urls": [
+        "https://izakaya-sakurai.com/",
+        "https://www.hotpepper.jp/strJ003497427/"
+      ],
+      "reason": "listing_page_verified",
+      "identity_review": {
+        "decision": "listed",
+        "result": "公式と店名・番地が一致。予約可否は判定に使用しない。",
+        "candidate_url": "https://www.hotpepper.jp/strJ003497427/"
+      }
+    },
+    {
+      "name": "そば処更科",
+      "area": "hakodate",
+      "city": "函館市",
+      "place": "函館市美原1丁目41-6",
+      "category": "蕎麦・食堂",
+      "phone": "0138-43-7532",
+      "url": "https://www.hakodate-sarashina.com/",
+      "official_url": "https://www.hakodate-sarashina.com/",
+      "source": "店舗・チェーン公式",
+      "note": "蕎麦とうどん、丼物のセットを提供する店。",
+      "type": "restaurant",
+      "date": "",
+      "first_seen": "2026-10-17T11:57:50Z",
+      "source_checked_at": "2026-10-17T11:57:50Z",
+      "attempted_at": "2026-10-17T11:57:50Z",
+      "checked_at": "2026-10-17T11:57:50Z",
+      "address_verified": true,
+      "verified_address": "函館市美原1丁目41-6",
+      "status": "listed",
+      "name_variants": [
+        "そば処更科",
+        "そば処更科"
+      ],
+      "external_search_checked": true,
+      "search_queries": [
+        "site:hotpepper.jp \"そば処更科\" \"美原\""
+      ],
+      "search_observations": [
+        {
+          "query": "site:hotpepper.jp \"そば処更科\" \"美原\"",
+          "attempted_at": "2026-10-17T11:57:50Z",
+          "result": "対象店舗ページを発見。公式と店舗名・所在地を照合。"
+        }
+      ],
+      "evidence_urls": [
+        "https://www.hakodate-sarashina.com/",
+        "https://www.hotpepper.jp/strJ000258188/"
+      ],
+      "reason": "listing_page_verified",
+      "identity_review": {
+        "decision": "listed",
+        "result": "公式と店名・番地が一致。予約可否は判定に使用しない。",
+        "candidate_url": "https://www.hotpepper.jp/strJ000258188/"
+      }
     }
   ]
 }
