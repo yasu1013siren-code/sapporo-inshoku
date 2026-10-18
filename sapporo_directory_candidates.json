@@ -246,14 +246,14 @@
     "url": "https://www.shikisai-ikkyu.com/shop.html",
     "source": "店舗公式",
     "note": "枝幸の食材を生かす和食と季節の日本酒。",
-    "status": "unknown",
+    "status": "external_not_found",
     "type": "restaurant",
     "date": "",
     "first_seen": "2026-10-15T11:29:10Z",
     "address_verified": true,
     "verified_address": "札幌市清田区北野7条1丁目7-10 第一長井ビル1F",
     "source_checked_at": "2026-10-15T11:29:10Z",
-    "attempted_at": "2026-10-15T11:29:10Z",
+    "attempted_at": "2026-10-18T06:54:34.040Z",
     "name_variants": [
       "四喜彩一久",
       "四喜彩 一久",
@@ -264,7 +264,9 @@
     "search_queries": [
       "site:hotpepper.jp \"四喜彩一久\"",
       "site:hotpepper.jp \"四喜彩\" \"一久\"",
-      "site:hotpepper.jp (\"011-836-5019\" OR \"四喜彩一久\" OR \"シキサイイッキュウ\" OR \"北野7条1丁目7-10\")"
+      "site:hotpepper.jp (\"011-836-5019\" OR \"四喜彩一久\" OR \"シキサイイッキュウ\" OR \"北野7条1丁目7-10\")",
+      "site:hotpepper.jp (\"四喜彩一久\" OR \"四喜彩 一久\" OR \"0118365019\" OR \"011-836-5019\" OR \"北野7条1丁目7-10\")",
+      "\"四喜彩一久\" \"ホットペッパー\""
     ],
     "evidence_urls": [
       "https://www.shikisai-ikkyu.com/shop.html",
@@ -272,19 +274,14 @@
     ],
     "search_observations": [
       {
-        "query": "site:hotpepper.jp \"四喜彩一久\"",
-        "attempted_at": "2026-10-15T11:29:10Z",
-        "result": "対象店舗の掲載ページは外部検索では未発見。未掲載確定ではない。"
+        "query": "site:hotpepper.jp (\"四喜彩一久\" OR \"四喜彩 一久\" OR \"0118365019\" OR \"011-836-5019\" OR \"北野7条1丁目7-10\")",
+        "attempted_at": "2026-10-18T06:54:34.040Z",
+        "result": "対象店舗のホットペッパー掲載を外部検索では発見せず。別店舗・別地域の結果は除外。未掲載の確定ではない。"
       },
       {
-        "query": "site:hotpepper.jp \"四喜彩\" \"一久\"",
-        "attempted_at": "2026-10-15T11:29:10Z",
-        "result": "対象店舗の掲載ページは外部検索では未発見。未掲載確定ではない。"
-      },
-      {
-        "query": "site:hotpepper.jp (\"011-836-5019\" OR \"四喜彩一久\" OR \"シキサイイッキュウ\" OR \"北野7条1丁目7-10\")",
-        "attempted_at": "2026-10-15T11:29:10Z",
-        "result": "対象店舗の掲載ページは外部検索では未発見。未掲載確定ではない。"
+        "query": "\"四喜彩一久\" \"ホットペッパー\"",
+        "attempted_at": "2026-10-18T06:54:34.040Z",
+        "result": "対象店舗のホットペッパー掲載を外部検索では発見せず。別店舗・別地域の結果は除外。未掲載の確定ではない。"
       }
     ],
     "internal_search": {
@@ -292,11 +289,16 @@
       "attempted_at": "2026-10-15T11:29:10Z",
       "result": "取得失敗。件数は未取得。"
     },
-    "reason": "search_failed",
+    "reason": "external_search_only_candidate",
     "identity_review": {
-      "decision": "pending",
-      "result": "東京・水天宮前の一久は別地域の店舗。閉店・移転の根拠は今回の外部検索では発見せず。内部検索取得失敗。"
-    }
+      "decision": "external_not_found",
+      "result": "公式の店名・住所・電話番号を照合。複数の外部検索で掲載未発見。内部検索は未確認。",
+      "name_variants_checked": true,
+      "address_checked": true,
+      "phone_checked": true,
+      "listing_signal": false
+    },
+    "checked_at": "2026-10-18T06:54:34.040Z"
   },
   {
     "name": "魚と肴 気まぐれ",
@@ -313,8 +315,8 @@
     "address_verified": true,
     "verified_address": "札幌市豊平区中の島1条2丁目1-8",
     "source_checked_at": "2026-10-16T11:37:26Z",
-    "attempted_at": "2026-10-16T11:37:26Z",
-    "status": "unknown",
+    "attempted_at": "2026-10-18T06:54:34.040Z",
+    "status": "external_not_found",
     "name_variants": [
       "魚と肴 気まぐれ",
       "魚と肴気まぐれ",
@@ -324,23 +326,20 @@
     "search_queries": [
       "site:hotpepper.jp \"魚と肴 気まぐれ\"",
       "site:hotpepper.jp (\"気まぐれ\" \"中の島\" OR \"011-595-8558\")",
-      "site:hotpepper.jp (\"魚と肴気まぐれ\" OR \"中の島1条2丁目1-8\" OR \"0115958558\")"
+      "site:hotpepper.jp (\"魚と肴気まぐれ\" OR \"中の島1条2丁目1-8\" OR \"0115958558\")",
+      "site:hotpepper.jp (\"魚と肴 気まぐれ\" OR \"魚と肴気まぐれ\" OR \"011-595-8558\" OR \"0115958558\" OR \"中の島1条2丁目1-8\")",
+      "\"魚と肴\" \"気まぐれ\" \"ホットペッパー\""
     ],
     "search_observations": [
       {
-        "query": "site:hotpepper.jp \"魚と肴 気まぐれ\"",
-        "attempted_at": "2026-10-16T11:37:26Z",
-        "result": "対象店舗の掲載ページは未発見。未掲載確定ではない。"
+        "query": "site:hotpepper.jp (\"魚と肴 気まぐれ\" OR \"魚と肴気まぐれ\" OR \"011-595-8558\" OR \"0115958558\" OR \"中の島1条2丁目1-8\")",
+        "attempted_at": "2026-10-18T06:54:34.040Z",
+        "result": "対象店舗のホットペッパー掲載を外部検索では発見せず。別店舗・別地域の結果は除外。未掲載の確定ではない。"
       },
       {
-        "query": "site:hotpepper.jp (\"気まぐれ\" \"中の島\" OR \"011-595-8558\")",
-        "attempted_at": "2026-10-16T11:37:26Z",
-        "result": "対象店舗の掲載ページは未発見。未掲載確定ではない。"
-      },
-      {
-        "query": "site:hotpepper.jp (\"魚と肴気まぐれ\" OR \"中の島1条2丁目1-8\" OR \"0115958558\")",
-        "attempted_at": "2026-10-16T11:37:26Z",
-        "result": "対象店舗の掲載ページは未発見。未掲載確定ではない。"
+        "query": "\"魚と肴\" \"気まぐれ\" \"ホットペッパー\"",
+        "attempted_at": "2026-10-18T06:54:34.040Z",
+        "result": "対象店舗のホットペッパー掲載を外部検索では発見せず。別店舗・別地域の結果は除外。未掲載の確定ではない。"
       }
     ],
     "evidence_urls": [
@@ -352,11 +351,16 @@
       "attempted_at": "2026-10-16T11:37:26Z",
       "result": "取得失敗。結果件数は未取得。"
     },
-    "reason": "search_failed",
+    "reason": "external_search_only_candidate",
     "identity_review": {
-      "decision": "pending",
-      "result": "秋田県能代市・帯広市の気まぐれは別店舗。現店舗の公式住所・電話を確認。内部検索失敗のため保留。"
-    }
+      "decision": "external_not_found",
+      "result": "公式の店名・住所・電話番号を照合。複数の外部検索で掲載未発見。内部検索は未確認。",
+      "name_variants_checked": true,
+      "address_checked": true,
+      "phone_checked": true,
+      "listing_signal": false
+    },
+    "checked_at": "2026-10-18T06:54:34.040Z"
   },
   {
     "name": "じぃじょ",
@@ -373,8 +377,8 @@
     "address_verified": true,
     "verified_address": "札幌市西区西町北20丁目5-6 I-BLD地下1階",
     "source_checked_at": "2026-10-16T11:37:26Z",
-    "attempted_at": "2026-10-16T11:37:26Z",
-    "status": "unknown",
+    "attempted_at": "2026-10-18T06:54:34.040Z",
+    "status": "external_not_found",
     "name_variants": [
       "じぃじょ",
       "じいじょ",
@@ -384,23 +388,19 @@
     "search_queries": [
       "site:hotpepper.jp \"じぃじょ\"",
       "site:hotpepper.jp (\"じぃじょ\" OR \"011-699-5773\" OR \"じいじょ\" \"西町\")",
-      "site:hotpepper.jp (\"じぃじょ\" OR \"じいじょ\") \"札幌\""
+      "site:hotpepper.jp (\"じぃじょ\" OR \"じいじょ\") \"札幌\"",
+      "site:hotpepper.jp (\"じぃじょ\" OR \"じいじょ\" OR \"011-699-5773\" OR \"西町北20丁目5-6\")"
     ],
     "search_observations": [
       {
         "query": "site:hotpepper.jp \"じぃじょ\"",
-        "attempted_at": "2026-10-16T11:37:26Z",
-        "result": "対象店舗の掲載ページは未発見。未掲載確定ではない。"
+        "attempted_at": "2026-10-18T06:54:34.040Z",
+        "result": "対象店舗のホットペッパー掲載を外部検索では発見せず。別店舗・別地域の結果は除外。未掲載の確定ではない。"
       },
       {
-        "query": "site:hotpepper.jp (\"じぃじょ\" OR \"011-699-5773\" OR \"じいじょ\" \"西町\")",
-        "attempted_at": "2026-10-16T11:37:26Z",
-        "result": "対象店舗の掲載ページは未発見。未掲載確定ではない。"
-      },
-      {
-        "query": "site:hotpepper.jp (\"じぃじょ\" OR \"じいじょ\") \"札幌\"",
-        "attempted_at": "2026-10-16T11:37:26Z",
-        "result": "対象店舗の掲載ページは未発見。未掲載確定ではない。"
+        "query": "site:hotpepper.jp (\"じぃじょ\" OR \"じいじょ\" OR \"011-699-5773\" OR \"西町北20丁目5-6\")",
+        "attempted_at": "2026-10-18T06:54:34.040Z",
+        "result": "対象店舗のホットペッパー掲載を外部検索では発見せず。別店舗・別地域の結果は除外。未掲載の確定ではない。"
       }
     ],
     "evidence_urls": [
@@ -412,11 +412,16 @@
       "attempted_at": "2026-10-16T11:37:26Z",
       "result": "取得失敗。結果件数は未取得。"
     },
-    "reason": "search_failed",
+    "reason": "external_search_only_candidate",
     "identity_review": {
-      "decision": "pending",
-      "result": "公式アクセスとぐるなびの所在地が一致。外部検索では対象ページ未発見。内部検索失敗のため保留。"
-    }
+      "decision": "external_not_found",
+      "result": "公式の店名・住所・電話番号を照合。複数の外部検索で掲載未発見。内部検索は未確認。",
+      "name_variants_checked": true,
+      "address_checked": true,
+      "phone_checked": true,
+      "listing_signal": false
+    },
+    "checked_at": "2026-10-18T06:54:34.040Z"
   },
   {
     "name": "蕎麦・立ち飲み 一味",
@@ -677,6 +682,178 @@
       "decision": "listed",
       "result": "公式と店名・番地が一致。予約可否は判定に使用しない。",
       "candidate_url": "https://www.hotpepper.jp/strJ001019572/"
+    }
+  },
+  {
+    "name": "三丁目料飲店．",
+    "area": "chuo",
+    "place": "札幌市中央区南3条西3丁目 もりにビル3F",
+    "phone": "011-211-1239",
+    "url": "https://sanchome-ryoin.com/",
+    "source": "店舗公式",
+    "note": "店主が一人で営む15席の居酒屋。",
+    "city": "札幌市",
+    "category": "居酒屋・小料理",
+    "type": "restaurant",
+    "date": "",
+    "first_seen": "2026-10-18T06:44:32.212Z",
+    "source_checked_at": "2026-10-18T06:44:32.212Z",
+    "attempted_at": "2026-10-18T06:54:34.040Z",
+    "address_verified": true,
+    "verified_address": "札幌市中央区南3条西3丁目 もりにビル3F",
+    "status": "external_not_found",
+    "name_variants": [
+      "三丁目料飲店",
+      "三丁目料飲店．",
+      "三丁目料飲"
+    ],
+    "external_search_checked": true,
+    "search_queries": [
+      "site:hotpepper.jp \"三丁目料飲店\"",
+      "site:hotpepper.jp (\"三丁目料飲店\" OR \"三丁目料飲\" OR \"011-211-1239\" OR \"0112111239\")",
+      "site:hotpepper.jp (\"三丁目料飲店\" OR \"三丁目料飲\" OR \"011-211-1239\" OR \"0112111239\" OR \"もりにビル\")"
+    ],
+    "evidence_urls": [
+      "https://sanchome-ryoin.com/",
+      "https://www.hotpepper.jp/SA41/ff/?FWT=%E4%B8%89%E4%B8%81%E7%9B%AE%E6%96%99%E9%A3%B2%E5%BA%97"
+    ],
+    "search_observations": [
+      {
+        "query": "site:hotpepper.jp \"三丁目料飲店\"",
+        "attempted_at": "2026-10-18T06:54:34.040Z",
+        "result": "対象店舗のホットペッパー掲載を外部検索では発見せず。別店舗・別地域の結果は除外。未掲載の確定ではない。"
+      },
+      {
+        "query": "site:hotpepper.jp (\"三丁目料飲店\" OR \"三丁目料飲\" OR \"011-211-1239\" OR \"0112111239\" OR \"もりにビル\")",
+        "attempted_at": "2026-10-18T06:54:34.040Z",
+        "result": "対象店舗のホットペッパー掲載を外部検索では発見せず。別店舗・別地域の結果は除外。未掲載の確定ではない。"
+      }
+    ],
+    "internal_search": {
+      "url": "https://www.hotpepper.jp/SA41/ff/?FWT=%E4%B8%89%E4%B8%81%E7%9B%AE%E6%96%99%E9%A3%B2%E5%BA%97",
+      "attempted_at": "2026-10-18T06:44:32.212Z",
+      "result": "取得失敗。0件と判定しない。"
+    },
+    "reason": "external_search_only_candidate",
+    "identity_review": {
+      "decision": "external_not_found",
+      "result": "公式の店名・住所・電話番号を照合。複数の外部検索で掲載未発見。内部検索は未確認。",
+      "name_variants_checked": true,
+      "address_checked": true,
+      "phone_checked": true,
+      "listing_signal": false
+    },
+    "checked_at": "2026-10-18T06:54:34.040Z"
+  },
+  {
+    "name": "小料理 かたばみの家",
+    "area": "shiroishi",
+    "place": "札幌市白石区中央二条7-4-13 ワンキャッスルヴィレッジ白石中央 1F-A",
+    "url": "https://www.shopship.jp/shiroishi/shop-list/katabaminoie/",
+    "source": "白石区ショップス・食べログ",
+    "note": "おばんざいを提供する小料理店。",
+    "city": "札幌市",
+    "category": "居酒屋・小料理",
+    "type": "restaurant",
+    "date": "",
+    "first_seen": "2026-10-18T06:44:32.212Z",
+    "source_checked_at": "2026-10-18T06:44:32.212Z",
+    "attempted_at": "2026-10-18T06:44:32.212Z",
+    "address_verified": true,
+    "verified_address": "札幌市白石区中央二条7-4-13 ワンキャッスルヴィレッジ白石中央 1F-A",
+    "status": "unknown",
+    "name_variants": [
+      "小料理 かたばみの家",
+      "かたばみの家",
+      "カタバミノイエ"
+    ],
+    "external_search_checked": true,
+    "search_queries": [
+      "site:hotpepper.jp \"かたばみ\" 札幌",
+      "site:hotpepper.jp (\"かたばみの家\" OR \"カタバミノイエ\" OR \"中央二条7-4-13\" OR \"中央2条7丁目4-13\")"
+    ],
+    "evidence_urls": [
+      "https://www.shopship.jp/shiroishi/shop-list/katabaminoie/",
+      "https://www.hotpepper.jp/SA41/ff/?FWT=%E3%81%8B%E3%81%9F%E3%81%B0%E3%81%BF%E3%81%AE%E5%AE%B6"
+    ],
+    "search_observations": [
+      {
+        "query": "site:hotpepper.jp \"かたばみ\" 札幌",
+        "attempted_at": "2026-10-18T06:44:32.212Z",
+        "result": "対象店舗のホットペッパー掲載ページは検索結果で未発見。未掲載確定ではない。"
+      },
+      {
+        "query": "site:hotpepper.jp (\"かたばみの家\" OR \"カタバミノイエ\" OR \"中央二条7-4-13\" OR \"中央2条7丁目4-13\")",
+        "attempted_at": "2026-10-18T06:44:32.212Z",
+        "result": "対象店舗のホットペッパー掲載ページは検索結果で未発見。未掲載確定ではない。"
+      }
+    ],
+    "internal_search": {
+      "url": "https://www.hotpepper.jp/SA41/ff/?FWT=%E3%81%8B%E3%81%9F%E3%81%B0%E3%81%BF%E3%81%AE%E5%AE%B6",
+      "attempted_at": "2026-10-18T06:44:32.212Z",
+      "result": "取得失敗。0件と判定しない。"
+    },
+    "reason": "search_failed",
+    "identity_review": {
+      "decision": "pending",
+      "result": "店舗所在地を確認。外部検索で掲載ページ未発見だが内部検索失敗のため保留。"
+    }
+  },
+  {
+    "name": "小料理家 紫艶",
+    "area": "chuo",
+    "place": "札幌市中央区南6条西4丁目4番地1 6・4ビル4階",
+    "phone": "011-600-1924",
+    "url": "https://koryouriya-sien.com/",
+    "source": "店舗公式",
+    "note": "手料理とカレーを提供する小料理店。",
+    "city": "札幌市",
+    "category": "居酒屋・小料理",
+    "type": "restaurant",
+    "date": "",
+    "first_seen": "2026-10-18T06:44:32.212Z",
+    "source_checked_at": "2026-10-18T06:44:32.212Z",
+    "attempted_at": "2026-10-18T06:44:32.212Z",
+    "address_verified": true,
+    "verified_address": "札幌市中央区南6条西4丁目4番地1 6・4ビル4階",
+    "status": "unknown",
+    "name_variants": [
+      "小料理家 紫艶",
+      "紫艶",
+      "小料理屋しえん"
+    ],
+    "external_search_checked": true,
+    "search_queries": [
+      "site:hotpepper.jp \"紫艶\" 札幌",
+      "site:hotpepper.jp (\"紫艶\" OR \"小料理屋しえん\" OR \"011-600-1924\" OR \"0116001924\")"
+    ],
+    "evidence_urls": [
+      "https://koryouriya-sien.com/",
+      "https://www.hotpepper.jp/SA41/ff/?FWT=%E7%B4%AB%E8%89%B6",
+      "https://gourmet.aumo.jp/areas/761/categories/b60/scenes/94"
+    ],
+    "search_observations": [
+      {
+        "query": "site:hotpepper.jp \"紫艶\" 札幌",
+        "attempted_at": "2026-10-18T06:44:32.212Z",
+        "result": "対象店舗のホットペッパー掲載ページは検索結果で未発見。未掲載確定ではない。"
+      },
+      {
+        "query": "site:hotpepper.jp (\"紫艶\" OR \"小料理屋しえん\" OR \"011-600-1924\" OR \"0116001924\")",
+        "attempted_at": "2026-10-18T06:44:32.212Z",
+        "result": "対象店舗のホットペッパー掲載ページは検索結果で未発見。未掲載確定ではない。"
+      }
+    ],
+    "internal_search": {
+      "url": "https://www.hotpepper.jp/SA41/ff/?FWT=%E7%B4%AB%E8%89%B6",
+      "attempted_at": "2026-10-18T06:44:32.212Z",
+      "result": "取得失敗。0件と判定しない。"
+    },
+    "reason": "listing_signal_found",
+    "identity_review": {
+      "decision": "pending",
+      "result": "aumoに同名・同住所のホットペッパー由来店舗情報あり。直接掲載ページは未確定。未掲載候補にはしない。",
+      "listing_signal": true
     }
   }
 ]
