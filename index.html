@@ -742,6 +742,21 @@ function validHakodateReview(item){
   return check?.status==="not_found" && Number.isFinite(age) && age>=0 && age<=7*86400000;
 }
 
+function validSapporoReview(item){
+  if(validHakodateReview(item)) return true;
+  const check=item.hotpepper_check, review=check?.identity_review;
+  const age=Date.now()-Date.parse(check?.checked_at || "");
+  return check?.status==="external_not_found" && review?.decision==="external_not_found" &&
+    check?.external_search_checked===true && Number.isFinite(age) && age>=0 && age<=7*86400000 &&
+    Boolean(item.phone) && Boolean(item.url) && new Set(item.search_queries || []).size>=2 &&
+    ["name_variants_checked","address_checked","phone_checked"].every(key=>review[key]===true) &&
+    review.listing_signal===false;
+}
+function directoryCheckLabel(item){
+  return item.hotpepper_check?.status==="external_not_found"
+    ? "未掲載候補・外部検索で掲載未発見" : "確認日時点で掲載なし";
+}
+
 function renderHistory(){
   const now=new Date(); now.setHours(0,0,0,0);
   const cutoff=new Date(now.getTime()-30*86400000);
@@ -777,14 +792,14 @@ function renderHistory(){
     }
     if(area==="hakodate") {
       const directory=(AUTO_NEWS?.hakodate_directory || []).filter(validHakodateReview);
-      el.insertAdjacentHTML("beforeend", `<section class="directory-section" id="${area}-hotpepper-directory" tabindex="-1" style="margin-top:32px"><h2>ホットペッパー掲載確認なしの店舗</h2><p class="empty-note">開店日・記事の日付を問わない店舗一覧です。検索失敗・未確認は掲載しません。</p>${directory.length ? directory.map(i=>`<article class="event-card"><div class="event-body"><h3>${escapeHTML(i.name || i.title || "")}</h3><div class="meta">${escapeHTML(i.place || "")}</div>${compactNoteHTML(i.note)}<p>確認日時点で掲載なし：${escapeHTML(i.hotpepper_check.checked_at.slice(0,10))}</p>${i.url ? `<a href="${escapeHTML(i.url)}" target="_blank" rel="noopener noreferrer">店舗の情報源 ↗</a>` : ""}</div></article>`).join("") : '<p class="empty-note">照合済みの対象店舗はありません。</p>'}</section>`);
+      el.insertAdjacentHTML("beforeend", `<section class="directory-section" id="${area}-hotpepper-directory" tabindex="-1" style="margin-top:32px"><h2>ホットペッパー掲載確認なしの店舗</h2><p class="empty-note">開店日・記事の日付を問わない店舗一覧です。検索失敗・未確認は掲載しません。</p>${directory.length ? directory.map(i=>`<article class="event-card"><div class="event-body"><h3>${escapeHTML(i.name || i.title || "")}</h3><div class="meta">${escapeHTML(i.place || "")}</div>${compactNoteHTML(i.note)}<p>${directoryCheckLabel(i)}：${escapeHTML(i.hotpepper_check.checked_at.slice(0,10))}</p>${i.url ? `<a href="${escapeHTML(i.url)}" target="_blank" rel="noopener noreferrer">店舗の情報源 ↗</a>` : ""}</div></article>`).join("") : '<p class="empty-note">照合済みの対象店舗はありません。</p>'}</section>`);
     }
     if(area!=="hakodate") {
       const directory=(AUTO_NEWS?.sapporo_directory?.[area] || []).filter(i=>
-        validHakodateReview(i) && i.address_verified && i.area===area &&
+        validSapporoReview(i) && i.address_verified && i.area===area &&
         i.hotpepper_check?.external_search_checked===true &&
-        i.hotpepper_check?.identity_review?.decision==="not_found");
-      el.insertAdjacentHTML("beforeend", `<section class="directory-section" id="${area}-hotpepper-directory" tabindex="-1" style="margin-top:32px"><h2>ホットペッパー掲載確認なしの店舗（日付不問）</h2><p class="empty-note">開店速報とは別の店舗一覧です。未確認・検索失敗は表示しません。</p>${directory.length ? directory.map(i=>`<article class="event-card"><div class="event-body"><h3>${escapeHTML(i.name || "")}</h3><div class="meta">${escapeHTML(i.place || "")}</div>${compactNoteHTML(i.note)}<p>確認日時点で掲載なし：${escapeHTML(i.hotpepper_check.checked_at.slice(0,10))}</p>${i.url ? `<a href="${escapeHTML(i.url)}" target="_blank" rel="noopener noreferrer">店舗の情報源 ↗</a>` : ""}</div></article>`).join("") : '<p class="empty-note">照合済みの対象店舗はありません。</p>'}</section>`);
+        ["not_found","external_not_found"].includes(i.hotpepper_check?.identity_review?.decision));
+      el.insertAdjacentHTML("beforeend", `<section class="directory-section" id="${area}-hotpepper-directory" tabindex="-1" style="margin-top:32px"><h2>ホットペッパー未掲載候補（日付不問）</h2><p class="empty-note">店名・別表記・住所・電話で照合した候補です。未掲載の確定ではありません。</p>${directory.length ? directory.map(i=>`<article class="event-card"><div class="event-body"><h3>${escapeHTML(i.name || "")}</h3><div class="meta">${escapeHTML(i.place || "")}</div>${compactNoteHTML(i.note)}<p>${directoryCheckLabel(i)}：${escapeHTML(i.hotpepper_check.checked_at.slice(0,10))}</p>${i.url ? `<a href="${escapeHTML(i.url)}" target="_blank" rel="noopener noreferrer">店舗の情報源 ↗</a>` : ""}</div></article>`).join("") : '<p class="empty-note">照合済みの対象店舗はありません。</p>'}</section>`);
     }
     const filter=document.querySelector(`.filter-row[data-area="${area}"] .active`)?.dataset.filter || "all";
     el.querySelectorAll(".event-card[data-type]").forEach(card=>card.classList.toggle("is-hidden",filter!=="all" && card.dataset.type!==filter));

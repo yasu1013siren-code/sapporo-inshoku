@@ -5,6 +5,18 @@ from pathlib import Path
 WARDS = ("chuo", "kita", "higashi", "shiroishi", "atsubetsu",
          "toyohira", "kiyota", "minami", "nishi", "teine")
 
+def external_candidate(item):
+    """Human-reviewed external absence is a candidate, never confirmed absence."""
+    review = item.get("identity_review", {})
+    return (item.get("status") == "external_not_found" and
+            review.get("decision") == "external_not_found" and
+            item.get("external_search_checked") is True and
+            bool(item.get("phone")) and bool(item.get("url")) and
+            len(set(item.get("search_queries", []))) >= 2 and
+            all(review.get(key) is True for key in
+                ("name_variants_checked", "address_checked", "phone_checked")) and
+            review.get("listing_signal") is False)
+
 def apply_verified_updates(payload, base_dir):
     base = Path(base_dir)
     path = base / "verified_information_updates.json"
@@ -28,8 +40,9 @@ def apply_verified_updates(payload, base_dir):
     payload["sapporo_directory"] = {ward: [] for ward in WARDS}
     for item in candidates:
         if (item.get("area") in WARDS and item.get("address_verified") and
-            item.get("status") == "not_found" and item.get("external_search_checked") and
-            item.get("identity_review", {}).get("decision") == "not_found"):
+            (external_candidate(item) or
+             (item.get("status") == "not_found" and item.get("external_search_checked") and
+              item.get("identity_review", {}).get("decision") == "not_found"))):
             row = dict(item)
             row["hotpepper_check"] = {key: item[key] for key in
                 ("status", "checked_at", "evidence_urls", "identity_review",
