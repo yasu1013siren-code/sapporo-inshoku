@@ -11118,6 +11118,170 @@
         "result": "公式と店名・番地が一致。予約可否は判定に使用しない。",
         "candidate_url": "https://www.hotpepper.jp/strJ001019572/"
       }
+    },
+    {
+      "name": "三丁目料飲店．",
+      "area": "chuo",
+      "place": "札幌市中央区南3条西3丁目 もりにビル3F",
+      "phone": "011-211-1239",
+      "url": "https://sanchome-ryoin.com/",
+      "source": "店舗公式",
+      "note": "店主が一人で営む15席の居酒屋。",
+      "city": "札幌市",
+      "category": "居酒屋・小料理",
+      "type": "restaurant",
+      "date": "",
+      "first_seen": "2026-10-18T06:44:32.212Z",
+      "source_checked_at": "2026-10-18T06:44:32.212Z",
+      "attempted_at": "2026-10-18T06:44:32.212Z",
+      "address_verified": true,
+      "verified_address": "札幌市中央区南3条西3丁目 もりにビル3F",
+      "status": "unknown",
+      "name_variants": [
+        "三丁目料飲店",
+        "三丁目料飲店．",
+        "三丁目料飲"
+      ],
+      "external_search_checked": true,
+      "search_queries": [
+        "site:hotpepper.jp \"三丁目料飲店\"",
+        "site:hotpepper.jp (\"三丁目料飲店\" OR \"三丁目料飲\" OR \"011-211-1239\" OR \"0112111239\")"
+      ],
+      "evidence_urls": [
+        "https://sanchome-ryoin.com/",
+        "https://www.hotpepper.jp/SA41/ff/?FWT=%E4%B8%89%E4%B8%81%E7%9B%AE%E6%96%99%E9%A3%B2%E5%BA%97"
+      ],
+      "search_observations": [
+        {
+          "query": "site:hotpepper.jp \"三丁目料飲店\"",
+          "attempted_at": "2026-10-18T06:44:32.212Z",
+          "result": "対象店舗のホットペッパー掲載ページは検索結果で未発見。未掲載確定ではない。"
+        },
+        {
+          "query": "site:hotpepper.jp (\"三丁目料飲店\" OR \"三丁目料飲\" OR \"011-211-1239\" OR \"0112111239\")",
+          "attempted_at": "2026-10-18T06:44:32.212Z",
+          "result": "対象店舗のホットペッパー掲載ページは検索結果で未発見。未掲載確定ではない。"
+        }
+      ],
+      "internal_search": {
+        "url": "https://www.hotpepper.jp/SA41/ff/?FWT=%E4%B8%89%E4%B8%81%E7%9B%AE%E6%96%99%E9%A3%B2%E5%BA%97",
+        "attempted_at": "2026-10-18T06:44:32.212Z",
+        "result": "取得失敗。0件と判定しない。"
+      },
+      "reason": "search_failed",
+      "identity_review": {
+        "decision": "pending",
+        "result": "店舗所在地を確認。外部検索で掲載ページ未発見だが内部検索失敗のため保留。"
+      }
+    },
+    {
+      "name": "小料理 かたばみの家",
+      "area": "shiroishi",
+      "place": "札幌市白石区中央二条7-4-13 ワンキャッスルヴィレッジ白石中央 1F-A",
+      "url": "https://www.shopship.jp/shiroishi/shop-list/katabaminoie/",
+      "source": "白石区ショップス・食べログ",
+      "note": "おばんざいを提供する小料理店。",
+      "city": "札幌市",
+      "category": "居酒屋・小料理",
+      "type": "restaurant",
+      "date": "",
+      "first_seen": "2026-10-18T06:44:32.212Z",
+      "source_checked_at": "2026-10-18T06:44:32.212Z",
+      "attempted_at": "2026-10-18T06:44:32.212Z",
+      "address_verified": true,
+      "verified_address": "札幌市白石区中央二条7-4-13 ワンキャッスルヴィレッジ白石中央 1F-A",
+      "status": "unknown",
+      "name_variants": [
+        "小料理 かたばみの家",
+        "かたばみの家",
+        "カタバミノイエ"
+      ],
+      "external_search_checked": true,
+      "search_queries": [
+        "site:hotpepper.jp \"かたばみ\" 札幌",
+        "site:hotpepper.jp (\"かたばみの家\" OR \"カタバミノイエ\" OR \"中央二条7-4-13\" OR \"中央2条7丁目4-13\")"
+      ],
+      "evidence_urls": [
+        "https://www.shopship.jp/shiroishi/shop-list/katabaminoie/",
+        "https://www.hotpepper.jp/SA41/ff/?FWT=%E3%81%8B%E3%81%9F%E3%81%B0%E3%81%BF%E3%81%AE%E5%AE%B6"
+      ],
+      "search_observations": [
+        {
+          "query": "site:hotpepper.jp \"かたばみ\" 札幌",
+          "attempted_at": "2026-10-18T06:44:32.212Z",
+          "result": "対象店舗のホットペッパー掲載ページは検索結果で未発見。未掲載確定ではない。"
+        },
+        {
+          "query": "site:hotpepper.jp (\"かたばみの家\" OR \"カタバミノイエ\" OR \"中央二条7-4-13\" OR \"中央2条7丁目4-13\")",
+          "attempted_at": "2026-10-18T06:44:32.212Z",
+          "result": "対象店舗のホットペッパー掲載ページは検索結果で未発見。未掲載確定ではない。"
+        }
+      ],
+      "internal_search": {
+        "url": "https://www.hotpepper.jp/SA41/ff/?FWT=%E3%81%8B%E3%81%9F%E3%81%B0%E3%81%BF%E3%81%AE%E5%AE%B6",
+        "attempted_at": "2026-10-18T06:44:32.212Z",
+        "result": "取得失敗。0件と判定しない。"
+      },
+      "reason": "search_failed",
+      "identity_review": {
+        "decision": "pending",
+        "result": "店舗所在地を確認。外部検索で掲載ページ未発見だが内部検索失敗のため保留。"
+      }
+    },
+    {
+      "name": "小料理家 紫艶",
+      "area": "chuo",
+      "place": "札幌市中央区南6条西4丁目4番地1 6・4ビル4階",
+      "phone": "011-600-1924",
+      "url": "https://koryouriya-sien.com/",
+      "source": "店舗公式",
+      "note": "手料理とカレーを提供する小料理店。",
+      "city": "札幌市",
+      "category": "居酒屋・小料理",
+      "type": "restaurant",
+      "date": "",
+      "first_seen": "2026-10-18T06:44:32.212Z",
+      "source_checked_at": "2026-10-18T06:44:32.212Z",
+      "attempted_at": "2026-10-18T06:44:32.212Z",
+      "address_verified": true,
+      "verified_address": "札幌市中央区南6条西4丁目4番地1 6・4ビル4階",
+      "status": "unknown",
+      "name_variants": [
+        "小料理家 紫艶",
+        "紫艶",
+        "小料理屋しえん"
+      ],
+      "external_search_checked": true,
+      "search_queries": [
+        "site:hotpepper.jp \"紫艶\" 札幌",
+        "site:hotpepper.jp (\"紫艶\" OR \"小料理屋しえん\" OR \"011-600-1924\" OR \"0116001924\")"
+      ],
+      "evidence_urls": [
+        "https://koryouriya-sien.com/",
+        "https://www.hotpepper.jp/SA41/ff/?FWT=%E7%B4%AB%E8%89%B6"
+      ],
+      "search_observations": [
+        {
+          "query": "site:hotpepper.jp \"紫艶\" 札幌",
+          "attempted_at": "2026-10-18T06:44:32.212Z",
+          "result": "対象店舗のホットペッパー掲載ページは検索結果で未発見。未掲載確定ではない。"
+        },
+        {
+          "query": "site:hotpepper.jp (\"紫艶\" OR \"小料理屋しえん\" OR \"011-600-1924\" OR \"0116001924\")",
+          "attempted_at": "2026-10-18T06:44:32.212Z",
+          "result": "対象店舗のホットペッパー掲載ページは検索結果で未発見。未掲載確定ではない。"
+        }
+      ],
+      "internal_search": {
+        "url": "https://www.hotpepper.jp/SA41/ff/?FWT=%E7%B4%AB%E8%89%B6",
+        "attempted_at": "2026-10-18T06:44:32.212Z",
+        "result": "取得失敗。0件と判定しない。"
+      },
+      "reason": "search_failed",
+      "identity_review": {
+        "decision": "pending",
+        "result": "店舗所在地を確認。外部検索で掲載ページ未発見だが内部検索失敗のため保留。"
+      }
     }
   ],
   "directory_research": {
@@ -11203,5 +11367,21 @@
       "https://www.shopship.jp/hakodate/",
       "https://hakodate.goguynet.jp/category/cat_openclose/"
     ]
-  }
+  },
+  "directory_research_followups": [
+    {
+      "attempted_at": "2026-10-18T06:44:32.212Z",
+      "new_sapporo_candidates": 3,
+      "areas": [
+        "chuo",
+        "shiroishi"
+      ],
+      "published_additions": 0,
+      "limitation": "ホットペッパー内部検索取得失敗。未掲載と誤判定せず保留。",
+      "rechecked_existing": [
+        "じぃじょ"
+      ],
+      "discovery_source": "個人店公式サイト・地域店舗紹介。チェーン偏重を避ける候補探索。"
+    }
+  ]
 }
