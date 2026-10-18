@@ -151,7 +151,7 @@
     padding:12px 15px;
     transition:opacity .15s ease, transform .15s ease;
   }
-  .event-card.is-hidden{display:none;}
+  .is-hidden{display:none !important;}
 
   .date-badge{
     flex:0 0 auto;
@@ -288,7 +288,7 @@ function buildTabsAndSections(){
         <button class="chip" data-filter="open">開店済み</button>
         <button class="chip" data-filter="closed">閉店</button>
         <button class="chip" data-filter="pending">開店確認待ち</button>
-        <a class="chip directory-jump" href="#${a.id}-hotpepper-directory">ホットペッパー未掲載 ↓</a>
+        <button class="chip" data-filter="directory">ホットペッパー未掲載候補</button>
       </div>
       <div class="event-feed" id="${a.id}-history"></div>
 
@@ -790,6 +790,7 @@ function renderHistory(){
       const pending=AUTO_NEWS?.hakodate_selection?.pending;
       el.insertAdjacentHTML("afterbegin", `<p class="empty-note">新規開店・閉店情報はホットペッパー掲載の有無に関係なく収集しています。${pending ? `照合待ち：${pending}件。` : ""}</p>`);
     }
+    el.innerHTML=`<div class="opening-feed">${el.innerHTML}</div>`;
     if(area==="hakodate") {
       const directory=(AUTO_NEWS?.hakodate_directory || []).filter(validHakodateReview);
       el.insertAdjacentHTML("beforeend", `<section class="directory-section" id="${area}-hotpepper-directory" tabindex="-1" style="margin-top:32px"><h2>ホットペッパー掲載確認なしの店舗</h2><p class="empty-note">開店日・記事の日付を問わない店舗一覧です。検索失敗・未確認は掲載しません。</p>${directory.length ? directory.map(i=>`<article class="event-card"><div class="event-body"><h3>${escapeHTML(i.name || i.title || "")}</h3><div class="meta">${escapeHTML(i.place || "")}</div>${compactNoteHTML(i.note)}<p>${directoryCheckLabel(i)}：${escapeHTML(i.hotpepper_check.checked_at.slice(0,10))}</p>${i.url ? `<a href="${escapeHTML(i.url)}" target="_blank" rel="noopener noreferrer">店舗の情報源 ↗</a>` : ""}</div></article>`).join("") : '<p class="empty-note">照合済みの対象店舗はありません。</p>'}</section>`);
@@ -802,32 +803,29 @@ function renderHistory(){
       el.insertAdjacentHTML("beforeend", `<section class="directory-section" id="${area}-hotpepper-directory" tabindex="-1" style="margin-top:32px"><h2>ホットペッパー未掲載候補（日付不問）</h2><p class="empty-note">店名・別表記・住所・電話で照合した候補です。未掲載の確定ではありません。</p>${directory.length ? directory.map(i=>`<article class="event-card"><div class="event-body"><h3>${escapeHTML(i.name || "")}</h3><div class="meta">${escapeHTML(i.place || "")}</div>${compactNoteHTML(i.note)}<p>${directoryCheckLabel(i)}：${escapeHTML(i.hotpepper_check.checked_at.slice(0,10))}</p>${i.url ? `<a href="${escapeHTML(i.url)}" target="_blank" rel="noopener noreferrer">店舗の情報源 ↗</a>` : ""}</div></article>`).join("") : '<p class="empty-note">照合済みの対象店舗はありません。</p>'}</section>`);
     }
     const filter=document.querySelector(`.filter-row[data-area="${area}"] .active`)?.dataset.filter || "all";
-    el.querySelectorAll(".event-card[data-type]").forEach(card=>card.classList.toggle("is-hidden",filter!=="all" && card.dataset.type!==filter));
+    applyFeedFilter(area,filter);
   });
 }
 
-// ---------------- 更新履歴の絞り込みチップ ----------------
-document.querySelectorAll(".filter-row").forEach(row=>{
-  row.addEventListener("click", (e)=>{
-    const btn = e.target.closest(".chip");
-    if(!btn || !btn.hasAttribute("data-filter")) return;
-    row.querySelectorAll(".chip").forEach(c=>c.classList.remove("active"));
-    btn.classList.add("active");
-    const area = row.dataset.area;
-    const filter = btn.dataset.filter;
-    document.querySelectorAll(`#${area}-history .event-card[data-type]`).forEach(card=>{
-      card.classList.toggle("is-hidden", filter !== "all" && card.dataset.type !== filter);
-    });
+// 開店・閉店情報と日付不問の未掲載候補を同じ場所で切り替える。
+function applyFeedFilter(area,filter){
+  const feed=document.getElementById(`${area}-history`);
+  feed.querySelector(".opening-feed")?.classList.toggle("is-hidden",filter==="directory");
+  feed.querySelector(".directory-section")?.classList.toggle("is-hidden",filter!=="directory");
+  feed.querySelectorAll(".opening-feed .event-card[data-type]").forEach(card=>{
+    card.classList.toggle("is-hidden",filter!=="all" && card.dataset.type!==filter);
   });
-});
-
-document.querySelectorAll(".directory-jump").forEach(link=>{
-  link.addEventListener("click", e=>{
-    const target=document.getElementById(link.hash.slice(1));
-    if(!target) return;
-    e.preventDefault();
-    target.focus({preventScroll:true});
-    target.scrollIntoView({behavior:window.matchMedia("(prefers-reduced-motion: reduce)").matches?"instant":"smooth",block:"start"});
+  document.querySelectorAll(`.filter-row[data-area="${area}"] .chip`).forEach(chip=>{
+    const selected=chip.dataset.filter===filter;
+    chip.classList.toggle("active",selected);
+    chip.setAttribute("aria-pressed",String(selected));
+  });
+}
+document.querySelectorAll(".filter-row").forEach(row=>{
+  row.addEventListener("click", e=>{
+    const btn=e.target.closest("button[data-filter]");
+    if(!btn) return;
+    applyFeedFilter(row.dataset.area,btn.dataset.filter);
   });
 });
 
