@@ -855,5 +855,166 @@
       "result": "aumoに同名・同住所のホットペッパー由来店舗情報あり。直接掲載ページは未確定。未掲載候補にはしない。",
       "listing_signal": true
     }
+  },
+  {
+    "name": "晩菜",
+    "area": "teine",
+    "place": "札幌市手稲区手稲本町2条3丁目8-18",
+    "category": "居酒屋",
+    "url": "https://www.e-bansai.com/",
+    "note": "酒の肴と鮮魚、季節の料理を楽しむ居酒屋。",
+    "type": "restaurant",
+    "date": "",
+    "first_seen": "2026-10-18T11:45:59Z",
+    "source": "店舗公式・施設公式",
+    "official_url": "https://www.e-bansai.com/",
+    "address_verified": true,
+    "verified_address": "札幌市手稲区手稲本町2条3丁目8-18",
+    "source_checked_at": "2026-10-18T11:45:59Z",
+    "attempted_at": "2026-10-18T11:45:59Z",
+    "checked_at": "2026-10-18T11:45:59Z",
+    "status": "listed",
+    "reason": "listing_page_verified",
+    "name_variants": [
+      "晩菜"
+    ],
+    "external_search_checked": true,
+    "search_queries": [
+      "site:hotpepper.jp \"晩菜\" 手稲"
+    ],
+    "search_observations": [
+      {
+        "query": "site:hotpepper.jp \"晩菜\" 手稲",
+        "attempted_at": "2026-10-18T11:45:59Z",
+        "result": "店舗ページを発見し、公式と店名・番地の一致を確認。"
+      }
+    ],
+    "evidence_urls": [
+      "https://www.e-bansai.com/",
+      "https://www.hotpepper.jp/strJ000252174/"
+    ],
+    "identity_review": {
+      "decision": "listed",
+      "result": "公式と店名・所在地が一致。予約可否ではなく店舗ページ有無で判定。",
+      "candidate_url": "https://www.hotpepper.jp/strJ000252174/"
+    }
+  },
+  {
+    "name": "居酒屋どらごん",
+    "area": "shiroishi",
+    "place": "札幌市白石区南郷通7丁目南2-17 アーリーハウス1F",
+    "category": "居酒屋",
+    "phone": "011-595-8118",
+    "url": "https://dragon-fukube.com/info/",
+    "note": "キッズスペースと個室を備えた居酒屋。",
+    "type": "restaurant",
+    "date": "",
+    "first_seen": "2026-10-18T11:45:59Z",
+    "source": "店舗公式・施設公式",
+    "official_url": "https://dragon-fukube.com/info/",
+    "address_verified": true,
+    "verified_address": "札幌市白石区南郷通7丁目南2-17 アーリーハウス1F",
+    "source_checked_at": "2026-10-18T11:45:59Z",
+    "attempted_at": "2026-10-18T11:45:59Z",
+    "status": "unknown",
+    "reason": "search_failed",
+    "name_variants": [
+      "居酒屋どらごん"
+    ],
+    "external_search_checked": true,
+    "search_queries": [
+      "site:hotpepper.jp \"居酒屋どらごん\" \"南郷\"",
+      "site:hotpepper.jp (\"0115958118\" OR \"011-595-8118\")",
+      "site:hotpepper.jp \"どらごん\" \"南郷通７\""
+    ],
+    "search_observations": [
+      {
+        "query": "site:hotpepper.jp \"居酒屋どらごん\" \"南郷\"",
+        "attempted_at": "2026-10-18T11:45:59Z",
+        "result": "外部検索で対象店舗ページ未発見。未掲載確定ではない。"
+      },
+      {
+        "query": "site:hotpepper.jp (\"0115958118\" OR \"011-595-8118\")",
+        "attempted_at": "2026-10-18T11:45:59Z",
+        "result": "外部検索で対象店舗ページ未発見。未掲載確定ではない。"
+      },
+      {
+        "query": "site:hotpepper.jp \"どらごん\" \"南郷通７\"",
+        "attempted_at": "2026-10-18T11:45:59Z",
+        "result": "外部検索で対象店舗ページ未発見。未掲載確定ではない。"
+      }
+    ],
+    "evidence_urls": [
+      "https://dragon-fukube.com/info/",
+      "https://www.hotpepper.jp/SA41/Y511/ff/?FWT=居酒屋どらごん"
+    ],
+    "internal_search": {
+      "url": "https://www.hotpepper.jp/SA41/Y511/ff/?FWT=居酒屋どらごん",
+      "attempted_at": "2026-10-18T11:45:59Z",
+      "result": "取得失敗。件数未取得、0件とは扱わない。"
+    },
+    "identity_review": {
+      "decision": "pending",
+      "result": "公式の住所・電話を確認。別表記・電話でも外部未発見だが内部検索失敗、旧名履歴未確定のため保留。"
+    }
+  },
+  {
+    "name": "ちょいおでん 札幌澄川店",
+    "area": "minami",
+    "place": "札幌市南区澄川4条2丁目2-3 第三真耕ビル1階",
+    "category": "おでん・居酒屋",
+    "phone": "011-769-0222",
+    "url": "https://choioden.com/sapporosumikawa/",
+    "note": "鱧出汁のおでんを提供するフランチャイズ店舗。",
+    "type": "restaurant",
+    "date": "",
+    "first_seen": "2026-10-18T11:45:59Z",
+    "source": "店舗公式・施設公式",
+    "official_url": "https://choioden.com/sapporosumikawa/",
+    "address_verified": true,
+    "verified_address": "札幌市南区澄川4条2丁目2-3 第三真耕ビル1階",
+    "source_checked_at": "2026-10-18T11:45:59Z",
+    "attempted_at": "2026-10-18T11:45:59Z",
+    "status": "unknown",
+    "reason": "search_failed",
+    "name_variants": [
+      "ちょいおでん 札幌澄川店"
+    ],
+    "external_search_checked": true,
+    "search_queries": [
+      "site:hotpepper.jp \"ちょいおでん\" \"澄川\"",
+      "site:hotpepper.jp \"ちょいおでん\" \"011-769-0222\"",
+      "site:hotpepper.jp \"ちょいおでん\" \"澄川4条2丁目2-3\""
+    ],
+    "search_observations": [
+      {
+        "query": "site:hotpepper.jp \"ちょいおでん\" \"澄川\"",
+        "attempted_at": "2026-10-18T11:45:59Z",
+        "result": "外部検索で対象店舗ページ未発見。未掲載確定ではない。"
+      },
+      {
+        "query": "site:hotpepper.jp \"ちょいおでん\" \"011-769-0222\"",
+        "attempted_at": "2026-10-18T11:45:59Z",
+        "result": "外部検索で対象店舗ページ未発見。未掲載確定ではない。"
+      },
+      {
+        "query": "site:hotpepper.jp \"ちょいおでん\" \"澄川4条2丁目2-3\"",
+        "attempted_at": "2026-10-18T11:45:59Z",
+        "result": "外部検索で対象店舗ページ未発見。未掲載確定ではない。"
+      }
+    ],
+    "evidence_urls": [
+      "https://choioden.com/sapporosumikawa/",
+      "https://www.hotpepper.jp/SA41/Y513/ff/?FWT=ちょいおでん札幌澄川店"
+    ],
+    "internal_search": {
+      "url": "https://www.hotpepper.jp/SA41/Y513/ff/?FWT=ちょいおでん札幌澄川店",
+      "attempted_at": "2026-10-18T11:45:59Z",
+      "result": "取得失敗。件数未取得、0件とは扱わない。"
+    },
+    "identity_review": {
+      "decision": "pending",
+      "result": "札幌本店の掲載は別支店。澄川店のページ未発見だが内部検索失敗・旧店名履歴未確定のため保留。"
+    }
   }
 ]

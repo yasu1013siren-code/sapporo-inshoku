@@ -217,48 +217,86 @@
       "source_checked_at": "2026-10-17T11:57:50Z",
       "confidence": 0.85,
       "verification_note": "公式SNSを引用する地元記事と別媒体の告知が一致。公式SNS本文は直接未取得。"
+    },
+    {
+      "area": "hakodate",
+      "name": "手打ちそば 根崎やたら家",
+      "title": "手打ちそば 根崎やたら家",
+      "place": "函館市高松町333-3",
+      "category": "蕎麦",
+      "date": "2026-09-30",
+      "type": "closed",
+      "phone": "0138-57-4397",
+      "note": "9月30日閉店。湯川町の同名居酒屋とは別記録。",
+      "url": "https://www.hakobura.jp/spots/79",
+      "source": "函館市公式観光サイト はこぶら",
+      "sources": [
+        {
+          "name": "函館市公式観光サイト はこぶら",
+          "url": "https://www.hakobura.jp/spots/79"
+        }
+      ],
+      "source_count": 1,
+      "confidence": 0.95,
+      "first_seen": "2026-10-18T11:45:59Z",
+      "source_checked_at": "2026-10-18T11:45:59Z"
+    },
+    {
+      "area": "minami",
+      "name": "ちょいおでん 札幌澄川店",
+      "title": "ちょいおでん 札幌澄川店",
+      "place": "札幌市南区澄川4条2丁目2-3 第三真耕ビル1階",
+      "date": "2026-10-09",
+      "type": "open",
+      "category": "おでん・居酒屋",
+      "note": "10月9日開店。公式発表に基づき従来の10月8日を訂正。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000017.000121045.html",
+      "official_url": "https://choioden.com/sapporosumikawa/",
+      "source": "運営会社公式発表・店舗公式",
+      "sources": [
+        {
+          "name": "運営会社公式発表",
+          "url": "https://prtimes.jp/main/html/rd/p/000000017.000121045.html"
+        },
+        {
+          "name": "店舗公式",
+          "url": "https://choioden.com/sapporosumikawa/"
+        }
+      ],
+      "source_count": 2,
+      "confidence": 0.98,
+      "source_checked_at": "2026-10-18T11:45:59Z",
+      "first_seen": "2026-10-06"
     }
   ],
   "research": {
-    "attempted_at": "2026-10-17T11:57:50Z",
-    "reviewed_candidates": 8,
-    "new_candidates": 6,
+    "attempted_at": "2026-10-18T11:45:59Z",
+    "reviewed_candidates": 7,
+    "new_candidates": 5,
     "prior_candidates_researched": 2,
     "sapporo": {
-      "reviewed": 4,
-      "listed": 3,
-      "pending": 1,
+      "reviewed": 3,
+      "listed": 1,
+      "pending": 2,
       "new_not_found": 0,
       "visited_wards": [
-        "kita",
-        "higashi",
-        "atsubetsu"
+        "minami",
+        "shiroishi",
+        "teine"
       ],
       "not_visited_this_run": [
         "chuo",
-        "shiroishi",
-        "toyohira",
-        "kiyota",
-        "minami",
-        "nishi",
-        "teine"
-      ],
-      "cumulative_visited_wards": [
-        "chuo",
         "kita",
         "higashi",
-        "shiroishi",
         "atsubetsu",
         "toyohira",
         "kiyota",
-        "minami",
-        "nishi",
-        "teine"
+        "nishi"
       ],
       "next_wards": [
-        "minami",
-        "shiroishi",
-        "teine"
+        "kiyota",
+        "toyohira",
+        "nishi"
       ]
     },
     "hakodate": {
@@ -268,16 +306,14 @@
       "pending": 2,
       "new_not_found": 0,
       "visited": [
-        "亀田港町",
-        "美原"
-      ],
-      "prior_identity_followup": [
-        "宝来東屋",
-        "秀華"
+        "亀田本町",
+        "松風町・大門横丁",
+        "宝来町",
+        "日吉町"
       ],
       "next": [
-        "大門地区の食堂",
-        "亀田・美原の小料理店"
+        "美原の小料理店",
+        "大門の食堂"
       ]
     },
     "new_events": {
@@ -285,22 +321,23 @@
       "hakodate": 0
     },
     "new_closures": {
-      "kita": 1,
-      "higashi": 1,
-      "hakodate": 0
+      "sapporo": 0,
+      "hakodate": 1
     },
+    "corrections": [
+      "ちょいおでん札幌澄川店の開店日を公式発表に従い2026-10-08から2026-10-09へ訂正"
+    ],
     "limitations": [
-      "北大前通り店は一覧スニペットに掲載兆候あり。直接店舗ページ・住所の一致未確定で保留。",
-      "宝来東屋・秀華は旧店舗掲載との現店舗対応未確定。従来checked_atは保持。",
-      "函館の開店閉店一覧を確認したが今回追加できる新規情報なし。",
-      "全10区を毎回網羅する調査ではない。",
-      "公式SNS閉店本文は直接未取得。地元2媒体の一致を記録。"
+      "内部検索2店取得失敗、未掲載確認済み追加は0。",
+      "旧店舗対応2店は保留。再確認していないchecked_atは保持。",
+      "全10区の毎回網羅ではない。",
+      "公開URL直接取得は通信エラー。"
     ],
     "opening_sources_checked": [
+      "https://www.shopship.jp/minami/open-close/",
       "https://sapporo-list.info/open/october-open/",
-      "https://mogtrip.jp/closed-2026/",
-      "https://www.shopship.jp/hakodate/",
-      "https://hakodate.goguynet.jp/category/cat_openclose/"
+      "https://hakodate.goguynet.jp/category/cat_openclose/",
+      "https://www.shopship.jp/hakodate/open-close/?sort=open_date_desc"
     ]
   },
   "research_history": [
@@ -517,6 +554,90 @@
         "https://www.shopship.jp/chuo/open-close/",
         "https://mogtrip.jp/closed-2026/",
         "https://www.shopship.jp/hakodate/open-close/?sort=open_date_desc"
+      ]
+    },
+    {
+      "attempted_at": "2026-10-17T11:57:50Z",
+      "reviewed_candidates": 8,
+      "new_candidates": 6,
+      "prior_candidates_researched": 2,
+      "sapporo": {
+        "reviewed": 4,
+        "listed": 3,
+        "pending": 1,
+        "new_not_found": 0,
+        "visited_wards": [
+          "kita",
+          "higashi",
+          "atsubetsu"
+        ],
+        "not_visited_this_run": [
+          "chuo",
+          "shiroishi",
+          "toyohira",
+          "kiyota",
+          "minami",
+          "nishi",
+          "teine"
+        ],
+        "cumulative_visited_wards": [
+          "chuo",
+          "kita",
+          "higashi",
+          "shiroishi",
+          "atsubetsu",
+          "toyohira",
+          "kiyota",
+          "minami",
+          "nishi",
+          "teine"
+        ],
+        "next_wards": [
+          "minami",
+          "shiroishi",
+          "teine"
+        ]
+      },
+      "hakodate": {
+        "reviewed": 4,
+        "new_candidates": 2,
+        "listed": 2,
+        "pending": 2,
+        "new_not_found": 0,
+        "visited": [
+          "亀田港町",
+          "美原"
+        ],
+        "prior_identity_followup": [
+          "宝来東屋",
+          "秀華"
+        ],
+        "next": [
+          "大門地区の食堂",
+          "亀田・美原の小料理店"
+        ]
+      },
+      "new_events": {
+        "sapporo": 0,
+        "hakodate": 0
+      },
+      "new_closures": {
+        "kita": 1,
+        "higashi": 1,
+        "hakodate": 0
+      },
+      "limitations": [
+        "北大前通り店は一覧スニペットに掲載兆候あり。直接店舗ページ・住所の一致未確定で保留。",
+        "宝来東屋・秀華は旧店舗掲載との現店舗対応未確定。従来checked_atは保持。",
+        "函館の開店閉店一覧を確認したが今回追加できる新規情報なし。",
+        "全10区を毎回網羅する調査ではない。",
+        "公式SNS閉店本文は直接未取得。地元2媒体の一致を記録。"
+      ],
+      "opening_sources_checked": [
+        "https://sapporo-list.info/open/october-open/",
+        "https://mogtrip.jp/closed-2026/",
+        "https://www.shopship.jp/hakodate/",
+        "https://hakodate.goguynet.jp/category/cat_openclose/"
       ]
     }
   ]

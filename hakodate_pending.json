@@ -215,6 +215,16 @@
               "https://www.hakobura.jp/features/368",
               "https://www.hotpepper.jp/strJ000733848/"
             ]
+          },
+          {
+            "attempted_at": "2026-10-18T11:45:59Z",
+            "name": "居酒屋 宝来東屋",
+            "query": "site:hotpepper.jp \"宝来東屋\" \"0138-76-2193\"",
+            "result": "公式観光サイトで2018年の建物ごとの承継と現電話を再確認。旧東屋の掲載と現在店の対応は未確定。保留継続。",
+            "evidence_urls": [
+              "https://www.hakobura.jp/features/368",
+              "https://www.hotpepper.jp/strJ000733848/"
+            ]
           }
         ]
       }
@@ -241,6 +251,16 @@
             "attempted_at": "2026-10-17T11:57:50Z",
             "query": "site:hotpepper.jp \"0138-76-0130\"",
             "result": "旧掲載は本町10-16。公式ドメインは取得できたが今回の取得内容では現住所を抽出できず。電話検索の追加一致根拠なし、保留継続。",
+            "evidence_urls": [
+              "https://dining-ds.com/",
+              "https://www.hotpepper.jp/strJ000257853/"
+            ]
+          },
+          {
+            "attempted_at": "2026-10-18T11:45:59Z",
+            "name": "Cafe＆Dining D’s 秀華",
+            "query": "site:hotpepper.jp \"秀華\" \"0138-76-0130\"",
+            "result": "公式HTMLで日吉町3丁目44-13・0138-76-0130を確認。旧掲載は本町10-16。移転・継承関係は未確定で保留継続。",
             "evidence_urls": [
               "https://dining-ds.com/",
               "https://www.hotpepper.jp/strJ000257853/"
@@ -651,6 +671,96 @@
         "decision": "listed",
         "result": "公式と店名・番地が一致。予約可否は判定に使用しない。",
         "candidate_url": "https://www.hotpepper.jp/strJ000258188/"
+      }
+    },
+    {
+      "name": "居酒屋食堂さわ7",
+      "area": "hakodate",
+      "place": "函館市亀田本町53-6",
+      "category": "居酒屋・食堂",
+      "phone": "0138-40-7787",
+      "url": "https://www.sawa7.jp/shop",
+      "note": "魚介料理と多種類の日本酒を提供する居酒屋食堂。",
+      "type": "restaurant",
+      "date": "",
+      "first_seen": "2026-10-18T11:45:59Z",
+      "source": "店舗公式・施設公式",
+      "official_url": "https://www.sawa7.jp/shop",
+      "address_verified": true,
+      "verified_address": "函館市亀田本町53-6",
+      "source_checked_at": "2026-10-18T11:45:59Z",
+      "attempted_at": "2026-10-18T11:45:59Z",
+      "checked_at": "2026-10-18T11:45:59Z",
+      "status": "listed",
+      "reason": "listing_page_verified",
+      "name_variants": [
+        "居酒屋食堂さわ7",
+        "居酒屋食堂さわ７",
+        "サワセブン"
+      ],
+      "external_search_checked": true,
+      "search_queries": [
+        "site:hotpepper.jp \"さわ7\""
+      ],
+      "search_observations": [
+        {
+          "query": "site:hotpepper.jp \"さわ7\"",
+          "attempted_at": "2026-10-18T11:45:59Z",
+          "result": "店舗ページを発見し、公式と店名・番地の一致を確認。"
+        }
+      ],
+      "evidence_urls": [
+        "https://www.sawa7.jp/shop",
+        "https://www.hotpepper.jp/strJ000733869/"
+      ],
+      "identity_review": {
+        "decision": "listed",
+        "result": "公式と店名・所在地が一致。予約可否ではなく店舗ページ有無で判定。",
+        "candidate_url": "https://www.hotpepper.jp/strJ000733869/"
+      }
+    },
+    {
+      "name": "北の台所 ヤマタイチ",
+      "area": "hakodate",
+      "place": "函館市松風町7-5 大門横丁",
+      "category": "居酒屋",
+      "phone": "0138-22-5556",
+      "url": "https://www.hakodate-yatai.com/shop/yamataichi",
+      "note": "自然薯料理と旬の魚介を提供する屋台の居酒屋。",
+      "type": "restaurant",
+      "date": "",
+      "first_seen": "2026-10-18T11:45:59Z",
+      "source": "店舗公式・施設公式",
+      "official_url": "https://www.hakodate-yatai.com/shop/yamataichi",
+      "address_verified": true,
+      "verified_address": "函館市松風町7-5 大門横丁",
+      "source_checked_at": "2026-10-18T11:45:59Z",
+      "attempted_at": "2026-10-18T11:45:59Z",
+      "checked_at": "2026-10-18T11:45:59Z",
+      "status": "listed",
+      "reason": "listing_page_verified",
+      "name_variants": [
+        "北の台所 ヤマタイチ"
+      ],
+      "external_search_checked": true,
+      "search_queries": [
+        "site:hotpepper.jp \"ヤマタイチ\""
+      ],
+      "search_observations": [
+        {
+          "query": "site:hotpepper.jp \"ヤマタイチ\"",
+          "attempted_at": "2026-10-18T11:45:59Z",
+          "result": "店舗ページを発見し、公式と店名・番地の一致を確認。"
+        }
+      ],
+      "evidence_urls": [
+        "https://www.hakodate-yatai.com/shop/yamataichi",
+        "https://www.hotpepper.jp/strJ000643257/"
+      ],
+      "identity_review": {
+        "decision": "listed",
+        "result": "公式と店名・所在地が一致。予約可否ではなく店舗ページ有無で判定。",
+        "candidate_url": "https://www.hotpepper.jp/strJ000643257/"
       }
     }
   ]
