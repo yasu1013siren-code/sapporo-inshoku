@@ -267,77 +267,133 @@
       "confidence": 0.98,
       "source_checked_at": "2026-10-18T11:45:59Z",
       "first_seen": "2026-10-06"
+    },
+    {
+      "area": "kiyota",
+      "name": "ラーメン296 清田・国際大学前店",
+      "title": "ラーメン296 清田・国際大学前店",
+      "place": "札幌市清田区清田3条1丁目4-13",
+      "phone": "011-398-3428",
+      "category": "ラーメン",
+      "date": "2026-11-30",
+      "type": "closed",
+      "note": "11月30日閉店予定。地元2媒体で確認、公式閉店告知本文は未取得。",
+      "url": "https://chamonix-cakes.com/heiten-abzkf3smmsg2y02bnc/",
+      "official_url": "https://teineramen.com/shop_single_04.html",
+      "source": "札幌開店閉店インフォ・MOGTRIP",
+      "sources": [
+        {
+          "name": "札幌開店閉店インフォ",
+          "url": "https://chamonix-cakes.com/heiten-abzkf3smmsg2y02bnc/"
+        },
+        {
+          "name": "MOGTRIP",
+          "url": "https://mogtrip.jp/closed-2026/"
+        },
+        {
+          "name": "運営会社公式（所在地確認）",
+          "url": "https://teineramen.com/shop_single_04.html"
+        }
+      ],
+      "source_count": 3,
+      "confidence": 0.85,
+      "first_seen": "2026-10-19T11:45:37Z",
+      "source_checked_at": "2026-10-19T11:45:37Z"
+    },
+    {
+      "area": "nishi",
+      "name": "備長炭 串と炙り 彩",
+      "title": "備長炭 串と炙り 彩",
+      "place": "札幌市西区琴似2条3丁目1-3 テーオービル1F",
+      "phone": "011-600-1555",
+      "category": "居酒屋・焼き鳥",
+      "date": "2026-09-19",
+      "type": "open",
+      "note": "9月19日開店。備長炭の串焼きと炙り料理。",
+      "url": "https://chamonix-cakes.com/kaiten-abwq1ltmav69kx2bno/",
+      "source": "札幌開店閉店インフォ・ホットペッパー",
+      "sources": [
+        {
+          "name": "札幌開店閉店インフォ（開店日）",
+          "url": "https://chamonix-cakes.com/kaiten-abwq1ltmav69kx2bno/"
+        },
+        {
+          "name": "ホットペッパー（店舗情報）",
+          "url": "https://www.hotpepper.jp/strJ004698270/"
+        }
+      ],
+      "source_count": 2,
+      "confidence": 0.85,
+      "first_seen": "2026-10-19T11:45:37Z",
+      "source_checked_at": "2026-10-19T11:45:37Z"
     }
   ],
   "research": {
-    "attempted_at": "2026-10-18T11:45:59Z",
+    "attempted_at": "2026-10-19T11:45:37Z",
     "reviewed_candidates": 7,
     "new_candidates": 5,
     "prior_candidates_researched": 2,
     "sapporo": {
       "reviewed": 3,
-      "listed": 1,
-      "pending": 2,
+      "listed": 2,
+      "pending": 1,
       "new_not_found": 0,
       "visited_wards": [
-        "minami",
-        "shiroishi",
-        "teine"
+        "kiyota",
+        "toyohira",
+        "nishi"
       ],
       "not_visited_this_run": [
         "chuo",
         "kita",
         "higashi",
+        "shiroishi",
         "atsubetsu",
-        "toyohira",
-        "kiyota",
-        "nishi"
+        "minami",
+        "teine"
       ],
       "next_wards": [
-        "kiyota",
-        "toyohira",
-        "nishi"
+        "kita",
+        "higashi",
+        "atsubetsu"
       ]
     },
     "hakodate": {
       "reviewed": 4,
       "new_candidates": 2,
-      "listed": 2,
-      "pending": 2,
+      "listed": 0,
+      "pending": 4,
       "new_not_found": 0,
       "visited": [
-        "亀田本町",
-        "松風町・大門横丁",
+        "赤川",
+        "松風町・大門",
         "宝来町",
-        "日吉町"
+        "日吉町（旧本町掲載の再照合）"
       ],
       "next": [
         "美原の小料理店",
-        "大門の食堂"
+        "大門の焼き鳥・食堂"
       ]
     },
     "new_events": {
-      "sapporo": 0,
+      "sapporo": 1,
       "hakodate": 0
     },
     "new_closures": {
-      "sapporo": 0,
-      "hakodate": 1
+      "sapporo": 1,
+      "hakodate": 0
     },
-    "corrections": [
-      "ちょいおでん札幌澄川店の開店日を公式発表に従い2026-10-08から2026-10-09へ訂正"
-    ],
     "limitations": [
-      "内部検索2店取得失敗、未掲載確認済み追加は0。",
-      "旧店舗対応2店は保留。再確認していないchecked_atは保持。",
-      "全10区の毎回網羅ではない。",
-      "公開URL直接取得は通信エラー。"
+      "ホットペッパー内部検索3店は取得失敗。未掲載確認済み追加は0。",
+      "酒菜家かくは掲載リンクの示唆と移転言及があるため保留。",
+      "秀華の移転を示す求人検索結果は本文404で未確定。宝来東屋は承継後の旧掲載対応未確定。",
+      "公式閉店告知本文は未取得。ラーメン296は地元2媒体で閉店予定を確認。",
+      "札幌10区全域の当日網羅調査ではない。再確認していないchecked_atは保持。"
     ],
     "opening_sources_checked": [
-      "https://www.shopship.jp/minami/open-close/",
-      "https://sapporo-list.info/open/october-open/",
-      "https://hakodate.goguynet.jp/category/cat_openclose/",
-      "https://www.shopship.jp/hakodate/open-close/?sort=open_date_desc"
+      "https://chamonix-cakes.com/",
+      "https://mogtrip.jp/closed-2026/",
+      "https://hakodate.goguynet.jp/category/cat_openclose/"
     ]
   },
   "research_history": [
@@ -638,6 +694,77 @@
         "https://mogtrip.jp/closed-2026/",
         "https://www.shopship.jp/hakodate/",
         "https://hakodate.goguynet.jp/category/cat_openclose/"
+      ]
+    },
+    {
+      "attempted_at": "2026-10-18T11:45:59Z",
+      "reviewed_candidates": 7,
+      "new_candidates": 5,
+      "prior_candidates_researched": 2,
+      "sapporo": {
+        "reviewed": 3,
+        "listed": 1,
+        "pending": 2,
+        "new_not_found": 0,
+        "visited_wards": [
+          "minami",
+          "shiroishi",
+          "teine"
+        ],
+        "not_visited_this_run": [
+          "chuo",
+          "kita",
+          "higashi",
+          "atsubetsu",
+          "toyohira",
+          "kiyota",
+          "nishi"
+        ],
+        "next_wards": [
+          "kiyota",
+          "toyohira",
+          "nishi"
+        ]
+      },
+      "hakodate": {
+        "reviewed": 4,
+        "new_candidates": 2,
+        "listed": 2,
+        "pending": 2,
+        "new_not_found": 0,
+        "visited": [
+          "亀田本町",
+          "松風町・大門横丁",
+          "宝来町",
+          "日吉町"
+        ],
+        "next": [
+          "美原の小料理店",
+          "大門の食堂"
+        ]
+      },
+      "new_events": {
+        "sapporo": 0,
+        "hakodate": 0
+      },
+      "new_closures": {
+        "sapporo": 0,
+        "hakodate": 1
+      },
+      "corrections": [
+        "ちょいおでん札幌澄川店の開店日を公式発表に従い2026-10-08から2026-10-09へ訂正"
+      ],
+      "limitations": [
+        "内部検索2店取得失敗、未掲載確認済み追加は0。",
+        "旧店舗対応2店は保留。再確認していないchecked_atは保持。",
+        "全10区の毎回網羅ではない。",
+        "公開URL直接取得は通信エラー。"
+      ],
+      "opening_sources_checked": [
+        "https://www.shopship.jp/minami/open-close/",
+        "https://sapporo-list.info/open/october-open/",
+        "https://hakodate.goguynet.jp/category/cat_openclose/",
+        "https://www.shopship.jp/hakodate/open-close/?sort=open_date_desc"
       ]
     }
   ]

@@ -1016,5 +1016,169 @@
       "decision": "pending",
       "result": "札幌本店の掲載は別支店。澄川店のページ未発見だが内部検索失敗・旧店名履歴未確定のため保留。"
     }
+  },
+  {
+    "name": "ごはんどき 美しが丘店",
+    "area": "kiyota",
+    "place": "札幌市清田区美しが丘1条5丁目2-25",
+    "phone": "011-887-5221",
+    "category": "食堂・定食",
+    "url": "https://www.gohandoki.com/area/hokkaido/",
+    "note": "麺・丼・定食を提供するチェーン食堂。",
+    "city": "札幌市",
+    "official_url": "https://www.gohandoki.com/area/hokkaido/",
+    "source": "店舗・チェーン公式",
+    "type": "restaurant",
+    "date": "",
+    "first_seen": "2026-10-19T11:45:37Z",
+    "address_verified": true,
+    "verified_address": "札幌市清田区美しが丘1条5丁目2-25",
+    "source_checked_at": "2026-10-19T11:45:37Z",
+    "attempted_at": "2026-10-19T11:45:37Z",
+    "checked_at": "2026-10-19T11:45:37Z",
+    "status": "listed",
+    "reason": "listing_page_verified",
+    "name_variants": [
+      "ごはんどき 美しが丘店",
+      "ごはんどき美しが丘店"
+    ],
+    "external_search_checked": true,
+    "search_queries": [
+      "site:hotpepper.jp ごはんどき 美しが丘"
+    ],
+    "search_observations": [
+      {
+        "query": "site:hotpepper.jp ごはんどき 美しが丘",
+        "attempted_at": "2026-10-19T11:45:37Z",
+        "result": "対象店舗ページを発見。店名・番地を照合。"
+      }
+    ],
+    "evidence_urls": [
+      "https://www.gohandoki.com/area/hokkaido/",
+      "https://www.hotpepper.jp/strJ001078993/"
+    ],
+    "identity_review": {
+      "decision": "listed",
+      "result": "チェーン公式の住所と店舗ページの番地・店名が一致。",
+      "candidate_url": "https://www.hotpepper.jp/strJ001078993/"
+    }
+  },
+  {
+    "name": "備長炭 串と炙り 彩",
+    "area": "nishi",
+    "place": "札幌市西区琴似2条3丁目1-3 テーオービル1F",
+    "phone": "011-600-1555",
+    "category": "居酒屋・焼き鳥",
+    "url": "https://chamonix-cakes.com/kaiten-abwq1ltmav69kx2bno/",
+    "note": "備長炭の串焼きと炙り料理を提供。",
+    "city": "札幌市",
+    "official_url": "https://chamonix-cakes.com/kaiten-abwq1ltmav69kx2bno/",
+    "source": "地元開店記事・店舗掲載ページ",
+    "type": "restaurant",
+    "date": "",
+    "first_seen": "2026-10-19T11:45:37Z",
+    "address_verified": true,
+    "verified_address": "札幌市西区琴似2条3丁目1-3 テーオービル1F",
+    "source_checked_at": "2026-10-19T11:45:37Z",
+    "attempted_at": "2026-10-19T11:45:37Z",
+    "checked_at": "2026-10-19T11:45:37Z",
+    "status": "listed",
+    "reason": "listing_page_verified",
+    "name_variants": [
+      "備長炭 串と炙り 彩",
+      "備長炭串と炙り彩"
+    ],
+    "external_search_checked": true,
+    "search_queries": [
+      "札幌 備長炭 串と炙り 彩 公式"
+    ],
+    "search_observations": [
+      {
+        "query": "札幌 備長炭 串と炙り 彩 公式",
+        "attempted_at": "2026-10-19T11:45:37Z",
+        "result": "対象店舗ページを発見。店名・番地を照合。"
+      }
+    ],
+    "evidence_urls": [
+      "https://chamonix-cakes.com/kaiten-abwq1ltmav69kx2bno/",
+      "https://www.hotpepper.jp/strJ004698270/"
+    ],
+    "identity_review": {
+      "decision": "listed",
+      "result": "開店記事と店舗ページの店名・番地が一致。",
+      "candidate_url": "https://www.hotpepper.jp/strJ004698270/"
+    }
+  },
+  {
+    "name": "酒菜家かく",
+    "area": "toyohira",
+    "place": "札幌市豊平区月寒東2条3丁目6-3",
+    "phone": "011-839-1900",
+    "category": "居酒屋",
+    "url": "https://www.syusaiya-kaku.com/blank-8",
+    "note": "季節料理と日本酒を提供する居酒屋。",
+    "city": "札幌市",
+    "official_url": "https://www.syusaiya-kaku.com/blank-8",
+    "source": "店舗・チェーン公式",
+    "type": "restaurant",
+    "date": "",
+    "first_seen": "2026-10-19T11:45:37Z",
+    "address_verified": true,
+    "verified_address": "札幌市豊平区月寒東2条3丁目6-3",
+    "source_checked_at": "2026-10-19T11:45:37Z",
+    "attempted_at": "2026-10-19T11:45:37Z",
+    "status": "unknown",
+    "reason": "listing_signal_found",
+    "name_variants": [
+      "酒菜家かく",
+      "酒菜家 かく",
+      "シュサイヤカク",
+      "すし家かく"
+    ],
+    "external_search_checked": true,
+    "search_queries": [
+      "site:hotpepper.jp (\"酒菜家かく\" OR \"酒菜家 かく\" OR \"011-839-1900\")",
+      "site:hotpepper.jp (\"0118391900\" OR \"011-839-1900\" OR \"酒菜家\" \"かく\")",
+      "\"酒菜家かく\" ホットペッパー",
+      "\"かく\" \"月寒東2条3\" \"ホットペッパー\""
+    ],
+    "search_observations": [
+      {
+        "query": "site:hotpepper.jp (\"酒菜家かく\" OR \"酒菜家 かく\" OR \"011-839-1900\")",
+        "attempted_at": "2026-10-19T11:45:37Z",
+        "result": "対象の直接店舗掲載は未発見。未掲載の確定ではない。"
+      },
+      {
+        "query": "site:hotpepper.jp (\"0118391900\" OR \"011-839-1900\" OR \"酒菜家\" \"かく\")",
+        "attempted_at": "2026-10-19T11:45:37Z",
+        "result": "対象の直接店舗掲載は未発見。未掲載の確定ではない。"
+      },
+      {
+        "query": "\"酒菜家かく\" ホットペッパー",
+        "attempted_at": "2026-10-19T11:45:37Z",
+        "result": "対象の直接店舗掲載は未発見。未掲載の確定ではない。"
+      },
+      {
+        "query": "\"かく\" \"月寒東2条3\" \"ホットペッパー\"",
+        "attempted_at": "2026-10-19T11:45:37Z",
+        "result": "対象の直接店舗掲載は未発見。未掲載の確定ではない。"
+      }
+    ],
+    "evidence_urls": [
+      "https://www.syusaiya-kaku.com/blank-8",
+      "https://30min.jp/gourmet/station/6242/%E5%A5%B3%E5%AD%90%E4%BC%9A",
+      "https://ameblo.jp/negitoro423/entry-12813092040.html",
+      "https://www.hotpepper.jp/SA41/ff/?FWT=酒菜家かく"
+    ],
+    "internal_search": {
+      "url": "https://www.hotpepper.jp/SA41/ff/?FWT=酒菜家かく",
+      "attempted_at": "2026-10-19T11:45:37Z",
+      "result": "取得失敗。結果件数未取得。0件と判定しない。"
+    },
+    "identity_review": {
+      "decision": "pending",
+      "result": "公式住所と電話を確認。外部検索で対象店舗ページ未発見。外部紹介にホットペッパーリンクの表示と円山移転への言及があり、旧名・移転関係未確定。内部検索取得失敗。",
+      "listing_signal": true
+    }
   }
 ]

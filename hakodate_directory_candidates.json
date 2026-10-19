@@ -153,6 +153,16 @@
             "https://www.hakobura.jp/features/368",
             "https://www.hotpepper.jp/strJ000733848/"
           ]
+        },
+        {
+          "attempted_at": "2026-10-19T11:45:37Z",
+          "name": "居酒屋 宝来東屋",
+          "query": "site:hotpepper.jp (\"宝来東屋\" OR \"0138-76-2193\" OR \"秀華\" \"函館\")",
+          "result": "観光公式で2018年承継と現住所・電話を再確認。旧東屋掲載は同番地だが2015年来店口コミで、現運営への更新は未確定。保留継続。",
+          "evidence_urls": [
+            "https://www.hakobura.jp/features/368",
+            "https://www.hotpepper.jp/strJ000733848/"
+          ]
         }
       ]
     }
@@ -243,6 +253,17 @@
           "evidence_urls": [
             "https://dining-ds.com/",
             "https://www.hotpepper.jp/strJ000257853/"
+          ]
+        },
+        {
+          "attempted_at": "2026-10-19T11:45:37Z",
+          "name": "Cafe＆Dining D’s 秀華",
+          "query": "\"秀華\" \"日吉町\" \"移転\"",
+          "result": "公式で電話0138-76-0130を再確認。旧掲載は本町10-16。求人検索結果に本町から日吉町へ移転し5周年との記述を発見したが本文404。移転継続の有力な手掛かりとして保存、同一性確定には使わず保留継続。今回公式取得本文では現住所を抽出できず、従来の確認日を保持。",
+          "evidence_urls": [
+            "https://dining-ds.com/",
+            "https://www.hotpepper.jp/strJ000257853/",
+            "https://www.sgnavi.com/hokkaido/jobs/xqUeFbUA89u3GnJc/"
           ]
         }
       ]
@@ -708,6 +729,154 @@
       "decision": "listed",
       "result": "公式と店名・所在地が一致。予約可否ではなく店舗ページ有無で判定。",
       "candidate_url": "https://www.hotpepper.jp/strJ000643257/"
+    }
+  },
+  {
+    "name": "居酒屋 かまだ",
+    "area": "hakodate",
+    "place": "函館市赤川1丁目20-1",
+    "phone": "0138-47-7144",
+    "category": "居酒屋",
+    "url": "https://izakaya-kamada.com/",
+    "note": "旬の食材と丁寧な仕込みを大切にする居酒屋。",
+    "city": "函館市",
+    "official_url": "https://izakaya-kamada.com/",
+    "source": "店舗・チェーン公式",
+    "type": "restaurant",
+    "date": "",
+    "first_seen": "2026-10-19T11:45:37Z",
+    "address_verified": true,
+    "verified_address": "函館市赤川1丁目20-1",
+    "source_checked_at": "2026-10-19T11:45:37Z",
+    "attempted_at": "2026-10-19T11:45:37Z",
+    "status": "unknown",
+    "reason": "search_failed",
+    "name_variants": [
+      "居酒屋 かまだ",
+      "居酒屋かまだ",
+      "かまだ",
+      "IZAKAYA KAMADA"
+    ],
+    "external_search_checked": true,
+    "search_queries": [
+      "site:hotpepper.jp \"居酒屋かまだ\" 函館",
+      "site:hotpepper.jp (\"かまだ\" \"赤川\" OR \"0138-47-7144\")",
+      "\"居酒屋かまだ\" ホットペッパー",
+      "site:hotpepper.jp (\"0138477144\" OR \"0138-47-7144\" OR \"赤川1丁目20\" OR \"赤川１丁目２０\")",
+      "\"かまだ\" \"赤川\" \"ホットペッパー\""
+    ],
+    "search_observations": [
+      {
+        "query": "site:hotpepper.jp \"居酒屋かまだ\" 函館",
+        "attempted_at": "2026-10-19T11:45:37Z",
+        "result": "対象の直接店舗掲載は未発見。未掲載の確定ではない。"
+      },
+      {
+        "query": "site:hotpepper.jp (\"かまだ\" \"赤川\" OR \"0138-47-7144\")",
+        "attempted_at": "2026-10-19T11:45:37Z",
+        "result": "対象の直接店舗掲載は未発見。未掲載の確定ではない。"
+      },
+      {
+        "query": "\"居酒屋かまだ\" ホットペッパー",
+        "attempted_at": "2026-10-19T11:45:37Z",
+        "result": "対象の直接店舗掲載は未発見。未掲載の確定ではない。"
+      },
+      {
+        "query": "site:hotpepper.jp (\"0138477144\" OR \"0138-47-7144\" OR \"赤川1丁目20\" OR \"赤川１丁目２０\")",
+        "attempted_at": "2026-10-19T11:45:37Z",
+        "result": "対象の直接店舗掲載は未発見。未掲載の確定ではない。"
+      },
+      {
+        "query": "\"かまだ\" \"赤川\" \"ホットペッパー\"",
+        "attempted_at": "2026-10-19T11:45:37Z",
+        "result": "対象の直接店舗掲載は未発見。未掲載の確定ではない。"
+      }
+    ],
+    "evidence_urls": [
+      "https://izakaya-kamada.com/",
+      "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=かまだ"
+    ],
+    "internal_search": {
+      "url": "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=かまだ",
+      "attempted_at": "2026-10-19T11:45:37Z",
+      "result": "取得失敗。結果件数未取得。0件と判定しない。"
+    },
+    "identity_review": {
+      "decision": "pending",
+      "result": "店舗公式で店名・番地・電話確認。外部検索で対象店舗掲載を未発見。美容サイトの赤川姓の口コミは無関係として除外。内部検索取得失敗、旧名・移転履歴は未確定。"
+    }
+  },
+  {
+    "name": "ごはんどき 函館大門店",
+    "area": "hakodate",
+    "place": "函館市松風町9-1",
+    "phone": "0138-24-2333",
+    "category": "食堂・定食",
+    "url": "https://www.gohandoki.com/area/hokkaido/",
+    "note": "カツ丼・ラーメン・定食を提供するチェーン食堂。",
+    "city": "函館市",
+    "official_url": "https://www.gohandoki.com/area/hokkaido/",
+    "source": "店舗・チェーン公式",
+    "type": "restaurant",
+    "date": "",
+    "first_seen": "2026-10-19T11:45:37Z",
+    "address_verified": true,
+    "verified_address": "函館市松風町9-1",
+    "source_checked_at": "2026-10-19T11:45:37Z",
+    "attempted_at": "2026-10-19T11:45:37Z",
+    "status": "unknown",
+    "reason": "search_failed",
+    "name_variants": [
+      "ごはんどき 函館大門店",
+      "ごはんどき函館大門店"
+    ],
+    "external_search_checked": true,
+    "search_queries": [
+      "site:hotpepper.jp \"ごはんどき\" \"函館大門\"",
+      "\"ごはんどき 函館大門店\" ホットペッパー",
+      "site:hotpepper.jp (\"ごはんどき函館大門\" OR \"0138-24-2333\" OR \"ごはんどき\" \"松風町\")",
+      "site:hotpepper.jp (\"0138242333\" OR \"0138-24-2333\" OR \"ごはんどき\" \"函館\")",
+      "\"ごはんどき\" \"松風町9\" \"ホットペッパー\""
+    ],
+    "search_observations": [
+      {
+        "query": "site:hotpepper.jp \"ごはんどき\" \"函館大門\"",
+        "attempted_at": "2026-10-19T11:45:37Z",
+        "result": "対象の直接店舗掲載は未発見。未掲載の確定ではない。"
+      },
+      {
+        "query": "\"ごはんどき 函館大門店\" ホットペッパー",
+        "attempted_at": "2026-10-19T11:45:37Z",
+        "result": "対象の直接店舗掲載は未発見。未掲載の確定ではない。"
+      },
+      {
+        "query": "site:hotpepper.jp (\"ごはんどき函館大門\" OR \"0138-24-2333\" OR \"ごはんどき\" \"松風町\")",
+        "attempted_at": "2026-10-19T11:45:37Z",
+        "result": "対象の直接店舗掲載は未発見。未掲載の確定ではない。"
+      },
+      {
+        "query": "site:hotpepper.jp (\"0138242333\" OR \"0138-24-2333\" OR \"ごはんどき\" \"函館\")",
+        "attempted_at": "2026-10-19T11:45:37Z",
+        "result": "対象の直接店舗掲載は未発見。未掲載の確定ではない。"
+      },
+      {
+        "query": "\"ごはんどき\" \"松風町9\" \"ホットペッパー\"",
+        "attempted_at": "2026-10-19T11:45:37Z",
+        "result": "対象の直接店舗掲載は未発見。未掲載の確定ではない。"
+      }
+    ],
+    "evidence_urls": [
+      "https://www.gohandoki.com/area/hokkaido/",
+      "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=ごはんどき"
+    ],
+    "internal_search": {
+      "url": "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=ごはんどき",
+      "attempted_at": "2026-10-19T11:45:37Z",
+      "result": "取得失敗。結果件数未取得。0件と判定しない。"
+    },
+    "identity_review": {
+      "decision": "pending",
+      "result": "チェーン公式で住所・電話確認。函館港店は別支店。外部検索で対象店舗掲載を未発見。内部検索取得失敗のため未掲載確定にしない。"
     }
   }
 ]
