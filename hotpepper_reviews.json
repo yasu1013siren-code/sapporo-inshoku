@@ -2728,5 +2728,333 @@
       "https://www.hotpepper.jp/strJ000257853/",
       "https://www.sgnavi.com/hokkaido/jobs/xqUeFbUA89u3GnJc/"
     ]
+  },
+  {
+    "name": "酒房かざ車",
+    "area": "kita",
+    "place": "札幌市北区北17条西4丁目1-16 ビル銀の雫17 B1F",
+    "phone": "011-736-4236",
+    "category": "居酒屋・小料理",
+    "url": "https://www.kazaguruma.org/",
+    "official_url": "https://www.kazaguruma.org/",
+    "source": "店舗公式",
+    "note": "道産食材の酒肴と日本各地の日本酒を提供。",
+    "city": "札幌市",
+    "type": "restaurant",
+    "date": "",
+    "first_seen": "2026-10-20T11:53:18Z",
+    "source_checked_at": "2026-10-20T11:53:18Z",
+    "attempted_at": "2026-10-20T11:53:18Z",
+    "checked_at": "2026-10-20T11:53:18Z",
+    "address_verified": true,
+    "verified_address": "札幌市北区北17条西4丁目1-16 ビル銀の雫17 B1F",
+    "status": "listed",
+    "reason": "listing_page_verified",
+    "name_variants": [
+      "酒房かざ車",
+      "酒房 かざ車",
+      "かざ車",
+      "かざくるま"
+    ],
+    "external_search_checked": true,
+    "search_queries": [
+      "site:hotpepper.jp \"酒房かざ車\""
+    ],
+    "search_observations": [
+      {
+        "query": "site:hotpepper.jp \"酒房かざ車\"",
+        "attempted_at": "2026-10-20T11:53:18Z",
+        "result": "該当店舗ページを発見し番地・店名を確認。"
+      }
+    ],
+    "evidence_urls": [
+      "https://www.kazaguruma.org/",
+      "https://www.hotpepper.jp/strJ000653695/"
+    ],
+    "identity_review": {
+      "decision": "listed",
+      "result": "公式の番地とホットペッパー「かざ車」の番地・店名が対応。予約可否でなく店舗ページ有無により掲載あり。",
+      "candidate_url": "https://www.hotpepper.jp/strJ000653695/"
+    }
+  },
+  {
+    "name": "厚別酒場 あこや",
+    "area": "atsubetsu",
+    "place": "札幌市厚別区厚別中央2条3丁目5-3 厚別高砂ビル1階",
+    "phone": "011-895-5101",
+    "category": "居酒屋・海鮮",
+    "url": "https://atsubetsusakaba-akoya.owst.jp/",
+    "official_url": "https://atsubetsusakaba-akoya.owst.jp/",
+    "source": "店舗公式",
+    "note": "和牛の煮込みと旬の魚介を楽しめる居酒屋。",
+    "city": "札幌市",
+    "type": "restaurant",
+    "date": "",
+    "first_seen": "2026-10-20T11:53:18Z",
+    "source_checked_at": "2026-10-20T11:53:18Z",
+    "attempted_at": "2026-10-20T11:53:18Z",
+    "checked_at": "2026-10-20T11:53:18Z",
+    "address_verified": true,
+    "verified_address": "札幌市厚別区厚別中央2条3丁目5-3 厚別高砂ビル1階",
+    "status": "listed",
+    "reason": "listing_page_verified",
+    "name_variants": [
+      "厚別酒場 あこや",
+      "厚別酒場あこや"
+    ],
+    "external_search_checked": true,
+    "search_queries": [
+      "site:hotpepper.jp \"厚別酒場 あこや\""
+    ],
+    "search_observations": [
+      {
+        "query": "site:hotpepper.jp \"厚別酒場 あこや\"",
+        "attempted_at": "2026-10-20T11:53:18Z",
+        "result": "該当店舗ページを発見し番地・店名を確認。"
+      }
+    ],
+    "evidence_urls": [
+      "https://atsubetsusakaba-akoya.owst.jp/",
+      "https://www.hotpepper.jp/strJ003693557/"
+    ],
+    "identity_review": {
+      "decision": "listed",
+      "result": "公式と掲載ページの店名・番地が一致し、相互リンクも確認。予約可否では判定しない。",
+      "candidate_url": "https://www.hotpepper.jp/strJ003693557/"
+    }
+  },
+  {
+    "name": "ひがしのマーヤ",
+    "area": "higashi",
+    "place": "札幌市東区北10条東8丁目2-5 ニュー札東ビル2F",
+    "phone": "070-8472-2254",
+    "category": "居酒屋・日本酒",
+    "url": "https://www.instagram.com/higashinomaya/",
+    "official_url": "https://www.instagram.com/higashinomaya/",
+    "source": "地元取材Sitakke・食べログ店舗情報（公式SNSは取得失敗）",
+    "note": "日本酒と手作りの酒肴を楽しむ小さな居酒屋。",
+    "city": "札幌市",
+    "type": "restaurant",
+    "date": "",
+    "first_seen": "2026-10-20T11:53:18Z",
+    "source_checked_at": "2026-10-20T11:53:18Z",
+    "attempted_at": "2026-10-20T11:53:18Z",
+    "address_verified": true,
+    "verified_address": "札幌市東区北10条東8丁目2-5 ニュー札東ビル2F",
+    "status": "unknown",
+    "reason": "search_failed",
+    "name_variants": [
+      "ひがしのマーヤ",
+      "ひがしのまーや",
+      "ヒガシノマーヤ"
+    ],
+    "external_search_checked": true,
+    "search_queries": [
+      "\"ひがしのマーヤ\" site:hotpepper.jp",
+      "site:hotpepper.jp (\"ひがしのマーヤ\" OR \"ひがしのまーや\" OR \"070-8472-2254\" OR \"07084722254\")",
+      "site:hotpepper.jp (\"マーヤ\" \"北十条\" OR \"北10条東8-2-5\")",
+      "site:hotpepper.jp \"ひがしのマーヤ\"",
+      "site:hotpepper.jp \"070-8472-2254\"",
+      "site:hotpepper.jp \"マーヤ\" \"北10条\"",
+      "\"ひがしのマーヤ\" 旧店名 移転"
+    ],
+    "search_observations": [
+      {
+        "query": "\"ひがしのマーヤ\" site:hotpepper.jp",
+        "attempted_at": "2026-10-20T11:53:18Z",
+        "result": "対象の直接掲載ページは検索結果で未発見。未掲載確定ではない。"
+      },
+      {
+        "query": "site:hotpepper.jp (\"ひがしのマーヤ\" OR \"ひがしのまーや\" OR \"070-8472-2254\" OR \"07084722254\")",
+        "attempted_at": "2026-10-20T11:53:18Z",
+        "result": "対象の直接掲載ページは検索結果で未発見。未掲載確定ではない。"
+      },
+      {
+        "query": "site:hotpepper.jp (\"マーヤ\" \"北十条\" OR \"北10条東8-2-5\")",
+        "attempted_at": "2026-10-20T11:53:18Z",
+        "result": "対象の直接掲載ページは検索結果で未発見。未掲載確定ではない。"
+      },
+      {
+        "query": "site:hotpepper.jp \"ひがしのマーヤ\"",
+        "attempted_at": "2026-10-20T11:53:18Z",
+        "result": "対象の直接掲載ページは検索結果で未発見。未掲載確定ではない。"
+      },
+      {
+        "query": "site:hotpepper.jp \"070-8472-2254\"",
+        "attempted_at": "2026-10-20T11:53:18Z",
+        "result": "対象の直接掲載ページは検索結果で未発見。未掲載確定ではない。"
+      },
+      {
+        "query": "site:hotpepper.jp \"マーヤ\" \"北10条\"",
+        "attempted_at": "2026-10-20T11:53:18Z",
+        "result": "対象の直接掲載ページは検索結果で未発見。未掲載確定ではない。"
+      },
+      {
+        "query": "\"ひがしのマーヤ\" 旧店名 移転",
+        "attempted_at": "2026-10-20T11:53:18Z",
+        "result": "対象の直接掲載ページは検索結果で未発見。未掲載確定ではない。"
+      }
+    ],
+    "evidence_urls": [
+      "https://www.instagram.com/higashinomaya/",
+      "https://sitakke.jp/post/16977/",
+      "https://sitakke.jp/post/16977/2/",
+      "https://tabelog.com/hokkaido/A0101/A010202/1078701/",
+      "https://sapporoyard.com/archives/14670795.html",
+      "https://www.hotpepper.jp/SA41/ff/?FWT=ひがしのマーヤ"
+    ],
+    "internal_search": {
+      "url": "https://www.hotpepper.jp/SA41/ff/?FWT=ひがしのマーヤ",
+      "attempted_at": "2026-10-20T11:53:18Z",
+      "result": "取得失敗。件数未取得、0件と扱わない。"
+    },
+    "identity_review": {
+      "decision": "pending",
+      "result": "地元取材と店舗情報で所在地・電話・業態を照合。2024年に空きテナントへ開業した経緯あり。外部検索で対象店舗ページ未発見だが、内部検索と公式SNSは取得失敗。旧テナント名まで確定していないため保留。"
+    }
+  },
+  {
+    "name": "居酒屋 SUGA",
+    "area": "hakodate",
+    "place": "函館市美原5丁目18-22",
+    "phone": "080-9617-9903",
+    "category": "居酒屋・焼き鳥",
+    "url": "https://www.air-h.jp/food/shop/157/",
+    "source": "函館地元店舗紹介えあめし・ホットペッパー店舗情報",
+    "note": "中札内の鶏を使った手打ち串と日本酒を提供。",
+    "city": "函館市",
+    "type": "restaurant",
+    "date": "",
+    "first_seen": "2026-10-20T11:53:18Z",
+    "source_checked_at": "2026-10-20T11:53:18Z",
+    "attempted_at": "2026-10-20T11:53:18Z",
+    "checked_at": "2026-10-20T11:53:18Z",
+    "address_verified": true,
+    "verified_address": "函館市美原5丁目18-22",
+    "status": "listed",
+    "reason": "listing_page_verified",
+    "name_variants": [
+      "居酒屋 SUGA",
+      "居酒屋SUGA",
+      "いざかや すが"
+    ],
+    "external_search_checked": true,
+    "search_queries": [
+      "site:hotpepper.jp \"SUGA\" 函館"
+    ],
+    "search_observations": [
+      {
+        "query": "site:hotpepper.jp \"SUGA\" 函館",
+        "attempted_at": "2026-10-20T11:53:18Z",
+        "result": "該当店舗ページを発見し番地・店名を確認。"
+      }
+    ],
+    "evidence_urls": [
+      "https://www.air-h.jp/food/shop/157/",
+      "https://www.hotpepper.jp/strJ003340343/"
+    ],
+    "identity_review": {
+      "decision": "listed",
+      "result": "地元店舗紹介と掲載ページの店名・美原5丁目18-22が一致。掲載ページを直接確認。",
+      "candidate_url": "https://www.hotpepper.jp/strJ003340343/"
+    }
+  },
+  {
+    "name": "大門 福寿し",
+    "area": "hakodate",
+    "place": "函館市松風町15-2",
+    "phone": "0138-22-8028",
+    "category": "寿司・和食",
+    "url": "https://fukuzushi-hakodate.com/access.html",
+    "official_url": "https://fukuzushi-hakodate.com/",
+    "source": "店舗公式",
+    "note": "道南の魚介を使う寿司と地酒、一品料理。",
+    "city": "函館市",
+    "type": "restaurant",
+    "date": "",
+    "first_seen": "2026-10-20T11:53:18Z",
+    "source_checked_at": "2026-10-20T11:53:18Z",
+    "attempted_at": "2026-10-20T11:53:18Z",
+    "checked_at": "2026-10-20T11:53:18Z",
+    "address_verified": true,
+    "verified_address": "函館市松風町15-2",
+    "status": "listed",
+    "reason": "listing_page_verified",
+    "name_variants": [
+      "大門 福寿し",
+      "大門福寿し",
+      "福寿し",
+      "だいもん ふくずし"
+    ],
+    "external_search_checked": true,
+    "search_queries": [
+      "site:hotpepper.jp \"大門\" \"福寿し\""
+    ],
+    "search_observations": [
+      {
+        "query": "site:hotpepper.jp \"大門\" \"福寿し\"",
+        "attempted_at": "2026-10-20T11:53:18Z",
+        "result": "該当店舗ページを発見し番地・店名を確認。"
+      }
+    ],
+    "evidence_urls": [
+      "https://fukuzushi-hakodate.com/access.html",
+      "https://www.hotpepper.jp/strJ000257628/"
+    ],
+    "identity_review": {
+      "decision": "listed",
+      "result": "公式と掲載ページ「福寿し」の松風町15-2が一致。甲府の同名店は別地域として除外。",
+      "candidate_url": "https://www.hotpepper.jp/strJ000257628/"
+    }
+  },
+  {
+    "name": "居酒屋 宝来東屋",
+    "area": "hakodate",
+    "attempted_at": "2026-10-20T11:53:18Z",
+    "status": "unknown",
+    "reason": "identity_unresolved",
+    "search_queries": [
+      "site:hotpepper.jp \"東屋\" \"0138-76-2193\""
+    ],
+    "search_observations": [
+      {
+        "query": "site:hotpepper.jp \"東屋\" \"0138-76-2193\"",
+        "attempted_at": "2026-10-20T11:53:18Z",
+        "result": "直接掲載の新たな一致根拠なし。旧掲載対応未確定。"
+      }
+    ],
+    "evidence_urls": [
+      "https://www.hakobura.jp/features/368",
+      "https://www.hotpepper.jp/strJ000733848/"
+    ],
+    "identity_review": {
+      "decision": "pending",
+      "result": "はこぶらで2018年の建物承継と現住所・電話を再確認。旧「東屋」掲載は同番地で2015年口コミを含む。現電話の外部検索結果なし。承継後の現店舗を表す掲載か未確定で保留。"
+    }
+  },
+  {
+    "name": "Cafe＆Dining D’s 秀華",
+    "area": "hakodate",
+    "attempted_at": "2026-10-20T11:53:18Z",
+    "status": "unknown",
+    "reason": "identity_unresolved",
+    "search_queries": [
+      "site:hotpepper.jp \"秀華\" \"0138-76-0130\""
+    ],
+    "search_observations": [
+      {
+        "query": "site:hotpepper.jp \"秀華\" \"0138-76-0130\"",
+        "attempted_at": "2026-10-20T11:53:18Z",
+        "result": "直接掲載の新たな一致根拠なし。旧掲載対応未確定。"
+      }
+    ],
+    "evidence_urls": [
+      "https://dining-ds.com/",
+      "https://www.hotpepper.jp/strJ000257853/"
+    ],
+    "identity_review": {
+      "decision": "pending",
+      "result": "公式HTMLから日吉町3丁目44-13と0138-76-0130を実取得。旧掲載は本町10-16。電話・現住所に対応する掲載を新たに発見せず、前回求人の移転手掛かりも確定根拠が増えていないため保留。"
+    }
   }
 ]

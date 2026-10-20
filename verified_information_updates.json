@@ -326,10 +326,71 @@
       "confidence": 0.85,
       "first_seen": "2026-10-19T11:45:37Z",
       "source_checked_at": "2026-10-19T11:45:37Z"
+    },
+    {
+      "area": "atsubetsu",
+      "name": "Myオムレツ食堂",
+      "place": "札幌市厚別区大谷地東4丁目2-15",
+      "phone": "090-6876-9614",
+      "category": "オムレツ・食堂",
+      "date": "2026-10-04",
+      "type": "open",
+      "note": "日曜昼に間借り営業するオムレツ専門店。10月4日開店。",
+      "url": "https://chamonix-cakes.com/kaiten-abmen6etrwrxvk2bno/",
+      "official_url": "https://www.instagram.com/my_omuretsu_shokudou/",
+      "source": "札幌開店閉店インフォ・食べログ訪問記",
+      "sources": [
+        {
+          "name": "札幌開店閉店インフォ",
+          "url": "https://chamonix-cakes.com/kaiten-abmen6etrwrxvk2bno/"
+        },
+        {
+          "name": "食べログ訪問記・店舗情報",
+          "url": "https://tabelog.com/hokkaido/A0101/A010302/1086252/"
+        }
+      ],
+      "verification_note": "公式SNS本文は取得失敗。地元記事と訪問記の開店日・住所を照合。",
+      "title": "Myオムレツ食堂",
+      "source_count": 2,
+      "confidence": 0.85,
+      "first_seen": "2026-10-20T11:53:18Z",
+      "source_checked_at": "2026-10-20T11:53:18Z"
+    },
+    {
+      "area": "hakodate",
+      "name": "豚の花道 グランディールイチイ店",
+      "place": "函館市美原1丁目3-1 グランディールイチイB1",
+      "category": "ラーメン",
+      "date": "2026-09-20",
+      "type": "open",
+      "note": "9月20日、グランディールイチイ地下に再オープン。",
+      "url": "https://www.shopship.jp/hakodate/open-close/butano-hanamichi/",
+      "official_url": "https://grandir-ichii.com/",
+      "source": "施設公式・函館ショップス・地元訪問記事",
+      "sources": [
+        {
+          "name": "施設公式（出店確認）",
+          "url": "https://grandir-ichii.com/"
+        },
+        {
+          "name": "函館ショップス（開店日・住所）",
+          "url": "https://www.shopship.jp/hakodate/open-close/butano-hanamichi/"
+        },
+        {
+          "name": "はこある（訪問記事）",
+          "url": "https://hakoaru.net/archives/47807072.html"
+        }
+      ],
+      "verification_note": "旧ポールスター店とは住所を区別。新店舗は施設公式の地下フロアと地元記事で確認。",
+      "title": "豚の花道 グランディールイチイ店",
+      "source_count": 3,
+      "confidence": 0.85,
+      "first_seen": "2026-10-20T11:53:18Z",
+      "source_checked_at": "2026-10-20T11:53:18Z"
     }
   ],
   "research": {
-    "attempted_at": "2026-10-19T11:45:37Z",
+    "attempted_at": "2026-10-20T11:53:18Z",
     "reviewed_candidates": 7,
     "new_candidates": 5,
     "prior_candidates_researched": 2,
@@ -339,61 +400,70 @@
       "pending": 1,
       "new_not_found": 0,
       "visited_wards": [
-        "kiyota",
-        "toyohira",
-        "nishi"
-      ],
-      "not_visited_this_run": [
-        "chuo",
-        "kita",
-        "higashi",
-        "shiroishi",
-        "atsubetsu",
-        "minami",
-        "teine"
-      ],
-      "next_wards": [
         "kita",
         "higashi",
         "atsubetsu"
+      ],
+      "not_visited_this_run": [
+        "chuo",
+        "shiroishi",
+        "toyohira",
+        "kiyota",
+        "minami",
+        "nishi",
+        "teine"
+      ],
+      "next_wards": [
+        "minami",
+        "shiroishi",
+        "teine"
       ]
     },
     "hakodate": {
       "reviewed": 4,
       "new_candidates": 2,
-      "listed": 0,
-      "pending": 4,
+      "listed": 2,
+      "pending": 2,
       "new_not_found": 0,
       "visited": [
-        "赤川",
+        "美原",
         "松風町・大門",
         "宝来町",
-        "日吉町（旧本町掲載の再照合）"
+        "日吉町（旧掲載再照合）"
       ],
       "next": [
-        "美原の小料理店",
-        "大門の焼き鳥・食堂"
+        "湯の川の焼き鳥・食堂",
+        "亀田・港町の小料理店"
       ]
     },
     "new_events": {
       "sapporo": 1,
-      "hakodate": 0
+      "hakodate": 1
     },
     "new_closures": {
-      "sapporo": 1,
+      "sapporo": 0,
       "hakodate": 0
     },
     "limitations": [
-      "ホットペッパー内部検索3店は取得失敗。未掲載確認済み追加は0。",
-      "酒菜家かくは掲載リンクの示唆と移転言及があるため保留。",
-      "秀華の移転を示す求人検索結果は本文404で未確定。宝来東屋は承継後の旧掲載対応未確定。",
-      "公式閉店告知本文は未取得。ラーメン296は地元2媒体で閉店予定を確認。",
-      "札幌10区全域の当日網羅調査ではない。再確認していないchecked_atは保持。"
+      "ひがしのマーヤは内部検索・公式SNS取得失敗、旧テナント名未確定のため保留。",
+      "宝来東屋・秀華の旧掲載との対応は未確定。未確認のchecked_atは変更せず追記のみ。",
+      "Myオムレツ食堂の公式SNS本文は未取得。地元記事と訪問記で開店情報を照合。",
+      "札幌10区すべての当日網羅調査ではない。",
+      "つぼ八函館美原店は探索段階で公式URL取得失敗。今回の完全照合5店には数えず、次回探索事項。"
     ],
     "opening_sources_checked": [
-      "https://chamonix-cakes.com/",
+      "https://sapporo-list.info/open/october-open/",
+      "https://chamonix-cakes.com/kaiten-abmen6etrwrxvk2bno/",
       "https://mogtrip.jp/closed-2026/",
+      "https://www.shopship.jp/hakodate/open-close/?sort=open_date_desc",
       "https://hakodate.goguynet.jp/category/cat_openclose/"
+    ],
+    "discovery_followups": [
+      {
+        "name": "つぼ八 函館美原店",
+        "official_url": "https://tubo8-hakodatemihara.owst.jp/",
+        "result": "公式URL取得失敗。検索に掲載一覧の手掛かりあり。住所・現店舗の掲載ページの直接照合は未完了。"
+      }
     ]
   },
   "research_history": [
@@ -765,6 +835,74 @@
         "https://sapporo-list.info/open/october-open/",
         "https://hakodate.goguynet.jp/category/cat_openclose/",
         "https://www.shopship.jp/hakodate/open-close/?sort=open_date_desc"
+      ]
+    },
+    {
+      "attempted_at": "2026-10-19T11:45:37Z",
+      "reviewed_candidates": 7,
+      "new_candidates": 5,
+      "prior_candidates_researched": 2,
+      "sapporo": {
+        "reviewed": 3,
+        "listed": 2,
+        "pending": 1,
+        "new_not_found": 0,
+        "visited_wards": [
+          "kiyota",
+          "toyohira",
+          "nishi"
+        ],
+        "not_visited_this_run": [
+          "chuo",
+          "kita",
+          "higashi",
+          "shiroishi",
+          "atsubetsu",
+          "minami",
+          "teine"
+        ],
+        "next_wards": [
+          "kita",
+          "higashi",
+          "atsubetsu"
+        ]
+      },
+      "hakodate": {
+        "reviewed": 4,
+        "new_candidates": 2,
+        "listed": 0,
+        "pending": 4,
+        "new_not_found": 0,
+        "visited": [
+          "赤川",
+          "松風町・大門",
+          "宝来町",
+          "日吉町（旧本町掲載の再照合）"
+        ],
+        "next": [
+          "美原の小料理店",
+          "大門の焼き鳥・食堂"
+        ]
+      },
+      "new_events": {
+        "sapporo": 1,
+        "hakodate": 0
+      },
+      "new_closures": {
+        "sapporo": 1,
+        "hakodate": 0
+      },
+      "limitations": [
+        "ホットペッパー内部検索3店は取得失敗。未掲載確認済み追加は0。",
+        "酒菜家かくは掲載リンクの示唆と移転言及があるため保留。",
+        "秀華の移転を示す求人検索結果は本文404で未確定。宝来東屋は承継後の旧掲載対応未確定。",
+        "公式閉店告知本文は未取得。ラーメン296は地元2媒体で閉店予定を確認。",
+        "札幌10区全域の当日網羅調査ではない。再確認していないchecked_atは保持。"
+      ],
+      "opening_sources_checked": [
+        "https://chamonix-cakes.com/",
+        "https://mogtrip.jp/closed-2026/",
+        "https://hakodate.goguynet.jp/category/cat_openclose/"
       ]
     }
   ]

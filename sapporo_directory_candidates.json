@@ -1180,5 +1180,189 @@
       "result": "公式住所と電話を確認。外部検索で対象店舗ページ未発見。外部紹介にホットペッパーリンクの表示と円山移転への言及があり、旧名・移転関係未確定。内部検索取得失敗。",
       "listing_signal": true
     }
+  },
+  {
+    "name": "酒房かざ車",
+    "area": "kita",
+    "place": "札幌市北区北17条西4丁目1-16 ビル銀の雫17 B1F",
+    "phone": "011-736-4236",
+    "category": "居酒屋・小料理",
+    "url": "https://www.kazaguruma.org/",
+    "official_url": "https://www.kazaguruma.org/",
+    "source": "店舗公式",
+    "note": "道産食材の酒肴と日本各地の日本酒を提供。",
+    "city": "札幌市",
+    "type": "restaurant",
+    "date": "",
+    "first_seen": "2026-10-20T11:53:18Z",
+    "source_checked_at": "2026-10-20T11:53:18Z",
+    "attempted_at": "2026-10-20T11:53:18Z",
+    "checked_at": "2026-10-20T11:53:18Z",
+    "address_verified": true,
+    "verified_address": "札幌市北区北17条西4丁目1-16 ビル銀の雫17 B1F",
+    "status": "listed",
+    "reason": "listing_page_verified",
+    "name_variants": [
+      "酒房かざ車",
+      "酒房 かざ車",
+      "かざ車",
+      "かざくるま"
+    ],
+    "external_search_checked": true,
+    "search_queries": [
+      "site:hotpepper.jp \"酒房かざ車\""
+    ],
+    "search_observations": [
+      {
+        "query": "site:hotpepper.jp \"酒房かざ車\"",
+        "attempted_at": "2026-10-20T11:53:18Z",
+        "result": "該当店舗ページを発見し番地・店名を確認。"
+      }
+    ],
+    "evidence_urls": [
+      "https://www.kazaguruma.org/",
+      "https://www.hotpepper.jp/strJ000653695/"
+    ],
+    "identity_review": {
+      "decision": "listed",
+      "result": "公式の番地とホットペッパー「かざ車」の番地・店名が対応。予約可否でなく店舗ページ有無により掲載あり。",
+      "candidate_url": "https://www.hotpepper.jp/strJ000653695/"
+    }
+  },
+  {
+    "name": "厚別酒場 あこや",
+    "area": "atsubetsu",
+    "place": "札幌市厚別区厚別中央2条3丁目5-3 厚別高砂ビル1階",
+    "phone": "011-895-5101",
+    "category": "居酒屋・海鮮",
+    "url": "https://atsubetsusakaba-akoya.owst.jp/",
+    "official_url": "https://atsubetsusakaba-akoya.owst.jp/",
+    "source": "店舗公式",
+    "note": "和牛の煮込みと旬の魚介を楽しめる居酒屋。",
+    "city": "札幌市",
+    "type": "restaurant",
+    "date": "",
+    "first_seen": "2026-10-20T11:53:18Z",
+    "source_checked_at": "2026-10-20T11:53:18Z",
+    "attempted_at": "2026-10-20T11:53:18Z",
+    "checked_at": "2026-10-20T11:53:18Z",
+    "address_verified": true,
+    "verified_address": "札幌市厚別区厚別中央2条3丁目5-3 厚別高砂ビル1階",
+    "status": "listed",
+    "reason": "listing_page_verified",
+    "name_variants": [
+      "厚別酒場 あこや",
+      "厚別酒場あこや"
+    ],
+    "external_search_checked": true,
+    "search_queries": [
+      "site:hotpepper.jp \"厚別酒場 あこや\""
+    ],
+    "search_observations": [
+      {
+        "query": "site:hotpepper.jp \"厚別酒場 あこや\"",
+        "attempted_at": "2026-10-20T11:53:18Z",
+        "result": "該当店舗ページを発見し番地・店名を確認。"
+      }
+    ],
+    "evidence_urls": [
+      "https://atsubetsusakaba-akoya.owst.jp/",
+      "https://www.hotpepper.jp/strJ003693557/"
+    ],
+    "identity_review": {
+      "decision": "listed",
+      "result": "公式と掲載ページの店名・番地が一致し、相互リンクも確認。予約可否では判定しない。",
+      "candidate_url": "https://www.hotpepper.jp/strJ003693557/"
+    }
+  },
+  {
+    "name": "ひがしのマーヤ",
+    "area": "higashi",
+    "place": "札幌市東区北10条東8丁目2-5 ニュー札東ビル2F",
+    "phone": "070-8472-2254",
+    "category": "居酒屋・日本酒",
+    "url": "https://www.instagram.com/higashinomaya/",
+    "official_url": "https://www.instagram.com/higashinomaya/",
+    "source": "地元取材Sitakke・食べログ店舗情報（公式SNSは取得失敗）",
+    "note": "日本酒と手作りの酒肴を楽しむ小さな居酒屋。",
+    "city": "札幌市",
+    "type": "restaurant",
+    "date": "",
+    "first_seen": "2026-10-20T11:53:18Z",
+    "source_checked_at": "2026-10-20T11:53:18Z",
+    "attempted_at": "2026-10-20T11:53:18Z",
+    "address_verified": true,
+    "verified_address": "札幌市東区北10条東8丁目2-5 ニュー札東ビル2F",
+    "status": "unknown",
+    "reason": "search_failed",
+    "name_variants": [
+      "ひがしのマーヤ",
+      "ひがしのまーや",
+      "ヒガシノマーヤ"
+    ],
+    "external_search_checked": true,
+    "search_queries": [
+      "\"ひがしのマーヤ\" site:hotpepper.jp",
+      "site:hotpepper.jp (\"ひがしのマーヤ\" OR \"ひがしのまーや\" OR \"070-8472-2254\" OR \"07084722254\")",
+      "site:hotpepper.jp (\"マーヤ\" \"北十条\" OR \"北10条東8-2-5\")",
+      "site:hotpepper.jp \"ひがしのマーヤ\"",
+      "site:hotpepper.jp \"070-8472-2254\"",
+      "site:hotpepper.jp \"マーヤ\" \"北10条\"",
+      "\"ひがしのマーヤ\" 旧店名 移転"
+    ],
+    "search_observations": [
+      {
+        "query": "\"ひがしのマーヤ\" site:hotpepper.jp",
+        "attempted_at": "2026-10-20T11:53:18Z",
+        "result": "対象の直接掲載ページは検索結果で未発見。未掲載確定ではない。"
+      },
+      {
+        "query": "site:hotpepper.jp (\"ひがしのマーヤ\" OR \"ひがしのまーや\" OR \"070-8472-2254\" OR \"07084722254\")",
+        "attempted_at": "2026-10-20T11:53:18Z",
+        "result": "対象の直接掲載ページは検索結果で未発見。未掲載確定ではない。"
+      },
+      {
+        "query": "site:hotpepper.jp (\"マーヤ\" \"北十条\" OR \"北10条東8-2-5\")",
+        "attempted_at": "2026-10-20T11:53:18Z",
+        "result": "対象の直接掲載ページは検索結果で未発見。未掲載確定ではない。"
+      },
+      {
+        "query": "site:hotpepper.jp \"ひがしのマーヤ\"",
+        "attempted_at": "2026-10-20T11:53:18Z",
+        "result": "対象の直接掲載ページは検索結果で未発見。未掲載確定ではない。"
+      },
+      {
+        "query": "site:hotpepper.jp \"070-8472-2254\"",
+        "attempted_at": "2026-10-20T11:53:18Z",
+        "result": "対象の直接掲載ページは検索結果で未発見。未掲載確定ではない。"
+      },
+      {
+        "query": "site:hotpepper.jp \"マーヤ\" \"北10条\"",
+        "attempted_at": "2026-10-20T11:53:18Z",
+        "result": "対象の直接掲載ページは検索結果で未発見。未掲載確定ではない。"
+      },
+      {
+        "query": "\"ひがしのマーヤ\" 旧店名 移転",
+        "attempted_at": "2026-10-20T11:53:18Z",
+        "result": "対象の直接掲載ページは検索結果で未発見。未掲載確定ではない。"
+      }
+    ],
+    "evidence_urls": [
+      "https://www.instagram.com/higashinomaya/",
+      "https://sitakke.jp/post/16977/",
+      "https://sitakke.jp/post/16977/2/",
+      "https://tabelog.com/hokkaido/A0101/A010202/1078701/",
+      "https://sapporoyard.com/archives/14670795.html",
+      "https://www.hotpepper.jp/SA41/ff/?FWT=ひがしのマーヤ"
+    ],
+    "internal_search": {
+      "url": "https://www.hotpepper.jp/SA41/ff/?FWT=ひがしのマーヤ",
+      "attempted_at": "2026-10-20T11:53:18Z",
+      "result": "取得失敗。件数未取得、0件と扱わない。"
+    },
+    "identity_review": {
+      "decision": "pending",
+      "result": "地元取材と店舗情報で所在地・電話・業態を照合。2024年に空きテナントへ開業した経緯あり。外部検索で対象店舗ページ未発見だが、内部検索と公式SNSは取得失敗。旧テナント名まで確定していないため保留。"
+    }
   }
 ]
