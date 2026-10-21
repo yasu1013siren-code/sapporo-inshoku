@@ -1364,5 +1364,115 @@
       "decision": "pending",
       "result": "地元取材と店舗情報で所在地・電話・業態を照合。2024年に空きテナントへ開業した経緯あり。外部検索で対象店舗ページ未発見だが、内部検索と公式SNSは取得失敗。旧テナント名まで確定していないため保留。"
     }
+  },
+  {
+    "name": "家庭料理 小春",
+    "area": "shiroishi",
+    "place": "札幌市白石区南郷通1丁目南10-15 サウスヒルビルB1",
+    "phone": "011-846-3825",
+    "category": "家庭料理・居酒屋",
+    "url": "https://hakuryouren.com/contents/member/hr106650shop.html",
+    "official_url": "https://hakuryouren.com/contents/member/hr106650shop.html",
+    "source": "北海道料理飲食業生活衛生同業組合の加盟店紹介",
+    "note": "刺身や焼魚、家庭料理と地酒を楽しめる小さな店。",
+    "status": "unknown",
+    "reason": "search_failed",
+    "name_variants": [
+      "家庭料理 小春",
+      "家庭料理小春",
+      "小春"
+    ],
+    "search_queries": [
+      "site:hotpepper.jp \"家庭料理 小春\" \"011-846-3825\"",
+      "\"家庭料理 小春\" 札幌 ホットペッパー",
+      "site:hotpepper.jp \"南郷通1丁目南10-15\""
+    ],
+    "search_observations": [
+      {
+        "query": "site:hotpepper.jp \"家庭料理 小春\" \"011-846-3825\"",
+        "attempted_at": "2026-10-21T11:34:01Z",
+        "result": "対象の直接店舗ページは未発見。未掲載確定ではない。"
+      },
+      {
+        "query": "\"家庭料理 小春\" 札幌 ホットペッパー",
+        "attempted_at": "2026-10-21T11:34:01Z",
+        "result": "対象名の直接店舗ページは未発見。地域一覧のみ。"
+      },
+      {
+        "query": "site:hotpepper.jp \"南郷通1丁目南10-15\"",
+        "attempted_at": "2026-10-21T11:34:01Z",
+        "result": "対象の直接店舗ページは未発見。"
+      }
+    ],
+    "evidence_urls": [
+      "https://hakuryouren.com/contents/member/hr106650shop.html",
+      "https://www.hotpepper.jp/SA41/Y511/ff/?FWT=家庭料理%20小春"
+    ],
+    "internal_search": {
+      "url": "https://www.hotpepper.jp/SA41/Y511/ff/?FWT=家庭料理%20小春",
+      "attempted_at": "2026-10-21T11:34:01Z",
+      "result": "取得失敗。結果件数未取得。0件と扱わない。"
+    },
+    "identity_review": {
+      "decision": "pending",
+      "result": "業界団体の加盟店紹介で現住所・電話・業態を確認。店名・電話・住所の外部検索で店舗ページ未発見だが、内部検索は取得失敗。旧名・移転履歴も未確定のため保留。"
+    },
+    "city": "札幌市",
+    "type": "restaurant",
+    "date": "",
+    "first_seen": "2026-10-21T11:34:01Z",
+    "source_checked_at": "2026-10-21T11:34:01Z",
+    "attempted_at": "2026-10-21T11:34:01Z",
+    "address_verified": true,
+    "verified_address": "札幌市白石区南郷通1丁目南10-15 サウスヒルビルB1",
+    "external_search_checked": true
+  },
+  {
+    "name": "屯田屋敷",
+    "area": "shiroishi",
+    "place": "札幌市白石区東札幌5条6丁目1-17",
+    "phone": "011-861-4809",
+    "category": "居酒屋・海鮮",
+    "url": "https://retty.me/area/PRE01/ARE164/SUB44102/100000074043/",
+    "source": "Retty店舗情報",
+    "note": "魚介、焼き物、煮物を扱う白石駅近くの居酒屋。",
+    "status": "unknown",
+    "reason": "current_operation_unverified",
+    "name_variants": [
+      "屯田屋敷",
+      "とんでんやしき"
+    ],
+    "search_queries": [
+      "site:hotpepper.jp \"屯田屋敷\" \"011-861-4809\"",
+      "\"屯田屋敷\" 札幌 ホットペッパー"
+    ],
+    "search_observations": [
+      {
+        "query": "site:hotpepper.jp \"屯田屋敷\" \"011-861-4809\"",
+        "attempted_at": "2026-10-21T11:34:01Z",
+        "result": "対象の直接店舗ページは未発見。"
+      },
+      {
+        "query": "\"屯田屋敷\" 札幌 ホットペッパー",
+        "attempted_at": "2026-10-21T11:34:01Z",
+        "result": "対象の直接店舗ページは未発見。"
+      }
+    ],
+    "evidence_urls": [
+      "https://retty.me/area/PRE01/ARE164/SUB44102/100000074043/"
+    ],
+    "identity_review": {
+      "decision": "pending",
+      "result": "住所・電話の根拠は2018年最終更新の店舗情報のみ。現営業と旧名・移転履歴を確認できず、未掲載判定の前提が不足するため保留。"
+    },
+    "city": "札幌市",
+    "type": "restaurant",
+    "date": "",
+    "first_seen": "2026-10-21T11:34:01Z",
+    "source_checked_at": "2026-10-21T11:34:01Z",
+    "attempted_at": "2026-10-21T11:34:01Z",
+    "address_verified": true,
+    "verified_address": "札幌市白石区東札幌5条6丁目1-17",
+    "external_search_checked": true
   }
 ]

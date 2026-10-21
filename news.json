@@ -10632,6 +10632,165 @@
         "result": "公式と掲載ページ「福寿し」の松風町15-2が一致。甲府の同名店は別地域として除外。",
         "candidate_url": "https://www.hotpepper.jp/strJ000257628/"
       }
+    },
+    {
+      "name": "居酒屋 百万石",
+      "area": "hakodate",
+      "place": "函館市湯川町3丁目2-12",
+      "category": "居酒屋・焼き鳥",
+      "url": "https://www.hotpepper.jp/strJ000258868/",
+      "source": "ホットペッパー店舗情報",
+      "note": "湯の川で焼き鳥や焼きつぶを扱う居酒屋。",
+      "status": "listed",
+      "reason": "listing_page_verified",
+      "checked_at": "2026-10-21T11:34:01Z",
+      "name_variants": [
+        "居酒屋 百万石",
+        "居酒屋百万石",
+        "百万石"
+      ],
+      "search_queries": [
+        "site:hotpepper.jp \"居酒屋百万石\" \"函館市湯川町3-2-12\""
+      ],
+      "search_observations": [
+        {
+          "query": "site:hotpepper.jp \"居酒屋百万石\" \"函館市湯川町3-2-12\"",
+          "attempted_at": "2026-10-21T11:34:01Z",
+          "result": "該当店舗ページを発見し店名・番地を確認。"
+        }
+      ],
+      "evidence_urls": [
+        "https://www.hotpepper.jp/strJ000258868/"
+      ],
+      "identity_review": {
+        "decision": "listed",
+        "result": "ホットペッパーの店舗ページで店名と湯川町3-2-12を直接確認。予約可否ではなくページ有無で掲載あり。",
+        "candidate_url": "https://www.hotpepper.jp/strJ000258868/"
+      },
+      "city": "函館市",
+      "type": "restaurant",
+      "date": "",
+      "first_seen": "2026-10-21T11:34:01Z",
+      "source_checked_at": "2026-10-21T11:34:01Z",
+      "attempted_at": "2026-10-21T11:34:01Z",
+      "address_verified": true,
+      "verified_address": "函館市湯川町3丁目2-12",
+      "external_search_checked": true
+    },
+    {
+      "name": "函館あかちょうちん 湯川店",
+      "area": "hakodate",
+      "place": "函館市湯川町1丁目27-2",
+      "phone": "0138-57-1519",
+      "category": "居酒屋・海鮮・郷土料理",
+      "url": "https://www.mapple.net/spot/1014425/",
+      "source": "まっぷる・食べログ店舗情報",
+      "note": "魚介の炉端焼きなど約200種を扱う湯の川の居酒屋。",
+      "status": "unknown",
+      "reason": "current_operation_unverified",
+      "name_variants": [
+        "函館あかちょうちん 湯川店",
+        "あかちょうちん 湯川店",
+        "あかちょうちん湯川店"
+      ],
+      "search_queries": [
+        "site:hotpepper.jp \"あかちょうちん湯川店\" \"0138-57-1519\"",
+        "\"あかちょうちん\" \"湯川町1丁目27-2\" ホットペッパー"
+      ],
+      "search_observations": [
+        {
+          "query": "site:hotpepper.jp \"あかちょうちん湯川店\" \"0138-57-1519\"",
+          "attempted_at": "2026-10-21T11:34:01Z",
+          "result": "対象の直接店舗ページは未発見。"
+        },
+        {
+          "query": "\"あかちょうちん\" \"湯川町1丁目27-2\" ホットペッパー",
+          "attempted_at": "2026-10-21T11:34:01Z",
+          "result": "対象の直接店舗ページは未発見。"
+        }
+      ],
+      "evidence_urls": [
+        "https://www.mapple.net/spot/1014425/",
+        "https://tabelog.com/hokkaido/A0105/A010501/1002506/",
+        "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=あかちょうちん湯川店"
+      ],
+      "internal_search": {
+        "url": "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=あかちょうちん湯川店",
+        "attempted_at": "2026-10-21T11:34:01Z",
+        "result": "取得失敗。結果件数未取得。0件と扱わない。"
+      },
+      "identity_review": {
+        "decision": "pending",
+        "result": "住所・電話は複数情報源で一致するが、食べログは営業状況を掲載保留。内部検索も取得失敗し、現営業の一次根拠を得られないため保留。"
+      },
+      "city": "函館市",
+      "type": "restaurant",
+      "date": "",
+      "first_seen": "2026-10-21T11:34:01Z",
+      "source_checked_at": "2026-10-21T11:34:01Z",
+      "attempted_at": "2026-10-21T11:34:01Z",
+      "address_verified": true,
+      "verified_address": "函館市湯川町1丁目27-2",
+      "external_search_checked": true
+    },
+    {
+      "name": "海鮮和風居酒家 和市",
+      "area": "hakodate",
+      "place": "函館市湯川町1丁目30-2",
+      "phone": "0138-76-8806",
+      "category": "海鮮居酒屋",
+      "url": "https://www.air-h.jp/food/shop/144/",
+      "source": "函館地元店舗紹介えあめし・ぐるなび・外部照合",
+      "note": "地物の海鮮や鮪をそろえる湯の川の居酒屋。",
+      "status": "unknown",
+      "reason": "identity_unresolved",
+      "name_variants": [
+        "海鮮和風居酒家 和市",
+        "海鮮和風居酒屋 和市",
+        "和市",
+        "わいち"
+      ],
+      "search_queries": [
+        "\"海鮮和風居酒家 和市\" ホットペッパー",
+        "site:hotpepper.jp \"0138768806\"",
+        "site:hotpepper.jp \"函館市湯川町1-30-2\""
+      ],
+      "search_observations": [
+        {
+          "query": "\"海鮮和風居酒家 和市\" ホットペッパー",
+          "attempted_at": "2026-10-21T11:34:01Z",
+          "result": "外部サービスにホットペッパー由来とされる情報はあるが、直接店舗ページURLは未発見。"
+        },
+        {
+          "query": "site:hotpepper.jp \"0138768806\"",
+          "attempted_at": "2026-10-21T11:34:01Z",
+          "result": "対象の直接店舗ページは未発見。"
+        },
+        {
+          "query": "site:hotpepper.jp \"函館市湯川町1-30-2\"",
+          "attempted_at": "2026-10-21T11:34:01Z",
+          "result": "同住所の旧店とみられる「八味庵」ページを発見。現店との継承関係は未確認。"
+        }
+      ],
+      "evidence_urls": [
+        "https://www.air-h.jp/food/shop/144/",
+        "https://r.gnavi.co.jp/47y6nrnz0000/",
+        "https://www.navitime.co.jp/poi?spot=01125-ha55500",
+        "https://www.hotpepper.jp/strJ000258848/"
+      ],
+      "identity_review": {
+        "decision": "pending",
+        "result": "地元店舗紹介・ぐるなびで現店名、住所、電話を確認。同住所のホットペッパー「八味庵」は旧店の可能性があるが、和市との継承・掲載対応が確定しないため保留。"
+      },
+      "city": "函館市",
+      "type": "restaurant",
+      "date": "",
+      "first_seen": "2026-10-21T11:34:01Z",
+      "source_checked_at": "2026-10-21T11:34:01Z",
+      "attempted_at": "2026-10-21T11:34:01Z",
+      "address_verified": true,
+      "verified_address": "函館市湯川町1丁目30-2",
+      "external_search_checked": true
     }
   ],
   "hakodate_directory": [
@@ -12666,110 +12825,252 @@
         "decision": "pending",
         "result": "地元取材と店舗情報で所在地・電話・業態を照合。2024年に空きテナントへ開業した経緯あり。外部検索で対象店舗ページ未発見だが、内部検索と公式SNSは取得失敗。旧テナント名まで確定していないため保留。"
       }
+    },
+    {
+      "name": "家庭料理 小春",
+      "area": "shiroishi",
+      "place": "札幌市白石区南郷通1丁目南10-15 サウスヒルビルB1",
+      "phone": "011-846-3825",
+      "category": "家庭料理・居酒屋",
+      "url": "https://hakuryouren.com/contents/member/hr106650shop.html",
+      "official_url": "https://hakuryouren.com/contents/member/hr106650shop.html",
+      "source": "北海道料理飲食業生活衛生同業組合の加盟店紹介",
+      "note": "刺身や焼魚、家庭料理と地酒を楽しめる小さな店。",
+      "status": "unknown",
+      "reason": "search_failed",
+      "name_variants": [
+        "家庭料理 小春",
+        "家庭料理小春",
+        "小春"
+      ],
+      "search_queries": [
+        "site:hotpepper.jp \"家庭料理 小春\" \"011-846-3825\"",
+        "\"家庭料理 小春\" 札幌 ホットペッパー",
+        "site:hotpepper.jp \"南郷通1丁目南10-15\""
+      ],
+      "search_observations": [
+        {
+          "query": "site:hotpepper.jp \"家庭料理 小春\" \"011-846-3825\"",
+          "attempted_at": "2026-10-21T11:34:01Z",
+          "result": "対象の直接店舗ページは未発見。未掲載確定ではない。"
+        },
+        {
+          "query": "\"家庭料理 小春\" 札幌 ホットペッパー",
+          "attempted_at": "2026-10-21T11:34:01Z",
+          "result": "対象名の直接店舗ページは未発見。地域一覧のみ。"
+        },
+        {
+          "query": "site:hotpepper.jp \"南郷通1丁目南10-15\"",
+          "attempted_at": "2026-10-21T11:34:01Z",
+          "result": "対象の直接店舗ページは未発見。"
+        }
+      ],
+      "evidence_urls": [
+        "https://hakuryouren.com/contents/member/hr106650shop.html",
+        "https://www.hotpepper.jp/SA41/Y511/ff/?FWT=家庭料理%20小春"
+      ],
+      "internal_search": {
+        "url": "https://www.hotpepper.jp/SA41/Y511/ff/?FWT=家庭料理%20小春",
+        "attempted_at": "2026-10-21T11:34:01Z",
+        "result": "取得失敗。結果件数未取得。0件と扱わない。"
+      },
+      "identity_review": {
+        "decision": "pending",
+        "result": "業界団体の加盟店紹介で現住所・電話・業態を確認。店名・電話・住所の外部検索で店舗ページ未発見だが、内部検索は取得失敗。旧名・移転履歴も未確定のため保留。"
+      },
+      "city": "札幌市",
+      "type": "restaurant",
+      "date": "",
+      "first_seen": "2026-10-21T11:34:01Z",
+      "source_checked_at": "2026-10-21T11:34:01Z",
+      "attempted_at": "2026-10-21T11:34:01Z",
+      "address_verified": true,
+      "verified_address": "札幌市白石区南郷通1丁目南10-15 サウスヒルビルB1",
+      "external_search_checked": true
+    },
+    {
+      "name": "屯田屋敷",
+      "area": "shiroishi",
+      "place": "札幌市白石区東札幌5条6丁目1-17",
+      "phone": "011-861-4809",
+      "category": "居酒屋・海鮮",
+      "url": "https://retty.me/area/PRE01/ARE164/SUB44102/100000074043/",
+      "source": "Retty店舗情報",
+      "note": "魚介、焼き物、煮物を扱う白石駅近くの居酒屋。",
+      "status": "unknown",
+      "reason": "current_operation_unverified",
+      "name_variants": [
+        "屯田屋敷",
+        "とんでんやしき"
+      ],
+      "search_queries": [
+        "site:hotpepper.jp \"屯田屋敷\" \"011-861-4809\"",
+        "\"屯田屋敷\" 札幌 ホットペッパー"
+      ],
+      "search_observations": [
+        {
+          "query": "site:hotpepper.jp \"屯田屋敷\" \"011-861-4809\"",
+          "attempted_at": "2026-10-21T11:34:01Z",
+          "result": "対象の直接店舗ページは未発見。"
+        },
+        {
+          "query": "\"屯田屋敷\" 札幌 ホットペッパー",
+          "attempted_at": "2026-10-21T11:34:01Z",
+          "result": "対象の直接店舗ページは未発見。"
+        }
+      ],
+      "evidence_urls": [
+        "https://retty.me/area/PRE01/ARE164/SUB44102/100000074043/"
+      ],
+      "identity_review": {
+        "decision": "pending",
+        "result": "住所・電話の根拠は2018年最終更新の店舗情報のみ。現営業と旧名・移転履歴を確認できず、未掲載判定の前提が不足するため保留。"
+      },
+      "city": "札幌市",
+      "type": "restaurant",
+      "date": "",
+      "first_seen": "2026-10-21T11:34:01Z",
+      "source_checked_at": "2026-10-21T11:34:01Z",
+      "attempted_at": "2026-10-21T11:34:01Z",
+      "address_verified": true,
+      "verified_address": "札幌市白石区東札幌5条6丁目1-17",
+      "external_search_checked": true
     }
   ],
   "directory_research": {
-    "attempted_at": "2026-10-20T11:53:18Z",
+    "attempted_at": "2026-10-21T11:34:01Z",
     "reviewed_candidates": 7,
     "new_candidates": 5,
     "prior_candidates_researched": 2,
     "sapporo": {
-      "reviewed": 3,
-      "listed": 2,
-      "pending": 1,
+      "reviewed": 2,
+      "listed": 0,
+      "pending": 2,
       "new_not_found": 0,
       "visited_wards": [
-        "kita",
-        "higashi",
-        "atsubetsu"
+        "shiroishi",
+        "minami",
+        "teine"
       ],
       "not_visited_this_run": [
         "chuo",
-        "shiroishi",
+        "kita",
+        "higashi",
+        "atsubetsu",
         "toyohira",
         "kiyota",
-        "minami",
-        "nishi",
-        "teine"
+        "nishi"
       ],
       "next_wards": [
-        "minami",
-        "shiroishi",
-        "teine"
+        "chuo",
+        "toyohira",
+        "kiyota"
       ]
     },
     "hakodate": {
-      "reviewed": 4,
-      "new_candidates": 2,
-      "listed": 2,
-      "pending": 2,
+      "reviewed": 5,
+      "new_candidates": 3,
+      "listed": 1,
+      "pending": 4,
       "new_not_found": 0,
       "visited": [
-        "美原",
-        "松風町・大門",
+        "湯川町",
         "宝来町",
         "日吉町（旧掲載再照合）"
       ],
       "next": [
-        "湯の川の焼き鳥・食堂",
-        "亀田・港町の小料理店"
+        "亀田・港町の小料理店",
+        "昭和・赤川の焼き鳥・食堂"
       ]
     },
     "new_events": {
-      "sapporo": 1,
-      "hakodate": 1
+      "sapporo": 0,
+      "hakodate": 0
     },
     "new_closures": {
       "sapporo": 0,
       "hakodate": 0
     },
     "limitations": [
-      "ひがしのマーヤは内部検索・公式SNS取得失敗、旧テナント名未確定のため保留。",
-      "宝来東屋・秀華の旧掲載との対応は未確定。未確認のchecked_atは変更せず追記のみ。",
-      "Myオムレツ食堂の公式SNS本文は未取得。地元記事と訪問記で開店情報を照合。",
-      "札幌10区すべての当日網羅調査ではない。",
-      "つぼ八函館美原店は探索段階で公式URL取得失敗。今回の完全照合5店には数えず、次回探索事項。"
+      "家庭料理小春は内部検索取得失敗、屯田屋敷は現営業の根拠不足で保留。",
+      "函館あかちょうちん湯川店は営業状況の一次根拠不足、和市は同住所の旧掲載との対応未確定。",
+      "宝来東屋・秀華の旧掲載との対応は今回も未確定。未確認のchecked_atは変更せず追記のみ。",
+      "DAPOER ASIAの南区内移転情報を確認したが、10月内の正確な開閉日が取れず開店・閉店データには追加していない。",
+      "札幌10区すべての当日網羅調査ではない。"
     ],
     "opening_sources_checked": [
-      "https://sapporo-list.info/open/october-open/",
-      "https://chamonix-cakes.com/kaiten-abmen6etrwrxvk2bno/",
-      "https://mogtrip.jp/closed-2026/",
-      "https://www.shopship.jp/hakodate/open-close/?sort=open_date_desc",
+      "https://chamonix-cakes.com/",
+      "https://sapporo-sokuho.com/kaitenheiten",
+      "https://www.shopship.jp/sapporo/open-close/",
+      "https://www.shopship.jp/hakodate/open-close/",
       "https://hakodate.goguynet.jp/category/cat_openclose/"
     ],
     "discovery_followups": [
       {
+        "name": "DAPOER ASIA",
+        "result": "札幌市南区内の移転を確認。旧住所・新住所は判明したが、正確な閉店日・移転開店日を取得できずイベント追加保留。",
+        "urls": [
+          "https://chamonix-cakes.com/heiten-abjhxpmqwvkgbh2bnc/",
+          "https://chamonix-cakes.com/kaiten-abrpbsvh8lhp9g2bno/"
+        ]
+      },
+      {
         "name": "つぼ八 函館美原店",
         "official_url": "https://tubo8-hakodatemihara.owst.jp/",
-        "result": "公式URL取得失敗。検索に掲載一覧の手掛かりあり。住所・現店舗の掲載ページの直接照合は未完了。"
+        "result": "前回から継続。公式URL取得失敗、現店舗の直接掲載ページ照合は未完了。"
       }
     ]
   },
   "directory_research_followups": [
     {
-      "attempted_at": "2026-10-18T06:44:32.212Z",
-      "new_sapporo_candidates": 3,
-      "areas": [
-        "chuo",
-        "shiroishi"
+      "name": "居酒屋 宝来東屋",
+      "area": "hakodate",
+      "attempted_at": "2026-10-21T11:34:01Z",
+      "status": "unknown",
+      "reason": "identity_unresolved",
+      "search_queries": [
+        "site:hotpepper.jp \"東屋\" \"0138-76-2193\""
       ],
-      "published_additions": 0,
-      "limitation": "ホットペッパー内部検索取得失敗。未掲載と誤判定せず保留。",
-      "rechecked_existing": [
-        "じぃじょ"
+      "search_observations": [
+        {
+          "query": "site:hotpepper.jp \"東屋\" \"0138-76-2193\"",
+          "attempted_at": "2026-10-21T11:34:01Z",
+          "result": "新たな直接掲載の一致根拠なし。旧掲載対応未確定。"
+        }
       ],
-      "discovery_source": "個人店公式サイト・地域店舗紹介。チェーン偏重を避ける候補探索。"
+      "evidence_urls": [
+        "https://www.hakobura.jp/features/368",
+        "https://www.hotpepper.jp/strJ000733848/"
+      ],
+      "identity_review": {
+        "decision": "pending",
+        "result": "現店舗の住所・電話と2018年の事業承継情報を再確認。旧「東屋」ページが承継後の現店舗を表すかは今回も確定できず保留。"
+      }
     },
     {
-      "attempted_at": "2026-10-18T06:54:34.040Z",
-      "method": "external_search_only_candidate",
-      "newly_visible": 4,
-      "excluded_listing_signal": [
-        "小料理家 紫艶"
+      "name": "Cafe＆Dining D’s 秀華",
+      "area": "hakodate",
+      "attempted_at": "2026-10-21T11:34:01Z",
+      "status": "unknown",
+      "reason": "identity_unresolved",
+      "search_queries": [
+        "site:hotpepper.jp \"秀華\" \"0138-76-0130\""
       ],
-      "limitations": [
-        "未掲載確定ではない。内部検索取得失敗を0件とは扱わない。"
-      ]
+      "search_observations": [
+        {
+          "query": "site:hotpepper.jp \"秀華\" \"0138-76-0130\"",
+          "attempted_at": "2026-10-21T11:34:01Z",
+          "result": "現住所・現電話に対応する直接掲載は新たに未発見。"
+        }
+      ],
+      "evidence_urls": [
+        "https://dining-ds.com/",
+        "https://www.hotpepper.jp/strJ000257853/"
+      ],
+      "identity_review": {
+        "decision": "pending",
+        "result": "現公式の住所・電話と旧本町掲載を再照合。移転・継承の確定根拠は増えず、旧ページが現店舗を表すか未確定で保留。"
+      }
     }
   ]
 }

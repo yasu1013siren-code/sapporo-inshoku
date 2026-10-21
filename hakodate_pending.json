@@ -705,6 +705,121 @@
         "decision": "pending",
         "result": "チェーン公式で住所・電話確認。函館港店は別支店。外部検索で対象店舗掲載を未発見。内部検索取得失敗のため未掲載確定にしない。"
       }
+    },
+    {
+      "name": "函館あかちょうちん 湯川店",
+      "area": "hakodate",
+      "place": "函館市湯川町1丁目27-2",
+      "phone": "0138-57-1519",
+      "category": "居酒屋・海鮮・郷土料理",
+      "url": "https://www.mapple.net/spot/1014425/",
+      "source": "まっぷる・食べログ店舗情報",
+      "note": "魚介の炉端焼きなど約200種を扱う湯の川の居酒屋。",
+      "status": "unknown",
+      "reason": "current_operation_unverified",
+      "name_variants": [
+        "函館あかちょうちん 湯川店",
+        "あかちょうちん 湯川店",
+        "あかちょうちん湯川店"
+      ],
+      "search_queries": [
+        "site:hotpepper.jp \"あかちょうちん湯川店\" \"0138-57-1519\"",
+        "\"あかちょうちん\" \"湯川町1丁目27-2\" ホットペッパー"
+      ],
+      "search_observations": [
+        {
+          "query": "site:hotpepper.jp \"あかちょうちん湯川店\" \"0138-57-1519\"",
+          "attempted_at": "2026-10-21T11:34:01Z",
+          "result": "対象の直接店舗ページは未発見。"
+        },
+        {
+          "query": "\"あかちょうちん\" \"湯川町1丁目27-2\" ホットペッパー",
+          "attempted_at": "2026-10-21T11:34:01Z",
+          "result": "対象の直接店舗ページは未発見。"
+        }
+      ],
+      "evidence_urls": [
+        "https://www.mapple.net/spot/1014425/",
+        "https://tabelog.com/hokkaido/A0105/A010501/1002506/",
+        "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=あかちょうちん湯川店"
+      ],
+      "internal_search": {
+        "url": "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=あかちょうちん湯川店",
+        "attempted_at": "2026-10-21T11:34:01Z",
+        "result": "取得失敗。結果件数未取得。0件と扱わない。"
+      },
+      "identity_review": {
+        "decision": "pending",
+        "result": "住所・電話は複数情報源で一致するが、食べログは営業状況を掲載保留。内部検索も取得失敗し、現営業の一次根拠を得られないため保留。"
+      },
+      "city": "函館市",
+      "type": "restaurant",
+      "date": "",
+      "first_seen": "2026-10-21T11:34:01Z",
+      "source_checked_at": "2026-10-21T11:34:01Z",
+      "attempted_at": "2026-10-21T11:34:01Z",
+      "address_verified": true,
+      "verified_address": "函館市湯川町1丁目27-2",
+      "external_search_checked": true
+    },
+    {
+      "name": "海鮮和風居酒家 和市",
+      "area": "hakodate",
+      "place": "函館市湯川町1丁目30-2",
+      "phone": "0138-76-8806",
+      "category": "海鮮居酒屋",
+      "url": "https://www.air-h.jp/food/shop/144/",
+      "source": "函館地元店舗紹介えあめし・ぐるなび・外部照合",
+      "note": "地物の海鮮や鮪をそろえる湯の川の居酒屋。",
+      "status": "unknown",
+      "reason": "identity_unresolved",
+      "name_variants": [
+        "海鮮和風居酒家 和市",
+        "海鮮和風居酒屋 和市",
+        "和市",
+        "わいち"
+      ],
+      "search_queries": [
+        "\"海鮮和風居酒家 和市\" ホットペッパー",
+        "site:hotpepper.jp \"0138768806\"",
+        "site:hotpepper.jp \"函館市湯川町1-30-2\""
+      ],
+      "search_observations": [
+        {
+          "query": "\"海鮮和風居酒家 和市\" ホットペッパー",
+          "attempted_at": "2026-10-21T11:34:01Z",
+          "result": "外部サービスにホットペッパー由来とされる情報はあるが、直接店舗ページURLは未発見。"
+        },
+        {
+          "query": "site:hotpepper.jp \"0138768806\"",
+          "attempted_at": "2026-10-21T11:34:01Z",
+          "result": "対象の直接店舗ページは未発見。"
+        },
+        {
+          "query": "site:hotpepper.jp \"函館市湯川町1-30-2\"",
+          "attempted_at": "2026-10-21T11:34:01Z",
+          "result": "同住所の旧店とみられる「八味庵」ページを発見。現店との継承関係は未確認。"
+        }
+      ],
+      "evidence_urls": [
+        "https://www.air-h.jp/food/shop/144/",
+        "https://r.gnavi.co.jp/47y6nrnz0000/",
+        "https://www.navitime.co.jp/poi?spot=01125-ha55500",
+        "https://www.hotpepper.jp/strJ000258848/"
+      ],
+      "identity_review": {
+        "decision": "pending",
+        "result": "地元店舗紹介・ぐるなびで現店名、住所、電話を確認。同住所のホットペッパー「八味庵」は旧店の可能性があるが、和市との継承・掲載対応が確定しないため保留。"
+      },
+      "city": "函館市",
+      "type": "restaurant",
+      "date": "",
+      "first_seen": "2026-10-21T11:34:01Z",
+      "source_checked_at": "2026-10-21T11:34:01Z",
+      "attempted_at": "2026-10-21T11:34:01Z",
+      "address_verified": true,
+      "verified_address": "函館市湯川町1丁目30-2",
+      "external_search_checked": true
     }
   ],
   "excluded_listed": [
@@ -1045,6 +1160,50 @@
         "result": "公式と掲載ページ「福寿し」の松風町15-2が一致。甲府の同名店は別地域として除外。",
         "candidate_url": "https://www.hotpepper.jp/strJ000257628/"
       }
+    },
+    {
+      "name": "居酒屋 百万石",
+      "area": "hakodate",
+      "place": "函館市湯川町3丁目2-12",
+      "category": "居酒屋・焼き鳥",
+      "url": "https://www.hotpepper.jp/strJ000258868/",
+      "source": "ホットペッパー店舗情報",
+      "note": "湯の川で焼き鳥や焼きつぶを扱う居酒屋。",
+      "status": "listed",
+      "reason": "listing_page_verified",
+      "checked_at": "2026-10-21T11:34:01Z",
+      "name_variants": [
+        "居酒屋 百万石",
+        "居酒屋百万石",
+        "百万石"
+      ],
+      "search_queries": [
+        "site:hotpepper.jp \"居酒屋百万石\" \"函館市湯川町3-2-12\""
+      ],
+      "search_observations": [
+        {
+          "query": "site:hotpepper.jp \"居酒屋百万石\" \"函館市湯川町3-2-12\"",
+          "attempted_at": "2026-10-21T11:34:01Z",
+          "result": "該当店舗ページを発見し店名・番地を確認。"
+        }
+      ],
+      "evidence_urls": [
+        "https://www.hotpepper.jp/strJ000258868/"
+      ],
+      "identity_review": {
+        "decision": "listed",
+        "result": "ホットペッパーの店舗ページで店名と湯川町3-2-12を直接確認。予約可否ではなくページ有無で掲載あり。",
+        "candidate_url": "https://www.hotpepper.jp/strJ000258868/"
+      },
+      "city": "函館市",
+      "type": "restaurant",
+      "date": "",
+      "first_seen": "2026-10-21T11:34:01Z",
+      "source_checked_at": "2026-10-21T11:34:01Z",
+      "attempted_at": "2026-10-21T11:34:01Z",
+      "address_verified": true,
+      "verified_address": "函館市湯川町3丁目2-12",
+      "external_search_checked": true
     }
   ]
 }

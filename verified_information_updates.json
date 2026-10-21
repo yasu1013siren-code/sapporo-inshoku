@@ -390,79 +390,86 @@
     }
   ],
   "research": {
-    "attempted_at": "2026-10-20T11:53:18Z",
+    "attempted_at": "2026-10-21T11:34:01Z",
     "reviewed_candidates": 7,
     "new_candidates": 5,
     "prior_candidates_researched": 2,
     "sapporo": {
-      "reviewed": 3,
-      "listed": 2,
-      "pending": 1,
+      "reviewed": 2,
+      "listed": 0,
+      "pending": 2,
       "new_not_found": 0,
       "visited_wards": [
-        "kita",
-        "higashi",
-        "atsubetsu"
+        "shiroishi",
+        "minami",
+        "teine"
       ],
       "not_visited_this_run": [
         "chuo",
-        "shiroishi",
+        "kita",
+        "higashi",
+        "atsubetsu",
         "toyohira",
         "kiyota",
-        "minami",
-        "nishi",
-        "teine"
+        "nishi"
       ],
       "next_wards": [
-        "minami",
-        "shiroishi",
-        "teine"
+        "chuo",
+        "toyohira",
+        "kiyota"
       ]
     },
     "hakodate": {
-      "reviewed": 4,
-      "new_candidates": 2,
-      "listed": 2,
-      "pending": 2,
+      "reviewed": 5,
+      "new_candidates": 3,
+      "listed": 1,
+      "pending": 4,
       "new_not_found": 0,
       "visited": [
-        "美原",
-        "松風町・大門",
+        "湯川町",
         "宝来町",
         "日吉町（旧掲載再照合）"
       ],
       "next": [
-        "湯の川の焼き鳥・食堂",
-        "亀田・港町の小料理店"
+        "亀田・港町の小料理店",
+        "昭和・赤川の焼き鳥・食堂"
       ]
     },
     "new_events": {
-      "sapporo": 1,
-      "hakodate": 1
+      "sapporo": 0,
+      "hakodate": 0
     },
     "new_closures": {
       "sapporo": 0,
       "hakodate": 0
     },
     "limitations": [
-      "ひがしのマーヤは内部検索・公式SNS取得失敗、旧テナント名未確定のため保留。",
-      "宝来東屋・秀華の旧掲載との対応は未確定。未確認のchecked_atは変更せず追記のみ。",
-      "Myオムレツ食堂の公式SNS本文は未取得。地元記事と訪問記で開店情報を照合。",
-      "札幌10区すべての当日網羅調査ではない。",
-      "つぼ八函館美原店は探索段階で公式URL取得失敗。今回の完全照合5店には数えず、次回探索事項。"
+      "家庭料理小春は内部検索取得失敗、屯田屋敷は現営業の根拠不足で保留。",
+      "函館あかちょうちん湯川店は営業状況の一次根拠不足、和市は同住所の旧掲載との対応未確定。",
+      "宝来東屋・秀華の旧掲載との対応は今回も未確定。未確認のchecked_atは変更せず追記のみ。",
+      "DAPOER ASIAの南区内移転情報を確認したが、10月内の正確な開閉日が取れず開店・閉店データには追加していない。",
+      "札幌10区すべての当日網羅調査ではない。"
     ],
     "opening_sources_checked": [
-      "https://sapporo-list.info/open/october-open/",
-      "https://chamonix-cakes.com/kaiten-abmen6etrwrxvk2bno/",
-      "https://mogtrip.jp/closed-2026/",
-      "https://www.shopship.jp/hakodate/open-close/?sort=open_date_desc",
+      "https://chamonix-cakes.com/",
+      "https://sapporo-sokuho.com/kaitenheiten",
+      "https://www.shopship.jp/sapporo/open-close/",
+      "https://www.shopship.jp/hakodate/open-close/",
       "https://hakodate.goguynet.jp/category/cat_openclose/"
     ],
     "discovery_followups": [
       {
+        "name": "DAPOER ASIA",
+        "result": "札幌市南区内の移転を確認。旧住所・新住所は判明したが、正確な閉店日・移転開店日を取得できずイベント追加保留。",
+        "urls": [
+          "https://chamonix-cakes.com/heiten-abjhxpmqwvkgbh2bnc/",
+          "https://chamonix-cakes.com/kaiten-abrpbsvh8lhp9g2bno/"
+        ]
+      },
+      {
         "name": "つぼ八 函館美原店",
         "official_url": "https://tubo8-hakodatemihara.owst.jp/",
-        "result": "公式URL取得失敗。検索に掲載一覧の手掛かりあり。住所・現店舗の掲載ページの直接照合は未完了。"
+        "result": "前回から継続。公式URL取得失敗、現店舗の直接掲載ページ照合は未完了。"
       }
     ]
   },
@@ -903,6 +910,83 @@
         "https://chamonix-cakes.com/",
         "https://mogtrip.jp/closed-2026/",
         "https://hakodate.goguynet.jp/category/cat_openclose/"
+      ]
+    },
+    {
+      "attempted_at": "2026-10-20T11:53:18Z",
+      "reviewed_candidates": 7,
+      "new_candidates": 5,
+      "prior_candidates_researched": 2,
+      "sapporo": {
+        "reviewed": 3,
+        "listed": 2,
+        "pending": 1,
+        "new_not_found": 0,
+        "visited_wards": [
+          "kita",
+          "higashi",
+          "atsubetsu"
+        ],
+        "not_visited_this_run": [
+          "chuo",
+          "shiroishi",
+          "toyohira",
+          "kiyota",
+          "minami",
+          "nishi",
+          "teine"
+        ],
+        "next_wards": [
+          "minami",
+          "shiroishi",
+          "teine"
+        ]
+      },
+      "hakodate": {
+        "reviewed": 4,
+        "new_candidates": 2,
+        "listed": 2,
+        "pending": 2,
+        "new_not_found": 0,
+        "visited": [
+          "美原",
+          "松風町・大門",
+          "宝来町",
+          "日吉町（旧掲載再照合）"
+        ],
+        "next": [
+          "湯の川の焼き鳥・食堂",
+          "亀田・港町の小料理店"
+        ]
+      },
+      "new_events": {
+        "sapporo": 1,
+        "hakodate": 1
+      },
+      "new_closures": {
+        "sapporo": 0,
+        "hakodate": 0
+      },
+      "limitations": [
+        "ひがしのマーヤは内部検索・公式SNS取得失敗、旧テナント名未確定のため保留。",
+        "宝来東屋・秀華の旧掲載との対応は未確定。未確認のchecked_atは変更せず追記のみ。",
+        "Myオムレツ食堂の公式SNS本文は未取得。地元記事と訪問記で開店情報を照合。",
+        "札幌10区すべての当日網羅調査ではない。",
+        "つぼ八函館美原店は探索段階で公式URL取得失敗。今回の完全照合5店には数えず、次回探索事項。"
+      ],
+      "opening_sources_checked": [
+        "https://sapporo-list.info/open/october-open/",
+        "https://chamonix-cakes.com/kaiten-abmen6etrwrxvk2bno/",
+        "https://mogtrip.jp/closed-2026/",
+        "https://www.shopship.jp/hakodate/open-close/?sort=open_date_desc",
+        "https://hakodate.goguynet.jp/category/cat_openclose/"
+      ],
+      "discovery_followups": [
+        {
+          "name": "つぼ八 函館美原店",
+          "official_url": "https://tubo8-hakodatemihara.owst.jp/",
+          "result": "公式URL取得失敗。検索に掲載一覧の手掛かりあり。住所・現店舗の掲載ページの直接照合は未完了。"
+        }
       ]
     }
   ]
