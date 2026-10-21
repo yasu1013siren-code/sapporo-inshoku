@@ -288,7 +288,8 @@ function buildTabsAndSections(){
         <button class="chip" data-filter="open">開店済み</button>
         <button class="chip" data-filter="closed">閉店</button>
         <button class="chip" data-filter="pending">開店確認待ち</button>
-        <button class="chip" data-filter="directory">ホットペッパー未掲載候補</button>
+        <button class="chip" data-filter="directory-confirmed">ホットペッパー未掲載</button>
+        <button class="chip" data-filter="directory">未掲載候補</button>
       </div>
       <div class="event-feed" id="${a.id}-history"></div>
 
@@ -796,14 +797,14 @@ function renderHistory(){
     el.innerHTML=`<div class="opening-feed">${el.innerHTML}</div>`;
     if(area==="hakodate") {
       const directory=(AUTO_NEWS?.hakodate_directory || []).filter(validHakodateReview);
-      el.insertAdjacentHTML("beforeend", `<section class="directory-section" id="${area}-hotpepper-directory" tabindex="-1" style="margin-top:32px"><h2>ホットペッパー掲載確認なしの店舗</h2><p class="empty-note">開店日不問。以前の照合結果を保持し、確認から7日を過ぎた店舗は再確認待ちと表示します。</p>${directory.length ? directory.map(i=>`<article class="event-card"><div class="event-body"><h3>${escapeHTML(i.name || i.title || "")}</h3><div class="meta">${escapeHTML(i.place || "")}</div>${compactNoteHTML(i.note)}<p>${directoryCheckLabel(i)}：${escapeHTML(i.hotpepper_check.checked_at.slice(0,10))}</p>${i.url ? `<a href="${escapeHTML(i.url)}" target="_blank" rel="noopener noreferrer">店舗の情報源 ↗</a>` : ""}</div></article>`).join("") : '<p class="empty-note">照合済みの対象店舗はありません。</p>'}</section>`);
+      el.insertAdjacentHTML("beforeend", `<section class="directory-section" id="${area}-hotpepper-directory" tabindex="-1" style="margin-top:32px"><h2>ホットペッパー掲載確認なしの店舗</h2><p class="empty-note">開店日不問。以前の照合結果を保持し、確認から7日を過ぎた店舗は再確認待ちと表示します。</p>${directory.length ? directory.map(i=>`<article class="event-card" data-listing-status="${escapeHTML(i.hotpepper_check.status)}"><div class="event-body"><h3>${escapeHTML(i.name || i.title || "")}</h3><div class="meta">${escapeHTML(i.place || "")}</div>${compactNoteHTML(i.note)}<p>${directoryCheckLabel(i)}：${escapeHTML(i.hotpepper_check.checked_at.slice(0,10))}</p>${i.url ? `<a href="${escapeHTML(i.url)}" target="_blank" rel="noopener noreferrer">店舗の情報源 ↗</a>` : ""}</div></article>`).join("") : '<p class="empty-note">照合済みの対象店舗はありません。</p>'}</section>`);
     }
     if(area!=="hakodate") {
       const directory=(AUTO_NEWS?.sapporo_directory?.[area] || []).filter(i=>
         validSapporoReview(i) && i.address_verified && i.area===area &&
         i.hotpepper_check?.external_search_checked===true &&
         ["not_found","external_not_found"].includes(i.hotpepper_check?.identity_review?.decision));
-      el.insertAdjacentHTML("beforeend", `<section class="directory-section" id="${area}-hotpepper-directory" tabindex="-1" style="margin-top:32px"><h2>ホットペッパー未掲載候補（日付不問）</h2><p class="empty-note">店名・別表記・住所・電話で照合した候補です。未掲載の確定ではありません。</p>${directory.length ? directory.map(i=>`<article class="event-card"><div class="event-body"><h3>${escapeHTML(i.name || "")}</h3><div class="meta">${escapeHTML(i.place || "")}</div>${compactNoteHTML(i.note)}<p>${directoryCheckLabel(i)}：${escapeHTML(i.hotpepper_check.checked_at.slice(0,10))}</p>${i.url ? `<a href="${escapeHTML(i.url)}" target="_blank" rel="noopener noreferrer">店舗の情報源 ↗</a>` : ""}</div></article>`).join("") : '<p class="empty-note">照合済みの対象店舗はありません。</p>'}</section>`);
+      el.insertAdjacentHTML("beforeend", `<section class="directory-section" id="${area}-hotpepper-directory" tabindex="-1" style="margin-top:32px"><h2>ホットペッパー未掲載候補（日付不問）</h2><p class="empty-note">店名・別表記・住所・電話で照合した候補です。未掲載の確定ではありません。</p>${directory.length ? directory.map(i=>`<article class="event-card" data-listing-status="${escapeHTML(i.hotpepper_check.status)}"><div class="event-body"><h3>${escapeHTML(i.name || "")}</h3><div class="meta">${escapeHTML(i.place || "")}</div>${compactNoteHTML(i.note)}<p>${directoryCheckLabel(i)}：${escapeHTML(i.hotpepper_check.checked_at.slice(0,10))}</p>${i.url ? `<a href="${escapeHTML(i.url)}" target="_blank" rel="noopener noreferrer">店舗の情報源 ↗</a>` : ""}</div></article>`).join("") : '<p class="empty-note">照合済みの対象店舗はありません。</p>'}</section>`);
     }
     const filter=document.querySelector(`.filter-row[data-area="${area}"] .active`)?.dataset.filter || "all";
     applyFeedFilter(area,filter);
@@ -813,8 +814,37 @@ function renderHistory(){
 // 開店・閉店情報と日付不問の未掲載候補を同じ場所で切り替える。
 function applyFeedFilter(area,filter){
   const feed=document.getElementById(`${area}-history`);
-  feed.querySelector(".opening-feed")?.classList.toggle("is-hidden",filter==="directory");
-  feed.querySelector(".directory-section")?.classList.toggle("is-hidden",filter!=="directory");
+  const directoryMode=filter==="directory" || filter==="directory-confirmed";
+  feed.querySelector(".opening-feed")?.classList.toggle("is-hidden",directoryMode);
+  const section=feed.querySelector(".directory-section");
+  section?.classList.toggle("is-hidden",!directoryMode);
+  if(section && directoryMode){
+    const confirmed=filter==="directory-confirmed";
+    section.querySelector("h2").textContent=confirmed
+      ? "ホットペッパー未掲載（確認日時点）" : "ホットペッパー未掲載候補";
+    const description=section.querySelector("p.empty-note");
+    if(description) description.textContent=confirmed
+      ? "照合時点で掲載が見つからなかった店舗。確認日が古い情報は再確認待ちです。"
+      : "外部検索で掲載が見つからない候補。未掲載の確定ではありません。";
+    let count=0;
+    section.querySelectorAll("article[data-listing-status]").forEach(card=>{
+      const show=card.dataset.listingStatus===(confirmed ? "not_found" : "external_not_found");
+      card.classList.toggle("is-hidden",!show);
+      if(show) count++;
+    });
+    let empty=section.querySelector(".directory-empty");
+    if(!empty){
+      empty=document.createElement("p");
+      empty.className="empty-note directory-empty";
+      section.appendChild(empty);
+    }
+    empty.textContent=confirmed ? "この地域の未掲載確認済み店舗はありません。" : "この地域の未掲載候補はありません。";
+    empty.classList.toggle("is-hidden",count>0);
+    // Remove the old combined-list empty message.
+    section.querySelectorAll(":scope > p.empty-note").forEach(p=>{
+      if(p!==description && p!==empty) p.remove();
+    });
+  }
   feed.querySelectorAll(".opening-feed .event-card[data-type]").forEach(card=>{
     card.classList.toggle("is-hidden",filter!=="all" && card.dataset.type!==filter);
   });
