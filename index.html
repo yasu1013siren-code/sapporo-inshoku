@@ -222,6 +222,10 @@
   .note-details{margin:8px 0 12px;font-size:14px;}
   .note-details summary{cursor:pointer;color:var(--blue,#24495b);font-weight:700;}
   .full-note{margin-top:10px;line-height:1.8;max-height:320px;overflow:auto;padding:10px;border-left:2px solid #cabd9c;overflow-wrap:anywhere;}
+  .directory-badge{display:inline-block;font-family:'Zen Kaku Gothic New',sans-serif;font-size:11px;font-weight:700;line-height:1.5;border-radius:999px;padding:1px 7px;white-space:nowrap;vertical-align:middle;}
+  .directory-badge.confirmed{background:#dceee1;color:#205b35;border:1px solid #8caf98;}
+  .directory-badge.candidate{background:#f4e7c5;color:#71531b;border:1px solid #bca362;}
+  .tab-btn .directory-badge{margin-top:3px;}
 </style>
 </head>
 <body>
@@ -761,6 +765,22 @@ function directoryCheckLabel(item){
     ? "未掲載候補・外部検索で掲載未発見" : "確認日時点で掲載なし";
 }
 
+function updateDirectoryBadges(area){
+  const cards=[...document.querySelectorAll(`#${area}-hotpepper-directory article[data-listing-status]`)];
+  const confirmed=cards.filter(card=>card.dataset.listingStatus==="not_found").length;
+  const candidates=cards.filter(card=>card.dataset.listingStatus==="external_not_found").length;
+  const badge=(count,kind,label)=>count ? ` <span class="directory-badge ${kind}" title="${label}${count}店">${label} ${count}</span>` : "";
+  const meta=AREA_META.find(item=>item.id===area);
+  const tab=document.querySelector(`.tab-btn[data-area="${area}"]`);
+  if(tab){
+    tab.innerHTML=escapeHTML(meta.label)+badge(confirmed,"confirmed","未掲載")+badge(candidates,"candidate","候補");
+    tab.setAttribute("aria-label",meta.label+(confirmed ? `、未掲載${confirmed}店` : "")+(candidates ? `、候補${candidates}店` : ""));
+  }
+  const row=document.querySelector(`.filter-row[data-area="${area}"]`);
+  row.querySelector('[data-filter="directory-confirmed"]').innerHTML=`ホットペッパー未掲載 <span class="directory-badge confirmed">${confirmed}</span>`;
+  row.querySelector('[data-filter="directory"]').innerHTML=`未掲載候補 <span class="directory-badge candidate">${candidates}</span>`;
+}
+
 function renderHistory(){
   const now=new Date(); now.setHours(0,0,0,0);
   const cutoff=new Date(now.getTime()-30*86400000);
@@ -807,6 +827,7 @@ function renderHistory(){
       el.insertAdjacentHTML("beforeend", `<section class="directory-section" id="${area}-hotpepper-directory" tabindex="-1" style="margin-top:32px"><h2>ホットペッパー未掲載候補（日付不問）</h2><p class="empty-note">店名・別表記・住所・電話で照合した候補です。未掲載の確定ではありません。</p>${directory.length ? directory.map(i=>`<article class="event-card" data-listing-status="${escapeHTML(i.hotpepper_check.status)}"><div class="event-body"><h3>${escapeHTML(i.name || "")}</h3><div class="meta">${escapeHTML(i.place || "")}</div>${compactNoteHTML(i.note)}<p>${directoryCheckLabel(i)}：${escapeHTML(i.hotpepper_check.checked_at.slice(0,10))}</p>${i.url ? `<a href="${escapeHTML(i.url)}" target="_blank" rel="noopener noreferrer">店舗の情報源 ↗</a>` : ""}</div></article>`).join("") : '<p class="empty-note">照合済みの対象店舗はありません。</p>'}</section>`);
     }
     const filter=document.querySelector(`.filter-row[data-area="${area}"] .active`)?.dataset.filter || "all";
+    updateDirectoryBadges(area);
     applyFeedFilter(area,filter);
   });
 }
