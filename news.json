@@ -3241,6 +3241,69 @@
         "source_checked_at": "2026-10-15T07:37:19Z",
         "source_count": 2,
         "confidence": 0.85
+      },
+      {
+        "name": "漣〜SAZANAMI〜",
+        "title": "漣〜SAZANAMI〜",
+        "date": "2026-10-10",
+        "place": "札幌市中央区北11条西22丁目1-26 万歳市場内2F",
+        "note": "中央卸売市場の海鮮パフェ専門店。",
+        "type": "open",
+        "url": "https://www.shopship.jp/sapporo/open-close/ansazanami_chuooroshiuri/",
+        "source": "札幌ショップス",
+        "sources": [
+          {
+            "name": "札幌ショップス",
+            "url": "https://www.shopship.jp/sapporo/open-close/ansazanami_chuooroshiuri/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.68,
+        "source_count": 1,
+        "first_seen": "2026-10-23",
+        "last_seen": "2026-10-23"
+      },
+      {
+        "name": "喫茶 余白",
+        "title": "喫茶 余白",
+        "date": "2026-10-15",
+        "place": "札幌市中央区南6条西14丁目1-20 オギマンション1F",
+        "note": "西線6条駅近くの喫茶店。",
+        "type": "open",
+        "url": "https://www.shopship.jp/sapporo/open-close/kissa__yohaku/",
+        "source": "札幌ショップス",
+        "sources": [
+          {
+            "name": "札幌ショップス",
+            "url": "https://www.shopship.jp/sapporo/open-close/kissa__yohaku/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.68,
+        "source_count": 1,
+        "first_seen": "2026-10-23",
+        "last_seen": "2026-10-23"
+      },
+      {
+        "name": "みつカド",
+        "title": "みつカド",
+        "date": "2026-10-31",
+        "place": "札幌市中央区南7条西20丁目1-6",
+        "note": "円山のカフェが10月31日で閉店予定。",
+        "type": "closed",
+        "url": "https://www.shopship.jp/sapporo/open-close/mitsucado_maruyama/",
+        "source": "札幌ショップス",
+        "sources": [
+          {
+            "name": "札幌ショップス",
+            "url": "https://www.shopship.jp/sapporo/open-close/mitsucado_maruyama/",
+            "priority": 85
+          }
+        ],
+        "confidence": 0.68,
+        "source_count": 1,
+        "first_seen": "2026-10-23",
+        "last_seen": "2026-10-23"
       }
     ],
     "kita": [
@@ -11119,6 +11182,148 @@
           "https://www.hotpepper.jp/SA41/Y883/ff/?FWT=%E5%87%BD%E9%A4%A8%E5%B8%82%E6%9D%89%E4%B8%A6%E7%94%BA20-1"
         ]
       }
+    },
+    {
+      "name": "季節居酒屋 ひろべ",
+      "area": "hakodate",
+      "city": "函館市",
+      "place": "函館市桔梗町418-212",
+      "phone": "0138-47-4232",
+      "category": "海鮮・居酒屋",
+      "url": "https://www.hakobura.jp/spots/105",
+      "official_url": "https://www.hakobura.jp/spots/105",
+      "source": "函館市公式観光サイト はこぶら",
+      "note": "旬の海鮮と日替わり料理を出す住宅街の居酒屋。",
+      "status": "external_not_found",
+      "reason": "external_search_only_candidate",
+      "type": "restaurant",
+      "date": "",
+      "first_seen": "2026-10-23T11:25:44Z",
+      "source_checked_at": "2026-10-23T11:25:44Z",
+      "attempted_at": "2026-10-23T11:25:44Z",
+      "checked_at": "2026-10-23T11:25:44Z",
+      "address_verified": true,
+      "verified_address": "函館市桔梗町418-212",
+      "name_variants": [
+        "季節居酒屋 ひろべ",
+        "季節居酒屋ひろべ",
+        "ひろべ"
+      ],
+      "external_search_checked": true,
+      "search_queries": [
+        "site:hotpepper.jp \"季節居酒屋 ひろべ\" \"0138-47-4232\"",
+        "site:hotpepper.jp (\"桔梗町418-212\" OR \"季節居酒屋ひろべ\")"
+      ],
+      "search_observations": [
+        {
+          "query": "site:hotpepper.jp \"季節居酒屋 ひろべ\" \"0138-47-4232\"",
+          "attempted_at": "2026-10-23T11:25:44Z",
+          "result": "対象店舗のホットペッパー直接掲載ページは外部検索で未発見。別地域・同名店は除外。"
+        },
+        {
+          "query": "site:hotpepper.jp (\"桔梗町418-212\" OR \"季節居酒屋ひろべ\")",
+          "attempted_at": "2026-10-23T11:25:44Z",
+          "result": "対象店舗のホットペッパー直接掲載ページは外部検索で未発見。別地域・同名店は除外。"
+        }
+      ],
+      "evidence_urls": [
+        "https://www.hakobura.jp/spots/105"
+      ],
+      "identity_review": {
+        "decision": "external_not_found",
+        "result": "店舗情報源で店名・住所・電話を照合。店名・表記違い・住所・電話の外部検索で対象の直接掲載を発見せず。未掲載の確定ではない。",
+        "name_variants_checked": true,
+        "address_checked": true,
+        "phone_checked": true,
+        "listing_signal": false
+      },
+      "hotpepper_check": {
+        "status": "external_not_found",
+        "checked_at": "2026-10-23T11:25:44Z",
+        "evidence_urls": [
+          "https://www.hakobura.jp/spots/105"
+        ],
+        "external_search_checked": true,
+        "identity_review": {
+          "decision": "external_not_found",
+          "result": "店舗情報源で店名・住所・電話を照合。店名・表記違い・住所・電話の外部検索で対象の直接掲載を発見せず。未掲載の確定ではない。",
+          "name_variants_checked": true,
+          "address_checked": true,
+          "phone_checked": true,
+          "listing_signal": false
+        }
+      }
+    },
+    {
+      "name": "炭火焼鳥・海鮮 あじと",
+      "area": "hakodate",
+      "city": "函館市",
+      "place": "函館市宮前町25-8 メゾンドソワ1F",
+      "phone": "0138-76-6028",
+      "category": "焼鳥・海鮮居酒屋",
+      "url": "https://ajito-hakodate.com/",
+      "official_url": "https://ajito-hakodate.com/",
+      "source": "店舗公式サイト",
+      "note": "炭火焼鳥と活魚・刺身を手頃に楽しめる居酒屋。",
+      "status": "external_not_found",
+      "reason": "external_search_only_candidate",
+      "type": "restaurant",
+      "date": "",
+      "first_seen": "2026-10-23T11:25:44Z",
+      "source_checked_at": "2026-10-23T11:25:44Z",
+      "attempted_at": "2026-10-23T11:25:44Z",
+      "checked_at": "2026-10-23T11:25:44Z",
+      "address_verified": true,
+      "verified_address": "函館市宮前町25-8 メゾンドソワ1F",
+      "name_variants": [
+        "炭火焼鳥・海鮮 あじと",
+        "炭火焼鳥 海鮮 あじと",
+        "あじと"
+      ],
+      "external_search_checked": true,
+      "search_queries": [
+        "site:hotpepper.jp \"炭火焼鳥・海鮮 あじと\" \"0138-76-6028\"",
+        "site:hotpepper.jp (\"宮前町25-8\" OR \"あじと\" \"函館\")"
+      ],
+      "search_observations": [
+        {
+          "query": "site:hotpepper.jp \"炭火焼鳥・海鮮 あじと\" \"0138-76-6028\"",
+          "attempted_at": "2026-10-23T11:25:44Z",
+          "result": "対象店舗のホットペッパー直接掲載ページは外部検索で未発見。別地域・同名店は除外。"
+        },
+        {
+          "query": "site:hotpepper.jp (\"宮前町25-8\" OR \"あじと\" \"函館\")",
+          "attempted_at": "2026-10-23T11:25:44Z",
+          "result": "対象店舗のホットペッパー直接掲載ページは外部検索で未発見。別地域・同名店は除外。"
+        }
+      ],
+      "evidence_urls": [
+        "https://ajito-hakodate.com/"
+      ],
+      "identity_review": {
+        "decision": "external_not_found",
+        "result": "店舗情報源で店名・住所・電話を照合。店名・表記違い・住所・電話の外部検索で対象の直接掲載を発見せず。未掲載の確定ではない。",
+        "name_variants_checked": true,
+        "address_checked": true,
+        "phone_checked": true,
+        "listing_signal": false
+      },
+      "hotpepper_check": {
+        "status": "external_not_found",
+        "checked_at": "2026-10-23T11:25:44Z",
+        "evidence_urls": [
+          "https://ajito-hakodate.com/"
+        ],
+        "external_search_checked": true,
+        "identity_review": {
+          "decision": "external_not_found",
+          "result": "店舗情報源で店名・住所・電話を照合。店名・表記違い・住所・電話の外部検索で対象の直接掲載を発見せず。未掲載の確定ではない。",
+          "name_variants_checked": true,
+          "address_checked": true,
+          "phone_checked": true,
+          "listing_signal": false
+        }
+      }
     }
   ],
   "hakodate_collection_scope": {
@@ -11373,6 +11578,296 @@
             "listing_signal": false
           },
           "external_search_checked": true
+        }
+      },
+      {
+        "name": "居酒屋蔵人",
+        "area": "kiyota",
+        "city": "札幌市",
+        "place": "札幌市清田区北野7条1丁目5-3",
+        "phone": "011-876-9103",
+        "category": "居酒屋・寿司・海鮮",
+        "url": "https://r.gnavi.co.jp/12kw7pa00000/",
+        "official_url": "https://r.gnavi.co.jp/12kw7pa00000/",
+        "source": "ぐるなび・Yahoo!マップ",
+        "note": "寿司や海鮮料理も扱う北野の居酒屋。",
+        "status": "external_not_found",
+        "reason": "external_search_only_candidate",
+        "type": "restaurant",
+        "date": "",
+        "first_seen": "2026-10-23T11:25:44Z",
+        "source_checked_at": "2026-10-23T11:25:44Z",
+        "attempted_at": "2026-10-23T11:25:44Z",
+        "checked_at": "2026-10-23T11:25:44Z",
+        "address_verified": true,
+        "verified_address": "札幌市清田区北野7条1丁目5-3",
+        "name_variants": [
+          "居酒屋蔵人",
+          "居酒屋 蔵人",
+          "蔵人"
+        ],
+        "external_search_checked": true,
+        "search_queries": [
+          "site:hotpepper.jp \"居酒屋蔵人\" \"011-876-9103\"",
+          "site:hotpepper.jp (\"居酒屋 蔵人\" OR \"北野7条1丁目5-3\")"
+        ],
+        "search_observations": [
+          {
+            "query": "site:hotpepper.jp \"居酒屋蔵人\" \"011-876-9103\"",
+            "attempted_at": "2026-10-23T11:25:44Z",
+            "result": "対象店舗のホットペッパー直接掲載ページは外部検索で未発見。別地域・同名店は除外。"
+          },
+          {
+            "query": "site:hotpepper.jp (\"居酒屋 蔵人\" OR \"北野7条1丁目5-3\")",
+            "attempted_at": "2026-10-23T11:25:44Z",
+            "result": "対象店舗のホットペッパー直接掲載ページは外部検索で未発見。別地域・同名店は除外。"
+          }
+        ],
+        "evidence_urls": [
+          "https://r.gnavi.co.jp/12kw7pa00000/",
+          "https://map.yahoo.co.jp/v3/place/ZojZoaoeN3I"
+        ],
+        "identity_review": {
+          "decision": "external_not_found",
+          "result": "店舗情報源で店名・住所・電話を照合。店名・表記違い・住所・電話の外部検索で対象の直接掲載を発見せず。未掲載の確定ではない。",
+          "name_variants_checked": true,
+          "address_checked": true,
+          "phone_checked": true,
+          "listing_signal": false
+        },
+        "hotpepper_check": {
+          "status": "external_not_found",
+          "checked_at": "2026-10-23T11:25:44Z",
+          "evidence_urls": [
+            "https://r.gnavi.co.jp/12kw7pa00000/",
+            "https://map.yahoo.co.jp/v3/place/ZojZoaoeN3I"
+          ],
+          "external_search_checked": true,
+          "identity_review": {
+            "decision": "external_not_found",
+            "result": "店舗情報源で店名・住所・電話を照合。店名・表記違い・住所・電話の外部検索で対象の直接掲載を発見せず。未掲載の確定ではない。",
+            "name_variants_checked": true,
+            "address_checked": true,
+            "phone_checked": true,
+            "listing_signal": false
+          }
+        }
+      },
+      {
+        "name": "炭火焼き 魂心",
+        "area": "kiyota",
+        "city": "札幌市",
+        "place": "札幌市清田区平岡2条2丁目4-10",
+        "phone": "011-839-4721",
+        "category": "焼鳥・居酒屋",
+        "url": "https://map.yahoo.co.jp/v3/place/kWK7bqaVd6A",
+        "official_url": "https://map.yahoo.co.jp/v3/place/kWK7bqaVd6A",
+        "source": "Yahoo!マップ・店舗情報",
+        "note": "炭火焼鳥と酒を扱う平岡の小規模居酒屋。",
+        "status": "external_not_found",
+        "reason": "external_search_only_candidate",
+        "type": "restaurant",
+        "date": "",
+        "first_seen": "2026-10-23T11:25:44Z",
+        "source_checked_at": "2026-10-23T11:25:44Z",
+        "attempted_at": "2026-10-23T11:25:44Z",
+        "checked_at": "2026-10-23T11:25:44Z",
+        "address_verified": true,
+        "verified_address": "札幌市清田区平岡2条2丁目4-10",
+        "name_variants": [
+          "炭火焼き 魂心",
+          "炭火焼き魂心",
+          "魂心"
+        ],
+        "external_search_checked": true,
+        "search_queries": [
+          "site:hotpepper.jp \"炭火焼き 魂心\" \"011-839-4721\"",
+          "site:hotpepper.jp (\"炭火焼き魂心\" OR \"平岡2条2-4-10\")"
+        ],
+        "search_observations": [
+          {
+            "query": "site:hotpepper.jp \"炭火焼き 魂心\" \"011-839-4721\"",
+            "attempted_at": "2026-10-23T11:25:44Z",
+            "result": "対象店舗のホットペッパー直接掲載ページは外部検索で未発見。別地域・同名店は除外。"
+          },
+          {
+            "query": "site:hotpepper.jp (\"炭火焼き魂心\" OR \"平岡2条2-4-10\")",
+            "attempted_at": "2026-10-23T11:25:44Z",
+            "result": "対象店舗のホットペッパー直接掲載ページは外部検索で未発見。別地域・同名店は除外。"
+          }
+        ],
+        "evidence_urls": [
+          "https://map.yahoo.co.jp/v3/place/kWK7bqaVd6A",
+          "https://tabelog.com/hokkaido/A0101/A010304/1063619/"
+        ],
+        "identity_review": {
+          "decision": "external_not_found",
+          "result": "店舗情報源で店名・住所・電話を照合。店名・表記違い・住所・電話の外部検索で対象の直接掲載を発見せず。未掲載の確定ではない。",
+          "name_variants_checked": true,
+          "address_checked": true,
+          "phone_checked": true,
+          "listing_signal": false
+        },
+        "hotpepper_check": {
+          "status": "external_not_found",
+          "checked_at": "2026-10-23T11:25:44Z",
+          "evidence_urls": [
+            "https://map.yahoo.co.jp/v3/place/kWK7bqaVd6A",
+            "https://tabelog.com/hokkaido/A0101/A010304/1063619/"
+          ],
+          "external_search_checked": true,
+          "identity_review": {
+            "decision": "external_not_found",
+            "result": "店舗情報源で店名・住所・電話を照合。店名・表記違い・住所・電話の外部検索で対象の直接掲載を発見せず。未掲載の確定ではない。",
+            "name_variants_checked": true,
+            "address_checked": true,
+            "phone_checked": true,
+            "listing_signal": false
+          }
+        }
+      },
+      {
+        "name": "炭火居酒屋 あんちゃん",
+        "area": "kiyota",
+        "city": "札幌市",
+        "place": "札幌市清田区清田2条1丁目3-26",
+        "phone": "090-5220-2755",
+        "category": "焼鳥・居酒屋",
+        "url": "https://map.yahoo.co.jp/v3/place/o-U7wOhWct6",
+        "official_url": "https://map.yahoo.co.jp/v3/place/o-U7wOhWct6",
+        "source": "Yahoo!マップ・公式SNS導線",
+        "note": "焼鳥と炭火料理を扱う清田の居酒屋。",
+        "status": "external_not_found",
+        "reason": "external_search_only_candidate",
+        "type": "restaurant",
+        "date": "",
+        "first_seen": "2026-10-23T11:25:44Z",
+        "source_checked_at": "2026-10-23T11:25:44Z",
+        "attempted_at": "2026-10-23T11:25:44Z",
+        "checked_at": "2026-10-23T11:25:44Z",
+        "address_verified": true,
+        "verified_address": "札幌市清田区清田2条1丁目3-26",
+        "name_variants": [
+          "炭火居酒屋 あんちゃん",
+          "炭火居酒屋あんちゃん",
+          "あんちゃん"
+        ],
+        "external_search_checked": true,
+        "search_queries": [
+          "site:hotpepper.jp \"炭火居酒屋 あんちゃん\" \"090-5220-2755\"",
+          "site:hotpepper.jp (\"清田2条1-3-26\" OR \"炭火居酒屋あんちゃん\")"
+        ],
+        "search_observations": [
+          {
+            "query": "site:hotpepper.jp \"炭火居酒屋 あんちゃん\" \"090-5220-2755\"",
+            "attempted_at": "2026-10-23T11:25:44Z",
+            "result": "対象店舗のホットペッパー直接掲載ページは外部検索で未発見。別地域・同名店は除外。"
+          },
+          {
+            "query": "site:hotpepper.jp (\"清田2条1-3-26\" OR \"炭火居酒屋あんちゃん\")",
+            "attempted_at": "2026-10-23T11:25:44Z",
+            "result": "対象店舗のホットペッパー直接掲載ページは外部検索で未発見。別地域・同名店は除外。"
+          }
+        ],
+        "evidence_urls": [
+          "https://map.yahoo.co.jp/v3/place/o-U7wOhWct6"
+        ],
+        "identity_review": {
+          "decision": "external_not_found",
+          "result": "店舗情報源で店名・住所・電話を照合。店名・表記違い・住所・電話の外部検索で対象の直接掲載を発見せず。未掲載の確定ではない。",
+          "name_variants_checked": true,
+          "address_checked": true,
+          "phone_checked": true,
+          "listing_signal": false
+        },
+        "hotpepper_check": {
+          "status": "external_not_found",
+          "checked_at": "2026-10-23T11:25:44Z",
+          "evidence_urls": [
+            "https://map.yahoo.co.jp/v3/place/o-U7wOhWct6"
+          ],
+          "external_search_checked": true,
+          "identity_review": {
+            "decision": "external_not_found",
+            "result": "店舗情報源で店名・住所・電話を照合。店名・表記違い・住所・電話の外部検索で対象の直接掲載を発見せず。未掲載の確定ではない。",
+            "name_variants_checked": true,
+            "address_checked": true,
+            "phone_checked": true,
+            "listing_signal": false
+          }
+        }
+      },
+      {
+        "name": "味処 浜益",
+        "area": "kiyota",
+        "city": "札幌市",
+        "place": "札幌市清田区真栄5条2丁目2-23",
+        "phone": "011-881-5368",
+        "category": "居酒屋・食堂・ラーメン",
+        "url": "https://kiyotakumap.com/custom/100603-2/",
+        "official_url": "https://kiyotakumap.com/custom/100603-2/",
+        "source": "清田区マップ・ぐるなび",
+        "note": "昼は食堂、夜は酒肴も提供する地域店。",
+        "status": "external_not_found",
+        "reason": "external_search_only_candidate",
+        "type": "restaurant",
+        "date": "",
+        "first_seen": "2026-10-23T11:25:44Z",
+        "source_checked_at": "2026-10-23T11:25:44Z",
+        "attempted_at": "2026-10-23T11:25:44Z",
+        "checked_at": "2026-10-23T11:25:44Z",
+        "address_verified": true,
+        "verified_address": "札幌市清田区真栄5条2丁目2-23",
+        "name_variants": [
+          "味処 浜益",
+          "味処浜益",
+          "浜益"
+        ],
+        "external_search_checked": true,
+        "search_queries": [
+          "site:hotpepper.jp \"味処 浜益\" \"011-881-5368\"",
+          "site:hotpepper.jp (\"味処浜益\" OR \"真栄5条2-2-23\")"
+        ],
+        "search_observations": [
+          {
+            "query": "site:hotpepper.jp \"味処 浜益\" \"011-881-5368\"",
+            "attempted_at": "2026-10-23T11:25:44Z",
+            "result": "対象店舗のホットペッパー直接掲載ページは外部検索で未発見。別地域・同名店は除外。"
+          },
+          {
+            "query": "site:hotpepper.jp (\"味処浜益\" OR \"真栄5条2-2-23\")",
+            "attempted_at": "2026-10-23T11:25:44Z",
+            "result": "対象店舗のホットペッパー直接掲載ページは外部検索で未発見。別地域・同名店は除外。"
+          }
+        ],
+        "evidence_urls": [
+          "https://kiyotakumap.com/custom/100603-2/",
+          "https://r.gnavi.co.jp/bxaazu1w0000/"
+        ],
+        "identity_review": {
+          "decision": "external_not_found",
+          "result": "店舗情報源で店名・住所・電話を照合。店名・表記違い・住所・電話の外部検索で対象の直接掲載を発見せず。未掲載の確定ではない。",
+          "name_variants_checked": true,
+          "address_checked": true,
+          "phone_checked": true,
+          "listing_signal": false
+        },
+        "hotpepper_check": {
+          "status": "external_not_found",
+          "checked_at": "2026-10-23T11:25:44Z",
+          "evidence_urls": [
+            "https://kiyotakumap.com/custom/100603-2/",
+            "https://r.gnavi.co.jp/bxaazu1w0000/"
+          ],
+          "external_search_checked": true,
+          "identity_review": {
+            "decision": "external_not_found",
+            "result": "店舗情報源で店名・住所・電話を照合。店名・表記違い・住所・電話の外部検索で対象の直接掲載を発見せず。未掲載の確定ではない。",
+            "name_variants_checked": true,
+            "address_checked": true,
+            "phone_checked": true,
+            "listing_signal": false
+          }
         }
       }
     ],
