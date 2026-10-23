@@ -392,12 +392,12 @@
   "research": {
     "attempted_at": "2026-10-23T11:25:44Z",
     "discovered_candidates": 18,
-    "reviewed_candidates": 7,
+    "reviewed_candidates": 8,
     "new_candidates": 7,
     "prior_candidates_researched": 2,
     "sapporo": {
-      "reviewed": 5,
-      "listed": 0,
+      "reviewed": 6,
+      "listed": 1,
       "pending": 1,
       "new_not_found": 0,
       "new_external_not_found": 4,
@@ -450,6 +450,7 @@
       "hakodate": 0
     },
     "limitations": [
+      "炭火居酒屋 炎 清田店はホットペッパー店舗ページを確認し、候補から除外。",
       "探索18店のうち根拠が揃った7店のみ詳細照合。残りは次回照合へ継続。",
       "居酒屋みつぐは住所・電話を確認したが現営業の一次根拠が不足し保留。",
       "宝来東屋・秀華は今回確認日を更新せず、旧掲載との対応確認を継続。"
@@ -510,6 +511,13 @@
         "result": "現営業の一次根拠不足で保留。",
         "urls": [
           "https://www.navitime.co.jp/category/03/01110019000/"
+        ]
+      },
+      {
+        "name": "炭火居酒屋 炎 清田店",
+        "result": "ホットペッパー店舗ページで店名・清田1条4丁目4-36を確認。掲載ありで除外。",
+        "urls": [
+          "https://www.hotpepper.jp/strJ001247026/"
         ]
       }
     ]
