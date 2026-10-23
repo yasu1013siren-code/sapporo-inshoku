@@ -742,9 +742,17 @@ function articleIdentity(raw){
 }
 
 function validHakodateReview(item){
-  const check=item.hotpepper_check;
+  const check=item.hotpepper_check, review=check?.identity_review;
   const age=Date.now()-Date.parse(check?.checked_at || "");
-  return check?.status==="not_found" && Number.isFinite(age) && age>=0;
+  if(!Number.isFinite(age) || age<0) return false;
+  if(check?.status==="not_found") return true;
+  return check?.status==="external_not_found" &&
+    review?.decision==="external_not_found" &&
+    check?.external_search_checked===true &&
+    Boolean(item.phone) && Boolean(item.url) &&
+    new Set(item.search_queries || []).size>=2 &&
+    ["name_variants_checked","address_checked","phone_checked"].every(key=>review[key]===true) &&
+    review.listing_signal===false;
 }
 
 function validSapporoReview(item){
