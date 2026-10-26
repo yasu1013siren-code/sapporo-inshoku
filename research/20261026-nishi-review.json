@@ -1,0 +1,38 @@
+{
+  "checked_at": "2026-10-26T20:17:52+09:00",
+  "priority": "nishi",
+  "reviews": [
+    {
+      "name": "洋食家はるひ",
+      "status": "pending",
+      "place": "札幌市西区西野1条6-4-21",
+      "phone": "011-699-5945",
+      "sources": [
+        "https://haruhi-sapporo.com/",
+        "https://kaiten-portal.jp/media/hokkaido/restaurant/haruhi/"
+      ],
+      "queries": [
+        "site:hotpepper.jp (\"洋食家はるひ\" OR \"洋食屋はるひ\" OR \"011-699-5945\")",
+        "site:hotpepper.jp (\"西野1条6-4-21\" OR \"西野１条６丁目４\")"
+      ],
+      "identity_review": "同住所にトラットリアマツオの掲載を発見。継承・旧店名対応は未確定。はるひ本人の掲載とは判定しない。",
+      "evidence": "https://www.hotpepper.jp/strJ000251979/"
+    },
+    {
+      "name": "ことに惣",
+      "status": "listed",
+      "evidence": "https://www.hotpepper.jp/strJ001252080/"
+    },
+    {
+      "name": "なごみDining とんぼ",
+      "status": "listed",
+      "evidence": "https://www.hotpepper.jp/strJ001126639/"
+    }
+  ],
+  "next": [
+    "八軒の独立居酒屋・小料理店",
+    "琴似商店街加盟店",
+    "函館郊外"
+  ],
+  "limitations": "新規探索15〜20店・函館照合・開閉店調査は未完了。既存JSONの分類と確認日は変更していない。"
+}
