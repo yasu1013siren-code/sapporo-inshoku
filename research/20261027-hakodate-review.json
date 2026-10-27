@@ -1,0 +1,37 @@
+{
+  "checked_at": "2026-10-27T20:40:39+09:00",
+  "priority": "hakodate",
+  "reviews": [
+    {
+      "name": "季節居酒屋 ひろべ",
+      "previous_status": "external_not_found",
+      "review_status": "listing_signal_found",
+      "evidence_urls": [
+        "https://www.hotpepper.jp/strJ000258280/"
+      ],
+      "identity_review": "直接店舗ページを取得。函館・桔梗の同名店で掲載の形跡あり。ページ本文から番地を取得できず最終住所照合は未完了。外部未発見という前回判定は再審査が必要。",
+      "next_action": "地図ページ・電話を照合して掲載ありへ分類変更。既存レコードは履歴を保存する。"
+    },
+    {
+      "name": "サザン食堂",
+      "review_status": "listing_signal_found",
+      "evidence_urls": [
+        "https://www.hotpepper.jp/strJ000796341/"
+      ]
+    },
+    {
+      "name": "居酒屋 かまだ",
+      "review_status": "pending",
+      "note": "店名検索のみ未発見。電話・住所・旧名の複数検索未完了。"
+    },
+    {
+      "name": "本格炭火 居酒屋 英",
+      "review_status": "pending",
+      "evidence_urls": [
+        "https://www.air-h.jp/food/shop/140/"
+      ],
+      "note": "地元媒体で発見。住所電話を含む複数検索未完了。"
+    }
+  ],
+  "limitations": "一覧への追加・分類変更は未完了。札幌・開閉店調査・公開表示確認は未実施。"
+}
