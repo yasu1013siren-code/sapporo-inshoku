@@ -387,6 +387,23 @@
       "confidence": 0.85,
       "first_seen": "2026-10-20T11:53:18Z",
       "source_checked_at": "2026-10-20T11:53:18Z"
+    },
+    {
+      "area": "otaru",
+      "name": "タリーズコーヒー 小樽ポートスクエア店",
+      "title": "タリーズコーヒー 小樽ポートスクエア店",
+      "place": "小樽市港町4-2",
+      "phone": "0134-26-6009",
+      "category": "カフェ",
+      "date": "2026-10-16",
+      "type": "open",
+      "note": "10月16日開店。港を望むコンテナ型カフェ。",
+      "url": "https://www.tullys.co.jp/company/pressrelease/2026/10/2026_otaru_ps.html",
+      "source": "タリーズコーヒージャパン公式発表",
+      "source_count": 1,
+      "confidence": 1,
+      "first_seen": "2026-10-28T11:58:23.307Z",
+      "source_checked_at": "2026-10-28T11:58:23.307Z"
     }
   ],
   "research": {

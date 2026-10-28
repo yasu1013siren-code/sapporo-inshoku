@@ -4140,5 +4140,270 @@
         }
       }
     ]
+  },
+  {
+    "name": "小料理 衣",
+    "area": "chuo",
+    "city": "札幌市",
+    "place": "札幌市中央区南2条西6丁目17-5 TAIYO Bld2・6 1階奥",
+    "phone": "070-1452-3653",
+    "url": "https://yoyaku.toreta.in/koryori-kinu",
+    "official_url": "https://yoyaku.toreta.in/koryori-kinu",
+    "source": "店舗公式・公式SNS・施設公式等（出典はevidence_urls）",
+    "note": "道産食材を使う小料理店。公式LINE・予約ページあり。",
+    "category": "居酒屋・小料理",
+    "type": "restaurant",
+    "date": "",
+    "first_seen": "2026-10-28T11:58:23.307Z",
+    "source_checked_at": "2026-10-28T11:58:23.307Z",
+    "attempted_at": "2026-10-28T11:58:23.307Z",
+    "checked_at": "2026-10-28T11:58:23.307Z",
+    "address_verified": true,
+    "verified_address": "札幌市中央区南2条西6丁目17-5 TAIYO Bld2・6 1階奥",
+    "status": "external_not_found",
+    "reason": "external_search_only_candidate",
+    "name_variants": [
+      "小料理 衣",
+      "小料理衣",
+      "小料理 きぬ"
+    ],
+    "external_search_checked": true,
+    "search_queries": [
+      "site:hotpepper.jp \"小料理 衣\"",
+      "site:hotpepper.jp (\"小料理 きぬ\" OR \"小料理衣\" OR \"07014523653\")",
+      "site:hotpepper.jp \"南2条西6丁目17-5\" \"衣\"",
+      "site:hotpepper.jp \"小料理 衣\" \"南2条西7\""
+    ],
+    "search_observations": [
+      {
+        "query": "site:hotpepper.jp \"小料理 衣\"",
+        "attempted_at": "2026-10-28T11:58:23.307Z",
+        "result": "対象店舗のホットペッパーグルメ直接掲載は未発見。別地域同名店・美容ページ・他店の検索結果は除外。"
+      },
+      {
+        "query": "site:hotpepper.jp (\"小料理 きぬ\" OR \"小料理衣\" OR \"07014523653\")",
+        "attempted_at": "2026-10-28T11:58:23.307Z",
+        "result": "対象店舗のホットペッパーグルメ直接掲載は未発見。別地域同名店・美容ページ・他店の検索結果は除外。"
+      },
+      {
+        "query": "site:hotpepper.jp \"南2条西6丁目17-5\" \"衣\"",
+        "attempted_at": "2026-10-28T11:58:23.307Z",
+        "result": "対象店舗のホットペッパーグルメ直接掲載は未発見。別地域同名店・美容ページ・他店の検索結果は除外。"
+      },
+      {
+        "query": "site:hotpepper.jp \"小料理 衣\" \"南2条西7\"",
+        "attempted_at": "2026-10-28T11:58:23.307Z",
+        "result": "対象店舗のホットペッパーグルメ直接掲載は未発見。別地域同名店・美容ページ・他店の検索結果は除外。"
+      }
+    ],
+    "evidence_urls": [
+      "https://yoyaku.toreta.in/koryori-kinu",
+      "https://page.line.me/883hqwmw",
+      "https://www.poroco.co.jp/newsreport/2299/"
+    ],
+    "identity_review": {
+      "decision": "external_not_found",
+      "result": "店舗公式等の店名・所在地・電話を照合。店名・別表記・住所・電話の複数外部検索で対象店舗ページ未発見。未掲載の確定ではない。",
+      "name_variants_checked": true,
+      "address_checked": true,
+      "phone_checked": true,
+      "listing_signal": false
+    },
+    "hotpepper_check": {
+      "status": "external_not_found",
+      "checked_at": "2026-10-28T11:58:23.307Z",
+      "external_search_checked": true,
+      "identity_review": {
+        "decision": "external_not_found",
+        "result": "店舗公式等の店名・所在地・電話を照合。店名・別表記・住所・電話の複数外部検索で対象店舗ページ未発見。未掲載の確定ではない。",
+        "name_variants_checked": true,
+        "address_checked": true,
+        "phone_checked": true,
+        "listing_signal": false
+      },
+      "evidence_urls": [
+        "https://yoyaku.toreta.in/koryori-kinu",
+        "https://page.line.me/883hqwmw",
+        "https://www.poroco.co.jp/newsreport/2299/"
+      ]
+    },
+    "sns_url": "https://www.instagram.com/kinu_koryouri/",
+    "sns_result": "Instagram本文取得失敗。公式LINEと予約ページで現住所・電話を確認。2023年の移転元は南2条西7-4。美容サロンの同住所言及はグルメ掲載と扱わない。"
+  },
+  {
+    "name": "おかず家",
+    "area": "higashi",
+    "city": "札幌市",
+    "place": "札幌市東区北15条東7丁目4-35 コーポセブン1F",
+    "phone": "070-8566-4356",
+    "url": "https://page.line.me/723dvmdm",
+    "official_url": "https://page.line.me/723dvmdm",
+    "source": "店舗公式・公式SNS・施設公式等（出典はevidence_urls）",
+    "note": "からあげと立ち飲み酒場。営業は公式配信で案内。",
+    "category": "居酒屋・小料理",
+    "type": "restaurant",
+    "date": "",
+    "first_seen": "2026-10-28T11:58:23.307Z",
+    "source_checked_at": "2026-10-28T11:58:23.307Z",
+    "attempted_at": "2026-10-28T11:58:23.307Z",
+    "checked_at": "2026-10-28T11:58:23.307Z",
+    "address_verified": true,
+    "verified_address": "札幌市東区北15条東7丁目4-35 コーポセブン1F",
+    "status": "external_not_found",
+    "reason": "external_search_only_candidate",
+    "name_variants": [
+      "おかず家",
+      "おかずや",
+      "ocazuhouse"
+    ],
+    "external_search_checked": true,
+    "search_queries": [
+      "site:hotpepper.jp \"おかず家\"",
+      "site:hotpepper.jp (\"おかず家\" \"札幌\" OR \"07085664356\")",
+      "site:hotpepper.jp (\"おかず家\" OR \"011-712-0081\" OR \"北15条東7丁目4-35\")"
+    ],
+    "search_observations": [
+      {
+        "query": "site:hotpepper.jp \"おかず家\"",
+        "attempted_at": "2026-10-28T11:58:23.307Z",
+        "result": "対象店舗のホットペッパーグルメ直接掲載は未発見。別地域同名店・美容ページ・他店の検索結果は除外。"
+      },
+      {
+        "query": "site:hotpepper.jp (\"おかず家\" \"札幌\" OR \"07085664356\")",
+        "attempted_at": "2026-10-28T11:58:23.307Z",
+        "result": "対象店舗のホットペッパーグルメ直接掲載は未発見。別地域同名店・美容ページ・他店の検索結果は除外。"
+      },
+      {
+        "query": "site:hotpepper.jp (\"おかず家\" OR \"011-712-0081\" OR \"北15条東7丁目4-35\")",
+        "attempted_at": "2026-10-28T11:58:23.307Z",
+        "result": "対象店舗のホットペッパーグルメ直接掲載は未発見。別地域同名店・美容ページ・他店の検索結果は除外。"
+      }
+    ],
+    "evidence_urls": [
+      "https://page.line.me/723dvmdm",
+      "https://ocazuhouse.base.shop/",
+      "https://apoca.link/store/store_detail?id=1032"
+    ],
+    "identity_review": {
+      "decision": "external_not_found",
+      "result": "店舗公式等の店名・所在地・電話を照合。店名・別表記・住所・電話の複数外部検索で対象店舗ページ未発見。未掲載の確定ではない。",
+      "name_variants_checked": true,
+      "address_checked": true,
+      "phone_checked": true,
+      "listing_signal": false
+    },
+    "hotpepper_check": {
+      "status": "external_not_found",
+      "checked_at": "2026-10-28T11:58:23.307Z",
+      "external_search_checked": true,
+      "identity_review": {
+        "decision": "external_not_found",
+        "result": "店舗公式等の店名・所在地・電話を照合。店名・別表記・住所・電話の複数外部検索で対象店舗ページ未発見。未掲載の確定ではない。",
+        "name_variants_checked": true,
+        "address_checked": true,
+        "phone_checked": true,
+        "listing_signal": false
+      },
+      "evidence_urls": [
+        "https://page.line.me/723dvmdm",
+        "https://ocazuhouse.base.shop/",
+        "https://apoca.link/store/store_detail?id=1032"
+      ]
+    },
+    "sns_url": "https://www.instagram.com/ocazuhouse/",
+    "sns_result": "Instagram取得制限。公式LINEの所在地・携帯電話をAPOCAと照合。BASEには011-712-0081の別番号あり、両番号を検索。東京のパラダイスおかず家は別店舗。",
+    "alternate_phones": [
+      "011-712-0081"
+    ]
+  },
+  {
+    "name": "立呑みkiki",
+    "area": "otaru",
+    "city": "小樽市",
+    "place": "小樽市稲穂1丁目4-15 おたる屋台村レンガ横丁",
+    "phone": "090-5126-7654",
+    "url": "https://otaruyataimura.jp/renga17/",
+    "official_url": "https://otaruyataimura.jp/renga17/",
+    "source": "店舗公式・公式SNS・施設公式等（出典はevidence_urls）",
+    "note": "北海道の日本酒を中心に扱う立ち飲み店。",
+    "category": "立ち飲み・日本酒バー",
+    "type": "restaurant",
+    "date": "",
+    "first_seen": "2026-10-28T11:58:23.307Z",
+    "source_checked_at": "2026-10-28T11:58:23.307Z",
+    "attempted_at": "2026-10-28T11:58:23.307Z",
+    "checked_at": "2026-10-28T11:58:23.307Z",
+    "address_verified": true,
+    "verified_address": "小樽市稲穂1丁目4-15 おたる屋台村レンガ横丁",
+    "status": "external_not_found",
+    "reason": "external_search_only_candidate",
+    "name_variants": [
+      "立呑みkiki",
+      "立呑み kiki",
+      "立呑みｋｉｋｉ",
+      "立呑み キキ"
+    ],
+    "external_search_checked": true,
+    "search_queries": [
+      "site:hotpepper.jp (\"立呑みkiki\" OR \"立呑み kiki\" OR \"090-5126-7654\")",
+      "site:hotpepper.jp \"09051267654\"",
+      "site:hotpepper.jp \"立呑み\" \"キキ\" \"小樽\"",
+      "site:hotpepper.jp \"立呑みkiki\" \"稲穂1\""
+    ],
+    "search_observations": [
+      {
+        "query": "site:hotpepper.jp (\"立呑みkiki\" OR \"立呑み kiki\" OR \"090-5126-7654\")",
+        "attempted_at": "2026-10-28T11:58:23.307Z",
+        "result": "対象店舗のホットペッパーグルメ直接掲載は未発見。別地域同名店・美容ページ・他店の検索結果は除外。"
+      },
+      {
+        "query": "site:hotpepper.jp \"09051267654\"",
+        "attempted_at": "2026-10-28T11:58:23.307Z",
+        "result": "対象店舗のホットペッパーグルメ直接掲載は未発見。別地域同名店・美容ページ・他店の検索結果は除外。"
+      },
+      {
+        "query": "site:hotpepper.jp \"立呑み\" \"キキ\" \"小樽\"",
+        "attempted_at": "2026-10-28T11:58:23.307Z",
+        "result": "対象店舗のホットペッパーグルメ直接掲載は未発見。別地域同名店・美容ページ・他店の検索結果は除外。"
+      },
+      {
+        "query": "site:hotpepper.jp \"立呑みkiki\" \"稲穂1\"",
+        "attempted_at": "2026-10-28T11:58:23.307Z",
+        "result": "対象店舗のホットペッパーグルメ直接掲載は未発見。別地域同名店・美容ページ・他店の検索結果は除外。"
+      }
+    ],
+    "evidence_urls": [
+      "https://otaruyataimura.jp/renga17/",
+      "https://midori-chouchin.jp/introduction_info?shopcode=14379",
+      "https://tabelog.com/hokkaido/A0106/A010601/1074782/"
+    ],
+    "identity_review": {
+      "decision": "external_not_found",
+      "result": "店舗公式等の店名・所在地・電話を照合。店名・別表記・住所・電話の複数外部検索で対象店舗ページ未発見。未掲載の確定ではない。",
+      "name_variants_checked": true,
+      "address_checked": true,
+      "phone_checked": true,
+      "listing_signal": false
+    },
+    "hotpepper_check": {
+      "status": "external_not_found",
+      "checked_at": "2026-10-28T11:58:23.307Z",
+      "external_search_checked": true,
+      "identity_review": {
+        "decision": "external_not_found",
+        "result": "店舗公式等の店名・所在地・電話を照合。店名・別表記・住所・電話の複数外部検索で対象店舗ページ未発見。未掲載の確定ではない。",
+        "name_variants_checked": true,
+        "address_checked": true,
+        "phone_checked": true,
+        "listing_signal": false
+      },
+      "evidence_urls": [
+        "https://otaruyataimura.jp/renga17/",
+        "https://midori-chouchin.jp/introduction_info?shopcode=14379",
+        "https://tabelog.com/hokkaido/A0106/A010601/1074782/"
+      ]
+    },
+    "sns_url": "https://www.instagram.com/tachinomi.kiki/",
+    "sns_result": "Instagram取得制限。屋台村公式で業態・電話、別の店舗情報で番地と一致。岩見沢のKiKi洋菓子店と区別。営業時間に出典差があるため掲載しない。"
   }
 ]

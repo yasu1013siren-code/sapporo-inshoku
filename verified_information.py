@@ -26,7 +26,7 @@ def apply_verified_updates(payload, base_dir):
     # Only add explicitly reviewed event rows; never replace another region.
     for event in updates.get("events", []):
         area = event.get("area")
-        if area not in (*WARDS, "hakodate"):
+        if area not in (*WARDS, "hakodate", "otaru"):
             continue
         rows = payload.setdefault("areas", {}).setdefault(area, [])
         if not any(row.get("name") == event.get("name") and
@@ -48,5 +48,23 @@ def apply_verified_updates(payload, base_dir):
                 ("status", "checked_at", "evidence_urls", "identity_review",
                  "external_search_checked") if key in item}
             payload["sapporo_directory"][item["area"]].append(row)
+    # Otaru uses its own candidate ledger, separate from Sapporo wards.
+    otaru_path = base / "otaru_directory_candidates.json"
+    if otaru_path.exists():
+        otaru_candidates = json.loads(otaru_path.read_text(encoding="utf-8"))
+        payload["otaru_directory_candidates"] = otaru_candidates
+        existing = payload.setdefault("otaru_directory", [])
+        for item in otaru_candidates:
+            if item.get("area") == "otaru" and item.get("address_verified") and external_candidate(item):
+                row = dict(item)
+                row["hotpepper_check"] = {key: item[key] for key in
+                    ("status", "checked_at", "evidence_urls", "identity_review",
+                     "external_search_checked") if key in item}
+                match = next((i for i, old in enumerate(existing)
+                    if old.get("name") == row.get("name") and old.get("place") == row.get("place")), None)
+                if match is None:
+                    existing.append(row)
+                else:
+                    existing[match] = row
     payload["directory_research"] = updates.get("research", {})
     return payload

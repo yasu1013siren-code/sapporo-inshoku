@@ -1,0 +1,93 @@
+{
+  "attempted_at": "2026-10-28T11:58:23.307Z",
+  "target_regions": [
+    "kita",
+    "higashi",
+    "nishi",
+    "teine",
+    "chuo",
+    "otaru",
+    "hakodate"
+  ],
+  "added_candidates": [
+    {
+      "name": "小料理 衣",
+      "area": "chuo",
+      "status": "external_not_found"
+    },
+    {
+      "name": "おかず家",
+      "area": "higashi",
+      "status": "external_not_found"
+    },
+    {
+      "name": "立呑みkiki",
+      "area": "otaru",
+      "status": "external_not_found"
+    }
+  ],
+  "added_events": [
+    {
+      "area": "otaru",
+      "name": "タリーズコーヒー 小樽ポートスクエア店",
+      "title": "タリーズコーヒー 小樽ポートスクエア店",
+      "place": "小樽市港町4-2",
+      "phone": "0134-26-6009",
+      "category": "カフェ",
+      "date": "2026-10-16",
+      "type": "open",
+      "note": "10月16日開店。港を望むコンテナ型カフェ。",
+      "url": "https://www.tullys.co.jp/company/pressrelease/2026/10/2026_otaru_ps.html",
+      "source": "タリーズコーヒージャパン公式発表",
+      "source_count": 1,
+      "confidence": 1,
+      "first_seen": "2026-10-28T11:58:23.307Z",
+      "source_checked_at": "2026-10-28T11:58:23.307Z"
+    }
+  ],
+  "new_confirmed_not_found": 0,
+  "listed_excluded": [
+    {
+      "name": "はる庵",
+      "area": "kita",
+      "url": "https://www.hotpepper.jp/strJ004633686/"
+    },
+    {
+      "name": "おきがる呑処 香蔵",
+      "area": "teine",
+      "url": "https://studio-yu.amebaownd.com/",
+      "listing_signal": "公式からホットペッパーJ001264985へリンク。現営業は別途再確認必要。"
+    }
+  ],
+  "followups": [
+    {
+      "name": "メシも。酒も。こはる",
+      "area": "nishi",
+      "url": "https://www.instagram.com/koharu.yt55/",
+      "address": "札幌市西区二十四軒4条2丁目9-28 栄光ビル",
+      "result": "電話番号未取得・公式SNS本文取得失敗。候補昇格は保留。",
+      "source": "https://tabelog.com/hokkaido/A0101/A010204/1080556/"
+    },
+    {
+      "name": "小料理bar R",
+      "area": "hakodate",
+      "url": "https://www.instagram.com/koryouribar_r/",
+      "address": "函館市湯川町3-26-13",
+      "phone": "080-9068-1316",
+      "result": "外部検索に掲載未発見だが最新SNS取得失敗。直近営業の補完待ち。",
+      "source": "https://www.hakobura.jp/features/379"
+    },
+    {
+      "name": "小樽なまらや",
+      "area": "otaru",
+      "url": "https://namaraya.exblog.jp/",
+      "result": "公式で花園3丁目5-2への移転と10月12日こけら落とし確認。通常営業の正確な移転開店日を追加確認。"
+    }
+  ],
+  "limitations": [
+    "7地域すべてについて全店舗を網羅した調査ではない。",
+    "Instagram本文取得制限あり。取得失敗を未掲載確定とは扱わない。",
+    "北区・西区・手稲区・函館は新規公開追加0件。",
+    "開店閉店は公式で確認できた小樽タリーズ1件のみ追加。札幌の新しい開閉店の全候補は今回未照合。"
+  ]
+}

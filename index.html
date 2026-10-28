@@ -274,6 +274,7 @@ const AREA_META = [
   {id:"minami", label:"南区"},
   {id:"nishi", label:"西区"},
   {id:"teine", label:"手稲区"},
+  {id:"otaru", label:"小樽市"},
   {id:"hakodate", label:"函館市"},
 ];
 
@@ -828,7 +829,7 @@ function renderHistory(){
       el.insertAdjacentHTML("beforeend", `<section class="directory-section" id="${area}-hotpepper-directory" tabindex="-1" style="margin-top:32px"><h2>ホットペッパー掲載確認なしの店舗</h2><p class="empty-note">開店日不問。以前の照合結果を保持し、確認から7日を過ぎた店舗は再確認待ちと表示します。</p>${directory.length ? directory.map(i=>`<article class="event-card" data-listing-status="${escapeHTML(i.hotpepper_check.status)}"><div class="event-body"><h3>${escapeHTML(i.name || i.title || "")}</h3><div class="meta">${escapeHTML(i.place || "")}</div>${compactNoteHTML(i.note)}<p>${directoryCheckLabel(i)}：${escapeHTML(i.hotpepper_check.checked_at.slice(0,10))}</p>${i.url ? `<a href="${escapeHTML(i.url)}" target="_blank" rel="noopener noreferrer">店舗の情報源 ↗</a>` : ""}</div></article>`).join("") : '<p class="empty-note">照合済みの対象店舗はありません。</p>'}</section>`);
     }
     if(area!=="hakodate") {
-      const directory=(AUTO_NEWS?.sapporo_directory?.[area] || []).filter(i=>
+      const directory=((area==="otaru" ? AUTO_NEWS?.otaru_directory : AUTO_NEWS?.sapporo_directory?.[area]) || []).filter(i=>
         validSapporoReview(i) && i.address_verified && i.area===area &&
         i.hotpepper_check?.external_search_checked===true &&
         ["not_found","external_not_found"].includes(i.hotpepper_check?.identity_review?.decision));

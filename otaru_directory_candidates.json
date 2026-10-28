@@ -1,0 +1,92 @@
+[
+  {
+    "name": "立呑みkiki",
+    "area": "otaru",
+    "city": "小樽市",
+    "place": "小樽市稲穂1丁目4-15 おたる屋台村レンガ横丁",
+    "phone": "090-5126-7654",
+    "url": "https://otaruyataimura.jp/renga17/",
+    "official_url": "https://otaruyataimura.jp/renga17/",
+    "source": "店舗公式・公式SNS・施設公式等（出典はevidence_urls）",
+    "note": "北海道の日本酒を中心に扱う立ち飲み店。",
+    "category": "立ち飲み・日本酒バー",
+    "type": "restaurant",
+    "date": "",
+    "first_seen": "2026-10-28T11:58:23.307Z",
+    "source_checked_at": "2026-10-28T11:58:23.307Z",
+    "attempted_at": "2026-10-28T11:58:23.307Z",
+    "checked_at": "2026-10-28T11:58:23.307Z",
+    "address_verified": true,
+    "verified_address": "小樽市稲穂1丁目4-15 おたる屋台村レンガ横丁",
+    "status": "external_not_found",
+    "reason": "external_search_only_candidate",
+    "name_variants": [
+      "立呑みkiki",
+      "立呑み kiki",
+      "立呑みｋｉｋｉ",
+      "立呑み キキ"
+    ],
+    "external_search_checked": true,
+    "search_queries": [
+      "site:hotpepper.jp (\"立呑みkiki\" OR \"立呑み kiki\" OR \"090-5126-7654\")",
+      "site:hotpepper.jp \"09051267654\"",
+      "site:hotpepper.jp \"立呑み\" \"キキ\" \"小樽\"",
+      "site:hotpepper.jp \"立呑みkiki\" \"稲穂1\""
+    ],
+    "search_observations": [
+      {
+        "query": "site:hotpepper.jp (\"立呑みkiki\" OR \"立呑み kiki\" OR \"090-5126-7654\")",
+        "attempted_at": "2026-10-28T11:58:23.307Z",
+        "result": "対象店舗のホットペッパーグルメ直接掲載は未発見。別地域同名店・美容ページ・他店の検索結果は除外。"
+      },
+      {
+        "query": "site:hotpepper.jp \"09051267654\"",
+        "attempted_at": "2026-10-28T11:58:23.307Z",
+        "result": "対象店舗のホットペッパーグルメ直接掲載は未発見。別地域同名店・美容ページ・他店の検索結果は除外。"
+      },
+      {
+        "query": "site:hotpepper.jp \"立呑み\" \"キキ\" \"小樽\"",
+        "attempted_at": "2026-10-28T11:58:23.307Z",
+        "result": "対象店舗のホットペッパーグルメ直接掲載は未発見。別地域同名店・美容ページ・他店の検索結果は除外。"
+      },
+      {
+        "query": "site:hotpepper.jp \"立呑みkiki\" \"稲穂1\"",
+        "attempted_at": "2026-10-28T11:58:23.307Z",
+        "result": "対象店舗のホットペッパーグルメ直接掲載は未発見。別地域同名店・美容ページ・他店の検索結果は除外。"
+      }
+    ],
+    "evidence_urls": [
+      "https://otaruyataimura.jp/renga17/",
+      "https://midori-chouchin.jp/introduction_info?shopcode=14379",
+      "https://tabelog.com/hokkaido/A0106/A010601/1074782/"
+    ],
+    "identity_review": {
+      "decision": "external_not_found",
+      "result": "店舗公式等の店名・所在地・電話を照合。店名・別表記・住所・電話の複数外部検索で対象店舗ページ未発見。未掲載の確定ではない。",
+      "name_variants_checked": true,
+      "address_checked": true,
+      "phone_checked": true,
+      "listing_signal": false
+    },
+    "hotpepper_check": {
+      "status": "external_not_found",
+      "checked_at": "2026-10-28T11:58:23.307Z",
+      "external_search_checked": true,
+      "identity_review": {
+        "decision": "external_not_found",
+        "result": "店舗公式等の店名・所在地・電話を照合。店名・別表記・住所・電話の複数外部検索で対象店舗ページ未発見。未掲載の確定ではない。",
+        "name_variants_checked": true,
+        "address_checked": true,
+        "phone_checked": true,
+        "listing_signal": false
+      },
+      "evidence_urls": [
+        "https://otaruyataimura.jp/renga17/",
+        "https://midori-chouchin.jp/introduction_info?shopcode=14379",
+        "https://tabelog.com/hokkaido/A0106/A010601/1074782/"
+      ]
+    },
+    "sns_url": "https://www.instagram.com/tachinomi.kiki/",
+    "sns_result": "Instagram取得制限。屋台村公式で業態・電話、別の店舗情報で番地と一致。岩見沢のKiKi洋菓子店と区別。営業時間に出典差があるため掲載しない。"
+  }
+]
