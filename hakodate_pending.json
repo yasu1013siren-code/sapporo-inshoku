@@ -1204,6 +1204,295 @@
       "address_verified": true,
       "verified_address": "函館市湯川町3丁目2-12",
       "external_search_checked": true
+    },
+    {
+      "name": "季節居酒屋 ひろべ",
+      "area": "hakodate",
+      "city": "函館市",
+      "place": "函館市桔梗町418-212",
+      "phone": "0138-47-4232",
+      "category": "海鮮・居酒屋",
+      "url": "https://www.hakobura.jp/spots/105",
+      "official_url": "https://www.hakobura.jp/spots/105",
+      "source": "函館市公式観光サイト はこぶら",
+      "note": "旬の海鮮と日替わり料理を出す住宅街の居酒屋。",
+      "status": "listed",
+      "reason": "direct_listing_verified",
+      "type": "restaurant",
+      "date": "",
+      "first_seen": "2026-10-23T11:25:44Z",
+      "source_checked_at": "2026-10-23T11:25:44Z",
+      "attempted_at": "2026-10-23T11:25:44Z",
+      "checked_at": "2026-10-28T20:19:22+09:00",
+      "address_verified": true,
+      "verified_address": "函館市桔梗町418-212",
+      "name_variants": [
+        "季節居酒屋 ひろべ",
+        "季節居酒屋ひろべ",
+        "ひろべ"
+      ],
+      "external_search_checked": true,
+      "search_queries": [
+        "site:hotpepper.jp \"季節居酒屋 ひろべ\" \"0138-47-4232\"",
+        "site:hotpepper.jp (\"桔梗町418-212\" OR \"季節居酒屋ひろべ\")"
+      ],
+      "search_observations": [
+        {
+          "query": "site:hotpepper.jp \"季節居酒屋 ひろべ\" \"0138-47-4232\"",
+          "attempted_at": "2026-10-23T11:25:44Z",
+          "result": "対象店舗のホットペッパー直接掲載ページは外部検索で未発見。別地域・同名店は除外。"
+        },
+        {
+          "query": "site:hotpepper.jp (\"桔梗町418-212\" OR \"季節居酒屋ひろべ\")",
+          "attempted_at": "2026-10-23T11:25:44Z",
+          "result": "対象店舗のホットペッパー直接掲載ページは外部検索で未発見。別地域・同名店は除外。"
+        }
+      ],
+      "evidence_urls": [
+        "https://www.hakobura.jp/spots/105",
+        "https://www.hotpepper.jp/strJ000258280/map/",
+        "https://www.hotpepper.jp/strJ000258280/map/"
+      ],
+      "identity_review": {
+        "decision": "listed",
+        "result": "ホットペッパー直接地図ページの店名と函館市桔梗町418-212が既存情報と一致。電話番号は表示未取得。",
+        "address_checked": true,
+        "phone_checked": false,
+        "listing_signal": true
+      },
+      "hotpepper_check": {
+        "status": "listed",
+        "checked_at": "2026-10-28T20:19:22+09:00",
+        "evidence_urls": [
+          "https://www.hotpepper.jp/strJ000258280/map/"
+        ]
+      },
+      "classification_history": [
+        {
+          "changed_at": "2026-10-28T20:19:22+09:00",
+          "from": "external_not_found",
+          "to": "listed",
+          "evidence_url": "https://www.hotpepper.jp/strJ000258280/map/",
+          "previous_record": {
+            "name": "季節居酒屋 ひろべ",
+            "area": "hakodate",
+            "city": "函館市",
+            "place": "函館市桔梗町418-212",
+            "phone": "0138-47-4232",
+            "category": "海鮮・居酒屋",
+            "url": "https://www.hakobura.jp/spots/105",
+            "official_url": "https://www.hakobura.jp/spots/105",
+            "source": "函館市公式観光サイト はこぶら",
+            "note": "旬の海鮮と日替わり料理を出す住宅街の居酒屋。",
+            "status": "external_not_found",
+            "reason": "external_search_only_candidate",
+            "type": "restaurant",
+            "date": "",
+            "first_seen": "2026-10-23T11:25:44Z",
+            "source_checked_at": "2026-10-23T11:25:44Z",
+            "attempted_at": "2026-10-23T11:25:44Z",
+            "checked_at": "2026-10-23T11:25:44Z",
+            "address_verified": true,
+            "verified_address": "函館市桔梗町418-212",
+            "name_variants": [
+              "季節居酒屋 ひろべ",
+              "季節居酒屋ひろべ",
+              "ひろべ"
+            ],
+            "external_search_checked": true,
+            "search_queries": [
+              "site:hotpepper.jp \"季節居酒屋 ひろべ\" \"0138-47-4232\"",
+              "site:hotpepper.jp (\"桔梗町418-212\" OR \"季節居酒屋ひろべ\")"
+            ],
+            "search_observations": [
+              {
+                "query": "site:hotpepper.jp \"季節居酒屋 ひろべ\" \"0138-47-4232\"",
+                "attempted_at": "2026-10-23T11:25:44Z",
+                "result": "対象店舗のホットペッパー直接掲載ページは外部検索で未発見。別地域・同名店は除外。"
+              },
+              {
+                "query": "site:hotpepper.jp (\"桔梗町418-212\" OR \"季節居酒屋ひろべ\")",
+                "attempted_at": "2026-10-23T11:25:44Z",
+                "result": "対象店舗のホットペッパー直接掲載ページは外部検索で未発見。別地域・同名店は除外。"
+              }
+            ],
+            "evidence_urls": [
+              "https://www.hakobura.jp/spots/105"
+            ],
+            "identity_review": {
+              "decision": "external_not_found",
+              "result": "店舗情報源で店名・住所・電話を照合。店名・表記違い・住所・電話の外部検索で対象の直接掲載を発見せず。未掲載の確定ではない。",
+              "name_variants_checked": true,
+              "address_checked": true,
+              "phone_checked": true,
+              "listing_signal": false
+            },
+            "hotpepper_check": {
+              "status": "external_not_found",
+              "checked_at": "2026-10-23T11:25:44Z",
+              "evidence_urls": [
+                "https://www.hakobura.jp/spots/105"
+              ],
+              "external_search_checked": true,
+              "identity_review": {
+                "decision": "external_not_found",
+                "result": "店舗情報源で店名・住所・電話を照合。店名・表記違い・住所・電話の外部検索で対象の直接掲載を発見せず。未掲載の確定ではない。",
+                "name_variants_checked": true,
+                "address_checked": true,
+                "phone_checked": true,
+                "listing_signal": false
+              }
+            }
+          }
+        },
+        {
+          "changed_at": "2026-10-28T20:19:22+09:00",
+          "from": "external_not_found",
+          "to": "listed",
+          "evidence_url": "https://www.hotpepper.jp/strJ000258280/map/",
+          "previous_record": {
+            "name": "季節居酒屋 ひろべ",
+            "area": "hakodate",
+            "city": "函館市",
+            "place": "函館市桔梗町418-212",
+            "phone": "0138-47-4232",
+            "category": "海鮮・居酒屋",
+            "url": "https://www.hakobura.jp/spots/105",
+            "official_url": "https://www.hakobura.jp/spots/105",
+            "source": "函館市公式観光サイト はこぶら",
+            "note": "旬の海鮮と日替わり料理を出す住宅街の居酒屋。",
+            "status": "listed",
+            "reason": "direct_listing_verified",
+            "type": "restaurant",
+            "date": "",
+            "first_seen": "2026-10-23T11:25:44Z",
+            "source_checked_at": "2026-10-23T11:25:44Z",
+            "attempted_at": "2026-10-23T11:25:44Z",
+            "checked_at": "2026-10-28T20:19:22+09:00",
+            "address_verified": true,
+            "verified_address": "函館市桔梗町418-212",
+            "name_variants": [
+              "季節居酒屋 ひろべ",
+              "季節居酒屋ひろべ",
+              "ひろべ"
+            ],
+            "external_search_checked": true,
+            "search_queries": [
+              "site:hotpepper.jp \"季節居酒屋 ひろべ\" \"0138-47-4232\"",
+              "site:hotpepper.jp (\"桔梗町418-212\" OR \"季節居酒屋ひろべ\")"
+            ],
+            "search_observations": [
+              {
+                "query": "site:hotpepper.jp \"季節居酒屋 ひろべ\" \"0138-47-4232\"",
+                "attempted_at": "2026-10-23T11:25:44Z",
+                "result": "対象店舗のホットペッパー直接掲載ページは外部検索で未発見。別地域・同名店は除外。"
+              },
+              {
+                "query": "site:hotpepper.jp (\"桔梗町418-212\" OR \"季節居酒屋ひろべ\")",
+                "attempted_at": "2026-10-23T11:25:44Z",
+                "result": "対象店舗のホットペッパー直接掲載ページは外部検索で未発見。別地域・同名店は除外。"
+              }
+            ],
+            "evidence_urls": [
+              "https://www.hakobura.jp/spots/105",
+              "https://www.hotpepper.jp/strJ000258280/map/"
+            ],
+            "identity_review": {
+              "decision": "listed",
+              "result": "ホットペッパー直接地図ページの店名と函館市桔梗町418-212が既存情報と一致。電話番号は表示未取得。",
+              "address_checked": true,
+              "phone_checked": false,
+              "listing_signal": true
+            },
+            "hotpepper_check": {
+              "status": "listed",
+              "checked_at": "2026-10-28T20:19:22+09:00",
+              "evidence_urls": [
+                "https://www.hotpepper.jp/strJ000258280/map/"
+              ]
+            },
+            "classification_history": [
+              {
+                "changed_at": "2026-10-28T20:19:22+09:00",
+                "from": "external_not_found",
+                "to": "listed",
+                "evidence_url": "https://www.hotpepper.jp/strJ000258280/map/",
+                "previous_record": {
+                  "name": "季節居酒屋 ひろべ",
+                  "area": "hakodate",
+                  "city": "函館市",
+                  "place": "函館市桔梗町418-212",
+                  "phone": "0138-47-4232",
+                  "category": "海鮮・居酒屋",
+                  "url": "https://www.hakobura.jp/spots/105",
+                  "official_url": "https://www.hakobura.jp/spots/105",
+                  "source": "函館市公式観光サイト はこぶら",
+                  "note": "旬の海鮮と日替わり料理を出す住宅街の居酒屋。",
+                  "status": "external_not_found",
+                  "reason": "external_search_only_candidate",
+                  "type": "restaurant",
+                  "date": "",
+                  "first_seen": "2026-10-23T11:25:44Z",
+                  "source_checked_at": "2026-10-23T11:25:44Z",
+                  "attempted_at": "2026-10-23T11:25:44Z",
+                  "checked_at": "2026-10-23T11:25:44Z",
+                  "address_verified": true,
+                  "verified_address": "函館市桔梗町418-212",
+                  "name_variants": [
+                    "季節居酒屋 ひろべ",
+                    "季節居酒屋ひろべ",
+                    "ひろべ"
+                  ],
+                  "external_search_checked": true,
+                  "search_queries": [
+                    "site:hotpepper.jp \"季節居酒屋 ひろべ\" \"0138-47-4232\"",
+                    "site:hotpepper.jp (\"桔梗町418-212\" OR \"季節居酒屋ひろべ\")"
+                  ],
+                  "search_observations": [
+                    {
+                      "query": "site:hotpepper.jp \"季節居酒屋 ひろべ\" \"0138-47-4232\"",
+                      "attempted_at": "2026-10-23T11:25:44Z",
+                      "result": "対象店舗のホットペッパー直接掲載ページは外部検索で未発見。別地域・同名店は除外。"
+                    },
+                    {
+                      "query": "site:hotpepper.jp (\"桔梗町418-212\" OR \"季節居酒屋ひろべ\")",
+                      "attempted_at": "2026-10-23T11:25:44Z",
+                      "result": "対象店舗のホットペッパー直接掲載ページは外部検索で未発見。別地域・同名店は除外。"
+                    }
+                  ],
+                  "evidence_urls": [
+                    "https://www.hakobura.jp/spots/105"
+                  ],
+                  "identity_review": {
+                    "decision": "external_not_found",
+                    "result": "店舗情報源で店名・住所・電話を照合。店名・表記違い・住所・電話の外部検索で対象の直接掲載を発見せず。未掲載の確定ではない。",
+                    "name_variants_checked": true,
+                    "address_checked": true,
+                    "phone_checked": true,
+                    "listing_signal": false
+                  },
+                  "hotpepper_check": {
+                    "status": "external_not_found",
+                    "checked_at": "2026-10-23T11:25:44Z",
+                    "evidence_urls": [
+                      "https://www.hakobura.jp/spots/105"
+                    ],
+                    "external_search_checked": true,
+                    "identity_review": {
+                      "decision": "external_not_found",
+                      "result": "店舗情報源で店名・住所・電話を照合。店名・表記違い・住所・電話の外部検索で対象の直接掲載を発見せず。未掲載の確定ではない。",
+                      "name_variants_checked": true,
+                      "address_checked": true,
+                      "phone_checked": true,
+                      "listing_signal": false
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ]
     }
   ]
 }
