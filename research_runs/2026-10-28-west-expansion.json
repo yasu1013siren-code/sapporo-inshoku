@@ -1,0 +1,302 @@
+{
+  "attempted_at": "2026-10-28T12:25:59.143Z",
+  "focus": "西区：琴似・発寒・宮の沢・西野",
+  "new_candidates": [
+    {
+      "name": "みやすけ",
+      "area": "nishi",
+      "city": "札幌市",
+      "place": "札幌市西区発寒6条10丁目4-15 アイビル9 1F",
+      "phone": "011-663-0777",
+      "url": "https://miyasuke.gorp.jp/",
+      "official_url": "https://miyasuke.gorp.jp/",
+      "category": "小料理・居酒屋",
+      "note": "季節の料理と日本酒。カウンター中心の小料理店。",
+      "name_variants": [
+        "みやすけ",
+        "ミヤスケ"
+      ],
+      "search_queries": [
+        "site:hotpepper.jp \"みやすけ\"",
+        "site:hotpepper.jp (\"みやすけ\" OR \"ミヤスケ\" OR \"011-663-0777\" OR \"発寒6条10-4-15\") -site:beauty.hotpepper.jp",
+        "site:hotpepper.jp/str \"0116630777\""
+      ],
+      "evidence_urls": [
+        "https://miyasuke.gorp.jp/",
+        "https://r.gnavi.co.jp/fuyan0j30000/",
+        "https://tabelog.com/hokkaido/A0101/A010204/1057442/"
+      ],
+      "sns_url": "https://www.instagram.com/miyasuke.miyanosawa/",
+      "source": "店舗公式サイト・店舗情報（evidence_urls参照）",
+      "type": "restaurant",
+      "date": "",
+      "first_seen": "2026-10-28T12:25:59.143Z",
+      "source_checked_at": "2026-10-28T12:25:59.143Z",
+      "attempted_at": "2026-10-28T12:25:59.143Z",
+      "checked_at": "2026-10-28T12:25:59.143Z",
+      "status": "external_not_found",
+      "reason": "external_search_only_candidate",
+      "address_verified": true,
+      "verified_address": "札幌市西区発寒6条10丁目4-15 アイビル9 1F",
+      "external_search_checked": true,
+      "search_observations": [
+        {
+          "query": "site:hotpepper.jp \"みやすけ\"",
+          "attempted_at": "2026-10-28T12:25:59.143Z",
+          "result": "対象店舗のホットペッパーグルメ直接掲載は未発見。別地域の同名店、美容ブログや口コミは対象から除外。"
+        },
+        {
+          "query": "site:hotpepper.jp (\"みやすけ\" OR \"ミヤスケ\" OR \"011-663-0777\" OR \"発寒6条10-4-15\") -site:beauty.hotpepper.jp",
+          "attempted_at": "2026-10-28T12:25:59.143Z",
+          "result": "対象店舗のホットペッパーグルメ直接掲載は未発見。別地域の同名店、美容ブログや口コミは対象から除外。"
+        },
+        {
+          "query": "site:hotpepper.jp/str \"0116630777\"",
+          "attempted_at": "2026-10-28T12:25:59.143Z",
+          "result": "対象店舗のホットペッパーグルメ直接掲載は未発見。別地域の同名店、美容ブログや口コミは対象から除外。"
+        }
+      ],
+      "identity_review": {
+        "decision": "external_not_found",
+        "result": "公式店舗情報と所在地・電話を照合。店名・別表記・所在地・電話の複数外部検索で当店のグルメ店舗掲載を未発見。未掲載の確定ではない。",
+        "name_variants_checked": true,
+        "address_checked": true,
+        "phone_checked": true,
+        "listing_signal": false
+      },
+      "hotpepper_check": {
+        "status": "external_not_found",
+        "checked_at": "2026-10-28T12:25:59.143Z",
+        "evidence_urls": [
+          "https://miyasuke.gorp.jp/",
+          "https://r.gnavi.co.jp/fuyan0j30000/",
+          "https://tabelog.com/hokkaido/A0101/A010204/1057442/"
+        ],
+        "external_search_checked": true,
+        "identity_review": {
+          "decision": "external_not_found",
+          "result": "公式店舗情報と所在地・電話を照合。店名・別表記・所在地・電話の複数外部検索で当店のグルメ店舗掲載を未発見。未掲載の確定ではない。",
+          "name_variants_checked": true,
+          "address_checked": true,
+          "phone_checked": true,
+          "listing_signal": false
+        }
+      },
+      "alternate_phones": [
+        "050-5487-0239"
+      ],
+      "sns_result": "公式導線を確認、Instagram本文は取得制限。"
+    },
+    {
+      "name": "R dining",
+      "area": "nishi",
+      "city": "札幌市",
+      "place": "札幌市西区発寒6条12丁目3-24",
+      "phone": "011-676-4481",
+      "url": "https://r-dining.jp/",
+      "official_url": "https://r-dining.jp/",
+      "category": "創作和食・発酵料理",
+      "note": "出汁と生糀を使う一軒家の創作料理店。",
+      "name_variants": [
+        "R dining",
+        "アールダイニング",
+        "アール ダイニング"
+      ],
+      "search_queries": [
+        "site:hotpepper.jp \"R dining\"",
+        "site:hotpepper.jp (\"R dining\" \"札幌\" OR \"アールダイニング\" \"発寒\" OR \"011-676-4481\") -site:beauty.hotpepper.jp",
+        "site:hotpepper.jp \"0116764481\""
+      ],
+      "evidence_urls": [
+        "https://r-dining.jp/",
+        "https://www.fripper.jp/detail/9903/index.html",
+        "https://tabelog.com/hokkaido/A0101/A010204/1076356/"
+      ],
+      "sns_url": "https://www.instagram.com/r_dining.5/",
+      "source": "店舗公式サイト・店舗情報（evidence_urls参照）",
+      "type": "restaurant",
+      "date": "",
+      "first_seen": "2026-10-28T12:25:59.143Z",
+      "source_checked_at": "2026-10-28T12:25:59.143Z",
+      "attempted_at": "2026-10-28T12:25:59.143Z",
+      "checked_at": "2026-10-28T12:25:59.143Z",
+      "status": "external_not_found",
+      "reason": "external_search_only_candidate",
+      "address_verified": true,
+      "verified_address": "札幌市西区発寒6条12丁目3-24",
+      "external_search_checked": true,
+      "search_observations": [
+        {
+          "query": "site:hotpepper.jp \"R dining\"",
+          "attempted_at": "2026-10-28T12:25:59.143Z",
+          "result": "対象店舗のホットペッパーグルメ直接掲載は未発見。別地域の同名店、美容ブログや口コミは対象から除外。"
+        },
+        {
+          "query": "site:hotpepper.jp (\"R dining\" \"札幌\" OR \"アールダイニング\" \"発寒\" OR \"011-676-4481\") -site:beauty.hotpepper.jp",
+          "attempted_at": "2026-10-28T12:25:59.143Z",
+          "result": "対象店舗のホットペッパーグルメ直接掲載は未発見。別地域の同名店、美容ブログや口コミは対象から除外。"
+        },
+        {
+          "query": "site:hotpepper.jp \"0116764481\"",
+          "attempted_at": "2026-10-28T12:25:59.143Z",
+          "result": "対象店舗のホットペッパーグルメ直接掲載は未発見。別地域の同名店、美容ブログや口コミは対象から除外。"
+        }
+      ],
+      "identity_review": {
+        "decision": "external_not_found",
+        "result": "公式店舗情報と所在地・電話を照合。店名・別表記・所在地・電話の複数外部検索で当店のグルメ店舗掲載を未発見。未掲載の確定ではない。",
+        "name_variants_checked": true,
+        "address_checked": true,
+        "phone_checked": true,
+        "listing_signal": false
+      },
+      "hotpepper_check": {
+        "status": "external_not_found",
+        "checked_at": "2026-10-28T12:25:59.143Z",
+        "evidence_urls": [
+          "https://r-dining.jp/",
+          "https://www.fripper.jp/detail/9903/index.html",
+          "https://tabelog.com/hokkaido/A0101/A010204/1076356/"
+        ],
+        "external_search_checked": true,
+        "identity_review": {
+          "decision": "external_not_found",
+          "result": "公式店舗情報と所在地・電話を照合。店名・別表記・所在地・電話の複数外部検索で当店のグルメ店舗掲載を未発見。未掲載の確定ではない。",
+          "name_variants_checked": true,
+          "address_checked": true,
+          "phone_checked": true,
+          "listing_signal": false
+        }
+      },
+      "identity_note": "千葉・みつわ台の同名R DININGは別地域。美容院ブログの紹介はグルメ掲載ではない。"
+    },
+    {
+      "name": "洋食家 はるひ",
+      "area": "nishi",
+      "city": "札幌市",
+      "place": "札幌市西区西野1条6丁目4-21 ライフコートA 1F",
+      "phone": "011-699-5945",
+      "url": "https://haruhi-sapporo.com/access/",
+      "official_url": "https://haruhi-sapporo.com/access/",
+      "category": "洋食・レストラン",
+      "note": "夫婦で営む洋食店。ワインや酒肴も提供。",
+      "name_variants": [
+        "洋食家 はるひ",
+        "洋食家はるひ",
+        "はるひ"
+      ],
+      "search_queries": [
+        "site:hotpepper.jp (\"洋食家はるひ\" OR \"洋食家 はるひ\" OR \"011-699-5945\" OR \"西野1条6-4-21\") -site:beauty.hotpepper.jp",
+        "site:hotpepper.jp/str \"0116995945\"",
+        "site:hotpepper.jp \"洋食家 はるひ\" \"札幌\""
+      ],
+      "evidence_urls": [
+        "https://haruhi-sapporo.com/access/",
+        "https://haruhi-sapporo.com/"
+      ],
+      "sns_url": "",
+      "source": "店舗公式サイト・店舗情報（evidence_urls参照）",
+      "type": "restaurant",
+      "date": "",
+      "first_seen": "2026-10-28T12:25:59.143Z",
+      "source_checked_at": "2026-10-28T12:25:59.143Z",
+      "attempted_at": "2026-10-28T12:25:59.143Z",
+      "checked_at": "2026-10-28T12:25:59.143Z",
+      "status": "external_not_found",
+      "reason": "external_search_only_candidate",
+      "address_verified": true,
+      "verified_address": "札幌市西区西野1条6丁目4-21 ライフコートA 1F",
+      "external_search_checked": true,
+      "search_observations": [
+        {
+          "query": "site:hotpepper.jp (\"洋食家はるひ\" OR \"洋食家 はるひ\" OR \"011-699-5945\" OR \"西野1条6-4-21\") -site:beauty.hotpepper.jp",
+          "attempted_at": "2026-10-28T12:25:59.143Z",
+          "result": "対象店舗のホットペッパーグルメ直接掲載は未発見。別地域の同名店、美容ブログや口コミは対象から除外。"
+        },
+        {
+          "query": "site:hotpepper.jp/str \"0116995945\"",
+          "attempted_at": "2026-10-28T12:25:59.143Z",
+          "result": "対象店舗のホットペッパーグルメ直接掲載は未発見。別地域の同名店、美容ブログや口コミは対象から除外。"
+        },
+        {
+          "query": "site:hotpepper.jp \"洋食家 はるひ\" \"札幌\"",
+          "attempted_at": "2026-10-28T12:25:59.143Z",
+          "result": "対象店舗のホットペッパーグルメ直接掲載は未発見。別地域の同名店、美容ブログや口コミは対象から除外。"
+        }
+      ],
+      "identity_review": {
+        "decision": "external_not_found",
+        "result": "公式店舗情報と所在地・電話を照合。店名・別表記・所在地・電話の複数外部検索で当店のグルメ店舗掲載を未発見。未掲載の確定ではない。",
+        "name_variants_checked": true,
+        "address_checked": true,
+        "phone_checked": true,
+        "listing_signal": false
+      },
+      "hotpepper_check": {
+        "status": "external_not_found",
+        "checked_at": "2026-10-28T12:25:59.143Z",
+        "evidence_urls": [
+          "https://haruhi-sapporo.com/access/",
+          "https://haruhi-sapporo.com/"
+        ],
+        "external_search_checked": true,
+        "identity_review": {
+          "decision": "external_not_found",
+          "result": "公式店舗情報と所在地・電話を照合。店名・別表記・所在地・電話の複数外部検索で当店のグルメ店舗掲載を未発見。未掲載の確定ではない。",
+          "name_variants_checked": true,
+          "address_checked": true,
+          "phone_checked": true,
+          "listing_signal": false
+        }
+      }
+    }
+  ],
+  "confirmed_not_found_added": 0,
+  "listed_excluded": [
+    {
+      "name": "Bar 麦秋",
+      "url": "https://www.hotpepper.jp/strJ001291537/"
+    }
+  ],
+  "pending": [
+    {
+      "name": "酒菜 ぷく",
+      "address": "札幌市西区西野3条9丁目11-8",
+      "phone": "090-2053-6156",
+      "url": "https://www.instagram.com/puku__syusai/",
+      "source": "https://tabelog.com/hokkaido/A0101/A010204/1082122/",
+      "reason": "公式SNS本文と最新営業の確認待ち。外部まとめのホットペッパー由来表示はページ全体にあり個店リンクの確認待ち。"
+    },
+    {
+      "name": "晩酌処 富皆",
+      "address": "札幌市西区琴似1条1丁目5-13",
+      "phone": "011-631-1723",
+      "url": "https://www.facebook.com/bansyakutokorofumi",
+      "source": "https://www.city.sapporo.jp/hokenjo/shoku/shokumachi/omotenashi/jigyosya/jigyousya0139.html",
+      "reason": "市公式は2023年更新。最新営業の補完待ち。"
+    },
+    {
+      "name": "美酒備長炭焼 はやぶさ",
+      "address": "札幌市西区西野2条2丁目8-11",
+      "phone": "011-688-5073",
+      "source": "https://tabelog.com/hokkaido/A0101/A010204/1040235/",
+      "reason": "旧営業案内のまま。現営業の一次根拠を補完予定。"
+    },
+    {
+      "name": "おーい海",
+      "address": "札幌市西区西野2条5丁目6-8",
+      "source": "https://www.ekiten.jp/shop_59280578/",
+      "reason": "公式・営業根拠の補完待ち。"
+    },
+    {
+      "name": "飲み食い処一球",
+      "address": "札幌市西区西野5条7丁目10-8",
+      "source": "https://www.ekiten.jp/shop_1765540/",
+      "reason": "じゃらん掲載の手掛かりあり。ホットペッパー由来か未照合。"
+    }
+  ],
+  "limitations": [
+    "外部検索で掲載未発見の候補。未掲載確定ではない。",
+    "Instagramの取得制限を公式サイトと店舗情報で補完。西区全店を網羅した結果ではない。"
+  ]
+}
