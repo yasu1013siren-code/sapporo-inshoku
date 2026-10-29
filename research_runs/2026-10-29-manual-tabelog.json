@@ -1,0 +1,194 @@
+{
+  "attempted_at": "2026-10-29T02:28:59.859Z",
+  "method": "食べログ掲載店舗→公式等による実在・移転照合→ホットペッパー内外検索",
+  "visited_regions": [
+    "nishi",
+    "kita"
+  ],
+  "not_visited": [
+    "higashi",
+    "teine",
+    "chuo（開閉店候補の予備検索のみ）",
+    "otaru（開閉店一覧の予備検索のみ）",
+    "hakodate"
+  ],
+  "reviewed": 6,
+  "candidate_added": 1,
+  "confirmed_not_found_added": 0,
+  "listed": [
+    {
+      "name": "やまじゅう焼鶏店",
+      "area": "nishi",
+      "place": "札幌市西区西野2条2丁目7-16",
+      "status": "listed",
+      "checked_at": "2026-10-29T02:28:59.859Z",
+      "evidence_urls": [
+        "https://www.hotpepper.jp/strJ000869105/"
+      ],
+      "identity_review": {
+        "decision": "listed",
+        "result": "店舗名と掲載先住所が対象店舗に一致。予約受付の有無で除外しない。"
+      }
+    },
+    {
+      "name": "炭火焼き鳥 我ッ采",
+      "area": "nishi",
+      "place": "札幌市西区西町北8丁目1-2",
+      "status": "listed",
+      "checked_at": "2026-10-29T02:28:59.859Z",
+      "evidence_urls": [
+        "https://www.hotpepper.jp/strJ000727390/"
+      ],
+      "identity_review": {
+        "decision": "listed",
+        "result": "店舗名と掲載先住所が対象店舗に一致。予約受付の有無で除外しない。"
+      }
+    },
+    {
+      "name": "隠れ酒家 ことに惣",
+      "area": "nishi",
+      "place": "札幌市西区琴似3条2丁目7-11",
+      "status": "listed",
+      "checked_at": "2026-10-29T02:28:59.859Z",
+      "evidence_urls": [
+        "https://www.hotpepper.jp/strJ001252080/"
+      ],
+      "identity_review": {
+        "decision": "listed",
+        "result": "店舗名と掲載先住所が対象店舗に一致。予約受付の有無で除外しない。"
+      }
+    },
+    {
+      "name": "ねぎまとおでん とり晴",
+      "area": "nishi",
+      "place": "札幌市西区琴似2条1丁目3-3",
+      "status": "listed",
+      "checked_at": "2026-10-29T02:28:59.859Z",
+      "evidence_urls": [
+        "https://www.hotpepper.jp/strJ001276659/"
+      ],
+      "identity_review": {
+        "decision": "listed",
+        "result": "店舗名と掲載先住所が対象店舗に一致。予約受付の有無で除外しない。"
+      }
+    },
+    {
+      "name": "たけちゃん",
+      "area": "kita",
+      "place": "札幌市北区拓北6条3丁目8-2 BBハウス",
+      "status": "listed",
+      "checked_at": "2026-10-29T02:28:59.859Z",
+      "evidence_urls": [
+        "https://www.hotpepper.jp/strJ004633115/"
+      ],
+      "identity_review": {
+        "decision": "listed",
+        "result": "店舗名と掲載先住所が対象店舗に一致。予約受付の有無で除外しない。"
+      }
+    }
+  ],
+  "published_candidate": {
+    "name": "焼肉居酒屋 炭道楽",
+    "area": "nishi",
+    "city": "札幌市",
+    "place": "札幌市西区西野7条7丁目8-32 カドヤビル1F",
+    "phone": "011-688-9844",
+    "url": "https://page.line.me/290rkeps",
+    "official_url": "https://page.line.me/290rkeps",
+    "sns_url": "https://x.com/douraku4129",
+    "category": "焼肉・居酒屋",
+    "note": "西野の焼肉居酒屋。中央区からの移転を照合。",
+    "source": "公式LINE・食べログ現店舗と移転前店舗",
+    "type": "restaurant",
+    "date": "",
+    "first_seen": "2026-10-29T02:28:59.859Z",
+    "checked_at": "2026-10-29T02:28:59.859Z",
+    "source_checked_at": "2026-10-29T02:28:59.859Z",
+    "attempted_at": "2026-10-29T02:28:59.859Z",
+    "address_verified": true,
+    "verified_address": "札幌市西区西野7条7丁目8-32 カドヤビル1F",
+    "status": "external_not_found",
+    "reason": "external_search_only_candidate",
+    "external_search_checked": true,
+    "name_variants": [
+      "焼肉居酒屋 炭道楽",
+      "炭道楽",
+      "すみどうらく",
+      "スミドウラク"
+    ],
+    "search_queries": [
+      "site:hotpepper.jp (\"炭道楽\" OR \"011-688-9844\")",
+      "site:hotpepper.jp (\"炭道楽\" OR \"すみどうらく\" OR \"スミドウラク\" OR \"0116889844\")",
+      "site:hotpepper.jp (\"炭道楽\" OR \"西野7条7丁目8-32\" OR \"南17条西17-2-12\")"
+    ],
+    "search_observations": [
+      {
+        "query": "site:hotpepper.jp (\"炭道楽\" OR \"011-688-9844\")",
+        "attempted_at": "2026-10-29T02:28:59.859Z",
+        "result": "対象店舗の直接掲載は外部検索で未発見。未掲載確定ではない。"
+      },
+      {
+        "query": "site:hotpepper.jp (\"炭道楽\" OR \"すみどうらく\" OR \"スミドウラク\" OR \"0116889844\")",
+        "attempted_at": "2026-10-29T02:28:59.859Z",
+        "result": "対象店舗の直接掲載は外部検索で未発見。未掲載確定ではない。"
+      },
+      {
+        "query": "site:hotpepper.jp (\"炭道楽\" OR \"西野7条7丁目8-32\" OR \"南17条西17-2-12\")",
+        "attempted_at": "2026-10-29T02:28:59.859Z",
+        "result": "対象店舗の直接掲載は外部検索で未発見。未掲載確定ではない。"
+      }
+    ],
+    "evidence_urls": [
+      "https://page.line.me/290rkeps",
+      "https://tabelog.com/hokkaido/A0101/A010204/1081843/",
+      "https://tabelog.com/hokkaido/A0101/A010104/1049661/"
+    ],
+    "identity_review": {
+      "decision": "external_not_found",
+      "result": "食べログの移転履歴と公式LINEの現住所・電話が一致。旧中央区住所、現西野住所、店名・別表記・電話で外部検索し対象のグルメ店舗掲載未発見。未掲載の確定ではない。",
+      "name_variants_checked": true,
+      "address_checked": true,
+      "phone_checked": true,
+      "listing_signal": false
+    },
+    "hotpepper_check": {
+      "status": "external_not_found",
+      "checked_at": "2026-10-29T02:28:59.859Z",
+      "external_search_checked": true,
+      "identity_review": {
+        "decision": "external_not_found",
+        "result": "食べログの移転履歴と公式LINEの現住所・電話が一致。旧中央区住所、現西野住所、店名・別表記・電話で外部検索し対象のグルメ店舗掲載未発見。未掲載の確定ではない。",
+        "name_variants_checked": true,
+        "address_checked": true,
+        "phone_checked": true,
+        "listing_signal": false
+      },
+      "evidence_urls": [
+        "https://page.line.me/290rkeps",
+        "https://tabelog.com/hokkaido/A0101/A010204/1081843/"
+      ]
+    }
+  },
+  "pending_followups": [
+    {
+      "name": "酒菜 ぷく",
+      "result": "公式SNS取得・直近営業確認が引き続き不足。保留維持。",
+      "url": "https://www.instagram.com/puku__syusai/"
+    },
+    {
+      "name": "SATURDAYS Stand",
+      "result": "地域媒体に10/29閉店情報。公式店舗一覧は営業案内が残り、当該閉店の公式告知未取得。通常の確定閉店へ追加せず再確認。",
+      "url": "https://chamonix-cakes.com/heiten-abrmknmqcwegbl2bnc/"
+    },
+    {
+      "name": "みそラーメンのよし乃 札幌アピア店",
+      "result": "地域媒体に10/25閉店情報、公式告知未取得。一次確認待ち。",
+      "url": "https://chamonix-cakes.com/heiten-abeh5sva7kijlj2bnc/"
+    }
+  ],
+  "limitations": [
+    "全7地域の網羅調査ではない。",
+    "今回の新規未掲載候補は西区1店。",
+    "外部検索未発見の候補であり、絶対的な未掲載を断定しない。"
+  ]
+}

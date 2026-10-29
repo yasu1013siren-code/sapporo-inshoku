@@ -2231,5 +2231,87 @@
         "listing_signal": false
       }
     }
+  },
+  {
+    "name": "焼肉居酒屋 炭道楽",
+    "area": "nishi",
+    "city": "札幌市",
+    "place": "札幌市西区西野7条7丁目8-32 カドヤビル1F",
+    "phone": "011-688-9844",
+    "url": "https://page.line.me/290rkeps",
+    "official_url": "https://page.line.me/290rkeps",
+    "sns_url": "https://x.com/douraku4129",
+    "category": "焼肉・居酒屋",
+    "note": "西野の焼肉居酒屋。中央区からの移転を照合。",
+    "source": "公式LINE・食べログ現店舗と移転前店舗",
+    "type": "restaurant",
+    "date": "",
+    "first_seen": "2026-10-29T02:28:59.859Z",
+    "checked_at": "2026-10-29T02:28:59.859Z",
+    "source_checked_at": "2026-10-29T02:28:59.859Z",
+    "attempted_at": "2026-10-29T02:28:59.859Z",
+    "address_verified": true,
+    "verified_address": "札幌市西区西野7条7丁目8-32 カドヤビル1F",
+    "status": "external_not_found",
+    "reason": "external_search_only_candidate",
+    "external_search_checked": true,
+    "name_variants": [
+      "焼肉居酒屋 炭道楽",
+      "炭道楽",
+      "すみどうらく",
+      "スミドウラク"
+    ],
+    "search_queries": [
+      "site:hotpepper.jp (\"炭道楽\" OR \"011-688-9844\")",
+      "site:hotpepper.jp (\"炭道楽\" OR \"すみどうらく\" OR \"スミドウラク\" OR \"0116889844\")",
+      "site:hotpepper.jp (\"炭道楽\" OR \"西野7条7丁目8-32\" OR \"南17条西17-2-12\")"
+    ],
+    "search_observations": [
+      {
+        "query": "site:hotpepper.jp (\"炭道楽\" OR \"011-688-9844\")",
+        "attempted_at": "2026-10-29T02:28:59.859Z",
+        "result": "対象店舗の直接掲載は外部検索で未発見。未掲載確定ではない。"
+      },
+      {
+        "query": "site:hotpepper.jp (\"炭道楽\" OR \"すみどうらく\" OR \"スミドウラク\" OR \"0116889844\")",
+        "attempted_at": "2026-10-29T02:28:59.859Z",
+        "result": "対象店舗の直接掲載は外部検索で未発見。未掲載確定ではない。"
+      },
+      {
+        "query": "site:hotpepper.jp (\"炭道楽\" OR \"西野7条7丁目8-32\" OR \"南17条西17-2-12\")",
+        "attempted_at": "2026-10-29T02:28:59.859Z",
+        "result": "対象店舗の直接掲載は外部検索で未発見。未掲載確定ではない。"
+      }
+    ],
+    "evidence_urls": [
+      "https://page.line.me/290rkeps",
+      "https://tabelog.com/hokkaido/A0101/A010204/1081843/",
+      "https://tabelog.com/hokkaido/A0101/A010104/1049661/"
+    ],
+    "identity_review": {
+      "decision": "external_not_found",
+      "result": "食べログの移転履歴と公式LINEの現住所・電話が一致。旧中央区住所、現西野住所、店名・別表記・電話で外部検索し対象のグルメ店舗掲載未発見。未掲載の確定ではない。",
+      "name_variants_checked": true,
+      "address_checked": true,
+      "phone_checked": true,
+      "listing_signal": false
+    },
+    "hotpepper_check": {
+      "status": "external_not_found",
+      "checked_at": "2026-10-29T02:28:59.859Z",
+      "external_search_checked": true,
+      "identity_review": {
+        "decision": "external_not_found",
+        "result": "食べログの移転履歴と公式LINEの現住所・電話が一致。旧中央区住所、現西野住所、店名・別表記・電話で外部検索し対象のグルメ店舗掲載未発見。未掲載の確定ではない。",
+        "name_variants_checked": true,
+        "address_checked": true,
+        "phone_checked": true,
+        "listing_signal": false
+      },
+      "evidence_urls": [
+        "https://page.line.me/290rkeps",
+        "https://tabelog.com/hokkaido/A0101/A010204/1081843/"
+      ]
+    }
   }
 ]
