@@ -4805,5 +4805,131 @@
       "decision": "listed",
       "result": "店舗名と掲載先住所が対象店舗に一致。予約受付の有無で除外しない。"
     }
+  },
+  {
+    "name": "北遥館",
+    "area": "nishi",
+    "place": "札幌市西区山の手3条3丁目3-12",
+    "status": "listed",
+    "checked_at": "2026-10-29T02:41:56.383Z",
+    "evidence_urls": [
+      "https://www.hotpepper.jp/strJ000251429/"
+    ],
+    "identity_review": {
+      "decision": "listed",
+      "result": "北遙館の別表記掲載。住所一致。"
+    }
+  },
+  {
+    "name": "喰処いこい",
+    "area": "nishi",
+    "place": "札幌市西区琴似1条7丁目3-25",
+    "status": "listed",
+    "checked_at": "2026-10-29T02:41:56.383Z",
+    "evidence_urls": [
+      "https://www.hotpepper.jp/strJ000251747/"
+    ],
+    "identity_review": {
+      "decision": "listed",
+      "result": "店名・住所一致。"
+    }
+  },
+  {
+    "name": "Cafe Ikazuwa",
+    "area": "hakodate",
+    "budget_max_yen": 1999,
+    "budget_source": "https://tabelog.com/hokkaido/A0105/A010501/1086120/",
+    "checked_at": "2026-10-29T02:43:39.582Z",
+    "decision": "excluded_below_2000",
+    "basis": "食べログ予算欄または口コミ予算集計。客単価実測ではなく選定の目安。",
+    "status": "selection_excluded",
+    "identity_review": {
+      "decision": "excluded_below_2000",
+      "result": "食べログ予算欄または口コミ予算集計。客単価実測ではなく選定の目安。"
+    }
+  },
+  {
+    "name": "cafe 海と硝子",
+    "area": "hakodate",
+    "budget_max_yen": 1999,
+    "budget_source": "https://tabelog.com/hokkaido/A0105/A010501/1061899/",
+    "checked_at": "2026-10-29T02:43:39.582Z",
+    "decision": "excluded_below_2000",
+    "basis": "食べログ予算欄または口コミ予算集計。客単価実測ではなく選定の目安。",
+    "status": "selection_excluded",
+    "identity_review": {
+      "decision": "excluded_below_2000",
+      "result": "食べログ予算欄または口コミ予算集計。客単価実測ではなく選定の目安。"
+    }
+  },
+  {
+    "name": "TAILORED COFFEE 本町店",
+    "area": "hakodate",
+    "budget_max_yen": 999,
+    "budget_source": "https://tabelog.com/hokkaido/A0105/A010501/1046434/",
+    "checked_at": "2026-10-29T02:43:39.582Z",
+    "decision": "excluded_below_2000",
+    "basis": "食べログ予算欄または口コミ予算集計。客単価実測ではなく選定の目安。",
+    "status": "selection_excluded",
+    "identity_review": {
+      "decision": "excluded_below_2000",
+      "result": "食べログ予算欄または口コミ予算集計。客単価実測ではなく選定の目安。"
+    }
+  },
+  {
+    "name": "えほんカフェひっぽ",
+    "area": "hakodate",
+    "budget_max_yen": 999,
+    "budget_source": "https://tabelog.com/hokkaido/A0105/A010501/1062246/",
+    "checked_at": "2026-10-29T02:43:39.582Z",
+    "decision": "excluded_below_2000",
+    "basis": "食べログ予算欄または口コミ予算集計。客単価実測ではなく選定の目安。",
+    "status": "selection_excluded",
+    "identity_review": {
+      "decision": "excluded_below_2000",
+      "result": "食べログ予算欄または口コミ予算集計。客単価実測ではなく選定の目安。"
+    }
+  },
+  {
+    "name": "ごはんおやつシプル",
+    "area": "hakodate",
+    "budget_max_yen": 1999,
+    "budget_source": "https://tabelog.com/hokkaido/A0105/A010501/1060498/",
+    "checked_at": "2026-10-29T02:43:39.582Z",
+    "decision": "excluded_below_2000",
+    "basis": "食べログ予算欄または口コミ予算集計。客単価実測ではなく選定の目安。",
+    "status": "selection_excluded",
+    "identity_review": {
+      "decision": "excluded_below_2000",
+      "result": "食べログ予算欄または口コミ予算集計。客単価実測ではなく選定の目安。"
+    }
+  },
+  {
+    "name": "cafe akira",
+    "area": "hakodate",
+    "budget_max_yen": 999,
+    "budget_source": "https://tabelog.com/hokkaido/A0105/A010501/1051543/",
+    "checked_at": "2026-10-29T02:43:39.582Z",
+    "decision": "excluded_below_2000",
+    "basis": "食べログ予算欄または口コミ予算集計。客単価実測ではなく選定の目安。",
+    "status": "selection_excluded",
+    "identity_review": {
+      "decision": "excluded_below_2000",
+      "result": "食べログ予算欄または口コミ予算集計。客単価実測ではなく選定の目安。"
+    }
+  },
+  {
+    "name": "TAILORED COFFEE 宮前店",
+    "area": "hakodate",
+    "budget_max_yen": 999,
+    "budget_source": "https://tabelog.com/hokkaido/A0105/A010501/1064702/",
+    "checked_at": "2026-10-29T02:43:39.582Z",
+    "decision": "excluded_below_2000",
+    "basis": "食べログ予算欄または口コミ予算集計。客単価実測ではなく選定の目安。",
+    "status": "selection_excluded",
+    "identity_review": {
+      "decision": "excluded_below_2000",
+      "result": "食べログ予算欄または口コミ予算集計。客単価実測ではなく選定の目安。"
+    }
   }
 ]

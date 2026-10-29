@@ -1,0 +1,346 @@
+{
+  "checked_at": "2026-10-29T02:41:56.383Z",
+  "workflow": "食べログ発掘→ホットペッパー照合→公式サイト・SNS確認",
+  "areas_researched": [
+    "nishi",
+    "otaru"
+  ],
+  "areas_not_researched": [
+    "chuo",
+    "kita",
+    "higashi",
+    "teine",
+    "hakodate"
+  ],
+  "discovery_source": "https://tabelog.com/teishoku/hokkaido/A0101/A010204/rank/",
+  "discovery_names": [
+    "喰処いこい",
+    "幸楽園",
+    "北遥館",
+    "お食事処ぽち",
+    "サロンIG",
+    "牛角焼肉食堂イオンモール札幌発寒店",
+    "やよい軒二十四軒店",
+    "大戸屋イオンモール札幌発寒店",
+    "ティー＆ディーコーヒー",
+    "カントリーハウス",
+    "米麦食堂",
+    "ふじよし",
+    "グリーンズコートCiiNA CiiNA琴似店",
+    "喫茶 和",
+    "グレース",
+    "鷲の食卓西町店",
+    "キッチンはぴねす二十四軒店",
+    "雷亭",
+    "ポリテクセンター北海道レストラン",
+    "ブーランジェリーミュール"
+  ],
+  "reviewed_count": 7,
+  "added_candidates": [],
+  "listed_exclusions": [
+    {
+      "name": "北遥館",
+      "area": "nishi",
+      "place": "札幌市西区山の手3条3丁目3-12",
+      "status": "listed",
+      "checked_at": "2026-10-29T02:41:56.383Z",
+      "evidence_urls": [
+        "https://www.hotpepper.jp/strJ000251429/"
+      ],
+      "identity_review": {
+        "decision": "listed",
+        "result": "北遙館の別表記掲載。住所一致。"
+      }
+    },
+    {
+      "name": "喰処いこい",
+      "area": "nishi",
+      "place": "札幌市西区琴似1条7丁目3-25",
+      "status": "listed",
+      "checked_at": "2026-10-29T02:41:56.383Z",
+      "evidence_urls": [
+        "https://www.hotpepper.jp/strJ000251747/"
+      ],
+      "identity_review": {
+        "decision": "listed",
+        "result": "店名・住所一致。"
+      }
+    }
+  ],
+  "pending": [
+    {
+      "name": "満月食堂",
+      "area": "nishi",
+      "reason": "食べログ自体が営業状況不明の掲載保留。古い市公式登録だけでは現在営業を確認できない。",
+      "url": "https://tabelog.com/hokkaido/A0101/A010204/1018517/"
+    },
+    {
+      "name": "中華厨房あんにん",
+      "area": "nishi",
+      "reason": "HPは移転前の西町北11-4。食べログは西町北16-6-16。旧掲載との継承・現在掲載対応を未確認のため保留。",
+      "urls": [
+        "https://www.hotpepper.jp/strJ001043050/",
+        "https://tabelog.com/hokkaido/A0101/A010204/1064491/"
+      ]
+    },
+    {
+      "name": "シロクマ食堂",
+      "area": "otaru",
+      "reason": "外部検索で小樽店掲載未発見。高松市同名店は別店舗。公式ブログの営業案内は年不明/古い記事が混在し、最新公式SNSの確認が不足。",
+      "urls": [
+        "https://tabelog.com/hokkaido/A0106/A010601/1037103/",
+        "https://ameblo.jp/otarushirokuma/"
+      ]
+    }
+  ],
+  "openings_added": 0,
+  "opening_research": "西区・小樽の食べログ10月開店日検索では追加可能な公式確認済み開店情報を得られず。全地域網羅ではない。",
+  "next": "一覧未照合店と他のジャンル・地域へ進む。あんにん移転履歴とシロクマ公式SNSを追跡。",
+  "limits": "外部検索基準による候補のみ。HP内部検索は未実施。公式SNS本文が未取得なら確認済みとしない。 既存開店情報全件の客単価確認は未完了。単価判定済み店を除外し、未判定の既存情報は保持して順次再確認。",
+  "price_excluded_new": [
+    {
+      "name": "ブーランジェリー ミュール",
+      "place": "札幌市西区西野4条7丁目11-7 ハイツ1階左",
+      "phone": "011-577-7608",
+      "url": "https://www.boulangerie-mure.com/",
+      "sns_url": "https://page.line.me/204bnqqm",
+      "category": "パン・ベーカリー",
+      "note": "北海道産小麦を使う、西野のパン店。",
+      "tabelog": "https://tabelog.com/hokkaido/A0101/A010204/1056685/",
+      "name_variants": [
+        "ブーランジェリー ミュール",
+        "ブーランジェリー・ミュール",
+        "ブーランジェリーミュール",
+        "boulangerie Mure."
+      ],
+      "search_queries": [
+        "site:hotpepper.jp (\"ブーランジェリー ミュール\" OR \"boulangerie Mure\" OR \"西野4条7丁目11\")",
+        "site:hotpepper.jp (\"011-577-7608\" OR \"0115777608\" OR \"ブーランジェリーミュール\" OR \"ブーランジェリー・ミュール\")",
+        "site:hotpepper.jp (\"西野4条7-11-7\" OR \"西野４条７丁目１１\" OR \"boulangerie_mure\")"
+      ],
+      "area": "nishi",
+      "city": "札幌市",
+      "official_url": "https://www.boulangerie-mure.com/",
+      "source": "食べログ→ホットペッパー外部照合→公式サイト確認",
+      "type": "restaurant",
+      "date": "",
+      "first_seen": "2026-10-29T02:41:56.383Z",
+      "checked_at": "2026-10-29T02:41:56.383Z",
+      "source_checked_at": "2026-10-29T02:41:56.383Z",
+      "attempted_at": "2026-10-29T02:41:56.383Z",
+      "address_verified": true,
+      "verified_address": "札幌市西区西野4条7丁目11-7 ハイツ1階左",
+      "status": "external_not_found",
+      "reason": "external_search_only_candidate",
+      "external_search_checked": true,
+      "evidence_urls": [
+        "https://tabelog.com/hokkaido/A0101/A010204/1056685/",
+        "https://www.boulangerie-mure.com/",
+        "https://page.line.me/204bnqqm"
+      ],
+      "identity_review": {
+        "decision": "external_not_found",
+        "result": "食べログの住所・電話と公式サイトが一致。公式LINEでも同住所と営業案内を確認。美容店muhl by DILL等の別店舗は対象外。 複数外部検索で対象のホットペッパー店舗ページ未発見。内部検索は未実施、未掲載確定ではない。",
+        "name_variants_checked": true,
+        "address_checked": true,
+        "phone_checked": true,
+        "listing_signal": false
+      },
+      "search_observations": [
+        {
+          "query": "site:hotpepper.jp (\"ブーランジェリー ミュール\" OR \"boulangerie Mure\" OR \"西野4条7丁目11\")",
+          "attempted_at": "2026-10-29T02:41:56.383Z",
+          "result": "対象のグルメ店舗ページ未発見。検索結果の別店舗は同一視しない。"
+        },
+        {
+          "query": "site:hotpepper.jp (\"011-577-7608\" OR \"0115777608\" OR \"ブーランジェリーミュール\" OR \"ブーランジェリー・ミュール\")",
+          "attempted_at": "2026-10-29T02:41:56.383Z",
+          "result": "対象のグルメ店舗ページ未発見。検索結果の別店舗は同一視しない。"
+        },
+        {
+          "query": "site:hotpepper.jp (\"西野4条7-11-7\" OR \"西野４条７丁目１１\" OR \"boulangerie_mure\")",
+          "attempted_at": "2026-10-29T02:41:56.383Z",
+          "result": "対象のグルメ店舗ページ未発見。検索結果の別店舗は同一視しない。"
+        }
+      ],
+      "hotpepper_check": {
+        "status": "external_not_found",
+        "checked_at": "2026-10-29T02:41:56.383Z",
+        "external_search_checked": true,
+        "identity_review": {
+          "decision": "external_not_found",
+          "result": "食べログの住所・電話と公式サイトが一致。公式LINEでも同住所と営業案内を確認。美容店muhl by DILL等の別店舗は対象外。 複数外部検索で対象のホットペッパー店舗ページ未発見。内部検索は未実施、未掲載確定ではない。",
+          "name_variants_checked": true,
+          "address_checked": true,
+          "phone_checked": true,
+          "listing_signal": false
+        },
+        "evidence_urls": [
+          "https://tabelog.com/hokkaido/A0101/A010204/1056685/",
+          "https://www.boulangerie-mure.com/",
+          "https://page.line.me/204bnqqm"
+        ]
+      },
+      "selection_decision": "excluded_below_2000",
+      "selection_reason": "ユーザー最新条件。食べログの通常予算2,000円未満。公開追加取りやめ。"
+    },
+    {
+      "name": "ティー＆ディーコーヒー（T&D COFFEE）",
+      "place": "札幌市西区発寒16条13丁目1-10 鉄工団地自動車学園2F",
+      "phone": "011-663-1414",
+      "phone_note": "併設施設の代表電話。食べログ掲載番号と一致。",
+      "url": "https://tdds.co.jp/outline/cafe/",
+      "category": "食堂・カフェ",
+      "note": "自動車学園2階の食堂・カフェ。一般客も利用可。",
+      "tabelog": "https://tabelog.com/hokkaido/A0101/A010204/1060766/",
+      "name_variants": [
+        "ティー＆ディーコーヒー",
+        "ティーアンドディーコーヒー",
+        "T&D COFFEE",
+        "T＆D COFFEE"
+      ],
+      "search_queries": [
+        "site:hotpepper.jp (\"ティー＆ディーコーヒー\" OR \"T＆D COFFEE\" OR \"発寒16条13丁目1-10\")",
+        "site:hotpepper.jp (\"ティーアンドディー\" OR \"ティーアンドディーコーヒー\" OR \"T&D COFFEE\" OR \"011-663-1414\")"
+      ],
+      "area": "nishi",
+      "city": "札幌市",
+      "official_url": "https://tdds.co.jp/outline/cafe/",
+      "source": "食べログ→ホットペッパー外部照合→公式サイト確認",
+      "type": "restaurant",
+      "date": "",
+      "first_seen": "2026-10-29T02:41:56.383Z",
+      "checked_at": "2026-10-29T02:41:56.383Z",
+      "source_checked_at": "2026-10-29T02:41:56.383Z",
+      "attempted_at": "2026-10-29T02:41:56.383Z",
+      "address_verified": true,
+      "verified_address": "札幌市西区発寒16条13丁目1-10 鉄工団地自動車学園2F",
+      "status": "external_not_found",
+      "reason": "external_search_only_candidate",
+      "external_search_checked": true,
+      "evidence_urls": [
+        "https://tabelog.com/hokkaido/A0101/A010204/1060766/",
+        "https://tdds.co.jp/outline/cafe/",
+        "https://tdds.co.jp/outline/facility/"
+      ],
+      "identity_review": {
+        "decision": "external_not_found",
+        "result": "食べログと運営施設公式カフェページの店名・所在地・代表電話を照合。施設公式で一般客利用可と食事提供を確認。カフェ専用SNSの本文は未確認。 複数外部検索で対象のホットペッパー店舗ページ未発見。内部検索は未実施、未掲載確定ではない。",
+        "name_variants_checked": true,
+        "address_checked": true,
+        "phone_checked": true,
+        "listing_signal": false
+      },
+      "search_observations": [
+        {
+          "query": "site:hotpepper.jp (\"ティー＆ディーコーヒー\" OR \"T＆D COFFEE\" OR \"発寒16条13丁目1-10\")",
+          "attempted_at": "2026-10-29T02:41:56.383Z",
+          "result": "対象のグルメ店舗ページ未発見。検索結果の別店舗は同一視しない。"
+        },
+        {
+          "query": "site:hotpepper.jp (\"ティーアンドディー\" OR \"ティーアンドディーコーヒー\" OR \"T&D COFFEE\" OR \"011-663-1414\")",
+          "attempted_at": "2026-10-29T02:41:56.383Z",
+          "result": "対象のグルメ店舗ページ未発見。検索結果の別店舗は同一視しない。"
+        }
+      ],
+      "hotpepper_check": {
+        "status": "external_not_found",
+        "checked_at": "2026-10-29T02:41:56.383Z",
+        "external_search_checked": true,
+        "identity_review": {
+          "decision": "external_not_found",
+          "result": "食べログと運営施設公式カフェページの店名・所在地・代表電話を照合。施設公式で一般客利用可と食事提供を確認。カフェ専用SNSの本文は未確認。 複数外部検索で対象のホットペッパー店舗ページ未発見。内部検索は未実施、未掲載確定ではない。",
+          "name_variants_checked": true,
+          "address_checked": true,
+          "phone_checked": true,
+          "listing_signal": false
+        },
+        "evidence_urls": [
+          "https://tabelog.com/hokkaido/A0101/A010204/1060766/",
+          "https://tdds.co.jp/outline/cafe/",
+          "https://tdds.co.jp/outline/facility/"
+        ]
+      },
+      "selection_decision": "excluded_below_2000",
+      "selection_reason": "ユーザー最新条件。食べログの通常予算2,000円未満。公開追加取りやめ。"
+    }
+  ],
+  "price_excluded_existing": [
+    {
+      "name": "Cafe Ikazuwa",
+      "area": "hakodate",
+      "budget_max_yen": 1999,
+      "budget_source": "https://tabelog.com/hokkaido/A0105/A010501/1086120/",
+      "checked_at": "2026-10-29T02:43:39.582Z",
+      "decision": "excluded_below_2000",
+      "basis": "食べログ予算欄または口コミ予算集計。客単価実測ではなく選定の目安。"
+    },
+    {
+      "name": "cafe 海と硝子",
+      "area": "hakodate",
+      "budget_max_yen": 1999,
+      "budget_source": "https://tabelog.com/hokkaido/A0105/A010501/1061899/",
+      "checked_at": "2026-10-29T02:43:39.582Z",
+      "decision": "excluded_below_2000",
+      "basis": "食べログ予算欄または口コミ予算集計。客単価実測ではなく選定の目安。"
+    },
+    {
+      "name": "TAILORED COFFEE 本町店",
+      "area": "hakodate",
+      "budget_max_yen": 999,
+      "budget_source": "https://tabelog.com/hokkaido/A0105/A010501/1046434/",
+      "checked_at": "2026-10-29T02:43:39.582Z",
+      "decision": "excluded_below_2000",
+      "basis": "食べログ予算欄または口コミ予算集計。客単価実測ではなく選定の目安。"
+    },
+    {
+      "name": "えほんカフェひっぽ",
+      "area": "hakodate",
+      "budget_max_yen": 999,
+      "budget_source": "https://tabelog.com/hokkaido/A0105/A010501/1062246/",
+      "checked_at": "2026-10-29T02:43:39.582Z",
+      "decision": "excluded_below_2000",
+      "basis": "食べログ予算欄または口コミ予算集計。客単価実測ではなく選定の目安。"
+    },
+    {
+      "name": "ごはんおやつシプル",
+      "area": "hakodate",
+      "budget_max_yen": 1999,
+      "budget_source": "https://tabelog.com/hokkaido/A0105/A010501/1060498/",
+      "checked_at": "2026-10-29T02:43:39.582Z",
+      "decision": "excluded_below_2000",
+      "basis": "食べログ予算欄または口コミ予算集計。客単価実測ではなく選定の目安。"
+    },
+    {
+      "name": "cafe akira",
+      "area": "hakodate",
+      "budget_max_yen": 999,
+      "budget_source": "https://tabelog.com/hokkaido/A0105/A010501/1051543/",
+      "checked_at": "2026-10-29T02:43:39.582Z",
+      "decision": "excluded_below_2000",
+      "basis": "食べログ予算欄または口コミ予算集計。客単価実測ではなく選定の目安。"
+    },
+    {
+      "name": "TAILORED COFFEE 宮前店",
+      "area": "hakodate",
+      "budget_max_yen": 999,
+      "budget_source": "https://tabelog.com/hokkaido/A0105/A010501/1064702/",
+      "checked_at": "2026-10-29T02:43:39.582Z",
+      "decision": "excluded_below_2000",
+      "basis": "食べログ予算欄または口コミ予算集計。客単価実測ではなく選定の目安。"
+    }
+  ],
+  "price_rule_retained": {
+    "name": "R dining",
+    "dinner_budget": "2000-2999",
+    "lunch_budget": "1000-1999",
+    "source": "https://tabelog.com/hokkaido/A0101/A010204/1076356/"
+  },
+  "corrected_counts": {
+    "new_candidates": 0,
+    "listed_exclusions": 2,
+    "pending": 3,
+    "price_excluded_new": 2,
+    "price_excluded_existing": 7
+  }
+}

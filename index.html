@@ -237,7 +237,7 @@
       <span class="eyebrow" id="auto-refresh-status">自動更新：待機中</span>
     </div>
     <h1>札幌5区・小樽市・函館市<small>飲食店 開店・未掲載情報</small></h1>
-    <p class="lede">ラーメンから割烹、バーまで業種は問いません。札幌の北区・東区・西区・手稲区・中央区、小樽市・函館市の食べ物を扱う店の開店情報と、ホットペッパー未掲載情報を掲載。食べログを起点に、公式サイト・SNSで確認しています。</p>
+    <p class="lede">ラーメンから割烹、バーまで業種は問いません。札幌の北区・東区・西区・手稲区・中央区、小樽市・函館市の食べ物を扱う店の開店情報と、ホットペッパー未掲載情報を掲載。客単価の目安2,000円以上を対象に、価格不明の既存情報は順次確認しています。食べログを起点に、公式サイト・SNSで確認しています。</p>
   </div>
   <div class="stamp">号外</div>
 </div>
@@ -736,7 +736,12 @@ function articleIdentity(raw){
   }catch(e){return raw || "";}
 }
 
+function excludedByPrice(item){
+  return (AUTO_NEWS?.price_exclusions || []).some(x=>x.name===item.name);
+}
+
 function validHakodateReview(item){
+  if(excludedByPrice(item)) return false;
   const check=item.hotpepper_check, review=check?.identity_review;
   const age=Date.now()-Date.parse(check?.checked_at || "");
   if(!Number.isFinite(age) || age<0) return false;
@@ -751,6 +756,7 @@ function validHakodateReview(item){
 }
 
 function validSapporoReview(item){
+  if(excludedByPrice(item)) return false;
   if(validHakodateReview(item)) return true;
   const check=item.hotpepper_check, review=check?.identity_review;
   const age=Date.now()-Date.parse(check?.checked_at || "");
@@ -794,7 +800,7 @@ function renderHistory(){
     const seen=new Set();
     const seenArticles=new Set();
     const items=reconcileOpeningRows(rows,now).filter(i=>{
-      if(i._type === "closed" || isNonRestaurantAnnouncement(i)) return false;
+      if(excludedByPrice(i) || i._type === "closed" || isNonRestaurantAnnouncement(i)) return false;
       if(i.range && i.range[1]<cutoff) return false;
       // 古い日付未定記事は、記事URLに投稿日がある場合のみ除外。
       if(!i.range){
