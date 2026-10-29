@@ -1063,27 +1063,6 @@
         "last_seen": "2026-10-13"
       },
       {
-        "name": "アーバンネット札幌リンクタワー",
-        "title": "アーバンネット札幌リンクタワー",
-        "date": "2026-09",
-        "place": "中央区",
-        "note": "札幌都心の新ランドマーク「アーバンネット札幌リンクタワー」が竣工！9月から話題の飲食店も続々オープン",
-        "type": "open",
-        "url": "https://sapporochuo.goguynet.jp/2026/07/27/city-sapporo-link_tower/",
-        "source": "号外NET 札幌市中央区",
-        "sources": [
-          {
-            "name": "号外NET 札幌市中央区",
-            "url": "https://sapporochuo.goguynet.jp/2026/07/27/city-sapporo-link_tower/",
-            "priority": 80
-          }
-        ],
-        "confidence": 0.54,
-        "source_count": 1,
-        "first_seen": "2026-09-13",
-        "last_seen": "2026-10-13"
-      },
-      {
         "name": "吉野家×はなまるうどん",
         "title": "吉野家×はなまるうどん",
         "date": "2026-09",

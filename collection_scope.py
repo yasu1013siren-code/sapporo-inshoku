@@ -2,7 +2,7 @@
 import re
 
 TARGET_AREAS = {"chuo", "kita", "higashi", "nishi", "teine", "otaru", "hakodate"}
-NON_FOOD = re.compile(r"美容室|美容院|ネイルサロン|整骨院|歯科|薬局|ドラッグストア|アパレル|古着|雑貨|バラエティショップ|THE BODY SHOP|キャッツアイ", re.I)
+NON_FOOD = re.compile(r"美容室|美容院|ネイルサロン|整骨院|歯科|薬局|ドラッグストア|アパレル|古着|雑貨|バラエティショップ|THE BODY SHOP|キャッツアイ|^アーバンネット札幌リンクタワー$", re.I)
 
 def excluded_event(item):
     if item.get("type", item.get("status")) == "closed":
