@@ -1,0 +1,213 @@
+{
+  "checked_at": "2026-10-29T02:49:52.240Z",
+  "scope": [
+    "nishi",
+    "teine"
+  ],
+  "not_researched": [
+    "chuo",
+    "kita",
+    "higashi",
+    "otaru",
+    "hakodate"
+  ],
+  "workflow": "食べログ→ホットペッパー照合→公式サイト・SNS確認",
+  "reviewed": 3,
+  "added_candidates": [
+    {
+      "name": "レ・カネキヨ",
+      "area": "nishi",
+      "place": "札幌市西区琴似2条1丁目3-5 玉田ビル クロスロード琴似1F",
+      "phone": "011-213-9200",
+      "url": "https://www.leskanekiyos.com/",
+      "sns_url": "https://page.line.me/cqh8442g",
+      "category": "フレンチ・レストラン",
+      "note": "北海道の食材を生かす、琴似のフレンチ。",
+      "tabelog": "https://tabelog.com/hokkaido/A0101/A010204/1055794/",
+      "budget": "夜10,000～14,999円（食べログ目安）",
+      "name_variants": [
+        "レ・カネキヨ",
+        "レ カネキヨ",
+        "レカネキヨ",
+        "Les KaneKIYOs"
+      ],
+      "search_queries": [
+        "site:hotpepper.jp (\"レカネキヨ\" OR \"レ カネキヨ\" OR \"レ・カネキヨ\" OR \"kanekiyo\")",
+        "site:hotpepper.jp (\"011-213-9200\" OR \"0112139200\" OR \"琴似2条1丁目3-5\" OR \"Les KaneKIYOs\")"
+      ],
+      "evidence_urls": [
+        "https://www.leskanekiyos.com/",
+        "https://page.line.me/cqh8442g",
+        "https://tabelog.com/hokkaido/A0101/A010204/1055794/"
+      ],
+      "city": "札幌市",
+      "official_url": "https://www.leskanekiyos.com/",
+      "type": "restaurant",
+      "date": "",
+      "first_seen": "2026-10-29T02:49:52.240Z",
+      "checked_at": "2026-10-29T02:49:52.240Z",
+      "source_checked_at": "2026-10-29T02:49:52.240Z",
+      "attempted_at": "2026-10-29T02:49:52.240Z",
+      "address_verified": true,
+      "verified_address": "札幌市西区琴似2条1丁目3-5 玉田ビル クロスロード琴似1F",
+      "status": "external_not_found",
+      "reason": "external_search_only_candidate",
+      "external_search_checked": true,
+      "source": "食べログ→ホットペッパー外部照合→店舗公式",
+      "identity_review": {
+        "decision": "external_not_found",
+        "result": "公式サイトと公式LINEの住所・電話・営業案内を照合。サイト内SNS埋込にも営業・予約案内。投稿年月日は未取得。公式LINEコース価格も2,000円以上。 外部複数検索で対象掲載未発見。HP内部検索は未実施。未掲載確定ではない。",
+        "name_variants_checked": true,
+        "address_checked": true,
+        "phone_checked": true,
+        "listing_signal": false
+      },
+      "budget_check": {
+        "eligible": true,
+        "minimum_yen": 2000,
+        "basis": "夜10,000～14,999円（食べログ目安）",
+        "source": "https://tabelog.com/hokkaido/A0101/A010204/1055794/",
+        "checked_at": "2026-10-29T02:49:52.240Z"
+      },
+      "search_observations": [
+        {
+          "query": "site:hotpepper.jp (\"レカネキヨ\" OR \"レ カネキヨ\" OR \"レ・カネキヨ\" OR \"kanekiyo\")",
+          "attempted_at": "2026-10-29T02:49:52.240Z",
+          "result": "対象のグルメ店舗ページ未発見。美容店など別店舗は除外。"
+        },
+        {
+          "query": "site:hotpepper.jp (\"011-213-9200\" OR \"0112139200\" OR \"琴似2条1丁目3-5\" OR \"Les KaneKIYOs\")",
+          "attempted_at": "2026-10-29T02:49:52.240Z",
+          "result": "対象のグルメ店舗ページ未発見。美容店など別店舗は除外。"
+        }
+      ],
+      "hotpepper_check": {
+        "status": "external_not_found",
+        "checked_at": "2026-10-29T02:49:52.240Z",
+        "external_search_checked": true,
+        "identity_review": {
+          "decision": "external_not_found",
+          "result": "公式サイトと公式LINEの住所・電話・営業案内を照合。サイト内SNS埋込にも営業・予約案内。投稿年月日は未取得。公式LINEコース価格も2,000円以上。 外部複数検索で対象掲載未発見。HP内部検索は未実施。未掲載確定ではない。",
+          "name_variants_checked": true,
+          "address_checked": true,
+          "phone_checked": true,
+          "listing_signal": false
+        },
+        "evidence_urls": [
+          "https://www.leskanekiyos.com/",
+          "https://page.line.me/cqh8442g",
+          "https://tabelog.com/hokkaido/A0101/A010204/1055794/"
+        ]
+      }
+    },
+    {
+      "name": "ジャルダン ポタジエ テラニシ",
+      "area": "teine",
+      "place": "札幌市手稲区富丘6条7丁目4-13",
+      "phone": "011-691-8313",
+      "url": "https://www.j-potager.com/",
+      "category": "フレンチ・レストラン",
+      "note": "手稲山の麓にある、完全予約制の野菜フレンチ。",
+      "tabelog": "https://tabelog.com/hokkaido/A0101/A010203/1003163/",
+      "budget": "夜8,000～9,999円（食べログ目安）",
+      "name_variants": [
+        "ジャルダン ポタジエ テラニシ",
+        "ジャルダン ポタジェ テラニシ",
+        "Le Jardain Potager TERANISHI"
+      ],
+      "search_queries": [
+        "site:hotpepper.jp (\"ジャルダン ポタジェ\" OR \"011-691-8313\")",
+        "site:hotpepper.jp (\"テラニシ\" \"富丘\" OR \"0116918313\" OR \"富丘六条7丁目4-13\")"
+      ],
+      "evidence_urls": [
+        "https://www.j-potager.com/",
+        "https://www.j-potager.com/access/",
+        "https://tabelog.com/hokkaido/A0101/A010203/1003163/"
+      ],
+      "city": "札幌市",
+      "official_url": "https://www.j-potager.com/",
+      "type": "restaurant",
+      "date": "",
+      "first_seen": "2026-10-29T02:49:52.240Z",
+      "checked_at": "2026-10-29T02:49:52.240Z",
+      "source_checked_at": "2026-10-29T02:49:52.240Z",
+      "attempted_at": "2026-10-29T02:49:52.240Z",
+      "address_verified": true,
+      "verified_address": "札幌市手稲区富丘6条7丁目4-13",
+      "status": "external_not_found",
+      "reason": "external_search_only_candidate",
+      "external_search_checked": true,
+      "source": "食べログ→ホットペッパー外部照合→店舗公式",
+      "identity_review": {
+        "decision": "external_not_found",
+        "result": "公式アクセスの所在地・電話と食べログが一致。公式ホームの営業案内と完全予約制を確認。夜予算目安2,000円以上。 外部複数検索で対象掲載未発見。HP内部検索は未実施。未掲載確定ではない。",
+        "name_variants_checked": true,
+        "address_checked": true,
+        "phone_checked": true,
+        "listing_signal": false
+      },
+      "budget_check": {
+        "eligible": true,
+        "minimum_yen": 2000,
+        "basis": "夜8,000～9,999円（食べログ目安）",
+        "source": "https://tabelog.com/hokkaido/A0101/A010203/1003163/",
+        "checked_at": "2026-10-29T02:49:52.240Z"
+      },
+      "search_observations": [
+        {
+          "query": "site:hotpepper.jp (\"ジャルダン ポタジェ\" OR \"011-691-8313\")",
+          "attempted_at": "2026-10-29T02:49:52.240Z",
+          "result": "対象のグルメ店舗ページ未発見。美容店など別店舗は除外。"
+        },
+        {
+          "query": "site:hotpepper.jp (\"テラニシ\" \"富丘\" OR \"0116918313\" OR \"富丘六条7丁目4-13\")",
+          "attempted_at": "2026-10-29T02:49:52.240Z",
+          "result": "対象のグルメ店舗ページ未発見。美容店など別店舗は除外。"
+        }
+      ],
+      "hotpepper_check": {
+        "status": "external_not_found",
+        "checked_at": "2026-10-29T02:49:52.240Z",
+        "external_search_checked": true,
+        "identity_review": {
+          "decision": "external_not_found",
+          "result": "公式アクセスの所在地・電話と食べログが一致。公式ホームの営業案内と完全予約制を確認。夜予算目安2,000円以上。 外部複数検索で対象掲載未発見。HP内部検索は未実施。未掲載確定ではない。",
+          "name_variants_checked": true,
+          "address_checked": true,
+          "phone_checked": true,
+          "listing_signal": false
+        },
+        "evidence_urls": [
+          "https://www.j-potager.com/",
+          "https://www.j-potager.com/access/",
+          "https://tabelog.com/hokkaido/A0101/A010203/1003163/"
+        ]
+      }
+    }
+  ],
+  "listed_excluded": 1,
+  "information_review_pending": [
+    {
+      "name": "レストラン クリュディテ",
+      "area": "nishi",
+      "status": "pending_information_comparison",
+      "checked_at": "2026-10-29T02:49:52.240Z",
+      "hotpepper_url": "https://www.hotpepper.jp/strJ003850396/lunch/",
+      "official_url": "https://crudites.owst.jp/menu",
+      "comparison": {
+        "hotpepper_lunch_a": "2750円、当該欄更新表示2024/07/12",
+        "other_current_course": "3410円（公式コース・HPコース導線・食べログ店舗関係者情報）"
+      },
+      "reason": "同一Aコースでも内容・適用日の差がある可能性。取得ページの一部には過去の予約カレンダーが含まれ、最新性も未解決。未更新断定不可。公式SNSの改定告知と実適用日の追加確認が必要。公開候補にはまだ含めない。",
+      "evidence_urls": [
+        "https://www.hotpepper.jp/strJ003850396/lunch/",
+        "https://crudites.owst.jp/menu",
+        "https://tabelog.com/hokkaido/A0101/A010204/1077965"
+      ]
+    }
+  ],
+  "information_review_public_added": 0,
+  "openings_added": 0,
+  "opening_research": "今回の調査は既存レストランの未掲載・掲載情報比較が中心。新規開店の全地域調査は未実施。",
+  "next": "西区一覧の未照合店（日樂、インコントロ等）と他地域を巡回。クリュディテの価格適用条件を照合。"
+}
