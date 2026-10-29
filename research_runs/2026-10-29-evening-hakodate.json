@@ -1,0 +1,41 @@
+{
+  "checked_at": "2026-10-29T11:50:04.945Z",
+  "area": "hakodate",
+  "exploration_names": [
+    "ビストロ ベルヴュ",
+    "Qui rit gue rit（キリゲリ）",
+    "ビストロ やまくろ",
+    "BISTRO HAKU",
+    "プア ノー レジャー",
+    "西洋料理 壱拾七番地"
+  ],
+  "detailed_listing_found": [
+    {
+      "name": "BISTRO HAKU",
+      "address": "函館市本通1丁目7-18",
+      "status": "listed",
+      "url": "https://www.hotpepper.jp/strJ000836720/",
+      "tabelog_url": "https://tabelog.com/hokkaido/A0105/A010501/1026356/"
+    }
+  ],
+  "pending": [
+    {
+      "name": "ビストロ ベルヴュ",
+      "url": "https://tabelog.com/hokkaido/A0105/A010501/1085007/",
+      "reason": "掲載外部検索のみ着手。電話・別表記・公式営業照合が未完了"
+    },
+    {
+      "name": "Qui rit gue rit",
+      "url": "https://tabelog.com/hokkaido/A0105/A010501/1079570/",
+      "reason": "掲載外部検索のみ着手。電話・住所・公式営業照合が未完了"
+    },
+    {
+      "name": "ビストロ やまくろ",
+      "url": "https://tabelog.com/hokkaido/A0105/A010501/1066580/",
+      "reason": "移転履歴あり。旧住所の掲載対応と公式確認が未完了"
+    }
+  ],
+  "new_public": 0,
+  "openings_added": 0,
+  "limits": "探索6店。15〜20店の目安未達。詳細掲載確認1店。札幌5区・小樽、新規開店、旧保留店の再照合は未実施。既存公開一覧と確認日は変更しない。"
+}
