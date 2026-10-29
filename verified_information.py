@@ -1,6 +1,7 @@
 """Merge evidence-reviewed updates without network calls or fabricated dates."""
 import json
 from pathlib import Path
+from collection_scope import apply_collection_scope
 
 WARDS = ("chuo", "kita", "higashi", "shiroishi", "atsubetsu",
          "toyohira", "kiyota", "minami", "nishi", "teine")
@@ -21,7 +22,7 @@ def apply_verified_updates(payload, base_dir):
     base = Path(base_dir)
     path = base / "verified_information_updates.json"
     if not path.exists():
-        return payload
+        return apply_collection_scope(payload)
     updates = json.loads(path.read_text(encoding="utf-8"))
     # Only add explicitly reviewed event rows; never replace another region.
     for event in updates.get("events", []):
@@ -67,4 +68,5 @@ def apply_verified_updates(payload, base_dir):
                 else:
                     existing[match] = row
     payload["directory_research"] = updates.get("research", {})
-    return payload
+    return apply_collection_scope(payload)
+

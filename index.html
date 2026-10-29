@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>札幌5区・小樽市・函館市 飲食店 開店閉店速報板</title>
+<title>札幌5区・小樽市・函館市 飲食店 開店・未掲載情報</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@600;800&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&display=swap" rel="stylesheet">
 <style>
@@ -233,11 +233,11 @@
 <div class="masthead">
   <div class="masthead-inner">
     <div class="eyebrow-row">
-      <span class="eyebrow">SAPPORO INSHOKUTEN GOGAI ／ 飲食店開店閉店速報</span>
+      <span class="eyebrow">SAPPORO INSHOKUTEN GOGAI ／ 飲食店 開店・未掲載情報</span>
       <span class="eyebrow" id="auto-refresh-status">自動更新：待機中</span>
     </div>
-    <h1>札幌5区・小樽市・函館市<small>飲食店 開店・閉店 速報板</small></h1>
-    <p class="lede">ラーメンから割烹、バーまで業種は問いません。札幌の北区・東区・西区・手稲区・中央区、小樽市・函館市の飲食店の開店済み・閉店・開店予定情報も、複数の情報源から集めてまとめています。</p>
+    <h1>札幌5区・小樽市・函館市<small>飲食店 開店・未掲載情報</small></h1>
+    <p class="lede">ラーメンから割烹、バーまで業種は問いません。札幌の北区・東区・西区・手稲区・中央区、小樽市・函館市の食べ物を扱う店の開店情報と、ホットペッパー未掲載情報を掲載。食べログを起点に、公式サイト・SNSで確認しています。</p>
   </div>
   <div class="stamp">号外</div>
 </div>
@@ -281,12 +281,11 @@ function buildTabsAndSections(){
   ).join("");
   sectionsEl.innerHTML = AREA_META.map((a,i)=>`
     <section class="area${i===0?" active":""}" id="area-${a.id}">
-      <div class="section-head"><h2>開店・閉店情報</h2><span class="count">過去30日・今後の予定・日付未定</span></div>
+      <div class="section-head"><h2>開店情報</h2><span class="count">過去30日・今後の予定・日付未定</span></div>
       <div class="filter-row" data-area="${a.id}">
         <button class="chip active" data-filter="all">すべて</button>
         <button class="chip" data-filter="upcoming">開店予定</button>
         <button class="chip" data-filter="open">開店済み</button>
-        <button class="chip" data-filter="closed">閉店</button>
         <button class="chip" data-filter="pending">開店確認待ち</button>
         <button class="chip" data-filter="directory-confirmed">ホットペッパー未掲載</button>
         <button class="chip" data-filter="directory">未掲載候補</button>
@@ -699,7 +698,7 @@ function dateRange(value){
 }
 function isNonRestaurantAnnouncement(item){
   const subject=[item.name || "",item.title || ""].join(" ");
-  return /懐中時計|記念グッズ|鉄道グッズ|記念乗車券|記念切符/.test(subject) ||
+  return /美容室|美容院|ネイルサロン|整骨院|歯科|薬局|ドラッグストア|アパレル|古着|雑貨|バラエティショップ|THE BODY SHOP|キャッツアイ/i.test(subject) || /懐中時計|記念グッズ|鉄道グッズ|記念乗車券|記念切符/.test(subject) ||
     (/発売開始|販売開始|新発売/.test(subject) && !/開店|オープン|新店舗|閉店|移転/.test(subject));
 }
 
@@ -795,7 +794,7 @@ function renderHistory(){
     const seen=new Set();
     const seenArticles=new Set();
     const items=reconcileOpeningRows(rows,now).filter(i=>{
-      if(isNonRestaurantAnnouncement(i)) return false;
+      if(i._type === "closed" || isNonRestaurantAnnouncement(i)) return false;
       if(i.range && i.range[1]<cutoff) return false;
       // 古い日付未定記事は、記事URLに投稿日がある場合のみ除外。
       if(!i.range){
@@ -816,7 +815,7 @@ function renderHistory(){
     el.innerHTML=items.length ? items.map(i=>eventCardHTML(i,i._type)).join("") : '<p class="empty-note">対象期間の情報はありません。</p>';
     if(area==="hakodate") {
       const pending=AUTO_NEWS?.hakodate_selection?.pending;
-      el.insertAdjacentHTML("afterbegin", `<p class="empty-note">新規開店・閉店情報はホットペッパー掲載の有無に関係なく収集しています。${pending ? `照合待ち：${pending}件。` : ""}</p>`);
+      el.insertAdjacentHTML("afterbegin", `<p class="empty-note">新規開店情報はホットペッパー掲載の有無に関係なく収集しています。${pending ? `照合待ち：${pending}件。` : ""}</p>`);
     }
     el.innerHTML=`<div class="opening-feed">${el.innerHTML}</div>`;
     if(area==="hakodate") {
@@ -836,7 +835,7 @@ function renderHistory(){
   });
 }
 
-// 開店・閉店情報と日付不問の未掲載候補を同じ場所で切り替える。
+// 開店情報と日付不問の未掲載候補を同じ場所で切り替える。
 function applyFeedFilter(area,filter){
   const feed=document.getElementById(`${area}-history`);
   const directoryMode=filter==="directory" || filter==="directory-confirmed";
@@ -905,13 +904,12 @@ const SOURCES = [
   {name:"号外NET 札幌市西区・手稲区", desc:"開店・閉店カテゴリ", url:"https://sapporonishi-teine.goguynet.jp/category/cat_openclose/"},
   {name:"手稲マガジン", desc:"手稲区専門の地域情報サイト・開店閉店カテゴリ", url:"https://teine-magazine.com/category/kaitenheiten/"},
   {name:"号外NET 函館市", desc:"開店・閉店カテゴリ", url:"https://hakodate.goguynet.jp/category/cat_openclose/"},
-  {name:"函館イベントナビ", desc:"函館の開店・閉店情報", url:"https://hakodate.8agarage.co.jp/"},
+  {name:"函館イベントナビ", desc:"函館の開店情報", url:"https://hakodate.8agarage.co.jp/"},
   {name:"e-HAKODATE", desc:"函館・道南ニュース", url:"https://www.ehako.com/bookmark/"},
-  {name:"函館ショップス", desc:"開店・閉店情報", url:"https://www.shopship.jp/hakodate/open-close/"},
+  {name:"函館ショップス", desc:"開店情報", url:"https://www.shopship.jp/hakodate/open-close/"},
   {name:"mogtrip 札幌新店開店情報一覧", desc:"飲食店のみ・随時更新", url:"https://mogtrip.jp/newopen-2026/"},
-  {name:"mogtrip 札幌閉店情報一覧", desc:"飲食店のみ・随時更新", url:"https://mogtrip.jp/closed-2026/"},
   {name:"食べログ 中央区 ニューオープン順", desc:"新規オープン店舗一覧", url:"https://tabelog.com/hokkaido/C1101/rstLst/cond16-00-00/"},
-  {name:"札幌ショップス 開店・閉店情報", desc:"エリア別に閲覧可能", url:"https://www.shopship.jp/sapporo/open-close/"},
+  {name:"札幌ショップス 開店情報", desc:"エリア別に閲覧可能", url:"https://www.shopship.jp/sapporo/open-close/"},
   {name:"札幌開店閉店インフォ", desc:"新店情報／閉店情報", url:"https://chamonix-cakes.com/"},
   {name:"リビング札幌Web 開店・閉店", desc:"取材ベースの開店閉店記事", url:"https://mrs.living.jp/sapporo/newopen"},
   {name:"サツッター 新店舗オープンまとめ", desc:"SNS的なテイストの新店紹介", url:"https://satsutter.com/tag/%E6%96%B0%E5%BA%97%E8%88%97%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3"},
@@ -999,4 +997,5 @@ document.addEventListener("visibilitychange", ()=>{
 
 </body>
 </html>
+
 
