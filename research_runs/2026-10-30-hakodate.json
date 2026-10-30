@@ -1,0 +1,53 @@
+{
+  "checked_at": "2026-10-30T11:53:15.590Z",
+  "area": "hakodate",
+  "discovery_source": "https://tabelog.com/bistro/hokkaido/A0105/A010501/rank/",
+  "explored": [
+    "ビストロ ベルヴュ",
+    "Qui rit gue rit",
+    "ビストロ やまくろ",
+    "ボンザミ",
+    "プア ノー レジャー",
+    "ド・モンティーユ＆北海道"
+  ],
+  "detailed_count": 2,
+  "new_public": 0,
+  "findings": [
+    {
+      "name": "ビストロ ベルヴュ",
+      "status": "pending_address_precision",
+      "tabelog_address": "函館市桔梗町604-3",
+      "phone": "0138-83-8580",
+      "budget": "食べログ夜10000～14999円",
+      "official_url": "https://bistro-bellevue.com/",
+      "source_date": "2026-10-29のコンサート案内、10月2日営業カレンダー更新告知あり",
+      "reason": "公式は農地内ワイナリーのため正確な住所なしと案内。食べログ番地を公式確認済みと断定せず、地図位置と番地根拠の追加照合が必要。",
+      "queries": [
+        "site:hotpepper.jp (\"ベルヴュ\" \"函館\" OR \"ド モンティーユ\" OR \"桔梗町604\")",
+        "site:hotpepper.jp (\"0138-83-8580\" OR \"0138838580\" OR \"Bistro Bellevue\" OR \"ビストロ ベルビュ\")"
+      ],
+      "search_result": "対象掲載未発見。未掲載確定ではない。",
+      "evidence_urls": [
+        "https://bistro-bellevue.com/",
+        "https://tabelog.com/hokkaido/A0105/A010501/1085007/",
+        "https://www.hakobura.jp/features/409"
+      ]
+    },
+    {
+      "name": "Qui rit gue rit",
+      "status": "pending_official_operation",
+      "phone": "0138-84-5731",
+      "address": "函館市本町4-9 五稜郭ハイム1F",
+      "budget": "食べログ口コミ集計4000～4999円",
+      "queries": [
+        "site:hotpepper.jp (\"0138-84-5731\" OR \"0138845731\" OR \"Qui rit gue rit\" OR \"キリゲリ\")"
+      ],
+      "reason": "外部検索で対象掲載未発見。東京からの移転履歴あり。公式SNSの現営業本文確認は未完了。",
+      "evidence_urls": [
+        "https://tabelog.com/hokkaido/A0105/A010501/1079570/",
+        "https://www.instagram.com/quiritguerit2017"
+      ]
+    }
+  ],
+  "limits": "探索6店・詳細再照合2店。15〜20店未達。新規開店・札幌5区・小樽・旧保留宝来東屋と秀華・掲載情報差異の調査は未実施。公開一覧と既存確認日は変更しない。"
+}
