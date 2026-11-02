@@ -5114,5 +5114,47 @@
       "decision": "listed",
       "result": "食べログと店名・住所・電話を照合。公式owstからHP予約導線あり。情報比較は別研究記録で保留。"
     }
+  },
+  {
+    "name": "グリル銀鱗荘",
+    "area": "otaru",
+    "url": "https://www.hotpepper.jp/strJ001251222/",
+    "status": "listed",
+    "checked_at": "2026-11-01T11:05:48.940Z",
+    "evidence_urls": [
+      "https://www.hotpepper.jp/strJ001251222/"
+    ],
+    "identity_review": {
+      "decision": "listed",
+      "result": "食べログ起点の対象店に対応するHP直接掲載を確認。未掲載探索から除外。"
+    }
+  },
+  {
+    "name": "The Ball 小樽",
+    "area": "otaru",
+    "url": "https://www.hotpepper.jp/strJ001222403/",
+    "status": "listed",
+    "checked_at": "2026-11-01T11:05:48.940Z",
+    "evidence_urls": [
+      "https://www.hotpepper.jp/strJ001222403/"
+    ],
+    "identity_review": {
+      "decision": "listed",
+      "result": "食べログ起点の対象店に対応するHP直接掲載を確認。未掲載探索から除外。"
+    }
+  },
+  {
+    "name": "えりも亭LUXE",
+    "area": "kita",
+    "url": "https://www.hotpepper.jp/strJ000727109/",
+    "status": "listed",
+    "checked_at": "2026-11-01T11:05:48.940Z",
+    "evidence_urls": [
+      "https://www.hotpepper.jp/strJ000727109/"
+    ],
+    "identity_review": {
+      "decision": "listed",
+      "result": "食べログ起点の対象店に対応するHP直接掲載を確認。未掲載探索から除外。"
+    }
   }
 ]

@@ -1,0 +1,81 @@
+{
+  "checked_at": "2026-11-01T11:05:48.940Z",
+  "regions_searched": [
+    "otaru",
+    "higashi",
+    "kita",
+    "nishi",
+    "hakodate"
+  ],
+  "regions_not_searched": [
+    "chuo",
+    "teine"
+  ],
+  "listing_found": [
+    {
+      "name": "グリル銀鱗荘",
+      "area": "otaru",
+      "url": "https://www.hotpepper.jp/strJ001251222/"
+    },
+    {
+      "name": "The Ball 小樽",
+      "area": "otaru",
+      "url": "https://www.hotpepper.jp/strJ001222403/"
+    },
+    {
+      "name": "えりも亭LUXE",
+      "area": "kita",
+      "url": "https://www.hotpepper.jp/strJ000727109/"
+    }
+  ],
+  "pending": [
+    {
+      "name": "osteria Albero",
+      "area": "higashi",
+      "phone": "011-788-7817",
+      "place": "札幌市東区北25条東16丁目4-1 ピュア東彩館VIII 1F",
+      "budget": "夜4000～4999円 食べログ",
+      "queries": [
+        "site:hotpepper.jp (\"osteria Albero\" OR \"オステリア アルベロ\" OR \"北25条東16\")",
+        "site:hotpepper.jp (\"011-788-7817\" OR \"0117887817\" OR \"北二十五条東16-4-1\")"
+      ],
+      "reason": "外部検索未発見。公式Instagram Online fetch throttled。現営業の公式本文確認が未完了。",
+      "sources": [
+        "https://tabelog.com/hokkaido/A0101/A010202/1083109/",
+        "https://www.instagram.com/osteria_albero_sapporo/",
+        "https://www.poroco.co.jp/shop/19981/"
+      ]
+    },
+    {
+      "name": "リストランテ ズッカ",
+      "area": "higashi",
+      "reason": "食べログ掲載保留。現在営業の公式確認不足。",
+      "source": "https://tabelog.com/hokkaido/A0101/A010202/1077600/"
+    }
+  ],
+  "new_discovery_hakodate": [
+    "いか太郎 大門店",
+    "箱膳",
+    "あずみ屋",
+    "網元 湯川店",
+    "アリラン食堂",
+    "AL vento",
+    "酒日和 しょうが",
+    "和市",
+    "海鮮居酒屋 莉里"
+  ],
+  "new_opening_lead": {
+    "name": "いか太郎 大門店",
+    "date": "2026-11-01",
+    "reason": "食べログ新店一覧の記載のみ。公式開店日・予算未確認につき未掲載。"
+  },
+  "discovery_source": "https://tabelog.com/hokkaido/A0105/A010501/rstLst/cond16-00-00/",
+  "public_additions": 0,
+  "information_review_public_additions": 0,
+  "limits": "公式確認未完了の店舗は公開しない。件数上限は設定せず地域を切替えて探索。全店詳細照合、宝来東屋・秀華の再照合、対象全7地域の新店確認は未完了。",
+  "next": [
+    "Alberoの公式営業根拠を再取得",
+    "函館新店の公式日付・予算照合",
+    "中央区・手稲区へ巡回"
+  ]
+}
